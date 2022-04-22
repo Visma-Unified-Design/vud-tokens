@@ -1015,7 +1015,160 @@
       }
     }
   },
-  "Profile Green Dark": {
+  "Profile Blue (L)": {
+    "Profile body": {
+      "normal": {
+        "value": "{Blue.blue-70}",
+        "type": "color"
+      },
+      "medium": {
+        "value": "{Blue.blue-60}",
+        "type": "color"
+      },
+      "high": {
+        "value": "{Blue.blue-90}",
+        "type": "color"
+      }
+    },
+    "Profile border": {
+      "normal": {
+        "value": "{Blue.blue-70}",
+        "type": "color"
+      },
+      "medium": {
+        "value": "{Blue.blue-60}",
+        "type": "color"
+      },
+      "max1": {
+        "value": "{Blue.blue-90}",
+        "type": "color"
+      }
+    },
+    "Focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "4",
+          "blur": "2",
+          "spread": "0",
+          "color": "#1B384C",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    }
+  },
+  "Profile Blue (D)": {
+    "Profile body": {
+      "normal": {
+        "value": "{Blue.blue-70}",
+        "type": "color"
+      },
+      "medium": {
+        "value": "{Blue.blue-60}",
+        "type": "color"
+      },
+      "high": {
+        "value": "{Blue.blue-90}",
+        "type": "color"
+      }
+    },
+    "Profile border": {
+      "normal": {
+        "value": "{Blue.blue-50}",
+        "type": "color"
+      },
+      "medium": {
+        "value": "{Blue.blue-40}",
+        "type": "color"
+      },
+      "max1": {
+        "value": "{Blue.blue-60}",
+        "type": "color"
+      }
+    },
+    "Focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "4",
+          "blur": "2",
+          "spread": "0",
+          "color": "#1B384C",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    }
+  },
+  "Profile Green (L)": {
+    "Profile body": {
+      "normal": {
+        "value": "{Green.green-70}",
+        "type": "color"
+      },
+      "medium": {
+        "value": "{Green.green-60}",
+        "type": "color"
+      },
+      "high": {
+        "value": "{Green.green-90}",
+        "type": "color"
+      }
+    },
+    "Profile border": {
+      "normal": {
+        "value": "{Green.green-70}",
+        "type": "color"
+      },
+      "medium": {
+        "value": "{Green.green-60}",
+        "type": "color"
+      },
+      "max1": {
+        "value": "{Green.green-90}",
+        "type": "color"
+      }
+    },
+    "Focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "4",
+          "blur": "2",
+          "spread": "0",
+          "color": "#1B384C",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    }
+  },
+  "Profile Green (D)": {
     "Profile body": {
       "normal": {
         "value": "{Green.green-70}",
