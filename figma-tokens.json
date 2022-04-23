@@ -1011,6 +1011,10 @@
         "low": {
           "value": "{Dark.dark-60}",
           "type": "color"
+        },
+        "extreme": {
+          "value": "{Dark.dark-05}",
+          "type": "color"
         }
       }
     }
@@ -1041,6 +1045,10 @@
       },
       "max1": {
         "value": "{Blue.blue-90}",
+        "type": "color"
+      },
+      "extreme": {
+        "value": "{Blue.blue-50}",
         "type": "color"
       }
     },
@@ -1106,6 +1114,10 @@
       "max1": {
         "value": "{Blue.blue-60}",
         "type": "color"
+      },
+      "extreme": {
+        "value": "{Blue.blue-50}",
+        "type": "color"
       }
     },
     "Focused": {
@@ -1169,6 +1181,10 @@
       },
       "max1": {
         "value": "{Green.green-90}",
+        "type": "color"
+      },
+      "extreme": {
+        "value": "{Blue.blue-50}",
         "type": "color"
       }
     },
@@ -1234,6 +1250,10 @@
       "max1": {
         "value": "{Green.green-60}",
         "type": "color"
+      },
+      "extreme": {
+        "value": "{Blue.blue-50}",
+        "type": "color"
       }
     },
     "Focused": {
@@ -1297,6 +1317,10 @@
       },
       "max1": {
         "value": "{Red.red-90}",
+        "type": "color"
+      },
+      "extreme": {
+        "value": "{Blue.blue-50}",
         "type": "color"
       }
     },
@@ -1362,6 +1386,10 @@
       "max1": {
         "value": "{Red.red-60}",
         "type": "color"
+      },
+      "extreme": {
+        "value": "{Blue.blue-50}",
+        "type": "color"
       }
     },
     "Focused": {
@@ -1426,6 +1454,10 @@
       "max1": {
         "value": "{Purple.purple-90}",
         "type": "color"
+      },
+      "extreme": {
+        "value": "{Blue.blue-50}",
+        "type": "color"
       }
     },
     "Focused": {
@@ -1489,6 +1521,10 @@
       },
       "max1": {
         "value": "{Purple.purple-60}",
+        "type": "color"
+      },
+      "extreme": {
+        "value": "{Blue.blue-50}",
         "type": "color"
       }
     },
