@@ -1185,7 +1185,7 @@
       }
     },
     "Menu underline": {
-      "underline": {
+      "normal": {
         "value": "{Blue.blue-60}",
         "type": "color"
       }
@@ -1259,8 +1259,8 @@
       }
     },
     "Menu underline": {
-      "underline": {
-        "value": "{Blue.blue-60}",
+      "normal": {
+        "value": "{Dark.dark-80}",
         "type": "color"
       }
     }
@@ -1333,7 +1333,7 @@
       }
     },
     "Menu underline": {
-      "underline": {
+      "normal": {
         "value": "{Green.green-60}",
         "type": "color"
       }
@@ -1407,8 +1407,8 @@
       }
     },
     "Menu underline": {
-      "underline": {
-        "value": "{Green.green-60}",
+      "normal": {
+        "value": "{Dark.dark-80}",
         "type": "color"
       }
     }
@@ -1481,7 +1481,7 @@
       }
     },
     "Menu underline": {
-      "underline": {
+      "normal": {
         "value": "{Red.red-60}",
         "type": "color"
       }
@@ -1555,8 +1555,8 @@
       }
     },
     "Menu underline": {
-      "underline": {
-        "value": "{Red.red-60}",
+      "normal": {
+        "value": "{Dark.dark-80}",
         "type": "color"
       }
     }
@@ -1629,7 +1629,7 @@
       }
     },
     "Menu underline": {
-      "underline": {
+      "normal": {
         "value": "{Purple.purple-60}",
         "type": "color"
       }
@@ -1703,8 +1703,8 @@
       }
     },
     "Menu underline": {
-      "underline": {
-        "value": "{Purple.purple-60}",
+      "normal": {
+        "value": "{Dark.dark-80}",
         "type": "color"
       }
     }
