@@ -879,6 +879,52 @@
           "type": "color"
         }
       }
+    },
+    "Thin border": {
+      "Left": {
+        "value": {
+          "x": "1",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "#f2f2f2",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Top": {
+        "value": {
+          "x": "0",
+          "y": "1",
+          "blur": "0",
+          "spread": "0",
+          "color": "#f2f2f2",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Right": {
+        "value": {
+          "x": "-1",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "#f2f2f2",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Bottom": {
+        "value": {
+          "x": "0",
+          "y": "-1",
+          "blur": "0",
+          "spread": "0",
+          "color": "#f2f2f2",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      }
     }
   },
   "Dark": {
@@ -1016,6 +1062,52 @@
           "value": "{Dark.dark-05}",
           "type": "color"
         }
+      }
+    },
+    "Thin border": {
+      "Left": {
+        "value": {
+          "x": "1",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "#6F7A82",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Top": {
+        "value": {
+          "x": "0",
+          "y": "1",
+          "blur": "0",
+          "spread": "0",
+          "color": "#6F7A82",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Right": {
+        "value": {
+          "x": "-1",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "#6F7A82",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
+      },
+      "Bottom": {
+        "value": {
+          "x": "0",
+          "y": "-1",
+          "blur": "0",
+          "spread": "0",
+          "color": "#6F7A82",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
       }
     }
   },
