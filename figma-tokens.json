@@ -1109,6 +1109,12 @@
         },
         "type": "boxShadow"
       }
+    },
+    "Underline": {
+      "menu": {
+        "value": "{Dark.dark-05}",
+        "type": "color"
+      }
     }
   },
   "Profile Blue (L)": {
@@ -1176,6 +1182,12 @@
           "type": "innerShadow"
         },
         "type": "boxShadow"
+      }
+    },
+    "Menu underline": {
+      "underline": {
+        "value": "{Blue.blue-60}",
+        "type": "color"
       }
     }
   },
@@ -1245,6 +1257,12 @@
         },
         "type": "boxShadow"
       }
+    },
+    "Menu underline": {
+      "underline": {
+        "value": "{Blue.blue-60}",
+        "type": "color"
+      }
     }
   },
   "Profile Green (L)": {
@@ -1312,6 +1330,12 @@
           "type": "innerShadow"
         },
         "type": "boxShadow"
+      }
+    },
+    "Menu underline": {
+      "underline": {
+        "value": "{Green.green-60}",
+        "type": "color"
       }
     }
   },
@@ -1381,6 +1405,12 @@
         },
         "type": "boxShadow"
       }
+    },
+    "Menu underline": {
+      "underline": {
+        "value": "{Green.green-60}",
+        "type": "color"
+      }
     }
   },
   "Profile Red (L)": {
@@ -1448,6 +1478,12 @@
           "type": "innerShadow"
         },
         "type": "boxShadow"
+      }
+    },
+    "Menu underline": {
+      "underline": {
+        "value": "{Red.red-60}",
+        "type": "color"
       }
     }
   },
@@ -1517,6 +1553,12 @@
         },
         "type": "boxShadow"
       }
+    },
+    "Menu underline": {
+      "underline": {
+        "value": "{Red.red-60}",
+        "type": "color"
+      }
     }
   },
   "Profile Purple (L)": {
@@ -1585,6 +1627,12 @@
         },
         "type": "boxShadow"
       }
+    },
+    "Menu underline": {
+      "underline": {
+        "value": "{Purple.purple-60}",
+        "type": "color"
+      }
     }
   },
   "Profile Purple (D)": {
@@ -1652,6 +1700,12 @@
           "type": "innerShadow"
         },
         "type": "boxShadow"
+      }
+    },
+    "Menu underline": {
+      "underline": {
+        "value": "{Purple.purple-60}",
+        "type": "color"
       }
     }
   }
