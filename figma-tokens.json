@@ -933,23 +933,23 @@
           "type": "color"
         },
         "info": {
-          "value": "{Blue.blue-10}",
+          "value": "{Blue.blue-05}",
           "type": "color"
         },
         "purple": {
-          "value": "{Purple.purple-10}",
+          "value": "{Purple.purple-05}",
           "type": "color"
         },
         "orange": {
-          "value": "{Orange.orange-10}",
+          "value": "{Orange.orange-05",
           "type": "color"
         },
         "red": {
-          "value": "{Red.red-10}",
+          "value": "{Red.red-05}",
           "type": "color"
         },
         "green": {
-          "value": "{Green.green-10}",
+          "value": "{Green.green-05}",
           "type": "color"
         }
       },
