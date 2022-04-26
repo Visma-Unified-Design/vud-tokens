@@ -845,17 +845,17 @@
         "normal": {
           "value": "{Neutral.neutral-05}",
           "type": "color",
-          "description": "Use for Input field, default button, search bar on normal & disabled state"
+          "description": "Input field, default button, search bar on normal & disabled state"
         },
         "medium": {
           "value": "{Blue.blue-10}",
           "type": "color",
-          "description": "Use for Input field, default button, search bar on hover state"
+          "description": "Input field, default button, search bar on hover state"
         },
         "high": {
           "value": "{Neutral.neutral-30}",
           "type": "color",
-          "description": "Use for Input field, default button, search bar on pressed state"
+          "description": "Input field, default button, search bar on pressed state"
         },
         "max1": {
           "value": "{Neutral.neutral-20}",
@@ -865,29 +865,29 @@
         "max2": {
           "value": "{Green.green-70}",
           "type": "color",
-          "description": "Use for Input field, default button, search bar on selected state 2"
+          "description": "Input field, default button, search bar on selected state 2"
         }
       },
       "border": {
         "normal": {
           "value": "{Neutral.neutral-60}",
           "type": "color",
-          "description": "Use for Input field, default button, search bar on normal, pressed & selected state"
+          "description": "Input field, default button, search bar on normal, pressed & selected state"
         },
         "medium": {
           "value": "{Blue.blue-50}",
           "type": "color",
-          "description": "Use for Input field, default button, search bar on hover state"
+          "description": "Input field, default button, search bar on hover state"
         },
         "max2": {
           "value": "{Green.green-70}",
           "type": "color",
-          "description": "Use for Input field, default button, search bar on selected state 2"
+          "description": "Input field, default button, search bar on selected state 2"
         },
         "low": {
           "value": "{Neutral.neutral-40}",
           "type": "color",
-          "description": "Use for Input field, default button, search bar on disabled state"
+          "description": "Input field, default button, search bar on disabled state"
         }
       }
     },
@@ -978,23 +978,28 @@
         },
         "blue": {
           "value": "{Blue.blue-60}",
-          "type": "color"
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
           "value": "{Purple.purple-60}",
-          "type": "color"
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
         },
         "orange": {
           "value": "{Orange.orange-70}",
-          "type": "color"
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "red": {
           "value": "{Red.red-60}",
-          "type": "color"
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "green": {
           "value": "{Green.green-60}",
-          "type": "color"
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
       }
     }
