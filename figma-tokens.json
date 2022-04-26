@@ -751,11 +751,13 @@
     "Base": {
       "canvas": {
         "value": "{Neutral.neutral-20}",
-        "type": "color"
+        "type": "color",
+        "description": "Canvas"
       },
       "container": {
         "value": "{Neutral.neutral-05}",
-        "type": "color"
+        "type": "color",
+        "description": "Container, cards"
       }
     },
     "Text": {
