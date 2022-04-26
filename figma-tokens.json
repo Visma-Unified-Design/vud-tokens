@@ -761,11 +761,13 @@
     "Text": {
       "default": {
         "value": "{Neutral.neutral-90}",
-        "type": "color"
+        "type": "color",
+        "description": "Default text colour"
       },
-      "": {
+      "primary": {
         "value": "{Neutral.neutral-05}",
-        "type": "color"
+        "type": "color",
+        "description": "Primary text colour"
       },
       "secondary": {
         "value": "{Neutral.neutral-80}",
@@ -842,41 +844,50 @@
       "body": {
         "normal": {
           "value": "{Neutral.neutral-05}",
-          "type": "color"
+          "type": "color",
+          "description": "Use for Input field, default button, search bar on normal state"
         },
         "medium": {
           "value": "{Blue.blue-10}",
-          "type": "color"
+          "type": "color",
+          "description": "Use for Input field, default button, search bar on hover state"
         },
         "high": {
           "value": "{Neutral.neutral-30}",
-          "type": "color"
+          "type": "color",
+          "description": "Use for Input field, default button, search bar on pressed state"
         },
         "max1": {
           "value": "{Neutral.neutral-20}",
-          "type": "color"
+          "type": "color",
+          "description": "Use for Input field, default button, search bar on selected state 1"
         },
         "max2": {
           "value": "{Green.green-70}",
-          "type": "color"
+          "type": "color",
+          "description": "Use for Input field, default button, search bar on selected state 2"
         }
       },
       "border": {
         "normal": {
           "value": "{Neutral.neutral-60}",
-          "type": "color"
+          "type": "color",
+          "description": "Use for Input field, default button, search bar on normal, pressed & selected state"
         },
         "medium": {
           "value": "{Blue.blue-50}",
-          "type": "color"
+          "type": "color",
+          "description": "Use for Input field, default button, search bar on hover state"
         },
         "max2": {
           "value": "{Green.green-70}",
-          "type": "color"
+          "type": "color",
+          "description": "Use for Input field, default button, search bar on selected state 2"
         },
         "low": {
           "value": "{Neutral.neutral-40}",
-          "type": "color"
+          "type": "color",
+          "description": "Use for Input field, default button, search bar on disabled state"
         }
       }
     },
