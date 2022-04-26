@@ -860,7 +860,7 @@
         "max1": {
           "value": "{Neutral.neutral-20}",
           "type": "color",
-          "description": "Use for Input field, default button, search bar on selected state 1"
+          "description": "Input field, default button, search bar on selected state 1"
         },
         "max2": {
           "value": "{Green.green-70}",
