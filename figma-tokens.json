@@ -797,7 +797,7 @@
         "value": "{Neutral.neutral-05}",
         "type": "color"
       },
-      "": {
+      "blue": {
         "value": "{Blue.blue-50}",
         "type": "color"
       },
