@@ -757,7 +757,7 @@
       "container": {
         "value": "{Neutral.neutral-05}",
         "type": "color",
-        "description": "Container, cards"
+        "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
       }
     },
     "Text": {
