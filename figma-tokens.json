@@ -845,7 +845,7 @@
         "normal": {
           "value": "{Neutral.neutral-05}",
           "type": "color",
-          "description": "Use for Input field, default button, search bar on normal state"
+          "description": "Use for Input field, default button, search bar on normal & disabled state"
         },
         "medium": {
           "value": "{Blue.blue-10}",
@@ -952,7 +952,7 @@
           "type": "color"
         },
         "orange": {
-          "value": "{Orange.orange-05",
+          "value": "{Orange.orange-05}",
           "type": "color"
         },
         "red": {
