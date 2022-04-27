@@ -1306,7 +1306,8 @@
     "Profile body": {
       "normal": {
         "value": "{Blue.blue-70}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour "
       },
       "medium": {
         "value": "{Blue.blue-60}",
@@ -1455,34 +1456,34 @@
       "normal": {
         "value": "{Green.green-70}",
         "type": "color",
-        "description": "Accent colour "
+        "description": "Accent colour on normal state"
       },
       "medium": {
         "value": "{Green.green-60}",
         "type": "color",
-        "description": "Accent colour "
+        "description": "Accent colour on hover state"
       },
       "high": {
         "value": "{Green.green-90}",
         "type": "color",
-        "description": "Accent colour "
+        "description": "Accent colour on selected state"
       }
     },
     "Profile border": {
       "normal": {
         "value": "{Green.green-70}",
         "type": "color",
-        "description": "Accent colour "
+        "description": "Accent colour on normal state"
       },
       "medium": {
         "value": "{Green.green-60}",
         "type": "color",
-        "description": "Accent colour "
+        "description": "Accent colour on hover state"
       },
       "max1": {
         "value": "{Green.green-90}",
         "type": "color",
-        "description": "Accent colour "
+        "description": "Accent colour on selected state"
       },
       "extreme": {
         "value": "{Blue.blue-50}",
