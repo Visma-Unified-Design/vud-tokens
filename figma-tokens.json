@@ -837,7 +837,7 @@
         "medium": {
           "value": "{Neutral.neutral-70}",
           "type": "color",
-          "description": "Grey on hover state"
+          "description": "Grey icon on hover state"
         },
         "normal": {
           "value": "{Neutral.neutral-80}",
