@@ -742,6 +742,12 @@
         "value": "{Neutral.neutral-05}",
         "type": "color"
       }
+    },
+    "Transparency": {
+      "black-a50": {
+        "value": "rgba({Purple.purple-70}, 0.1)",
+        "type": "color"
+      }
     }
   },
   "Profile Blue": {
