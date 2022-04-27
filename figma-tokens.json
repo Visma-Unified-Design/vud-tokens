@@ -841,11 +841,13 @@
     "Divider": {
       "solid": {
         "value": "{Neutral.neutral-30}",
-        "type": "color"
+        "type": "color",
+        "description": "Solid divider "
       },
       "dotted": {
         "value": "{Neutral.neutral-60}",
-        "type": "color"
+        "type": "color",
+        "description": "Dotted divider"
       }
     },
     "Default": {
