@@ -756,6 +756,10 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
+    },
+    "Alpha 50": {
+      "value": "50%",
+      "type": "opacity"
     }
   },
   "Light": {
