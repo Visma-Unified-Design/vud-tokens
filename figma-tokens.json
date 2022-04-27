@@ -1137,23 +1137,28 @@
       "body": {
         "normal": {
           "value": "{Dark.dark-70}",
-          "type": "color"
+          "type": "color",
+          "description": "Input field, default button, search bar on normal & disabled state"
         },
         "medium": {
           "value": "{Dark.dark-60}",
-          "type": "color"
+          "type": "color",
+          "description": "Input field, default button, search bar on hover state"
         },
         "high": {
           "value": "{Dark.dark-90}",
-          "type": "color"
+          "type": "color",
+          "description": "Input field, default button, search bar on pressed state"
         },
         "max1": {
           "value": "{Dark.dark-80}",
-          "type": "color"
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 1"
         },
         "max2": {
           "value": "{Green.green-70}",
-          "type": "color"
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
         }
       },
       "border": {
@@ -1223,12 +1228,6 @@
           "type": "innerShadow"
         },
         "type": "boxShadow"
-      }
-    },
-    "Underline": {
-      "menu": {
-        "value": "{Dark.dark-05}",
-        "type": "color"
       }
     },
     "Informational": {
