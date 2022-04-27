@@ -1239,53 +1239,65 @@
       "body": {
         "default": {
           "value": "{Dark.dark-05}",
-          "type": "color"
+          "type": "color",
+          "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "info": {
           "value": "{Blue.blue-10}",
-          "type": "color"
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
           "value": "{Purple.purple-10}",
-          "type": "color"
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
         },
         "orange": {
           "value": "{Orange.orange-10}",
-          "type": "color"
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "red": {
           "value": "{Red.red-10}",
-          "type": "color"
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "green": {
           "value": "{Green.green-10}",
-          "type": "color"
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
       },
       "border": {
         "default": {
           "value": "{Dark.dark-05}",
-          "type": "color"
+          "type": "color",
+          "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "blue": {
           "value": "{Blue.blue-10}",
-          "type": "color"
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
           "value": "{Purple.purple-10}",
-          "type": "color"
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
         },
         "orange": {
           "value": "{Orange.orange-10}",
-          "type": "color"
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "red": {
           "value": "{Red.red-10}",
-          "type": "color"
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "green": {
           "value": "{Green.green-10}",
-          "type": "color"
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
       }
     }
