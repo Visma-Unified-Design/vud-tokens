@@ -1454,33 +1454,40 @@
     "Profile body": {
       "normal": {
         "value": "{Green.green-70}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour "
       },
       "medium": {
         "value": "{Green.green-60}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour "
       },
       "high": {
         "value": "{Green.green-90}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour "
       }
     },
     "Profile border": {
       "normal": {
         "value": "{Green.green-70}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour "
       },
       "medium": {
         "value": "{Green.green-60}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour "
       },
       "max1": {
         "value": "{Green.green-90}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour "
       },
       "extreme": {
         "value": "{Blue.blue-50}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour on focused state"
       }
     },
     "Focused": {
@@ -1502,7 +1509,8 @@
           "type": "dropShadow"
         }
       ],
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
     },
     "Thick border": {
       "left": {
@@ -1514,13 +1522,15 @@
           "color": "#4E9C54",
           "type": "innerShadow"
         },
-        "type": "boxShadow"
+        "type": "boxShadow",
+        "description": "Thick left border with accent colour "
       }
     },
     "Menu underline": {
       "normal": {
         "value": "{Green.green-60}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour "
       }
     }
   },
