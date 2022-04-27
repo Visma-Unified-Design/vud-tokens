@@ -1124,11 +1124,13 @@
     "Divider": {
       "solid": {
         "value": "{Dark.dark-50}",
-        "type": "color"
+        "type": "color",
+        "description": "Solid divider "
       },
       "dotted": {
         "value": "{Dark.dark-30}",
-        "type": "color"
+        "type": "color",
+        "description": "Dotted divider"
       }
     },
     "Default": {
