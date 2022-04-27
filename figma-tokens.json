@@ -764,36 +764,42 @@
       "default": {
         "value": "{Neutral.neutral-90}",
         "type": "color",
-        "description": "Default text colour"
+        "description": "Default text colour on body, header"
       },
       "primary": {
         "value": "{Neutral.neutral-05}",
         "type": "color",
-        "description": "Primary text colour"
+        "description": "Primary text colour on ui controls"
       },
       "secondary": {
         "value": "{Neutral.neutral-80}",
-        "type": "color"
+        "type": "color",
+        "description": "Secondary text colour"
       },
       "emphasised": {
         "value": "{Blue.blue-50}",
-        "type": "color"
+        "type": "color",
+        "description": "Emphasised text colour on important text and links, titles, headers"
       },
       "disabled": {
         "value": "{Neutral.neutral-60}",
-        "type": "color"
+        "type": "color",
+        "description": "Disabled text colour. "
       },
       "error": {
         "value": "{Red.red-80}",
-        "type": "color"
+        "type": "color",
+        "description": "Error text colour."
       },
       "warning": {
         "value": "{Orange.orange-90}",
-        "type": "color"
+        "type": "color",
+        "description": "Warning text colour on body, headers"
       },
       "succes": {
         "value": "{Green.green-70}",
-        "type": "color"
+        "type": "color",
+        "description": "Successful text colour"
       }
     },
     "Icon": {
