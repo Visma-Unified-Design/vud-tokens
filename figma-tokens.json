@@ -1164,23 +1164,28 @@
       "border": {
         "normal": {
           "value": "{Dark.dark-50}",
-          "type": "color"
+          "type": "color",
+          "description": "Input field, default button, search bar on normal, pressed & selected state"
         },
         "medium": {
           "value": "{Dark.dark-30}",
-          "type": "color"
+          "type": "color",
+          "description": "Input field, default button, search bar on hover state"
         },
         "max2": {
           "value": "{Green.green-60}",
-          "type": "color"
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
         },
         "low": {
           "value": "{Dark.dark-60}",
-          "type": "color"
+          "type": "color",
+          "description": "Input field, default button, search bar on disabled state"
         },
         "extreme": {
           "value": "{Dark.dark-05}",
-          "type": "color"
+          "type": "color",
+          "description": "Inner border for button on focused state"
         }
       }
     },
