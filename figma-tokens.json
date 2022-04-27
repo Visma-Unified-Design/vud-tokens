@@ -805,36 +805,44 @@
     "Icon": {
       "neutral": {
         "value": "{Neutral.neutral-05}",
-        "type": "color"
+        "type": "color",
+        "description": "Default icon"
       },
       "blue": {
         "value": "{Blue.blue-50}",
-        "type": "color"
+        "type": "color",
+        "description": "Blue icon"
       },
       "red": {
         "value": "{Red.red-60}",
-        "type": "color"
+        "type": "color",
+        "description": "Red icon"
       },
       "orange": {
         "value": "{Orange.orange-70}",
-        "type": "color"
+        "type": "color",
+        "description": "Orange icon"
       },
       "green": {
         "value": "{Green.green-60}",
-        "type": "color"
+        "type": "color",
+        "description": "Green icon"
       },
       "state": {
+        "low": {
+          "value": "{Neutral.neutral-60}",
+          "type": "color",
+          "description": "Grey on disabled state"
+        },
         "normal": {
           "value": "{Neutral.neutral-80}",
-          "type": "color"
+          "type": "color",
+          "description": "Grey on normal state"
         },
         "medium": {
           "value": "{Neutral.neutral-70}",
-          "type": "color"
-        },
-        "low": {
-          "value": "{Neutral.neutral-60}",
-          "type": "color"
+          "type": "color",
+          "description": "Grey on hover state"
         }
       }
     },
