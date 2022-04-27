@@ -784,12 +784,12 @@
       "disabled": {
         "value": "{Neutral.neutral-60}",
         "type": "color",
-        "description": "Disabled text colour. "
+        "description": "Disabled text colour"
       },
       "error": {
         "value": "{Red.red-80}",
         "type": "color",
-        "description": "Error text colour."
+        "description": "Error text colour"
       },
       "warning": {
         "value": "{Orange.orange-90}",
