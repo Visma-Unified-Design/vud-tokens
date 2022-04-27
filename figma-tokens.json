@@ -1026,80 +1026,98 @@
     "Base": {
       "canvas": {
         "value": "{Dark.dark-80}",
-        "type": "color"
+        "type": "color",
+        "description": "Canvas"
       },
       "container": {
         "value": "{Dark.dark-70}",
-        "type": "color"
+        "type": "color",
+        "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
       }
     },
     "Text": {
       "default": {
         "value": "{Dark.dark-10}",
-        "type": "color"
+        "type": "color",
+        "description": "Default text colour on body, header"
       },
       "primary": {
         "value": "{Dark.dark-05}",
-        "type": "color"
+        "type": "color",
+        "description": "Primary text colour on ui controls"
       },
       "secondary": {
         "value": "{Dark.dark-10}",
-        "type": "color"
+        "type": "color",
+        "description": "Secondary text colour"
       },
       "emphasised": {
         "value": "{Dark.dark-05}",
-        "type": "color"
+        "type": "color",
+        "description": "Emphasised text colour on important text and links, titles, headers"
       },
       "disabled": {
         "value": "{Dark.dark-30}",
-        "type": "color"
+        "type": "color",
+        "description": "Disabled text colour"
       },
       "error": {
         "value": "{Red.red-40}",
-        "type": "color"
+        "type": "color",
+        "description": "Error text colour"
       },
       "orange": {
         "value": "{Orange.orange-50}",
-        "type": "color"
+        "type": "color",
+        "description": "Warning text colour on body, headers"
       },
       "success": {
         "value": "{Green.green-50}",
-        "type": "color"
+        "type": "color",
+        "description": "Successful text colour"
       }
     },
     "Icon": {
       "neutral": {
         "value": "{Dark.dark-05}",
-        "type": "color"
+        "type": "color",
+        "description": "Default icon"
       },
       "blue": {
         "value": "{Blue.blue-50}",
-        "type": "color"
+        "type": "color",
+        "description": "Blue icon"
       },
       "red": {
         "value": "{Red.red-60}",
-        "type": "color"
+        "type": "color",
+        "description": "Red icon"
       },
       "orange": {
         "value": "{Orange.orange-70}",
-        "type": "color"
+        "type": "color",
+        "description": "Orange icon"
       },
       "green": {
         "value": "{Green.green-60}",
-        "type": "color"
+        "type": "color",
+        "description": "Green icon"
       },
       "state": {
         "low": {
           "value": "{Dark.dark-30}",
-          "type": "color"
+          "type": "color",
+          "description": "Grey icon on disabled state"
         },
         "normal": {
           "value": "{Dark.dark-10}",
-          "type": "color"
+          "type": "color",
+          "description": "Grey icon on hover state"
         },
         "medium": {
           "value": "{Dark.dark-10}",
-          "type": "color"
+          "type": "color",
+          "description": "Grey icon on normal state"
         }
       }
     },
