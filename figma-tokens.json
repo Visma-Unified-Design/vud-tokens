@@ -832,17 +832,17 @@
         "low": {
           "value": "{Neutral.neutral-60}",
           "type": "color",
-          "description": "Grey on disabled state"
-        },
-        "normal": {
-          "value": "{Neutral.neutral-80}",
-          "type": "color",
-          "description": "Grey on normal state"
+          "description": "Grey icon on disabled state"
         },
         "medium": {
           "value": "{Neutral.neutral-70}",
           "type": "color",
           "description": "Grey on hover state"
+        },
+        "normal": {
+          "value": "{Neutral.neutral-80}",
+          "type": "color",
+          "description": "Grey icon on normal state"
         }
       }
     },
