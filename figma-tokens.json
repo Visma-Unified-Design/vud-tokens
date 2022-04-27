@@ -745,6 +745,17 @@
         "value": "#E4EBF0",
         "type": "color"
       }
+    },
+    "Drop shadow": {
+      "value": {
+        "x": "0",
+        "y": "2",
+        "blur": "4",
+        "spread": "0",
+        "color": "rgba({Neutral.neutral-90}, 0.12)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     }
   },
   "Light": {
