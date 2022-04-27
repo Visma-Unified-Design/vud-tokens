@@ -1390,33 +1390,40 @@
     "Profile body": {
       "normal": {
         "value": "{Blue.blue-70}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour in normal state"
       },
       "medium": {
         "value": "{Blue.blue-60}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour in hover state"
       },
       "high": {
         "value": "{Blue.blue-90}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour in selected state"
       }
     },
     "Profile border": {
       "normal": {
         "value": "{Blue.blue-50}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour in normal state"
       },
       "medium": {
         "value": "{Blue.blue-40}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour in hover state"
       },
       "max1": {
         "value": "{Blue.blue-60}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour in selected state"
       },
       "extreme": {
         "value": "{Blue.blue-50}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour in focused state"
       }
     },
     "Focused": {
@@ -1438,7 +1445,8 @@
           "type": "dropShadow"
         }
       ],
-      "type": "boxShadow"
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
     },
     "Thick border": {
       "left": {
@@ -1450,13 +1458,15 @@
           "color": "#116FAE",
           "type": "innerShadow"
         },
-        "type": "boxShadow"
+        "type": "boxShadow",
+        "description": "Thick left border with accent colour "
       }
     },
     "Menu underline": {
       "normal": {
         "value": "{Dark.dark-80}",
-        "type": "color"
+        "type": "color",
+        "description": "Accent colour"
       }
     }
   },
