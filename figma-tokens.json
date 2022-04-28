@@ -1,16 +1,18 @@
 {
   "global": {
-    "2": {
-      "value": "{uniquebase}",
-      "type": "borderRadius"
-    },
-    "8": {
-      "value": "{2}*4",
-      "type": "borderRadius"
-    },
-    "24": {
-      "value": "{2}*12",
-      "type": "borderRadius"
+    "Radius": {
+      "2": {
+        "value": "{uniquebase}",
+        "type": "borderRadius"
+      },
+      "8": {
+        "value": "{Radius.2}*4",
+        "type": "borderRadius"
+      },
+      "24": {
+        "value": "{Radius.2}*12",
+        "type": "borderRadius"
+      }
     },
     "Neutral": {
       "neutral-05": {
