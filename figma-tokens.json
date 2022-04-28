@@ -947,6 +947,10 @@
           "value": "{Neutral.neutral-40}",
           "type": "color",
           "description": "Input field, default button, search bar on disabled state"
+        },
+        "extreme": {
+          "value": "{Blue.blue-50}",
+          "type": "color"
         }
       }
     },
