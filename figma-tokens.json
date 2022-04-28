@@ -592,7 +592,7 @@
       "value": "Ubuntu",
       "type": "fontFamilies"
     },
-    "border": {
+    "Border": {
       "no-border": {
         "value": "0",
         "type": "borderWidth"
