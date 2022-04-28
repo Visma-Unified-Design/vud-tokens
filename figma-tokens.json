@@ -654,6 +654,10 @@
       "value": "1",
       "type": "borderWidth"
     },
+    "1,5px": {
+      "value": "1.5",
+      "type": "borderWidth"
+    },
     "2px": {
       "value": "2",
       "type": "borderWidth"
@@ -695,10 +699,6 @@
         "value": "{Spacing.2}*24",
         "type": "spacing"
       }
-    },
-    "1,5px": {
-      "value": "1.5",
-      "type": "borderWidth"
     },
     "uniquebase": {
       "value": "2",
