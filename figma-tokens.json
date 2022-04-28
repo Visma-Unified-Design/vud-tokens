@@ -1,5 +1,17 @@
 {
   "global": {
+    "2": {
+      "value": "{uniquebase}",
+      "type": "borderRadius"
+    },
+    "8": {
+      "value": "{2}*4",
+      "type": "borderRadius"
+    },
+    "24": {
+      "value": "{2}*12",
+      "type": "borderRadius"
+    },
     "Neutral": {
       "neutral-05": {
         "value": "#FFFFFF",
@@ -41,14 +53,6 @@
         "value": "#252626",
         "type": "color"
       }
-    },
-    "1x": {
-      "value": "{uniquebase}",
-      "type": "borderRadius"
-    },
-    "x4": {
-      "value": "{1x}*4",
-      "type": "borderRadius"
     },
     "Blue": {
       "blue-05": {
@@ -323,10 +327,6 @@
         "value": "#403380",
         "type": "color"
       }
-    },
-    "x12": {
-      "value": "{1x}*12",
-      "type": "borderRadius"
     },
     "Title": {
       "Large": {
@@ -659,40 +659,40 @@
       "type": "borderWidth"
     },
     "Spacing": {
-      "1x": {
+      "2": {
         "value": "{uniquebase}",
         "type": "spacing"
       },
-      "2x": {
-        "value": "{Spacing.1x}*2",
+      "4": {
+        "value": "{Spacing.2}*2",
         "type": "spacing"
       },
-      "4x": {
-        "value": "{Spacing.1x}*4",
+      "8": {
+        "value": "{Spacing.2}*4",
         "type": "spacing"
       },
-      "6x": {
-        "value": "{Spacing.1x}*6",
+      "12": {
+        "value": "{Spacing.2}*6",
         "type": "spacing"
       },
-      "8x": {
-        "value": "{Spacing.1x}*8",
+      "16": {
+        "value": "{Spacing.2}*8",
         "type": "spacing"
       },
-      "12x": {
-        "value": "{Spacing.1x}*12",
+      "24": {
+        "value": "{Spacing.2}*12",
         "type": "spacing"
       },
-      "16x": {
-        "value": "{Spacing.1x}*16",
+      "32": {
+        "value": "{Spacing.2}*16",
         "type": "spacing"
       },
-      "20x": {
-        "value": "{Spacing.1x}*20",
+      "40": {
+        "value": "{Spacing.2}*20",
         "type": "spacing"
       },
-      "24x": {
-        "value": "{Spacing.1x}*24",
+      "48": {
+        "value": "{Spacing.2}*24",
         "type": "spacing"
       }
     },
