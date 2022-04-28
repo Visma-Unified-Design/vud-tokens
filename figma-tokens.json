@@ -597,56 +597,56 @@
       "type": "borderWidth"
     },
     "Sizing": {
-      "1x": {
+      "2": {
         "value": "{uniquebase}",
         "type": "sizing"
       },
-      "2x": {
-        "value": "{Sizing.1x}*2",
+      "4": {
+        "value": "{Sizing.2}*2",
         "type": "sizing"
       },
-      "4x": {
-        "value": "{Sizing.1x}*4",
+      "8": {
+        "value": "{Sizing.2}*4",
         "type": "sizing"
       },
-      "6x": {
-        "value": "{Sizing.1x}*6",
+      "12": {
+        "value": "{Sizing.2}*6",
         "type": "sizing"
       },
-      "8x": {
-        "value": "{Sizing.1x}*8",
+      "16": {
+        "value": "{Sizing.2}*8",
         "type": "sizing"
       },
-      "12x": {
-        "value": "{Sizing.1x}*12",
+      "24": {
+        "value": "{Sizing.2}*12",
         "type": "sizing"
       },
-      "16x": {
-        "value": "{Sizing.1x}*16",
+      "32": {
+        "value": "{Sizing.2}*16",
         "type": "sizing"
       },
-      "20x": {
-        "value": "{Sizing.1x}*20",
+      "40": {
+        "value": "{Sizing.2}*20",
         "type": "sizing"
       },
-      "24x": {
-        "value": "{Sizing.1x}*24",
+      "48": {
+        "value": "{Sizing.2}*24",
         "type": "sizing"
       },
-      "32x": {
-        "value": "{Sizing.1x}*32",
+      "64": {
+        "value": "{Sizing.2}*32",
         "type": "sizing"
       },
-      "48x": {
-        "value": "{Sizing.1x}*48",
+      "96": {
+        "value": "{Sizing.2}*48",
         "type": "sizing"
       },
-      "64x": {
-        "value": "{Sizing.1x}*64",
+      "128": {
+        "value": "{Sizing.2}*64",
         "type": "sizing"
       },
-      "128x": {
-        "value": "{Sizing.1x}*128",
+      "256": {
+        "value": "{Sizing.2}*128",
         "type": "sizing"
       }
     },
@@ -702,7 +702,8 @@
     },
     "uniquebase": {
       "value": "2",
-      "type": "other"
+      "type": "other",
+      "description": "Base for sizing, spacing"
     },
     "Dark": {
       "dark-90": {
