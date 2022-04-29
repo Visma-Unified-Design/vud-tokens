@@ -961,10 +961,11 @@
           "y": "0",
           "blur": "0",
           "spread": "0",
-          "color": "#f2f2f2",
+          "color": "rgba({Neutral.neutral-20}, 1.0)",
           "type": "innerShadow"
         },
-        "type": "boxShadow"
+        "type": "boxShadow",
+        "description": "Left border in table cell"
       },
       "Top": {
         "value": {
@@ -972,10 +973,11 @@
           "y": "1",
           "blur": "0",
           "spread": "0",
-          "color": "#f2f2f2",
+          "color": "rgba({Neutral.neutral-20}, 1.0)",
           "type": "innerShadow"
         },
-        "type": "boxShadow"
+        "type": "boxShadow",
+        "description": "Top border in table cell"
       },
       "Right": {
         "value": {
@@ -983,10 +985,11 @@
           "y": "0",
           "blur": "0",
           "spread": "0",
-          "color": "#f2f2f2",
+          "color": "rgba({Neutral.neutral-20}, 1.0)",
           "type": "innerShadow"
         },
-        "type": "boxShadow"
+        "type": "boxShadow",
+        "description": "Right border in table cell"
       },
       "Bottom": {
         "value": {
@@ -994,10 +997,11 @@
           "y": "-1",
           "blur": "0",
           "spread": "0",
-          "color": "#f2f2f2",
+          "color": "rgba({Neutral.neutral-20}, 1.0)",
           "type": "innerShadow"
         },
-        "type": "boxShadow"
+        "type": "boxShadow",
+        "description": "Bottom border in table cell"
       }
     },
     "Informational": {
