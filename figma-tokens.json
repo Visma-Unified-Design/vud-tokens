@@ -1007,7 +1007,7 @@
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
-        "info": {
+        "blue": {
           "value": "{Blue.blue-05}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
@@ -1287,7 +1287,7 @@
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
-        "info": {
+        "blue": {
           "value": "{Blue.blue-10}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
