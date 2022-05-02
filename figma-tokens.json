@@ -162,48 +162,6 @@
         "type": "boxShadow"
       }
     },
-    "Profile": {
-      "profile-05": {
-        "value": "#EBF7EB",
-        "type": "color"
-      },
-      "profile-10": {
-        "value": "#CFE7CF",
-        "type": "color"
-      },
-      "profile-20": {
-        "value": "#AFD4AF",
-        "type": "color"
-      },
-      "profile-30": {
-        "value": "#9BC29B",
-        "type": "color"
-      },
-      "profile-40": {
-        "value": "#7FAF7F",
-        "type": "color"
-      },
-      "profile-50": {
-        "value": "#67A870",
-        "type": "color"
-      },
-      "profile-60": {
-        "value": "#4E9C54",
-        "type": "color"
-      },
-      "profile-70": {
-        "value": "#2D7048",
-        "type": "color"
-      },
-      "profile-80": {
-        "value": "#316245",
-        "type": "color"
-      },
-      "profile-90": {
-        "value": "#254934",
-        "type": "color"
-      }
-    },
     "Red": {
       "red-05": {
         "value": "#FFEDEF",
