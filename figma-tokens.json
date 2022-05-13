@@ -738,7 +738,7 @@
     }
   },
   "Light": {
-    "Base": {
+    "base": {
       "canvas": {
         "value": "{Neutral.neutral-20}",
         "type": "color",
@@ -750,7 +750,7 @@
         "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
       }
     },
-    "Text": {
+    "text": {
       "default": {
         "value": "{Neutral.neutral-90}",
         "type": "color",
@@ -792,7 +792,7 @@
         "description": "Successful text colour"
       }
     },
-    "Icon": {
+    "icon": {
       "neutral": {
         "value": "{Neutral.neutral-05}",
         "type": "color",
@@ -836,7 +836,7 @@
         }
       }
     },
-    "Divider": {
+    "divider": {
       "solid": {
         "value": "{Neutral.neutral-30}",
         "type": "color",
@@ -848,7 +848,7 @@
         "description": "Dotted divider"
       }
     },
-    "Default": {
+    "default": {
       "body": {
         "normal": {
           "value": "{Neutral.neutral-05}",
@@ -903,8 +903,8 @@
         }
       }
     },
-    "Thin border": {
-      "Left": {
+    "thin border": {
+      "left": {
         "value": {
           "x": "1",
           "y": "0",
@@ -916,7 +916,7 @@
         "type": "boxShadow",
         "description": "Left border in table cell"
       },
-      "Top": {
+      "top": {
         "value": {
           "x": "0",
           "y": "1",
@@ -928,7 +928,7 @@
         "type": "boxShadow",
         "description": "Top border in table cell"
       },
-      "Right": {
+      "right": {
         "value": {
           "x": "-1",
           "y": "0",
@@ -940,7 +940,7 @@
         "type": "boxShadow",
         "description": "Right border in table cell"
       },
-      "Bottom": {
+      "bottom": {
         "value": {
           "x": "0",
           "y": "-1",
@@ -953,7 +953,7 @@
         "description": "Bottom border in table cell"
       }
     },
-    "Informational": {
+    "informational": {
       "body": {
         "default": {
           "value": "{Neutral.neutral-05}",
