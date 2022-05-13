@@ -1021,7 +1021,7 @@
     }
   },
   "Dark": {
-    "Base": {
+    "base": {
       "canvas": {
         "value": "{Dark.dark-80}",
         "type": "color",
@@ -1033,7 +1033,7 @@
         "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
       }
     },
-    "Text": {
+    "text": {
       "default": {
         "value": "{Dark.dark-10}",
         "type": "color",
@@ -1075,7 +1075,7 @@
         "description": "Successful text colour"
       }
     },
-    "Icon": {
+    "icon": {
       "neutral": {
         "value": "{Dark.dark-05}",
         "type": "color",
@@ -1119,7 +1119,7 @@
         }
       }
     },
-    "Divider": {
+    "divider": {
       "solid": {
         "value": "{Dark.dark-50}",
         "type": "color",
@@ -1131,7 +1131,7 @@
         "description": "Dotted divider"
       }
     },
-    "Default": {
+    "default": {
       "body": {
         "normal": {
           "value": "{Dark.dark-70}",
@@ -1187,8 +1187,8 @@
         }
       }
     },
-    "Thin border": {
-      "Left": {
+    "thin border": {
+      "left": {
         "value": {
           "x": "1",
           "y": "0",
@@ -1199,7 +1199,7 @@
         },
         "type": "boxShadow"
       },
-      "Top": {
+      "top": {
         "value": {
           "x": "0",
           "y": "1",
@@ -1210,7 +1210,7 @@
         },
         "type": "boxShadow"
       },
-      "Right": {
+      "right": {
         "value": {
           "x": "-1",
           "y": "0",
@@ -1221,7 +1221,7 @@
         },
         "type": "boxShadow"
       },
-      "Bottom": {
+      "bottom": {
         "value": {
           "x": "0",
           "y": "-1",
@@ -1233,7 +1233,7 @@
         "type": "boxShadow"
       }
     },
-    "Informational": {
+    "informational": {
       "body": {
         "default": {
           "value": "{Dark.dark-05}",
@@ -1301,12 +1301,16 @@
     }
   },
   "Profile Green (L)": {
+    "profile": {
+      "body": {
+        "normal": {
+          "value": "{Green.green-70}",
+          "type": "color",
+          "description": "Accent colour on normal state"
+        }
+      }
+    },
     "Profile body": {
-      "normal": {
-        "value": "{Green.green-70}",
-        "type": "color",
-        "description": "Accent colour on normal state"
-      },
       "medium": {
         "value": "{Green.green-60}",
         "type": "color",
