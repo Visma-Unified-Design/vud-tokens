@@ -14,7 +14,7 @@
         "type": "borderRadius"
       }
     },
-    "Neutral": {
+    "neutral": {
       "neutral-05": {
         "value": "#FFFFFF",
         "type": "color"
@@ -56,7 +56,7 @@
         "type": "color"
       }
     },
-    "Blue": {
+    "blue": {
       "blue-05": {
         "value": "#E7F2F9",
         "type": "color"
@@ -98,7 +98,7 @@
         "type": "color"
       }
     },
-    "Green": {
+    "green": {
       "green-05": {
         "value": "#EBF7EB",
         "type": "color"
@@ -147,7 +147,7 @@
           "y": "2",
           "blur": "4",
           "spread": "0",
-          "color": "rgba({Neutral.neutral-90}, 0.12)",
+          "color": "rgba({neutral.neutral-90}, 0.12)",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -158,7 +158,7 @@
           "y": "5",
           "blur": "10",
           "spread": "0",
-          "color": "rgba({Neutral.neutral-90}, 0.15)",
+          "color": "rgba({neutral.neutral-90}, 0.15)",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -169,13 +169,13 @@
           "y": "2",
           "blur": "4",
           "spread": "0",
-          "color": "rgba({Neutral.neutral-90}, 0.24)",
+          "color": "rgba({neutral.neutral-90}, 0.24)",
           "type": "dropShadow"
         },
         "type": "boxShadow"
       }
     },
-    "Red": {
+    "red": {
       "red-05": {
         "value": "#FFEDEF",
         "type": "color"
@@ -217,7 +217,7 @@
         "type": "color"
       }
     },
-    "Orange": {
+    "orange": {
       "orange-05": {
         "value": "#FCF2DC",
         "type": "color"
@@ -259,7 +259,7 @@
         "type": "color"
       }
     },
-    "Purple": {
+    "purple": {
       "purple-05": {
         "value": "#EDECF5",
         "type": "color"
@@ -457,7 +457,7 @@
             },
             "type": "typography"
           },
-          "Bold": {
+          "bold": {
             "value": {
               "fontFamily": "{primary}",
               "fontWeight": "Bold",
@@ -680,7 +680,7 @@
       "type": "other",
       "description": "Unique base for sizing, spacing"
     },
-    "Dark": {
+    "dark": {
       "dark-90": {
         "value": "#000000",
         "type": "color"
@@ -740,97 +740,97 @@
   "light": {
     "base": {
       "canvas": {
-        "value": "{Neutral.neutral-20}",
+        "value": "{neutral.neutral-20}",
         "type": "color",
         "description": "Canvas"
       },
       "container": {
-        "value": "{Neutral.neutral-05}",
+        "value": "{neutral.neutral-05}",
         "type": "color",
         "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
       }
     },
     "text": {
       "default": {
-        "value": "{Neutral.neutral-90}",
+        "value": "{neutral.neutral-90}",
         "type": "color",
         "description": "Default text colour on body, header"
       },
       "primary": {
-        "value": "{Neutral.neutral-05}",
+        "value": "{neutral.neutral-05}",
         "type": "color",
         "description": "Primary text colour on ui controls"
       },
       "secondary": {
-        "value": "{Neutral.neutral-80}",
+        "value": "{neutral.neutral-80}",
         "type": "color",
         "description": "Secondary text colour"
       },
       "emphasised": {
-        "value": "{Blue.blue-50}",
+        "value": "{blue.blue-50}",
         "type": "color",
         "description": "Emphasised text colour on important text and links, titles, headers"
       },
       "disabled": {
-        "value": "{Neutral.neutral-60}",
+        "value": "{neutral.neutral-60}",
         "type": "color",
         "description": "Disabled text colour"
       },
       "error": {
-        "value": "{Red.red-80}",
+        "value": "{red.red-80}",
         "type": "color",
         "description": "Error text colour"
       },
       "warning": {
-        "value": "{Orange.orange-90}",
+        "value": "{orange.orange-90}",
         "type": "color",
         "description": "Warning text colour on body, headers"
       },
       "succes": {
-        "value": "{Green.green-70}",
+        "value": "{green.green-70}",
         "type": "color",
         "description": "Successful text colour"
       }
     },
     "icon": {
       "neutral": {
-        "value": "{Neutral.neutral-05}",
+        "value": "{neutral.neutral-05}",
         "type": "color",
         "description": "Default icon"
       },
       "blue": {
-        "value": "{Blue.blue-50}",
+        "value": "{blue.blue-50}",
         "type": "color",
         "description": "Blue icon"
       },
       "red": {
-        "value": "{Red.red-60}",
+        "value": "{red.red-60}",
         "type": "color",
         "description": "Red icon"
       },
       "orange": {
-        "value": "{Orange.orange-70}",
+        "value": "{orange.orange-70}",
         "type": "color",
         "description": "Orange icon"
       },
       "green": {
-        "value": "{Green.green-60}",
+        "value": "{green.green-60}",
         "type": "color",
         "description": "Green icon"
       },
       "state": {
         "low": {
-          "value": "{Neutral.neutral-60}",
+          "value": "{neutral.neutral-60}",
           "type": "color",
           "description": "Grey icon on disabled state"
         },
         "normal": {
-          "value": "{Neutral.neutral-80}",
+          "value": "{neutral.neutral-80}",
           "type": "color",
           "description": "Grey icon on normal state"
         },
         "medium": {
-          "value": "{Neutral.neutral-70}",
+          "value": "{neutral.neutral-70}",
           "type": "color",
           "description": "Grey icon on hover state"
         }
@@ -838,12 +838,12 @@
     },
     "divider": {
       "solid": {
-        "value": "{Neutral.neutral-30}",
+        "value": "{neutral.neutral-30}",
         "type": "color",
         "description": "Solid divider "
       },
       "dotted": {
-        "value": "{Neutral.neutral-60}",
+        "value": "{neutral.neutral-60}",
         "type": "color",
         "description": "Dotted divider"
       }
@@ -851,54 +851,54 @@
     "default": {
       "body": {
         "normal": {
-          "value": "{Neutral.neutral-05}",
+          "value": "{neutral.neutral-05}",
           "type": "color",
           "description": "Input field, default button, search bar on normal & disabled state"
         },
         "medium": {
-          "value": "{Blue.blue-10}",
+          "value": "{blue.blue-10}",
           "type": "color",
           "description": "Input field, default button, search bar on hover state"
         },
         "high": {
-          "value": "{Neutral.neutral-30}",
+          "value": "{neutral.neutral-30}",
           "type": "color",
           "description": "Input field, default button, search bar on pressed state"
         },
         "max1": {
-          "value": "{Neutral.neutral-20}",
+          "value": "{neutral.neutral-20}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 1"
         },
         "max2": {
-          "value": "{Green.green-70}",
+          "value": "{green.green-70}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 2"
         }
       },
       "border": {
         "normal": {
-          "value": "{Neutral.neutral-60}",
+          "value": "{neutral.neutral-60}",
           "type": "color",
           "description": "Input field, default button, search bar on normal, pressed & selected state"
         },
         "medium": {
-          "value": "{Blue.blue-50}",
+          "value": "{blue.blue-50}",
           "type": "color",
           "description": "Input field, default button, search bar on hover state"
         },
         "max2": {
-          "value": "{Green.green-70}",
+          "value": "{green.green-70}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 2"
         },
         "low": {
-          "value": "{Neutral.neutral-40}",
+          "value": "{neutral.neutral-40}",
           "type": "color",
           "description": "Input field, default button, search bar on disabled state"
         },
         "extreme": {
-          "value": "{Blue.blue-50}",
+          "value": "{blue.blue-50}",
           "type": "color"
         }
       }
@@ -911,7 +911,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({Neutral.neutral-20}, 1.0)",
+            "color": "rgba({neutral.neutral-20}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -923,7 +923,7 @@
             "y": "1",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({Neutral.neutral-20}, 1.0)",
+            "color": "rgba({neutral.neutral-20}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -935,7 +935,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({Neutral.neutral-20}, 1.0)",
+            "color": "rgba({neutral.neutral-20}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -947,7 +947,7 @@
             "y": "-1",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({Neutral.neutral-20}, 1.0)",
+            "color": "rgba({neutral.neutral-20}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -958,64 +958,64 @@
     "informational": {
       "body": {
         "default": {
-          "value": "{Neutral.neutral-05}",
+          "value": "{neutral.neutral-05}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "blue": {
-          "value": "{Blue.blue-05}",
+          "value": "{blue.blue-05}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
-          "value": "{Purple.purple-05}",
+          "value": "{purple.purple-05}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "orange": {
-          "value": "{Orange.orange-05}",
+          "value": "{orange.orange-05}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "red": {
-          "value": "{Red.red-05}",
+          "value": "{red.red-05}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "green": {
-          "value": "{Green.green-05}",
+          "value": "{green.green-05}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
       },
       "border": {
         "default": {
-          "value": "{Neutral.neutral-60}",
+          "value": "{neutral.neutral-60}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "blue": {
-          "value": "{Blue.blue-60}",
+          "value": "{blue.blue-60}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
-          "value": "{Purple.purple-60}",
+          "value": "{purple.purple-60}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "orange": {
-          "value": "{Orange.orange-70}",
+          "value": "{orange.orange-70}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "red": {
-          "value": "{Red.red-60}",
+          "value": "{red.red-60}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "green": {
-          "value": "{Green.green-60}",
+          "value": "{green.green-60}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
@@ -1025,97 +1025,97 @@
   "dark": {
     "base": {
       "canvas": {
-        "value": "{Dark.dark-80}",
+        "value": "{dark.dark-80}",
         "type": "color",
         "description": "Canvas"
       },
       "container": {
-        "value": "{Dark.dark-70}",
+        "value": "{dark.dark-70}",
         "type": "color",
         "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
       }
     },
     "text": {
       "default": {
-        "value": "{Dark.dark-10}",
+        "value": "{dark.dark-10}",
         "type": "color",
         "description": "Default text colour on body, header"
       },
       "primary": {
-        "value": "{Dark.dark-05}",
+        "value": "{dark.dark-05}",
         "type": "color",
         "description": "Primary text colour on ui controls"
       },
       "secondary": {
-        "value": "{Dark.dark-10}",
+        "value": "{dark.dark-10}",
         "type": "color",
         "description": "Secondary text colour"
       },
       "emphasised": {
-        "value": "{Dark.dark-05}",
+        "value": "{dark.dark-05}",
         "type": "color",
         "description": "Emphasised text colour on important text and links, titles, headers"
       },
       "disabled": {
-        "value": "{Dark.dark-30}",
+        "value": "{dark.dark-30}",
         "type": "color",
         "description": "Disabled text colour"
       },
       "error": {
-        "value": "{Red.red-40}",
+        "value": "{red.red-40}",
         "type": "color",
         "description": "Error text colour"
       },
       "orange": {
-        "value": "{Orange.orange-50}",
+        "value": "{orange.orange-50}",
         "type": "color",
         "description": "Warning text colour on body, headers"
       },
       "success": {
-        "value": "{Green.green-50}",
+        "value": "{green.green-50}",
         "type": "color",
         "description": "Successful text colour"
       }
     },
     "icon": {
       "neutral": {
-        "value": "{Dark.dark-05}",
+        "value": "{dark.dark-05}",
         "type": "color",
         "description": "Default icon"
       },
       "blue": {
-        "value": "{Blue.blue-50}",
+        "value": "{blue.blue-50}",
         "type": "color",
         "description": "Blue icon"
       },
       "red": {
-        "value": "{Red.red-60}",
+        "value": "{red.red-60}",
         "type": "color",
         "description": "Red icon"
       },
       "orange": {
-        "value": "{Orange.orange-70}",
+        "value": "{orange.orange-70}",
         "type": "color",
         "description": "Orange icon"
       },
       "green": {
-        "value": "{Green.green-60}",
+        "value": "{green.green-60}",
         "type": "color",
         "description": "Green icon"
       },
       "state": {
         "low": {
-          "value": "{Dark.dark-30}",
+          "value": "{dark.dark-30}",
           "type": "color",
           "description": "Grey icon on disabled state"
         },
         "normal": {
-          "value": "{Dark.dark-10}",
+          "value": "{dark.dark-10}",
           "type": "color",
           "description": "Grey icon on hover state"
         },
         "medium": {
-          "value": "{Dark.dark-10}",
+          "value": "{dark.dark-10}",
           "type": "color",
           "description": "Grey icon on normal state"
         }
@@ -1123,12 +1123,12 @@
     },
     "divider": {
       "solid": {
-        "value": "{Dark.dark-50}",
+        "value": "{dark.dark-50}",
         "type": "color",
         "description": "Solid divider "
       },
       "dotted": {
-        "value": "{Dark.dark-30}",
+        "value": "{dark.dark-30}",
         "type": "color",
         "description": "Dotted divider"
       }
@@ -1136,54 +1136,54 @@
     "default": {
       "body": {
         "normal": {
-          "value": "{Dark.dark-70}",
+          "value": "{dark.dark-70}",
           "type": "color",
           "description": "Input field, default button, search bar on normal & disabled state"
         },
         "medium": {
-          "value": "{Dark.dark-60}",
+          "value": "{dark.dark-60}",
           "type": "color",
           "description": "Input field, default button, search bar on hover state"
         },
         "high": {
-          "value": "{Dark.dark-90}",
+          "value": "{dark.dark-90}",
           "type": "color",
           "description": "Input field, default button, search bar on pressed state"
         },
         "max1": {
-          "value": "{Dark.dark-80}",
+          "value": "{dark.dark-80}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 1"
         },
         "max2": {
-          "value": "{Green.green-70}",
+          "value": "{green.green-70}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 2"
         }
       },
       "border": {
         "normal": {
-          "value": "{Dark.dark-50}",
+          "value": "{dark.dark-50}",
           "type": "color",
           "description": "Input field, default button, search bar on normal, pressed & selected state"
         },
         "medium": {
-          "value": "{Dark.dark-30}",
+          "value": "{dark.dark-30}",
           "type": "color",
           "description": "Input field, default button, search bar on hover state"
         },
         "max2": {
-          "value": "{Green.green-60}",
+          "value": "{green.green-60}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 2"
         },
         "low": {
-          "value": "{Dark.dark-60}",
+          "value": "{dark.dark-60}",
           "type": "color",
           "description": "Input field, default button, search bar on disabled state"
         },
         "extreme": {
-          "value": "{Dark.dark-05}",
+          "value": "{dark.dark-05}",
           "type": "color",
           "description": "Inner border for button on focused state"
         }
@@ -1240,64 +1240,64 @@
     "informational": {
       "body": {
         "default": {
-          "value": "{Dark.dark-05}",
+          "value": "{dark.dark-05}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "blue": {
-          "value": "{Blue.blue-10}",
+          "value": "{blue.blue-10}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
-          "value": "{Purple.purple-10}",
+          "value": "{purple.purple-10}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "orange": {
-          "value": "{Orange.orange-10}",
+          "value": "{orange.orange-10}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "red": {
-          "value": "{Red.red-10}",
+          "value": "{red.red-10}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "green": {
-          "value": "{Green.green-10}",
+          "value": "{green.green-10}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
       },
       "border": {
         "default": {
-          "value": "{Dark.dark-05}",
+          "value": "{dark.dark-05}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "blue": {
-          "value": "{Blue.blue-10}",
+          "value": "{blue.blue-10}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
-          "value": "{Purple.purple-10}",
+          "value": "{purple.purple-10}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "orange": {
-          "value": "{Orange.orange-10}",
+          "value": "{orange.orange-10}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "red": {
-          "value": "{Red.red-10}",
+          "value": "{red.red-10}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "green": {
-          "value": "{Green.green-10}",
+          "value": "{green.green-10}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
@@ -1308,39 +1308,39 @@
     "profile": {
       "body": {
         "normal": {
-          "value": "{Green.green-70}",
+          "value": "{green.green-70}",
           "type": "color",
           "description": "Accent colour on normal state"
         },
         "medium": {
-          "value": "{Green.green-60}",
+          "value": "{green.green-60}",
           "type": "color",
           "description": "Accent colour on hover state"
         },
         "high": {
-          "value": "{Green.green-90}",
+          "value": "{green.green-90}",
           "type": "color",
           "description": "Accent colour on selected state"
         }
       },
       "border": {
         "normal": {
-          "value": "{Green.green-70}",
+          "value": "{green.green-70}",
           "type": "color",
           "description": "Accent colour on normal state"
         },
         "medium": {
-          "value": "{Green.green-60}",
+          "value": "{green.green-60}",
           "type": "color",
           "description": "Accent colour on hover state"
         },
         "max1": {
-          "value": "{Green.green-90}",
+          "value": "{green.green-90}",
           "type": "color",
           "description": "Accent colour on selected state"
         },
         "extreme": {
-          "value": "{Blue.blue-50}",
+          "value": "{blue.blue-50}",
           "type": "color",
           "description": "Accent colour on focused state"
         }
@@ -1361,7 +1361,7 @@
           "y": "5",
           "blur": "10",
           "spread": "0",
-          "color": "rgba({Blue.blue-50}, 0.15)",
+          "color": "rgba({blue.blue-50}, 0.15)",
           "type": "dropShadow"
         }
       ],
@@ -1376,7 +1376,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({Green.green-60}, 1.0)",
+            "color": "rgba({green.green-60}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -1387,7 +1387,7 @@
     "menu": {
       "underline": {
         "normal": {
-          "value": "{Green.green-60}",
+          "value": "{green.green-60}",
           "type": "color",
           "description": "Accent colour "
         }
@@ -1398,39 +1398,39 @@
     "profile": {
       "body": {
         "normal": {
-          "value": "{Blue.blue-70}",
+          "value": "{blue.blue-70}",
           "type": "color",
           "description": "Accent colour on normal state"
         },
         "medium": {
-          "value": "{Blue.blue-60}",
+          "value": "{blue.blue-60}",
           "type": "color",
           "description": "Accent colour on hover state"
         },
         "high": {
-          "value": "{Blue.blue-90}",
+          "value": "{blue.blue-90}",
           "type": "color",
           "description": "Accent colour on selected state"
         }
       },
       "border": {
         "normal": {
-          "value": "{Blue.blue-70}",
+          "value": "{blue.blue-70}",
           "type": "color",
           "description": "Accent colour on normal state"
         },
         "medium": {
-          "value": "{Blue.blue-60}",
+          "value": "{blue.blue-60}",
           "type": "color",
           "description": "Accent colour on hover state"
         },
         "max1": {
-          "value": "{Blue.blue-90}",
+          "value": "{blue.blue-90}",
           "type": "color",
           "description": "Accent colour on selected state"
         },
         "extreme": {
-          "value": "{Blue.blue-50}",
+          "value": "{blue.blue-50}",
           "type": "color",
           "description": "Accent colour on focused state"
         }
@@ -1451,7 +1451,7 @@
           "y": "5",
           "blur": "10",
           "spread": "0",
-          "color": "rgba({Blue.blue-50}, 0.15)",
+          "color": "rgba({blue.blue-50}, 0.15)",
           "type": "dropShadow"
         }
       ],
@@ -1466,7 +1466,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({Blue.blue-60}, 1.0)",
+            "color": "rgba({blue.blue-60}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -1477,7 +1477,7 @@
     "menu": {
       "underline": {
         "normal": {
-          "value": "{Blue.blue-60}",
+          "value": "{blue.blue-60}",
           "type": "color",
           "description": "Accent colour "
         }
@@ -1488,39 +1488,39 @@
     "profile": {
       "body": {
         "normal": {
-          "value": "{Green.green-70}",
+          "value": "{green.green-70}",
           "type": "color",
           "description": "Accent colour on normal state"
         },
         "medium": {
-          "value": "{Green.green-60}",
+          "value": "{green.green-60}",
           "type": "color",
           "description": "Accent colour on hover state"
         },
         "high": {
-          "value": "{Green.green-90}",
+          "value": "{green.green-90}",
           "type": "color",
           "description": "Accent colour on selected state"
         }
       },
       "border": {
         "normal": {
-          "value": "{Green.green-50}",
+          "value": "{green.green-50}",
           "type": "color",
           "description": "Accent colour on normal state"
         },
         "medium": {
-          "value": "{Green.green-40}",
+          "value": "{green.green-40}",
           "type": "color",
           "description": "Accent colour on hover state"
         },
         "max1": {
-          "value": "{Green.green-60}",
+          "value": "{green.green-60}",
           "type": "color",
           "description": "Accent colour on selected state"
         },
         "extreme": {
-          "value": "{Blue.blue-50}",
+          "value": "{blue.blue-50}",
           "type": "color",
           "description": "Accent colour on focused state"
         }
@@ -1541,7 +1541,7 @@
           "y": "5",
           "blur": "10",
           "spread": "0",
-          "color": "rgba({Blue.blue-50}, 0.15)",
+          "color": "rgba({blue.blue-50}, 0.15)",
           "type": "dropShadow"
         }
       ],
@@ -1556,7 +1556,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({Green.green-60}, 1.0)",
+            "color": "rgba({green.green-60}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -1567,7 +1567,7 @@
     "menu": {
       "underline": {
         "normal": {
-          "value": "{Dark.dark-80}",
+          "value": "{dark.dark-80}",
           "type": "color",
           "description": "Accent colour "
         }
