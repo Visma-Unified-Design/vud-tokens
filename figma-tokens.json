@@ -1392,95 +1392,12 @@
           "description": "Accent colour "
         }
       }
-    }
-  },
-  "blue light": {
-    "profile": {
-      "body": {
-        "normal": {
-          "value": "{blue.blue-70}",
-          "type": "color",
-          "description": "Accent colour on normal state"
-        },
-        "medium": {
-          "value": "{blue.blue-60}",
-          "type": "color",
-          "description": "Accent colour on hover state"
-        },
-        "high": {
-          "value": "{blue.blue-90}",
-          "type": "color",
-          "description": "Accent colour on selected state"
-        }
-      },
-      "border": {
-        "normal": {
-          "value": "{blue.blue-70}",
-          "type": "color",
-          "description": "Accent colour on normal state"
-        },
-        "medium": {
-          "value": "{blue.blue-60}",
-          "type": "color",
-          "description": "Accent colour on hover state"
-        },
-        "max1": {
-          "value": "{blue.blue-90}",
-          "type": "color",
-          "description": "Accent colour on selected state"
-        },
-        "extreme": {
-          "value": "{blue.blue-50}",
-          "type": "color",
-          "description": "Accent colour on focused state"
-        }
-      }
     },
-    "focused": {
-      "value": [
-        {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "3",
-          "color": "#ffffff",
-          "type": "innerShadow"
-        },
-        {
-          "x": "0",
-          "y": "5",
-          "blur": "10",
-          "spread": "0",
-          "color": "rgba({blue.blue-50}, 0.15)",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow",
-      "description": "Accent colours grouped with focused state and shadow"
-    },
-    "border": {
-      "thick": {
-        "left": {
-          "value": {
-            "x": "4",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({blue.blue-60}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Thick left border with accent colour "
-        }
-      }
-    },
-    "menu": {
-      "underline": {
-        "normal": {
-          "value": "{blue.blue-60}",
-          "type": "color",
-          "description": "Accent colour "
-        }
+    "text": {
+      "normal": {
+        "value": "{neutral.neutral-05}",
+        "type": "color",
+        "description": "Text style"
       }
     }
   },
@@ -1571,6 +1488,13 @@
           "type": "color",
           "description": "Accent colour "
         }
+      }
+    },
+    "text": {
+      "normal": {
+        "value": "{neutral.neutral-05}",
+        "type": "color",
+        "description": "Text style"
       }
     }
   },
