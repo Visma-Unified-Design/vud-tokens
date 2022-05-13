@@ -1310,7 +1310,7 @@
         "normal": {
           "value": "{green.green-70}",
           "type": "color",
-          "description": "Accent colour on normal state"
+          "description": "Accent colour on normal, focused & selected state"
         },
         "medium": {
           "value": "{green.green-60}",
@@ -1318,9 +1318,9 @@
           "description": "Accent colour on hover state"
         },
         "high": {
-          "value": "{green.green-90}",
+          "value": "{green.green-80}",
           "type": "color",
-          "description": "Accent colour on selected state"
+          "description": "Accent colour on pressed state"
         }
       },
       "border": {
@@ -1407,7 +1407,7 @@
         "normal": {
           "value": "{green.green-70}",
           "type": "color",
-          "description": "Accent colour on normal state"
+          "description": "Accent colour on normal, focused & selected state"
         },
         "medium": {
           "value": "{green.green-60}",
@@ -1415,9 +1415,9 @@
           "description": "Accent colour on hover state"
         },
         "high": {
-          "value": "{green.green-90}",
+          "value": "{green.green-80}",
           "type": "color",
-          "description": "Accent colour on selected state"
+          "description": "Accent colour on pressed state"
         }
       },
       "border": {
