@@ -638,40 +638,40 @@
       }
     },
     "spacing": {
-      "1": {
+      "2": {
         "value": "{base}",
         "type": "spacing"
       },
-      "2": {
-        "value": "{spacing.1}*2",
-        "type": "spacing"
-      },
-      "3": {
-        "value": "{spacing.1}*4",
-        "type": "spacing"
-      },
       "4": {
-        "value": "{spacing.1}*6",
-        "type": "spacing"
-      },
-      "5": {
-        "value": "{spacing.1}*8",
-        "type": "spacing"
-      },
-      "6": {
-        "value": "{spacing.1}*12",
-        "type": "spacing"
-      },
-      "7": {
-        "value": "{spacing.1}*16",
+        "value": "{spacing.2}*2",
         "type": "spacing"
       },
       "8": {
-        "value": "{spacing.1}*20",
+        "value": "{spacing.2}*4",
         "type": "spacing"
       },
-      "9": {
-        "value": "{spacing.1}*24",
+      "12": {
+        "value": "{spacing.2}*6",
+        "type": "spacing"
+      },
+      "16": {
+        "value": "{spacing.2}*8",
+        "type": "spacing"
+      },
+      "24": {
+        "value": "{spacing.2}*12",
+        "type": "spacing"
+      },
+      "32": {
+        "value": "{spacing.2}*16",
+        "type": "spacing"
+      },
+      "40": {
+        "value": "{spacing.2}*20",
+        "type": "spacing"
+      },
+      "48": {
+        "value": "{spacing.2}*24",
         "type": "spacing"
       }
     },
