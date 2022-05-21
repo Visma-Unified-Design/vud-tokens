@@ -1,16 +1,20 @@
 {
   "global": {
     "radii": {
-      "small": {
+      "none": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "sm": {
         "value": "{base}",
         "type": "borderRadius"
       },
-      "medium": {
-        "value": "{radii.small}*4",
+      "md": {
+        "value": "{radii.sm}*4",
         "type": "borderRadius"
       },
-      "large": {
-        "value": "{radii.small}*12",
+      "lg": {
+        "value": "{radii.sm}*12",
         "type": "borderRadius"
       }
     },
@@ -1508,108 +1512,6 @@
       }
     }
   },
-  "green dark": {
-    "profile": {
-      "background": {
-        "normal": {
-          "value": "{green.green-70}",
-          "type": "color",
-          "description": "Accent colour on normal, focused & selected state"
-        },
-        "medium": {
-          "value": "{green.green-60}",
-          "type": "color",
-          "description": "Accent colour on hover state"
-        },
-        "high": {
-          "value": "{green.green-80}",
-          "type": "color",
-          "description": "Accent colour on pressed state"
-        }
-      },
-      "border": {
-        "normal": {
-          "value": "{green.green-50}",
-          "type": "color",
-          "description": "Accent colour on normal state"
-        },
-        "medium": {
-          "value": "{green.green-40}",
-          "type": "color",
-          "description": "Accent colour on hover state"
-        },
-        "max1": {
-          "value": "{green.green-60}",
-          "type": "color",
-          "description": "Accent colour on selected state"
-        },
-        "extreme": {
-          "value": "{blue.blue-50}",
-          "type": "color",
-          "description": "Accent colour on focused state"
-        }
-      }
-    },
-    "focused": {
-      "value": [
-        {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "3",
-          "color": "#ffffff",
-          "type": "innerShadow"
-        },
-        {
-          "x": "0",
-          "y": "5",
-          "blur": "10",
-          "spread": "0",
-          "color": "rgba({blue.blue-50}, 0.15)",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow",
-      "description": "Accent colours grouped with focused state and shadow"
-    },
-    "border": {
-      "thick": {
-        "left": {
-          "value": {
-            "x": "4",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({green.green-60}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Thick left border with accent colour "
-        }
-      },
-      "inner": {
-        "value": "{border.thinner}",
-        "type": "borderWidth",
-        "description": "Border width"
-      }
-    },
-    "menu": {
-      "underline": {
-        "normal": {
-          "value": "{dark.dark-80}",
-          "type": "color",
-          "description": "Accent colour "
-        }
-      }
-    },
-    "text": {
-      "normal": {
-        "value": "{neutral.neutral-05}",
-        "type": "color",
-        "description": "Text style"
-      }
-    }
-  },
   "purple light": {
     "profile": {
       "background": {
@@ -1809,6 +1711,108 @@
     "text": {
       "normal": {
         "value": "{orange.orange-90}",
+        "type": "color",
+        "description": "Text style"
+      }
+    }
+  },
+  "green dark": {
+    "profile": {
+      "background": {
+        "normal": {
+          "value": "{green.green-70}",
+          "type": "color",
+          "description": "Accent colour on normal, focused & selected state"
+        },
+        "medium": {
+          "value": "{green.green-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "high": {
+          "value": "{green.green-80}",
+          "type": "color",
+          "description": "Accent colour on pressed state"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{green.green-50}",
+          "type": "color",
+          "description": "Accent colour on normal state"
+        },
+        "medium": {
+          "value": "{green.green-40}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "max1": {
+          "value": "{green.green-60}",
+          "type": "color",
+          "description": "Accent colour on selected state"
+        },
+        "extreme": {
+          "value": "{blue.blue-50}",
+          "type": "color",
+          "description": "Accent colour on focused state"
+        }
+      }
+    },
+    "focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba({blue.blue-50}, 0.15)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
+    },
+    "border": {
+      "thick": {
+        "left": {
+          "value": {
+            "x": "4",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({green.green-60}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Thick left border with accent colour "
+        }
+      },
+      "inner": {
+        "value": "{border.thinner}",
+        "type": "borderWidth",
+        "description": "Border width"
+      }
+    },
+    "menu": {
+      "underline": {
+        "normal": {
+          "value": "{dark.dark-80}",
+          "type": "color",
+          "description": "Accent colour "
+        }
+      }
+    },
+    "text": {
+      "normal": {
+        "value": "{neutral.neutral-05}",
         "type": "color",
         "description": "Text style"
       }
