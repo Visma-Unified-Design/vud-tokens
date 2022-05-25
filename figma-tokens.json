@@ -639,10 +639,6 @@
       "256": {
         "value": "{sizing.2}*128",
         "type": "sizing"
-      },
-      "400": {
-        "value": "400",
-        "type": "sizing"
       }
     },
     "spacing": {
