@@ -1408,6 +1408,45 @@
         "type": "color",
         "description": "Text style"
       }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "low": {
+            "value": "rgba(78, 156, 84, 0.25)",
+            "type": "color",
+            "description": "Low intensity accent background colour "
+          },
+          "high": {
+            "value": "{green.green-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{green.green-60}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "rgba(107, 107, 107, 0.16)",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{neutral.neutral-70}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
     }
   },
   "blue light": {
@@ -1920,5 +1959,18 @@
       }
     }
   },
-  "$themes": []
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "light",
+      "dark",
+      "green light",
+      "blue light",
+      "purple light",
+      "orange light",
+      "green dark",
+      "blue dark"
+    ]
+  }
 }
