@@ -1831,6 +1831,45 @@
         "type": "color",
         "description": "Text style"
       }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "low": {
+            "value": "rgba(202, 121, 0, 0.25)",
+            "type": "color",
+            "description": "Low intensity accent background colour "
+          },
+          "high": {
+            "value": "{orange.orange-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{orange.orange-60}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "rgba(107, 107, 107, 0.16)",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{neutral.neutral-70}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
     }
   },
   "green dark": {
