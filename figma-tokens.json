@@ -1690,6 +1690,45 @@
         "type": "color",
         "description": "Text style"
       }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "low": {
+            "value": "rgba(115, 101, 184, 0.25)",
+            "type": "color",
+            "description": "Low intensity accent background colour "
+          },
+          "high": {
+            "value": "{purple.purple-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{purple.purple-60}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "rgba(107, 107, 107, 0.16)",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{neutral.neutral-70}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
     }
   },
   "orange light": {
