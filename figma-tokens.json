@@ -731,8 +731,12 @@
         "value": "12%",
         "type": "opacity"
       },
-      "24": {
-        "value": "24%",
+      "16": {
+        "value": "16%",
+        "type": "opacity"
+      },
+      "25": {
+        "value": "25%",
         "type": "opacity"
       },
       "50": {
@@ -1412,11 +1416,6 @@
     "pictogram": {
       "profile": {
         "background": {
-          "low": {
-            "value": "rgba(78, 156, 84, 0.25)",
-            "type": "color",
-            "description": "Low intensity accent background colour "
-          },
           "high": {
             "value": "{green.green-60}",
             "type": "color",
@@ -1434,14 +1433,14 @@
       "neutral": {
         "background": {
           "low": {
-            "value": "rgba(107, 107, 107, 0.16)",
+            "value": "{neutral.neutral-60}",
             "type": "color",
             "description": "Low intensity accent background colour"
           }
         },
         "border": {
           "high": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-60}",
             "type": "color",
             "description": "High intensity accent border colour"
           }
@@ -1553,11 +1552,6 @@
     "pictogram": {
       "profile": {
         "background": {
-          "low": {
-            "value": "rgba(17, 111, 174, 0.25)",
-            "type": "color",
-            "description": "Low intensity accent background colour "
-          },
           "high": {
             "value": "{blue.blue-60}",
             "type": "color",
@@ -1575,14 +1569,14 @@
       "neutral": {
         "background": {
           "low": {
-            "value": "rgba(107, 107, 107, 0.16)",
+            "value": "{neutral.neutral-60}",
             "type": "color",
             "description": "Low intensity accent background colour"
           }
         },
         "border": {
           "high": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-60}",
             "type": "color",
             "description": "High intensity accent border colour"
           }
@@ -1694,11 +1688,6 @@
     "pictogram": {
       "profile": {
         "background": {
-          "low": {
-            "value": "rgba(115, 101, 184, 0.25)",
-            "type": "color",
-            "description": "Low intensity accent background colour "
-          },
           "high": {
             "value": "{purple.purple-60}",
             "type": "color",
@@ -1716,14 +1705,14 @@
       "neutral": {
         "background": {
           "low": {
-            "value": "rgba(107, 107, 107, 0.16)",
+            "value": "{neutral.neutral-60}",
             "type": "color",
             "description": "Low intensity accent background colour"
           }
         },
         "border": {
           "high": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-60}",
             "type": "color",
             "description": "High intensity accent border colour"
           }
@@ -1835,11 +1824,6 @@
     "pictogram": {
       "profile": {
         "background": {
-          "low": {
-            "value": "rgba(202, 121, 0, 0.25)",
-            "type": "color",
-            "description": "Low intensity accent background colour "
-          },
           "high": {
             "value": "{orange.orange-60}",
             "type": "color",
@@ -1857,14 +1841,14 @@
       "neutral": {
         "background": {
           "low": {
-            "value": "rgba(107, 107, 107, 0.16)",
+            "value": "{neutral.neutral-60}",
             "type": "color",
             "description": "Low intensity accent background colour"
           }
         },
         "border": {
           "high": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-60}",
             "type": "color",
             "description": "High intensity accent border colour"
           }
@@ -1976,11 +1960,6 @@
     "pictogram": {
       "profile": {
         "background": {
-          "low": {
-            "value": "rgba(204, 51, 76, 0.25)",
-            "type": "color",
-            "description": "Low intensity accent background colour "
-          },
           "high": {
             "value": "{red.red-60}",
             "type": "color",
@@ -1998,14 +1977,14 @@
       "neutral": {
         "background": {
           "low": {
-            "value": "rgba(107, 107, 107, 0.16)",
+            "value": "{neutral.neutral-60}",
             "type": "color",
             "description": "Low intensity accent background colour"
           }
         },
         "border": {
           "high": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-60}",
             "type": "color",
             "description": "High intensity accent border colour"
           }
@@ -2112,6 +2091,40 @@
         "value": "{neutral.neutral-05}",
         "type": "color",
         "description": "Text style"
+      }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "high": {
+            "value": "{green.green-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{green.green-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "{dark.dark-60}",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{dark.dark-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
       }
     }
   },
