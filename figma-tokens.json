@@ -2264,6 +2264,142 @@
       }
     }
   },
+  "purple dark": {
+    "profile": {
+      "background": {
+        "normal": {
+          "value": "{purple.purple-70}",
+          "type": "color",
+          "description": "Accent colour on normal, focused & selected state"
+        },
+        "medium": {
+          "value": "{purple.purple-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "high": {
+          "value": "{purple.purple-80}",
+          "type": "color",
+          "description": "Accent colour on pressed state"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{purple.purple-50}",
+          "type": "color",
+          "description": "Accent colour on normal state"
+        },
+        "medium": {
+          "value": "{purple.purple-40}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "max1": {
+          "value": "{purple.purple-60}",
+          "type": "color",
+          "description": "Accent colour on selected state"
+        },
+        "extreme": {
+          "value": "{purple.purple-50}",
+          "type": "color",
+          "description": "Accent colour on focused state"
+        }
+      }
+    },
+    "focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba({blue.blue-50}, 0.15)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
+    },
+    "border": {
+      "thick": {
+        "left": {
+          "value": {
+            "x": "4",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({purple.purple-60}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Thick left border with accent colour "
+        }
+      },
+      "inner": {
+        "value": "{border.thinner}",
+        "type": "borderWidth",
+        "description": "Border width"
+      }
+    },
+    "menu": {
+      "underline": {
+        "normal": {
+          "value": "{dark.dark-80}",
+          "type": "color",
+          "description": "Accent colour "
+        }
+      }
+    },
+    "text": {
+      "normal": {
+        "value": "{neutral.neutral-05}",
+        "type": "color",
+        "description": "Text style"
+      }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "high": {
+            "value": "{purple.purple-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{purple.purple-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "{dark.dark-60}",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{dark.dark-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -2276,7 +2412,8 @@
       "orange light",
       "red light",
       "green dark",
-      "blue dark"
+      "blue dark",
+      "purple dark"
     ]
   }
 }
