@@ -2228,6 +2228,40 @@
         "type": "color",
         "description": "Text style"
       }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "high": {
+            "value": "{blue.blue-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{blue.blue-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "{dark.dark-60}",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{dark.dark-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
     }
   },
   "$themes": [],
