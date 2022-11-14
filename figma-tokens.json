@@ -1433,14 +1433,14 @@
       "neutral": {
         "background": {
           "low": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-90}",
             "type": "color",
             "description": "Low intensity accent background colour"
           }
         },
         "border": {
           "high": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-90}",
             "type": "color",
             "description": "High intensity accent border colour"
           }
@@ -1569,14 +1569,14 @@
       "neutral": {
         "background": {
           "low": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-90}",
             "type": "color",
             "description": "Low intensity accent background colour"
           }
         },
         "border": {
           "high": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-90}",
             "type": "color",
             "description": "High intensity accent border colour"
           }
@@ -1705,14 +1705,14 @@
       "neutral": {
         "background": {
           "low": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-90}",
             "type": "color",
             "description": "Low intensity accent background colour"
           }
         },
         "border": {
           "high": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-90}",
             "type": "color",
             "description": "High intensity accent border colour"
           }
@@ -1841,14 +1841,14 @@
       "neutral": {
         "background": {
           "low": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-90}",
             "type": "color",
             "description": "Low intensity accent background colour"
           }
         },
         "border": {
           "high": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-90}",
             "type": "color",
             "description": "High intensity accent border colour"
           }
@@ -1977,14 +1977,14 @@
       "neutral": {
         "background": {
           "low": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-90}",
             "type": "color",
             "description": "Low intensity accent background colour"
           }
         },
         "border": {
           "high": {
-            "value": "{neutral.neutral-70}",
+            "value": "{neutral.neutral-90}",
             "type": "color",
             "description": "High intensity accent border colour"
           }
