@@ -1,2 +1,2 @@
 # vud-tokens
-Figma Tokens for VUD Library
+Tokens for VUD Design System Library
