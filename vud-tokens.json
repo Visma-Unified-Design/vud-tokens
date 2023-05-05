@@ -1,0 +1,2693 @@
+{
+  "global": {
+    "radii": {
+      "none": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "sm": {
+        "value": "{base}",
+        "type": "borderRadius"
+      },
+      "md": {
+        "value": "{radii.sm}*4",
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": "{radii.sm}*12",
+        "type": "borderRadius"
+      }
+    },
+    "neutral": {
+      "neutral-05": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "neutral-10": {
+        "value": "#F7F7F7",
+        "type": "color"
+      },
+      "neutral-20": {
+        "value": "#F2F2F2",
+        "type": "color"
+      },
+      "neutral-30": {
+        "value": "#DADADA",
+        "type": "color"
+      },
+      "neutral-40": {
+        "value": "#C0C0C0",
+        "type": "color"
+      },
+      "neutral-50": {
+        "value": "#A5A5A5",
+        "type": "color"
+      },
+      "neutral-60": {
+        "value": "#8A8A8A",
+        "type": "color"
+      },
+      "neutral-70": {
+        "value": "#6B6B6B",
+        "type": "color"
+      },
+      "neutral-80": {
+        "value": "#494A4A",
+        "type": "color"
+      },
+      "neutral-90": {
+        "value": "#252626",
+        "type": "color"
+      }
+    },
+    "blue": {
+      "blue-05": {
+        "value": "#E7F2F9",
+        "type": "color"
+      },
+      "blue-10": {
+        "value": "#D2EAFA",
+        "type": "color"
+      },
+      "blue-20": {
+        "value": "#99CBEC",
+        "type": "color"
+      },
+      "blue-30": {
+        "value": "#6CB2E1",
+        "type": "color"
+      },
+      "blue-40": {
+        "value": "#419BD7",
+        "type": "color"
+      },
+      "blue-50": {
+        "value": "#1482CC",
+        "type": "color"
+      },
+      "blue-60": {
+        "value": "#116FAE",
+        "type": "color"
+      },
+      "blue-70": {
+        "value": "#0D5788",
+        "type": "color"
+      },
+      "blue-80": {
+        "value": "#14476A",
+        "type": "color"
+      },
+      "blue-90": {
+        "value": "#1B384C",
+        "type": "color"
+      }
+    },
+    "green": {
+      "green-05": {
+        "value": "#EBF7EB",
+        "type": "color"
+      },
+      "green-10": {
+        "value": "#CFE7CF",
+        "type": "color"
+      },
+      "green-20": {
+        "value": "#AFD4AF",
+        "type": "color"
+      },
+      "green-30": {
+        "value": "#9BC29B",
+        "type": "color"
+      },
+      "green-40": {
+        "value": "#7FAF7F",
+        "type": "color"
+      },
+      "green-50": {
+        "value": "#67A870",
+        "type": "color"
+      },
+      "green-60": {
+        "value": "#4E9C54",
+        "type": "color"
+      },
+      "green-70": {
+        "value": "#2D7048",
+        "type": "color"
+      },
+      "green-80": {
+        "value": "#316245",
+        "type": "color"
+      },
+      "green-90": {
+        "value": "#254934",
+        "type": "color"
+      }
+    },
+    "shadow": {
+      "12": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "4",
+          "spread": "0",
+          "color": "rgba({neutral.neutral-90}, 0.12)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "15": {
+        "value": {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba({neutral.neutral-90}, 0.15)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "24": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "4",
+          "spread": "0",
+          "color": "rgba({neutral.neutral-90}, 0.24)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "red": {
+      "red-05": {
+        "value": "#FFEDEF",
+        "type": "color"
+      },
+      "red-10": {
+        "value": "#FAD9DE",
+        "type": "color"
+      },
+      "red-20": {
+        "value": "#F1BDC4",
+        "type": "color"
+      },
+      "red-30": {
+        "value": "#EAA1AC",
+        "type": "color"
+      },
+      "red-40": {
+        "value": "#E28594",
+        "type": "color"
+      },
+      "red-50": {
+        "value": "#DB6B7D",
+        "type": "color"
+      },
+      "red-60": {
+        "value": "#D44F64",
+        "type": "color"
+      },
+      "red-70": {
+        "value": "#CC334C",
+        "type": "color"
+      },
+      "red-80": {
+        "value": "#A12036",
+        "type": "color"
+      },
+      "red-90": {
+        "value": "#801F30",
+        "type": "color"
+      }
+    },
+    "orange": {
+      "orange-05": {
+        "value": "#FCF2DC",
+        "type": "color"
+      },
+      "orange-10": {
+        "value": "#FCDFB1",
+        "type": "color"
+      },
+      "orange-20": {
+        "value": "#FAD7A2",
+        "type": "color"
+      },
+      "orange-30": {
+        "value": "#F2C480",
+        "type": "color"
+      },
+      "orange-40": {
+        "value": "#EDB45F",
+        "type": "color"
+      },
+      "orange-50": {
+        "value": "#E5A23E",
+        "type": "color"
+      },
+      "orange-60": {
+        "value": "#CA7900",
+        "type": "color"
+      },
+      "orange-70": {
+        "value": "#C26800",
+        "type": "color"
+      },
+      "orange-80": {
+        "value": "#B35300",
+        "type": "color"
+      },
+      "orange-90": {
+        "value": "#803B00",
+        "type": "color"
+      }
+    },
+    "purple": {
+      "purple-05": {
+        "value": "#EDECF5",
+        "type": "color"
+      },
+      "purple-10": {
+        "value": "#DAD7EA",
+        "type": "color"
+      },
+      "purple-20": {
+        "value": "#C6C1DF",
+        "type": "color"
+      },
+      "purple-30": {
+        "value": "#B2ABD3",
+        "type": "color"
+      },
+      "purple-40": {
+        "value": "#9E96C8",
+        "type": "color"
+      },
+      "purple-50": {
+        "value": "#8A80BD",
+        "type": "color"
+      },
+      "purple-60": {
+        "value": "#7365B8",
+        "type": "color"
+      },
+      "purple-70": {
+        "value": "#6154A5",
+        "type": "color"
+      },
+      "purple-80": {
+        "value": "#4D3D99",
+        "type": "color"
+      },
+      "purple-90": {
+        "value": "#403380",
+        "type": "color"
+      }
+    },
+    "title": {
+      "large": {
+        "regular": {
+          "value": {
+            "fontFamily": "{primary}",
+            "fontWeight": "Regular",
+            "lineHeight": "AUTO",
+            "fontSize": "48",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography"
+        },
+        "bold": {
+          "value": {
+            "fontFamily": "{primary}",
+            "fontWeight": "Bold",
+            "lineHeight": "AUTO",
+            "fontSize": "48",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography"
+        }
+      },
+      "medium": {
+        "regular": {
+          "value": {
+            "fontFamily": "{primary}",
+            "fontWeight": "Regular",
+            "lineHeight": "AUTO",
+            "fontSize": "32",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography"
+        },
+        "bold": {
+          "value": {
+            "fontFamily": "{primary}",
+            "fontWeight": "Bold",
+            "lineHeight": "AUTO",
+            "fontSize": "32",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography"
+        }
+      },
+      "small": {
+        "regular": {
+          "value": {
+            "fontFamily": "{primary}",
+            "fontWeight": "Regular",
+            "lineHeight": "AUTO",
+            "fontSize": "20",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography"
+        },
+        "semibold": {
+          "value": {
+            "fontFamily": "{primary}",
+            "fontWeight": "Medium",
+            "lineHeight": "AUTO",
+            "fontSize": "20",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography"
+        },
+        "bold": {
+          "value": {
+            "fontFamily": "{primary}",
+            "fontWeight": "Bold",
+            "lineHeight": "AUTO",
+            "fontSize": "20",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "body": {
+      "primary": {
+        "large": {
+          "regular": {
+            "value": {
+              "fontFamily": "{primary}",
+              "fontWeight": "Regular",
+              "lineHeight": "AUTO",
+              "fontSize": "20",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography"
+          },
+          "semibold": {
+            "value": {
+              "fontFamily": "{primary}",
+              "fontWeight": "Medium",
+              "lineHeight": "AUTO",
+              "fontSize": "20",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography"
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "{primary}",
+              "fontWeight": "Bold",
+              "lineHeight": "AUTO",
+              "fontSize": "20",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography"
+          }
+        },
+        "small": {
+          "regular": {
+            "value": {
+              "fontFamily": "{primary}",
+              "fontWeight": "Regular",
+              "lineHeight": "AUTO",
+              "fontSize": "16",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography"
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "{primary}",
+              "fontWeight": "Bold",
+              "lineHeight": "AUTO",
+              "fontSize": "16",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography"
+          }
+        }
+      },
+      "secondary": {
+        "medium": {
+          "regular": {
+            "value": {
+              "fontFamily": "{secondary}",
+              "fontWeight": "Regular",
+              "lineHeight": "AUTO",
+              "fontSize": "14",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography"
+          },
+          "semibold": {
+            "value": {
+              "fontFamily": "{secondary}",
+              "fontWeight": "SemiBold",
+              "lineHeight": "AUTO",
+              "fontSize": "14",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography"
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "{secondary}",
+              "fontWeight": "Bold",
+              "lineHeight": "AUTO",
+              "fontSize": "14",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography"
+          }
+        },
+        "small": {
+          "regular": {
+            "value": {
+              "fontFamily": "{secondary}",
+              "fontWeight": "Regular",
+              "lineHeight": "AUTO",
+              "fontSize": "13",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography"
+          },
+          "semibold": {
+            "value": {
+              "fontFamily": "{secondary}",
+              "fontWeight": "SemiBold",
+              "lineHeight": "AUTO",
+              "fontSize": "13",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography"
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "{secondary}",
+              "fontWeight": "Bold",
+              "lineHeight": "AUTO",
+              "fontSize": "13",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    },
+    "secondary": {
+      "value": "Open Sans",
+      "type": "fontFamilies"
+    },
+    "primary": {
+      "value": "Ubuntu",
+      "type": "fontFamilies"
+    },
+    "border": {
+      "none": {
+        "value": "0",
+        "type": "borderWidth"
+      },
+      "thinner": {
+        "value": "1",
+        "type": "borderWidth"
+      },
+      "thin": {
+        "value": "1.5",
+        "type": "borderWidth"
+      },
+      "thick": {
+        "value": "2",
+        "type": "borderWidth"
+      }
+    },
+    "sizing": {
+      "2": {
+        "value": "{base}",
+        "type": "sizing"
+      },
+      "4": {
+        "value": "{sizing.2}*2",
+        "type": "sizing"
+      },
+      "8": {
+        "value": "{sizing.2}*4",
+        "type": "sizing"
+      },
+      "12": {
+        "value": "{sizing.2}*6",
+        "type": "sizing"
+      },
+      "16": {
+        "value": "{sizing.2}*8",
+        "type": "sizing"
+      },
+      "24": {
+        "value": "{sizing.2}*12",
+        "type": "sizing"
+      },
+      "32": {
+        "value": "{sizing.2}*16",
+        "type": "sizing"
+      },
+      "40": {
+        "value": "{sizing.2}*20",
+        "type": "sizing"
+      },
+      "48": {
+        "value": "{sizing.2}*24",
+        "type": "sizing"
+      },
+      "64": {
+        "value": "{sizing.2}*32",
+        "type": "sizing"
+      },
+      "96": {
+        "value": "{sizing.2}*48",
+        "type": "sizing"
+      },
+      "128": {
+        "value": "{sizing.2}*64",
+        "type": "sizing"
+      },
+      "256": {
+        "value": "{sizing.2}*128",
+        "type": "sizing"
+      }
+    },
+    "spacing": {
+      "2": {
+        "value": "{base}",
+        "type": "spacing"
+      },
+      "4": {
+        "value": "{spacing.2}*2",
+        "type": "spacing"
+      },
+      "8": {
+        "value": "{spacing.2}*4",
+        "type": "spacing"
+      },
+      "12": {
+        "value": "{spacing.2}*6",
+        "type": "spacing"
+      },
+      "16": {
+        "value": "{spacing.2}*8",
+        "type": "spacing"
+      },
+      "24": {
+        "value": "{spacing.2}*12",
+        "type": "spacing"
+      },
+      "32": {
+        "value": "{spacing.2}*16",
+        "type": "spacing"
+      },
+      "40": {
+        "value": "{spacing.2}*20",
+        "type": "spacing"
+      },
+      "48": {
+        "value": "{spacing.2}*24",
+        "type": "spacing"
+      }
+    },
+    "base": {
+      "value": "2",
+      "type": "other",
+      "description": "Unique base for sizing, spacing"
+    },
+    "dark": {
+      "dark-90": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "dark-80": {
+        "value": "#15181A",
+        "type": "color"
+      },
+      "dark-70": {
+        "value": "#2B3033",
+        "type": "color"
+      },
+      "dark-60": {
+        "value": "#4C545B",
+        "type": "color"
+      },
+      "dark-50": {
+        "value": "#6F7A82",
+        "type": "color"
+      },
+      "dark-40": {
+        "value": "#86929B",
+        "type": "color"
+      },
+      "dark-30": {
+        "value": "#9AA5AE",
+        "type": "color"
+      },
+      "dark-20": {
+        "value": "#AFBCC4",
+        "type": "color"
+      },
+      "dark-10": {
+        "value": "#C3D0D9",
+        "type": "color"
+      },
+      "dark-05": {
+        "value": "#E4EBF0",
+        "type": "color"
+      }
+    },
+    "opacity": {
+      "12": {
+        "value": "12%",
+        "type": "opacity"
+      },
+      "16": {
+        "value": "16%",
+        "type": "opacity"
+      },
+      "25": {
+        "value": "25%",
+        "type": "opacity"
+      },
+      "50": {
+        "value": "50%",
+        "type": "opacity"
+      }
+    }
+  },
+  "light": {
+    "base": {
+      "canvas": {
+        "value": "{neutral.neutral-20}",
+        "type": "color",
+        "description": "Canvas"
+      },
+      "container": {
+        "value": "{neutral.neutral-05}",
+        "type": "color",
+        "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
+      }
+    },
+    "text": {
+      "default": {
+        "value": "{neutral.neutral-90}",
+        "type": "color",
+        "description": "Default text colour on body, header"
+      },
+      "primary": {
+        "value": "{neutral.neutral-05}",
+        "type": "color",
+        "description": "Primary text colour on ui controls"
+      },
+      "secondary": {
+        "value": "{neutral.neutral-80}",
+        "type": "color",
+        "description": "Secondary text colour"
+      },
+      "emphasised": {
+        "value": "{blue.blue-50}",
+        "type": "color",
+        "description": "Emphasised text colour on important text and links, titles, headers"
+      },
+      "disabled": {
+        "value": "{neutral.neutral-60}",
+        "type": "color",
+        "description": "Disabled text colour"
+      },
+      "error": {
+        "value": "{red.red-80}",
+        "type": "color",
+        "description": "Error text colour"
+      },
+      "warning": {
+        "value": "{orange.orange-90}",
+        "type": "color",
+        "description": "Warning text colour on body, headers"
+      },
+      "succes": {
+        "value": "{green.green-70}",
+        "type": "color",
+        "description": "Successful text colour"
+      }
+    },
+    "icon": {
+      "neutral": {
+        "value": "{neutral.neutral-05}",
+        "type": "color",
+        "description": "Default icon"
+      },
+      "blue": {
+        "value": "{blue.blue-50}",
+        "type": "color",
+        "description": "Blue icon"
+      },
+      "red": {
+        "value": "{red.red-60}",
+        "type": "color",
+        "description": "Red icon"
+      },
+      "orange": {
+        "value": "{orange.orange-70}",
+        "type": "color",
+        "description": "Orange icon"
+      },
+      "green": {
+        "value": "{green.green-60}",
+        "type": "color",
+        "description": "Green icon"
+      },
+      "state": {
+        "low": {
+          "value": "{neutral.neutral-60}",
+          "type": "color",
+          "description": "Grey icon on disabled state"
+        },
+        "normal": {
+          "value": "{neutral.neutral-80}",
+          "type": "color",
+          "description": "Grey icon on normal state"
+        },
+        "medium": {
+          "value": "{neutral.neutral-70}",
+          "type": "color",
+          "description": "Grey icon on hover state"
+        }
+      }
+    },
+    "divider": {
+      "solid": {
+        "value": "{neutral.neutral-30}",
+        "type": "color",
+        "description": "Solid divider "
+      },
+      "dotted": {
+        "value": "{neutral.neutral-60}",
+        "type": "color",
+        "description": "Dotted divider"
+      }
+    },
+    "default": {
+      "background": {
+        "normal": {
+          "value": "{neutral.neutral-05}",
+          "type": "color",
+          "description": "Input field, default button, search bar on normal & disabled state"
+        },
+        "medium": {
+          "value": "{blue.blue-10}",
+          "type": "color",
+          "description": "Input field, default button, search bar on hover state"
+        },
+        "high": {
+          "value": "{neutral.neutral-30}",
+          "type": "color",
+          "description": "Input field, default button, search bar on pressed state"
+        },
+        "max1": {
+          "value": "{neutral.neutral-20}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 1"
+        },
+        "max2": {
+          "value": "{green.green-70}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{neutral.neutral-60}",
+          "type": "color",
+          "description": "Input field, default button, search bar on normal, pressed & selected state"
+        },
+        "medium": {
+          "value": "{blue.blue-50}",
+          "type": "color",
+          "description": "Input field, default button, search bar on hover state"
+        },
+        "max2": {
+          "value": "{green.green-70}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
+        },
+        "low": {
+          "value": "{neutral.neutral-40}",
+          "type": "color",
+          "description": "Input field, default button, search bar on disabled state"
+        },
+        "extreme": {
+          "value": "{blue.blue-50}",
+          "type": "color"
+        }
+      }
+    },
+    "border": {
+      "thin": {
+        "left": {
+          "value": {
+            "x": "1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({neutral.neutral-20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Left border in table cell"
+        },
+        "top": {
+          "value": {
+            "x": "0",
+            "y": "1",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({neutral.neutral-20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Top border in table cell"
+        },
+        "right": {
+          "value": {
+            "x": "-1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({neutral.neutral-20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Right border in table cell"
+        },
+        "bottom": {
+          "value": {
+            "x": "0",
+            "y": "-1",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({neutral.neutral-20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Bottom border in table cell"
+        }
+      }
+    },
+    "informational": {
+      "background": {
+        "default": {
+          "value": "{neutral.neutral-05}",
+          "type": "color",
+          "description": "Default alerts. Lower prio statuses such as pairing"
+        },
+        "blue": {
+          "value": "{blue.blue-05}",
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+        },
+        "purple": {
+          "value": "{purple.purple-05}",
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
+        },
+        "orange": {
+          "value": "{orange.orange-05}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+        },
+        "red": {
+          "value": "{red.red-05}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+        },
+        "green": {
+          "value": "{green.green-05}",
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{neutral.neutral-60}",
+          "type": "color",
+          "description": "Default alerts. Lower prio statuses such as pairing"
+        },
+        "blue": {
+          "value": "{blue.blue-60}",
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+        },
+        "purple": {
+          "value": "{purple.purple-60}",
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
+        },
+        "orange": {
+          "value": "{orange.orange-70}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+        },
+        "red": {
+          "value": "{red.red-60}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+        },
+        "green": {
+          "value": "{green.green-60}",
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        }
+      }
+    }
+  },
+  "dark": {
+    "base": {
+      "canvas": {
+        "value": "{dark.dark-80}",
+        "type": "color",
+        "description": "Canvas"
+      },
+      "container": {
+        "value": "{dark.dark-70}",
+        "type": "color",
+        "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
+      }
+    },
+    "text": {
+      "default": {
+        "value": "{dark.dark-10}",
+        "type": "color",
+        "description": "Default text colour on body, header"
+      },
+      "primary": {
+        "value": "{dark.dark-05}",
+        "type": "color",
+        "description": "Primary text colour on ui controls"
+      },
+      "secondary": {
+        "value": "{dark.dark-10}",
+        "type": "color",
+        "description": "Secondary text colour"
+      },
+      "emphasised": {
+        "value": "{dark.dark-05}",
+        "type": "color",
+        "description": "Emphasised text colour on important text and links, titles, headers"
+      },
+      "disabled": {
+        "value": "{dark.dark-30}",
+        "type": "color",
+        "description": "Disabled text colour"
+      },
+      "error": {
+        "value": "{red.red-40}",
+        "type": "color",
+        "description": "Error text colour"
+      },
+      "orange": {
+        "value": "{orange.orange-50}",
+        "type": "color",
+        "description": "Warning text colour on body, headers"
+      },
+      "success": {
+        "value": "{green.green-50}",
+        "type": "color",
+        "description": "Successful text colour"
+      }
+    },
+    "icon": {
+      "neutral": {
+        "value": "{dark.dark-05}",
+        "type": "color",
+        "description": "Default icon"
+      },
+      "blue": {
+        "value": "{blue.blue-50}",
+        "type": "color",
+        "description": "Blue icon"
+      },
+      "red": {
+        "value": "{red.red-60}",
+        "type": "color",
+        "description": "Red icon"
+      },
+      "orange": {
+        "value": "{orange.orange-70}",
+        "type": "color",
+        "description": "Orange icon"
+      },
+      "green": {
+        "value": "{green.green-60}",
+        "type": "color",
+        "description": "Green icon"
+      },
+      "state": {
+        "low": {
+          "value": "{dark.dark-30}",
+          "type": "color",
+          "description": "Grey icon on disabled state"
+        },
+        "normal": {
+          "value": "{dark.dark-10}",
+          "type": "color",
+          "description": "Grey icon on hover state"
+        },
+        "medium": {
+          "value": "{dark.dark-10}",
+          "type": "color",
+          "description": "Grey icon on normal state"
+        }
+      }
+    },
+    "divider": {
+      "solid": {
+        "value": "{dark.dark-50}",
+        "type": "color",
+        "description": "Solid divider "
+      },
+      "dotted": {
+        "value": "{dark.dark-30}",
+        "type": "color",
+        "description": "Dotted divider"
+      }
+    },
+    "default": {
+      "background": {
+        "normal": {
+          "value": "{dark.dark-70}",
+          "type": "color",
+          "description": "Input field, default button, search bar on normal & disabled state"
+        },
+        "medium": {
+          "value": "{dark.dark-60}",
+          "type": "color",
+          "description": "Input field, default button, search bar on hover state"
+        },
+        "high": {
+          "value": "{dark.dark-90}",
+          "type": "color",
+          "description": "Input field, default button, search bar on pressed state"
+        },
+        "max1": {
+          "value": "{dark.dark-80}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 1"
+        },
+        "max2": {
+          "value": "{green.green-70}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{dark.dark-50}",
+          "type": "color",
+          "description": "Input field, default button, search bar on normal, pressed & selected state"
+        },
+        "medium": {
+          "value": "{dark.dark-30}",
+          "type": "color",
+          "description": "Input field, default button, search bar on hover state"
+        },
+        "max2": {
+          "value": "{green.green-60}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
+        },
+        "low": {
+          "value": "{dark.dark-60}",
+          "type": "color",
+          "description": "Input field, default button, search bar on disabled state"
+        },
+        "extreme": {
+          "value": "{dark.dark-05}",
+          "type": "color",
+          "description": "Inner border for button on focused state"
+        }
+      }
+    },
+    "border": {
+      "thin": {
+        "left": {
+          "value": {
+            "x": "1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "#6F7A82",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        },
+        "top": {
+          "value": {
+            "x": "0",
+            "y": "1",
+            "blur": "0",
+            "spread": "0",
+            "color": "#6F7A82",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        },
+        "right": {
+          "value": {
+            "x": "-1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "#6F7A82",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        },
+        "bottom": {
+          "value": {
+            "x": "0",
+            "y": "-1",
+            "blur": "0",
+            "spread": "0",
+            "color": "#6F7A82",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        }
+      }
+    },
+    "informational": {
+      "background": {
+        "default": {
+          "value": "{dark.dark-05}",
+          "type": "color",
+          "description": "Default alerts. Lower prio statuses such as pairing"
+        },
+        "blue": {
+          "value": "{blue.blue-10}",
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+        },
+        "purple": {
+          "value": "{purple.purple-10}",
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
+        },
+        "orange": {
+          "value": "{orange.orange-10}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+        },
+        "red": {
+          "value": "{red.red-10}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+        },
+        "green": {
+          "value": "{green.green-10}",
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{dark.dark-05}",
+          "type": "color",
+          "description": "Default alerts. Lower prio statuses such as pairing"
+        },
+        "blue": {
+          "value": "{blue.blue-10}",
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+        },
+        "purple": {
+          "value": "{purple.purple-10}",
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
+        },
+        "orange": {
+          "value": "{orange.orange-10}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+        },
+        "red": {
+          "value": "{red.red-10}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+        },
+        "green": {
+          "value": "{green.green-10}",
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        }
+      }
+    }
+  },
+  "green light": {
+    "profile": {
+      "background": {
+        "normal": {
+          "value": "{green.green-70}",
+          "type": "color",
+          "description": "Accent colour on normal, focused & selected state"
+        },
+        "medium": {
+          "value": "{green.green-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "high": {
+          "value": "{green.green-80}",
+          "type": "color",
+          "description": "Accent colour on pressed state"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{green.green-70}",
+          "type": "color",
+          "description": "Accent colour on normal state"
+        },
+        "medium": {
+          "value": "{green.green-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "max1": {
+          "value": "{green.green-90}",
+          "type": "color",
+          "description": "Accent colour on selected state"
+        },
+        "extreme": {
+          "value": "{blue.blue-50}",
+          "type": "color",
+          "description": "Accent colour on focused state"
+        }
+      }
+    },
+    "focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba({blue.blue-50}, 0.15)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
+    },
+    "border": {
+      "thick": {
+        "left": {
+          "value": {
+            "x": "4",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({green.green-60}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Thick left border with accent colour "
+        }
+      },
+      "inner": {
+        "value": "{border.thinner}",
+        "type": "borderWidth",
+        "description": "Border width"
+      }
+    },
+    "menu": {
+      "underline": {
+        "normal": {
+          "value": "{green.green-60}",
+          "type": "color",
+          "description": "Accent colour "
+        }
+      }
+    },
+    "text": {
+      "normal": {
+        "value": "{neutral.neutral-05}",
+        "type": "color",
+        "description": "Text style"
+      }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "high": {
+            "value": "{green.green-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{green.green-60}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "{neutral.neutral-90}",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{neutral.neutral-90}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
+    }
+  },
+  "blue light": {
+    "profile": {
+      "background": {
+        "normal": {
+          "value": "{blue.blue-70}",
+          "type": "color",
+          "description": "Accent colour on normal, focused & selected state"
+        },
+        "medium": {
+          "value": "{blue.blue-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "high": {
+          "value": "{blue.blue-80}",
+          "type": "color",
+          "description": "Accent colour on pressed state"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{blue.blue-70}",
+          "type": "color",
+          "description": "Accent colour on normal state"
+        },
+        "medium": {
+          "value": "{blue.blue-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "max1": {
+          "value": "{blue.blue-90}",
+          "type": "color",
+          "description": "Accent colour on selected state"
+        },
+        "extreme": {
+          "value": "{blue.blue-50}",
+          "type": "color",
+          "description": "Accent colour on focused state"
+        }
+      }
+    },
+    "focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba({blue.blue-50}, 0.15)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
+    },
+    "border": {
+      "thick": {
+        "left": {
+          "value": {
+            "x": "4",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({blue.blue-60}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Thick left border with accent colour "
+        }
+      },
+      "inner": {
+        "value": "{border.thinner}",
+        "type": "borderWidth",
+        "description": "Border width"
+      }
+    },
+    "menu": {
+      "underline": {
+        "normal": {
+          "value": "{blue.blue-60}",
+          "type": "color",
+          "description": "Accent colour "
+        }
+      }
+    },
+    "text": {
+      "normal": {
+        "value": "{neutral.neutral-05}",
+        "type": "color",
+        "description": "Text style"
+      }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "high": {
+            "value": "{blue.blue-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{blue.blue-60}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "{neutral.neutral-90}",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{neutral.neutral-90}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
+    }
+  },
+  "purple light": {
+    "profile": {
+      "background": {
+        "normal": {
+          "value": "{purple.purple-70}",
+          "type": "color",
+          "description": "Accent colour on normal, focused & selected state"
+        },
+        "medium": {
+          "value": "{purple.purple-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "high": {
+          "value": "{purple.purple-80}",
+          "type": "color",
+          "description": "Accent colour on pressed state"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{purple.purple-70}",
+          "type": "color",
+          "description": "Accent colour on normal state"
+        },
+        "medium": {
+          "value": "{purple.purple-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "max1": {
+          "value": "{purple.purple-90}",
+          "type": "color",
+          "description": "Accent colour on selected state"
+        },
+        "extreme": {
+          "value": "{blue.blue-50}",
+          "type": "color",
+          "description": "Accent colour on focused state"
+        }
+      }
+    },
+    "focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba({purple.purple-50}, 0.15)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
+    },
+    "border": {
+      "thick": {
+        "left": {
+          "value": {
+            "x": "4",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({purple.purple-60}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Thick left border with accent colour "
+        }
+      },
+      "inner": {
+        "value": "{border.thinner}",
+        "type": "borderWidth",
+        "description": "Border width"
+      }
+    },
+    "menu": {
+      "underline": {
+        "normal": {
+          "value": "{purple.purple-60}",
+          "type": "color",
+          "description": "Accent colour "
+        }
+      }
+    },
+    "text": {
+      "normal": {
+        "value": "{neutral.neutral-05}",
+        "type": "color",
+        "description": "Text style"
+      }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "high": {
+            "value": "{purple.purple-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{purple.purple-60}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "{neutral.neutral-90}",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{neutral.neutral-90}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
+    }
+  },
+  "orange light": {
+    "profile": {
+      "background": {
+        "normal": {
+          "value": "{orange.orange-70}",
+          "type": "color",
+          "description": "Accent colour on normal, focused & selected state"
+        },
+        "medium": {
+          "value": "{orange.orange-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "high": {
+          "value": "{orange.orange-80}",
+          "type": "color",
+          "description": "Accent colour on pressed state"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{orange.orange-70}",
+          "type": "color",
+          "description": "Accent colour on normal state"
+        },
+        "medium": {
+          "value": "{orange.orange-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "max1": {
+          "value": "{orange.orange-90}",
+          "type": "color",
+          "description": "Accent colour on selected state"
+        },
+        "extreme": {
+          "value": "{blue.blue-50}",
+          "type": "color",
+          "description": "Accent colour on focused state"
+        }
+      }
+    },
+    "focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba({orange.orange-50}, 0.15)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
+    },
+    "border": {
+      "thick": {
+        "left": {
+          "value": {
+            "x": "4",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({orange.orange-60}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Thick left border with accent colour "
+        }
+      },
+      "inner": {
+        "value": "{border.thick}",
+        "type": "borderWidth",
+        "description": "Border width"
+      }
+    },
+    "menu": {
+      "underline": {
+        "normal": {
+          "value": "{orange.orange-60}",
+          "type": "color",
+          "description": "Accent colour "
+        }
+      }
+    },
+    "text": {
+      "normal": {
+        "value": "{orange.orange-90}",
+        "type": "color",
+        "description": "Text style"
+      }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "high": {
+            "value": "{orange.orange-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{orange.orange-60}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "{neutral.neutral-90}",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{neutral.neutral-90}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
+    }
+  },
+  "red light": {
+    "profile": {
+      "background": {
+        "normal": {
+          "value": "{red.red-70}",
+          "type": "color",
+          "description": "Accent colour on normal, focused & selected state"
+        },
+        "medium": {
+          "value": "{red.red-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "high": {
+          "value": "{red.red-80}",
+          "type": "color",
+          "description": "Accent colour on pressed state"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{red.red-70}",
+          "type": "color",
+          "description": "Accent colour on normal state"
+        },
+        "medium": {
+          "value": "{red.red-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "max1": {
+          "value": "{red.red-90}",
+          "type": "color",
+          "description": "Accent colour on selected state"
+        },
+        "extreme": {
+          "value": "{blue.blue-50}",
+          "type": "color",
+          "description": "Accent colour on focused state"
+        }
+      }
+    },
+    "focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba({red.red-50}, 0.15)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
+    },
+    "border": {
+      "thick": {
+        "left": {
+          "value": {
+            "x": "4",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({red.red-60}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Thick left border with accent colour "
+        }
+      },
+      "inner": {
+        "value": "{border.thick}",
+        "type": "borderWidth",
+        "description": "Border width"
+      }
+    },
+    "menu": {
+      "underline": {
+        "normal": {
+          "value": "{red.red-60}",
+          "type": "color",
+          "description": "Accent colour "
+        }
+      }
+    },
+    "text": {
+      "normal": {
+        "value": "{red.red-90}",
+        "type": "color",
+        "description": "Text style"
+      }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "high": {
+            "value": "{red.red-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{red.red-60}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "{neutral.neutral-90}",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{neutral.neutral-90}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
+    }
+  },
+  "green dark": {
+    "profile": {
+      "background": {
+        "normal": {
+          "value": "{green.green-70}",
+          "type": "color",
+          "description": "Accent colour on normal, focused & selected state"
+        },
+        "medium": {
+          "value": "{green.green-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "high": {
+          "value": "{green.green-80}",
+          "type": "color",
+          "description": "Accent colour on pressed state"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{green.green-50}",
+          "type": "color",
+          "description": "Accent colour on normal state"
+        },
+        "medium": {
+          "value": "{green.green-40}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "max1": {
+          "value": "{green.green-60}",
+          "type": "color",
+          "description": "Accent colour on selected state"
+        },
+        "extreme": {
+          "value": "{blue.blue-50}",
+          "type": "color",
+          "description": "Accent colour on focused state"
+        }
+      }
+    },
+    "focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba({blue.blue-50}, 0.15)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
+    },
+    "border": {
+      "thick": {
+        "left": {
+          "value": {
+            "x": "4",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({green.green-60}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Thick left border with accent colour "
+        }
+      },
+      "inner": {
+        "value": "{border.thinner}",
+        "type": "borderWidth",
+        "description": "Border width"
+      }
+    },
+    "menu": {
+      "underline": {
+        "normal": {
+          "value": "{dark.dark-80}",
+          "type": "color",
+          "description": "Accent colour "
+        }
+      }
+    },
+    "text": {
+      "normal": {
+        "value": "{neutral.neutral-05}",
+        "type": "color",
+        "description": "Text style"
+      }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "high": {
+            "value": "{green.green-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{green.green-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "{dark.dark-60}",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{dark.dark-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
+    }
+  },
+  "blue dark": {
+    "profile": {
+      "background": {
+        "normal": {
+          "value": "{blue.blue-70}",
+          "type": "color",
+          "description": "Accent colour on normal, focused & selected state"
+        },
+        "medium": {
+          "value": "{blue.blue-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "high": {
+          "value": "{blue.blue-80}",
+          "type": "color",
+          "description": "Accent colour on pressed state"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{blue.blue-50}",
+          "type": "color",
+          "description": "Accent colour on normal state"
+        },
+        "medium": {
+          "value": "{blue.blue-40}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "max1": {
+          "value": "{blue.blue-60}",
+          "type": "color",
+          "description": "Accent colour on selected state"
+        },
+        "extreme": {
+          "value": "{blue.blue-50}",
+          "type": "color",
+          "description": "Accent colour on focused state"
+        }
+      }
+    },
+    "focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba({blue.blue-50}, 0.15)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
+    },
+    "border": {
+      "thick": {
+        "left": {
+          "value": {
+            "x": "4",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({blue.blue-60}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Thick left border with accent colour "
+        }
+      },
+      "inner": {
+        "value": "{border.thinner}",
+        "type": "borderWidth",
+        "description": "Border width"
+      }
+    },
+    "menu": {
+      "underline": {
+        "normal": {
+          "value": "{dark.dark-80}",
+          "type": "color",
+          "description": "Accent colour "
+        }
+      }
+    },
+    "text": {
+      "normal": {
+        "value": "{neutral.neutral-05}",
+        "type": "color",
+        "description": "Text style"
+      }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "high": {
+            "value": "{blue.blue-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{blue.blue-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "{dark.dark-60}",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{dark.dark-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
+    }
+  },
+  "purple dark": {
+    "profile": {
+      "background": {
+        "normal": {
+          "value": "{purple.purple-70}",
+          "type": "color",
+          "description": "Accent colour on normal, focused & selected state"
+        },
+        "medium": {
+          "value": "{purple.purple-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "high": {
+          "value": "{purple.purple-80}",
+          "type": "color",
+          "description": "Accent colour on pressed state"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{purple.purple-50}",
+          "type": "color",
+          "description": "Accent colour on normal state"
+        },
+        "medium": {
+          "value": "{purple.purple-40}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "max1": {
+          "value": "{purple.purple-60}",
+          "type": "color",
+          "description": "Accent colour on selected state"
+        },
+        "extreme": {
+          "value": "{purple.purple-50}",
+          "type": "color",
+          "description": "Accent colour on focused state"
+        }
+      }
+    },
+    "focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba({blue.blue-50}, 0.15)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
+    },
+    "border": {
+      "thick": {
+        "left": {
+          "value": {
+            "x": "4",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({purple.purple-60}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Thick left border with accent colour "
+        }
+      },
+      "inner": {
+        "value": "{border.thinner}",
+        "type": "borderWidth",
+        "description": "Border width"
+      }
+    },
+    "menu": {
+      "underline": {
+        "normal": {
+          "value": "{dark.dark-80}",
+          "type": "color",
+          "description": "Accent colour "
+        }
+      }
+    },
+    "text": {
+      "normal": {
+        "value": "{neutral.neutral-05}",
+        "type": "color",
+        "description": "Text style"
+      }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "high": {
+            "value": "{purple.purple-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{purple.purple-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "{dark.dark-60}",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{dark.dark-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
+    }
+  },
+  "orange dark": {
+    "profile": {
+      "background": {
+        "normal": {
+          "value": "{orange.orange-70}",
+          "type": "color",
+          "description": "Accent colour on normal, focused & selected state"
+        },
+        "medium": {
+          "value": "{orange.orange-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "high": {
+          "value": "{orange.orange-80}",
+          "type": "color",
+          "description": "Accent colour on pressed state"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{orange.orange-50}",
+          "type": "color",
+          "description": "Accent colour on normal state"
+        },
+        "medium": {
+          "value": "{orange.orange-40}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "max1": {
+          "value": "{orange.orange-60}",
+          "type": "color",
+          "description": "Accent colour on selected state"
+        },
+        "extreme": {
+          "value": "{orange.orange-50}",
+          "type": "color",
+          "description": "Accent colour on focused state"
+        }
+      }
+    },
+    "focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba({orange.orange-50}, 0.15)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
+    },
+    "border": {
+      "thick": {
+        "left": {
+          "value": {
+            "x": "4",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({orange.orange-60}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Thick left border with accent colour "
+        }
+      },
+      "inner": {
+        "value": "{border.thinner}",
+        "type": "borderWidth",
+        "description": "Border width"
+      }
+    },
+    "menu": {
+      "underline": {
+        "normal": {
+          "value": "{dark.dark-80}",
+          "type": "color",
+          "description": "Accent colour "
+        }
+      }
+    },
+    "text": {
+      "normal": {
+        "value": "{neutral.neutral-05}",
+        "type": "color",
+        "description": "Text style"
+      }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "high": {
+            "value": "{orange.orange-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{orange.orange-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "{dark.dark-60}",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{dark.dark-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
+    }
+  },
+  "red dark": {
+    "profile": {
+      "background": {
+        "normal": {
+          "value": "{red.red-70}",
+          "type": "color",
+          "description": "Accent colour on normal, focused & selected state"
+        },
+        "medium": {
+          "value": "{red.red-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "high": {
+          "value": "{red.red-80}",
+          "type": "color",
+          "description": "Accent colour on pressed state"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{red.red-50}",
+          "type": "color",
+          "description": "Accent colour on normal state"
+        },
+        "medium": {
+          "value": "{red.red-40}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "max1": {
+          "value": "{red.red-60}",
+          "type": "color",
+          "description": "Accent colour on selected state"
+        },
+        "extreme": {
+          "value": "{red.red-50}",
+          "type": "color",
+          "description": "Accent colour on focused state"
+        }
+      }
+    },
+    "focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba({red.red-50}, 0.15)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
+    },
+    "border": {
+      "thick": {
+        "left": {
+          "value": {
+            "x": "4",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({red.red-60}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Thick left border with accent colour "
+        }
+      },
+      "inner": {
+        "value": "{border.thinner}",
+        "type": "borderWidth",
+        "description": "Border width"
+      }
+    },
+    "menu": {
+      "underline": {
+        "normal": {
+          "value": "{dark.dark-80}",
+          "type": "color",
+          "description": "Accent colour "
+        }
+      }
+    },
+    "text": {
+      "normal": {
+        "value": "{neutral.neutral-05}",
+        "type": "color",
+        "description": "Text style"
+      }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "high": {
+            "value": "{red.red-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{red.red-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "{dark.dark-60}",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{dark.dark-50}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "light",
+      "dark",
+      "green light",
+      "blue light",
+      "purple light",
+      "orange light",
+      "red light",
+      "green dark",
+      "blue dark",
+      "purple dark",
+      "orange dark",
+      "red dark"
+    ]
+  }
+}
