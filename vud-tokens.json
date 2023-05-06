@@ -298,26 +298,18 @@
         "regular": {
           "value": {
             "fontFamily": "{primary}",
-            "fontWeight": "Regular",
-            "lineHeight": "AUTO",
-            "fontSize": "48",
-            "letterSpacing": "0%",
-            "paragraphSpacing": "0",
-            "textDecoration": "none",
-            "textCase": "none"
+            "fontWeight": "{regular}",
+            "lineHeight": "Auto",
+            "fontSize": "48"
           },
           "type": "typography"
         },
         "bold": {
           "value": {
             "fontFamily": "{primary}",
-            "fontWeight": "Bold",
-            "lineHeight": "AUTO",
-            "fontSize": "48",
-            "letterSpacing": "0%",
-            "paragraphSpacing": "0",
-            "textDecoration": "none",
-            "textCase": "none"
+            "fontWeight": "{bold}",
+            "lineHeight": "Auto",
+            "fontSize": "48"
           },
           "type": "typography"
         }
@@ -326,26 +318,18 @@
         "regular": {
           "value": {
             "fontFamily": "{primary}",
-            "fontWeight": "Regular",
-            "lineHeight": "AUTO",
-            "fontSize": "32",
-            "letterSpacing": "0%",
-            "paragraphSpacing": "0",
-            "textDecoration": "none",
-            "textCase": "none"
+            "fontWeight": "{regular}",
+            "lineHeight": "Auto",
+            "fontSize": "32"
           },
           "type": "typography"
         },
         "bold": {
           "value": {
             "fontFamily": "{primary}",
-            "fontWeight": "Bold",
-            "lineHeight": "AUTO",
-            "fontSize": "32",
-            "letterSpacing": "0%",
-            "paragraphSpacing": "0",
-            "textDecoration": "none",
-            "textCase": "none"
+            "fontWeight": "{bold}",
+            "lineHeight": "Auto",
+            "fontSize": "32"
           },
           "type": "typography"
         }
@@ -354,39 +338,56 @@
         "regular": {
           "value": {
             "fontFamily": "{primary}",
-            "fontWeight": "Regular",
-            "lineHeight": "AUTO",
-            "fontSize": "20",
-            "letterSpacing": "0%",
-            "paragraphSpacing": "0",
-            "textDecoration": "none",
-            "textCase": "none"
+            "fontWeight": "{regular}",
+            "lineHeight": "Auto",
+            "fontSize": "24"
           },
           "type": "typography"
         },
         "semibold": {
           "value": {
             "fontFamily": "{primary}",
-            "fontWeight": "Medium",
-            "lineHeight": "AUTO",
-            "fontSize": "20",
-            "letterSpacing": "0%",
-            "paragraphSpacing": "0",
-            "textDecoration": "none",
-            "textCase": "none"
+            "fontWeight": "{semibold}",
+            "lineHeight": "Auto",
+            "fontSize": "24"
           },
           "type": "typography"
         },
         "bold": {
           "value": {
             "fontFamily": "{primary}",
-            "fontWeight": "Bold",
-            "lineHeight": "AUTO",
+            "fontWeight": "{bold}",
+            "lineHeight": "Auto",
+            "fontSize": "24"
+          },
+          "type": "typography"
+        }
+      },
+      "extraSmall": {
+        "regular": {
+          "value": {
+            "fontFamily": "{primary}",
+            "fontWeight": "{regular}",
             "fontSize": "20",
-            "letterSpacing": "0%",
-            "paragraphSpacing": "0",
-            "textDecoration": "none",
-            "textCase": "none"
+            "lineHeight": "Auto"
+          },
+          "type": "typography"
+        },
+        "semibold": {
+          "value": {
+            "fontFamily": "{primary}",
+            "fontWeight": "{semibold}",
+            "fontSize": "20",
+            "lineHeight": "Auto"
+          },
+          "type": "typography"
+        },
+        "bold": {
+          "value": {
+            "fontFamily": "{primary}",
+            "fontWeight": "{bold}",
+            "lineHeight": "Auto",
+            "fontSize": "20"
           },
           "type": "typography"
         }
@@ -398,39 +399,27 @@
           "regular": {
             "value": {
               "fontFamily": "{primary}",
-              "fontWeight": "Regular",
-              "lineHeight": "AUTO",
-              "fontSize": "20",
-              "letterSpacing": "0%",
-              "paragraphSpacing": "0",
-              "textDecoration": "none",
-              "textCase": "none"
+              "fontWeight": "{regular}",
+              "lineHeight": "Auto",
+              "fontSize": "20"
             },
             "type": "typography"
           },
           "semibold": {
             "value": {
               "fontFamily": "{primary}",
-              "fontWeight": "Medium",
-              "lineHeight": "AUTO",
-              "fontSize": "20",
-              "letterSpacing": "0%",
-              "paragraphSpacing": "0",
-              "textDecoration": "none",
-              "textCase": "none"
+              "fontWeight": "{semibold}",
+              "lineHeight": "Auto",
+              "fontSize": "20"
             },
             "type": "typography"
           },
           "bold": {
             "value": {
               "fontFamily": "{primary}",
-              "fontWeight": "Bold",
-              "lineHeight": "AUTO",
-              "fontSize": "20",
-              "letterSpacing": "0%",
-              "paragraphSpacing": "0",
-              "textDecoration": "none",
-              "textCase": "none"
+              "fontWeight": "{bold}",
+              "lineHeight": "Auto",
+              "fontSize": "20"
             },
             "type": "typography"
           }
@@ -439,26 +428,18 @@
           "regular": {
             "value": {
               "fontFamily": "{primary}",
-              "fontWeight": "Regular",
-              "lineHeight": "AUTO",
-              "fontSize": "16",
-              "letterSpacing": "0%",
-              "paragraphSpacing": "0",
-              "textDecoration": "none",
-              "textCase": "none"
+              "fontWeight": "{regular}",
+              "lineHeight": "Auto",
+              "fontSize": "16"
             },
             "type": "typography"
           },
           "bold": {
             "value": {
               "fontFamily": "{primary}",
-              "fontWeight": "Bold",
-              "lineHeight": "AUTO",
-              "fontSize": "16",
-              "letterSpacing": "0%",
-              "paragraphSpacing": "0",
-              "textDecoration": "none",
-              "textCase": "none"
+              "fontWeight": "{bold}",
+              "lineHeight": "Auto",
+              "fontSize": "16"
             },
             "type": "typography"
           }
@@ -469,39 +450,27 @@
           "regular": {
             "value": {
               "fontFamily": "{secondary}",
-              "fontWeight": "Regular",
-              "lineHeight": "AUTO",
-              "fontSize": "14",
-              "letterSpacing": "0%",
-              "paragraphSpacing": "0",
-              "textDecoration": "none",
-              "textCase": "none"
+              "fontWeight": "{regular}",
+              "lineHeight": "Auto",
+              "fontSize": "14"
             },
             "type": "typography"
           },
           "semibold": {
             "value": {
               "fontFamily": "{secondary}",
-              "fontWeight": "SemiBold",
-              "lineHeight": "AUTO",
-              "fontSize": "14",
-              "letterSpacing": "0%",
-              "paragraphSpacing": "0",
-              "textDecoration": "none",
-              "textCase": "none"
+              "fontWeight": "{semibold}",
+              "lineHeight": "Auto",
+              "fontSize": "14"
             },
             "type": "typography"
           },
           "bold": {
             "value": {
               "fontFamily": "{secondary}",
-              "fontWeight": "Bold",
-              "lineHeight": "AUTO",
-              "fontSize": "14",
-              "letterSpacing": "0%",
-              "paragraphSpacing": "0",
-              "textDecoration": "none",
-              "textCase": "none"
+              "fontWeight": "{bold}",
+              "lineHeight": "Auto",
+              "fontSize": "14"
             },
             "type": "typography"
           }
@@ -510,39 +479,27 @@
           "regular": {
             "value": {
               "fontFamily": "{secondary}",
-              "fontWeight": "Regular",
-              "lineHeight": "AUTO",
-              "fontSize": "13",
-              "letterSpacing": "0%",
-              "paragraphSpacing": "0",
-              "textDecoration": "none",
-              "textCase": "none"
+              "fontWeight": "{regular}",
+              "lineHeight": "Auto",
+              "fontSize": "13"
             },
             "type": "typography"
           },
           "semibold": {
             "value": {
               "fontFamily": "{secondary}",
-              "fontWeight": "SemiBold",
-              "lineHeight": "AUTO",
-              "fontSize": "13",
-              "letterSpacing": "0%",
-              "paragraphSpacing": "0",
-              "textDecoration": "none",
-              "textCase": "none"
+              "fontWeight": "{semibold}",
+              "lineHeight": "Auto",
+              "fontSize": "13"
             },
             "type": "typography"
           },
           "bold": {
             "value": {
               "fontFamily": "{secondary}",
-              "fontWeight": "Bold",
-              "lineHeight": "AUTO",
-              "fontSize": "13",
-              "letterSpacing": "0%",
-              "paragraphSpacing": "0",
-              "textDecoration": "none",
-              "textCase": "none"
+              "fontWeight": "{bold}",
+              "lineHeight": "Auto",
+              "fontSize": "13"
             },
             "type": "typography"
           }
@@ -741,6 +698,18 @@
         "type": "fontSizes",
         "description": "This is the size of the type scale."
       }
+    },
+    "regular": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "semibold": {
+      "value": "Semibold",
+      "type": "fontWeights"
+    },
+    "bold": {
+      "value": "Bold",
+      "type": "fontWeights"
     }
   },
   "light": {
@@ -1027,11 +996,51 @@
         }
       }
     },
-    "H1": {
+    "h1": {
+      "value": "{title.small.regular}",
+      "type": "typography",
+      "description": "The <h1> tag is commonly used to display the main title of a webpage."
+    },
+    "h2": {
+      "value": "{title.extraSmall.regular}",
+      "type": "typography",
+      "description": "The <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section. "
+    },
+    "h3": {
+      "value": "{body.primary.small.bold}",
+      "type": "typography",
+      "description": "The <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content. "
+    },
+    "h4": {
+      "value": "{body.secondary.medium.semibold}",
+      "type": "typography",
+      "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. "
+    },
+    "h5": {
+      "value": "{body.secondary.small.semibold}",
+      "type": "typography",
+      "description": "The <h5> tag is an HTML element used to define a fith-level heading on a webpage or within a section of content. "
+    },
+    "body": {
+      "value": "{body.secondary.medium.regular}",
+      "type": "typography",
+      "description": "Body text refers to the main content. It includes paragraphs, sentences, lists, and other textual elements."
+    },
+    "link": {
       "value": {
-        "fontFamily": "{primary}"
+        "textDecoration": "Underline",
+        "fontFamily": "{secondary}",
+        "fontWeight": "{regular}",
+        "lineHeight": "Auto",
+        "fontSize": "14"
       },
-      "type": "typography"
+      "type": "typography",
+      "description": "Use for clickable elements that navigate you to another locations."
+    },
+    "callout": {
+      "value": "{body.secondary.small.regular}",
+      "type": "typography",
+      "description": "Use for descriptive labels that provide additional information. Usually placed under an input field."
     }
   },
   "dark": {
