@@ -1016,11 +1016,6 @@
       "type": "typography",
       "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. "
     },
-    "h5": {
-      "value": "{body.secondary.small.semibold}",
-      "type": "typography",
-      "description": "The <h5> tag is an HTML element used to define a fith-level heading on a webpage or within a section of content. "
-    },
     "body": {
       "value": "{body.secondary.medium.regular}",
       "type": "typography",
@@ -1323,6 +1318,47 @@
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
       }
+    },
+    "h1": {
+      "value": "{title.small.regular}",
+      "type": "typography",
+      "description": "The <h1> tag is commonly used to display the main title of a webpage."
+    },
+    "h2": {
+      "value": "{title.extraSmall.regular}",
+      "type": "typography",
+      "description": "The <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section. "
+    },
+    "h3": {
+      "value": "{body.primary.small.bold}",
+      "type": "typography",
+      "description": "The <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content. "
+    },
+    "h4": {
+      "value": "{body.secondary.medium.semibold}",
+      "type": "typography",
+      "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. "
+    },
+    "body": {
+      "value": "{body.secondary.medium.regular}",
+      "type": "typography",
+      "description": "Body text refers to the main content. It includes paragraphs, sentences, lists, and other textual elements."
+    },
+    "link": {
+      "value": {
+        "textDecoration": "Underline",
+        "fontFamily": "{secondary}",
+        "fontWeight": "{regular}",
+        "lineHeight": "Auto",
+        "fontSize": "14"
+      },
+      "type": "typography",
+      "description": "Use for clickable elements that navigate you to another locations."
+    },
+    "callout": {
+      "value": "{body.secondary.small.regular}",
+      "type": "typography",
+      "description": "Use for descriptive labels that provide additional information. Usually placed under an input field."
     }
   },
   "green light": {
