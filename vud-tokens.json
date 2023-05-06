@@ -743,6 +743,18 @@
         "value": "50%",
         "type": "opacity"
       }
+    },
+    "fontSize": {
+      "base": {
+        "value": "16",
+        "type": "fontSizes",
+        "description": "This is the base for the typography."
+      },
+      "scale": {
+        "value": "2",
+        "type": "fontSizes",
+        "description": "This is the size of the type scale."
+      }
     }
   },
   "light": {
