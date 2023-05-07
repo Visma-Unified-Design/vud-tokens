@@ -773,7 +773,7 @@
     }
   },
   "media": {
-    "font-scale": {
+    "type-scale": {
       "const": {
         "min": {
           "f0": {
@@ -781,7 +781,7 @@
             "type": "fontSizes"
           },
           "r": {
-            "value": "2",
+            "value": "1.5",
             "type": "fontSizes"
           },
           "n": {
@@ -806,186 +806,186 @@
       },
       "f-2": {
         "min": {
-          "value": "5*roundTo(({font-scale.const.min.f0}*{font-scale.const.min.r}^(-2/{font-scale.const.min.n})/5),1)",
+          "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(-2/{type-scale.const.min.n})/5),1)",
           "type": "fontSizes"
         },
         "max": {
-          "value": "5*roundTo(({font-scale.const.max.f0}*{font-scale.const.max.r}^(-2/{font-scale.const.max.n})/5),1)",
+          "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(-2/{type-scale.const.max.n})/5),1)",
           "type": "fontSizes"
         },
         "v": {
-          "value": "100 * ({font-scale.f-2.max}-{font-scale.f-2.min}) / ({viewport.max}-{viewport.min})",
+          "value": "100 * ({type-scale.f-2.max}-{type-scale.f-2.min}) / ({viewport.max}-{viewport.min})",
           "type": "fontSizes"
         },
         "r": {
-          "value": "( {viewport.min} * {font-scale.f-2.max} - {viewport.max} * {font-scale.f-2.min}) / ({viewport.min}-{viewport.max})",
+          "value": "( {viewport.min} * {type-scale.f-2.max} - {viewport.max} * {type-scale.f-2.min}) / ({viewport.min}-{viewport.max})",
           "type": "fontSizes"
         },
         "fluid": {
-          "value": "round(({viewport.width}/100) * {font-scale.f-2.v} + {font-scale.f-2.r})",
+          "value": "round(({viewport.width}/100) * {type-scale.f-2.v} + {type-scale.f-2.r})",
           "type": "fontSizes"
         }
       },
       "f-1": {
         "min": {
-          "value": "5*roundTo(({font-scale.const.min.f0}*{font-scale.const.min.r}^(-1/{font-scale.const.min.n})/5),1)",
+          "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(-1/{type-scale.const.min.n})/5),1)",
           "type": "fontSizes"
         },
         "max": {
-          "value": "5*roundTo(({font-scale.const.max.f0}*{font-scale.const.max.r}^(-1/{font-scale.const.max.n})/5),1)",
+          "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(-1/{type-scale.const.max.n})/5),1)",
           "type": "fontSizes"
         },
         "v": {
-          "value": "100 * ({font-scale.f-1.max}-{font-scale.f-1.min}) / ({viewport.max}-{viewport.min})",
+          "value": "100 * ({type-scale.f-1.max}-{type-scale.f-1.min}) / ({viewport.max}-{viewport.min})",
           "type": "fontSizes"
         },
         "r": {
-          "value": "( {viewport.min} * {font-scale.f-1.max} - {viewport.max} * {font-scale.f-1.min}) / ({viewport.min}-{viewport.max})",
+          "value": "( {viewport.min} * {type-scale.f-1.max} - {viewport.max} * {type-scale.f-1.min}) / ({viewport.min}-{viewport.max})",
           "type": "fontSizes"
         },
         "fluid": {
-          "value": "round(({viewport.width}/100) * {font-scale.f-1.v} + {font-scale.f-1.r})",
+          "value": "round(({viewport.width}/100) * {type-scale.f-1.v} + {type-scale.f-1.r})",
           "type": "fontSizes"
         }
       },
       "f0": {
         "min": {
-          "value": "5*roundTo(({font-scale.const.min.f0}*{font-scale.const.min.r}^(0/{font-scale.const.min.n})/5),1)",
+          "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(0/{type-scale.const.min.n})/5),1)",
           "type": "fontSizes"
         },
         "max": {
-          "value": "5*roundTo(({font-scale.const.max.f0}*{font-scale.const.max.r}^(0/{font-scale.const.max.n})/5),1)",
+          "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(0/{type-scale.const.max.n})/5),1)",
           "type": "fontSizes"
         },
         "v": {
-          "value": "100 * ({font-scale.f0.max}-{font-scale.f0.min}) / ({viewport.max}-{viewport.min})",
+          "value": "100 * ({type-scale.f0.max}-{type-scale.f0.min}) / ({viewport.max}-{viewport.min})",
           "type": "fontSizes"
         },
         "r": {
-          "value": "( {viewport.min} * {font-scale.f0.max} - {viewport.max} * {font-scale.f0.min}) / ({viewport.min}-{viewport.max})",
+          "value": "( {viewport.min} * {type-scale.f0.max} - {viewport.max} * {type-scale.f0.min}) / ({viewport.min}-{viewport.max})",
           "type": "fontSizes"
         },
         "fluid": {
-          "value": "round(({viewport.width}/100) * {font-scale.f0.v} + {font-scale.f0.r})",
+          "value": "round(({viewport.width}/100) * {type-scale.f0.v} + {type-scale.f0.r})",
           "type": "fontSizes"
         }
       },
       "f1": {
         "min": {
-          "value": "5*roundTo(({font-scale.const.min.f0}*{font-scale.const.min.r}^(1/{font-scale.const.min.n})/5),1)",
+          "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(1/{type-scale.const.min.n})/5),1)",
           "type": "fontSizes"
         },
         "max": {
-          "value": "5*roundTo(({font-scale.const.max.f0}*{font-scale.const.max.r}^(1/{font-scale.const.max.n})/5),1)",
+          "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(1/{type-scale.const.max.n})/5),1)",
           "type": "fontSizes"
         },
         "v": {
-          "value": "100 * ({font-scale.f1.max}-{font-scale.f1.min}) / ({viewport.max}-{viewport.min})",
+          "value": "100 * ({type-scale.f1.max}-{type-scale.f1.min}) / ({viewport.max}-{viewport.min})",
           "type": "fontSizes"
         },
         "r": {
-          "value": "( {viewport.min} * {font-scale.f1.max} - {viewport.max} * {font-scale.f1.min}) / ({viewport.min}-{viewport.max})",
+          "value": "( {viewport.min} * {type-scale.f1.max} - {viewport.max} * {type-scale.f1.min}) / ({viewport.min}-{viewport.max})",
           "type": "fontSizes"
         },
         "fluid": {
-          "value": "round(({viewport.width}/100) * {font-scale.f1.v} + {font-scale.f1.r})",
+          "value": "round(({viewport.width}/100) * {type-scale.f1.v} + {type-scale.f1.r})",
           "type": "fontSizes"
         }
       },
       "f2": {
         "min": {
-          "value": "5*roundTo(({font-scale.const.min.f0}*{font-scale.const.min.r}^(2/{font-scale.const.min.n})/5),1)",
+          "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(2/{type-scale.const.min.n})/5),1)",
           "type": "fontSizes"
         },
         "max": {
-          "value": "5*roundTo(({font-scale.const.max.f0}*{font-scale.const.max.r}^(2/{font-scale.const.max.n})/5),1)",
+          "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(2/{type-scale.const.max.n})/5),1)",
           "type": "fontSizes"
         },
         "v": {
-          "value": "100 * ({font-scale.f2.max}-{font-scale.f2.min}) / ({viewport.max}-{viewport.min})",
+          "value": "100 * ({type-scale.f2.max}-{type-scale.f2.min}) / ({viewport.max}-{viewport.min})",
           "type": "fontSizes"
         },
         "r": {
-          "value": "( {viewport.min} * {font-scale.f2.max} - {viewport.max} * {font-scale.f2.min}) / ({viewport.min}-{viewport.max})",
+          "value": "( {viewport.min} * {type-scale.f2.max} - {viewport.max} * {type-scale.f2.min}) / ({viewport.min}-{viewport.max})",
           "type": "fontSizes"
         },
         "fluid": {
-          "value": "round(({viewport.width}/100) * {font-scale.f2.v} + {font-scale.f2.r})",
+          "value": "round(({viewport.width}/100) * {type-scale.f2.v} + {type-scale.f2.r})",
           "type": "fontSizes"
         }
       },
       "f3": {
         "min": {
-          "value": "5*roundTo(({font-scale.const.min.f0}*{font-scale.const.min.r}^(3/{font-scale.const.min.n})/5),1)",
+          "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(3/{type-scale.const.min.n})/5),1)",
           "type": "fontSizes"
         },
         "max": {
-          "value": "5*roundTo(({font-scale.const.max.f0}*{font-scale.const.max.r}^(3/{font-scale.const.max.n})/5),1)",
+          "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(3/{type-scale.const.max.n})/5),1)",
           "type": "fontSizes"
         },
         "v": {
-          "value": "100 * ({font-scale.f3.max}-{font-scale.f3.min}) / ({viewport.max}-{viewport.min})",
+          "value": "100 * ({type-scale.f3.max}-{type-scale.f3.min}) / ({viewport.max}-{viewport.min})",
           "type": "fontSizes"
         },
         "r": {
-          "value": "( {viewport.min} * {font-scale.f3.max} - {viewport.max} * {font-scale.f3.min}) / ({viewport.min}-{viewport.max})",
+          "value": "( {viewport.min} * {type-scale.f3.max} - {viewport.max} * {type-scale.f3.min}) / ({viewport.min}-{viewport.max})",
           "type": "fontSizes"
         },
         "fluid": {
-          "value": "round(({viewport.width}/100) * {font-scale.f3.v} + {font-scale.f3.r})",
+          "value": "round(({viewport.width}/100) * {type-scale.f3.v} + {type-scale.f3.r})",
           "type": "fontSizes"
         }
       },
       "f4": {
         "min": {
-          "value": "5*roundTo(({font-scale.const.min.f0}*{font-scale.const.min.r}^(4/{font-scale.const.min.n})/5),1)",
+          "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(4/{type-scale.const.min.n})/5),1)",
           "type": "fontSizes"
         },
         "max": {
-          "value": "5*roundTo(({font-scale.const.max.f0}*{font-scale.const.max.r}^(4/{font-scale.const.max.n})/5),1)",
+          "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(4/{type-scale.const.max.n})/5),1)",
           "type": "fontSizes"
         },
         "v": {
-          "value": "100 * ({font-scale.f4.max}-{font-scale.f4.min}) / ({viewport.max}-{viewport.min})",
+          "value": "100 * ({type-scale.f4.max}-{type-scale.f4.min}) / ({viewport.max}-{viewport.min})",
           "type": "fontSizes"
         },
         "r": {
-          "value": "( {viewport.min} * {font-scale.f4.max} - {viewport.max} * {font-scale.f4.min}) / ({viewport.min}-{viewport.max})",
+          "value": "( {viewport.min} * {type-scale.f4.max} - {viewport.max} * {type-scale.f4.min}) / ({viewport.min}-{viewport.max})",
           "type": "fontSizes"
         },
         "fluid": {
-          "value": "round(({viewport.width}/100) * {font-scale.f4.v} + {font-scale.f4.r})",
+          "value": "round(({viewport.width}/100) * {type-scale.f4.v} + {type-scale.f4.r})",
           "type": "fontSizes"
         }
       }
     },
     "font-size": {
-      "f-2": {
-        "value": "min( max( {font-scale.f-2.min},  {font-scale.f-2.fluid}) ,{font-scale.f-2.max})",
+      "0": {
+        "value": "min( max( {type-scale.f0.min},  {type-scale.f0.fluid}) ,{type-scale.f0.max})",
         "type": "fontSizes"
       },
-      "f-1": {
-        "value": "min( max( {font-scale.f-1.min},  {font-scale.f-1.fluid}) ,{font-scale.f-1.max})",
+      "1": {
+        "value": "min( max( {type-scale.f1.min},  {type-scale.f1.fluid}) ,{type-scale.f1.max})",
         "type": "fontSizes"
       },
-      "f0": {
-        "value": "min( max( {font-scale.f0.min},  {font-scale.f0.fluid}) ,{font-scale.f0.max})",
+      "2": {
+        "value": "min( max( {type-scale.f2.min},  {type-scale.f2.fluid}) ,{type-scale.f2.max})",
         "type": "fontSizes"
       },
-      "f1": {
-        "value": "min( max( {font-scale.f1.min},  {font-scale.f1.fluid}) ,{font-scale.f1.max})",
+      "3": {
+        "value": "min( max( {type-scale.f3.min},  {type-scale.f3.fluid}) ,{type-scale.f3.max})",
         "type": "fontSizes"
       },
-      "f2": {
-        "value": "min( max( {font-scale.f2.min},  {font-scale.f2.fluid}) ,{font-scale.f2.max})",
+      "4": {
+        "value": "min( max( {type-scale.f4.min},  {type-scale.f4.fluid}) ,{type-scale.f4.max})",
         "type": "fontSizes"
       },
-      "f3": {
-        "value": "min( max( {font-scale.f3.min},  {font-scale.f3.fluid}) ,{font-scale.f3.max})",
+      "-2": {
+        "value": "min( max( {type-scale.f-2.min},  {type-scale.f-2.fluid}) ,{type-scale.f-2.max})",
         "type": "fontSizes"
       },
-      "f4": {
-        "value": "min( max( {font-scale.f4.min},  {font-scale.f4.fluid}) ,{font-scale.f4.max})",
+      "-1": {
+        "value": "min( max( {type-scale.f-1.min},  {type-scale.f-1.fluid}) ,{type-scale.f-1.max})",
         "type": "fontSizes"
       }
     },
