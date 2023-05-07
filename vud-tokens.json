@@ -691,12 +691,12 @@
       "base": {
         "value": "16",
         "type": "fontSizes",
-        "description": "This is the base for the typography."
+        "description": "This is the base for the max. viewport when creating fluid type scale."
       },
       "scale": {
         "value": "2",
         "type": "fontSizes",
-        "description": "This is the size of the type scale."
+        "description": "This is the octave type scale modifier for max. viewport."
       }
     },
     "regular": {
@@ -1023,7 +1023,7 @@
     },
     "link": {
       "value": {
-        "textDecoration": "Underline",
+        "textDecoration": "{Underline}",
         "fontFamily": "{secondary}",
         "fontWeight": "{regular}",
         "lineHeight": "Auto",
@@ -1036,6 +1036,22 @@
       "value": "{body.secondary.small.regular}",
       "type": "typography",
       "description": "Use for descriptive labels that provide additional information. Usually placed under an input field."
+    },
+    "Typescale": {
+      "0": {
+        "value": "{fontSize.base}",
+        "type": "fontSizes",
+        "description": "Type scale 0 refers to body text.\n\nBody text refers to the main content. It includes paragraphs, sentences, lists, and other textual elements."
+      },
+      "1": {
+        "value": "{fontSize.base} * {fontSize.scale}",
+        "type": "fontSizes",
+        "description": "Type scale refers to <H4> HTML element.\n\nThe <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. "
+      }
+    },
+    "Underline": {
+      "value": "Underline",
+      "type": "textDecoration"
     }
   },
   "dark": {
