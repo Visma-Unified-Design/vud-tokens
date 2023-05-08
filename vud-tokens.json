@@ -714,7 +714,7 @@
             "description": "This base font-size is expressed in pixels (px) for min. viewport.\n\nA base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%)."
           },
           "r": {
-            "value": "1.5",
+            "value": "2.8",
             "type": "fontSizes"
           },
           "n": {
@@ -729,7 +729,7 @@
             "description": "This base font-size is expressed in pixels (px) for max. viewport.\n\nA base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%)."
           },
           "r": {
-            "value": "2.8",
+            "value": "2",
             "type": "fontSizes"
           },
           "n": {
@@ -959,7 +959,7 @@
     },
     "viewport": {
       "width": {
-        "value": "1000",
+        "value": "1920",
         "type": "sizing"
       },
       "min": {
