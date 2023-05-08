@@ -760,6 +760,10 @@
         "clamp": {
           "value": "min( max( {type-scale.f-1.min},  {type-scale.f-1.fluid}) ,{type-scale.f-1.max})",
           "type": "fontSizes"
+        },
+        "clamp-css": {
+          "value": "clamp(0.88rem, calc(-0.19vw + 0.91rem), 0.69rem)",
+          "type": "fontSizes"
         }
       },
       "f0": {
@@ -921,7 +925,7 @@
     },
     "viewport": {
       "width": {
-        "value": "700",
+        "value": "360",
         "type": "sizing"
       },
       "min": {
@@ -938,7 +942,7 @@
         "fontFamily": "{primary}",
         "fontWeight": "{Medium}",
         "lineHeight": "",
-        "fontSize": "{font-size.0}"
+        "fontSize": "{font-size.1}"
       },
       "type": "typography"
     },
