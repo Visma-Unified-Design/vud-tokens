@@ -710,7 +710,8 @@
         "min": {
           "f0": {
             "value": "16",
-            "type": "fontSizes"
+            "type": "fontSizes",
+            "description": "This base font-size is expressed in pixels (px) for min. viewport.\n\nA base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%)."
           },
           "r": {
             "value": "1.5",
@@ -724,7 +725,8 @@
         "max": {
           "f0": {
             "value": "14",
-            "type": "fontSizes"
+            "type": "fontSizes",
+            "description": "This base font-size is expressed in pixels (px) for max. viewport.\n\nA base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%)."
           },
           "r": {
             "value": "2.8",
@@ -755,15 +757,17 @@
         },
         "fluid": {
           "value": "round(({viewport.width}/100) * {type-scale.f-1.v} + {type-scale.f-1.r})",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The preferred value or ideal size for the property."
         },
         "clamp": {
           "value": "min( max( {type-scale.f-1.min},  {type-scale.f-1.fluid}) ,{type-scale.f-1.max})",
           "type": "fontSizes"
         },
         "clamp-css": {
-          "value": "clamp(0.88rem, calc(-0.19vw + 0.91rem), 0.69rem)",
-          "type": "fontSizes"
+          "value": "clamp(0.94rem, calc(-0.26vw + 1.00rem), 0.69rem)",
+          "type": "fontSizes",
+          "description": "Intented for development."
         }
       },
       "f0": {
@@ -785,11 +789,17 @@
         },
         "fluid": {
           "value": "round(({viewport.width}/100) * {type-scale.f0.v} + {type-scale.f0.r})",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The preferred value or ideal size for the property."
         },
         "clamp": {
           "value": "min( max( {type-scale.f0.min},  {type-scale.f0.fluid}) ,{type-scale.f0.max})",
           "type": "fontSizes"
+        },
+        "clamp-css": {
+          "value": "clamp(1.00rem, calc(-0.13vw + 1.03rem), 0.88rem)",
+          "type": "fontSizes",
+          "description": "Intented for development"
         }
       },
       "f1": {
@@ -811,11 +821,17 @@
         },
         "fluid": {
           "value": "round(({viewport.width}/100) * {type-scale.f1.v} + {type-scale.f1.r})",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The preferred value or ideal size for the property."
         },
         "clamp": {
           "value": "min( max( {type-scale.f1.min},  {type-scale.f1.fluid}) ,{type-scale.f1.max})",
           "type": "fontSizes"
+        },
+        "clamp-css": {
+          "value": "clamp(1.06rem, calc(0.00vw + 1.06rem), 1.06rem)",
+          "type": "fontSizes",
+          "description": "Intented for development."
         }
       },
       "f2": {
@@ -837,11 +853,17 @@
         },
         "fluid": {
           "value": "round(({viewport.width}/100) * {type-scale.f2.v} + {type-scale.f2.r})",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The preferred value or ideal size for the property."
         },
         "clamp": {
           "value": "min( max( {type-scale.f2.min},  {type-scale.f2.fluid}) ,{type-scale.f2.max})",
           "type": "fontSizes"
+        },
+        "clamp-css": {
+          "value": "clamp(1.19rem, calc(0.13vw + 1.16rem), 1.31rem)",
+          "type": "fontSizes",
+          "description": "Intented for development."
         }
       },
       "f3": {
@@ -863,11 +885,17 @@
         },
         "fluid": {
           "value": "round(({viewport.width}/100) * {type-scale.f3.v} + {type-scale.f3.r})",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The preferred value or ideal size for the property."
         },
         "clamp": {
           "value": "min( max( {type-scale.f3.min},  {type-scale.f3.fluid}) ,{type-scale.f3.max})",
           "type": "fontSizes"
+        },
+        "clamp-css": {
+          "value": "clamp(1.25rem, calc(0.38vw + 1.16rem), 1.63rem)",
+          "type": "fontSizes",
+          "description": "Intented for development."
         }
       },
       "f4": {
@@ -889,11 +917,17 @@
         },
         "fluid": {
           "value": "round(({viewport.width}/100) * {type-scale.f4.v} + {type-scale.f4.r})",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The preferred value or ideal size for the property."
         },
         "clamp": {
           "value": "min( max( {type-scale.f4.min},  {type-scale.f4.fluid}) ,{type-scale.f4.max})",
           "type": "fontSizes"
+        },
+        "clamp-css": {
+          "value": "clamp(1.38rem, calc(0.64vw + 1.23rem), 2.00rem)",
+          "type": "fontSizes",
+          "description": "Intented for development."
         }
       }
     },
@@ -925,7 +959,7 @@
     },
     "viewport": {
       "width": {
-        "value": "360",
+        "value": "1000",
         "type": "sizing"
       },
       "min": {
@@ -944,7 +978,8 @@
         "lineHeight": "",
         "fontSize": "{font-size.1}"
       },
-      "type": "typography"
+      "type": "typography",
+      "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content."
     },
     "H3": {
       "value": {
@@ -952,14 +987,16 @@
         "fontSize": "{font-size.1}",
         "fontWeight": ""
       },
-      "type": "typography"
+      "type": "typography",
+      "description": "The <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content."
     },
     "H2": {
       "value": {
         "fontFamily": "{primary}",
         "fontSize": "{font-size.2}"
       },
-      "type": "typography"
+      "type": "typography",
+      "description": "The <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section."
     },
     "H1": {
       "value": {
@@ -967,7 +1004,8 @@
         "fontWeight": "{Medium}",
         "fontSize": "{font-size.4}"
       },
-      "type": "typography"
+      "type": "typography",
+      "description": "The <h1> tag is commonly used to display the main title of a webpage."
     },
     "Body": {
       "value": {
