@@ -347,7 +347,7 @@
         "semibold": {
           "value": {
             "fontFamily": "{primary}",
-            "fontWeight": "{semibold}",
+            "fontWeight": "{Medium}",
             "lineHeight": "Auto",
             "fontSize": "24"
           },
@@ -376,7 +376,7 @@
         "semibold": {
           "value": {
             "fontFamily": "{primary}",
-            "fontWeight": "{semibold}",
+            "fontWeight": "{Medium}",
             "fontSize": "20",
             "lineHeight": "Auto"
           },
@@ -408,7 +408,7 @@
           "semibold": {
             "value": {
               "fontFamily": "{primary}",
-              "fontWeight": "{semibold}",
+              "fontWeight": "{Medium}",
               "lineHeight": "Auto",
               "fontSize": "20"
             },
@@ -459,7 +459,7 @@
           "semibold": {
             "value": {
               "fontFamily": "{secondary}",
-              "fontWeight": "{semibold}",
+              "fontWeight": "{Medium}",
               "lineHeight": "Auto",
               "fontSize": "14"
             },
@@ -488,7 +488,7 @@
           "semibold": {
             "value": {
               "fontFamily": "{secondary}",
-              "fontWeight": "{semibold}",
+              "fontWeight": "{Medium}",
               "lineHeight": "Auto",
               "fontSize": "13"
             },
@@ -687,40 +687,12 @@
         "type": "opacity"
       }
     },
-    "typeScale": {
-      "0": {
-        "value": "{typeScale.base}",
-        "type": "fontSizes"
-      },
-      "1": {
-        "value": "roundTo({typeScale.base}*{typeScale.scale},0)",
-        "type": "fontSizes"
-      },
-      "2": {
-        "value": "roundTo({typeScale.1}*{typeScale.scale},0)",
-        "type": "fontSizes"
-      },
-      "3": {
-        "value": "roundTo({typeScale.2}*{typeScale.scale},0)",
-        "type": "fontSizes"
-      },
-      "base": {
-        "value": "14",
-        "type": "fontSizes",
-        "description": "This is the base for the max. viewport when creating fluid type scale."
-      },
-      "scale": {
-        "value": "1.2",
-        "type": "fontSizes",
-        "description": "This is the type scale modifier for max. viewport."
-      }
-    },
     "regular": {
       "value": "Regular",
       "type": "fontWeights"
     },
-    "semibold": {
-      "value": "Semibold",
+    "Medium": {
+      "value": "Medium",
       "type": "fontWeights"
     },
     "bold": {
@@ -730,46 +702,6 @@
     "Underline": {
       "value": "underline",
       "type": "textDecoration"
-    },
-    "H1": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{typeScale.3}",
-        "fontWeight": "{semibold}"
-      },
-      "type": "typography"
-    },
-    "H2": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{typeScale.2}",
-        "fontWeight": "{semibold}"
-      },
-      "type": "typography"
-    },
-    "H3": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{typeScale.1}",
-        "fontWeight": "{semibold}"
-      },
-      "type": "typography"
-    },
-    "H4": {
-      "value": {
-        "fontFamily": "{secondary}",
-        "fontSize": "{typeScale.0}",
-        "fontWeight": "{semibold}"
-      },
-      "type": "typography"
-    },
-    "Body": {
-      "value": {
-        "fontFamily": "{secondary}",
-        "fontSize": "{typeScale.0}",
-        "fontWeight": "{regular}"
-      },
-      "type": "typography"
     }
   },
   "media": {
@@ -804,28 +736,6 @@
           }
         }
       },
-      "f-2": {
-        "min": {
-          "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(-2/{type-scale.const.min.n})/5),1)",
-          "type": "fontSizes"
-        },
-        "max": {
-          "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(-2/{type-scale.const.max.n})/5),1)",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({type-scale.f-2.max}-{type-scale.f-2.min}) / ({viewport.max}-{viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {viewport.min} * {type-scale.f-2.max} - {viewport.max} * {type-scale.f-2.min}) / ({viewport.min}-{viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({viewport.width}/100) * {type-scale.f-2.v} + {type-scale.f-2.r})",
-          "type": "fontSizes"
-        }
-      },
       "f-1": {
         "min": {
           "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(-1/{type-scale.const.min.n})/5),1)",
@@ -845,6 +755,10 @@
         },
         "fluid": {
           "value": "round(({viewport.width}/100) * {type-scale.f-1.v} + {type-scale.f-1.r})",
+          "type": "fontSizes"
+        },
+        "clamp": {
+          "value": "min( max( {type-scale.f-1.min},  {type-scale.f-1.fluid}) ,{type-scale.f-1.max})",
           "type": "fontSizes"
         }
       },
@@ -868,6 +782,10 @@
         "fluid": {
           "value": "round(({viewport.width}/100) * {type-scale.f0.v} + {type-scale.f0.r})",
           "type": "fontSizes"
+        },
+        "clamp": {
+          "value": "min( max( {type-scale.f0.min},  {type-scale.f0.fluid}) ,{type-scale.f0.max})",
+          "type": "fontSizes"
         }
       },
       "f1": {
@@ -889,6 +807,10 @@
         },
         "fluid": {
           "value": "round(({viewport.width}/100) * {type-scale.f1.v} + {type-scale.f1.r})",
+          "type": "fontSizes"
+        },
+        "clamp": {
+          "value": "min( max( {type-scale.f1.min},  {type-scale.f1.fluid}) ,{type-scale.f1.max})",
           "type": "fontSizes"
         }
       },
@@ -912,6 +834,10 @@
         "fluid": {
           "value": "round(({viewport.width}/100) * {type-scale.f2.v} + {type-scale.f2.r})",
           "type": "fontSizes"
+        },
+        "clamp": {
+          "value": "min( max( {type-scale.f2.min},  {type-scale.f2.fluid}) ,{type-scale.f2.max})",
+          "type": "fontSizes"
         }
       },
       "f3": {
@@ -933,6 +859,10 @@
         },
         "fluid": {
           "value": "round(({viewport.width}/100) * {type-scale.f3.v} + {type-scale.f3.r})",
+          "type": "fontSizes"
+        },
+        "clamp": {
+          "value": "min( max( {type-scale.f3.min},  {type-scale.f3.fluid}) ,{type-scale.f3.max})",
           "type": "fontSizes"
         }
       },
@@ -956,42 +886,42 @@
         "fluid": {
           "value": "round(({viewport.width}/100) * {type-scale.f4.v} + {type-scale.f4.r})",
           "type": "fontSizes"
+        },
+        "clamp": {
+          "value": "min( max( {type-scale.f4.min},  {type-scale.f4.fluid}) ,{type-scale.f4.max})",
+          "type": "fontSizes"
         }
       }
     },
     "font-size": {
       "0": {
-        "value": "min( max( {type-scale.f0.min},  {type-scale.f0.fluid}) ,{type-scale.f0.max})",
+        "value": "{type-scale.f0.clamp}",
         "type": "fontSizes"
       },
       "1": {
-        "value": "min( max( {type-scale.f1.min},  {type-scale.f1.fluid}) ,{type-scale.f1.max})",
+        "value": "{type-scale.f1.clamp}",
         "type": "fontSizes"
       },
       "2": {
-        "value": "min( max( {type-scale.f2.min},  {type-scale.f2.fluid}) ,{type-scale.f2.max})",
+        "value": "{type-scale.f2.clamp}",
         "type": "fontSizes"
       },
       "3": {
-        "value": "min( max( {type-scale.f3.min},  {type-scale.f3.fluid}) ,{type-scale.f3.max})",
+        "value": "{type-scale.f3.clamp}",
         "type": "fontSizes"
       },
       "4": {
-        "value": "min( max( {type-scale.f4.min},  {type-scale.f4.fluid}) ,{type-scale.f4.max})",
-        "type": "fontSizes"
-      },
-      "-2": {
-        "value": "min( max( {type-scale.f-2.min},  {type-scale.f-2.fluid}) ,{type-scale.f-2.max})",
+        "value": "{type-scale.f4.clamp}",
         "type": "fontSizes"
       },
       "-1": {
-        "value": "min( max( {type-scale.f-1.min},  {type-scale.f-1.fluid}) ,{type-scale.f-1.max})",
+        "value": "{type-scale.f-1.clamp}",
         "type": "fontSizes"
       }
     },
     "viewport": {
       "width": {
-        "value": "{viewport.min}",
+        "value": "700",
         "type": "sizing"
       },
       "min": {
@@ -1002,6 +932,53 @@
         "value": "1920",
         "type": "sizing"
       }
+    },
+    "H4": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontWeight": "{Medium}",
+        "lineHeight": "",
+        "fontSize": "{font-size.0}"
+      },
+      "type": "typography"
+    },
+    "H3": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontSize": "{font-size.1}",
+        "fontWeight": ""
+      },
+      "type": "typography"
+    },
+    "H2": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontSize": "{font-size.2}"
+      },
+      "type": "typography"
+    },
+    "H1": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontWeight": "{Medium}",
+        "fontSize": "{font-size.4}"
+      },
+      "type": "typography"
+    },
+    "Body": {
+      "value": {
+        "fontFamily": "{secondary}",
+        "fontWeight": "{regular}",
+        "fontSize": "{font-size.0}"
+      },
+      "type": "typography"
+    },
+    "Callout": {
+      "value": {
+        "fontFamily": "{secondary}",
+        "fontSize": "{font-size.-1}"
+      },
+      "type": "typography"
     }
   },
   "light": {
