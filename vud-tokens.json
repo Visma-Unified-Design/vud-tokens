@@ -347,7 +347,7 @@
         "semibold": {
           "value": {
             "fontFamily": "{primary}",
-            "fontWeight": "{Medium}",
+            "fontWeight": "{medium}",
             "lineHeight": "Auto",
             "fontSize": "24"
           },
@@ -376,7 +376,7 @@
         "semibold": {
           "value": {
             "fontFamily": "{primary}",
-            "fontWeight": "{Medium}",
+            "fontWeight": "{medium}",
             "fontSize": "20",
             "lineHeight": "Auto"
           },
@@ -408,7 +408,7 @@
           "semibold": {
             "value": {
               "fontFamily": "{primary}",
-              "fontWeight": "{Medium}",
+              "fontWeight": "{medium}",
               "lineHeight": "Auto",
               "fontSize": "20"
             },
@@ -459,7 +459,7 @@
           "semibold": {
             "value": {
               "fontFamily": "{secondary}",
-              "fontWeight": "{Medium}",
+              "fontWeight": "{medium}",
               "lineHeight": "Auto",
               "fontSize": "14"
             },
@@ -488,7 +488,7 @@
           "semibold": {
             "value": {
               "fontFamily": "{secondary}",
-              "fontWeight": "{Medium}",
+              "fontWeight": "{medium}",
               "lineHeight": "Auto",
               "fontSize": "13"
             },
@@ -691,7 +691,7 @@
       "value": "Regular",
       "type": "fontWeights"
     },
-    "Medium": {
+    "medium": {
       "value": "Medium",
       "type": "fontWeights"
     },
@@ -711,10 +711,10 @@
           "f0": {
             "value": "16",
             "type": "fontSizes",
-            "description": "This base font-size is expressed in pixels (px) for min. viewport.\n\nA base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%)."
+            "description": "This base font-size is expressed in pixels (px) for min. viewport.\n\n\nA base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%)."
           },
           "r": {
-            "value": "2.8",
+            "value": "1.5",
             "type": "fontSizes"
           },
           "n": {
@@ -726,10 +726,10 @@
           "f0": {
             "value": "14",
             "type": "fontSizes",
-            "description": "This base font-size is expressed in pixels (px) for max. viewport.\n\nA base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%)."
+            "description": "This base font-size is expressed in pixels (px) for max. viewport.\n\n\nA base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%)."
           },
           "r": {
-            "value": "2",
+            "value": "2.8",
             "type": "fontSizes"
           },
           "n": {
@@ -741,11 +741,13 @@
       "f-1": {
         "min": {
           "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(-1/{type-scale.const.min.n})/5),1)",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The minimum value the property can take."
         },
         "max": {
           "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(-1/{type-scale.const.max.n})/5),1)",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The maximum value the property can take."
         },
         "v": {
           "value": "100 * ({type-scale.f-1.max}-{type-scale.f-1.min}) / ({viewport.max}-{viewport.min})",
@@ -767,17 +769,19 @@
         "clamp-css": {
           "value": "clamp(0.94rem, calc(-0.26vw + 1.00rem), 0.69rem)",
           "type": "fontSizes",
-          "description": "Intented for development."
+          "description": "Intended for development."
         }
       },
       "f0": {
         "min": {
           "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(0/{type-scale.const.min.n})/5),1)",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The minimum value the property can take."
         },
         "max": {
           "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(0/{type-scale.const.max.n})/5),1)",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The maximum value the property can take."
         },
         "v": {
           "value": "100 * ({type-scale.f0.max}-{type-scale.f0.min}) / ({viewport.max}-{viewport.min})",
@@ -799,17 +803,19 @@
         "clamp-css": {
           "value": "clamp(1.00rem, calc(-0.13vw + 1.03rem), 0.88rem)",
           "type": "fontSizes",
-          "description": "Intented for development"
+          "description": "Intended for development."
         }
       },
       "f1": {
         "min": {
           "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(1/{type-scale.const.min.n})/5),1)",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The minimum value the property can take."
         },
         "max": {
           "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(1/{type-scale.const.max.n})/5),1)",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The maximum value the property can take."
         },
         "v": {
           "value": "100 * ({type-scale.f1.max}-{type-scale.f1.min}) / ({viewport.max}-{viewport.min})",
@@ -831,17 +837,19 @@
         "clamp-css": {
           "value": "clamp(1.06rem, calc(0.00vw + 1.06rem), 1.06rem)",
           "type": "fontSizes",
-          "description": "Intented for development."
+          "description": "Intended for development."
         }
       },
       "f2": {
         "min": {
           "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(2/{type-scale.const.min.n})/5),1)",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The minimum value the property can take."
         },
         "max": {
           "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(2/{type-scale.const.max.n})/5),1)",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The maximum value the property can take."
         },
         "v": {
           "value": "100 * ({type-scale.f2.max}-{type-scale.f2.min}) / ({viewport.max}-{viewport.min})",
@@ -863,17 +871,19 @@
         "clamp-css": {
           "value": "clamp(1.19rem, calc(0.13vw + 1.16rem), 1.31rem)",
           "type": "fontSizes",
-          "description": "Intented for development."
+          "description": "Intended for development."
         }
       },
       "f3": {
         "min": {
           "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(3/{type-scale.const.min.n})/5),1)",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The minimum value the property can take."
         },
         "max": {
           "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(3/{type-scale.const.max.n})/5),1)",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The maximum value the property can take."
         },
         "v": {
           "value": "100 * ({type-scale.f3.max}-{type-scale.f3.min}) / ({viewport.max}-{viewport.min})",
@@ -895,17 +905,19 @@
         "clamp-css": {
           "value": "clamp(1.25rem, calc(0.38vw + 1.16rem), 1.63rem)",
           "type": "fontSizes",
-          "description": "Intented for development."
+          "description": "Intended for development."
         }
       },
       "f4": {
         "min": {
           "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(4/{type-scale.const.min.n})/5),1)",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The minimum value the property can take."
         },
         "max": {
           "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(4/{type-scale.const.max.n})/5),1)",
-          "type": "fontSizes"
+          "type": "fontSizes",
+          "description": "The maximum value the property can take."
         },
         "v": {
           "value": "100 * ({type-scale.f4.max}-{type-scale.f4.min}) / ({viewport.max}-{viewport.min})",
@@ -927,7 +939,7 @@
         "clamp-css": {
           "value": "clamp(1.38rem, calc(0.64vw + 1.23rem), 2.00rem)",
           "type": "fontSizes",
-          "description": "Intented for development."
+          "description": "Intended for development."
         }
       }
     },
@@ -959,7 +971,7 @@
     },
     "viewport": {
       "width": {
-        "value": "1920",
+        "value": "320",
         "type": "sizing"
       },
       "min": {
@@ -974,7 +986,7 @@
     "H4": {
       "value": {
         "fontFamily": "{primary}",
-        "fontWeight": "{Medium}",
+        "fontWeight": "{medium}",
         "lineHeight": "",
         "fontSize": "{font-size.1}"
       },
@@ -1001,7 +1013,7 @@
     "H1": {
       "value": {
         "fontFamily": "{primary}",
-        "fontWeight": "{Medium}",
+        "fontWeight": "{medium}",
         "fontSize": "{font-size.4}"
       },
       "type": "typography",
