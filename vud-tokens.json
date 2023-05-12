@@ -5,16 +5,24 @@
         "value": "0",
         "type": "borderRadius"
       },
-      "sm": {
+      "xs": {
         "value": "{base}",
         "type": "borderRadius"
       },
-      "md": {
-        "value": "{radii.sm}*4",
+      "sm": {
+        "value": "{radii.xs}*4",
         "type": "borderRadius"
       },
-      "lg": {
-        "value": "{radii.sm}*12",
+      "m": {
+        "value": "{radii.xs}*8",
+        "type": "borderRadius"
+      },
+      "l": {
+        "value": "{radii.xs}*12",
+        "type": "borderRadius"
+      },
+      "xl": {
+        "value": "9999px",
         "type": "borderRadius"
       }
     },
@@ -515,20 +523,28 @@
       "type": "fontFamilies"
     },
     "border": {
-      "none": {
+      "0": {
         "value": "0",
         "type": "borderWidth"
       },
-      "thinner": {
+      "1": {
         "value": "1",
         "type": "borderWidth"
       },
-      "thin": {
-        "value": "1.5",
+      "2": {
+        "value": "2",
         "type": "borderWidth"
       },
-      "thick": {
-        "value": "2",
+      "4": {
+        "value": "4",
+        "type": "borderWidth"
+      },
+      "8": {
+        "value": "8",
+        "type": "borderWidth"
+      },
+      "1,5": {
+        "value": "1.5",
         "type": "borderWidth"
       }
     },
@@ -622,6 +638,10 @@
       "48": {
         "value": "{spacing.2}*24",
         "type": "spacing"
+      },
+      "64": {
+        "value": "{spacing.2}*32",
+        "type": "spacing"
       }
     },
     "base": {
@@ -703,7 +723,7 @@
       "value": "underline",
       "type": "textDecoration"
     },
-    "type-scale": {
+    "scale": {
       "const": {
         "min": {
           "f0": {
@@ -738,30 +758,30 @@
       },
       "f-1": {
         "min": {
-          "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(-1/{type-scale.const.min.n})/5),1)",
+          "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(-1/{scale.const.min.n})/5),1)",
           "type": "fontSizes",
           "description": "The minimum value the property can take."
         },
         "max": {
-          "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(-1/{type-scale.const.max.n})/5),1)",
+          "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(-1/{scale.const.max.n})/5),1)",
           "type": "fontSizes",
           "description": "The maximum value the property can take."
         },
         "v": {
-          "value": "100 * ({type-scale.f-1.max}-{type-scale.f-1.min}) / ({viewport.max}-{viewport.min})",
+          "value": "100 * ({scale.f-1.max}-{scale.f-1.min}) / ({viewport.max}-{viewport.min})",
           "type": "fontSizes"
         },
         "r": {
-          "value": "( {viewport.min} * {type-scale.f-1.max} - {viewport.max} * {type-scale.f-1.min}) / ({viewport.min}-{viewport.max})",
+          "value": "( {viewport.min} * {scale.f-1.max} - {viewport.max} * {scale.f-1.min}) / ({viewport.min}-{viewport.max})",
           "type": "fontSizes"
         },
         "fluid": {
-          "value": "round(({viewport.width}/100) * {type-scale.f-1.v} + {type-scale.f-1.r})",
+          "value": "round(({viewport.width}/100) * {scale.f-1.v} + {scale.f-1.r})",
           "type": "fontSizes",
           "description": "The preferred value or ideal size for the property."
         },
         "clamp": {
-          "value": "min( max( {type-scale.f-1.min},  {type-scale.f-1.fluid}) ,{type-scale.f-1.max})",
+          "value": "min( max( {scale.f-1.min},  {scale.f-1.fluid}) ,{scale.f-1.max})",
           "type": "fontSizes"
         },
         "clamp-css": {
@@ -772,30 +792,30 @@
       },
       "f0": {
         "min": {
-          "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(0/{type-scale.const.min.n})/5),1)",
+          "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(0/{scale.const.min.n})/5),1)",
           "type": "fontSizes",
           "description": "The minimum value the property can take."
         },
         "max": {
-          "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(0/{type-scale.const.max.n})/5),1)",
+          "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(0/{scale.const.max.n})/5),1)",
           "type": "fontSizes",
           "description": "The maximum value the property can take."
         },
         "v": {
-          "value": "100 * ({type-scale.f0.max}-{type-scale.f0.min}) / ({viewport.max}-{viewport.min})",
+          "value": "100 * ({scale.f0.max}-{scale.f0.min}) / ({viewport.max}-{viewport.min})",
           "type": "fontSizes"
         },
         "r": {
-          "value": "( {viewport.min} * {type-scale.f0.max} - {viewport.max} * {type-scale.f0.min}) / ({viewport.min}-{viewport.max})",
+          "value": "( {viewport.min} * {scale.f0.max} - {viewport.max} * {scale.f0.min}) / ({viewport.min}-{viewport.max})",
           "type": "fontSizes"
         },
         "fluid": {
-          "value": "round(({viewport.width}/100) * {type-scale.f0.v} + {type-scale.f0.r})",
+          "value": "round(({viewport.width}/100) * {scale.f0.v} + {scale.f0.r})",
           "type": "fontSizes",
           "description": "The preferred value or ideal size for the property."
         },
         "clamp": {
-          "value": "min( max( {type-scale.f0.min},  {type-scale.f0.fluid}) ,{type-scale.f0.max})",
+          "value": "min( max( {scale.f0.min},  {scale.f0.fluid}) ,{scale.f0.max})",
           "type": "fontSizes"
         },
         "clamp-css": {
@@ -806,30 +826,30 @@
       },
       "f1": {
         "min": {
-          "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(1/{type-scale.const.min.n})/5),1)",
+          "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(1/{scale.const.min.n})/5),1)",
           "type": "fontSizes",
           "description": "The minimum value the property can take."
         },
         "max": {
-          "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(1/{type-scale.const.max.n})/5),1)",
+          "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(1/{scale.const.max.n})/5),1)",
           "type": "fontSizes",
           "description": "The maximum value the property can take."
         },
         "v": {
-          "value": "100 * ({type-scale.f1.max}-{type-scale.f1.min}) / ({viewport.max}-{viewport.min})",
+          "value": "100 * ({scale.f1.max}-{scale.f1.min}) / ({viewport.max}-{viewport.min})",
           "type": "fontSizes"
         },
         "r": {
-          "value": "( {viewport.min} * {type-scale.f1.max} - {viewport.max} * {type-scale.f1.min}) / ({viewport.min}-{viewport.max})",
+          "value": "( {viewport.min} * {scale.f1.max} - {viewport.max} * {scale.f1.min}) / ({viewport.min}-{viewport.max})",
           "type": "fontSizes"
         },
         "fluid": {
-          "value": "round(({viewport.width}/100) * {type-scale.f1.v} + {type-scale.f1.r})",
+          "value": "round(({viewport.width}/100) * {scale.f1.v} + {scale.f1.r})",
           "type": "fontSizes",
           "description": "The preferred value or ideal size for the property."
         },
         "clamp": {
-          "value": "min( max( {type-scale.f1.min},  {type-scale.f1.fluid}) ,{type-scale.f1.max})",
+          "value": "min( max( {scale.f1.min},  {scale.f1.fluid}) ,{scale.f1.max})",
           "type": "fontSizes"
         },
         "clamp-css": {
@@ -840,30 +860,30 @@
       },
       "f2": {
         "min": {
-          "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(2/{type-scale.const.min.n})/5),1)",
+          "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(2/{scale.const.min.n})/5),1)",
           "type": "fontSizes",
           "description": "The minimum value the property can take."
         },
         "max": {
-          "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(2/{type-scale.const.max.n})/5),1)",
+          "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(2/{scale.const.max.n})/5),1)",
           "type": "fontSizes",
           "description": "The maximum value the property can take."
         },
         "v": {
-          "value": "100 * ({type-scale.f2.max}-{type-scale.f2.min}) / ({viewport.max}-{viewport.min})",
+          "value": "100 * ({scale.f2.max}-{scale.f2.min}) / ({viewport.max}-{viewport.min})",
           "type": "fontSizes"
         },
         "r": {
-          "value": "( {viewport.min} * {type-scale.f2.max} - {viewport.max} * {type-scale.f2.min}) / ({viewport.min}-{viewport.max})",
+          "value": "( {viewport.min} * {scale.f2.max} - {viewport.max} * {scale.f2.min}) / ({viewport.min}-{viewport.max})",
           "type": "fontSizes"
         },
         "fluid": {
-          "value": "round(({viewport.width}/100) * {type-scale.f2.v} + {type-scale.f2.r})",
+          "value": "round(({viewport.width}/100) * {scale.f2.v} + {scale.f2.r})",
           "type": "fontSizes",
           "description": "The preferred value or ideal size for the property."
         },
         "clamp": {
-          "value": "min( max( {type-scale.f2.min},  {type-scale.f2.fluid}) ,{type-scale.f2.max})",
+          "value": "min( max( {scale.f2.min},  {scale.f2.fluid}) ,{scale.f2.max})",
           "type": "fontSizes"
         },
         "clamp-css": {
@@ -874,30 +894,30 @@
       },
       "f3": {
         "min": {
-          "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(3/{type-scale.const.min.n})/5),1)",
+          "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(3/{scale.const.min.n})/5),1)",
           "type": "fontSizes",
           "description": "The minimum value the property can take."
         },
         "max": {
-          "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(3/{type-scale.const.max.n})/5),1)",
+          "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(3/{scale.const.max.n})/5),1)",
           "type": "fontSizes",
           "description": "The maximum value the property can take."
         },
         "v": {
-          "value": "100 * ({type-scale.f3.max}-{type-scale.f3.min}) / ({viewport.max}-{viewport.min})",
+          "value": "100 * ({scale.f3.max}-{scale.f3.min}) / ({viewport.max}-{viewport.min})",
           "type": "fontSizes"
         },
         "r": {
-          "value": "( {viewport.min} * {type-scale.f3.max} - {viewport.max} * {type-scale.f3.min}) / ({viewport.min}-{viewport.max})",
+          "value": "( {viewport.min} * {scale.f3.max} - {viewport.max} * {scale.f3.min}) / ({viewport.min}-{viewport.max})",
           "type": "fontSizes"
         },
         "fluid": {
-          "value": "round(({viewport.width}/100) * {type-scale.f3.v} + {type-scale.f3.r})",
+          "value": "round(({viewport.width}/100) * {scale.f3.v} + {scale.f3.r})",
           "type": "fontSizes",
           "description": "The preferred value or ideal size for the property."
         },
         "clamp": {
-          "value": "min( max( {type-scale.f3.min},  {type-scale.f3.fluid}) ,{type-scale.f3.max})",
+          "value": "min( max( {scale.f3.min},  {scale.f3.fluid}) ,{scale.f3.max})",
           "type": "fontSizes"
         },
         "clamp-css": {
@@ -908,30 +928,30 @@
       },
       "f4": {
         "min": {
-          "value": "5*roundTo(({type-scale.const.min.f0}*{type-scale.const.min.r}^(4/{type-scale.const.min.n})/5),1)",
+          "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(4/{scale.const.min.n})/5),1)",
           "type": "fontSizes",
           "description": "The minimum value the property can take."
         },
         "max": {
-          "value": "5*roundTo(({type-scale.const.max.f0}*{type-scale.const.max.r}^(4/{type-scale.const.max.n})/5),1)",
+          "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(4/{scale.const.max.n})/5),1)",
           "type": "fontSizes",
           "description": "The maximum value the property can take."
         },
         "v": {
-          "value": "100 * ({type-scale.f4.max}-{type-scale.f4.min}) / ({viewport.max}-{viewport.min})",
+          "value": "100 * ({scale.f4.max}-{scale.f4.min}) / ({viewport.max}-{viewport.min})",
           "type": "fontSizes"
         },
         "r": {
-          "value": "( {viewport.min} * {type-scale.f4.max} - {viewport.max} * {type-scale.f4.min}) / ({viewport.min}-{viewport.max})",
+          "value": "( {viewport.min} * {scale.f4.max} - {viewport.max} * {scale.f4.min}) / ({viewport.min}-{viewport.max})",
           "type": "fontSizes"
         },
         "fluid": {
-          "value": "round(({viewport.width}/100) * {type-scale.f4.v} + {type-scale.f4.r})",
+          "value": "round(({viewport.width}/100) * {scale.f4.v} + {scale.f4.r})",
           "type": "fontSizes",
           "description": "The preferred value or ideal size for the property."
         },
         "clamp": {
-          "value": "min( max( {type-scale.f4.min},  {type-scale.f4.fluid}) ,{type-scale.f4.max})",
+          "value": "min( max( {scale.f4.min},  {scale.f4.fluid}) ,{scale.f4.max})",
           "type": "fontSizes"
         },
         "clamp-css": {
@@ -943,27 +963,27 @@
     },
     "font-size": {
       "0": {
-        "value": "{type-scale.f0.clamp}",
+        "value": "{scale.f0.clamp}",
         "type": "fontSizes"
       },
       "1": {
-        "value": "{type-scale.f1.clamp}",
+        "value": "{scale.f1.clamp}",
         "type": "fontSizes"
       },
       "2": {
-        "value": "{type-scale.f2.clamp}",
+        "value": "{scale.f2.clamp}",
         "type": "fontSizes"
       },
       "3": {
-        "value": "{type-scale.f3.clamp}",
+        "value": "{scale.f3.clamp}",
         "type": "fontSizes"
       },
       "4": {
-        "value": "{type-scale.f4.clamp}",
+        "value": "{scale.f4.clamp}",
         "type": "fontSizes"
       },
       "-1": {
-        "value": "{type-scale.f-1.clamp}",
+        "value": "{scale.f-1.clamp}",
         "type": "fontSizes"
       }
     },
@@ -1316,6 +1336,12 @@
         "fontSize": "{font-size.-1}"
       },
       "type": "typography"
+    },
+    "viewport": {
+      "width": {
+        "value": "320",
+        "type": "sizing"
+      }
     }
   },
   "dark": {
@@ -1649,6 +1675,12 @@
         "fontSize": "{font-size.-1}"
       },
       "type": "typography"
+    },
+    "viewport": {
+      "width": {
+        "value": "320",
+        "type": "sizing"
+      }
     }
   },
   "green light": {
@@ -1731,7 +1763,7 @@
         }
       },
       "inner": {
-        "value": "{border.thinner}",
+        "value": "{border.1}",
         "type": "borderWidth",
         "description": "Border width"
       }
@@ -1867,7 +1899,7 @@
         }
       },
       "inner": {
-        "value": "{border.thinner}",
+        "value": "{border.1}",
         "type": "borderWidth",
         "description": "Border width"
       }
@@ -2003,7 +2035,7 @@
         }
       },
       "inner": {
-        "value": "{border.thinner}",
+        "value": "{border.1}",
         "type": "borderWidth",
         "description": "Border width"
       }
@@ -2139,7 +2171,7 @@
         }
       },
       "inner": {
-        "value": "{border.thick}",
+        "value": "{border.2}",
         "type": "borderWidth",
         "description": "Border width"
       }
@@ -2275,7 +2307,7 @@
         }
       },
       "inner": {
-        "value": "{border.thick}",
+        "value": "{border.2}",
         "type": "borderWidth",
         "description": "Border width"
       }
@@ -2411,7 +2443,7 @@
         }
       },
       "inner": {
-        "value": "{border.thinner}",
+        "value": "{border.1}",
         "type": "borderWidth",
         "description": "Border width"
       }
@@ -2547,7 +2579,7 @@
         }
       },
       "inner": {
-        "value": "{border.thinner}",
+        "value": "{border.1}",
         "type": "borderWidth",
         "description": "Border width"
       }
@@ -2683,7 +2715,7 @@
         }
       },
       "inner": {
-        "value": "{border.thinner}",
+        "value": "{border.1}",
         "type": "borderWidth",
         "description": "Border width"
       }
@@ -2819,7 +2851,7 @@
         }
       },
       "inner": {
-        "value": "{border.thinner}",
+        "value": "{border.1}",
         "type": "borderWidth",
         "description": "Border width"
       }
@@ -2955,7 +2987,7 @@
         }
       },
       "inner": {
-        "value": "{border.thinner}",
+        "value": "{border.1}",
         "type": "borderWidth",
         "description": "Border width"
       }
@@ -3011,6 +3043,1414 @@
       }
     }
   },
+  "Comp (light)": {
+    "base": {
+      "canvas": {
+        "value": "{neutral-20}",
+        "type": "color",
+        "description": "Canvas"
+      },
+      "container": {
+        "value": "{neutral-05}",
+        "type": "color",
+        "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
+      }
+    },
+    "text": {
+      "default": {
+        "value": "{neutral-90}",
+        "type": "color",
+        "description": "Default text colour on body, header"
+      },
+      "primary": {
+        "value": "{neutral-05}",
+        "type": "color",
+        "description": "Primary text colour on ui controls"
+      },
+      "secondary": {
+        "value": "{neutral-80}",
+        "type": "color",
+        "description": "Secondary text colour"
+      },
+      "emphasised": {
+        "value": "{blue-50}",
+        "type": "color",
+        "description": "Emphasised text colour on important text and links, titles, headers"
+      },
+      "disabled": {
+        "value": "{neutral-60}",
+        "type": "color",
+        "description": "Disabled text colour"
+      },
+      "error": {
+        "value": "{red-80}",
+        "type": "color",
+        "description": "Error text colour"
+      },
+      "warning": {
+        "value": "{orange-90}",
+        "type": "color",
+        "description": "Warning text colour on body, headers"
+      },
+      "succes": {
+        "value": "{green-70}",
+        "type": "color",
+        "description": "Successful text colour"
+      }
+    },
+    "icon": {
+      "neutral": {
+        "value": "{neutral-05}",
+        "type": "color",
+        "description": "Default icon"
+      },
+      "blue": {
+        "value": "{blue-50}",
+        "type": "color",
+        "description": "Blue icon"
+      },
+      "red": {
+        "value": "{red-60}",
+        "type": "color",
+        "description": "Red icon"
+      },
+      "orange": {
+        "value": "{orange-70}",
+        "type": "color",
+        "description": "Orange icon"
+      },
+      "green": {
+        "value": "{green-60}",
+        "type": "color",
+        "description": "Green icon"
+      },
+      "state": {
+        "low": {
+          "value": "{neutral-60}",
+          "type": "color",
+          "description": "Grey icon on disabled state"
+        },
+        "normal": {
+          "value": "{neutral-80}",
+          "type": "color",
+          "description": "Grey icon on normal state"
+        },
+        "medium": {
+          "value": "{neutral-70}",
+          "type": "color",
+          "description": "Grey icon on hover state"
+        }
+      }
+    },
+    "divider": {
+      "solid": {
+        "value": "{neutral-30}",
+        "type": "color",
+        "description": "Solid divider "
+      },
+      "dotted": {
+        "value": "{neutral-60}",
+        "type": "color",
+        "description": "Dotted divider"
+      }
+    },
+    "default": {
+      "background": {
+        "normal": {
+          "value": "{neutral-05}",
+          "type": "color",
+          "description": "Input field, default button, search bar on normal & disabled state"
+        },
+        "medium": {
+          "value": "{blue-10}",
+          "type": "color",
+          "description": "Input field, default button, search bar on hover state"
+        },
+        "high": {
+          "value": "{neutral-30}",
+          "type": "color",
+          "description": "Input field, default button, search bar on pressed state"
+        },
+        "max1": {
+          "value": "{neutral-20}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 1"
+        },
+        "max2": {
+          "value": "{green-70}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{neutral-60}",
+          "type": "color",
+          "description": "Input field, default button, search bar on normal, pressed & selected state"
+        },
+        "medium": {
+          "value": "{blue-50}",
+          "type": "color",
+          "description": "Input field, default button, search bar on hover state"
+        },
+        "max2": {
+          "value": "{green-70}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
+        },
+        "low": {
+          "value": "{neutral-40}",
+          "type": "color",
+          "description": "Input field, default button, search bar on disabled state"
+        },
+        "extreme": {
+          "value": "{blue-50}",
+          "type": "color"
+        }
+      }
+    },
+    "border": {
+      "thin": {
+        "left": {
+          "value": {
+            "x": "1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({neutral-20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Left border in table cell"
+        },
+        "top": {
+          "value": {
+            "x": "0",
+            "y": "1",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({neutral-20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Top border in table cell"
+        },
+        "right": {
+          "value": {
+            "x": "-1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({neutral-20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Right border in table cell"
+        },
+        "bottom": {
+          "value": {
+            "x": "0",
+            "y": "-1",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({neutral-20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Bottom border in table cell"
+        }
+      }
+    },
+    "informational": {
+      "background": {
+        "default": {
+          "value": "{neutral-05}",
+          "type": "color",
+          "description": "Default alerts. Lower prio statuses such as pairing"
+        },
+        "blue": {
+          "value": "{blue-05}",
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+        },
+        "purple": {
+          "value": "{purple-05}",
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
+        },
+        "orange": {
+          "value": "{orange-05}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+        },
+        "red": {
+          "value": "{red-05}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+        },
+        "green": {
+          "value": "{green-05}",
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{neutral-60}",
+          "type": "color",
+          "description": "Default alerts. Lower prio statuses such as pairing"
+        },
+        "blue": {
+          "value": "{blue-60}",
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+        },
+        "purple": {
+          "value": "{purple-60}",
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
+        },
+        "orange": {
+          "value": "{orange-70}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+        },
+        "red": {
+          "value": "{red-60}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+        },
+        "green": {
+          "value": "{green-60}",
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        }
+      }
+    },
+    "h4": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontWeight": "{medium}",
+        "lineHeight": "",
+        "fontSize": "{font-size.1}"
+      },
+      "type": "typography",
+      "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content."
+    },
+    "h3": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontSize": "{font-size.1}",
+        "fontWeight": ""
+      },
+      "type": "typography",
+      "description": "The <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content."
+    },
+    "h2": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontSize": "{font-size.2}"
+      },
+      "type": "typography",
+      "description": "The <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section."
+    },
+    "h1": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontWeight": "{medium}",
+        "fontSize": "{font-size.4}"
+      },
+      "type": "typography",
+      "description": "The <h1> tag is commonly used to display the main title of a webpage."
+    },
+    "body": {
+      "value": {
+        "fontFamily": "{secondary}",
+        "fontWeight": "{regular}",
+        "fontSize": "{font-size.0}"
+      },
+      "type": "typography"
+    },
+    "callout": {
+      "value": {
+        "fontFamily": "{secondary}",
+        "fontSize": "{font-size.-1}"
+      },
+      "type": "typography"
+    },
+    "viewport": {
+      "width": {
+        "value": "320",
+        "type": "sizing"
+      }
+    }
+  },
+  "Theme": {
+    "description": {
+      "value": "",
+      "type": "other"
+    },
+    "borderWidths": {
+      "0": {
+        "value": "0",
+        "type": "other"
+      },
+      "1": {
+        "value": "1px",
+        "type": "other"
+      },
+      "2": {
+        "value": "2px",
+        "type": "other"
+      },
+      "3": {
+        "value": "4px",
+        "type": "other"
+      },
+      "4": {
+        "value": "8px",
+        "type": "other"
+      }
+    },
+    "lineHeights": {
+      "solid": {
+        "value": "1",
+        "type": "lineHeights"
+      },
+      "heading": {
+        "value": "1.25",
+        "type": "lineHeights"
+      },
+      "body": {
+        "value": "1.5",
+        "type": "lineHeights"
+      }
+    },
+    "letterSpacings": {
+      "tracked": {
+        "value": "0.1em",
+        "type": "other"
+      },
+      "negative": {
+        "value": "-0.05em",
+        "type": "other"
+      },
+      "large": {
+        "value": "0.25em",
+        "type": "other"
+      }
+    },
+    "fontSizes": {
+      "0": {
+        "value": "0.75rem",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "0.875rem",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "1rem",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "1.125rem",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "1.25rem",
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": "1.5rem",
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": "2rem",
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": "3rem",
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": "4rem",
+        "type": "fontSizes"
+      },
+      "9": {
+        "value": "6rem",
+        "type": "fontSizes"
+      },
+      "10": {
+        "value": "8rem",
+        "type": "fontSizes"
+      }
+    },
+    "fonts": {
+      "heading": {
+        "value": "-apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "type": "other"
+      },
+      "body": {
+        "value": "-apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "type": "other"
+      },
+      "mono": {
+        "value": "\"SFMono-Regular\",Consolas,\"Liberation Mono\",Menlo,Courier,monospace",
+        "type": "other"
+      }
+    },
+    "colors": {
+      "tint": {
+        "0": {
+          "value": "hsla(0, 0%, 100%, .035)",
+          "type": "color"
+        },
+        "1": {
+          "value": "hsla(0, 0%, 100%, 0.1)",
+          "type": "color"
+        },
+        "2": {
+          "value": "hsla(0, 0%, 100%, 0.19)",
+          "type": "color"
+        },
+        "3": {
+          "value": "hsla(0, 0%, 100%, .28)",
+          "type": "color"
+        },
+        "4": {
+          "value": "hsla(0, 0%, 100%, 0.36)",
+          "type": "color"
+        },
+        "5": {
+          "value": "hsla(0, 0%, 100%, 0.45)",
+          "type": "color"
+        },
+        "6": {
+          "value": "hsla(0, 0%, 100%, .55)",
+          "type": "color"
+        },
+        "7": {
+          "value": "hsla(0, 0%, 100%, 0.64)",
+          "type": "color"
+        },
+        "8": {
+          "value": "hsla(0, 0%, 100%, .73)",
+          "type": "color"
+        },
+        "9": {
+          "value": "hsla(0, 0%, 100%, .815)",
+          "type": "color"
+        },
+        "10": {
+          "value": "hsla(0, 0%, 100%, .895)",
+          "type": "color"
+        },
+        "11": {
+          "value": "hsla(0, 0%, 100%, .94)",
+          "type": "color"
+        }
+      },
+      "shade": {
+        "0": {
+          "value": "hsla(0, 0%, 0%, 0.94)",
+          "type": "color"
+        },
+        "1": {
+          "value": "hsla(0, 0%, 0%, .895)",
+          "type": "color"
+        },
+        "2": {
+          "value": "hsla(0, 0%, 0%, .815)",
+          "type": "color"
+        },
+        "3": {
+          "value": "hsla(0, 0%, 0%, .73)",
+          "type": "color"
+        },
+        "4": {
+          "value": "hsla(0, 0%, 0%, .64)",
+          "type": "color"
+        },
+        "5": {
+          "value": "hsla(0, 0%, 0%, .55)",
+          "type": "color"
+        },
+        "6": {
+          "value": "hsla(0, 0%, 0%, 0.45)",
+          "type": "color"
+        },
+        "7": {
+          "value": "hsla(0, 0%, 0%, 0.36)",
+          "type": "color"
+        },
+        "8": {
+          "value": "hsla(0, 0%, 0%, .28)",
+          "type": "color"
+        },
+        "9": {
+          "value": "hsla(0, 0%, 0%, .19)",
+          "type": "color"
+        },
+        "10": {
+          "value": "hsla(0, 0%, 0%, 0.1)",
+          "type": "color"
+        },
+        "11": {
+          "value": "hsla(0, 0%, 0%, 0.035)",
+          "type": "color"
+        }
+      },
+      "gray": {
+        "0": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "1": {
+          "value": "#171717",
+          "type": "color"
+        },
+        "2": {
+          "value": "#2f2f2f",
+          "type": "color"
+        },
+        "3": {
+          "value": "#464646",
+          "type": "color"
+        },
+        "4": {
+          "value": "#5e5e5e",
+          "type": "color"
+        },
+        "5": {
+          "value": "#757575",
+          "type": "color"
+        },
+        "6": {
+          "value": "#8c8c8c",
+          "type": "color"
+        },
+        "7": {
+          "value": "#a3a3a3",
+          "type": "color"
+        },
+        "8": {
+          "value": "#bababa",
+          "type": "color"
+        },
+        "9": {
+          "value": "#d1d1d1",
+          "type": "color"
+        },
+        "10": {
+          "value": "#e8e8e8",
+          "type": "color"
+        },
+        "11": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "slate-gray": {
+        "0": {
+          "value": "#09090b",
+          "type": "color"
+        },
+        "1": {
+          "value": "#1d1d22",
+          "type": "color"
+        },
+        "2": {
+          "value": "#313138",
+          "type": "color"
+        },
+        "3": {
+          "value": "#45444f",
+          "type": "color"
+        },
+        "4": {
+          "value": "#595866",
+          "type": "color"
+        },
+        "5": {
+          "value": "#6d6c7d",
+          "type": "color"
+        },
+        "6": {
+          "value": "#838292",
+          "type": "color"
+        },
+        "7": {
+          "value": "#9a9aa7",
+          "type": "color"
+        },
+        "8": {
+          "value": "#b2b1bb",
+          "type": "color"
+        },
+        "9": {
+          "value": "#c9c9d0",
+          "type": "color"
+        },
+        "10": {
+          "value": "#e1e0e4",
+          "type": "color"
+        },
+        "11": {
+          "value": "#f8f8f9",
+          "type": "color"
+        }
+      },
+      "blue": {
+        "0": {
+          "value": "#030b18",
+          "type": "color"
+        },
+        "1": {
+          "value": "#071e3f",
+          "type": "color"
+        },
+        "2": {
+          "value": "#0c3166",
+          "type": "color"
+        },
+        "3": {
+          "value": "#10448d",
+          "type": "color"
+        },
+        "4": {
+          "value": "#1556b4",
+          "type": "color"
+        },
+        "5": {
+          "value": "#1969db",
+          "type": "color"
+        },
+        "6": {
+          "value": "#317fed",
+          "type": "color"
+        },
+        "7": {
+          "value": "#5797f0",
+          "type": "color"
+        },
+        "8": {
+          "value": "#7daef4",
+          "type": "color"
+        },
+        "9": {
+          "value": "#a3c6f7",
+          "type": "color"
+        },
+        "10": {
+          "value": "#c9ddfa",
+          "type": "color"
+        },
+        "11": {
+          "value": "#eff5fe",
+          "type": "color"
+        }
+      },
+      "indigo": {
+        "0": {
+          "value": "#080614",
+          "type": "color"
+        },
+        "1": {
+          "value": "#19143f",
+          "type": "color"
+        },
+        "2": {
+          "value": "#2a216a",
+          "type": "color"
+        },
+        "3": {
+          "value": "#3a2e95",
+          "type": "color"
+        },
+        "4": {
+          "value": "#4b3bc0",
+          "type": "color"
+        },
+        "5": {
+          "value": "#5c49eb",
+          "type": "color"
+        },
+        "6": {
+          "value": "#725fff",
+          "type": "color"
+        },
+        "7": {
+          "value": "#8c7cff",
+          "type": "color"
+        },
+        "8": {
+          "value": "#a69aff",
+          "type": "color"
+        },
+        "9": {
+          "value": "#c0b7ff",
+          "type": "color"
+        },
+        "10": {
+          "value": "#dad5ff",
+          "type": "color"
+        },
+        "11": {
+          "value": "#f4f3ff",
+          "type": "color"
+        }
+      },
+      "violet": {
+        "0": {
+          "value": "#110517",
+          "type": "color"
+        },
+        "1": {
+          "value": "#2e0d3e",
+          "type": "color"
+        },
+        "2": {
+          "value": "#4b1465",
+          "type": "color"
+        },
+        "3": {
+          "value": "#681c8c",
+          "type": "color"
+        },
+        "4": {
+          "value": "#8424b3",
+          "type": "color"
+        },
+        "5": {
+          "value": "#a12cda",
+          "type": "color"
+        },
+        "6": {
+          "value": "#b543ec",
+          "type": "color"
+        },
+        "7": {
+          "value": "#c366f0",
+          "type": "color"
+        },
+        "8": {
+          "value": "#d089f3",
+          "type": "color"
+        },
+        "9": {
+          "value": "#deabf7",
+          "type": "color"
+        },
+        "10": {
+          "value": "#eccefa",
+          "type": "color"
+        },
+        "11": {
+          "value": "#f9f0fe",
+          "type": "color"
+        }
+      },
+      "magenta": {
+        "0": {
+          "value": "#13040f",
+          "type": "color"
+        },
+        "1": {
+          "value": "#350a2c",
+          "type": "color"
+        },
+        "2": {
+          "value": "#581148",
+          "type": "color"
+        },
+        "3": {
+          "value": "#7b1765",
+          "type": "color"
+        },
+        "4": {
+          "value": "#9e1e82",
+          "type": "color"
+        },
+        "5": {
+          "value": "#c1249e",
+          "type": "color"
+        },
+        "6": {
+          "value": "#d43cb2",
+          "type": "color"
+        },
+        "7": {
+          "value": "#dc61c1",
+          "type": "color"
+        },
+        "8": {
+          "value": "#e485cf",
+          "type": "color"
+        },
+        "9": {
+          "value": "#eca9dd",
+          "type": "color"
+        },
+        "10": {
+          "value": "#f4ceec",
+          "type": "color"
+        },
+        "11": {
+          "value": "#fcf2fa",
+          "type": "color"
+        }
+      },
+      "red": {
+        "0": {
+          "value": "#120205",
+          "type": "color"
+        },
+        "1": {
+          "value": "#39050f",
+          "type": "color"
+        },
+        "2": {
+          "value": "#5f0819",
+          "type": "color"
+        },
+        "3": {
+          "value": "#860b24",
+          "type": "color"
+        },
+        "4": {
+          "value": "#ac0e2e",
+          "type": "color"
+        },
+        "5": {
+          "value": "#d31138",
+          "type": "color"
+        },
+        "6": {
+          "value": "#e7284e",
+          "type": "color"
+        },
+        "7": {
+          "value": "#ec506f",
+          "type": "color"
+        },
+        "8": {
+          "value": "#f07790",
+          "type": "color"
+        },
+        "9": {
+          "value": "#f49fb0",
+          "type": "color"
+        },
+        "10": {
+          "value": "#f9c7d1",
+          "type": "color"
+        },
+        "11": {
+          "value": "#fdeef1",
+          "type": "color"
+        }
+      },
+      "red-orange": {
+        "0": {
+          "value": "#190b05",
+          "type": "color"
+        },
+        "1": {
+          "value": "#3d1307",
+          "type": "color"
+        },
+        "2": {
+          "value": "#601b0a",
+          "type": "color"
+        },
+        "3": {
+          "value": "#84240c",
+          "type": "color"
+        },
+        "4": {
+          "value": "#a72c0e",
+          "type": "color"
+        },
+        "5": {
+          "value": "#cb3411",
+          "type": "color"
+        },
+        "6": {
+          "value": "#ee3c13",
+          "type": "color"
+        },
+        "7": {
+          "value": "#fe562f",
+          "type": "color"
+        },
+        "8": {
+          "value": "#fe7d5e",
+          "type": "color"
+        },
+        "9": {
+          "value": "#ffa48e",
+          "type": "color"
+        },
+        "10": {
+          "value": "#ffccbe",
+          "type": "color"
+        },
+        "11": {
+          "value": "#fff3ee",
+          "type": "color"
+        }
+      },
+      "orange": {
+        "0": {
+          "value": "#150d04",
+          "type": "color"
+        },
+        "1": {
+          "value": "#2e1c08",
+          "type": "color"
+        },
+        "2": {
+          "value": "#472a0c",
+          "type": "color"
+        },
+        "3": {
+          "value": "#603910",
+          "type": "color"
+        },
+        "4": {
+          "value": "#794714",
+          "type": "color"
+        },
+        "5": {
+          "value": "#a65d13",
+          "type": "color"
+        },
+        "6": {
+          "value": "#d37413",
+          "type": "color"
+        },
+        "7": {
+          "value": "#ff8a14",
+          "type": "color"
+        },
+        "8": {
+          "value": "#ffa54a",
+          "type": "color"
+        },
+        "9": {
+          "value": "#ffc081",
+          "type": "color"
+        },
+        "10": {
+          "value": "#ffdab7",
+          "type": "color"
+        },
+        "11": {
+          "value": "#fff5ed",
+          "type": "color"
+        }
+      },
+      "gold": {
+        "0": {
+          "value": "#140e05",
+          "type": "color"
+        },
+        "1": {
+          "value": "#2c1f0a",
+          "type": "color"
+        },
+        "2": {
+          "value": "#432f0e",
+          "type": "color"
+        },
+        "3": {
+          "value": "#5b4013",
+          "type": "color"
+        },
+        "4": {
+          "value": "#725118",
+          "type": "color"
+        },
+        "5": {
+          "value": "#946818",
+          "type": "color"
+        },
+        "6": {
+          "value": "#d4950d",
+          "type": "color"
+        },
+        "7": {
+          "value": "#eeb028",
+          "type": "color"
+        },
+        "8": {
+          "value": "#f2c259",
+          "type": "color"
+        },
+        "9": {
+          "value": "#f7d38a",
+          "type": "color"
+        },
+        "10": {
+          "value": "#fbe5bc",
+          "type": "color"
+        },
+        "11": {
+          "value": "#fff5e9",
+          "type": "color"
+        }
+      },
+      "yellow": {
+        "0": {
+          "value": "#111006",
+          "type": "color"
+        },
+        "1": {
+          "value": "#252405",
+          "type": "color"
+        },
+        "2": {
+          "value": "#3a3804",
+          "type": "color"
+        },
+        "3": {
+          "value": "#4e4d03",
+          "type": "color"
+        },
+        "4": {
+          "value": "#636101",
+          "type": "color"
+        },
+        "5": {
+          "value": "#777500",
+          "type": "color"
+        },
+        "6": {
+          "value": "#ccc500",
+          "type": "color"
+        },
+        "7": {
+          "value": "#fcf433",
+          "type": "color"
+        },
+        "8": {
+          "value": "#fdf67a",
+          "type": "color"
+        },
+        "9": {
+          "value": "#fdf89b",
+          "type": "color"
+        },
+        "10": {
+          "value": "#fef9bb",
+          "type": "color"
+        },
+        "11": {
+          "value": "#fefadb",
+          "type": "color"
+        }
+      },
+      "green": {
+        "0": {
+          "value": "#091108",
+          "type": "color"
+        },
+        "1": {
+          "value": "#0f2611",
+          "type": "color"
+        },
+        "2": {
+          "value": "#153c1a",
+          "type": "color"
+        },
+        "3": {
+          "value": "#1b5122",
+          "type": "color"
+        },
+        "4": {
+          "value": "#21662b",
+          "type": "color"
+        },
+        "5": {
+          "value": "#25833a",
+          "type": "color"
+        },
+        "6": {
+          "value": "#26b056",
+          "type": "color"
+        },
+        "7": {
+          "value": "#35d272",
+          "type": "color"
+        },
+        "8": {
+          "value": "#63dd90",
+          "type": "color"
+        },
+        "9": {
+          "value": "#90e8ae",
+          "type": "color"
+        },
+        "10": {
+          "value": "#bdf3cc",
+          "type": "color"
+        },
+        "11": {
+          "value": "#eafeea",
+          "type": "color"
+        }
+      },
+      "teal": {
+        "0": {
+          "value": "#07100c",
+          "type": "color"
+        },
+        "1": {
+          "value": "#0c231a",
+          "type": "color"
+        },
+        "2": {
+          "value": "#113628",
+          "type": "color"
+        },
+        "3": {
+          "value": "#164936",
+          "type": "color"
+        },
+        "4": {
+          "value": "#1b5b45",
+          "type": "color"
+        },
+        "5": {
+          "value": "#177f63",
+          "type": "color"
+        },
+        "6": {
+          "value": "#12a282",
+          "type": "color"
+        },
+        "7": {
+          "value": "#2abb9b",
+          "type": "color"
+        },
+        "8": {
+          "value": "#5acab1",
+          "type": "color"
+        },
+        "9": {
+          "value": "#8bdac7",
+          "type": "color"
+        },
+        "10": {
+          "value": "#bbe9dc",
+          "type": "color"
+        },
+        "11": {
+          "value": "#ecf8f2",
+          "type": "color"
+        }
+      },
+      "cyan": {
+        "0": {
+          "value": "#0a1211",
+          "type": "color"
+        },
+        "1": {
+          "value": "#102425",
+          "type": "color"
+        },
+        "2": {
+          "value": "#153639",
+          "type": "color"
+        },
+        "3": {
+          "value": "#1b484c",
+          "type": "color"
+        },
+        "4": {
+          "value": "#215a60",
+          "type": "color"
+        },
+        "5": {
+          "value": "#247981",
+          "type": "color"
+        },
+        "6": {
+          "value": "#24a9b6",
+          "type": "color"
+        },
+        "7": {
+          "value": "#28d6e6",
+          "type": "color"
+        },
+        "8": {
+          "value": "#57e0ec",
+          "type": "color"
+        },
+        "9": {
+          "value": "#85eaf2",
+          "type": "color"
+        },
+        "10": {
+          "value": "#b4f5f9",
+          "type": "color"
+        },
+        "11": {
+          "value": "#e2ffff",
+          "type": "color"
+        }
+      }
+    },
+    "boxShadows": {
+      "0": {
+        "value": "0px 1px 1px 0px hsla(0, 0%, 0%, 0.035), 0px 2px 2px 0px rgba(0, 0, 0, 0.125), 0px 4px 4px 0px rgba(0, 0, 0, 0.125), 0px 8px 8px 0px rgba(0, 0, 0, 0.125), 0px 16px 16px 0px rgba(0, 0, 0, 0.125)",
+        "type": "other"
+      },
+      "1": {
+        "value": "0px 1px 1px 0px rgba(0, 0, 0, 0.15), 0px 2px 2px 0px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.15), 0px 8px 8px 0px rgba(0, 0, 0, 0.15)",
+        "type": "other"
+      },
+      "2": {
+        "value": "0px 1px 1px 0px rgba(0, 0, 0, 0.11), 0px 2px 2px 0px rgba(0, 0, 0, 0.11), 0px 4px 4px 0px rgba(0, 0, 0, 0.11), 0px 8px 8px 0px rgba(0, 0, 0, 0.11), 0px 16px 16px 0px rgba(0, 0, 0, 0.11), 0px 32px 32px 0px rgba(0, 0, 0, 0.11)",
+        "type": "other"
+      },
+      "3": {
+        "value": "0px 1px 1px 0px rgba(0, 0, 0, 0.25), 0px 2px 2px 0px rgba(0, 0, 0, 0.20), 0px 4px 4px 0px rgba(0, 0, 0, 0.15), 0px 8px 8px 0px rgba(0, 0, 0, 0.10), 0px 16px 16px 0px rgba(0, 0, 0, 0.05)",
+        "type": "other"
+      },
+      "4": {
+        "value": "0px 1px 1px 0px rgba(0, 0, 0, 0.25), 0px 2px 2px 0px rgba(0, 0, 0, 0.2), 0px 4px 4px 0px rgba(0, 0, 0, 0.15), 0px 8px 8px 0px rgba(0, 0, 0, 0.1), 0px 16px 16px 0px rgba(0, 0, 0, 0.05)",
+        "type": "other"
+      },
+      "5": {
+        "value": "0px 19px 38px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.16), 0px 8px 8px 0px rgba(0, 0, 0, 0.2)",
+        "type": "other"
+      },
+      "border": {
+        "value": "inset 0px 0px 0px 1px currentColor",
+        "type": "other"
+      },
+      "border-light-overlay": {
+        "value": "inset 0px 0px 0px 1px rgba(255, 255, 255, 0.13)",
+        "type": "other"
+      },
+      "border-dark-overlay": {
+        "value": "inset 0px 1px 0px 1px rgba(0, 0, 0, 0.13)",
+        "type": "other"
+      }
+    },
+    "easingFunctions": {
+      "0": {
+        "value": "linear",
+        "type": "other"
+      },
+      "1": {
+        "value": "cubic-bezier(0.828, 0.39, 0.236, 1.167)",
+        "type": "other"
+      },
+      "2": {
+        "value": "ease",
+        "type": "other"
+      }
+    },
+    "space": {
+      "0": {
+        "value": "0",
+        "type": "spacing"
+      },
+      "1": {
+        "value": "4px",
+        "type": "spacing"
+      },
+      "2": {
+        "value": "8px",
+        "type": "spacing"
+      },
+      "3": {
+        "value": "16px",
+        "type": "spacing"
+      },
+      "4": {
+        "value": "32px",
+        "type": "spacing"
+      },
+      "5": {
+        "value": "64px",
+        "type": "spacing"
+      },
+      "6": {
+        "value": "128px",
+        "type": "spacing"
+      },
+      "7": {
+        "value": "256px",
+        "type": "spacing"
+      },
+      "8": {
+        "value": "512px",
+        "type": "spacing"
+      }
+    },
+    "borderRadius": {
+      "0": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "1": {
+        "value": "4px",
+        "type": "borderRadius"
+      },
+      "2": {
+        "value": "6px",
+        "type": "borderRadius"
+      },
+      "3": {
+        "value": "8px",
+        "type": "borderRadius"
+      },
+      "4": {
+        "value": "16px",
+        "type": "borderRadius"
+      },
+      "5": {
+        "value": "32px",
+        "type": "borderRadius"
+      },
+      "6": {
+        "value": "9999px",
+        "type": "borderRadius"
+      }
+    },
+    "borderStyles": {
+      "0": {
+        "value": "none",
+        "type": "other"
+      },
+      "1": {
+        "value": "solid",
+        "type": "other"
+      }
+    },
+    "name": {
+      "value": "System",
+      "type": "other"
+    },
+    "durations": {
+      "0": {
+        "value": "250ms",
+        "type": "other"
+      },
+      "1": {
+        "value": "375ms",
+        "type": "other"
+      },
+      "2": {
+        "value": "500ms",
+        "type": "other"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -3026,7 +4466,9 @@
       "blue dark",
       "purple dark",
       "orange dark",
-      "red dark"
+      "red dark",
+      "Comp (light)",
+      "Theme"
     ]
   }
 }
