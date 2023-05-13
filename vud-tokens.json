@@ -1461,11 +1461,53 @@
             "value": "{colorpalette.purple.90}",
             "type": "color"
           }
+        },
+        "default": {
+          "5": {
+            "value": "{colorpalette.neutral.5}",
+            "type": "color"
+          },
+          "10": {
+            "value": "{colorpalette.neutral.10}",
+            "type": "color"
+          },
+          "20": {
+            "value": "{colorpalette.neutral.20}",
+            "type": "color"
+          },
+          "30": {
+            "value": "{colorpalette.neutral.30}",
+            "type": "color"
+          },
+          "40": {
+            "value": "{colorpalette.neutral.40}",
+            "type": "color"
+          },
+          "50": {
+            "value": "{colorpalette.neutral.50}",
+            "type": "color"
+          },
+          "60": {
+            "value": "{colorpalette.neutral.60}",
+            "type": "color"
+          },
+          "70": {
+            "value": "{colorpalette.neutral.70}",
+            "type": "color"
+          },
+          "80": {
+            "value": "{colorpalette.neutral.80}",
+            "type": "color"
+          },
+          "90": {
+            "value": "{colorpalette.neutral.90}",
+            "type": "color"
+          }
         }
       }
     }
   },
-  "light": {
+  "default light": {
     "base": {
       "canvas": {
         "value": "{colorpalette.neutral.20}",
@@ -1478,212 +1520,152 @@
         "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
       }
     },
-    "text": {
-      "default": {
-        "value": "{colorpalette.neutral.90}",
-        "type": "color",
-        "description": "Default text colour on body, header"
-      },
-      "primary": {
-        "value": "{colorpalette.neutral.5}",
-        "type": "color",
-        "description": "Primary text colour on ui controls"
-      },
-      "secondary": {
-        "value": "{colorpalette.neutral.80}",
-        "type": "color",
-        "description": "Secondary text colour"
-      },
-      "emphasised": {
-        "value": "{colorpalette.blue.50}",
-        "type": "color",
-        "description": "Emphasised text colour on important text and links, titles, headers"
-      },
-      "disabled": {
-        "value": "{colorpalette.neutral.60}",
-        "type": "color",
-        "description": "Disabled text colour"
-      },
-      "error": {
-        "value": "{colorpalette.red.80}",
-        "type": "color",
-        "description": "Error text colour"
-      },
-      "warning": {
-        "value": "{colorpalette.orange.90}",
-        "type": "color",
-        "description": "Warning text colour on body, headers"
-      },
-      "succes": {
-        "value": "{colorpalette.green.70}",
-        "type": "color",
-        "description": "Successful text colour"
-      }
-    },
-    "icon": {
-      "neutral": {
-        "value": "{colorpalette.neutral.5}",
-        "type": "color",
-        "description": "Default icon"
-      },
-      "blue": {
-        "value": "{colorpalette.blue.50}",
-        "type": "color",
-        "description": "Blue icon"
-      },
-      "red": {
-        "value": "{colorpalette.red.60}",
-        "type": "color",
-        "description": "Red icon"
-      },
-      "orange": {
-        "value": "{colorpalette.orange.70}",
-        "type": "color",
-        "description": "Orange icon"
-      },
-      "green": {
-        "value": "{colorpalette.green.60}",
-        "type": "color",
-        "description": "Green icon"
-      },
-      "state": {
-        "low": {
-          "value": "{colorpalette.neutral.60}",
-          "type": "color",
-          "description": "Grey icon on disabled state"
+    "buttons": {
+      "confirmational": {
+        "text": {
+          "normal": {
+            "value": "{brand.default.90}",
+            "type": "color",
+            "description": "Default text colour"
+          },
+          "secondary": {
+            "value": "{brand.default.80}",
+            "type": "color",
+            "description": "Secondary text colour"
+          },
+          "emphasized": {
+            "value": "{brand.secondary.60}",
+            "type": "color",
+            "description": "Emphasized text colour on important text and links, titles, headers"
+          },
+          "disabled": {
+            "value": "{brand.default.60}",
+            "type": "color",
+            "description": "Disabled text colour"
+          }
         },
-        "normal": {
-          "value": "{colorpalette.neutral.80}",
-          "type": "color",
-          "description": "Grey icon on normal state"
+        "icon": {
+          "disabled": {
+            "value": "{brand.default.60}",
+            "type": "color",
+            "description": "Grey icon on disabled state"
+          },
+          "normal": {
+            "value": "{brand.default.80}",
+            "type": "color",
+            "description": "Grey icon on normal state"
+          }
         },
-        "medium": {
-          "value": "{colorpalette.neutral.70}",
-          "type": "color",
-          "description": "Grey icon on hover state"
+        "background": {
+          "normal": {
+            "value": "{brand.default.5}",
+            "type": "color",
+            "description": "Input field, default button, search bar on normal & disabled state"
+          },
+          "hover": {
+            "value": "{brand.secondary.10}",
+            "type": "color",
+            "description": "Input field, default button, search bar on hover state"
+          },
+          "pressed": {
+            "value": "{brand.default.30}",
+            "type": "color",
+            "description": "Input field, default button, search bar on pressed state"
+          },
+          "selected1": {
+            "value": "{brand.default.20}",
+            "type": "color",
+            "description": "Input field, default button, search bar on selected state 1"
+          },
+          "selected2": {
+            "value": "{brand.primary.70}",
+            "type": "color",
+            "description": "Input field, default button, search bar on selected state 2"
+          }
+        },
+        "border": {
+          "normal": {
+            "value": "{brand.default.60}",
+            "type": "color",
+            "description": "Input field, default button, search bar on normal, pressed & selected state"
+          },
+          "hover": {
+            "value": "{brand.secondary.50}",
+            "type": "color",
+            "description": "Input field, default button, search bar on hover state"
+          },
+          "max2": {
+            "value": "{brand.primary.70}",
+            "type": "color",
+            "description": "Input field, default button, search bar on selected state 2"
+          },
+          "disabled": {
+            "value": "{brand.default.40}",
+            "type": "color",
+            "description": "Input field, default button, search bar on disabled state"
+          },
+          "focused": {
+            "value": "{brand.secondary.50}",
+            "type": "color",
+            "description": "Input field, default button, search bar on focused state"
+          }
+        }
+      },
+      "destructive": {
+        "background": {
+          "normal": {
+            "value": "{system.semantic.default.5}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "normal": {
+            "value": "{system.semantic.error.70}",
+            "type": "color"
+          }
         }
       }
     },
-    "divider": {
-      "solid": {
-        "value": "{colorpalette.neutral.30}",
-        "type": "color",
-        "description": "Solid divider "
-      },
-      "dotted": {
-        "value": "{colorpalette.neutral.60}",
-        "type": "color",
-        "description": "Dotted divider"
-      }
-    },
-    "default": {
-      "background": {
-        "normal": {
-          "value": "{colorpalette.neutral.5}",
+    "semantic": {
+      "text": {
+        "error": {
+          "value": "{system.semantic.error.80}",
           "type": "color",
-          "description": "Input field, default button, search bar on normal & disabled state"
+          "description": "Error text colour"
         },
-        "medium": {
-          "value": "{colorpalette.blue.10}",
+        "warning": {
+          "value": "{system.semantic.warning.90}",
           "type": "color",
-          "description": "Input field, default button, search bar on hover state"
+          "description": "Warning text colour on body, headers"
         },
-        "high": {
-          "value": "{colorpalette.neutral.30}",
+        "succes": {
+          "value": "{brand.primary.70}",
           "type": "color",
-          "description": "Input field, default button, search bar on pressed state"
-        },
-        "max1": {
-          "value": "{colorpalette.neutral.20}",
-          "type": "color",
-          "description": "Input field, default button, search bar on selected state 1"
-        },
-        "max2": {
-          "value": "{colorpalette.green.70}",
-          "type": "color",
-          "description": "Input field, default button, search bar on selected state 2"
+          "description": "Successful text colour"
         }
       },
-      "border": {
-        "normal": {
-          "value": "{colorpalette.neutral.60}",
-          "type": "color",
-          "description": "Input field, default button, search bar on normal, pressed & selected state"
-        },
-        "medium": {
+      "icon": {
+        "blue": {
           "value": "{colorpalette.blue.50}",
           "type": "color",
-          "description": "Input field, default button, search bar on hover state"
+          "description": "Blue icon"
         },
-        "max2": {
-          "value": "{colorpalette.green.70}",
+        "red": {
+          "value": "{colorpalette.red.60}",
           "type": "color",
-          "description": "Input field, default button, search bar on selected state 2"
+          "description": "Red icon"
         },
-        "low": {
-          "value": "{colorpalette.neutral.40}",
+        "orange": {
+          "value": "{colorpalette.orange.70}",
           "type": "color",
-          "description": "Input field, default button, search bar on disabled state"
+          "description": "Orange icon"
         },
-        "extreme": {
-          "value": "{colorpalette.blue.50}",
-          "type": "color"
+        "green": {
+          "value": "{colorpalette.green.60}",
+          "type": "color",
+          "description": "Green icon"
         }
-      }
-    },
-    "border": {
-      "thin": {
-        "left": {
-          "value": {
-            "x": "1",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({colorpalette.neutral.20}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Left border in table cell"
-        },
-        "top": {
-          "value": {
-            "x": "0",
-            "y": "1",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({colorpalette.neutral.20}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Top border in table cell"
-        },
-        "right": {
-          "value": {
-            "x": "-1",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({colorpalette.neutral.20}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Right border in table cell"
-        },
-        "bottom": {
-          "value": {
-            "x": "0",
-            "y": "-1",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({colorpalette.neutral.20}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Bottom border in table cell"
-        }
-      }
-    },
-    "informational": {
+      },
       "background": {
         "default": {
           "value": "{colorpalette.neutral.5}",
@@ -1746,6 +1728,70 @@
           "value": "{colorpalette.green.60}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        }
+      }
+    },
+    "divider": {
+      "solid": {
+        "value": "{colorpalette.neutral.30}",
+        "type": "color",
+        "description": "Solid divider "
+      },
+      "dotted": {
+        "value": "{colorpalette.neutral.60}",
+        "type": "color",
+        "description": "Dotted divider"
+      }
+    },
+    "border": {
+      "thin": {
+        "left": {
+          "value": {
+            "x": "1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({colorpalette.neutral.20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Left border in table cell"
+        },
+        "top": {
+          "value": {
+            "x": "0",
+            "y": "1",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({colorpalette.neutral.20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Top border in table cell"
+        },
+        "right": {
+          "value": {
+            "x": "-1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({colorpalette.neutral.20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Right border in table cell"
+        },
+        "bottom": {
+          "value": {
+            "x": "0",
+            "y": "-1",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({colorpalette.neutral.20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Bottom border in table cell"
         }
       }
     },
@@ -2146,14 +2192,492 @@
       }
     }
   },
-  "Brand A": {},
+  "Light backup": {
+    "base": {
+      "canvas": {
+        "value": "{colorpalette.neutral.20}",
+        "type": "color",
+        "description": "Canvas"
+      },
+      "container": {
+        "value": "{colorpalette.neutral.5}",
+        "type": "color",
+        "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
+      }
+    },
+    "text": {
+      "default": {
+        "value": "{colorpalette.neutral.90}",
+        "type": "color",
+        "description": "Default text colour on body, header"
+      },
+      "primary": {
+        "value": "{colorpalette.neutral.5}",
+        "type": "color",
+        "description": "Primary text colour on ui controls"
+      },
+      "secondary": {
+        "value": "{colorpalette.neutral.80}",
+        "type": "color",
+        "description": "Secondary text colour"
+      },
+      "emphasised": {
+        "value": "{colorpalette.blue.50}",
+        "type": "color",
+        "description": "Emphasised text colour on important text and links, titles, headers"
+      },
+      "disabled": {
+        "value": "{colorpalette.neutral.60}",
+        "type": "color",
+        "description": "Disabled text colour"
+      },
+      "error": {
+        "value": "{colorpalette.red.80}",
+        "type": "color",
+        "description": "Error text colour"
+      },
+      "warning": {
+        "value": "{colorpalette.orange.90}",
+        "type": "color",
+        "description": "Warning text colour on body, headers"
+      },
+      "succes": {
+        "value": "{colorpalette.green.70}",
+        "type": "color",
+        "description": "Successful text colour"
+      }
+    },
+    "icon": {
+      "neutral": {
+        "value": "{colorpalette.neutral.5}",
+        "type": "color",
+        "description": "Default icon"
+      },
+      "blue": {
+        "value": "{colorpalette.blue.50}",
+        "type": "color",
+        "description": "Blue icon"
+      },
+      "red": {
+        "value": "{colorpalette.red.60}",
+        "type": "color",
+        "description": "Red icon"
+      },
+      "orange": {
+        "value": "{colorpalette.orange.70}",
+        "type": "color",
+        "description": "Orange icon"
+      },
+      "green": {
+        "value": "{colorpalette.green.60}",
+        "type": "color",
+        "description": "Green icon"
+      },
+      "state": {
+        "low": {
+          "value": "{colorpalette.neutral.60}",
+          "type": "color",
+          "description": "Grey icon on disabled state"
+        },
+        "normal": {
+          "value": "{colorpalette.neutral.80}",
+          "type": "color",
+          "description": "Grey icon on normal state"
+        },
+        "medium": {
+          "value": "{colorpalette.neutral.70}",
+          "type": "color",
+          "description": "Grey icon on hover state"
+        }
+      }
+    },
+    "divider": {
+      "solid": {
+        "value": "{colorpalette.neutral.30}",
+        "type": "color",
+        "description": "Solid divider "
+      },
+      "dotted": {
+        "value": "{colorpalette.neutral.60}",
+        "type": "color",
+        "description": "Dotted divider"
+      }
+    },
+    "default": {
+      "background": {
+        "normal": {
+          "value": "{colorpalette.neutral.5}",
+          "type": "color",
+          "description": "Input field, default button, search bar on normal & disabled state"
+        },
+        "medium": {
+          "value": "{colorpalette.blue.10}",
+          "type": "color",
+          "description": "Input field, default button, search bar on hover state"
+        },
+        "high": {
+          "value": "{colorpalette.neutral.30}",
+          "type": "color",
+          "description": "Input field, default button, search bar on pressed state"
+        },
+        "max1": {
+          "value": "{colorpalette.neutral.20}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 1"
+        },
+        "max2": {
+          "value": "{colorpalette.green.70}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{colorpalette.neutral.60}",
+          "type": "color",
+          "description": "Input field, default button, search bar on normal, pressed & selected state"
+        },
+        "medium": {
+          "value": "{colorpalette.blue.50}",
+          "type": "color",
+          "description": "Input field, default button, search bar on hover state"
+        },
+        "max2": {
+          "value": "{colorpalette.green.70}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
+        },
+        "low": {
+          "value": "{colorpalette.neutral.40}",
+          "type": "color",
+          "description": "Input field, default button, search bar on disabled state"
+        },
+        "extreme": {
+          "value": "{colorpalette.blue.50}",
+          "type": "color"
+        }
+      }
+    },
+    "border": {
+      "thin": {
+        "left": {
+          "value": {
+            "x": "1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({colorpalette.neutral.20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Left border in table cell"
+        },
+        "top": {
+          "value": {
+            "x": "0",
+            "y": "1",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({colorpalette.neutral.20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Top border in table cell"
+        },
+        "right": {
+          "value": {
+            "x": "-1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({colorpalette.neutral.20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Right border in table cell"
+        },
+        "bottom": {
+          "value": {
+            "x": "0",
+            "y": "-1",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({colorpalette.neutral.20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Bottom border in table cell"
+        }
+      }
+    },
+    "informational": {
+      "background": {
+        "default": {
+          "value": "{colorpalette.neutral.5}",
+          "type": "color",
+          "description": "Default alerts. Lower prio statuses such as pairing"
+        },
+        "blue": {
+          "value": "{colorpalette.blue.5}",
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+        },
+        "purple": {
+          "value": "{colorpalette.purple.5}",
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
+        },
+        "orange": {
+          "value": "{colorpalette.orange.5}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+        },
+        "red": {
+          "value": "{colorpalette.red.5}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+        },
+        "green": {
+          "value": "{colorpalette.green.5}",
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{colorpalette.neutral.60}",
+          "type": "color",
+          "description": "Default alerts. Lower prio statuses such as pairing"
+        },
+        "blue": {
+          "value": "{colorpalette.blue.60}",
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+        },
+        "purple": {
+          "value": "{colorpalette.purple.60}",
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
+        },
+        "orange": {
+          "value": "{colorpalette.orange.70}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+        },
+        "red": {
+          "value": "{colorpalette.red.60}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+        },
+        "green": {
+          "value": "{colorpalette.green.60}",
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        }
+      }
+    },
+    "h4": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontWeight": "{medium}",
+        "lineHeight": "",
+        "fontSize": "{font-size.1}"
+      },
+      "type": "typography",
+      "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content."
+    },
+    "h3": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontSize": "{font-size.1}",
+        "fontWeight": ""
+      },
+      "type": "typography",
+      "description": "The <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content."
+    },
+    "h2": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontSize": "{font-size.2}"
+      },
+      "type": "typography",
+      "description": "The <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section."
+    },
+    "h1": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontWeight": "{medium}",
+        "fontSize": "{font-size.4}"
+      },
+      "type": "typography",
+      "description": "The <h1> tag is commonly used to display the main title of a webpage."
+    },
+    "body": {
+      "value": {
+        "fontFamily": "{secondary}",
+        "fontWeight": "{regular}",
+        "fontSize": "{font-size.0}"
+      },
+      "type": "typography"
+    },
+    "callout": {
+      "value": {
+        "fontFamily": "{secondary}",
+        "fontSize": "{font-size.-1}"
+      },
+      "type": "typography"
+    },
+    "viewport": {
+      "width": {
+        "value": "320",
+        "type": "sizing"
+      }
+    }
+  },
+  "Green": {
+    "profile": {
+      "background": {
+        "normal": {
+          "value": "{green-70}",
+          "type": "color",
+          "description": "Accent colour on normal, focused & selected state"
+        },
+        "medium": {
+          "value": "{green-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "high": {
+          "value": "{green-80}",
+          "type": "color",
+          "description": "Accent colour on pressed state"
+        }
+      },
+      "border": {
+        "normal": {
+          "value": "{green-70}",
+          "type": "color",
+          "description": "Accent colour on normal state"
+        },
+        "medium": {
+          "value": "{green-60}",
+          "type": "color",
+          "description": "Accent colour on hover state"
+        },
+        "max1": {
+          "value": "{green-90}",
+          "type": "color",
+          "description": "Accent colour on selected state"
+        },
+        "extreme": {
+          "value": "{blue-50}",
+          "type": "color",
+          "description": "Accent colour on focused state"
+        }
+      }
+    },
+    "focused": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "#ffffff",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba({blue-50}, 0.15)",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "Accent colours grouped with focused state and shadow"
+    },
+    "border": {
+      "thick": {
+        "left": {
+          "value": {
+            "x": "4",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({green-60}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Thick left border with accent colour "
+        }
+      },
+      "inner": {
+        "value": "{border.1}",
+        "type": "borderWidth",
+        "description": "Border width"
+      }
+    },
+    "menu": {
+      "underline": {
+        "normal": {
+          "value": "{green-60}",
+          "type": "color",
+          "description": "Accent colour "
+        }
+      }
+    },
+    "text": {
+      "normal": {
+        "value": "{neutral-05}",
+        "type": "color",
+        "description": "Text style"
+      }
+    },
+    "pictogram": {
+      "profile": {
+        "background": {
+          "high": {
+            "value": "{green-60}",
+            "type": "color",
+            "description": "High intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{green-60}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "low": {
+            "value": "{neutral-90}",
+            "type": "color",
+            "description": "Low intensity accent background colour"
+          }
+        },
+        "border": {
+          "high": {
+            "value": "{neutral-90}",
+            "type": "color",
+            "description": "High intensity accent border colour"
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "core",
-      "light",
+      "default light",
       "dark",
-      "Brand A"
+      "Light backup",
+      "Green"
     ]
   }
 }
