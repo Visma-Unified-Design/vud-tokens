@@ -1,5 +1,5 @@
 {
-  "global": {
+  "core": {
     "radii": {
       "none": {
         "value": "0",
@@ -26,125 +26,301 @@
         "type": "borderRadius"
       }
     },
-    "neutral-05": {
-      "value": "#FFFFFF",
-      "type": "color"
-    },
-    "neutral-10": {
-      "value": "#F7F7F7",
-      "type": "color"
-    },
-    "neutral-20": {
-      "value": "#F2F2F2",
-      "type": "color"
-    },
-    "neutral-30": {
-      "value": "#DADADA",
-      "type": "color"
-    },
-    "neutral-40": {
-      "value": "#C0C0C0",
-      "type": "color"
-    },
-    "neutral-50": {
-      "value": "#A5A5A5",
-      "type": "color"
-    },
-    "neutral-60": {
-      "value": "#8A8A8A",
-      "type": "color"
-    },
-    "neutral-70": {
-      "value": "#6B6B6B",
-      "type": "color"
-    },
-    "neutral-80": {
-      "value": "#494A4A",
-      "type": "color"
-    },
-    "neutral-90": {
-      "value": "#252626",
-      "type": "color"
-    },
-    "blue-05": {
-      "value": "#E7F2F9",
-      "type": "color"
-    },
-    "blue-10": {
-      "value": "#D2EAFA",
-      "type": "color"
-    },
-    "blue-20": {
-      "value": "#99CBEC",
-      "type": "color"
-    },
-    "blue-30": {
-      "value": "#6CB2E1",
-      "type": "color"
-    },
-    "blue-40": {
-      "value": "#419BD7",
-      "type": "color"
-    },
-    "blue-50": {
-      "value": "#1482CC",
-      "type": "color"
-    },
-    "blue-60": {
-      "value": "#116FAE",
-      "type": "color"
-    },
-    "blue-70": {
-      "value": "#0D5788",
-      "type": "color"
-    },
-    "blue-80": {
-      "value": "#14476A",
-      "type": "color"
-    },
-    "blue-90": {
-      "value": "#1B384C",
-      "type": "color"
-    },
-    "green-05": {
-      "value": "#EBF7EB",
-      "type": "color"
-    },
-    "green-10": {
-      "value": "#CFE7CF",
-      "type": "color"
-    },
-    "green-20": {
-      "value": "#AFD4AF",
-      "type": "color"
-    },
-    "green-30": {
-      "value": "#9BC29B",
-      "type": "color"
-    },
-    "green-40": {
-      "value": "#7FAF7F",
-      "type": "color"
-    },
-    "green-50": {
-      "value": "#67A870",
-      "type": "color"
-    },
-    "green-60": {
-      "value": "#4E9C54",
-      "type": "color"
-    },
-    "green-70": {
-      "value": "#2D7048",
-      "type": "color"
-    },
-    "green-80": {
-      "value": "#316245",
-      "type": "color"
-    },
-    "green-90": {
-      "value": "#254934",
-      "type": "color"
+    "colorpalette": {
+      "neutral": {
+        "5": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "10": {
+          "value": "#F7F7F7",
+          "type": "color"
+        },
+        "20": {
+          "value": "#F2F2F2",
+          "type": "color"
+        },
+        "30": {
+          "value": "#DADADA",
+          "type": "color"
+        },
+        "40": {
+          "value": "#C0C0C0",
+          "type": "color"
+        },
+        "50": {
+          "value": "#A5A5A5",
+          "type": "color"
+        },
+        "60": {
+          "value": "#8A8A8A",
+          "type": "color"
+        },
+        "70": {
+          "value": "#6B6B6B",
+          "type": "color"
+        },
+        "80": {
+          "value": "#494A4A",
+          "type": "color"
+        },
+        "90": {
+          "value": "#252626",
+          "type": "color"
+        }
+      },
+      "blue": {
+        "5": {
+          "value": "#E7F2F9",
+          "type": "color"
+        },
+        "10": {
+          "value": "#D2EAFA",
+          "type": "color"
+        },
+        "20": {
+          "value": "#99CBEC",
+          "type": "color"
+        },
+        "30": {
+          "value": "#6CB2E1",
+          "type": "color"
+        },
+        "40": {
+          "value": "#419BD7",
+          "type": "color"
+        },
+        "50": {
+          "value": "#1482CC",
+          "type": "color"
+        },
+        "60": {
+          "value": "#116FAE",
+          "type": "color"
+        },
+        "70": {
+          "value": "#0D5788",
+          "type": "color"
+        },
+        "80": {
+          "value": "#14476A",
+          "type": "color"
+        },
+        "90": {
+          "value": "#1B384C",
+          "type": "color"
+        }
+      },
+      "green": {
+        "5": {
+          "value": "#EBF7EB",
+          "type": "color"
+        },
+        "10": {
+          "value": "#CFE7CF",
+          "type": "color"
+        },
+        "20": {
+          "value": "#AFD4AF",
+          "type": "color"
+        },
+        "30": {
+          "value": "#9BC29B",
+          "type": "color"
+        },
+        "40": {
+          "value": "#7FAF7F",
+          "type": "color"
+        },
+        "50": {
+          "value": "#67A870",
+          "type": "color"
+        },
+        "60": {
+          "value": "#4E9C54",
+          "type": "color"
+        },
+        "70": {
+          "value": "#2D7048",
+          "type": "color"
+        },
+        "80": {
+          "value": "#316245",
+          "type": "color"
+        },
+        "90": {
+          "value": "#254934",
+          "type": "color"
+        }
+      },
+      "red": {
+        "5": {
+          "value": "#FFEDEF",
+          "type": "color"
+        },
+        "10": {
+          "value": "#FAD9DE",
+          "type": "color"
+        },
+        "20": {
+          "value": "#F1BDC4",
+          "type": "color"
+        },
+        "30": {
+          "value": "#EAA1AC",
+          "type": "color"
+        },
+        "40": {
+          "value": "#E28594",
+          "type": "color"
+        },
+        "50": {
+          "value": "#DB6B7D",
+          "type": "color"
+        },
+        "60": {
+          "value": "#D44F64",
+          "type": "color"
+        },
+        "70": {
+          "value": "#CC334C",
+          "type": "color"
+        },
+        "80": {
+          "value": "#A12036",
+          "type": "color"
+        },
+        "90": {
+          "value": "#801F30",
+          "type": "color"
+        }
+      },
+      "orange": {
+        "5": {
+          "value": "#FCF2DC",
+          "type": "color"
+        },
+        "10": {
+          "value": "#FCDFB1",
+          "type": "color"
+        },
+        "20": {
+          "value": "#FAD7A2",
+          "type": "color"
+        },
+        "30": {
+          "value": "#F2C480",
+          "type": "color"
+        },
+        "40": {
+          "value": "#EDB45F",
+          "type": "color"
+        },
+        "50": {
+          "value": "#E5A23E",
+          "type": "color"
+        },
+        "60": {
+          "value": "#CA7900",
+          "type": "color"
+        },
+        "70": {
+          "value": "#C26800",
+          "type": "color"
+        },
+        "80": {
+          "value": "#B35300",
+          "type": "color"
+        },
+        "90": {
+          "value": "#803B00",
+          "type": "color"
+        }
+      },
+      "purple": {
+        "5": {
+          "value": "#EDECF5",
+          "type": "color"
+        },
+        "10": {
+          "value": "#DAD7EA",
+          "type": "color"
+        },
+        "20": {
+          "value": "#C6C1DF",
+          "type": "color"
+        },
+        "30": {
+          "value": "#B2ABD3",
+          "type": "color"
+        },
+        "40": {
+          "value": "#9E96C8",
+          "type": "color"
+        },
+        "50": {
+          "value": "#8A80BD",
+          "type": "color"
+        },
+        "60": {
+          "value": "#7365B8",
+          "type": "color"
+        },
+        "70": {
+          "value": "#6154A5",
+          "type": "color"
+        },
+        "80": {
+          "value": "#4D3D99",
+          "type": "color"
+        },
+        "90": {
+          "value": "#403380",
+          "type": "color"
+        }
+      },
+      "dark": {
+        "5": {
+          "value": "#E4EBF0",
+          "type": "color"
+        },
+        "10": {
+          "value": "#C3D0D9",
+          "type": "color"
+        },
+        "20": {
+          "value": "#AFBCC4",
+          "type": "color"
+        },
+        "30": {
+          "value": "#9AA5AE",
+          "type": "color"
+        },
+        "40": {
+          "value": "#86929B",
+          "type": "color"
+        },
+        "50": {
+          "value": "#6F7A82",
+          "type": "color"
+        },
+        "60": {
+          "value": "#4C545B",
+          "type": "color"
+        },
+        "70": {
+          "value": "#2B3033",
+          "type": "color"
+        },
+        "80": {
+          "value": "#15181A",
+          "type": "color"
+        },
+        "90": {
+          "value": "#000000",
+          "type": "color"
+        }
+      }
     },
     "boxShadow": {
       "default": {
@@ -154,7 +330,7 @@
             "y": "2",
             "blur": "4",
             "spread": "0",
-            "color": "rgba({neutral-90}, 0.12)",
+            "color": "rgba({colorpalette.neutral.90}, 0.12)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -165,7 +341,7 @@
             "y": "5",
             "blur": "10",
             "spread": "0",
-            "color": "rgba({neutral-90}, 0.15)",
+            "color": "rgba({colorpalette.neutral.90}, 0.15)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -176,7 +352,7 @@
             "y": "10",
             "blur": "15",
             "spread": "0",
-            "color": "rgba({neutral-90}, 0.15)",
+            "color": "rgba({colorpalette.neutral.90}, 0.15)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -187,7 +363,7 @@
             "y": "15",
             "blur": "40",
             "spread": "0",
-            "color": "rgba({neutral-90}, 0.20)",
+            "color": "rgba({colorpalette.neutral.90}, 0.20)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -200,7 +376,7 @@
             "y": "2",
             "blur": "4",
             "spread": "0",
-            "color": "rgba({green-60}, 0.20)",
+            "color": "rgba({colorpalette.green.60}, 0.20)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -211,7 +387,7 @@
             "y": "5",
             "blur": "10",
             "spread": "0",
-            "color": "rgba({green-70}, 0.15)",
+            "color": "rgba({colorpalette.green.70}, 0.15)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -222,7 +398,7 @@
             "y": "10",
             "blur": "15",
             "spread": "0",
-            "color": "rgba({green-90}, 0.15)",
+            "color": "rgba({colorpalette.green.90}, 0.15)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -233,7 +409,7 @@
             "y": "15",
             "blur": "40",
             "spread": "0",
-            "color": "rgba({green-90}, 0.20)",
+            "color": "rgba({colorpalette.green.90}, 0.20)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -246,7 +422,7 @@
             "y": "2",
             "blur": "4",
             "spread": "0",
-            "color": "rgba({blue-50}, 0.20)",
+            "color": "rgba({colorpalette.blue.50}, 0.20)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -257,7 +433,7 @@
             "y": "5",
             "blur": "10",
             "spread": "0",
-            "color": "rgba({blue-90}, 0.15)",
+            "color": "rgba({colorpalette.blue.90}, 0.15)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -268,7 +444,7 @@
             "y": "10",
             "blur": "15",
             "spread": "0",
-            "color": "rgba({blue-90}, 0.15)",
+            "color": "rgba({colorpalette.blue.90}, 0.15)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -279,132 +455,12 @@
             "y": "15",
             "blur": "40",
             "spread": "0",
-            "color": "rgba({blue-90}, 0.20)",
+            "color": "rgba({colorpalette.blue.90}, 0.20)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
         }
       }
-    },
-    "red-05": {
-      "value": "#FFEDEF",
-      "type": "color"
-    },
-    "red-10": {
-      "value": "#FAD9DE",
-      "type": "color"
-    },
-    "red-20": {
-      "value": "#F1BDC4",
-      "type": "color"
-    },
-    "red-30": {
-      "value": "#EAA1AC",
-      "type": "color"
-    },
-    "red-40": {
-      "value": "#E28594",
-      "type": "color"
-    },
-    "red-50": {
-      "value": "#DB6B7D",
-      "type": "color"
-    },
-    "red-60": {
-      "value": "#D44F64",
-      "type": "color"
-    },
-    "red-70": {
-      "value": "#CC334C",
-      "type": "color"
-    },
-    "red-80": {
-      "value": "#A12036",
-      "type": "color"
-    },
-    "red-90": {
-      "value": "#801F30",
-      "type": "color"
-    },
-    "orange-05": {
-      "value": "#FCF2DC",
-      "type": "color"
-    },
-    "orange-10": {
-      "value": "#FCDFB1",
-      "type": "color"
-    },
-    "orange-20": {
-      "value": "#FAD7A2",
-      "type": "color"
-    },
-    "orange-30": {
-      "value": "#F2C480",
-      "type": "color"
-    },
-    "orange-40": {
-      "value": "#EDB45F",
-      "type": "color"
-    },
-    "orange-50": {
-      "value": "#E5A23E",
-      "type": "color"
-    },
-    "orange-60": {
-      "value": "#CA7900",
-      "type": "color"
-    },
-    "orange-70": {
-      "value": "#C26800",
-      "type": "color"
-    },
-    "orange-80": {
-      "value": "#B35300",
-      "type": "color"
-    },
-    "orange-90": {
-      "value": "#803B00",
-      "type": "color"
-    },
-    "purple-05": {
-      "value": "#EDECF5",
-      "type": "color"
-    },
-    "purple-10": {
-      "value": "#DAD7EA",
-      "type": "color"
-    },
-    "purple-20": {
-      "value": "#C6C1DF",
-      "type": "color"
-    },
-    "purple-30": {
-      "value": "#B2ABD3",
-      "type": "color"
-    },
-    "purple-40": {
-      "value": "#9E96C8",
-      "type": "color"
-    },
-    "purple-50": {
-      "value": "#8A80BD",
-      "type": "color"
-    },
-    "purple-60": {
-      "value": "#7365B8",
-      "type": "color"
-    },
-    "purple-70": {
-      "value": "#6154A5",
-      "type": "color"
-    },
-    "purple-80": {
-      "value": "#4D3D99",
-      "type": "color"
-    },
-    "purple-90": {
-      "value": "#403380",
-      "type": "color"
     },
     "title": {
       "large": {
@@ -754,46 +810,6 @@
       "type": "other",
       "description": "Unique base for sizing, spacing"
     },
-    "dark-90": {
-      "value": "#000000",
-      "type": "color"
-    },
-    "dark-80": {
-      "value": "#15181A",
-      "type": "color"
-    },
-    "dark-70": {
-      "value": "#2B3033",
-      "type": "color"
-    },
-    "dark-60": {
-      "value": "#4C545B",
-      "type": "color"
-    },
-    "dark-50": {
-      "value": "#6F7A82",
-      "type": "color"
-    },
-    "dark-40": {
-      "value": "#86929B",
-      "type": "color"
-    },
-    "dark-30": {
-      "value": "#9AA5AE",
-      "type": "color"
-    },
-    "dark-20": {
-      "value": "#AFBCC4",
-      "type": "color"
-    },
-    "dark-10": {
-      "value": "#C3D0D9",
-      "type": "color"
-    },
-    "dark-05": {
-      "value": "#E4EBF0",
-      "type": "color"
-    },
     "opacity": {
       "12": {
         "value": "12%",
@@ -1105,102 +1121,188 @@
         "value": "1920",
         "type": "sizing"
       }
+    },
+    "brand": {
+      "primary": {
+        "green-90": {
+          "value": "{colorpalette.green.90}",
+          "type": "color"
+        },
+        "green-80": {
+          "value": "{colorpalette.green.80}",
+          "type": "color"
+        },
+        "green-70": {
+          "value": "{colorpalette.green.70}",
+          "type": "color"
+        },
+        "green-60": {
+          "value": "{colorpalette.green.60}",
+          "type": "color"
+        },
+        "green-50": {
+          "value": "{colorpalette.green.50}",
+          "type": "color"
+        },
+        "green-40": {
+          "value": "{colorpalette.green.40}",
+          "type": "color"
+        },
+        "green-30": {
+          "value": "{colorpalette.green.30}",
+          "type": "color"
+        },
+        "green-20": {
+          "value": "{colorpalette.green.20}",
+          "type": "color"
+        },
+        "green-10": {
+          "value": "{colorpalette.green.10}",
+          "type": "color"
+        },
+        "green-05": {
+          "value": "{colorpalette.green.5}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "blue-90": {
+          "value": "{colorpalette.blue.90}",
+          "type": "color"
+        },
+        "blue-80": {
+          "value": "{colorpalette.blue.80}",
+          "type": "color"
+        },
+        "blue-70": {
+          "value": "{colorpalette.blue.70}",
+          "type": "color"
+        },
+        "blue-60": {
+          "value": "{colorpalette.blue.60}",
+          "type": "color"
+        },
+        "blue-50": {
+          "value": "{colorpalette.blue.50}",
+          "type": "color"
+        },
+        "blue-40": {
+          "value": "{colorpalette.blue.40}",
+          "type": "color"
+        },
+        "blue-30": {
+          "value": "{colorpalette.blue.30}",
+          "type": "color"
+        },
+        "blue-20": {
+          "value": "{colorpalette.blue.20}",
+          "type": "color"
+        },
+        "blue-10": {
+          "value": "{colorpalette.blue.10}",
+          "type": "color"
+        },
+        "blue-05": {
+          "value": "{colorpalette.blue.5}",
+          "type": "color"
+        }
+      }
     }
   },
   "light": {
     "base": {
       "canvas": {
-        "value": "{neutral-20}",
+        "value": "{colorpalette.neutral.20}",
         "type": "color",
         "description": "Canvas"
       },
       "container": {
-        "value": "{neutral-05}",
+        "value": "{colorpalette.neutral.5}",
         "type": "color",
         "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
       }
     },
     "text": {
       "default": {
-        "value": "{neutral-90}",
+        "value": "{colorpalette.neutral.90}",
         "type": "color",
         "description": "Default text colour on body, header"
       },
       "primary": {
-        "value": "{neutral-05}",
+        "value": "{colorpalette.neutral.5}",
         "type": "color",
         "description": "Primary text colour on ui controls"
       },
       "secondary": {
-        "value": "{neutral-80}",
+        "value": "{colorpalette.neutral.80}",
         "type": "color",
         "description": "Secondary text colour"
       },
       "emphasised": {
-        "value": "{blue-50}",
+        "value": "{colorpalette.blue.50}",
         "type": "color",
         "description": "Emphasised text colour on important text and links, titles, headers"
       },
       "disabled": {
-        "value": "{neutral-60}",
+        "value": "{colorpalette.neutral.60}",
         "type": "color",
         "description": "Disabled text colour"
       },
       "error": {
-        "value": "{red-80}",
+        "value": "{colorpalette.red.80}",
         "type": "color",
         "description": "Error text colour"
       },
       "warning": {
-        "value": "{orange-90}",
+        "value": "{colorpalette.orange.90}",
         "type": "color",
         "description": "Warning text colour on body, headers"
       },
       "succes": {
-        "value": "{green-70}",
+        "value": "{colorpalette.green.70}",
         "type": "color",
         "description": "Successful text colour"
       }
     },
     "icon": {
       "neutral": {
-        "value": "{neutral-05}",
+        "value": "{colorpalette.neutral.5}",
         "type": "color",
         "description": "Default icon"
       },
       "blue": {
-        "value": "{blue-50}",
+        "value": "{colorpalette.blue.50}",
         "type": "color",
         "description": "Blue icon"
       },
       "red": {
-        "value": "{red-60}",
+        "value": "{colorpalette.red.60}",
         "type": "color",
         "description": "Red icon"
       },
       "orange": {
-        "value": "{orange-70}",
+        "value": "{colorpalette.orange.70}",
         "type": "color",
         "description": "Orange icon"
       },
       "green": {
-        "value": "{green-60}",
+        "value": "{colorpalette.green.60}",
         "type": "color",
         "description": "Green icon"
       },
       "state": {
         "low": {
-          "value": "{neutral-60}",
+          "value": "{colorpalette.neutral.60}",
           "type": "color",
           "description": "Grey icon on disabled state"
         },
         "normal": {
-          "value": "{neutral-80}",
+          "value": "{colorpalette.neutral.80}",
           "type": "color",
           "description": "Grey icon on normal state"
         },
         "medium": {
-          "value": "{neutral-70}",
+          "value": "{colorpalette.neutral.70}",
           "type": "color",
           "description": "Grey icon on hover state"
         }
@@ -1208,12 +1310,12 @@
     },
     "divider": {
       "solid": {
-        "value": "{neutral-30}",
+        "value": "{colorpalette.neutral.30}",
         "type": "color",
         "description": "Solid divider "
       },
       "dotted": {
-        "value": "{neutral-60}",
+        "value": "{colorpalette.neutral.60}",
         "type": "color",
         "description": "Dotted divider"
       }
@@ -1221,54 +1323,54 @@
     "default": {
       "background": {
         "normal": {
-          "value": "{neutral-05}",
+          "value": "{colorpalette.neutral.5}",
           "type": "color",
           "description": "Input field, default button, search bar on normal & disabled state"
         },
         "medium": {
-          "value": "{blue-10}",
+          "value": "{colorpalette.blue.10}",
           "type": "color",
           "description": "Input field, default button, search bar on hover state"
         },
         "high": {
-          "value": "{neutral-30}",
+          "value": "{colorpalette.neutral.30}",
           "type": "color",
           "description": "Input field, default button, search bar on pressed state"
         },
         "max1": {
-          "value": "{neutral-20}",
+          "value": "{colorpalette.neutral.20}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 1"
         },
         "max2": {
-          "value": "{green-70}",
+          "value": "{colorpalette.green.70}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 2"
         }
       },
       "border": {
         "normal": {
-          "value": "{neutral-60}",
+          "value": "{colorpalette.neutral.60}",
           "type": "color",
           "description": "Input field, default button, search bar on normal, pressed & selected state"
         },
         "medium": {
-          "value": "{blue-50}",
+          "value": "{colorpalette.blue.50}",
           "type": "color",
           "description": "Input field, default button, search bar on hover state"
         },
         "max2": {
-          "value": "{green-70}",
+          "value": "{colorpalette.green.70}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 2"
         },
         "low": {
-          "value": "{neutral-40}",
+          "value": "{colorpalette.neutral.40}",
           "type": "color",
           "description": "Input field, default button, search bar on disabled state"
         },
         "extreme": {
-          "value": "{blue-50}",
+          "value": "{colorpalette.blue.50}",
           "type": "color"
         }
       }
@@ -1281,7 +1383,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({neutral-20}, 1.0)",
+            "color": "rgba({colorpalette.neutral.20}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -1293,7 +1395,7 @@
             "y": "1",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({neutral-20}, 1.0)",
+            "color": "rgba({colorpalette.neutral.20}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -1305,7 +1407,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({neutral-20}, 1.0)",
+            "color": "rgba({colorpalette.neutral.20}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -1317,7 +1419,7 @@
             "y": "-1",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({neutral-20}, 1.0)",
+            "color": "rgba({colorpalette.neutral.20}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -1328,64 +1430,64 @@
     "informational": {
       "background": {
         "default": {
-          "value": "{neutral-05}",
+          "value": "{colorpalette.neutral.5}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "blue": {
-          "value": "{blue-05}",
+          "value": "{colorpalette.blue.5}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
-          "value": "{purple-05}",
+          "value": "{colorpalette.purple.5}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "orange": {
-          "value": "{orange-05}",
+          "value": "{colorpalette.orange.5}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "red": {
-          "value": "{red-05}",
+          "value": "{colorpalette.red.5}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "green": {
-          "value": "{green-05}",
+          "value": "{colorpalette.green.5}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
       },
       "border": {
         "default": {
-          "value": "{neutral-60}",
+          "value": "{colorpalette.neutral.60}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "blue": {
-          "value": "{blue-60}",
+          "value": "{colorpalette.blue.60}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
-          "value": "{purple-60}",
+          "value": "{colorpalette.purple.60}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "orange": {
-          "value": "{orange-70}",
+          "value": "{colorpalette.orange.70}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "red": {
-          "value": "{red-60}",
+          "value": "{colorpalette.red.60}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "green": {
-          "value": "{green-60}",
+          "value": "{colorpalette.green.60}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
@@ -1452,97 +1554,97 @@
   "dark": {
     "base": {
       "canvas": {
-        "value": "{dark-80}",
+        "value": "{colorpalette.dark.80}",
         "type": "color",
         "description": "Canvas"
       },
       "container": {
-        "value": "{dark-70}",
+        "value": "{colorpalette.dark.70}",
         "type": "color",
         "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
       }
     },
     "text": {
       "default": {
-        "value": "{dark-10}",
+        "value": "{colorpalette.dark.10}",
         "type": "color",
         "description": "Default text colour on body, header"
       },
       "primary": {
-        "value": "{dark-05}",
+        "value": "{colorpalette.dark.5}",
         "type": "color",
         "description": "Primary text colour on ui controls"
       },
       "secondary": {
-        "value": "{dark-10}",
+        "value": "{colorpalette.dark.10}",
         "type": "color",
         "description": "Secondary text colour"
       },
       "emphasised": {
-        "value": "{dark-05}",
+        "value": "{colorpalette.dark.5}",
         "type": "color",
         "description": "Emphasised text colour on important text and links, titles, headers"
       },
       "disabled": {
-        "value": "{dark-30}",
+        "value": "{colorpalette.dark.30}",
         "type": "color",
         "description": "Disabled text colour"
       },
       "error": {
-        "value": "{red-40}",
+        "value": "{colorpalette.red.40}",
         "type": "color",
         "description": "Error text colour"
       },
       "orange": {
-        "value": "{orange-50}",
+        "value": "{colorpalette.orange.50}",
         "type": "color",
         "description": "Warning text colour on body, headers"
       },
       "success": {
-        "value": "{green-50}",
+        "value": "{colorpalette.green.50}",
         "type": "color",
         "description": "Successful text colour"
       }
     },
     "icon": {
       "neutral": {
-        "value": "{dark-05}",
+        "value": "{colorpalette.dark.5}",
         "type": "color",
         "description": "Default icon"
       },
       "blue": {
-        "value": "{blue-50}",
+        "value": "{colorpalette.blue.50}",
         "type": "color",
         "description": "Blue icon"
       },
       "red": {
-        "value": "{red-60}",
+        "value": "{colorpalette.red.60}",
         "type": "color",
         "description": "Red icon"
       },
       "orange": {
-        "value": "{orange-70}",
+        "value": "{colorpalette.orange.70}",
         "type": "color",
         "description": "Orange icon"
       },
       "green": {
-        "value": "{green-60}",
+        "value": "{colorpalette.green.60}",
         "type": "color",
         "description": "Green icon"
       },
       "state": {
         "low": {
-          "value": "{dark-30}",
+          "value": "{colorpalette.dark.30}",
           "type": "color",
           "description": "Grey icon on disabled state"
         },
         "normal": {
-          "value": "{dark-10}",
+          "value": "{colorpalette.dark.10}",
           "type": "color",
           "description": "Grey icon on hover state"
         },
         "medium": {
-          "value": "{dark-10}",
+          "value": "{colorpalette.dark.10}",
           "type": "color",
           "description": "Grey icon on normal state"
         }
@@ -1550,12 +1652,12 @@
     },
     "divider": {
       "solid": {
-        "value": "{dark-50}",
+        "value": "{colorpalette.dark.50}",
         "type": "color",
         "description": "Solid divider "
       },
       "dotted": {
-        "value": "{dark-30}",
+        "value": "{colorpalette.dark.30}",
         "type": "color",
         "description": "Dotted divider"
       }
@@ -1563,54 +1665,54 @@
     "default": {
       "background": {
         "normal": {
-          "value": "{dark-70}",
+          "value": "{colorpalette.dark.70}",
           "type": "color",
           "description": "Input field, default button, search bar on normal & disabled state"
         },
         "medium": {
-          "value": "{dark-60}",
+          "value": "{colorpalette.dark.60}",
           "type": "color",
           "description": "Input field, default button, search bar on hover state"
         },
         "high": {
-          "value": "{dark-90}",
+          "value": "{colorpalette.dark.90}",
           "type": "color",
           "description": "Input field, default button, search bar on pressed state"
         },
         "max1": {
-          "value": "{dark-80}",
+          "value": "{colorpalette.dark.80}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 1"
         },
         "max2": {
-          "value": "{green-70}",
+          "value": "{colorpalette.green.70}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 2"
         }
       },
       "border": {
         "normal": {
-          "value": "{dark-50}",
+          "value": "{colorpalette.dark.50}",
           "type": "color",
           "description": "Input field, default button, search bar on normal, pressed & selected state"
         },
         "medium": {
-          "value": "{dark-30}",
+          "value": "{colorpalette.dark.30}",
           "type": "color",
           "description": "Input field, default button, search bar on hover state"
         },
         "max2": {
-          "value": "{green-60}",
+          "value": "{colorpalette.green.60}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 2"
         },
         "low": {
-          "value": "{dark-60}",
+          "value": "{colorpalette.dark.60}",
           "type": "color",
           "description": "Input field, default button, search bar on disabled state"
         },
         "extreme": {
-          "value": "{dark-05}",
+          "value": "{colorpalette.dark.5}",
           "type": "color",
           "description": "Inner border for button on focused state"
         }
@@ -1667,64 +1769,64 @@
     "informational": {
       "background": {
         "default": {
-          "value": "{dark-05}",
+          "value": "{colorpalette.dark.5}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "blue": {
-          "value": "{blue-10}",
+          "value": "{colorpalette.blue.10}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
-          "value": "{purple-10}",
+          "value": "{colorpalette.purple.10}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "orange": {
-          "value": "{orange-10}",
+          "value": "{colorpalette.orange.10}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "red": {
-          "value": "{red-10}",
+          "value": "{colorpalette.red.10}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "green": {
-          "value": "{green-10}",
+          "value": "{colorpalette.green.10}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
       },
       "border": {
         "default": {
-          "value": "{dark-05}",
+          "value": "{colorpalette.dark.5}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "blue": {
-          "value": "{blue-10}",
+          "value": "{colorpalette.blue.10}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
-          "value": "{purple-10}",
+          "value": "{colorpalette.purple.10}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "orange": {
-          "value": "{orange-10}",
+          "value": "{colorpalette.orange.10}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "red": {
-          "value": "{red-10}",
+          "value": "{colorpalette.red.10}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "green": {
-          "value": "{green-10}",
+          "value": "{colorpalette.green.10}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
@@ -1801,7 +1903,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global",
+      "core",
       "light",
       "dark",
       "semantic comp"
