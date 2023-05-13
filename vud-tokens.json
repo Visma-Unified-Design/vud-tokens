@@ -1462,6 +1462,48 @@
             "type": "color"
           }
         },
+        "success": {
+          "5": {
+            "value": "{colorpalette.green.5}",
+            "type": "color"
+          },
+          "10": {
+            "value": "{colorpalette.green.10}",
+            "type": "color"
+          },
+          "20": {
+            "value": "{colorpalette.green.20}",
+            "type": "color"
+          },
+          "30": {
+            "value": "{colorpalette.green.30}",
+            "type": "color"
+          },
+          "40": {
+            "value": "{colorpalette.green.40}",
+            "type": "color"
+          },
+          "50": {
+            "value": "{colorpalette.green.50}",
+            "type": "color"
+          },
+          "60": {
+            "value": "{colorpalette.green.60}",
+            "type": "color"
+          },
+          "70": {
+            "value": "{colorpalette.green.70}",
+            "type": "color"
+          },
+          "80": {
+            "value": "{colorpalette.green.80}",
+            "type": "color"
+          },
+          "90": {
+            "value": "{colorpalette.green.90}",
+            "type": "color"
+          }
+        },
         "default": {
           "5": {
             "value": "{colorpalette.neutral.5}",
@@ -1510,14 +1552,14 @@
   "default light": {
     "base": {
       "canvas": {
-        "value": "{colorpalette.neutral.20}",
+        "value": "{brand.default.20}",
         "type": "color",
         "description": "Canvas"
       },
       "container": {
-        "value": "{colorpalette.neutral.5}",
+        "value": "{brand.default.5}",
         "type": "color",
-        "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
+        "description": "Horizontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
       }
     },
     "buttons": {
@@ -1616,11 +1658,23 @@
           "normal": {
             "value": "{system.semantic.default.5}",
             "type": "color"
+          },
+          "hover": {
+            "value": "{system.semantic.error.5}",
+            "type": "color"
           }
         },
         "border": {
           "normal": {
             "value": "{system.semantic.error.70}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{system.semantic.error.70}",
+            "type": "color"
+          },
+          "focused": {
+            "value": "{system.semantic.info.50}",
             "type": "color"
           }
         }
@@ -1639,93 +1693,93 @@
           "description": "Warning text colour on body, headers"
         },
         "succes": {
-          "value": "{brand.primary.70}",
+          "value": "{system.semantic.success.70}",
           "type": "color",
           "description": "Successful text colour"
         }
       },
       "icon": {
         "blue": {
-          "value": "{colorpalette.blue.50}",
+          "value": "{system.semantic.info.50}",
           "type": "color",
           "description": "Blue icon"
         },
         "red": {
-          "value": "{colorpalette.red.60}",
+          "value": "{system.semantic.error.60}",
           "type": "color",
           "description": "Red icon"
         },
         "orange": {
-          "value": "{colorpalette.orange.70}",
+          "value": "{system.semantic.warning.70}",
           "type": "color",
           "description": "Orange icon"
         },
         "green": {
-          "value": "{colorpalette.green.60}",
+          "value": "{system.semantic.success.60}",
           "type": "color",
           "description": "Green icon"
         }
       },
       "background": {
         "default": {
-          "value": "{colorpalette.neutral.5}",
+          "value": "{system.semantic.default.5}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "blue": {
-          "value": "{colorpalette.blue.5}",
+          "value": "{system.semantic.info.5}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
-          "value": "{colorpalette.purple.5}",
+          "value": "{system.semantic.draft.5}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "orange": {
-          "value": "{colorpalette.orange.5}",
+          "value": "{system.semantic.warning.5}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "red": {
-          "value": "{colorpalette.red.5}",
+          "value": "{system.semantic.error.5}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "green": {
-          "value": "{colorpalette.green.5}",
+          "value": "{system.semantic.success.5}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
       },
       "border": {
         "default": {
-          "value": "{colorpalette.neutral.60}",
+          "value": "{system.semantic.default.60}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "blue": {
-          "value": "{colorpalette.blue.60}",
+          "value": "{system.semantic.info.60}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
-          "value": "{colorpalette.purple.60}",
+          "value": "{system.semantic.draft.60}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "orange": {
-          "value": "{colorpalette.orange.70}",
+          "value": "{system.semantic.warning.70}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "red": {
-          "value": "{colorpalette.red.60}",
+          "value": "{system.semantic.error.70}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "green": {
-          "value": "{colorpalette.green.60}",
+          "value": "{system.semantic.success.60}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
@@ -1733,12 +1787,12 @@
     },
     "divider": {
       "solid": {
-        "value": "{colorpalette.neutral.30}",
+        "value": "{system.semantic.default.30}",
         "type": "color",
         "description": "Solid divider "
       },
       "dotted": {
-        "value": "{colorpalette.neutral.60}",
+        "value": "{system.semantic.default.60}",
         "type": "color",
         "description": "Dotted divider"
       }
