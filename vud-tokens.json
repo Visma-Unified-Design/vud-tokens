@@ -1124,86 +1124,124 @@
     },
     "brand": {
       "primary": {
-        "green-90": {
-          "value": "{colorpalette.green.90}",
+        "5": {
+          "value": "{colorpalette.green.5}",
           "type": "color"
         },
-        "green-80": {
-          "value": "{colorpalette.green.80}",
-          "type": "color"
-        },
-        "green-70": {
-          "value": "{colorpalette.green.70}",
-          "type": "color"
-        },
-        "green-60": {
-          "value": "{colorpalette.green.60}",
-          "type": "color"
-        },
-        "green-50": {
-          "value": "{colorpalette.green.50}",
-          "type": "color"
-        },
-        "green-40": {
-          "value": "{colorpalette.green.40}",
-          "type": "color"
-        },
-        "green-30": {
-          "value": "{colorpalette.green.30}",
-          "type": "color"
-        },
-        "green-20": {
-          "value": "{colorpalette.green.20}",
-          "type": "color"
-        },
-        "green-10": {
+        "10": {
           "value": "{colorpalette.green.10}",
           "type": "color"
         },
-        "green-05": {
-          "value": "{colorpalette.green.5}",
+        "20": {
+          "value": "{colorpalette.green.20}",
+          "type": "color"
+        },
+        "30": {
+          "value": "{colorpalette.green.30}",
+          "type": "color"
+        },
+        "40": {
+          "value": "{colorpalette.green.40}",
+          "type": "color"
+        },
+        "50": {
+          "value": "{colorpalette.green.50}",
+          "type": "color"
+        },
+        "60": {
+          "value": "{colorpalette.green.60}",
+          "type": "color"
+        },
+        "70": {
+          "value": "{colorpalette.green.70}",
+          "type": "color"
+        },
+        "80": {
+          "value": "{colorpalette.green.80}",
+          "type": "color"
+        },
+        "90": {
+          "value": "{colorpalette.green.90}",
           "type": "color"
         }
       },
       "secondary": {
-        "blue-90": {
-          "value": "{colorpalette.blue.90}",
+        "5": {
+          "value": "{colorpalette.blue.5}",
           "type": "color"
         },
-        "blue-80": {
-          "value": "{colorpalette.blue.80}",
-          "type": "color"
-        },
-        "blue-70": {
-          "value": "{colorpalette.blue.70}",
-          "type": "color"
-        },
-        "blue-60": {
-          "value": "{colorpalette.blue.60}",
-          "type": "color"
-        },
-        "blue-50": {
-          "value": "{colorpalette.blue.50}",
-          "type": "color"
-        },
-        "blue-40": {
-          "value": "{colorpalette.blue.40}",
-          "type": "color"
-        },
-        "blue-30": {
-          "value": "{colorpalette.blue.30}",
-          "type": "color"
-        },
-        "blue-20": {
-          "value": "{colorpalette.blue.20}",
-          "type": "color"
-        },
-        "blue-10": {
+        "10": {
           "value": "{colorpalette.blue.10}",
           "type": "color"
         },
-        "blue-05": {
-          "value": "{colorpalette.blue.5}",
+        "20": {
+          "value": "{colorpalette.blue.20}",
+          "type": "color"
+        },
+        "30": {
+          "value": "{colorpalette.blue.30}",
+          "type": "color"
+        },
+        "40": {
+          "value": "{colorpalette.blue.40}",
+          "type": "color"
+        },
+        "50": {
+          "value": "{colorpalette.blue.50}",
+          "type": "color"
+        },
+        "60": {
+          "value": "{colorpalette.blue.60}",
+          "type": "color"
+        },
+        "70": {
+          "value": "{colorpalette.blue.70}",
+          "type": "color"
+        },
+        "80": {
+          "value": "{colorpalette.blue.80}",
+          "type": "color"
+        },
+        "90": {
+          "value": "{colorpalette.blue.90}",
+          "type": "color"
+        }
+      },
+      "tertiary": {
+        "5": {
+          "value": "{colorpalette.neutral.5}",
+          "type": "color"
+        },
+        "10": {
+          "value": "{colorpalette.neutral.5}",
+          "type": "color"
+        },
+        "20": {
+          "value": "{colorpalette.neutral.5}",
+          "type": "color"
+        },
+        "40": {
+          "value": "{colorpalette.neutral.5}",
+          "type": "color"
+        },
+        "50": {
+          "value": "{colorpalette.neutral.5}",
+          "type": "color"
+        },
+        "60": {
+          "value": "{colorpalette.neutral.5}",
+          "type": "color"
+        },
+        "70": {
+          "value": "{colorpalette.neutral.5}",
+          "type": "color"
+        },
+        "80": {
+          "value": "{colorpalette.neutral.5}",
+          "type": "color"
+        },
+        "90": {
+          "value": "{colorpalette.neutral.5}",
           "type": "color"
         }
       }
