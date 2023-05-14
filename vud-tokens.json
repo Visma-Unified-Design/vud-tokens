@@ -26,7 +26,7 @@
         "type": "borderRadius"
       }
     },
-    "colorpalette": {
+    "palette": {
       "neutral": {
         "5": {
           "value": "#FFFFFF",
@@ -330,7 +330,7 @@
             "y": "2",
             "blur": "4",
             "spread": "0",
-            "color": "rgba({colorpalette.neutral.90}, 0.12)",
+            "color": "rgba({palette.neutral.90}, 0.12)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -341,7 +341,7 @@
             "y": "5",
             "blur": "10",
             "spread": "0",
-            "color": "rgba({colorpalette.neutral.90}, 0.15)",
+            "color": "rgba({palette.neutral.90}, 0.15)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -352,7 +352,7 @@
             "y": "10",
             "blur": "15",
             "spread": "0",
-            "color": "rgba({colorpalette.neutral.90}, 0.15)",
+            "color": "rgba({palette.neutral.90}, 0.15)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -363,7 +363,7 @@
             "y": "15",
             "blur": "40",
             "spread": "0",
-            "color": "rgba({colorpalette.neutral.90}, 0.20)",
+            "color": "rgba({palette.neutral.90}, 0.20)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -376,7 +376,7 @@
             "y": "2",
             "blur": "4",
             "spread": "0",
-            "color": "rgba({colorpalette.green.60}, 0.20)",
+            "color": "rgba({palette.green.60}, 0.20)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -387,7 +387,7 @@
             "y": "5",
             "blur": "10",
             "spread": "0",
-            "color": "rgba({colorpalette.green.70}, 0.15)",
+            "color": "rgba({palette.green.70}, 0.15)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -398,7 +398,7 @@
             "y": "10",
             "blur": "15",
             "spread": "0",
-            "color": "rgba({colorpalette.green.90}, 0.15)",
+            "color": "rgba({palette.green.90}, 0.15)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -409,7 +409,7 @@
             "y": "15",
             "blur": "40",
             "spread": "0",
-            "color": "rgba({colorpalette.green.90}, 0.20)",
+            "color": "rgba({palette.green.90}, 0.20)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -422,7 +422,7 @@
             "y": "2",
             "blur": "4",
             "spread": "0",
-            "color": "rgba({colorpalette.blue.50}, 0.20)",
+            "color": "rgba({palette.blue.50}, 0.20)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -433,7 +433,7 @@
             "y": "5",
             "blur": "10",
             "spread": "0",
-            "color": "rgba({colorpalette.blue.90}, 0.15)",
+            "color": "rgba({palette.blue.90}, 0.15)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -444,7 +444,7 @@
             "y": "10",
             "blur": "15",
             "spread": "0",
-            "color": "rgba({colorpalette.blue.90}, 0.15)",
+            "color": "rgba({palette.blue.90}, 0.15)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -455,7 +455,7 @@
             "y": "15",
             "blur": "40",
             "spread": "0",
-            "color": "rgba({colorpalette.blue.90}, 0.20)",
+            "color": "rgba({palette.blue.90}, 0.20)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -1125,441 +1125,1087 @@
     "brand": {
       "primary": {
         "5": {
-          "value": "{colorpalette.green.5}",
+          "value": "{palette.green.5}",
           "type": "color"
         },
         "10": {
-          "value": "{colorpalette.green.10}",
+          "value": "{palette.green.10}",
           "type": "color"
         },
         "20": {
-          "value": "{colorpalette.green.20}",
+          "value": "{palette.green.20}",
           "type": "color"
         },
         "30": {
-          "value": "{colorpalette.green.30}",
+          "value": "{palette.green.30}",
           "type": "color"
         },
         "40": {
-          "value": "{colorpalette.green.40}",
+          "value": "{palette.green.40}",
           "type": "color"
         },
         "50": {
-          "value": "{colorpalette.green.50}",
+          "value": "{palette.green.50}",
           "type": "color"
         },
         "60": {
-          "value": "{colorpalette.green.60}",
+          "value": "{palette.green.60}",
           "type": "color"
         },
         "70": {
-          "value": "{colorpalette.green.70}",
+          "value": "{palette.green.70}",
           "type": "color"
         },
         "80": {
-          "value": "{colorpalette.green.80}",
+          "value": "{palette.green.80}",
           "type": "color"
         },
         "90": {
-          "value": "{colorpalette.green.90}",
+          "value": "{palette.green.90}",
           "type": "color"
         }
       },
       "secondary": {
         "5": {
-          "value": "{colorpalette.blue.5}",
+          "value": "{palette.blue.5}",
           "type": "color"
         },
         "10": {
-          "value": "{colorpalette.blue.10}",
+          "value": "{palette.blue.10}",
           "type": "color"
         },
         "20": {
-          "value": "{colorpalette.blue.20}",
+          "value": "{palette.blue.20}",
           "type": "color"
         },
         "30": {
-          "value": "{colorpalette.blue.30}",
+          "value": "{palette.blue.30}",
           "type": "color"
         },
         "40": {
-          "value": "{colorpalette.blue.40}",
+          "value": "{palette.blue.40}",
           "type": "color"
         },
         "50": {
-          "value": "{colorpalette.blue.50}",
+          "value": "{palette.blue.50}",
           "type": "color"
         },
         "60": {
-          "value": "{colorpalette.blue.60}",
+          "value": "{palette.blue.60}",
           "type": "color"
         },
         "70": {
-          "value": "{colorpalette.blue.70}",
+          "value": "{palette.blue.70}",
           "type": "color"
         },
         "80": {
-          "value": "{colorpalette.blue.80}",
+          "value": "{palette.blue.80}",
           "type": "color"
         },
         "90": {
-          "value": "{colorpalette.blue.90}",
+          "value": "{palette.blue.90}",
           "type": "color"
         }
       },
       "tertiary": {
         "5": {
-          "value": "{colorpalette.neutral.5}",
+          "value": "{palette.neutral.5}",
           "type": "color"
         },
         "10": {
-          "value": "{colorpalette.neutral.5}",
+          "value": "{palette.neutral.5}",
           "type": "color"
         },
         "20": {
-          "value": "{colorpalette.neutral.5}",
+          "value": "{palette.neutral.5}",
           "type": "color"
         },
         "30": {
-          "value": "{colorpalette.neutral.5}",
+          "value": "{palette.neutral.5}",
           "type": "color"
         },
         "40": {
-          "value": "{colorpalette.neutral.5}",
+          "value": "{palette.neutral.5}",
           "type": "color"
         },
         "50": {
-          "value": "{colorpalette.neutral.5}",
+          "value": "{palette.neutral.5}",
           "type": "color"
         },
         "60": {
-          "value": "{colorpalette.neutral.5}",
+          "value": "{palette.neutral.5}",
           "type": "color"
         },
         "70": {
-          "value": "{colorpalette.neutral.5}",
+          "value": "{palette.neutral.5}",
           "type": "color"
         },
         "80": {
-          "value": "{colorpalette.neutral.5}",
+          "value": "{palette.neutral.5}",
           "type": "color"
         },
         "90": {
-          "value": "{colorpalette.neutral.5}",
+          "value": "{palette.neutral.5}",
           "type": "color"
         }
       },
       "default": {
         "5": {
-          "value": "{colorpalette.neutral.5}",
+          "value": "{palette.neutral.5}",
           "type": "color"
         },
         "10": {
-          "value": "{colorpalette.neutral.10}",
+          "value": "{palette.neutral.10}",
           "type": "color"
         },
         "20": {
-          "value": "{colorpalette.neutral.20}",
+          "value": "{palette.neutral.20}",
           "type": "color"
         },
         "30": {
-          "value": "{colorpalette.neutral.30}",
+          "value": "{palette.neutral.30}",
           "type": "color"
         },
         "40": {
-          "value": "{colorpalette.neutral.40}",
+          "value": "{palette.neutral.40}",
           "type": "color"
         },
         "50": {
-          "value": "{colorpalette.neutral.50}",
+          "value": "{palette.neutral.50}",
           "type": "color"
         },
         "60": {
-          "value": "{colorpalette.neutral.60}",
+          "value": "{palette.neutral.60}",
           "type": "color"
         },
         "70": {
-          "value": "{colorpalette.neutral.70}",
+          "value": "{palette.neutral.70}",
           "type": "color"
         },
         "80": {
-          "value": "{colorpalette.neutral.80}",
+          "value": "{palette.neutral.80}",
           "type": "color"
         },
         "90": {
-          "value": "{colorpalette.neutral.90}",
+          "value": "{palette.neutral.90}",
           "type": "color"
         }
       }
     },
-    "system": {
-      "semantic": {
-        "error": {
-          "5": {
-            "value": "{colorpalette.red.5}",
-            "type": "color"
-          },
-          "10": {
-            "value": "{colorpalette.red.10}",
-            "type": "color"
-          },
-          "20": {
-            "value": "{colorpalette.red.20}",
-            "type": "color"
-          },
-          "30": {
-            "value": "{colorpalette.red.30}",
-            "type": "color"
-          },
-          "40": {
-            "value": "{colorpalette.red.40}",
-            "type": "color"
-          },
-          "50": {
-            "value": "{colorpalette.red.50}",
-            "type": "color"
-          },
-          "60": {
-            "value": "{colorpalette.red.60}",
-            "type": "color"
-          },
-          "70": {
-            "value": "{colorpalette.red.70}",
-            "type": "color"
-          },
-          "80": {
-            "value": "{colorpalette.red.80}",
-            "type": "color"
-          },
-          "90": {
-            "value": "{colorpalette.red.90}",
-            "type": "color"
-          }
+    "semantic": {
+      "error": {
+        "5": {
+          "value": "{palette.red.5}",
+          "type": "color"
         },
-        "warning": {
-          "5": {
-            "value": "{colorpalette.orange.5}",
-            "type": "color"
-          },
-          "10": {
-            "value": "{colorpalette.orange.10}",
-            "type": "color"
-          },
-          "20": {
-            "value": "{colorpalette.orange.20}",
-            "type": "color"
-          },
-          "30": {
-            "value": "{colorpalette.orange.30}",
-            "type": "color"
-          },
-          "40": {
-            "value": "{colorpalette.orange.40}",
-            "type": "color"
-          },
-          "50": {
-            "value": "{colorpalette.orange.50}",
-            "type": "color"
-          },
-          "60": {
-            "value": "{colorpalette.orange.60}",
-            "type": "color"
-          },
-          "70": {
-            "value": "{colorpalette.orange.70}",
-            "type": "color"
-          },
-          "80": {
-            "value": "{colorpalette.orange.80}",
-            "type": "color"
-          },
-          "90": {
-            "value": "{colorpalette.orange.90}",
-            "type": "color"
-          }
+        "10": {
+          "value": "{palette.red.10}",
+          "type": "color"
         },
-        "info": {
-          "5": {
-            "value": "{colorpalette.blue.5}",
-            "type": "color"
-          },
-          "10": {
-            "value": "{colorpalette.blue.10}",
-            "type": "color"
-          },
-          "20": {
-            "value": "{colorpalette.blue.20}",
-            "type": "color"
-          },
-          "30": {
-            "value": "{colorpalette.blue.30}",
-            "type": "color"
-          },
-          "40": {
-            "value": "{colorpalette.blue.40}",
-            "type": "color"
-          },
-          "50": {
-            "value": "{colorpalette.blue.50}",
-            "type": "color"
-          },
-          "60": {
-            "value": "{colorpalette.blue.60}",
-            "type": "color"
-          },
-          "70": {
-            "value": "{colorpalette.blue.70}",
-            "type": "color"
-          },
-          "80": {
-            "value": "{colorpalette.blue.80}",
-            "type": "color"
-          },
-          "90": {
-            "value": "{colorpalette.blue.90}",
-            "type": "color"
-          }
+        "20": {
+          "value": "{palette.red.20}",
+          "type": "color"
         },
-        "draft": {
-          "5": {
-            "value": "{colorpalette.purple.5}",
-            "type": "color"
-          },
-          "10": {
-            "value": "{colorpalette.purple.10}",
-            "type": "color"
-          },
-          "20": {
-            "value": "{colorpalette.purple.20}",
-            "type": "color"
-          },
-          "30": {
-            "value": "{colorpalette.purple.30}",
-            "type": "color"
-          },
-          "40": {
-            "value": "{colorpalette.purple.40}",
-            "type": "color"
-          },
-          "50": {
-            "value": "{colorpalette.purple.50}",
-            "type": "color"
-          },
-          "60": {
-            "value": "{colorpalette.purple.60}",
-            "type": "color"
-          },
-          "70": {
-            "value": "{colorpalette.purple.70}",
-            "type": "color"
-          },
-          "80": {
-            "value": "{colorpalette.purple.80}",
-            "type": "color"
-          },
-          "90": {
-            "value": "{colorpalette.purple.90}",
-            "type": "color"
-          }
+        "30": {
+          "value": "{palette.red.30}",
+          "type": "color"
         },
-        "success": {
-          "5": {
-            "value": "{colorpalette.green.5}",
-            "type": "color"
-          },
-          "10": {
-            "value": "{colorpalette.green.10}",
-            "type": "color"
-          },
-          "20": {
-            "value": "{colorpalette.green.20}",
-            "type": "color"
-          },
-          "30": {
-            "value": "{colorpalette.green.30}",
-            "type": "color"
-          },
-          "40": {
-            "value": "{colorpalette.green.40}",
-            "type": "color"
-          },
-          "50": {
-            "value": "{colorpalette.green.50}",
-            "type": "color"
-          },
-          "60": {
-            "value": "{colorpalette.green.60}",
-            "type": "color"
-          },
-          "70": {
-            "value": "{colorpalette.green.70}",
-            "type": "color"
-          },
-          "80": {
-            "value": "{colorpalette.green.80}",
-            "type": "color"
-          },
-          "90": {
-            "value": "{colorpalette.green.90}",
-            "type": "color"
-          }
+        "40": {
+          "value": "{palette.red.40}",
+          "type": "color"
         },
-        "default": {
-          "5": {
-            "value": "{colorpalette.neutral.5}",
-            "type": "color"
-          },
-          "10": {
-            "value": "{colorpalette.neutral.10}",
-            "type": "color"
-          },
-          "20": {
-            "value": "{colorpalette.neutral.20}",
-            "type": "color"
-          },
-          "30": {
-            "value": "{colorpalette.neutral.30}",
-            "type": "color"
-          },
-          "40": {
-            "value": "{colorpalette.neutral.40}",
-            "type": "color"
-          },
-          "50": {
-            "value": "{colorpalette.neutral.50}",
-            "type": "color"
-          },
-          "60": {
-            "value": "{colorpalette.neutral.60}",
-            "type": "color"
-          },
-          "70": {
-            "value": "{colorpalette.neutral.70}",
-            "type": "color"
-          },
-          "80": {
-            "value": "{colorpalette.neutral.80}",
-            "type": "color"
-          },
-          "90": {
-            "value": "{colorpalette.neutral.90}",
-            "type": "color"
-          }
+        "50": {
+          "value": "{palette.red.50}",
+          "type": "color"
+        },
+        "60": {
+          "value": "{palette.red.60}",
+          "type": "color"
+        },
+        "70": {
+          "value": "{palette.red.70}",
+          "type": "color"
+        },
+        "80": {
+          "value": "{palette.red.80}",
+          "type": "color"
+        },
+        "90": {
+          "value": "{palette.red.90}",
+          "type": "color"
+        }
+      },
+      "warning": {
+        "5": {
+          "value": "{palette.orange.5}",
+          "type": "color"
+        },
+        "10": {
+          "value": "{palette.orange.10}",
+          "type": "color"
+        },
+        "20": {
+          "value": "{palette.orange.20}",
+          "type": "color"
+        },
+        "30": {
+          "value": "{palette.orange.30}",
+          "type": "color"
+        },
+        "40": {
+          "value": "{palette.orange.40}",
+          "type": "color"
+        },
+        "50": {
+          "value": "{palette.orange.50}",
+          "type": "color"
+        },
+        "60": {
+          "value": "{palette.orange.60}",
+          "type": "color"
+        },
+        "70": {
+          "value": "{palette.orange.70}",
+          "type": "color"
+        },
+        "80": {
+          "value": "{palette.orange.80}",
+          "type": "color"
+        },
+        "90": {
+          "value": "{palette.orange.90}",
+          "type": "color"
+        }
+      },
+      "info": {
+        "5": {
+          "value": "{palette.blue.5}",
+          "type": "color"
+        },
+        "10": {
+          "value": "{palette.blue.10}",
+          "type": "color"
+        },
+        "20": {
+          "value": "{palette.blue.20}",
+          "type": "color"
+        },
+        "30": {
+          "value": "{palette.blue.30}",
+          "type": "color"
+        },
+        "40": {
+          "value": "{palette.blue.40}",
+          "type": "color"
+        },
+        "50": {
+          "value": "{palette.blue.50}",
+          "type": "color"
+        },
+        "60": {
+          "value": "{palette.blue.60}",
+          "type": "color"
+        },
+        "70": {
+          "value": "{palette.blue.70}",
+          "type": "color"
+        },
+        "80": {
+          "value": "{palette.blue.80}",
+          "type": "color"
+        },
+        "90": {
+          "value": "{palette.blue.90}",
+          "type": "color"
+        }
+      },
+      "draft": {
+        "5": {
+          "value": "{palette.purple.5}",
+          "type": "color"
+        },
+        "10": {
+          "value": "{palette.purple.10}",
+          "type": "color"
+        },
+        "20": {
+          "value": "{palette.purple.20}",
+          "type": "color"
+        },
+        "30": {
+          "value": "{palette.purple.30}",
+          "type": "color"
+        },
+        "40": {
+          "value": "{palette.purple.40}",
+          "type": "color"
+        },
+        "50": {
+          "value": "{palette.purple.50}",
+          "type": "color"
+        },
+        "60": {
+          "value": "{palette.purple.60}",
+          "type": "color"
+        },
+        "70": {
+          "value": "{palette.purple.70}",
+          "type": "color"
+        },
+        "80": {
+          "value": "{palette.purple.80}",
+          "type": "color"
+        },
+        "90": {
+          "value": "{palette.purple.90}",
+          "type": "color"
+        }
+      },
+      "success": {
+        "5": {
+          "value": "{palette.green.5}",
+          "type": "color"
+        },
+        "10": {
+          "value": "{palette.green.10}",
+          "type": "color"
+        },
+        "20": {
+          "value": "{palette.green.20}",
+          "type": "color"
+        },
+        "30": {
+          "value": "{palette.green.30}",
+          "type": "color"
+        },
+        "40": {
+          "value": "{palette.green.40}",
+          "type": "color"
+        },
+        "50": {
+          "value": "{palette.green.50}",
+          "type": "color"
+        },
+        "60": {
+          "value": "{palette.green.60}",
+          "type": "color"
+        },
+        "70": {
+          "value": "{palette.green.70}",
+          "type": "color"
+        },
+        "80": {
+          "value": "{palette.green.80}",
+          "type": "color"
+        },
+        "90": {
+          "value": "{palette.green.90}",
+          "type": "color"
+        }
+      },
+      "default": {
+        "5": {
+          "value": "{palette.neutral.5}",
+          "type": "color"
+        },
+        "10": {
+          "value": "{palette.neutral.10}",
+          "type": "color"
+        },
+        "20": {
+          "value": "{palette.neutral.20}",
+          "type": "color"
+        },
+        "30": {
+          "value": "{palette.neutral.30}",
+          "type": "color"
+        },
+        "40": {
+          "value": "{palette.neutral.40}",
+          "type": "color"
+        },
+        "50": {
+          "value": "{palette.neutral.50}",
+          "type": "color"
+        },
+        "60": {
+          "value": "{palette.neutral.60}",
+          "type": "color"
+        },
+        "70": {
+          "value": "{palette.neutral.70}",
+          "type": "color"
+        },
+        "80": {
+          "value": "{palette.neutral.80}",
+          "type": "color"
+        },
+        "90": {
+          "value": "{palette.neutral.90}",
+          "type": "color"
         }
       }
     }
   },
-  "default light": {
-    "base": {
-      "canvas": {
-        "value": "{brand.default.20}",
+  "type alias light": {
+    "text": {
+      "default": {
+        "value": "{brand.default.90}",
         "type": "color",
-        "description": "Canvas"
+        "description": "Default text color on body, header"
       },
-      "container": {
+      "primary": {
         "value": "{brand.default.5}",
         "type": "color",
-        "description": "Horizontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
+        "description": "Text colour for primary action\n"
+      },
+      "secondary": {
+        "value": "{brand.default.80}",
+        "type": "color",
+        "description": "Secondary text color on body, header"
+      },
+      "emphasized": {
+        "value": "{brand.secondary.50}",
+        "type": "color",
+        "description": "Emphasized text color on important text and links, titles, headers"
+      },
+      "error": {
+        "value": "{semantic.error.80}",
+        "type": "color",
+        "description": "Error text color"
+      },
+      "warning": {
+        "value": "{semantic.warning.90}",
+        "type": "color",
+        "description": "Warning text color on body, headers"
+      },
+      "succes": {
+        "value": "{semantic.success.70}",
+        "type": "color",
+        "description": "Successful text color"
+      },
+      "muted": {
+        "value": "{semantic.default.60}",
+        "type": "color",
+        "description": "Disabled text color"
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "{brand.default.80}",
+        "type": "color",
+        "description": "Icon on normal state"
+      },
+      "primary": {
+        "value": "{brand.default.5}",
+        "type": "color",
+        "description": "Icon for primary action\n"
+      },
+      "emphasized": {
+        "value": "{brand.secondary.50}",
+        "type": "color",
+        "description": "Clickable icons"
+      },
+      "error": {
+        "value": "{semantic.error.60}",
+        "type": "color",
+        "description": "Error and destructive icons"
+      },
+      "warning": {
+        "value": "{semantic.warning.60}",
+        "type": "color",
+        "description": "Icons in warning messages, icons"
+      },
+      "success": {
+        "value": "{semantic.success.60}",
+        "type": "color",
+        "description": "Success and positive icons"
+      },
+      "muted": {
+        "value": "{semantic.default.60}",
+        "type": "color",
+        "description": "Icon on disabled state"
+      }
+    },
+    "divider": {
+      "solid": {
+        "value": "{brand.default.30}",
+        "type": "color",
+        "description": "Solid divider "
+      },
+      "dotted": {
+        "value": "{brand.default.60}",
+        "type": "color",
+        "description": "Dotted divider"
+      }
+    },
+    "background": {
+      "default": {
+        "normal": {
+          "value": "{brand.default.5}",
+          "type": "color",
+          "description": "Input field, default button, search bar on normal & disabled state"
+        },
+        "medium": {
+          "value": "{brand.secondary.10}",
+          "type": "color",
+          "description": "Input field, default button, search bar on hover state"
+        },
+        "high": {
+          "value": "{brand.default.30}",
+          "type": "color",
+          "description": "Input field, default button, search bar on pressed state"
+        },
+        "max1": {
+          "value": "{brand.default.20}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 1"
+        },
+        "max2": {
+          "value": "{brand.primary.60}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
+        }
+      },
+      "semantic ": {
+        "default": {
+          "value": "{semantic.default.5}",
+          "type": "color",
+          "description": "Default alerts. Lower prio statuses such as pairing"
+        },
+        "blue": {
+          "value": "{semantic.info.5}",
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+        },
+        "purple": {
+          "value": "{semantic.draft.5}",
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
+        },
+        "orange": {
+          "value": "{semantic.warning.5}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+        },
+        "red": {
+          "value": "{semantic.error.5}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+        },
+        "green": {
+          "value": "{semantic.success.5}",
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        }
+      }
+    },
+    "border": {
+      "default": {
+        "normal": {
+          "value": "{brand.default.60}",
+          "type": "color",
+          "description": "Input field, default button, search bar on normal, pressed & selected state"
+        },
+        "medium": {
+          "value": "{brand.secondary.50}",
+          "type": "color",
+          "description": "Input field, default button, search bar on hover state"
+        },
+        "max2": {
+          "value": "{brand.primary.70}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
+        },
+        "low": {
+          "value": "{brand.default.40}",
+          "type": "color",
+          "description": "Input field, default button, search bar on disabled state"
+        },
+        "extreme": {
+          "value": "{brand.secondary.50}",
+          "type": "color"
+        }
+      },
+      "thin": {
+        "left": {
+          "value": {
+            "x": "1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({palette.neutral.20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Left border in table cell"
+        },
+        "top": {
+          "value": {
+            "x": "0",
+            "y": "1",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({palette.neutral.20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Top border in table cell"
+        },
+        "right": {
+          "value": {
+            "x": "-1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({palette.neutral.20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Right border in table cell"
+        },
+        "bottom": {
+          "value": {
+            "x": "0",
+            "y": "-1",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({palette.neutral.20}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Bottom border in table cell"
+        }
+      },
+      "semantic ": {
+        "default": {
+          "value": "{semantic.default.60}",
+          "type": "color",
+          "description": "Default alerts. Lower prio statuses such as pairing"
+        },
+        "blue": {
+          "value": "{semantic.info.50}",
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+        },
+        "purple": {
+          "value": "{semantic.draft.60}",
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
+        },
+        "orange": {
+          "value": "{semantic.warning.70}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+        },
+        "red": {
+          "value": "{semantic.error.60}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+        },
+        "green": {
+          "value": "{semantic.success.60}",
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        }
+      }
+    },
+    "h4": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontWeight": "{medium}",
+        "lineHeight": "",
+        "fontSize": "{font-size.1}"
+      },
+      "type": "typography",
+      "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content."
+    },
+    "h3": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontSize": "{font-size.1}",
+        "fontWeight": ""
+      },
+      "type": "typography",
+      "description": "The <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content."
+    },
+    "h2": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontSize": "{font-size.2}"
+      },
+      "type": "typography",
+      "description": "The <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section."
+    },
+    "h1": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontWeight": "{medium}",
+        "fontSize": "{font-size.4}"
+      },
+      "type": "typography",
+      "description": "The <h1> tag is commonly used to display the main title of a webpage."
+    },
+    "body": {
+      "value": {
+        "fontFamily": "{secondary}",
+        "fontWeight": "{regular}",
+        "fontSize": "{font-size.0}"
+      },
+      "type": "typography"
+    },
+    "callout": {
+      "value": {
+        "fontFamily": "{secondary}",
+        "fontSize": "{font-size.-1}"
+      },
+      "type": "typography"
+    },
+    "viewport": {
+      "width": {
+        "value": "320",
+        "type": "sizing"
+      }
+    }
+  },
+  "type alias dark": {
+    "text": {
+      "default": {
+        "value": "{palette.dark.10}",
+        "type": "color",
+        "description": "Default text colour on body, header"
+      },
+      "primary": {
+        "value": "{palette.dark.5}",
+        "type": "color",
+        "description": "Primary text colour on ui controls"
+      },
+      "secondary": {
+        "value": "{palette.dark.10}",
+        "type": "color",
+        "description": "Secondary text colour"
+      },
+      "emphasised": {
+        "value": "{palette.dark.5}",
+        "type": "color",
+        "description": "Emphasised text colour on important text and links, titles, headers"
+      },
+      "disabled": {
+        "value": "{palette.dark.30}",
+        "type": "color",
+        "description": "Disabled text colour"
+      },
+      "error": {
+        "value": "{palette.red.40}",
+        "type": "color",
+        "description": "Error text colour"
+      },
+      "orange": {
+        "value": "{palette.orange.50}",
+        "type": "color",
+        "description": "Warning text colour on body, headers"
+      },
+      "success": {
+        "value": "{palette.green.50}",
+        "type": "color",
+        "description": "Successful text colour"
+      }
+    },
+    "icon": {
+      "neutral": {
+        "value": "{palette.dark.5}",
+        "type": "color",
+        "description": "Default icon"
+      },
+      "blue": {
+        "value": "{palette.blue.50}",
+        "type": "color",
+        "description": "Blue icon"
+      },
+      "red": {
+        "value": "{palette.red.60}",
+        "type": "color",
+        "description": "Red icon"
+      },
+      "orange": {
+        "value": "{palette.orange.70}",
+        "type": "color",
+        "description": "Orange icon"
+      },
+      "green": {
+        "value": "{palette.green.60}",
+        "type": "color",
+        "description": "Green icon"
+      },
+      "state": {
+        "low": {
+          "value": "{palette.dark.30}",
+          "type": "color",
+          "description": "Grey icon on disabled state"
+        },
+        "normal": {
+          "value": "{palette.dark.10}",
+          "type": "color",
+          "description": "Grey icon on hover state"
+        },
+        "medium": {
+          "value": "{palette.dark.10}",
+          "type": "color",
+          "description": "Grey icon on normal state"
+        }
+      }
+    },
+    "divider": {
+      "solid": {
+        "value": "{palette.dark.50}",
+        "type": "color",
+        "description": "Solid divider "
+      },
+      "dotted": {
+        "value": "{palette.dark.30}",
+        "type": "color",
+        "description": "Dotted divider"
+      }
+    },
+    "background": {
+      "default": {
+        "normal": {
+          "value": "{palette.dark.70}",
+          "type": "color",
+          "description": "Input field, default button, search bar on normal & disabled state"
+        },
+        "medium": {
+          "value": "{palette.dark.60}",
+          "type": "color",
+          "description": "Input field, default button, search bar on hover state"
+        },
+        "high": {
+          "value": "{palette.dark.90}",
+          "type": "color",
+          "description": "Input field, default button, search bar on pressed state"
+        },
+        "max1": {
+          "value": "{palette.dark.80}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 1"
+        },
+        "max2": {
+          "value": "{palette.green.70}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
+        }
+      },
+      "informational": {
+        "default": {
+          "value": "{palette.dark.5}",
+          "type": "color",
+          "description": "Default alerts. Lower prio statuses such as pairing"
+        },
+        "blue": {
+          "value": "{palette.blue.10}",
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+        },
+        "purple": {
+          "value": "{palette.purple.10}",
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
+        },
+        "orange": {
+          "value": "{palette.orange.10}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+        },
+        "red": {
+          "value": "{palette.red.10}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+        },
+        "green": {
+          "value": "{palette.green.10}",
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        }
+      }
+    },
+    "border": {
+      "default": {
+        "normal": {
+          "value": "{palette.dark.50}",
+          "type": "color",
+          "description": "Input field, default button, search bar on normal, pressed & selected state"
+        },
+        "medium": {
+          "value": "{palette.dark.30}",
+          "type": "color",
+          "description": "Input field, default button, search bar on hover state"
+        },
+        "max2": {
+          "value": "{palette.green.60}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
+        },
+        "low": {
+          "value": "{palette.dark.60}",
+          "type": "color",
+          "description": "Input field, default button, search bar on disabled state"
+        },
+        "extreme": {
+          "value": "{palette.dark.5}",
+          "type": "color",
+          "description": "Inner border for button on focused state"
+        }
+      },
+      "thin": {
+        "left": {
+          "value": {
+            "x": "1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "#6F7A82",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        },
+        "top": {
+          "value": {
+            "x": "0",
+            "y": "1",
+            "blur": "0",
+            "spread": "0",
+            "color": "#6F7A82",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        },
+        "right": {
+          "value": {
+            "x": "-1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "#6F7A82",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        },
+        "bottom": {
+          "value": {
+            "x": "0",
+            "y": "-1",
+            "blur": "0",
+            "spread": "0",
+            "color": "#6F7A82",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "informational": {
+        "default": {
+          "value": "{palette.dark.5}",
+          "type": "color",
+          "description": "Default alerts. Lower prio statuses such as pairing"
+        },
+        "blue": {
+          "value": "{palette.blue.10}",
+          "type": "color",
+          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+        },
+        "purple": {
+          "value": "{palette.purple.10}",
+          "type": "color",
+          "description": "Alerts. Temporary statuses such as drafts"
+        },
+        "orange": {
+          "value": "{palette.orange.10}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+        },
+        "red": {
+          "value": "{palette.red.10}",
+          "type": "color",
+          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+        },
+        "green": {
+          "value": "{palette.green.10}",
+          "type": "color",
+          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        }
+      }
+    },
+    "h4": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontWeight": "{medium}",
+        "lineHeight": "",
+        "fontSize": "{font-size.1}"
+      },
+      "type": "typography",
+      "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content."
+    },
+    "h3": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontSize": "{font-size.1}",
+        "fontWeight": ""
+      },
+      "type": "typography",
+      "description": "The <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content."
+    },
+    "h2": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontSize": "{font-size.2}"
+      },
+      "type": "typography",
+      "description": "The <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section."
+    },
+    "h1": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontWeight": "{medium}",
+        "fontSize": "{font-size.4}"
+      },
+      "type": "typography",
+      "description": "The <h1> tag is commonly used to display the main title of a webpage."
+    },
+    "body": {
+      "value": {
+        "fontFamily": "{secondary}",
+        "fontWeight": "{regular}",
+        "fontSize": "{font-size.0}"
+      },
+      "type": "typography"
+    },
+    "callout": {
+      "value": {
+        "fontFamily": "{secondary}",
+        "fontSize": "{font-size.-1}"
+      },
+      "type": "typography"
+    },
+    "viewport": {
+      "width": {
+        "value": "320",
+        "type": "sizing"
+      }
+    }
+  },
+  "default on light": {
+    "system": {
+      "background": {
+        "surface": {
+          "value": "{brand.default.20}",
+          "type": "color",
+          "description": "Surface "
+        },
+        "container": {
+          "value": "{brand.default.5}",
+          "type": "color",
+          "description": "Horizontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
+        }
       }
     },
     "buttons": {
@@ -1656,130 +2302,130 @@
       "destructive": {
         "background": {
           "normal": {
-            "value": "{system.semantic.default.5}",
+            "value": "{semantic.default.5}",
             "type": "color"
           },
           "hover": {
-            "value": "{system.semantic.error.5}",
+            "value": "{semantic.error.5}",
             "type": "color"
           }
         },
         "border": {
           "normal": {
-            "value": "{system.semantic.error.70}",
+            "value": "{semantic.error.70}",
             "type": "color"
           },
           "hover": {
-            "value": "{system.semantic.error.70}",
+            "value": "{semantic.error.70}",
             "type": "color"
           },
           "focused": {
-            "value": "{system.semantic.info.50}",
+            "value": "{semantic.info.50}",
             "type": "color"
           }
         }
       }
     },
-    "semantic": {
+    "informational": {
       "text": {
         "error": {
-          "value": "{system.semantic.error.80}",
+          "value": "{semantic.error.80}",
           "type": "color",
           "description": "Error text colour"
         },
         "warning": {
-          "value": "{system.semantic.warning.90}",
+          "value": "{semantic.warning.90}",
           "type": "color",
           "description": "Warning text colour on body, headers"
         },
         "succes": {
-          "value": "{system.semantic.success.70}",
+          "value": "{semantic.success.70}",
           "type": "color",
           "description": "Successful text colour"
         }
       },
       "icon": {
-        "blue": {
-          "value": "{system.semantic.info.50}",
+        "info": {
+          "value": "{semantic.info.50}",
           "type": "color",
           "description": "Blue icon"
         },
-        "red": {
-          "value": "{system.semantic.error.60}",
+        "error": {
+          "value": "{semantic.error.60}",
           "type": "color",
           "description": "Red icon"
         },
-        "orange": {
-          "value": "{system.semantic.warning.70}",
+        "warning": {
+          "value": "{semantic.warning.70}",
           "type": "color",
           "description": "Orange icon"
         },
-        "green": {
-          "value": "{system.semantic.success.60}",
+        "success": {
+          "value": "{semantic.success.60}",
           "type": "color",
           "description": "Green icon"
         }
       },
       "background": {
         "default": {
-          "value": "{system.semantic.default.5}",
+          "value": "{semantic.default.5}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
-        "blue": {
-          "value": "{system.semantic.info.5}",
+        "info": {
+          "value": "{semantic.info.5}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
-        "purple": {
-          "value": "{system.semantic.draft.5}",
+        "draft": {
+          "value": "{semantic.draft.5}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
-        "orange": {
-          "value": "{system.semantic.warning.5}",
+        "warning": {
+          "value": "{semantic.warning.5}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
-        "red": {
-          "value": "{system.semantic.error.5}",
+        "error": {
+          "value": "{semantic.error.5}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
-        "green": {
-          "value": "{system.semantic.success.5}",
+        "success": {
+          "value": "{semantic.success.5}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
       },
       "border": {
         "default": {
-          "value": "{system.semantic.default.60}",
+          "value": "{semantic.default.60}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
-        "blue": {
-          "value": "{system.semantic.info.60}",
+        "info": {
+          "value": "{semantic.info.60}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
-        "purple": {
-          "value": "{system.semantic.draft.60}",
+        "draft": {
+          "value": "{semantic.draft.60}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
-        "orange": {
-          "value": "{system.semantic.warning.70}",
+        "warning": {
+          "value": "{semantic.warning.70}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
-        "red": {
-          "value": "{system.semantic.error.70}",
+        "error": {
+          "value": "{semantic.error.70}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
-        "green": {
-          "value": "{system.semantic.success.60}",
+        "success": {
+          "value": "{semantic.success.60}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
@@ -1787,12 +2433,12 @@
     },
     "divider": {
       "solid": {
-        "value": "{system.semantic.default.30}",
+        "value": "{semantic.default.30}",
         "type": "color",
         "description": "Solid divider "
       },
       "dotted": {
-        "value": "{system.semantic.default.60}",
+        "value": "{semantic.default.60}",
         "type": "color",
         "description": "Dotted divider"
       }
@@ -1805,7 +2451,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({colorpalette.neutral.20}, 1.0)",
+            "color": "rgba({palette.neutral.20}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -1817,7 +2463,7 @@
             "y": "1",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({colorpalette.neutral.20}, 1.0)",
+            "color": "rgba({palette.neutral.20}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -1829,7 +2475,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({colorpalette.neutral.20}, 1.0)",
+            "color": "rgba({palette.neutral.20}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -1841,7 +2487,7 @@
             "y": "-1",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({colorpalette.neutral.20}, 1.0)",
+            "color": "rgba({palette.neutral.20}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -1902,688 +2548,7 @@
     },
     "viewport": {
       "width": {
-        "value": "320",
-        "type": "sizing"
-      }
-    }
-  },
-  "dark": {
-    "base": {
-      "canvas": {
-        "value": "{colorpalette.dark.80}",
-        "type": "color",
-        "description": "Canvas"
-      },
-      "container": {
-        "value": "{colorpalette.dark.70}",
-        "type": "color",
-        "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
-      }
-    },
-    "text": {
-      "default": {
-        "value": "{colorpalette.dark.10}",
-        "type": "color",
-        "description": "Default text colour on body, header"
-      },
-      "primary": {
-        "value": "{colorpalette.dark.5}",
-        "type": "color",
-        "description": "Primary text colour on ui controls"
-      },
-      "secondary": {
-        "value": "{colorpalette.dark.10}",
-        "type": "color",
-        "description": "Secondary text colour"
-      },
-      "emphasised": {
-        "value": "{colorpalette.dark.5}",
-        "type": "color",
-        "description": "Emphasised text colour on important text and links, titles, headers"
-      },
-      "disabled": {
-        "value": "{colorpalette.dark.30}",
-        "type": "color",
-        "description": "Disabled text colour"
-      },
-      "error": {
-        "value": "{colorpalette.red.40}",
-        "type": "color",
-        "description": "Error text colour"
-      },
-      "orange": {
-        "value": "{colorpalette.orange.50}",
-        "type": "color",
-        "description": "Warning text colour on body, headers"
-      },
-      "success": {
-        "value": "{colorpalette.green.50}",
-        "type": "color",
-        "description": "Successful text colour"
-      }
-    },
-    "icon": {
-      "neutral": {
-        "value": "{colorpalette.dark.5}",
-        "type": "color",
-        "description": "Default icon"
-      },
-      "blue": {
-        "value": "{colorpalette.blue.50}",
-        "type": "color",
-        "description": "Blue icon"
-      },
-      "red": {
-        "value": "{colorpalette.red.60}",
-        "type": "color",
-        "description": "Red icon"
-      },
-      "orange": {
-        "value": "{colorpalette.orange.70}",
-        "type": "color",
-        "description": "Orange icon"
-      },
-      "green": {
-        "value": "{colorpalette.green.60}",
-        "type": "color",
-        "description": "Green icon"
-      },
-      "state": {
-        "low": {
-          "value": "{colorpalette.dark.30}",
-          "type": "color",
-          "description": "Grey icon on disabled state"
-        },
-        "normal": {
-          "value": "{colorpalette.dark.10}",
-          "type": "color",
-          "description": "Grey icon on hover state"
-        },
-        "medium": {
-          "value": "{colorpalette.dark.10}",
-          "type": "color",
-          "description": "Grey icon on normal state"
-        }
-      }
-    },
-    "divider": {
-      "solid": {
-        "value": "{colorpalette.dark.50}",
-        "type": "color",
-        "description": "Solid divider "
-      },
-      "dotted": {
-        "value": "{colorpalette.dark.30}",
-        "type": "color",
-        "description": "Dotted divider"
-      }
-    },
-    "default": {
-      "background": {
-        "normal": {
-          "value": "{colorpalette.dark.70}",
-          "type": "color",
-          "description": "Input field, default button, search bar on normal & disabled state"
-        },
-        "medium": {
-          "value": "{colorpalette.dark.60}",
-          "type": "color",
-          "description": "Input field, default button, search bar on hover state"
-        },
-        "high": {
-          "value": "{colorpalette.dark.90}",
-          "type": "color",
-          "description": "Input field, default button, search bar on pressed state"
-        },
-        "max1": {
-          "value": "{colorpalette.dark.80}",
-          "type": "color",
-          "description": "Input field, default button, search bar on selected state 1"
-        },
-        "max2": {
-          "value": "{colorpalette.green.70}",
-          "type": "color",
-          "description": "Input field, default button, search bar on selected state 2"
-        }
-      },
-      "border": {
-        "normal": {
-          "value": "{colorpalette.dark.50}",
-          "type": "color",
-          "description": "Input field, default button, search bar on normal, pressed & selected state"
-        },
-        "medium": {
-          "value": "{colorpalette.dark.30}",
-          "type": "color",
-          "description": "Input field, default button, search bar on hover state"
-        },
-        "max2": {
-          "value": "{colorpalette.green.60}",
-          "type": "color",
-          "description": "Input field, default button, search bar on selected state 2"
-        },
-        "low": {
-          "value": "{colorpalette.dark.60}",
-          "type": "color",
-          "description": "Input field, default button, search bar on disabled state"
-        },
-        "extreme": {
-          "value": "{colorpalette.dark.5}",
-          "type": "color",
-          "description": "Inner border for button on focused state"
-        }
-      }
-    },
-    "border": {
-      "thin": {
-        "left": {
-          "value": {
-            "x": "1",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "#6F7A82",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow"
-        },
-        "top": {
-          "value": {
-            "x": "0",
-            "y": "1",
-            "blur": "0",
-            "spread": "0",
-            "color": "#6F7A82",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow"
-        },
-        "right": {
-          "value": {
-            "x": "-1",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "#6F7A82",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow"
-        },
-        "bottom": {
-          "value": {
-            "x": "0",
-            "y": "-1",
-            "blur": "0",
-            "spread": "0",
-            "color": "#6F7A82",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow"
-        }
-      }
-    },
-    "informational": {
-      "background": {
-        "default": {
-          "value": "{colorpalette.dark.5}",
-          "type": "color",
-          "description": "Default alerts. Lower prio statuses such as pairing"
-        },
-        "blue": {
-          "value": "{colorpalette.blue.10}",
-          "type": "color",
-          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
-        },
-        "purple": {
-          "value": "{colorpalette.purple.10}",
-          "type": "color",
-          "description": "Alerts. Temporary statuses such as drafts"
-        },
-        "orange": {
-          "value": "{colorpalette.orange.10}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
-        },
-        "red": {
-          "value": "{colorpalette.red.10}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
-        },
-        "green": {
-          "value": "{colorpalette.green.10}",
-          "type": "color",
-          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
-        }
-      },
-      "border": {
-        "default": {
-          "value": "{colorpalette.dark.5}",
-          "type": "color",
-          "description": "Default alerts. Lower prio statuses such as pairing"
-        },
-        "blue": {
-          "value": "{colorpalette.blue.10}",
-          "type": "color",
-          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
-        },
-        "purple": {
-          "value": "{colorpalette.purple.10}",
-          "type": "color",
-          "description": "Alerts. Temporary statuses such as drafts"
-        },
-        "orange": {
-          "value": "{colorpalette.orange.10}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
-        },
-        "red": {
-          "value": "{colorpalette.red.10}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
-        },
-        "green": {
-          "value": "{colorpalette.green.10}",
-          "type": "color",
-          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
-        }
-      }
-    },
-    "h4": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontWeight": "{medium}",
-        "lineHeight": "",
-        "fontSize": "{font-size.1}"
-      },
-      "type": "typography",
-      "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content."
-    },
-    "h3": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{font-size.1}",
-        "fontWeight": ""
-      },
-      "type": "typography",
-      "description": "The <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content."
-    },
-    "h2": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{font-size.2}"
-      },
-      "type": "typography",
-      "description": "The <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section."
-    },
-    "h1": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontWeight": "{medium}",
-        "fontSize": "{font-size.4}"
-      },
-      "type": "typography",
-      "description": "The <h1> tag is commonly used to display the main title of a webpage."
-    },
-    "body": {
-      "value": {
-        "fontFamily": "{secondary}",
-        "fontWeight": "{regular}",
-        "fontSize": "{font-size.0}"
-      },
-      "type": "typography"
-    },
-    "callout": {
-      "value": {
-        "fontFamily": "{secondary}",
-        "fontSize": "{font-size.-1}"
-      },
-      "type": "typography"
-    },
-    "viewport": {
-      "width": {
-        "value": "320",
-        "type": "sizing"
-      }
-    }
-  },
-  "Light backup": {
-    "base": {
-      "canvas": {
-        "value": "{colorpalette.neutral.20}",
-        "type": "color",
-        "description": "Canvas"
-      },
-      "container": {
-        "value": "{colorpalette.neutral.5}",
-        "type": "color",
-        "description": "Horisontal & vertical menu, cards (Product),  Navigation bar, Tab bar, Bottom sheet (Native)"
-      }
-    },
-    "text": {
-      "default": {
-        "value": "{colorpalette.neutral.90}",
-        "type": "color",
-        "description": "Default text colour on body, header"
-      },
-      "primary": {
-        "value": "{colorpalette.neutral.5}",
-        "type": "color",
-        "description": "Primary text colour on ui controls"
-      },
-      "secondary": {
-        "value": "{colorpalette.neutral.80}",
-        "type": "color",
-        "description": "Secondary text colour"
-      },
-      "emphasised": {
-        "value": "{colorpalette.blue.50}",
-        "type": "color",
-        "description": "Emphasised text colour on important text and links, titles, headers"
-      },
-      "disabled": {
-        "value": "{colorpalette.neutral.60}",
-        "type": "color",
-        "description": "Disabled text colour"
-      },
-      "error": {
-        "value": "{colorpalette.red.80}",
-        "type": "color",
-        "description": "Error text colour"
-      },
-      "warning": {
-        "value": "{colorpalette.orange.90}",
-        "type": "color",
-        "description": "Warning text colour on body, headers"
-      },
-      "succes": {
-        "value": "{colorpalette.green.70}",
-        "type": "color",
-        "description": "Successful text colour"
-      }
-    },
-    "icon": {
-      "neutral": {
-        "value": "{colorpalette.neutral.5}",
-        "type": "color",
-        "description": "Default icon"
-      },
-      "blue": {
-        "value": "{colorpalette.blue.50}",
-        "type": "color",
-        "description": "Blue icon"
-      },
-      "red": {
-        "value": "{colorpalette.red.60}",
-        "type": "color",
-        "description": "Red icon"
-      },
-      "orange": {
-        "value": "{colorpalette.orange.70}",
-        "type": "color",
-        "description": "Orange icon"
-      },
-      "green": {
-        "value": "{colorpalette.green.60}",
-        "type": "color",
-        "description": "Green icon"
-      },
-      "state": {
-        "low": {
-          "value": "{colorpalette.neutral.60}",
-          "type": "color",
-          "description": "Grey icon on disabled state"
-        },
-        "normal": {
-          "value": "{colorpalette.neutral.80}",
-          "type": "color",
-          "description": "Grey icon on normal state"
-        },
-        "medium": {
-          "value": "{colorpalette.neutral.70}",
-          "type": "color",
-          "description": "Grey icon on hover state"
-        }
-      }
-    },
-    "divider": {
-      "solid": {
-        "value": "{colorpalette.neutral.30}",
-        "type": "color",
-        "description": "Solid divider "
-      },
-      "dotted": {
-        "value": "{colorpalette.neutral.60}",
-        "type": "color",
-        "description": "Dotted divider"
-      }
-    },
-    "default": {
-      "background": {
-        "normal": {
-          "value": "{colorpalette.neutral.5}",
-          "type": "color",
-          "description": "Input field, default button, search bar on normal & disabled state"
-        },
-        "medium": {
-          "value": "{colorpalette.blue.10}",
-          "type": "color",
-          "description": "Input field, default button, search bar on hover state"
-        },
-        "high": {
-          "value": "{colorpalette.neutral.30}",
-          "type": "color",
-          "description": "Input field, default button, search bar on pressed state"
-        },
-        "max1": {
-          "value": "{colorpalette.neutral.20}",
-          "type": "color",
-          "description": "Input field, default button, search bar on selected state 1"
-        },
-        "max2": {
-          "value": "{colorpalette.green.70}",
-          "type": "color",
-          "description": "Input field, default button, search bar on selected state 2"
-        }
-      },
-      "border": {
-        "normal": {
-          "value": "{colorpalette.neutral.60}",
-          "type": "color",
-          "description": "Input field, default button, search bar on normal, pressed & selected state"
-        },
-        "medium": {
-          "value": "{colorpalette.blue.50}",
-          "type": "color",
-          "description": "Input field, default button, search bar on hover state"
-        },
-        "max2": {
-          "value": "{colorpalette.green.70}",
-          "type": "color",
-          "description": "Input field, default button, search bar on selected state 2"
-        },
-        "low": {
-          "value": "{colorpalette.neutral.40}",
-          "type": "color",
-          "description": "Input field, default button, search bar on disabled state"
-        },
-        "extreme": {
-          "value": "{colorpalette.blue.50}",
-          "type": "color"
-        }
-      }
-    },
-    "border": {
-      "thin": {
-        "left": {
-          "value": {
-            "x": "1",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({colorpalette.neutral.20}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Left border in table cell"
-        },
-        "top": {
-          "value": {
-            "x": "0",
-            "y": "1",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({colorpalette.neutral.20}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Top border in table cell"
-        },
-        "right": {
-          "value": {
-            "x": "-1",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({colorpalette.neutral.20}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Right border in table cell"
-        },
-        "bottom": {
-          "value": {
-            "x": "0",
-            "y": "-1",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({colorpalette.neutral.20}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Bottom border in table cell"
-        }
-      }
-    },
-    "informational": {
-      "background": {
-        "default": {
-          "value": "{colorpalette.neutral.5}",
-          "type": "color",
-          "description": "Default alerts. Lower prio statuses such as pairing"
-        },
-        "blue": {
-          "value": "{colorpalette.blue.5}",
-          "type": "color",
-          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
-        },
-        "purple": {
-          "value": "{colorpalette.purple.5}",
-          "type": "color",
-          "description": "Alerts. Temporary statuses such as drafts"
-        },
-        "orange": {
-          "value": "{colorpalette.orange.5}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
-        },
-        "red": {
-          "value": "{colorpalette.red.5}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
-        },
-        "green": {
-          "value": "{colorpalette.green.5}",
-          "type": "color",
-          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
-        }
-      },
-      "border": {
-        "default": {
-          "value": "{colorpalette.neutral.60}",
-          "type": "color",
-          "description": "Default alerts. Lower prio statuses such as pairing"
-        },
-        "blue": {
-          "value": "{colorpalette.blue.60}",
-          "type": "color",
-          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
-        },
-        "purple": {
-          "value": "{colorpalette.purple.60}",
-          "type": "color",
-          "description": "Alerts. Temporary statuses such as drafts"
-        },
-        "orange": {
-          "value": "{colorpalette.orange.70}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
-        },
-        "red": {
-          "value": "{colorpalette.red.60}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
-        },
-        "green": {
-          "value": "{colorpalette.green.60}",
-          "type": "color",
-          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
-        }
-      }
-    },
-    "h4": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontWeight": "{medium}",
-        "lineHeight": "",
-        "fontSize": "{font-size.1}"
-      },
-      "type": "typography",
-      "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content."
-    },
-    "h3": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{font-size.1}",
-        "fontWeight": ""
-      },
-      "type": "typography",
-      "description": "The <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content."
-    },
-    "h2": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{font-size.2}"
-      },
-      "type": "typography",
-      "description": "The <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section."
-    },
-    "h1": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontWeight": "{medium}",
-        "fontSize": "{font-size.4}"
-      },
-      "type": "typography",
-      "description": "The <h1> tag is commonly used to display the main title of a webpage."
-    },
-    "body": {
-      "value": {
-        "fontFamily": "{secondary}",
-        "fontWeight": "{regular}",
-        "fontSize": "{font-size.0}"
-      },
-      "type": "typography"
-    },
-    "callout": {
-      "value": {
-        "fontFamily": "{secondary}",
-        "fontSize": "{font-size.-1}"
-      },
-      "type": "typography"
-    },
-    "viewport": {
-      "width": {
-        "value": "320",
+        "value": "1000",
         "type": "sizing"
       }
     }
@@ -2724,14 +2689,157 @@
       }
     }
   },
+  "Boxshadow": {
+    "boxShadow": {
+      "default": {
+        "1": {
+          "value": {
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "0",
+            "color": "rgba({palette.neutral.90}, 0.12)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "2": {
+          "value": {
+            "x": "0",
+            "y": "5",
+            "blur": "10",
+            "spread": "0",
+            "color": "rgba({palette.neutral.90}, 0.15)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "3": {
+          "value": {
+            "x": "0",
+            "y": "10",
+            "blur": "15",
+            "spread": "0",
+            "color": "rgba({palette.neutral.90}, 0.15)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "4": {
+          "value": {
+            "x": "0",
+            "y": "15",
+            "blur": "40",
+            "spread": "0",
+            "color": "rgba({palette.neutral.90}, 0.20)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "primary": {
+        "1": {
+          "value": {
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "0",
+            "color": "rgba({palette.green.60}, 0.20)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "2": {
+          "value": {
+            "x": "0",
+            "y": "5",
+            "blur": "10",
+            "spread": "0",
+            "color": "rgba({palette.green.70}, 0.15)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "3": {
+          "value": {
+            "x": "0",
+            "y": "10",
+            "blur": "15",
+            "spread": "0",
+            "color": "rgba({palette.green.90}, 0.15)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "4": {
+          "value": {
+            "x": "0",
+            "y": "15",
+            "blur": "40",
+            "spread": "0",
+            "color": "rgba({palette.green.90}, 0.20)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "secondary": {
+        "1": {
+          "value": {
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "0",
+            "color": "rgba({palette.blue.50}, 0.20)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "2": {
+          "value": {
+            "x": "0",
+            "y": "5",
+            "blur": "10",
+            "spread": "0",
+            "color": "rgba({palette.blue.90}, 0.15)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "3": {
+          "value": {
+            "x": "0",
+            "y": "10",
+            "blur": "15",
+            "spread": "0",
+            "color": "rgba({palette.blue.90}, 0.15)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "4": {
+          "value": {
+            "x": "0",
+            "y": "15",
+            "blur": "40",
+            "spread": "0",
+            "color": "rgba({palette.blue.90}, 0.20)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "core",
-      "default light",
-      "dark",
-      "Light backup",
-      "Green"
+      "type alias light",
+      "type alias dark",
+      "default on light",
+      "Green",
+      "Boxshadow"
     ]
   }
 }
