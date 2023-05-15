@@ -1584,10 +1584,14 @@
         "type": "color",
         "description": "Successful text color"
       },
-      "muted": {
+      "disabled": {
         "value": "{semantic.default.60}",
         "type": "color",
         "description": "Disabled text color"
+      },
+      "visited": {
+        "value": "{semantic.draft.60}",
+        "type": "color"
       }
     },
     "icon": {
@@ -1621,7 +1625,7 @@
         "type": "color",
         "description": "Success and positive icons"
       },
-      "muted": {
+      "disabled": {
         "value": "{semantic.default.60}",
         "type": "color",
         "description": "Icon on disabled state"
@@ -1646,54 +1650,54 @@
           "type": "color",
           "description": "Input field, default button, search bar on normal & disabled state"
         },
-        "medium": {
+        "hover": {
           "value": "{brand.secondary.10}",
           "type": "color",
           "description": "Input field, default button, search bar on hover state"
         },
-        "high": {
+        "pressed": {
           "value": "{brand.default.30}",
           "type": "color",
           "description": "Input field, default button, search bar on pressed state"
         },
-        "max1": {
+        "selected1": {
           "value": "{brand.default.20}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 1"
         },
-        "max2": {
+        "selected2": {
           "value": "{brand.primary.60}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 2"
         }
       },
-      "semantic ": {
+      "semantic": {
         "default": {
           "value": "{semantic.default.5}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
-        "blue": {
+        "info": {
           "value": "{semantic.info.5}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
-        "purple": {
+        "draft": {
           "value": "{semantic.draft.5}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
-        "orange": {
+        "warning": {
           "value": "{semantic.warning.5}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
-        "red": {
+        "error": {
           "value": "{semantic.error.5}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
-        "green": {
+        "success": {
           "value": "{semantic.success.5}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
@@ -1707,24 +1711,29 @@
           "type": "color",
           "description": "Input field, default button, search bar on normal, pressed & selected state"
         },
-        "medium": {
+        "hover": {
           "value": "{brand.secondary.50}",
           "type": "color",
           "description": "Input field, default button, search bar on hover state"
         },
-        "max2": {
-          "value": "{brand.primary.70}",
-          "type": "color",
-          "description": "Input field, default button, search bar on selected state 2"
-        },
-        "low": {
+        "disabled": {
           "value": "{brand.default.40}",
           "type": "color",
           "description": "Input field, default button, search bar on disabled state"
         },
-        "extreme": {
+        "focused": {
           "value": "{brand.secondary.50}",
           "type": "color"
+        },
+        "selected1": {
+          "value": "{brand.default.60}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 1"
+        },
+        "selected2": {
+          "value": "{brand.primary.70}",
+          "type": "color",
+          "description": "Input field, default button, search bar on selected state 2"
         }
       },
       "thin": {
@@ -1777,33 +1786,33 @@
           "description": "Bottom border in table cell"
         }
       },
-      "semantic ": {
+      "semantic": {
         "default": {
           "value": "{semantic.default.60}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
-        "blue": {
+        "info": {
           "value": "{semantic.info.50}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
-        "purple": {
+        "draft": {
           "value": "{semantic.draft.60}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
-        "orange": {
+        "warning": {
           "value": "{semantic.warning.70}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
-        "red": {
+        "error": {
           "value": "{semantic.error.60}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
-        "green": {
+        "success": {
           "value": "{semantic.success.60}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
@@ -2226,14 +2235,14 @@
             "type": "color",
             "description": "Emphasized text colour on important text and links, titles, headers"
           },
-          "disabled": {
+          "muted": {
             "value": "{brand.default.60}",
             "type": "color",
             "description": "Disabled text colour"
           }
         },
         "icon": {
-          "disabled": {
+          "muted": {
             "value": "{brand.default.60}",
             "type": "color",
             "description": "Grey icon on disabled state"
