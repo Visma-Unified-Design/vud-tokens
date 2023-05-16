@@ -710,6 +710,10 @@
       "64": {
         "value": "64%",
         "type": "opacity"
+      },
+      "100": {
+        "value": "100",
+        "type": "opacity"
       }
     },
     "regular": {
@@ -1561,7 +1565,7 @@
             "description": "Input field, default button, search bar on normal & disabled state"
           },
           "hover": {
-            "value": "rgba({palette.dark.90} {opacity.12}, {brand.primary.7}",
+            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.primary.70},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1737,6 +1741,56 @@
           }
         }
       }
+    },
+    "h4": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontWeight": "{medium}",
+        "fontSize": "{font-size.1}"
+      },
+      "type": "typography",
+      "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content."
+    },
+    "h3": {
+      "value": {
+        "fontFamily": "{primary}",
+        "lineHeight": "",
+        "fontSize": "{font-size.1}"
+      },
+      "type": "typography",
+      "description": "The <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content."
+    },
+    "h2": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontSize": "{font-size.2}"
+      },
+      "type": "typography",
+      "description": "The <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section."
+    },
+    "h1": {
+      "value": {
+        "fontFamily": "{primary}",
+        "fontSize": "{font-size.4}",
+        "fontWeight": "{medium}"
+      },
+      "type": "typography",
+      "description": "The <h1> tag is commonly used to display the main title of a webpage."
+    },
+    "label": {
+      "value": {
+        "fontFamily": "{secondary}",
+        "fontWeight": "{regular}",
+        "fontSize": "{font-size.0}"
+      },
+      "type": "typography"
+    },
+    "callout": {
+      "value": {
+        "fontFamily": "{secondary}",
+        "fontSize": "{font-size.-1}"
+      },
+      "type": "typography"
     }
   },
   "default on light": {
@@ -1979,12 +2033,12 @@
     },
     "divider": {
       "solid": {
-        "value": "{semantic.default.30}",
+        "value": "{light.divider.solid}",
         "type": "color",
         "description": "Solid divider "
       },
       "dotted": {
-        "value": "{semantic.default.60}",
+        "value": "{light.divider.dotted}",
         "type": "color",
         "description": "Dotted divider"
       }
@@ -2914,420 +2968,13 @@
       }
     }
   },
-  "test": {
-    "system": {
-      "background": {
-        "surface": {
-          "value": "{brand.default.20}",
-          "type": "color",
-          "description": "Surface "
-        },
-        "container": {
-          "value": "{brand.default.5}",
-          "type": "color",
-          "description": "Horizontal & vertical menu, cards (Product), Navigation bar, Tab bar, Bottom sheet (Native)"
-        }
-      }
-    },
-    "buttons": {
-      "confirmational": {
-        "text": {
-          "default": {
-            "value": "{light.label.default}",
-            "type": "color",
-            "description": "Default text colour"
-          },
-          "secondary": {
-            "value": "{brand.default.80}",
-            "type": "color",
-            "description": "Secondary text colour"
-          },
-          "emphasized": {
-            "value": "{brand.secondary.60}",
-            "type": "color",
-            "description": "Emphasized text colour on important text and links, titles, headers"
-          },
-          "disabled": {
-            "value": "{brand.default.60}",
-            "type": "color",
-            "description": "Disabled text colour"
-          }
-        },
-        "icon": {
-          "normal": {
-            "value": "{brand.default.80}",
-            "type": "color",
-            "description": "Grey icon on normal state"
-          },
-          "disabled": {
-            "value": "{brand.default.60}",
-            "type": "color",
-            "description": "Grey icon on disabled state"
-          }
-        },
-        "background": {
-          "normal": {
-            "value": "{brand.default.5}",
-            "type": "color",
-            "description": "Input field, default button, search bar on normal & disabled state"
-          },
-          "hover": {
-            "value": "{brand.secondary.10}",
-            "type": "color",
-            "description": "Input field, default button, search bar on hover state"
-          },
-          "pressed": {
-            "value": "{brand.default.30}",
-            "type": "color",
-            "description": "Input field, default button, search bar on pressed state"
-          },
-          "selected1": {
-            "value": "{brand.default.20}",
-            "type": "color",
-            "description": "Input field, default button, search bar on selected state 1"
-          },
-          "selected2": {
-            "value": "{brand.primary.70}",
-            "type": "color",
-            "description": "Input field, default button, search bar on selected state 2"
-          }
-        },
-        "border": {
-          "normal": {
-            "value": "{brand.default.60}",
-            "type": "color",
-            "description": "Input field, default button, search bar on normal, pressed & selected state"
-          },
-          "hover": {
-            "value": "{brand.secondary.50}",
-            "type": "color",
-            "description": "Input field, default button, search bar on hover state"
-          },
-          "disabled": {
-            "value": "{brand.default.40}",
-            "type": "color",
-            "description": "Input field, default button, search bar on disabled state"
-          },
-          "focused": {
-            "value": "{brand.secondary.50}",
-            "type": "color",
-            "description": "Input field, default button, search bar on focused state"
-          },
-          "selected2": {
-            "value": "{brand.primary.70}",
-            "type": "color",
-            "description": "Input field, default button, search bar on selected state 2"
-          }
-        }
-      },
-      "destructive": {
-        "background": {
-          "normal": {
-            "value": "{semantic.default.5}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{semantic.error.5}",
-            "type": "color"
-          }
-        },
-        "border": {
-          "normal": {
-            "value": "{semantic.error.70}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{semantic.error.70}",
-            "type": "color"
-          },
-          "focused": {
-            "value": "{semantic.info.50}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "informational": {
-      "text": {
-        "error": {
-          "value": "{semantic.error.80}",
-          "type": "color",
-          "description": "Error text colour"
-        },
-        "warning": {
-          "value": "{semantic.warning.90}",
-          "type": "color",
-          "description": "Warning text colour on body, headers"
-        },
-        "succes": {
-          "value": "{semantic.success.70}",
-          "type": "color",
-          "description": "Successful text colour"
-        }
-      },
-      "icon": {
-        "info": {
-          "value": "{semantic.info.50}",
-          "type": "color",
-          "description": "Blue icon"
-        },
-        "error": {
-          "value": "{semantic.error.60}",
-          "type": "color",
-          "description": "Red icon"
-        },
-        "warning": {
-          "value": "{semantic.warning.70}",
-          "type": "color",
-          "description": "Orange icon"
-        },
-        "success": {
-          "value": "{semantic.success.60}",
-          "type": "color",
-          "description": "Green icon"
-        }
-      },
-      "background": {
-        "default": {
-          "value": "{semantic.default.5}",
-          "type": "color",
-          "description": "Default alerts. Lower prio statuses such as pairing"
-        },
-        "info": {
-          "value": "{semantic.info.5}",
-          "type": "color",
-          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
-        },
-        "draft": {
-          "value": "{semantic.draft.5}",
-          "type": "color",
-          "description": "Alerts. Temporary statuses such as drafts"
-        },
-        "warning": {
-          "value": "{semantic.warning.5}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
-        },
-        "error": {
-          "value": "{semantic.error.5}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
-        },
-        "success": {
-          "value": "{semantic.success.5}",
-          "type": "color",
-          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
-        }
-      },
-      "border": {
-        "default": {
-          "value": "{semantic.default.60}",
-          "type": "color",
-          "description": "Default alerts. Lower prio statuses such as pairing"
-        },
-        "info": {
-          "value": "{semantic.info.60}",
-          "type": "color",
-          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
-        },
-        "draft": {
-          "value": "{semantic.draft.60}",
-          "type": "color",
-          "description": "Alerts. Temporary statuses such as drafts"
-        },
-        "warning": {
-          "value": "{semantic.warning.70}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
-        },
-        "error": {
-          "value": "{semantic.error.70}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
-        },
-        "success": {
-          "value": "{semantic.success.60}",
-          "type": "color",
-          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
-        }
-      }
-    },
-    "divider": {
-      "solid": {
-        "value": "{semantic.default.30}",
-        "type": "color",
-        "description": "Solid divider "
-      },
-      "dotted": {
-        "value": "{semantic.default.60}",
-        "type": "color",
-        "description": "Dotted divider"
-      }
-    },
-    "border": {
-      "thin": {
-        "left": {
-          "value": {
-            "x": "1",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({palette.neutral.20}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Left border in table cell"
-        },
-        "top": {
-          "value": {
-            "x": "0",
-            "y": "1",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({palette.neutral.20}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Top border in table cell"
-        },
-        "right": {
-          "value": {
-            "x": "-1",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({palette.neutral.20}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Right border in table cell"
-        },
-        "bottom": {
-          "value": {
-            "x": "0",
-            "y": "-1",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({palette.neutral.20}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Bottom border in table cell"
-        }
-      }
-    },
-    "boxShadow": {
-      "1": {
-        "value": {
-          "x": "0",
-          "y": "2",
-          "blur": "4",
-          "spread": "0",
-          "color": "rgba({palette.neutral.90}, {opacity.12})",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow"
-      },
-      "2": {
-        "value": {
-          "x": "0",
-          "y": "5",
-          "blur": "10",
-          "spread": "0",
-          "color": "rgba({palette.neutral.90}, {opacity.16})",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow"
-      },
-      "3": {
-        "value": {
-          "x": "0",
-          "y": "10",
-          "blur": "15",
-          "spread": "0",
-          "color": "rgba({palette.neutral.90}, {opacity.16})",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow"
-      },
-      "4": {
-        "value": {
-          "x": "0",
-          "y": "15",
-          "blur": "40",
-          "spread": "0",
-          "color": "rgba({palette.neutral.90}, {opacity.24})",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow"
-      }
-    },
-    "h4": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontWeight": "{medium}",
-        "lineHeight": "",
-        "fontSize": "{font-size.1}"
-      },
-      "type": "typography",
-      "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content."
-    },
-    "h3": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{font-size.1}",
-        "fontWeight": ""
-      },
-      "type": "typography",
-      "description": "The <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content."
-    },
-    "h2": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{font-size.2}"
-      },
-      "type": "typography",
-      "description": "The <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section."
-    },
-    "h1": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontWeight": "{medium}",
-        "fontSize": "{font-size.4}"
-      },
-      "type": "typography",
-      "description": "The <h1> tag is commonly used to display the main title of a webpage."
-    },
-    "body": {
-      "value": {
-        "fontFamily": "{secondary}",
-        "fontWeight": "{regular}",
-        "fontSize": "{font-size.0}"
-      },
-      "type": "typography"
-    },
-    "callout": {
-      "value": {
-        "fontFamily": "{secondary}",
-        "fontSize": "{font-size.-1}"
-      },
-      "type": "typography"
-    },
-    "viewport": {
-      "width": {
-        "value": "1000",
-        "type": "sizing"
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "core",
       "default on light",
       "light",
-      "dark",
-      "test"
+      "dark"
     ]
   }
 }
