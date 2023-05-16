@@ -1097,43 +1097,43 @@
       },
       "tertiary": {
         "5": {
-          "value": "{palette.neutral.5}",
+          "value": "{palette.purple.5}",
           "type": "color"
         },
         "10": {
-          "value": "{palette.neutral.5}",
+          "value": "{palette.purple.10}",
           "type": "color"
         },
         "20": {
-          "value": "{palette.neutral.5}",
+          "value": "{palette.purple.20}",
           "type": "color"
         },
         "30": {
-          "value": "{palette.neutral.5}",
+          "value": "{palette.purple.30}",
           "type": "color"
         },
         "40": {
-          "value": "{palette.neutral.5}",
+          "value": "{palette.purple.40}",
           "type": "color"
         },
         "50": {
-          "value": "{palette.neutral.5}",
+          "value": "{palette.purple.50}",
           "type": "color"
         },
         "60": {
-          "value": "{palette.neutral.5}",
+          "value": "{palette.purple.60}",
           "type": "color"
         },
         "70": {
-          "value": "{palette.neutral.5}",
+          "value": "{palette.purple.70}",
           "type": "color"
         },
         "80": {
-          "value": "{palette.neutral.5}",
+          "value": "{palette.purple.80}",
           "type": "color"
         },
         "90": {
-          "value": "{palette.neutral.5}",
+          "value": "{palette.purple.90}",
           "type": "color"
         }
       },
@@ -1556,6 +1556,16 @@
             "value": "{brand.primary.80}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 2"
+          },
+          "surface": {
+            "value": "{brand.default.20}",
+            "type": "color",
+            "description": "Screen"
+          },
+          "container": {
+            "value": "{brand.default.5}",
+            "type": "color",
+            "description": "Horizontal menu, vertical menu, windows, panels, cards,"
           }
         },
         "primary": {
@@ -1583,6 +1593,15 @@
             "value": "{brand.primary.80}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 1"
+          },
+          "surface": {
+            "value": "{brand.default.20}",
+            "type": "color",
+            "description": "Screen"
+          },
+          "container": {
+            "value": "{brand.default.5}",
+            "type": "color"
           }
         },
         "transparent": {
@@ -1907,6 +1926,10 @@
           },
           "hover": {
             "value": "{semantic.error.5}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{semantic.error.20}",
             "type": "color"
           }
         },
