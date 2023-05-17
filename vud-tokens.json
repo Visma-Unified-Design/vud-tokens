@@ -322,218 +322,122 @@
         }
       }
     },
-    "title": {
-      "large": {
-        "regular": {
-          "value": {
-            "fontFamily": "{primary}",
-            "fontWeight": "{regular}",
-            "lineHeight": "Auto",
-            "fontSize": "48"
-          },
-          "type": "typography"
-        },
-        "bold": {
-          "value": {
-            "fontFamily": "{primary}",
-            "fontWeight": "{bold}",
-            "lineHeight": "Auto",
-            "fontSize": "48"
-          },
-          "type": "typography"
-        }
-      },
-      "medium": {
-        "regular": {
-          "value": {
-            "fontFamily": "{primary}",
-            "fontWeight": "{regular}",
-            "lineHeight": "Auto",
-            "fontSize": "32"
-          },
-          "type": "typography"
-        },
-        "bold": {
-          "value": {
-            "fontFamily": "{primary}",
-            "fontWeight": "{bold}",
-            "lineHeight": "Auto",
-            "fontSize": "32"
-          },
-          "type": "typography"
-        }
-      },
-      "small": {
-        "regular": {
-          "value": {
-            "fontFamily": "{primary}",
-            "fontWeight": "{regular}",
-            "lineHeight": "Auto",
-            "fontSize": "24"
-          },
-          "type": "typography"
-        },
-        "semibold": {
-          "value": {
-            "fontFamily": "{primary}",
-            "fontWeight": "{medium}",
-            "lineHeight": "Auto",
-            "fontSize": "24"
-          },
-          "type": "typography"
-        },
-        "bold": {
-          "value": {
-            "fontFamily": "{primary}",
-            "fontWeight": "{bold}",
-            "lineHeight": "Auto",
-            "fontSize": "24"
-          },
-          "type": "typography"
-        }
-      },
-      "extraSmall": {
-        "regular": {
-          "value": {
-            "fontFamily": "{primary}",
-            "fontWeight": "{regular}",
-            "fontSize": "20",
-            "lineHeight": "Auto"
-          },
-          "type": "typography"
-        },
-        "semibold": {
-          "value": {
-            "fontFamily": "{primary}",
-            "fontWeight": "{medium}",
-            "fontSize": "20",
-            "lineHeight": "Auto"
-          },
-          "type": "typography"
-        },
-        "bold": {
-          "value": {
-            "fontFamily": "{primary}",
-            "fontWeight": "{bold}",
-            "lineHeight": "Auto",
-            "fontSize": "20"
-          },
-          "type": "typography"
-        }
-      }
-    },
-    "body": {
-      "primary": {
+    "display": {
+      "title": {
         "large": {
           "regular": {
             "value": {
               "fontFamily": "{primary}",
               "fontWeight": "{regular}",
               "lineHeight": "Auto",
-              "fontSize": "20"
+              "fontSize": "48"
             },
-            "type": "typography"
-          },
-          "semibold": {
-            "value": {
-              "fontFamily": "{primary}",
-              "fontWeight": "{medium}",
-              "lineHeight": "Auto",
-              "fontSize": "20"
-            },
-            "type": "typography"
+            "type": "typography",
+            "description": "Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts"
           },
           "bold": {
             "value": {
               "fontFamily": "{primary}",
               "fontWeight": "{bold}",
               "lineHeight": "Auto",
-              "fontSize": "20"
+              "fontSize": "48"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts"
           }
         },
-        "small": {
-          "regular": {
-            "value": {
-              "fontFamily": "{primary}",
-              "fontWeight": "{regular}",
-              "lineHeight": "Auto",
-              "fontSize": "16"
-            },
-            "type": "typography"
-          },
-          "bold": {
-            "value": {
-              "fontFamily": "{primary}",
-              "fontWeight": "{bold}",
-              "lineHeight": "Auto",
-              "fontSize": "16"
-            },
-            "type": "typography"
-          }
-        }
-      },
-      "secondary": {
         "medium": {
           "regular": {
             "value": {
-              "fontFamily": "{secondary}",
+              "fontFamily": "{primary}",
               "fontWeight": "{regular}",
               "lineHeight": "Auto",
-              "fontSize": "14"
+              "fontSize": "32"
             },
-            "type": "typography"
-          },
-          "semibold": {
-            "value": {
-              "fontFamily": "{secondary}",
-              "fontWeight": "{medium}",
-              "lineHeight": "Auto",
-              "fontSize": "14"
-            },
-            "type": "typography"
+            "type": "typography",
+            "description": "Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts"
           },
           "bold": {
             "value": {
-              "fontFamily": "{secondary}",
+              "fontFamily": "{primary}",
               "fontWeight": "{bold}",
               "lineHeight": "Auto",
-              "fontSize": "14"
+              "fontSize": "32"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts"
           }
         },
         "small": {
           "regular": {
             "value": {
-              "fontFamily": "{secondary}",
+              "fontFamily": "{primary}",
               "fontWeight": "{regular}",
               "lineHeight": "Auto",
-              "fontSize": "13"
+              "fontSize": "24"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts"
           },
           "semibold": {
             "value": {
-              "fontFamily": "{secondary}",
+              "fontFamily": "{primary}",
               "fontWeight": "{medium}",
               "lineHeight": "Auto",
-              "fontSize": "13"
+              "fontSize": "24"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts"
           },
           "bold": {
             "value": {
-              "fontFamily": "{secondary}",
+              "fontFamily": "{primary}",
               "fontWeight": "{bold}",
               "lineHeight": "Auto",
-              "fontSize": "13"
+              "fontSize": "24"
             },
-            "type": "typography"
+            "type": "typography",
+            "description": "Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts"
+          }
+        },
+        "extraSmall": {
+          "regular": {
+            "value": {
+              "fontFamily": "{primary}",
+              "fontWeight": "{regular}",
+              "fontSize": "20",
+              "lineHeight": "Auto"
+            },
+            "type": "typography",
+            "description": "Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts"
+          },
+          "semibold": {
+            "value": {
+              "fontFamily": "{primary}",
+              "fontWeight": "{medium}",
+              "fontSize": "20",
+              "lineHeight": "Auto"
+            },
+            "type": "typography",
+            "description": "Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts"
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "{primary}",
+              "fontWeight": "{bold}",
+              "lineHeight": "Auto",
+              "fontSize": "20"
+            },
+            "type": "typography",
+            "description": "Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts"
           }
         }
       }
+    },
+    "base": {
+      "value": "2",
+      "type": "other",
+      "description": "Unique base for sizing, spacing"
     },
     "secondary": {
       "value": "Open Sans",
@@ -664,11 +568,6 @@
         "value": "{spacing.2}*32",
         "type": "spacing"
       }
-    },
-    "base": {
-      "value": "2",
-      "type": "other",
-      "description": "Unique base for sizing, spacing"
     },
     "opacity": {
       "0": {
@@ -1456,6 +1355,10 @@
           "type": "color",
           "description": "Emphasized text color on important text and links, titles, headers"
         },
+        "visited": {
+          "value": "{status.draft.60}",
+          "type": "color"
+        },
         "error": {
           "value": "{status.error.80}",
           "type": "color",
@@ -1475,10 +1378,6 @@
           "value": "{status.default.60}",
           "type": "color",
           "description": "Disabled text color"
-        },
-        "visited": {
-          "value": "{status.draft.60}",
-          "type": "color"
         },
         "reversed": {
           "value": "{brand.default.5}",
@@ -1561,8 +1460,18 @@
             "type": "color",
             "description": "Input field, default button, search bar on selected state 1"
           },
+          "selected1:hover": {
+            "value": "{brand.secondary.50}",
+            "type": "color",
+            "description": "Input field, default button, search bar on hover state"
+          },
           "selected2": {
             "value": "{brand.primary.80}",
+            "type": "color",
+            "description": "Input field, default button, search bar on selected state 2"
+          },
+          "selected2:hover": {
+            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.primary.80},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 2"
           },
@@ -1748,8 +1657,18 @@
             "type": "color",
             "description": "Input field, default button, search bar on selected state 1"
           },
+          "selecte1:hover": {
+            "value": "{brand.secondary.10}",
+            "type": "color",
+            "description": "Input field, default button, search bar on hover state"
+          },
           "selected2": {
             "value": "{brand.primary.80}",
+            "type": "color",
+            "description": "Input field, default button, search bar on selected state 2"
+          },
+          "selected2:hover": {
+            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.primary.80},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 2"
           },
@@ -1912,55 +1831,59 @@
         }
       }
     },
-    "h4": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontWeight": "{medium}",
-        "fontSize": "{font-size.1}"
+    "html": {
+      "callout": {
+        "value": {
+          "fontFamily": "{secondary}",
+          "fontSize": "{font-size.-1}"
+        },
+        "type": "typography",
+        "description": "Suitable for highlighting important details or provide additional context. \n\nType scaling applied."
       },
-      "type": "typography",
-      "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content."
-    },
-    "h3": {
-      "value": {
-        "fontFamily": "{primary}",
-        "lineHeight": "",
-        "fontSize": "{font-size.1}"
+      "body": {
+        "value": {
+          "fontFamily": "{secondary}",
+          "fontWeight": "{regular}",
+          "fontSize": "{font-size.0}"
+        },
+        "type": "typography",
+        "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
       },
-      "type": "typography",
-      "description": "The <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content."
-    },
-    "h2": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{font-size.2}"
+      "h1": {
+        "value": {
+          "fontFamily": "{primary}",
+          "fontSize": "{font-size.4}",
+          "fontWeight": "{medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe <h1> tag is commonly used to display the main title on a webpage.\nType scaling applied."
       },
-      "type": "typography",
-      "description": "The <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section."
-    },
-    "h1": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{font-size.4}",
-        "fontWeight": "{medium}"
+      "h2": {
+        "value": {
+          "fontFamily": "{primary}",
+          "fontSize": "{font-size.2}"
+        },
+        "type": "typography",
+        "description": "Suitable for product-based UI designs such as panels, cards, and menus. \nThe <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section.\nType scaling applied."
       },
-      "type": "typography",
-      "description": "The <h1> tag is commonly used to display the main title of a webpage."
-    },
-    "label": {
-      "value": {
-        "fontFamily": "{secondary}",
-        "fontWeight": "{regular}",
-        "fontSize": "{font-size.0}"
+      "h3": {
+        "value": {
+          "fontFamily": "{primary}",
+          "lineHeight": "",
+          "fontSize": "{font-size.1}"
+        },
+        "type": "typography",
+        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content.\n\nType scaling applied."
       },
-      "type": "typography"
-    },
-    "callout": {
-      "value": {
-        "fontFamily": "{secondary}",
-        "fontSize": "{font-size.-1}"
-      },
-      "type": "typography"
+      "h4": {
+        "value": {
+          "fontFamily": "{primary}",
+          "fontWeight": "{medium}",
+          "fontSize": "{font-size.0}"
+        },
+        "type": "typography",
+        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
+      }
     },
     "data-visualization": {
       "default": {
@@ -1969,6 +1892,60 @@
           "type": "color"
         }
       }
+    },
+    "supporting": {
+      "ui--1": {
+        "value": {
+          "fontFamily": "{tertiary}",
+          "fontSize": "{font-size.-1}"
+        },
+        "type": "typography",
+        "description": "Suitable for displaying data points.\n\nType scaling applied."
+      },
+      "ui-0": {
+        "value": {
+          "fontFamily": "{tertiary}",
+          "fontSize": "{font-size.0}"
+        },
+        "type": "typography",
+        "description": "Suitable for displaying data points.\n\nType scaling applied."
+      },
+      "ui-1": {
+        "value": {
+          "fontFamily": "{tertiary}",
+          "fontSize": "{font-size.1}"
+        },
+        "type": "typography",
+        "description": "Suitable for displaying data points.\n\nType scaling applied."
+      },
+      "ui-2": {
+        "value": {
+          "fontFamily": "{tertiary}",
+          "fontSize": "{font-size.2}"
+        },
+        "type": "typography",
+        "description": "Suitable for displaying data points.\n\nType scaling applied."
+      },
+      "ui-3": {
+        "value": {
+          "fontFamily": "{tertiary}",
+          "fontSize": "{font-size.3}"
+        },
+        "type": "typography",
+        "description": "Suitable for displaying data points.\n\nType scaling applied."
+      },
+      "ui-4": {
+        "value": {
+          "fontFamily": "{tertiary}",
+          "fontSize": "{font-size.4}"
+        },
+        "type": "typography",
+        "description": "Suitable for displaying data points.\n\nType scaling applied."
+      }
+    },
+    "tertiary": {
+      "value": "Fira Code",
+      "type": "fontFamilies"
     }
   },
   "default on light": {
