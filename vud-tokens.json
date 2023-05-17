@@ -1548,6 +1548,10 @@
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
+          "pressed": {
+            "value": "{brand.default.60}",
+            "type": "color"
+          },
           "focused": {
             "value": "{brand.secondary.50}",
             "type": "color"
@@ -1558,7 +1562,7 @@
             "description": "Input field, default button, search bar on selected state 1"
           },
           "selected2": {
-            "value": "{brand.primary.70}",
+            "value": "{brand.primary.80}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 2"
           },
@@ -1570,28 +1574,32 @@
         },
         "primary": {
           "normal": {
-            "value": "{brand.default.60}",
+            "value": "{brand.primary.70}",
             "type": "color",
-            "description": "Input field, default button, search bar on normal, pressed & selected state"
+            "description": "Input field, default button, search bar on normal state"
           },
           "hover": {
-            "value": "{brand.secondary.50}",
+            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.primary.70},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
+          },
+          "pressed": {
+            "value": "{brand.primary.90}",
+            "type": "color"
           },
           "focused": {
             "value": "{brand.secondary.50}",
             "type": "color"
           },
-          "selected1": {
-            "value": "{brand.default.60}",
+          "selected": {
+            "value": "{brand.primary.80}",
             "type": "color",
-            "description": "Input field, default button, search bar on selected state 1"
+            "description": "Input field, default button, search bar on selected state"
           },
-          "selected2": {
-            "value": "{brand.primary.70}",
+          "selected:hover": {
+            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.primary.70},{opacity.100}) 100%);",
             "type": "color",
-            "description": "Input field, default button, search bar on selected state 2"
+            "description": "Input field, default button, search bar on hover state"
           },
           "disabled": {
             "value": "{brand.default.40}",
@@ -1603,26 +1611,30 @@
           "normal": {
             "value": "{brand.default.60}",
             "type": "color",
-            "description": "Input field, default button, search bar on normal, pressed & selected state"
+            "description": "Input field, default button, search bar on normal state"
           },
           "hover": {
-            "value": "{brand.secondary.50}",
+            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.secondary.70},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
+          },
+          "pressed": {
+            "value": "{brand.secondary.90}",
+            "type": "color"
           },
           "focused": {
             "value": "{brand.secondary.50}",
             "type": "color"
           },
-          "selected1": {
-            "value": "{brand.default.60}",
+          "selected": {
+            "value": "{brand.secondary.80}",
             "type": "color",
-            "description": "Input field, default button, search bar on selected state 1"
+            "description": "Input field, default button, search bar on selected state "
           },
-          "selected2": {
-            "value": "{brand.primary.70}",
+          "selected:hover": {
+            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.secondary.80},{opacity.100}) 100%);",
             "type": "color",
-            "description": "Input field, default button, search bar on selected state 2"
+            "description": "Input field, default button, search bar on hover state"
           },
           "disabled": {
             "value": "{brand.default.40}",
@@ -1640,6 +1652,10 @@
             "value": "{brand.secondary.50}",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
+          },
+          "pressed": {
+            "value": "{brand.default.60}",
+            "type": "color"
           },
           "focused": {
             "value": "{brand.secondary.50}",
@@ -1723,6 +1739,10 @@
             "type": "color",
             "description": "Input field, default button, search bar on pressed state"
           },
+          "focused": {
+            "value": "{brand.default.5}",
+            "type": "color"
+          },
           "selected1": {
             "value": "{brand.default.20}",
             "type": "color",
@@ -1732,6 +1752,10 @@
             "value": "{brand.primary.80}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 2"
+          },
+          "disabled": {
+            "value": "{brand.default.5}",
+            "type": "color"
           }
         },
         "primary": {
@@ -1760,6 +1784,11 @@
             "type": "color",
             "description": "Input field, default button, search bar on selected state 1"
           },
+          "selected:hover": {
+            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.primary.80},{opacity.100}) 100%);",
+            "type": "color",
+            "description": "Input field, default button, search bar on hover state"
+          },
           "disabled": {
             "value": "{brand.default.5}",
             "type": "color"
@@ -1787,9 +1816,18 @@
             "description": "Input field, default button, search bar on selected state 1"
           },
           "selected": {
-            "value": "{brand.primary.80}",
+            "value": "{brand.secondary.80}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 1"
+          },
+          "selected:hover": {
+            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.secondary.80},{opacity.100}) 100%);",
+            "type": "color",
+            "description": "Input field, default button, search bar on hover state"
+          },
+          "disabled": {
+            "value": "{brand.default.5}",
+            "type": "color"
           }
         },
         "subtle": {
@@ -1808,6 +1846,10 @@
             "type": "color",
             "description": "Input field, default button, search bar on pressed state"
           },
+          "focused": {
+            "value": "{brand.default.5}",
+            "type": "color"
+          },
           "selected1": {
             "value": "{brand.default.20}",
             "type": "color",
@@ -1817,6 +1859,10 @@
             "value": "{brand.primary.80}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 2"
+          },
+          "disabled": {
+            "value": "{brand.default.5}",
+            "type": "color"
           }
         },
         "status": {
