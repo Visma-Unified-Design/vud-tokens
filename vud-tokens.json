@@ -1897,7 +1897,8 @@
       "ui--1": {
         "value": {
           "fontFamily": "{tertiary}",
-          "fontSize": "{font-size.-1}"
+          "fontSize": "{font-size.-1}",
+          "fontWeight": "{regular}"
         },
         "type": "typography",
         "description": "Suitable for displaying data points.\n\nType scaling applied."
@@ -1905,7 +1906,8 @@
       "ui-0": {
         "value": {
           "fontFamily": "{tertiary}",
-          "fontSize": "{font-size.0}"
+          "fontSize": "{font-size.0}",
+          "fontWeight": "{regular}"
         },
         "type": "typography",
         "description": "Suitable for displaying data points.\n\nType scaling applied."
@@ -1913,7 +1915,8 @@
       "ui-1": {
         "value": {
           "fontFamily": "{tertiary}",
-          "fontSize": "{font-size.1}"
+          "fontSize": "{font-size.1}",
+          "fontWeight": "{regular}"
         },
         "type": "typography",
         "description": "Suitable for displaying data points.\n\nType scaling applied."
@@ -1921,7 +1924,8 @@
       "ui-2": {
         "value": {
           "fontFamily": "{tertiary}",
-          "fontSize": "{font-size.2}"
+          "fontSize": "{font-size.2}",
+          "fontWeight": "{regular}"
         },
         "type": "typography",
         "description": "Suitable for displaying data points.\n\nType scaling applied."
@@ -1929,7 +1933,8 @@
       "ui-3": {
         "value": {
           "fontFamily": "{tertiary}",
-          "fontSize": "{font-size.3}"
+          "fontSize": "{font-size.3}",
+          "fontWeight": "{regular}"
         },
         "type": "typography",
         "description": "Suitable for displaying data points.\n\nType scaling applied."
@@ -1937,7 +1942,8 @@
       "ui-4": {
         "value": {
           "fontFamily": "{tertiary}",
-          "fontSize": "{font-size.4}"
+          "fontSize": "{font-size.4}",
+          "fontWeight": "{regular}"
         },
         "type": "typography",
         "description": "Suitable for displaying data points.\n\nType scaling applied."
