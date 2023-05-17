@@ -1952,6 +1952,18 @@
     "tertiary": {
       "value": "Fira Code",
       "type": "fontFamilies"
+    },
+    "link": {
+      "underlined": {
+        "value": {
+          "fontFamily": "{secondary}",
+          "fontWeight": "{regular}",
+          "fontSize": "{font-size.0}",
+          "textDecoration": "{Underline}"
+        },
+        "type": "typography",
+        "description": "Suitable for navigating to another section or page and can displayed as standalone items or displayed inline within a sentence or paragraph."
+      }
     }
   },
   "default on light": {
@@ -1977,11 +1989,6 @@
             "type": "color",
             "description": "Default text colour"
           },
-          "secondary": {
-            "value": "{light.text.secondary}",
-            "type": "color",
-            "description": "Secondary text colour"
-          },
           "emphasized": {
             "value": "{light.text.emphasized}",
             "type": "color",
@@ -1998,6 +2005,10 @@
             "value": "{light.icon.default}",
             "type": "color",
             "description": "Grey icon on normal state"
+          },
+          "emphasized": {
+            "value": "{light.icon.emphasized}",
+            "type": "color"
           },
           "disabled": {
             "value": "{light.icon.disabled}",
@@ -2305,57 +2316,6 @@
         },
         "type": "boxShadow"
       }
-    },
-    "h4": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontWeight": "{medium}",
-        "lineHeight": "",
-        "fontSize": "{font-size.1}"
-      },
-      "type": "typography",
-      "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content."
-    },
-    "h3": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{font-size.1}",
-        "fontWeight": ""
-      },
-      "type": "typography",
-      "description": "The <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content."
-    },
-    "h2": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{font-size.2}"
-      },
-      "type": "typography",
-      "description": "The <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section."
-    },
-    "h1": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontWeight": "{medium}",
-        "fontSize": "{font-size.4}"
-      },
-      "type": "typography",
-      "description": "The <h1> tag is commonly used to display the main title of a webpage."
-    },
-    "body": {
-      "value": {
-        "fontFamily": "{secondary}",
-        "fontWeight": "{regular}",
-        "fontSize": "{font-size.0}"
-      },
-      "type": "typography"
-    },
-    "callout": {
-      "value": {
-        "fontFamily": "{secondary}",
-        "fontSize": "{font-size.-1}"
-      },
-      "type": "typography"
     },
     "viewport": {
       "width": {
