@@ -1036,7 +1036,7 @@
           "type": "color"
         }
       },
-      "default": {
+      "neutral": {
         "5": {
           "value": "{palette.neutral.5}",
           "type": "color"
@@ -1336,17 +1336,17 @@
     "light": {
       "text": {
         "default": {
-          "value": "{brand.default.90}",
+          "value": "{brand.neutral.90}",
           "type": "color",
           "description": "Default text color on body, header"
         },
         "primary": {
-          "value": "{brand.default.5}",
+          "value": "{brand.neutral.5}",
           "type": "color",
           "description": "Text colour for primary action\n"
         },
         "secondary": {
-          "value": "{brand.default.80}",
+          "value": "{brand.neutral.80}",
           "type": "color",
           "description": "Secondary text color on body, header"
         },
@@ -1380,18 +1380,18 @@
           "description": "Disabled text color"
         },
         "reversed": {
-          "value": "{brand.default.5}",
+          "value": "{brand.neutral.5}",
           "type": "color"
         }
       },
       "icon": {
         "default": {
-          "value": "{brand.default.80}",
+          "value": "{brand.neutral.80}",
           "type": "color",
           "description": "Icon on normal state"
         },
         "primary": {
-          "value": "{brand.default.5}",
+          "value": "{brand.neutral.5}",
           "type": "color",
           "description": "Icon for primary action\n"
         },
@@ -1421,26 +1421,31 @@
           "description": "Icon on disabled state"
         },
         "reversed": {
-          "value": "{brand.default.5}",
+          "value": "{brand.neutral.5}",
           "type": "color"
         }
       },
       "border": {
         "moderate": {
-          "value": "{brand.default.30}",
+          "value": "{brand.neutral.30}",
           "type": "color",
           "description": "Solid divider "
         },
         "strong": {
-          "value": "{brand.default.60}",
+          "value": "{brand.neutral.60}",
           "type": "color",
           "description": "Dotted divider"
         },
         "default": {
           "normal": {
-            "value": "{brand.default.60}",
+            "value": "{brand.neutral.5}",
             "type": "color",
             "description": "Input field, default button, search bar on normal, pressed & selected state"
+          },
+          "reversed": {
+            "value": "{brand.neutral.20}",
+            "type": "color",
+            "description": "Suitable for read-only actionable UI controls."
           },
           "hover": {
             "value": "{brand.secondary.50}",
@@ -1448,7 +1453,7 @@
             "description": "Input field, default button, search bar on hover state"
           },
           "pressed": {
-            "value": "{brand.default.60}",
+            "value": "{brand.neutral.60}",
             "type": "color"
           },
           "focused": {
@@ -1456,7 +1461,7 @@
             "type": "color"
           },
           "selected1": {
-            "value": "{brand.default.60}",
+            "value": "{brand.neutral.60}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 1"
           },
@@ -1476,7 +1481,7 @@
             "description": "Input field, default button, search bar on selected state 2"
           },
           "disabled": {
-            "value": "{brand.default.40}",
+            "value": "{brand.neutral.40}",
             "type": "color",
             "description": "Input field, default button, search bar on disabled state"
           }
@@ -1511,14 +1516,14 @@
             "description": "Input field, default button, search bar on hover state"
           },
           "disabled": {
-            "value": "{brand.default.40}",
+            "value": "{brand.neutral.40}",
             "type": "color",
             "description": "Input field, default button, search bar on disabled state"
           }
         },
         "secondary": {
           "normal": {
-            "value": "{brand.default.60}",
+            "value": "{brand.neutral.60}",
             "type": "color",
             "description": "Input field, default button, search bar on normal state"
           },
@@ -1546,14 +1551,14 @@
             "description": "Input field, default button, search bar on hover state"
           },
           "disabled": {
-            "value": "{brand.default.40}",
+            "value": "{brand.neutral.40}",
             "type": "color",
             "description": "Input field, default button, search bar on disabled state"
           }
         },
         "subtle": {
           "normal": {
-            "value": "rgba({brand.default.60}, {opacity.0})",
+            "value": "rgba({brand.neutral.60}, {opacity.0})",
             "type": "color",
             "description": "Input field, default button, search bar on normal, pressed & selected state"
           },
@@ -1563,7 +1568,7 @@
             "description": "Input field, default button, search bar on hover state"
           },
           "pressed": {
-            "value": "{brand.default.60}",
+            "value": "{brand.neutral.60}",
             "type": "color"
           },
           "focused": {
@@ -1571,7 +1576,7 @@
             "type": "color"
           },
           "selected1": {
-            "value": "{brand.default.60}",
+            "value": "{brand.neutral.60}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 1"
           },
@@ -1581,7 +1586,7 @@
             "description": "Input field, default button, search bar on selected state 2"
           },
           "disabled": {
-            "value": "{brand.default.40}",
+            "value": "{brand.neutral.40}",
             "type": "color",
             "description": "Input field, default button, search bar on disabled state"
           }
@@ -1617,26 +1622,19 @@
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           }
-        },
-        "reversed": {
-          "normal": {
-            "value": "{brand.default.5}",
-            "type": "color"
-          }
-        },
-        "contrast": {
-          "normal": {
-            "value": "{brand.default.5}",
-            "type": "color"
-          }
         }
       },
       "surface": {
-        "default": {
+        "neutral": {
           "normal": {
-            "value": "{brand.default.5}",
+            "value": "{brand.neutral.5}",
             "type": "color",
             "description": "Input field, default button, search bar on normal & disabled state"
+          },
+          "reversed": {
+            "value": "{brand.neutral.20}",
+            "type": "color",
+            "description": "Suitable for read-only actionable UI controls."
           },
           "hover": {
             "value": "{brand.secondary.10}",
@@ -1644,16 +1642,16 @@
             "description": "Input field, default button, search bar on hover state"
           },
           "pressed": {
-            "value": "{brand.default.30}",
+            "value": "{brand.neutral.30}",
             "type": "color",
             "description": "Input field, default button, search bar on pressed state"
           },
           "focused": {
-            "value": "{brand.default.5}",
+            "value": "{brand.neutral.5}",
             "type": "color"
           },
           "selected1": {
-            "value": "{brand.default.20}",
+            "value": "{brand.neutral.20}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 1"
           },
@@ -1673,7 +1671,7 @@
             "description": "Input field, default button, search bar on selected state 2"
           },
           "disabled": {
-            "value": "{brand.default.5}",
+            "value": "{brand.neutral.5}",
             "type": "color"
           }
         },
@@ -1709,7 +1707,7 @@
             "description": "Input field, default button, search bar on hover state"
           },
           "disabled": {
-            "value": "{brand.default.5}",
+            "value": "{brand.neutral.5}",
             "type": "color"
           }
         },
@@ -1745,13 +1743,13 @@
             "description": "Input field, default button, search bar on hover state"
           },
           "disabled": {
-            "value": "{brand.default.5}",
+            "value": "{brand.neutral.5}",
             "type": "color"
           }
         },
         "subtle": {
           "normal": {
-            "value": "rgba({brand.default.5}, {opacity.0})",
+            "value": "rgba({brand.neutral.5}, {opacity.0})",
             "type": "color",
             "description": "Input field, default button, search bar on normal & disabled state"
           },
@@ -1761,16 +1759,16 @@
             "description": "Input field, default button, search bar on hover state"
           },
           "pressed": {
-            "value": "{brand.default.30}",
+            "value": "{brand.neutral.30}",
             "type": "color",
             "description": "Input field, default button, search bar on pressed state"
           },
           "focused": {
-            "value": "{brand.default.5}",
+            "value": "{brand.neutral.5}",
             "type": "color"
           },
           "selected1": {
-            "value": "{brand.default.20}",
+            "value": "{brand.neutral.20}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 1"
           },
@@ -1780,7 +1778,7 @@
             "description": "Input field, default button, search bar on selected state 2"
           },
           "disabled": {
-            "value": "{brand.default.5}",
+            "value": "{brand.neutral.5}",
             "type": "color"
           }
         },
@@ -1816,16 +1814,9 @@
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           }
         },
-        "reversed": {
-          "normal": {
-            "value": "{brand.default.20}",
-            "type": "color",
-            "description": "Screen"
-          }
-        },
-        "contrast": {
-          "normal": {
-            "value": "{brand.default.5}",
+        "sys": {
+          "subtle": {
+            "value": "{brand.neutral.5}",
             "type": "color"
           }
         }
@@ -1967,17 +1958,12 @@
     }
   },
   "default on light": {
-    "system": {
-      "background": {
+    "sys": {
+      "surface": {
         "surface": {
-          "value": "{brand.default.20}",
+          "value": "{light.surface.sys.subtle}",
           "type": "color",
-          "description": "Surface "
-        },
-        "container": {
-          "value": "{brand.default.5}",
-          "type": "color",
-          "description": "Horizontal & vertical menu, cards (Product), Navigation bar, Tab bar, Bottom sheet (Native)"
+          "description": "Suitable for product-based UI screens."
         }
       }
     },
@@ -2016,29 +2002,29 @@
             "description": "Grey icon on disabled state"
           }
         },
-        "background": {
+        "surface": {
           "normal": {
-            "value": "{light.surface.default.normal}",
+            "value": "{light.surface.neutral.normal}",
             "type": "color",
             "description": "Input field, default button, search bar on normal & disabled state"
           },
           "hover": {
-            "value": "{light.surface.default.hover}",
+            "value": "{light.surface.neutral.hover}",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
           "pressed": {
-            "value": "{light.surface.default.pressed}",
+            "value": "{light.surface.neutral.pressed}",
             "type": "color",
             "description": "Input field, default button, search bar on pressed state"
           },
           "selected1": {
-            "value": "{light.surface.default.selected1}",
+            "value": "{light.surface.neutral.selected1}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 1"
           },
           "selected2": {
-            "value": "{light.surface.default.selected2}",
+            "value": "{light.surface.neutral.selected2}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 2"
           }
@@ -2072,7 +2058,7 @@
         }
       },
       "destructive": {
-        "background": {
+        "surface": {
           "normal": {
             "value": "{status.default.5}",
             "type": "color"
@@ -2102,8 +2088,8 @@
         }
       }
     },
-    "semantic": {
-      "label": {
+    "status": {
+      "text": {
         "error": {
           "value": "{light.text.error}",
           "type": "color",
@@ -2142,7 +2128,7 @@
           "description": "Green icon"
         }
       },
-      "background": {
+      "surface": {
         "default": {
           "value": "{light.surface.status.default}",
           "type": "color",
@@ -2207,13 +2193,13 @@
         }
       }
     },
-    "divider": {
-      "solid": {
+    "seperator": {
+      "moderate": {
         "value": "{light.border.moderate}",
         "type": "color",
         "description": "Solid divider "
       },
-      "dotted": {
+      "strong": {
         "value": "{light.border.strong}",
         "type": "color",
         "description": "Dotted divider"
@@ -2332,7 +2318,7 @@
               "y": "0",
               "blur": "0",
               "spread": "3",
-              "color": "{brand.default.5}",
+              "color": "{brand.neutral.5}",
               "type": "innerShadow"
             },
             {
@@ -2353,17 +2339,17 @@
     "on-light": {
       "label": {
         "default": {
-          "value": "{brand.default.90}",
+          "value": "{brand.neutral.90}",
           "type": "color",
           "description": "Default text color on body, header"
         },
         "primary": {
-          "value": "{brand.default.5}",
+          "value": "{brand.neutral.5}",
           "type": "color",
           "description": "Text colour for primary action\n"
         },
         "secondary": {
-          "value": "{brand.default.80}",
+          "value": "{brand.neutral.80}",
           "type": "color",
           "description": "Secondary text color on body, header"
         },
@@ -2399,12 +2385,12 @@
       },
       "icon": {
         "default": {
-          "value": "{brand.default.80}",
+          "value": "{brand.neutral.80}",
           "type": "color",
           "description": "Icon on normal state"
         },
         "primary": {
-          "value": "{brand.default.5}",
+          "value": "{brand.neutral.5}",
           "type": "color",
           "description": "Icon for primary action\n"
         },
@@ -2436,12 +2422,12 @@
       },
       "divider": {
         "solid": {
-          "value": "{brand.default.30}",
+          "value": "{brand.neutral.30}",
           "type": "color",
           "description": "Solid divider "
         },
         "dotted": {
-          "value": "{brand.default.60}",
+          "value": "{brand.neutral.60}",
           "type": "color",
           "description": "Dotted divider"
         }
@@ -2449,7 +2435,7 @@
       "background": {
         "default": {
           "normal": {
-            "value": "{brand.default.5}",
+            "value": "{brand.neutral.5}",
             "type": "color",
             "description": "Input field, default button, search bar on normal & disabled state"
           },
@@ -2459,12 +2445,12 @@
             "description": "Input field, default button, search bar on hover state"
           },
           "pressed": {
-            "value": "{brand.default.30}",
+            "value": "{brand.neutral.30}",
             "type": "color",
             "description": "Input field, default button, search bar on pressed state"
           },
           "selected1": {
-            "value": "{brand.default.20}",
+            "value": "{brand.neutral.20}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 1"
           },
@@ -2503,7 +2489,7 @@
         },
         "transparent": {
           "normal": {
-            "value": "rgba({brand.default.5}, {opacity.0})",
+            "value": "rgba({brand.neutral.5}, {opacity.0})",
             "type": "color",
             "description": "Input field, default button, search bar on normal & disabled state"
           },
@@ -2513,12 +2499,12 @@
             "description": "Input field, default button, search bar on hover state"
           },
           "pressed": {
-            "value": "{brand.default.30}",
+            "value": "{brand.neutral.30}",
             "type": "color",
             "description": "Input field, default button, search bar on pressed state"
           },
           "selected1": {
-            "value": "{brand.default.20}",
+            "value": "{brand.neutral.20}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 1"
           },
@@ -2564,7 +2550,7 @@
       "border": {
         "default": {
           "normal": {
-            "value": "{brand.default.60}",
+            "value": "{brand.neutral.60}",
             "type": "color",
             "description": "Input field, default button, search bar on normal, pressed & selected state"
           },
@@ -2578,7 +2564,7 @@
             "type": "color"
           },
           "selected1": {
-            "value": "{brand.default.60}",
+            "value": "{brand.neutral.60}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 1"
           },
@@ -2588,7 +2574,7 @@
             "description": "Input field, default button, search bar on selected state 2"
           },
           "disabled": {
-            "value": "{brand.default.40}",
+            "value": "{brand.neutral.40}",
             "type": "color",
             "description": "Input field, default button, search bar on disabled state"
           }
@@ -2627,7 +2613,7 @@
         },
         "transparent": {
           "normal": {
-            "value": "rgba({brand.default.60}, {opacity.0})",
+            "value": "rgba({brand.neutral.60}, {opacity.0})",
             "type": "color",
             "description": "Input field, default button, search bar on normal, pressed & selected state"
           },
@@ -2641,7 +2627,7 @@
             "type": "color"
           },
           "selected1": {
-            "value": "{brand.default.60}",
+            "value": "{brand.neutral.60}",
             "type": "color",
             "description": "Input field, default button, search bar on selected state 1"
           },
@@ -2651,7 +2637,7 @@
             "description": "Input field, default button, search bar on selected state 2"
           },
           "disabled": {
-            "value": "{brand.default.40}",
+            "value": "{brand.neutral.40}",
             "type": "color",
             "description": "Input field, default button, search bar on disabled state"
           }
