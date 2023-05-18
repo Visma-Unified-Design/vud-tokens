@@ -1401,7 +1401,7 @@
           "description": "Clickable icons"
         },
         "error": {
-          "value": "{status.error.60}",
+          "value": "{status.error.80}",
           "type": "color",
           "description": "Error and destructive icons"
         },
@@ -1465,25 +1465,25 @@
             "value": "{brand.secondary.50}",
             "type": "color"
           },
-          "selected1": {
+          "selected-moderate": {
             "value": "{brand.neutral.60}",
             "type": "color",
-            "description": "Input field, default button, search bar on selected state 1."
+            "description": "Input field, default button, search bar on selected state."
           },
-          "selected1:hover": {
+          "selected-moderate:hover": {
             "value": "{brand.secondary.50}",
             "type": "color",
-            "description": "Input field, default button, search bar on hover state."
+            "description": "Input field, default button, search bar on the hovered selected state."
           },
-          "selected2": {
+          "selected-strong": {
             "value": "{brand.primary.80}",
             "type": "color",
-            "description": "Input field, default button, search bar on selected state 2."
+            "description": "Input field, default button, search bar on selected state."
           },
-          "selected2:hover": {
+          "selected-strong:hover": {
             "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.primary.80},{opacity.100}) 100%);",
             "type": "color",
-            "description": "Input field, default button, search bar on selected state 2."
+            "description": "Input field, default button, search bar on the hovered selected state."
           },
           "disabled": {
             "value": "{brand.neutral.40}",
@@ -1625,25 +1625,25 @@
             "value": "{brand.neutral.5}",
             "type": "color"
           },
-          "selected1": {
+          "selected-moderate": {
             "value": "{brand.neutral.20}",
             "type": "color",
-            "description": "Input field, default button, search bar on selected state 1"
+            "description": "Input field, default button, search bar on selected state."
           },
-          "selected1:hover": {
+          "selected-moderate:hover": {
             "value": "{brand.secondary.10}",
             "type": "color",
-            "description": "Input field, default button, search bar on hover state"
+            "description": "Input field, default button, search bar on hover state."
           },
-          "selected2": {
+          "selected-strong": {
             "value": "{brand.primary.80}",
             "type": "color",
-            "description": "Input field, default button, search bar on selected state 2"
+            "description": "Input field, default button, search bar on selected state."
           },
-          "selected2:hover": {
+          "selected-strong:hover": {
             "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.primary.80},{opacity.100}) 100%);",
             "type": "color",
-            "description": "Input field, default button, search bar on selected state 2"
+            "description": "Input field, default button, search bar on selected state."
           },
           "disabled": {
             "value": "{brand.neutral.5}",
@@ -1909,7 +1909,7 @@
     },
     "buttons": {
       "confirmational": {
-        "default": {
+        "neutral": {
           "text": {
             "default": {
               "value": "{light.text.default}",
@@ -1954,6 +1954,11 @@
               "type": "color",
               "description": "Suitable for read-only actionable UI controls."
             },
+            "transparent": {
+              "value": "rgba({status.default.5}, {opacity.0})",
+              "type": "color",
+              "description": "Input field, default button, search bar on normal state."
+            },
             "hover": {
               "value": "{light.surface.neutral.hover}",
               "type": "color",
@@ -1969,23 +1974,23 @@
               "type": "color",
               "description": "Input field, default button, search bar on pressed state."
             },
-            "selected1": {
-              "value": "{light.surface.neutral.selected1}",
+            "selected-moderate": {
+              "value": "{light.surface.neutral.selected-moderate}",
               "type": "color",
-              "description": "Input field, default button, search bar on selected state 1."
+              "description": "Input field, default button, search bar on selected state."
             },
-            "selected1:hover": {
-              "value": "{light.surface.neutral.selected1:hover}",
+            "selected-moderate:hover": {
+              "value": "{light.surface.neutral.selected-moderate:hover}",
               "type": "color",
               "description": "Input field, default button, search bar hovering over the selected state."
             },
-            "selected2": {
-              "value": "{light.surface.neutral.selected2}",
+            "selected-strong": {
+              "value": "{light.surface.neutral.selected-strong}",
               "type": "color",
               "description": "Input field, default button, search bar on selected state 2."
             },
-            "selected2:hover": {
-              "value": "{light.surface.primary.selected:hover}",
+            "selected-strong:hover": {
+              "value": "{light.surface.neutral.selected-strong:hover}",
               "type": "color",
               "description": "Input field, default button, search bar hovering over the selected state."
             },
@@ -2006,6 +2011,11 @@
               "type": "color",
               "description": "Suitable for read-only actionable UI controls."
             },
+            "transparent": {
+              "value": "rgba({status.default.5}, {opacity.0})",
+              "type": "color",
+              "description": "Input field, default button, search bar on normal, pressed & selected state."
+            },
             "hover": {
               "value": "{light.border.neutral.hover}",
               "type": "color",
@@ -2021,23 +2031,23 @@
               "type": "color",
               "description": "Input field, default button, search bar on pressed state."
             },
-            "selected1": {
-              "value": "{light.border.neutral.selected1}",
+            "selected-moderate": {
+              "value": "{light.border.neutral.selected-moderate}",
               "type": "color",
-              "description": "Input field, default button, search bar on selected state 1."
+              "description": "Input field, default button, search bar on selected state."
             },
-            "selected:hover": {
-              "value": "{light.border.neutral.hover}",
+            "selected-moderate:hover": {
+              "value": "{light.border.neutral.selected-moderate:hover}",
               "type": "color",
               "description": "Input field, default button, search bar on hover state."
             },
-            "selected2": {
-              "value": "{light.border.neutral.selected2}",
+            "selected-strong": {
+              "value": "{light.border.neutral.selected-strong}",
               "type": "color",
-              "description": "Input field, default button, search bar on selected state 2."
+              "description": "Input field, default button, search bar on selected state."
             },
-            "selected2:hover": {
-              "value": "{light.surface.primary.selected:hover}",
+            "selected-strong:hover": {
+              "value": "{light.border.neutral.selected-strong:hover}",
               "type": "color",
               "description": "Input field, default button, search bar on selected state 2."
             },
@@ -2050,7 +2060,7 @@
         }
       },
       "destructive": {
-        "default": {
+        "neutral": {
           "surface": {
             "normal": {
               "value": "{status.default.5}",
