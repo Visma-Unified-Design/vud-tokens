@@ -1897,7 +1897,7 @@
       }
     }
   },
-  "default on light": {
+  "neutral on light": {
     "sys": {
       "surface": {
         "surface": {
@@ -1909,221 +1909,242 @@
     },
     "buttons": {
       "confirmational": {
-        "neutral": {
-          "text": {
-            "default": {
-              "value": "{light.text.default}",
-              "type": "color",
-              "description": "Default text colour"
-            },
-            "emphasized": {
-              "value": "{light.text.emphasized}",
-              "type": "color",
-              "description": "Emphasized text colour on important text and links, titles, headers"
-            },
-            "disabled": {
-              "value": "{light.text.disabled}",
-              "type": "color",
-              "description": "Disabled text colour"
-            }
+        "text": {
+          "default": {
+            "value": "{light.text.default}",
+            "type": "color",
+            "description": "Default text colour."
           },
-          "icon": {
-            "default": {
-              "value": "{light.icon.default}",
-              "type": "color",
-              "description": "Grey icon on normal state"
-            },
-            "emphasized": {
-              "value": "{light.icon.emphasized}",
-              "type": "color"
-            },
-            "disabled": {
-              "value": "{light.icon.disabled}",
-              "type": "color",
-              "description": "Grey icon on disabled state"
-            }
+          "emphasized": {
+            "value": "{light.text.emphasized}",
+            "type": "color",
+            "description": "Emphasized text color on important text and links, titles, headers."
           },
-          "surface": {
-            "normal": {
-              "value": "{light.surface.neutral.normal}",
-              "type": "color",
-              "description": "Input field, default button, search bar on normal state."
-            },
-            "reversed": {
-              "value": "{light.surface.neutral.reversed}",
-              "type": "color",
-              "description": "Suitable for read-only actionable UI controls."
-            },
-            "transparent": {
-              "value": "rgba({status.default.5}, {opacity.0})",
-              "type": "color",
-              "description": "Input field, default button, search bar on normal state."
-            },
-            "hover": {
-              "value": "{light.surface.neutral.hover}",
-              "type": "color",
-              "description": "Input field, default button, search bar on hover state."
-            },
-            "focused": {
-              "value": "{light.surface.neutral.focused}",
-              "type": "color",
-              "description": "Input field, default button, search bar on focused state."
-            },
-            "pressed": {
-              "value": "{light.surface.neutral.pressed}",
-              "type": "color",
-              "description": "Input field, default button, search bar on pressed state."
-            },
-            "selected-moderate": {
-              "value": "{light.surface.neutral.selected-moderate}",
-              "type": "color",
-              "description": "Input field, default button, search bar on selected state."
-            },
-            "selected-moderate:hover": {
-              "value": "{light.surface.neutral.selected-moderate:hover}",
-              "type": "color",
-              "description": "Input field, default button, search bar hovering over the selected state."
-            },
-            "selected-strong": {
-              "value": "{light.surface.neutral.selected-strong}",
-              "type": "color",
-              "description": "Input field, default button, search bar on selected state 2."
-            },
-            "selected-strong:hover": {
-              "value": "{light.surface.neutral.selected-strong:hover}",
-              "type": "color",
-              "description": "Input field, default button, search bar hovering over the selected state."
-            },
-            "disabled": {
-              "value": "{light.surface.neutral.disabled}",
-              "type": "color",
-              "description": "Input field, default button, search bar on disabled state."
-            }
+          "disabled": {
+            "value": "{light.text.disabled}",
+            "type": "color",
+            "description": "Disabled text color."
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "{light.icon.default}",
+            "type": "color",
+            "description": "Icon on normal state."
           },
-          "border": {
-            "normal": {
-              "value": "{light.border.neutral.normal}",
-              "type": "color",
-              "description": "Input field, default button, search bar on normal, pressed & selected state."
-            },
-            "reversed": {
-              "value": "{light.border.neutral.reversed}",
-              "type": "color",
-              "description": "Suitable for read-only actionable UI controls."
-            },
-            "transparent": {
-              "value": "rgba({status.default.5}, {opacity.0})",
-              "type": "color",
-              "description": "Input field, default button, search bar on normal, pressed & selected state."
-            },
-            "hover": {
-              "value": "{light.border.neutral.hover}",
-              "type": "color",
-              "description": "Input field, default button, search bar on hover state."
-            },
-            "focused": {
-              "value": "{light.border.neutral.focused}",
-              "type": "color",
-              "description": "Input field, default button, search bar on focused state."
-            },
-            "pressed": {
-              "value": "{light.border.neutral.pressed}",
-              "type": "color",
-              "description": "Input field, default button, search bar on pressed state."
-            },
-            "selected-moderate": {
-              "value": "{light.border.neutral.selected-moderate}",
-              "type": "color",
-              "description": "Input field, default button, search bar on selected state."
-            },
-            "selected-moderate:hover": {
-              "value": "{light.border.neutral.selected-moderate:hover}",
-              "type": "color",
-              "description": "Input field, default button, search bar on hover state."
-            },
-            "selected-strong": {
-              "value": "{light.border.neutral.selected-strong}",
-              "type": "color",
-              "description": "Input field, default button, search bar on selected state."
-            },
-            "selected-strong:hover": {
-              "value": "{light.border.neutral.selected-strong:hover}",
-              "type": "color",
-              "description": "Input field, default button, search bar on selected state 2."
-            },
-            "disabled": {
-              "value": "{light.border.neutral.disabled}",
-              "type": "color",
-              "description": "Input field, default button, search bar on disabled state."
-            }
+          "emphasized": {
+            "value": "{light.icon.emphasized}",
+            "type": "color",
+            "description": "Emphasized icon."
+          },
+          "disabled": {
+            "value": "{light.icon.disabled}",
+            "type": "color",
+            "description": "Icon on disabled state."
+          }
+        },
+        "surface": {
+          "normal": {
+            "value": "{light.surface.neutral.normal}",
+            "type": "color",
+            "description": "Input field, default button, search bar on normal state."
+          },
+          "reversed": {
+            "value": "{light.surface.neutral.reversed}",
+            "type": "color",
+            "description": "Suitable for read-only actionable UI controls."
+          },
+          "transparent": {
+            "value": "rgba({status.default.5}, {opacity.0})",
+            "type": "color",
+            "description": "Input field, default button, search bar on normal state."
+          },
+          "hover": {
+            "value": "{light.surface.neutral.hover}",
+            "type": "color",
+            "description": "Input field, default button, search bar on hover state."
+          },
+          "focused": {
+            "value": "{light.surface.neutral.focused}",
+            "type": "color",
+            "description": "Input field, default button, search bar on focused state."
+          },
+          "pressed": {
+            "value": "{light.surface.neutral.pressed}",
+            "type": "color",
+            "description": "Input field, default button, search bar on pressed state."
+          },
+          "selected-moderate": {
+            "value": "{light.surface.neutral.selected-moderate}",
+            "type": "color",
+            "description": "Input field, default button, search bar on selected state."
+          },
+          "selected-moderate:hover": {
+            "value": "{light.surface.neutral.selected-moderate:hover}",
+            "type": "color",
+            "description": "Input field, default button, search bar hovering over the selected state."
+          },
+          "selected-strong": {
+            "value": "{light.surface.neutral.selected-strong}",
+            "type": "color",
+            "description": "Input field, default button, search bar on selected state 2."
+          },
+          "selected-strong:hover": {
+            "value": "{light.surface.neutral.selected-strong:hover}",
+            "type": "color",
+            "description": "Input field, default button, search bar hovering over the selected state."
+          },
+          "disabled": {
+            "value": "{light.surface.neutral.disabled}",
+            "type": "color",
+            "description": "Input field, default button, search bar on disabled state."
+          }
+        },
+        "border": {
+          "normal": {
+            "value": "{light.border.neutral.normal}",
+            "type": "color",
+            "description": "Input field, default button, search bar on normal, pressed & selected state."
+          },
+          "reversed": {
+            "value": "{light.border.neutral.reversed}",
+            "type": "color",
+            "description": "Suitable for read-only actionable UI controls."
+          },
+          "transparent": {
+            "value": "rgba({status.default.5}, {opacity.0})",
+            "type": "color",
+            "description": "Input field, default button, search bar on normal, pressed & selected state."
+          },
+          "hover": {
+            "value": "{light.border.neutral.hover}",
+            "type": "color",
+            "description": "Input field, default button, search bar on hover state."
+          },
+          "focused": {
+            "value": "{light.border.neutral.focused}",
+            "type": "color",
+            "description": "Input field, default button, search bar on focused state."
+          },
+          "pressed": {
+            "value": "{light.border.neutral.pressed}",
+            "type": "color",
+            "description": "Input field, default button, search bar on pressed state."
+          },
+          "selected-moderate": {
+            "value": "{light.border.neutral.selected-moderate}",
+            "type": "color",
+            "description": "Input field, default button, search bar on selected state."
+          },
+          "selected-moderate:hover": {
+            "value": "{light.border.neutral.selected-moderate:hover}",
+            "type": "color",
+            "description": "Input field, default button, search bar on hover state."
+          },
+          "selected-strong": {
+            "value": "{light.border.neutral.selected-strong}",
+            "type": "color",
+            "description": "Input field, default button, search bar on selected state."
+          },
+          "selected-strong:hover": {
+            "value": "{light.border.neutral.selected-strong:hover}",
+            "type": "color",
+            "description": "Input field, default button, search bar on selected state 2."
+          },
+          "disabled": {
+            "value": "{light.border.neutral.disabled}",
+            "type": "color",
+            "description": "Input field, default button, search bar on disabled state."
           }
         }
       },
       "destructive": {
-        "neutral": {
-          "surface": {
-            "normal": {
-              "value": "{status.default.5}",
-              "type": "color",
-              "description": "Destructive action on normal state."
-            },
-            "transparent": {
-              "value": "rgba({status.default.5}, {opacity.0})",
-              "type": "color",
-              "description": "Destructive action on normal state."
-            },
-            "hover": {
-              "value": "{status.error.5}",
-              "type": "color",
-              "description": "Destructive action on hover state."
-            },
-            "focused": {
-              "value": "{light.surface.neutral.focused}",
-              "type": "color",
-              "description": "Destructive action on focused state."
-            },
-            "pressed": {
-              "value": "{status.error.20}",
-              "type": "color",
-              "description": "Destructive action on pressed state."
-            },
-            "disabled": {
-              "value": "{light.surface.neutral.disabled}",
-              "type": "color",
-              "description": "Destructive action on disabled state."
-            }
+        "text": {
+          "default": {
+            "value": "{light.text.error}",
+            "type": "color",
+            "description": "Default text color."
           },
-          "border": {
-            "normal": {
-              "value": "{status.error.70}",
-              "type": "color",
-              "description": "Destructive action on normal state."
-            },
-            "transparent": {
-              "value": "rgba({status.default.5}, {opacity.0})",
-              "type": "color",
-              "description": "Destructive action on normal state."
-            },
-            "hover": {
-              "value": "{status.error.70}",
-              "type": "color",
-              "description": "Destructive action on hover state."
-            },
-            "focused": {
-              "value": "{light.border.neutral.focused}",
-              "type": "color",
-              "description": "Destructive action on focused state."
-            },
-            "pressed": {
-              "value": "{status.error.70}",
-              "type": "color",
-              "description": "Destructive action on pressed state."
-            },
-            "disabled": {
-              "value": "{light.border.neutral.disabled}",
-              "type": "color",
-              "description": "Input field, default button, search bar on disabled state."
-            }
+          "disabled": {
+            "value": "{light.text.disabled}",
+            "type": "color",
+            "description": "Disabled text color."
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "{light.icon.error}",
+            "type": "color",
+            "description": "Icon on normal state."
+          },
+          "disabled": {
+            "value": "{light.icon.disabled}",
+            "type": "color",
+            "description": "Icon on disabled state."
+          }
+        },
+        "surface": {
+          "normal": {
+            "value": "{status.default.5}",
+            "type": "color",
+            "description": "Destructive action on normal state."
+          },
+          "transparent": {
+            "value": "rgba({status.default.5}, {opacity.0})",
+            "type": "color",
+            "description": "Destructive action on normal state."
+          },
+          "hover": {
+            "value": "{status.error.5}",
+            "type": "color",
+            "description": "Destructive action on hover state."
+          },
+          "focused": {
+            "value": "{light.surface.neutral.focused}",
+            "type": "color",
+            "description": "Destructive action on focused state."
+          },
+          "pressed": {
+            "value": "{status.error.20}",
+            "type": "color",
+            "description": "Destructive action on pressed state."
+          },
+          "disabled": {
+            "value": "{light.surface.neutral.disabled}",
+            "type": "color",
+            "description": "Destructive action on disabled state."
+          }
+        },
+        "border": {
+          "normal": {
+            "value": "{status.error.70}",
+            "type": "color",
+            "description": "Destructive action on normal state."
+          },
+          "transparent": {
+            "value": "rgba({status.default.5}, {opacity.0})",
+            "type": "color",
+            "description": "Destructive action on normal state."
+          },
+          "hover": {
+            "value": "{status.error.70}",
+            "type": "color",
+            "description": "Destructive action on hover state."
+          },
+          "focused": {
+            "value": "{light.border.neutral.focused}",
+            "type": "color",
+            "description": "Destructive action on focused state."
+          },
+          "pressed": {
+            "value": "{status.error.70}",
+            "type": "color",
+            "description": "Destructive action on pressed state."
+          },
+          "disabled": {
+            "value": "{light.border.neutral.disabled}",
+            "type": "color",
+            "description": "Input field, default button, search bar on disabled state."
           }
         }
       }
@@ -3123,7 +3144,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "core",
-      "default on light",
+      "neutral on light",
       "light",
       "dark"
     ]
