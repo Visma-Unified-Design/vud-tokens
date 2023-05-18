@@ -1438,7 +1438,7 @@
         },
         "neutral": {
           "normal": {
-            "value": "{brand.neutral.5}",
+            "value": "{brand.neutral.60}",
             "type": "color",
             "description": "Input field, default button, search bar on normal, pressed & selected state."
           },
@@ -1528,7 +1528,7 @@
         },
         "secondary": {
           "normal": {
-            "value": "{brand.neutral.60}",
+            "value": "{brand.secondary.70}",
             "type": "color",
             "description": "Input field, default button, search bar on normal state"
           },
