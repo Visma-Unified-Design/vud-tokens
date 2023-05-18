@@ -1521,7 +1521,7 @@
             "description": "Input field, default button, search bar on hover state"
           },
           "disabled": {
-            "value": "{brand.neutral.40}",
+            "value": "{light.border.neutral.disabled}",
             "type": "color",
             "description": "Input field, default button, search bar on disabled state"
           }
@@ -1556,7 +1556,7 @@
             "description": "Input field, default button, search bar on hover state"
           },
           "disabled": {
-            "value": "{brand.neutral.40}",
+            "value": "{light.border.neutral.disabled}",
             "type": "color",
             "description": "Input field, default button, search bar on disabled state"
           }
@@ -1591,6 +1591,38 @@
             "value": "{status.success.60}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+          }
+        },
+        "destructive": {
+          "normal": {
+            "value": "{status.error.70}",
+            "type": "color",
+            "description": "Destructive action on normal state."
+          },
+          "transparent": {
+            "value": "rgba({status.default.5}, {opacity.0})",
+            "type": "color",
+            "description": "Destructive action on normal state."
+          },
+          "hover": {
+            "value": "{status.error.70}",
+            "type": "color",
+            "description": "Destructive action on hover state."
+          },
+          "focused": {
+            "value": "{light.border.neutral.focused}",
+            "type": "color",
+            "description": "Destructive action on focused state."
+          },
+          "pressed": {
+            "value": "{status.error.70}",
+            "type": "color",
+            "description": "Destructive action on pressed state."
+          },
+          "disabled": {
+            "value": "{light.border.neutral.disabled}",
+            "type": "color",
+            "description": "Input field, default button, search bar on disabled state."
           }
         }
       },
@@ -1682,7 +1714,7 @@
             "description": "Input field, default button, search bar on hover state"
           },
           "disabled": {
-            "value": "{brand.neutral.5}",
+            "value": "{light.surface.neutral.disabled}",
             "type": "color"
           }
         },
@@ -1718,7 +1750,7 @@
             "description": "Input field, default button, search bar on hover state"
           },
           "disabled": {
-            "value": "{brand.neutral.5}",
+            "value": "{light.surface.neutral.disabled}",
             "type": "color"
           }
         },
@@ -1758,6 +1790,38 @@
           "subtle": {
             "value": "{brand.neutral.5}",
             "type": "color"
+          }
+        },
+        "destructive": {
+          "normal": {
+            "value": "{status.default.5}",
+            "type": "color",
+            "description": "Destructive action on normal state."
+          },
+          "transparent": {
+            "value": "rgba({status.default.5}, {opacity.0})",
+            "type": "color",
+            "description": "Destructive action on normal state."
+          },
+          "hover": {
+            "value": "{status.error.5}",
+            "type": "color",
+            "description": "Destructive action on hover state."
+          },
+          "focused": {
+            "value": "{status.default.5}",
+            "type": "color",
+            "description": "Destructive action on focused state."
+          },
+          "pressed": {
+            "value": "{status.error.20}",
+            "type": "color",
+            "description": "Destructive action on pressed state."
+          },
+          "disabled": {
+            "value": "{light.surface.neutral.disabled}",
+            "type": "color",
+            "description": "Destructive action on disabled state."
           }
         }
       }
