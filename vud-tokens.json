@@ -1079,7 +1079,7 @@
         }
       }
     },
-    "status": {
+    "functional": {
       "error": {
         "5": {
           "value": "{palette.red.5}",
@@ -1356,26 +1356,26 @@
           "description": "Emphasized text color on important text and links, titles, headers"
         },
         "visited": {
-          "value": "{status.draft.60}",
+          "value": "{functional.draft.60}",
           "type": "color"
         },
         "error": {
-          "value": "{status.error.80}",
+          "value": "{functional.error.80}",
           "type": "color",
           "description": "Error text color"
         },
         "warning": {
-          "value": "{status.warning.90}",
+          "value": "{functional.warning.90}",
           "type": "color",
           "description": "Warning text color on body, headers"
         },
         "succes": {
-          "value": "{status.success.70}",
+          "value": "{functional.success.70}",
           "type": "color",
           "description": "Successful text color"
         },
         "disabled": {
-          "value": "{status.default.60}",
+          "value": "{functional.default.60}",
           "type": "color",
           "description": "Disabled text color"
         },
@@ -1401,22 +1401,22 @@
           "description": "Clickable icons"
         },
         "error": {
-          "value": "{status.error.80}",
+          "value": "{functional.error.80}",
           "type": "color",
           "description": "Error and destructive icons"
         },
         "warning": {
-          "value": "{status.warning.60}",
+          "value": "{functional.warning.60}",
           "type": "color",
           "description": "Icons in warning messages, icons"
         },
         "success": {
-          "value": "{status.success.60}",
+          "value": "{functional.success.60}",
           "type": "color",
           "description": "Success and positive icons"
         },
         "disabled": {
-          "value": "{status.default.60}",
+          "value": "{functional.default.60}",
           "type": "color",
           "description": "Icon on disabled state"
         },
@@ -1561,51 +1561,51 @@
             "description": "Input field, default button, search bar on disabled state"
           }
         },
-        "status": {
+        "functional": {
           "default": {
-            "value": "{status.default.60}",
+            "value": "{functional.default.60}",
             "type": "color",
             "description": "Default alerts. Lower prio statuses such as pairing"
           },
           "info": {
-            "value": "{status.info.50}",
+            "value": "{functional.info.50}",
             "type": "color",
             "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
           },
           "draft": {
-            "value": "{status.draft.60}",
+            "value": "{functional.draft.60}",
             "type": "color",
             "description": "Alerts. Temporary statuses such as drafts"
           },
           "warning": {
-            "value": "{status.warning.70}",
+            "value": "{functional.warning.70}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
           },
           "error": {
-            "value": "{status.error.60}",
+            "value": "{functional.error.60}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           },
           "success": {
-            "value": "{status.success.60}",
+            "value": "{functional.success.60}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           }
         },
         "destructive": {
           "normal": {
-            "value": "{status.error.70}",
+            "value": "{functional.error.70}",
             "type": "color",
             "description": "Destructive action on normal state."
           },
           "transparent": {
-            "value": "rgba({status.default.5}, {opacity.0})",
+            "value": "rgba({functional.default.5}, {opacity.0})",
             "type": "color",
             "description": "Destructive action on normal state."
           },
           "hover": {
-            "value": "{status.error.70}",
+            "value": "{functional.error.70}",
             "type": "color",
             "description": "Destructive action on hover state."
           },
@@ -1615,7 +1615,7 @@
             "description": "Destructive action on focused state."
           },
           "pressed": {
-            "value": "{status.error.70}",
+            "value": "{functional.error.70}",
             "type": "color",
             "description": "Destructive action on pressed state."
           },
@@ -1754,61 +1754,61 @@
             "type": "color"
           }
         },
-        "status": {
+        "functional": {
           "default": {
-            "value": "{status.default.5}",
+            "value": "{functional.default.5}",
             "type": "color",
             "description": "Default alerts. Lower prio statuses such as pairing"
           },
           "info": {
-            "value": "{status.info.5}",
+            "value": "{functional.info.5}",
             "type": "color",
             "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
           },
           "draft": {
-            "value": "{status.draft.5}",
+            "value": "{functional.draft.5}",
             "type": "color",
             "description": "Alerts. Temporary statuses such as drafts"
           },
           "warning": {
-            "value": "{status.warning.5}",
+            "value": "{functional.warning.5}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
           },
           "error": {
-            "value": "{status.error.5}",
+            "value": "{functional.error.5}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           },
           "success": {
-            "value": "{status.success.5}",
+            "value": "{functional.success.5}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           }
         },
         "destructive": {
           "normal": {
-            "value": "{status.default.5}",
+            "value": "{functional.default.5}",
             "type": "color",
             "description": "Destructive action on normal state."
           },
           "transparent": {
-            "value": "rgba({status.default.5}, {opacity.0})",
+            "value": "rgba({functional.default.5}, {opacity.0})",
             "type": "color",
             "description": "Destructive action on normal state."
           },
           "hover": {
-            "value": "{status.error.5}",
+            "value": "{functional.error.5}",
             "type": "color",
             "description": "Destructive action on hover state."
           },
           "focused": {
-            "value": "{status.default.5}",
+            "value": "{functional.default.5}",
             "type": "color",
             "description": "Destructive action on focused state."
           },
           "pressed": {
-            "value": "{status.error.20}",
+            "value": "{functional.error.20}",
             "type": "color",
             "description": "Destructive action on pressed state."
           },
@@ -1883,7 +1883,7 @@
     "data-visualization": {
       "default": {
         "1": {
-          "value": "{status.warning.30}",
+          "value": "{functional.warning.30}",
           "type": "color"
         }
       }
@@ -2019,7 +2019,7 @@
             "description": "Suitable for read-only actionable UI controls."
           },
           "transparent": {
-            "value": "rgba({status.default.5}, {opacity.0})",
+            "value": "rgba({functional.default.5}, {opacity.0})",
             "type": "color",
             "description": "Input field, default button, search bar on normal state."
           },
@@ -2076,7 +2076,7 @@
             "description": "Suitable for read-only actionable UI controls."
           },
           "transparent": {
-            "value": "rgba({status.default.5}, {opacity.0})",
+            "value": "rgba({functional.default.5}, {opacity.0})",
             "type": "color",
             "description": "Input field, default button, search bar on normal, pressed & selected state."
           },
@@ -2255,64 +2255,64 @@
       },
       "surface": {
         "default": {
-          "value": "{light.surface.status.default}",
+          "value": "{light.surface.functional.default}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "info": {
-          "value": "{light.surface.status.info}",
+          "value": "{light.surface.functional.info}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "draft": {
-          "value": "{light.surface.status.draft}",
+          "value": "{light.surface.functional.draft}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "warning": {
-          "value": "{light.surface.status.warning}",
+          "value": "{light.surface.functional.warning}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "error": {
-          "value": "{light.surface.status.error}",
+          "value": "{light.surface.functional.error}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "success": {
-          "value": "{light.surface.status.success}",
+          "value": "{light.surface.functional.success}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
       },
       "border": {
         "default": {
-          "value": "{light.border.status.default}",
+          "value": "{light.border.functional.default}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "info": {
-          "value": "{light.border.status.info}",
+          "value": "{light.border.functional.info}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "draft": {
-          "value": "{light.border.status.draft}",
+          "value": "{light.border.functional.draft}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "warning": {
-          "value": "{light.border.status.warning}",
+          "value": "{light.border.functional.warning}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "error": {
-          "value": "{light.border.status.error}",
+          "value": "{light.border.functional.error}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "success": {
-          "value": "{light.border.status.success}",
+          "value": "{light.border.functional.success}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         }
@@ -2484,27 +2484,27 @@
           "description": "Emphasized text color on important text and links, titles, headers"
         },
         "error": {
-          "value": "{status.error.80}",
+          "value": "{functional.error.80}",
           "type": "color",
           "description": "Error text color"
         },
         "warning": {
-          "value": "{status.warning.90}",
+          "value": "{functional.warning.90}",
           "type": "color",
           "description": "Warning text color on body, headers"
         },
         "succes": {
-          "value": "{status.success.70}",
+          "value": "{functional.success.70}",
           "type": "color",
           "description": "Successful text color"
         },
         "disabled": {
-          "value": "{status.default.60}",
+          "value": "{functional.default.60}",
           "type": "color",
           "description": "Disabled text color"
         },
         "visited": {
-          "value": "{status.draft.60}",
+          "value": "{functional.draft.60}",
           "type": "color"
         }
       },
@@ -2525,22 +2525,22 @@
           "description": "Clickable icons"
         },
         "error": {
-          "value": "{status.error.60}",
+          "value": "{functional.error.60}",
           "type": "color",
           "description": "Error and destructive icons"
         },
         "warning": {
-          "value": "{status.warning.60}",
+          "value": "{functional.warning.60}",
           "type": "color",
           "description": "Icons in warning messages, icons"
         },
         "success": {
-          "value": "{status.success.60}",
+          "value": "{functional.success.60}",
           "type": "color",
           "description": "Success and positive icons"
         },
         "disabled": {
-          "value": "{status.default.60}",
+          "value": "{functional.default.60}",
           "type": "color",
           "description": "Icon on disabled state"
         }
@@ -2641,32 +2641,32 @@
         },
         "semantic": {
           "default": {
-            "value": "{status.default.5}",
+            "value": "{functional.default.5}",
             "type": "color",
             "description": "Default alerts. Lower prio statuses such as pairing"
           },
           "info": {
-            "value": "{status.info.5}",
+            "value": "{functional.info.5}",
             "type": "color",
             "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
           },
           "draft": {
-            "value": "{status.draft.5}",
+            "value": "{functional.draft.5}",
             "type": "color",
             "description": "Alerts. Temporary statuses such as drafts"
           },
           "warning": {
-            "value": "{status.warning.5}",
+            "value": "{functional.warning.5}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
           },
           "error": {
-            "value": "{status.error.5}",
+            "value": "{functional.error.5}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           },
           "success": {
-            "value": "{status.success.5}",
+            "value": "{functional.success.5}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           }
@@ -2706,32 +2706,32 @@
         },
         "semantic": {
           "default": {
-            "value": "{status.default.60}",
+            "value": "{functional.default.60}",
             "type": "color",
             "description": "Default alerts. Lower prio statuses such as pairing"
           },
           "info": {
-            "value": "{status.info.50}",
+            "value": "{functional.info.50}",
             "type": "color",
             "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
           },
           "draft": {
-            "value": "{status.draft.60}",
+            "value": "{functional.draft.60}",
             "type": "color",
             "description": "Alerts. Temporary statuses such as drafts"
           },
           "warning": {
-            "value": "{status.warning.70}",
+            "value": "{functional.warning.70}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
           },
           "error": {
-            "value": "{status.error.60}",
+            "value": "{functional.error.60}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           },
           "success": {
-            "value": "{status.success.60}",
+            "value": "{functional.success.60}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           }
