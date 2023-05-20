@@ -227,89 +227,85 @@
         "value": "#803B00",
         "type": "color"
       },
-      "purple": {
-        "5": {
-          "value": "#EDECF5",
-          "type": "color"
-        },
-        "10": {
-          "value": "#DAD7EA",
-          "type": "color"
-        },
-        "20": {
-          "value": "#C6C1DF",
-          "type": "color"
-        },
-        "30": {
-          "value": "#B2ABD3",
-          "type": "color"
-        },
-        "40": {
-          "value": "#9E96C8",
-          "type": "color"
-        },
-        "50": {
-          "value": "#8A80BD",
-          "type": "color"
-        },
-        "60": {
-          "value": "#7365B8",
-          "type": "color"
-        },
-        "70": {
-          "value": "#6154A5",
-          "type": "color"
-        },
-        "80": {
-          "value": "#4D3D99",
-          "type": "color"
-        },
-        "90": {
-          "value": "#403380",
-          "type": "color"
-        }
+      "purple-05": {
+        "value": "#EDECF5",
+        "type": "color"
       },
-      "dark": {
-        "5": {
-          "value": "#E4EBF0",
-          "type": "color"
-        },
-        "10": {
-          "value": "#C3D0D9",
-          "type": "color"
-        },
-        "20": {
-          "value": "#AFBCC4",
-          "type": "color"
-        },
-        "30": {
-          "value": "#9AA5AE",
-          "type": "color"
-        },
-        "40": {
-          "value": "#86929B",
-          "type": "color"
-        },
-        "50": {
-          "value": "#6F7A82",
-          "type": "color"
-        },
-        "60": {
-          "value": "#4C545B",
-          "type": "color"
-        },
-        "70": {
-          "value": "#2B3033",
-          "type": "color"
-        },
-        "80": {
-          "value": "#15181A",
-          "type": "color"
-        },
-        "90": {
-          "value": "#000000",
-          "type": "color"
-        }
+      "purple-10": {
+        "value": "#DAD7EA",
+        "type": "color"
+      },
+      "purple-20": {
+        "value": "#C6C1DF",
+        "type": "color"
+      },
+      "purple-30": {
+        "value": "#B2ABD3",
+        "type": "color"
+      },
+      "purple-40": {
+        "value": "#9E96C8",
+        "type": "color"
+      },
+      "purple-50": {
+        "value": "#8A80BD",
+        "type": "color"
+      },
+      "purple-60": {
+        "value": "#7365B8",
+        "type": "color"
+      },
+      "purple-70": {
+        "value": "#6154A5",
+        "type": "color"
+      },
+      "purple-80": {
+        "value": "#4D3D99",
+        "type": "color"
+      },
+      "purple-90": {
+        "value": "#403380",
+        "type": "color"
+      },
+      "dark-05": {
+        "value": "#E4EBF0",
+        "type": "color"
+      },
+      "dark-10": {
+        "value": "#C3D0D9",
+        "type": "color"
+      },
+      "dark-20": {
+        "value": "#AFBCC4",
+        "type": "color"
+      },
+      "dark-30": {
+        "value": "#9AA5AE",
+        "type": "color"
+      },
+      "dark-40": {
+        "value": "#86929B",
+        "type": "color"
+      },
+      "dark-50": {
+        "value": "#6F7A82",
+        "type": "color"
+      },
+      "dark-60": {
+        "value": "#4C545B",
+        "type": "color"
+      },
+      "dark-70": {
+        "value": "#2B3033",
+        "type": "color"
+      },
+      "dark-80": {
+        "value": "#15181A",
+        "type": "color"
+      },
+      "dark-90": {
+        "value": "#000000",
+        "type": "color"
       }
     },
     "display": {
@@ -986,43 +982,43 @@
       },
       "tertiary": {
         "5": {
-          "value": "{palette.purple.5}",
+          "value": "{palette.purple-05}",
           "type": "color"
         },
         "10": {
-          "value": "{palette.purple.10}",
+          "value": "{palette.purple-10}",
           "type": "color"
         },
         "20": {
-          "value": "{palette.purple.20}",
+          "value": "{palette.purple-20}",
           "type": "color"
         },
         "30": {
-          "value": "{palette.purple.30}",
+          "value": "{palette.purple-30}",
           "type": "color"
         },
         "40": {
-          "value": "{palette.purple.40}",
+          "value": "{palette.purple-40}",
           "type": "color"
         },
         "50": {
-          "value": "{palette.purple.50}",
+          "value": "{palette.purple-50}",
           "type": "color"
         },
         "60": {
-          "value": "{palette.purple.60}",
+          "value": "{palette.purple-60}",
           "type": "color"
         },
         "70": {
-          "value": "{palette.purple.70}",
+          "value": "{palette.purple-70}",
           "type": "color"
         },
         "80": {
-          "value": "{palette.purple.80}",
+          "value": "{palette.purple-80}",
           "type": "color"
         },
         "90": {
-          "value": "{palette.purple.90}",
+          "value": "{palette.purple-90}",
           "type": "color"
         }
       },
@@ -1198,43 +1194,43 @@
       },
       "draft": {
         "5": {
-          "value": "{palette.purple.5}",
+          "value": "{palette.purple-05}",
           "type": "color"
         },
         "10": {
-          "value": "{palette.purple.10}",
+          "value": "{palette.purple-10}",
           "type": "color"
         },
         "20": {
-          "value": "{palette.purple.20}",
+          "value": "{palette.purple-20}",
           "type": "color"
         },
         "30": {
-          "value": "{palette.purple.30}",
+          "value": "{palette.purple-30}",
           "type": "color"
         },
         "40": {
-          "value": "{palette.purple.40}",
+          "value": "{palette.purple-40}",
           "type": "color"
         },
         "50": {
-          "value": "{palette.purple.50}",
+          "value": "{palette.purple-50}",
           "type": "color"
         },
         "60": {
-          "value": "{palette.purple.60}",
+          "value": "{palette.purple-60}",
           "type": "color"
         },
         "70": {
-          "value": "{palette.purple.70}",
+          "value": "{palette.purple-70}",
           "type": "color"
         },
         "80": {
-          "value": "{palette.purple.80}",
+          "value": "{palette.purple-80}",
           "type": "color"
         },
         "90": {
-          "value": "{palette.purple.90}",
+          "value": "{palette.purple-90}",
           "type": "color"
         }
       },
@@ -1471,7 +1467,7 @@
             "description": "Input field, default button, search bar on selected state."
           },
           "selected-strong:hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.primary.80},{opacity.100}) 100%);",
+            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.primary.80},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on the hovered selected state."
           },
@@ -1488,7 +1484,7 @@
             "description": "Input field, default button, search bar on normal state"
           },
           "hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.primary.70},{opacity.100}) 100%);",
+            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.primary.70},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1506,7 +1502,7 @@
             "description": "Input field, default button, search bar on selected state"
           },
           "selected:hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.primary.70},{opacity.100}) 100%);",
+            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.primary.70},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1523,7 +1519,7 @@
             "description": "Input field, default button, search bar on normal state"
           },
           "hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.secondary.70},{opacity.100}) 100%);",
+            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.secondary.70},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1541,7 +1537,7 @@
             "description": "Input field, default button, search bar on selected state "
           },
           "selected:hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.secondary.80},{opacity.100}) 100%);",
+            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.secondary.80},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1663,7 +1659,7 @@
             "description": "Input field, default button, search bar on selected state."
           },
           "selected-strong:hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.primary.80},{opacity.100}) 100%);",
+            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.primary.80},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on selected state."
           },
@@ -1679,7 +1675,7 @@
             "description": "Input field, default button, search bar on normal state"
           },
           "hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.primary.70},{opacity.100}) 100%);",
+            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.primary.70},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1699,7 +1695,7 @@
             "description": "Input field, default button, search bar on selected state 1"
           },
           "selected:hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.primary.80},{opacity.100}) 100%);",
+            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.primary.80},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1715,7 +1711,7 @@
             "description": "Input field, default button, search bar on normalstate"
           },
           "hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.secondary.70},{opacity.100}) 100%);",
+            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.secondary.70},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1735,7 +1731,7 @@
             "description": "Input field, default button, search bar on selected state 1"
           },
           "selected:hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark.90},{opacity.12}) 0%, rgba({brand.secondary.80},{opacity.100}) 100%);",
+            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.secondary.80},{opacity.100}) 100%);",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -2582,7 +2578,7 @@
             "description": "Input field, default button, search bar on normal & disabled state"
           },
           "hover": {
-            "value": "rgba({palette.dark.90} {opacity.12}, {brand.primary.7}",
+            "value": "rgba({palette.dark-90} {opacity.12}, {brand.primary.7}",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -2872,27 +2868,27 @@
   "dark": {
     "text": {
       "default": {
-        "value": "{palette.dark.10}",
+        "value": "{palette.dark-10}",
         "type": "color",
         "description": "Default text colour on body, header"
       },
       "primary": {
-        "value": "{palette.dark.5}",
+        "value": "{palette.dark-05}",
         "type": "color",
         "description": "Primary text colour on ui controls"
       },
       "secondary": {
-        "value": "{palette.dark.10}",
+        "value": "{palette.dark-10}",
         "type": "color",
         "description": "Secondary text colour"
       },
       "emphasised": {
-        "value": "{palette.dark.5}",
+        "value": "{palette.dark-05}",
         "type": "color",
         "description": "Emphasised text colour on important text and links, titles, headers"
       },
       "disabled": {
-        "value": "{palette.dark.30}",
+        "value": "{palette.dark-30}",
         "type": "color",
         "description": "Disabled text colour"
       },
@@ -2914,7 +2910,7 @@
     },
     "icon": {
       "neutral": {
-        "value": "{palette.dark.5}",
+        "value": "{palette.dark-05}",
         "type": "color",
         "description": "Default icon"
       },
@@ -2940,17 +2936,17 @@
       },
       "state": {
         "low": {
-          "value": "{palette.dark.30}",
+          "value": "{palette.dark-30}",
           "type": "color",
           "description": "Grey icon on disabled state"
         },
         "normal": {
-          "value": "{palette.dark.10}",
+          "value": "{palette.dark-10}",
           "type": "color",
           "description": "Grey icon on hover state"
         },
         "medium": {
-          "value": "{palette.dark.10}",
+          "value": "{palette.dark-10}",
           "type": "color",
           "description": "Grey icon on normal state"
         }
@@ -2958,12 +2954,12 @@
     },
     "divider": {
       "solid": {
-        "value": "{palette.dark.50}",
+        "value": "{palette.dark-50}",
         "type": "color",
         "description": "Solid divider "
       },
       "dotted": {
-        "value": "{palette.dark.30}",
+        "value": "{palette.dark-30}",
         "type": "color",
         "description": "Dotted divider"
       }
@@ -2971,22 +2967,22 @@
     "background": {
       "default": {
         "normal": {
-          "value": "{palette.dark.70}",
+          "value": "{palette.dark-70}",
           "type": "color",
           "description": "Input field, default button, search bar on normal & disabled state"
         },
         "medium": {
-          "value": "{palette.dark.60}",
+          "value": "{palette.dark-60}",
           "type": "color",
           "description": "Input field, default button, search bar on hover state"
         },
         "high": {
-          "value": "{palette.dark.90}",
+          "value": "{palette.dark-90}",
           "type": "color",
           "description": "Input field, default button, search bar on pressed state"
         },
         "max1": {
-          "value": "{palette.dark.80}",
+          "value": "{palette.dark-80}",
           "type": "color",
           "description": "Input field, default button, search bar on selected state 1"
         },
@@ -2998,7 +2994,7 @@
       },
       "informational": {
         "default": {
-          "value": "{palette.dark.5}",
+          "value": "{palette.dark-05}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
@@ -3008,7 +3004,7 @@
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
-          "value": "{palette.purple.10}",
+          "value": "{palette.purple-10}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
@@ -3032,12 +3028,12 @@
     "border": {
       "default": {
         "normal": {
-          "value": "{palette.dark.50}",
+          "value": "{palette.dark-50}",
           "type": "color",
           "description": "Input field, default button, search bar on normal, pressed & selected state"
         },
         "medium": {
-          "value": "{palette.dark.30}",
+          "value": "{palette.dark-30}",
           "type": "color",
           "description": "Input field, default button, search bar on hover state"
         },
@@ -3047,12 +3043,12 @@
           "description": "Input field, default button, search bar on selected state 2"
         },
         "low": {
-          "value": "{palette.dark.60}",
+          "value": "{palette.dark-60}",
           "type": "color",
           "description": "Input field, default button, search bar on disabled state"
         },
         "extreme": {
-          "value": "{palette.dark.5}",
+          "value": "{palette.dark-05}",
           "type": "color",
           "description": "Inner border for button on focused state"
         }
@@ -3105,7 +3101,7 @@
       },
       "informational": {
         "default": {
-          "value": "{palette.dark.5}",
+          "value": "{palette.dark-05}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
@@ -3115,7 +3111,7 @@
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "purple": {
-          "value": "{palette.purple.10}",
+          "value": "{palette.purple-10}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
