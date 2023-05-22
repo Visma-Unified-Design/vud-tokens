@@ -1,0 +1,23 @@
+{
+    "mode": "single-file",
+    "mapping": [{
+        "tokenSets": [
+          "core",
+          "neutral on light"
+        ],
+        "supernovaBrand": "VUD",
+        "supernovaTheme": null
+    }, {
+        "tokenSets": [
+          "core",
+          "dark"
+        ],
+        "supernovaBrand": "VUD",
+        "supernovaTheme": "Dark"
+    }],
+    "settings": {
+      "dryRun": false,
+      "verbose": false,
+      "preciseCopy": false
+    }
+  }
