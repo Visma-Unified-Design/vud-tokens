@@ -1345,7 +1345,7 @@
           "type": "color",
           "description": "Disabled text color"
         },
-        "reversed": {
+        "inverse": {
           "value": "{brand.neutral-05}",
           "type": "color"
         }
@@ -1386,7 +1386,7 @@
           "type": "color",
           "description": "Icon on disabled state"
         },
-        "reversed": {
+        "inverse": {
           "value": "{brand.neutral-05}",
           "type": "color"
         }
@@ -1410,7 +1410,7 @@
             "type": "color",
             "description": "Input field, default button, search bar on normal, pressed & selected state."
           },
-          "reversed": {
+          "inverse": {
             "value": "{brand.neutral-20}",
             "type": "color",
             "description": "Suitable for read-only actionable UI controls."
@@ -1601,7 +1601,7 @@
             "type": "color",
             "description": "Input field, default button, search bar on normal & disabled state."
           },
-          "reversed": {
+          "inverse": {
             "value": "{brand.neutral-20}",
             "type": "color",
             "description": "Suitable for read-only actionable UI controls."
@@ -1981,8 +1981,8 @@
             "type": "color",
             "description": "Input field, default button, search bar on normal state."
           },
-          "reversed": {
-            "value": "{light.surface.neutral.reversed}",
+          "inverse": {
+            "value": "{light.surface.neutral.inverse}",
             "type": "color",
             "description": "Suitable for read-only actionable UI controls."
           },
@@ -2038,8 +2038,8 @@
             "type": "color",
             "description": "Input field, default button, search bar on normal, pressed & selected state."
           },
-          "reversed": {
-            "value": "{light.border.neutral.reversed}",
+          "inverse": {
+            "value": "{light.border.neutral.inverse}",
             "type": "color",
             "description": "Suitable for read-only actionable UI controls."
           },
