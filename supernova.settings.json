@@ -7,13 +7,6 @@
         ],
         "supernovaBrand": "VUD",
         "supernovaTheme": null
-    }, {
-        "tokenSets": [
-          "core",
-          "dark"
-        ],
-        "supernovaBrand": "VUD",
-        "supernovaTheme": "Dark"
     }],
     "settings": {
       "dryRun": false,
