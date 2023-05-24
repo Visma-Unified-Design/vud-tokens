@@ -1356,37 +1356,37 @@
         "default": {
           "value": "{brand.neutral-80}",
           "type": "color",
-          "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a placeholder or generic representation."
+          "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
         },
         "inverse": {
           "value": "{brand.neutral-05}",
           "type": "color",
-          "description": "Icon for primary action."
+          "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
         "emphasized": {
           "value": "{brand.secondary-50}",
           "type": "color",
-          "description": "Clickable icons."
+          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "error": {
           "value": "{functional.error-80}",
           "type": "color",
-          "description": "Error and destructive icons."
+          "description": "The error indicates the occurrence of an error or problem. Suitable for destructive icons."
         },
         "warning": {
           "value": "{functional.warning-60}",
           "type": "color",
-          "description": "Icons in warning messages, icons."
+          "description": "Warning icon serves as a visual cue to alert about potential issues, risks, or important information that requires attention."
         },
         "success": {
           "value": "{functional.success-60}",
           "type": "color",
-          "description": "Success and positive icons."
+          "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
         },
         "disabled": {
           "value": "{functional.default-60}",
           "type": "color",
-          "description": "Icon on disabled state."
+          "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
       "border": {
