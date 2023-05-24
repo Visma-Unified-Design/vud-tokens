@@ -1304,58 +1304,59 @@
         "default": {
           "value": "{brand.neutral-90}",
           "type": "color",
-          "description": "Default text color on body, header."
+          "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
         "inverse": {
           "value": "{brand.neutral-05}",
           "type": "color",
-          "description": "Text for primary action.\n"
+          "description": "Inverse text refers to the opposite color that contrasts with the background. "
         },
         "secondary": {
           "value": "{brand.neutral-80}",
           "type": "color",
-          "description": "Secondary text color on body, header."
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
         },
         "emphasized": {
           "value": "{brand.secondary-50}",
           "type": "color",
-          "description": "Helper text on important titles and headers."
+          "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
         },
         "links": {
           "value": "{brand.secondary-50}",
           "type": "color",
-          "description": "Emphasized text on hyperlinks."
+          "description": "Links refers to emphasized clickable elements."
         },
         "visited": {
           "value": "{functional.draft-60}",
-          "type": "color"
+          "type": "color",
+          "description": "Visited link\" refers to a hyperlink that has been previously clicked or accessed."
         },
         "error": {
           "value": "{functional.error-80}",
           "type": "color",
-          "description": "Error text color."
+          "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
         },
         "warning": {
           "value": "{functional.warning-90}",
           "type": "color",
-          "description": "Warning text color on body, headers."
+          "description": "Warning text refers to content that conveys a warning, caution, or alert."
         },
         "succes": {
           "value": "{functional.success-70}",
           "type": "color",
-          "description": "Successful text color."
+          "description": "Success text refers to content that signifies a positive or affirmative message."
         },
         "disabled": {
           "value": "{functional.default-60}",
           "type": "color",
-          "description": "Disabled text color."
+          "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         }
       },
       "icon": {
         "default": {
           "value": "{brand.neutral-80}",
           "type": "color",
-          "description": "Icon on normal state."
+          "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a placeholder or generic representation."
         },
         "inverse": {
           "value": "{brand.neutral-05}",
@@ -1926,7 +1927,7 @@
       }
     }
   },
-  "neutral on light": {
+  "neutral": {
     "sys": {
       "surface-default": {
         "value": "{properties.surface.sys.subtle}",
@@ -1944,7 +1945,7 @@
         "confirmational-text-disabled": {
           "value": "{properties.text.disabled}",
           "type": "color",
-          "description": "Disabled text."
+          "description": "Disabled text indicates that the particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
         "confirmational-icon-default": {
           "value": "{properties.icon.default}",
@@ -2076,7 +2077,7 @@
         "destructive-text-disabled": {
           "value": "{properties.text.disabled}",
           "type": "color",
-          "description": "Disabled text color."
+          "description": "Disabled text indicates that the particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
         "destructive-icon-default": {
           "value": "{properties.icon.error}",
@@ -2407,7 +2408,7 @@
       "text-disabled": {
         "value": "{properties.text.disabled}",
         "type": "color",
-        "description": "Disabled text color."
+        "description": "Disabled text indicates that the particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "icon-default": {
         "value": "{properties.icon.default}",
@@ -2598,337 +2599,11 @@
       }
     }
   },
-  "dark": {
-    "text": {
-      "default": {
-        "value": "{palette.dark-10}",
-        "type": "color",
-        "description": "Default text colour on body, header"
-      },
-      "primary": {
-        "value": "{palette.dark-05}",
-        "type": "color",
-        "description": "Primary text colour on ui controls"
-      },
-      "secondary": {
-        "value": "{palette.dark-10}",
-        "type": "color",
-        "description": "Secondary text colour"
-      },
-      "emphasised": {
-        "value": "{palette.dark-05}",
-        "type": "color",
-        "description": "Emphasised text colour on important text and links, titles, headers"
-      },
-      "disabled": {
-        "value": "{palette.dark-30}",
-        "type": "color",
-        "description": "Disabled text colour"
-      },
-      "error": {
-        "value": "{palette.red-40}",
-        "type": "color",
-        "description": "Error text colour"
-      },
-      "orange": {
-        "value": "{palette.orange-50}",
-        "type": "color",
-        "description": "Warning text colour on body, headers"
-      },
-      "success": {
-        "value": "{palette.green-50}",
-        "type": "color",
-        "description": "Successful text colour"
-      }
-    },
-    "icon": {
-      "neutral": {
-        "value": "{palette.dark-05}",
-        "type": "color",
-        "description": "Default icon"
-      },
-      "blue": {
-        "value": "{palette.blue-50}",
-        "type": "color",
-        "description": "Blue icon"
-      },
-      "red": {
-        "value": "{palette.red-60}",
-        "type": "color",
-        "description": "Red icon"
-      },
-      "orange": {
-        "value": "{palette.orange-70}",
-        "type": "color",
-        "description": "Orange icon"
-      },
-      "green": {
-        "value": "{palette.green-60}",
-        "type": "color",
-        "description": "Green icon"
-      },
-      "state": {
-        "low": {
-          "value": "{palette.dark-30}",
-          "type": "color",
-          "description": "Grey icon on disabled state"
-        },
-        "normal": {
-          "value": "{palette.dark-10}",
-          "type": "color",
-          "description": "Grey icon on hover state"
-        },
-        "medium": {
-          "value": "{palette.dark-10}",
-          "type": "color",
-          "description": "Grey icon on normal state"
-        }
-      }
-    },
-    "divider": {
-      "solid": {
-        "value": "{palette.dark-50}",
-        "type": "color",
-        "description": "Solid divider "
-      },
-      "dotted": {
-        "value": "{palette.dark-30}",
-        "type": "color",
-        "description": "Dotted divider"
-      }
-    },
-    "background": {
-      "default": {
-        "normal": {
-          "value": "{palette.dark-70}",
-          "type": "color",
-          "description": "Input field, default button, search bar on normal & disabled state"
-        },
-        "medium": {
-          "value": "{palette.dark-60}",
-          "type": "color",
-          "description": "Input field, default button, search bar on hover state"
-        },
-        "high": {
-          "value": "{palette.dark-90}",
-          "type": "color",
-          "description": "Input field, default button, search bar on pressed state"
-        },
-        "max1": {
-          "value": "{palette.dark-80}",
-          "type": "color",
-          "description": "Input field, default button, search bar on selected state 1"
-        },
-        "max2": {
-          "value": "{palette.green-70}",
-          "type": "color",
-          "description": "Input field, default button, search bar on selected state 2"
-        }
-      },
-      "informational": {
-        "default": {
-          "value": "{palette.dark-05}",
-          "type": "color",
-          "description": "Default alerts. Lower prio statuses such as pairing"
-        },
-        "blue": {
-          "value": "{palette.blue-10}",
-          "type": "color",
-          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
-        },
-        "purple": {
-          "value": "{palette.purple-10}",
-          "type": "color",
-          "description": "Alerts. Temporary statuses such as drafts"
-        },
-        "orange": {
-          "value": "{palette.orange-10}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
-        },
-        "red": {
-          "value": "{palette.red-10}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
-        },
-        "green": {
-          "value": "{palette.green-10}",
-          "type": "color",
-          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
-        }
-      }
-    },
-    "border": {
-      "default": {
-        "normal": {
-          "value": "{palette.dark-50}",
-          "type": "color",
-          "description": "Input field, default button, search bar on normal, pressed & selected state"
-        },
-        "medium": {
-          "value": "{palette.dark-30}",
-          "type": "color",
-          "description": "Input field, default button, search bar on hover state"
-        },
-        "max2": {
-          "value": "{palette.green-60}",
-          "type": "color",
-          "description": "Input field, default button, search bar on selected state 2"
-        },
-        "low": {
-          "value": "{palette.dark-60}",
-          "type": "color",
-          "description": "Input field, default button, search bar on disabled state"
-        },
-        "extreme": {
-          "value": "{palette.dark-05}",
-          "type": "color",
-          "description": "Inner border for button on focused state"
-        }
-      },
-      "thin": {
-        "left": {
-          "value": {
-            "x": "1",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "#6F7A82",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow"
-        },
-        "top": {
-          "value": {
-            "x": "0",
-            "y": "1",
-            "blur": "0",
-            "spread": "0",
-            "color": "#6F7A82",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow"
-        },
-        "right": {
-          "value": {
-            "x": "-1",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "#6F7A82",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow"
-        },
-        "bottom": {
-          "value": {
-            "x": "0",
-            "y": "-1",
-            "blur": "0",
-            "spread": "0",
-            "color": "#6F7A82",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow"
-        }
-      },
-      "informational": {
-        "default": {
-          "value": "{palette.dark-05}",
-          "type": "color",
-          "description": "Default alerts. Lower prio statuses such as pairing"
-        },
-        "blue": {
-          "value": "{palette.blue-10}",
-          "type": "color",
-          "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
-        },
-        "purple": {
-          "value": "{palette.purple-10}",
-          "type": "color",
-          "description": "Alerts. Temporary statuses such as drafts"
-        },
-        "orange": {
-          "value": "{palette.orange-10}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
-        },
-        "red": {
-          "value": "{palette.red-10}",
-          "type": "color",
-          "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
-        },
-        "green": {
-          "value": "{palette.green-10}",
-          "type": "color",
-          "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
-        }
-      }
-    },
-    "h4": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontWeight": "{medium}",
-        "lineHeight": "",
-        "fontSize": "{font-size.1}"
-      },
-      "type": "typography",
-      "description": "The <h4> tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content."
-    },
-    "h3": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{font-size.1}",
-        "fontWeight": ""
-      },
-      "type": "typography",
-      "description": "The <h3> tag is an HTML element used to define a third-level heading on a webpage or within a section of content."
-    },
-    "h2": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontSize": "{font-size.2}"
-      },
-      "type": "typography",
-      "description": "The <h2> tag is commonly used as subheadings to organize and structure the content within a webpage or section."
-    },
-    "h1": {
-      "value": {
-        "fontFamily": "{primary}",
-        "fontWeight": "{medium}",
-        "fontSize": "{font-size.4}"
-      },
-      "type": "typography",
-      "description": "The <h1> tag is commonly used to display the main title of a webpage."
-    },
-    "body": {
-      "value": {
-        "fontFamily": "{secondary}",
-        "fontWeight": "{regular}",
-        "fontSize": "{font-size.0}"
-      },
-      "type": "typography"
-    },
-    "callout": {
-      "value": {
-        "fontFamily": "{secondary}",
-        "fontSize": "{font-size.-1}"
-      },
-      "type": "typography"
-    },
-    "viewport": {
-      "width": {
-        "value": "320",
-        "type": "sizing"
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "core",
-      "neutral on light",
-      "dark"
+      "neutral"
     ]
   }
 }
