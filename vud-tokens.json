@@ -1639,7 +1639,7 @@
             "description": "Input field, default button, search bar on selected state."
           },
           "selected-strong:hover": {
-            "value": "{palette.dark-90}",
+            "value": "rgba({palette.dark-90}, {opacity.12})",
             "type": "color",
             "description": "Input field, default button, search bar on selected state."
           },
@@ -1655,7 +1655,7 @@
             "description": "Input field, default button, search bar on normal state"
           },
           "hover": {
-            "value": "{palette.dark-90}",
+            "value": "rgba({palette.dark-90}, {opacity.12})",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1675,7 +1675,7 @@
             "description": "Input field, default button, search bar on selected state 1"
           },
           "selected:hover": {
-            "value": "{palette.dark-90}",
+            "value": "rgba({palette.dark-90}, {opacity.12})",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1691,7 +1691,7 @@
             "description": "Input field, default button, search bar on normalstate"
           },
           "hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.secondary-70},{opacity.100}) 100%);",
+            "value": "rgba({palette.dark-90}, {opacity.12})",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1711,7 +1711,7 @@
             "description": "Input field, default button, search bar on selected state 1"
           },
           "selected:hover": {
-            "value": "{palette.dark-90}",
+            "value": "rgba({palette.dark-90}, {opacity.12})",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
