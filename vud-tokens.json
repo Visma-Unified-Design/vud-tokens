@@ -1925,15 +1925,6 @@
         "type": "typography",
         "description": "Suitable for navigating to another section or page and can displayed as standalone items or displayed inline within a sentence or paragraph."
       }
-    },
-    "properties-dark": {
-      "text": {
-        "default": {
-          "value": "{brand.neutral-05}",
-          "type": "color",
-          "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
-        }
-      }
     }
   },
   "light": {
@@ -1994,7 +1985,7 @@
         "confirmational-surface-pressed": {
           "value": "{properties-light.surface.neutral.pressed}",
           "type": "color",
-          "description": "Surface with pressed state refers to an interaction that occurs when the ui element is pressed."
+          "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "confirmational-surface-selected-moderate": {
           "value": "{properties-light.surface.neutral.selected-moderate}",
@@ -2049,39 +2040,39 @@
         "confirmational-border-pressed": {
           "value": "{properties-light.border.neutral.pressed}",
           "type": "color",
-          "description": "Input field, default button, search bar on pressed state."
+          "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "confirmational-border-selected-moderate": {
           "value": "{properties-light.border.neutral.selected-moderate}",
           "type": "color",
-          "description": "Input field, default button, search bar on selected state."
+          "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
         },
         "confirmational-border-selected-moderate:hover": {
           "value": "{properties-light.border.neutral.selected-moderate:hover}",
           "type": "color",
-          "description": "Input field, default button, search bar on hover state."
+          "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "confirmational-border-selected-strong": {
           "value": "{properties-light.border.neutral.selected-strong}",
           "type": "color",
-          "description": "Input field, default button, search bar on selected state."
+          "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
         },
         "confirmational-border-selected-strong:hover": {
           "value": "{properties-light.border.neutral.selected-strong:hover}",
           "type": "color",
-          "description": "Input field, default button, search bar on selected state 2."
+          "description": "Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "confirmational-border-disabled": {
           "value": "{properties-light.border.neutral.disabled}",
           "type": "color",
-          "description": "Input field, default button, search bar on disabled state."
+          "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
       "destructive": {
         "destructive-text-default": {
           "value": "{properties-light.text.error}",
           "type": "color",
-          "description": "Default text color."
+          "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "destructive-text-disabled": {
           "value": "{properties-light.text.disabled}",
@@ -2091,72 +2082,72 @@
         "destructive-icon-default": {
           "value": "{properties-light.icon.error}",
           "type": "color",
-          "description": "Icon on normal state."
+          "description": "Destructive default icon represents a potentially harmful or irreversible action as the default option. This icon serves as a visual cue to convey the potential consequences of selecting or performing that action."
         },
         "destructive-icon-disabled": {
           "value": "{properties-light.icon.disabled}",
           "type": "color",
-          "description": "Icon on disabled state."
+          "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "destructive-surface-normal": {
           "value": "{properties-light.surface.destructive.normal}",
           "type": "color",
-          "description": "Destructive action on normal state."
+          "description": "Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "destructive-surface-transparent": {
           "value": "rgba({properties-light.surface.destructive.normal}, {opacity.0})",
           "type": "color",
-          "description": "Destructive action on normal state."
+          "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
         },
         "destructive-surface-hover": {
           "value": "{properties-light.surface.destructive.hover}",
           "type": "color",
-          "description": "Destructive action on hover state."
+          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "destructive-surface-focused": {
           "value": "{properties-light.surface.destructive.focused}",
           "type": "color",
-          "description": "Destructive action on focused state."
+          "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "destructive-surface-pressed": {
           "value": "{properties-light.surface.destructive.pressed}",
           "type": "color",
-          "description": "Destructive action on pressed state."
+          "description": "Surface with pressed state refers to an interaction that occurs when the ui element is pressed."
         },
         "destructive-surface-disabled": {
           "value": "{properties-light.surface.destructive.disabled}",
           "type": "color",
-          "description": "Destructive action on disabled state."
+          "description": "Surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "destructive-border-normal": {
           "value": "{properties-light.border.destructive.normal}",
           "type": "color",
-          "description": "Destructive action on normal state."
+          "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "destructive-border-transparent": {
           "value": "rgba({properties-light.border.destructive.normal}, {opacity.0})",
           "type": "color",
-          "description": "Destructive action on normal state."
+          "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
         },
         "destructive-border-hover": {
           "value": "{properties-light.border.destructive.hover}",
           "type": "color",
-          "description": "Destructive action on hover state."
+          "description": "Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "destructive-border-focused": {
           "value": "{properties-light.border.destructive.focused}",
           "type": "color",
-          "description": "Destructive action on focused state."
+          "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "destructive-border-pressed": {
           "value": "{properties-light.border.destructive.pressed}",
           "type": "color",
-          "description": "Destructive action on pressed state."
+          "description": "Border with pressed state refers to an interaction that occurs when the ui element is pressed."
         },
         "destructive-border-disabled": {
           "value": "{properties-light.border.destructive.disabled}",
           "type": "color",
-          "description": "Input field, default button, search bar on disabled state."
+          "description": "Border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       }
     },
@@ -2164,109 +2155,114 @@
       "status-text-error": {
         "value": "{properties-light.text.error}",
         "type": "color",
-        "description": "Error text colour"
+        "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
       },
       "status-text-warning": {
         "value": "{properties-light.text.warning}",
         "type": "color",
-        "description": "Warning text colour on body, headers"
+        "description": "Warning text refers to content that conveys a warning, caution, or alert."
       },
       "status-text-succes": {
         "value": "{properties-light.text.succes}",
         "type": "color",
-        "description": "Successful text colour"
+        "description": "Success text refers to content that signifies a positive or affirmative message."
       },
-      "status-icon-emphasized": {
-        "value": "{properties-light.icon.emphasized}",
+      "status-text-info": {
+        "value": "{properties-light.text.emphasized}",
         "type": "color",
-        "description": "Blue icon"
+        "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
       "status-icon-error": {
         "value": "{properties-light.icon.error}",
         "type": "color",
-        "description": "Red icon"
+        "description": "Error icon indicates the occurrence of an error or problem. Suitable for destructive icons."
       },
       "status-icon-warning": {
         "value": "{properties-light.icon.warning}",
         "type": "color",
-        "description": "Orange icon"
+        "description": "Warning icon serves as a visual cue to alert about potential issues, risks, or important information that requires attention."
       },
       "status-icon-success": {
         "value": "{properties-light.icon.success}",
         "type": "color",
-        "description": "Green icon"
+        "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
+      },
+      "status-icon-emphasized": {
+        "value": "{properties-light.icon.emphasized}",
+        "type": "color",
+        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "status-surface-default": {
         "value": "{properties-light.surface.functional.default}",
         "type": "color",
-        "description": "Default alerts. Lower prio statuses such as pairing"
+        "description": "Suitable for default alerts, lower prio statuses such as pairing."
       },
       "status-surface-info": {
         "value": "{properties-light.surface.functional.info}",
         "type": "color",
-        "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+        "description": "Suitable for normal alerts, common statuses such as created, sent, printed, processing."
       },
       "status-surface-draft": {
         "value": "{properties-light.surface.functional.draft}",
         "type": "color",
-        "description": "Alerts. Temporary statuses such as drafts"
+        "description": "Suitable for alerts and temporary statuses such as drafts."
       },
       "status-surface-warning": {
         "value": "{properties-light.surface.functional.warning}",
         "type": "color",
-        "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+        "description": "Suitable for alerts, toasts, tooltips. Specially warnings and potential problem statuses such as partially paid, losses."
       },
       "status-surface-error": {
         "value": "{properties-light.surface.functional.error}",
         "type": "color",
-        "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+        "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
       },
       "status-surface-success": {
         "value": "{properties-light.surface.functional.success}",
         "type": "color",
-        "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
       },
       "status-border-default": {
         "value": "{properties-light.border.functional.default}",
         "type": "color",
-        "description": "Default alerts. Lower prio statuses such as pairing"
+        "description": "Suitable for default alerts. Specially lower prio statuses such as pairing."
       },
       "status-border-info": {
         "value": "{properties-light.border.functional.info}",
         "type": "color",
-        "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+        "description": "Suitable for normal alerts and common statuses such as created, sent, printed, processing."
       },
       "status-border-draft": {
         "value": "{properties-light.border.functional.draft}",
         "type": "color",
-        "description": "Alerts. Temporary statuses such as drafts"
+        "description": "Suitable for alerts and temporary statuses such as drafts."
       },
       "status-border-warning": {
         "value": "{properties-light.border.functional.warning}",
         "type": "color",
-        "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+        "description": "Suitable for alerts, toasts, tooltips. Specially warnings and potential problem statuses such as partially paid, losses."
       },
       "status-border-error": {
         "value": "{properties-light.border.functional.error}",
         "type": "color",
-        "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+        "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
       },
       "status-border-success": {
         "value": "{properties-light.border.functional.success}",
         "type": "color",
-        "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+        "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
       }
     },
     "seperator": {
       "moderate": {
         "value": "{properties-light.border.default.moderate}",
         "type": "color",
-        "description": "Solid divider "
+        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
       },
       "strong": {
         "value": "{properties-light.border.default.strong}",
         "type": "color",
-        "description": "Dotted divider"
+        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
       }
     },
     "border": {
