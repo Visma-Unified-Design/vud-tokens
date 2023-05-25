@@ -1447,7 +1447,7 @@
             "description": "Input field, default button, search bar on selected state."
           },
           "selected-strong:hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.primary-80},{opacity.100}) 100%);",
+            "value": "rgba({palette.dark-90},{opacity.8})",
             "type": "color",
             "description": "Input field, default button, search bar on the hovered selected state."
           },
@@ -1464,7 +1464,7 @@
             "description": "Input field, default button, search bar on normal state"
           },
           "hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.primary-70},{opacity.100}) 100%);",
+            "value": "linear-gradient(0deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({palette.dark-90},{opacity.12}) 100%)",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1482,7 +1482,7 @@
             "description": "Input field, default button, search bar on selected state"
           },
           "selected:hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.primary-70},{opacity.100}) 100%);",
+            "value": "rgba({palette.dark-90},{opacity.8})",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1499,7 +1499,7 @@
             "description": "Input field, default button, search bar on normal state"
           },
           "hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.secondary-70},{opacity.100}) 100%);",
+            "value": "linear-gradient(0deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({palette.dark-90},{opacity.12}) 100%)",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1517,7 +1517,7 @@
             "description": "Input field, default button, search bar on selected state "
           },
           "selected:hover": {
-            "value": "linear-gradient(90deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({brand.secondary-80},{opacity.100}) 100%);",
+            "value": "rgba({palette.dark-90},{opacity.8})",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1655,7 +1655,7 @@
             "description": "Input field, default button, search bar on normal state"
           },
           "hover": {
-            "value": "rgba({palette.dark-90}, {opacity.12})",
+            "value": "linear-gradient(0deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({palette.dark-90},{opacity.12}) 100%)",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1675,7 +1675,7 @@
             "description": "Input field, default button, search bar on selected state 1"
           },
           "selected:hover": {
-            "value": "rgba({palette.dark-90}, {opacity.12})",
+            "value": "linear-gradient(0deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({palette.dark-90},{opacity.12}) 100%)",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1691,7 +1691,7 @@
             "description": "Input field, default button, search bar on normalstate"
           },
           "hover": {
-            "value": "rgba({palette.dark-90}, {opacity.12})",
+            "value": "linear-gradient(0deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({palette.dark-90},{opacity.12}) 100%)",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1711,7 +1711,7 @@
             "description": "Input field, default button, search bar on selected state 1"
           },
           "selected:hover": {
-            "value": "rgba({palette.dark-90}, {opacity.12})",
+            "value": "linear-gradient(0deg, rgba({palette.dark-90},{opacity.12}) 0%, rgba({palette.dark-90},{opacity.12}) 100%)",
             "type": "color",
             "description": "Input field, default button, search bar on hover state"
           },
@@ -1960,12 +1960,12 @@
         "confirmational-surface-normal": {
           "value": "{properties.surface.neutral.normal}",
           "type": "color",
-          "description": "The normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "confirmational-surface-muted": {
           "value": "{properties.surface.neutral.muted}",
           "type": "color",
-          "description": "Muted surface communicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
+          "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
         },
         "confirmational-surface-transparent": {
           "value": "rgba({functional.default-05}, {opacity.0})",
@@ -1975,12 +1975,12 @@
         "confirmational-surface-hover": {
           "value": "{properties.surface.neutral.hover}",
           "type": "color",
-          "description": "Surface on hover state refers to an interaction that occurs when the ui element is hovered."
+          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "confirmational-surface-focused": {
           "value": "{properties.surface.neutral.focused}",
           "type": "color",
-          "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused."
+          "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "confirmational-surface-pressed": {
           "value": "{properties.surface.neutral.pressed}",
@@ -1990,52 +1990,52 @@
         "confirmational-surface-selected-moderate": {
           "value": "{properties.surface.neutral.selected-moderate}",
           "type": "color",
-          "description": "Moderate surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+          "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
         "confirmational-surface-selected-moderate:hover": {
           "value": "{properties.surface.neutral.selected-moderate:hover}",
           "type": "color",
-          "description": "Moderate surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection."
+          "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "confirmational-surface-selected-strong": {
           "value": "{properties.surface.neutral.selected-strong}",
           "type": "color",
-          "description": "Strong surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
+          "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
         },
         "confirmational-surface-selected-strong:hover": {
           "value": "{properties.surface.neutral.selected-strong:hover}",
           "type": "color",
-          "description": "Strong surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection."
+          "description": "Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "confirmational-surface-disabled": {
           "value": "{properties.surface.neutral.disabled}",
           "type": "color",
-          "description": "Input field, default button, search bar on disabled state."
+          "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "confirmational-border-normal": {
           "value": "{properties.border.neutral.normal}",
           "type": "color",
-          "description": "Input field, default button, search bar on normal, pressed & selected state."
+          "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "confirmational-border-muted": {
           "value": "{properties.border.neutral.muted}",
           "type": "color",
-          "description": "Suitable for read-only actionable UI controls."
+          "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
         },
         "confirmational-border-transparent": {
           "value": "rgba({functional.default-05}, {opacity.0})",
           "type": "color",
-          "description": "Input field, default button, search bar on normal, pressed & selected state."
+          "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
         },
         "confirmational-border-hover": {
           "value": "{properties.border.neutral.hover}",
           "type": "color",
-          "description": "Input field, default button, search bar on hover state."
+          "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "confirmational-border-focused": {
           "value": "{properties.border.neutral.focused}",
           "type": "color",
-          "description": "Input field, default button, search bar on focused state."
+          "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "confirmational-border-pressed": {
           "value": "{properties.border.neutral.pressed}",
