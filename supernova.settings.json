@@ -18,6 +18,6 @@
     "settings": {
       "dryRun": false,
       "verbose": false,
-      "preciseCopy": false
+      "preciseCopy": true
     }
   }
