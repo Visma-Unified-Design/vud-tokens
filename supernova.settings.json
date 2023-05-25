@@ -3,7 +3,7 @@
     "mapping": [{
         "tokenSets": [
           "core",
-          "neutral on light"
+          "neutral"
         ],
         "supernovaBrand": "VUD",
         "supernovaTheme": null
