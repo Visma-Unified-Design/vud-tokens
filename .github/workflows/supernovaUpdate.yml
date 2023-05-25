@@ -48,6 +48,6 @@ jobs:
         run: >
           supernova sync-tokens
           --apiKey="${{ secrets.SUPERNOVA_TOKEN }}"
-          --designSystemId="15505"
+          --designSystemId="27998"
           --tokenFilePath "${{ github.workspace }}/vud-tokens.json"
           --configFilePath "${{ github.workspace }}/supernova.settings.json"
