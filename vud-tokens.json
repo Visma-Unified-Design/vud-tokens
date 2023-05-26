@@ -1615,7 +1615,7 @@
         },
         "functional": {
           "default": {
-            "value": "{brand.neutral-light-60}",
+            "value": "{semantics.default-light-60}",
             "type": "color",
             "description": "Default alerts. Specially lower prio statuses such as pairing."
           },
@@ -2364,7 +2364,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({palette.neutral-20}, 1.0)",
+            "color": "rgba({light.border.default.moderate}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -2376,7 +2376,7 @@
             "y": "1",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({palette.neutral-20}, 1.0)",
+            "color": "rgba({light.border.default.moderate}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -2388,7 +2388,7 @@
             "y": "0",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({palette.neutral-20}, 1.0)",
+            "color": "rgba({light.border.default.moderate}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -2400,7 +2400,7 @@
             "y": "-1",
             "blur": "0",
             "spread": "0",
-            "color": "rgba({palette.neutral-20}, 1.0)",
+            "color": "rgba({light.border.default.moderate}, 1.0)",
             "type": "innerShadow"
           },
           "type": "boxShadow",
@@ -2415,7 +2415,7 @@
           "y": "2",
           "blur": "4",
           "spread": "0",
-          "color": "rgba({palette.neutral-90}, {opacity.12})",
+          "color": "rgba({palette.neutral-dark-90}, {opacity.12})",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -2426,7 +2426,7 @@
           "y": "5",
           "blur": "10",
           "spread": "0",
-          "color": "rgba({palette.neutral-90}, {opacity.16})",
+          "color": "rgba( {palette.neutral-dark-90}, {opacity.16})",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -2437,7 +2437,7 @@
           "y": "10",
           "blur": "15",
           "spread": "0",
-          "color": "rgba({palette.neutral-90}, {opacity.16})",
+          "color": "rgba({palette.neutral-dark-90}, {opacity.16})",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -2448,7 +2448,7 @@
           "y": "15",
           "blur": "40",
           "spread": "0",
-          "color": "rgba({palette.neutral-90}, {opacity.24})",
+          "color": "rgba({palette.neutral-dark-90}, {opacity.24})",
           "type": "dropShadow"
         },
         "type": "boxShadow"
