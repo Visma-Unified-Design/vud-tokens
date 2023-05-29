@@ -1,0 +1,13 @@
+{
+  "core": {},
+  "light": {},
+  "dark": {},
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "core",
+      "light",
+      "dark"
+    ]
+  }
+}
