@@ -1647,7 +1647,7 @@
             "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "linear-gradient(0deg, rgba( {vud-core-vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {palette.neutral-dark-90} ,{opacity.12}) 100%)",
+            "value": "linear-gradient(0deg, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {vud-core-palette.neutral-dark-90} ,{opacity.12}) 100%)",
             "type": "color",
             "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -1721,7 +1721,7 @@
             "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "linear-gradient(0deg, rgba( {vud-core-vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {palette.neutral-dark-90},{opacity.12}) 100%)",
+            "value": "linear-gradient(0deg, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 100%)",
             "type": "color",
             "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -1913,7 +1913,7 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "linear-gradient(0deg, rgba( {vud-core-vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {palette.neutral-dark-90},{opacity.12}) 100%)",
+            "value": "linear-gradient(0deg, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 100%)",
             "type": "color",
             "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -1950,7 +1950,7 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "linear-gradient(0deg, rgba( {vud-core-vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {palette.neutral-dark-90},{opacity.12}) 100%)",
+            "value": "linear-gradient(0deg, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 100%)",
             "type": "color",
             "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -1987,7 +1987,7 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "linear-gradient(0deg, rgba( {vud-core-vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {palette.neutral-dark-90},{opacity.12}) 100%)",
+            "value": "linear-gradient(0deg, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 100%)",
             "type": "color",
             "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
