@@ -1848,6 +1848,16 @@
           }
         }
       },
+      "shade": {
+        "normal": {
+          "value": "linear-gradient(0deg, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 100%)",
+          "type": "color"
+        },
+        "low": {
+          "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.8})",
+          "type": "color"
+        }
+      },
       "fill": {
         "on-confirmatory-default": {
           "enabled": {
@@ -1896,7 +1906,7 @@
             "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
           },
           "selected-strong:hover": {
-            "value": "rgba( {vud-core-palette.neutral-dark-90}, {opacity.8})",
+            "value": "{vud-ref-on-light.shade.low}",
             "type": "color",
             "description": "Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -1913,7 +1923,7 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "linear-gradient(0deg, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 100%)",
+            "value": "{vud-ref-on-light.shade.normal}",
             "type": "color",
             "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -1933,44 +1943,7 @@
             "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected:hover": {
-            "value": "rgba( {vud-core-palette.neutral-dark-90}, {opacity.8})",
-            "type": "color",
-            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
-          },
-          "disabled": {
-            "value": "{vud-ref-on-light.fill.on-confirmatory-default.disabled}",
-            "type": "color",
-            "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
-          }
-        },
-        "on-confirmatory-primary-tint": {
-          "enabled": {
-            "value": "{vud-ref-brand.primary-10}",
-            "type": "color",
-            "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-          },
-          "hover": {
-            "value": "linear-gradient(0deg, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 100%)",
-            "type": "color",
-            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
-          },
-          "pressed": {
-            "value": "{vud-ref-brand.primary-90}",
-            "type": "color",
-            "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
-          },
-          "focused": {
-            "value": "{vud-ref-brand.primary-10}",
-            "type": "color",
-            "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
-          },
-          "selected": {
-            "value": "{vud-ref-brand.primary-20}",
-            "type": "color",
-            "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
-          },
-          "selected:hover": {
-            "value": "rgba( {vud-core-palette.neutral-dark-90}, {opacity.8})",
+            "value": "{vud-ref-on-light.shade.low}",
             "type": "color",
             "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -1987,7 +1960,7 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "linear-gradient(0deg, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 100%)",
+            "value": "{vud-ref-on-light.shade.normal}",
             "type": "color",
             "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -2007,7 +1980,7 @@
             "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected:hover": {
-            "value": "rgba( {vud-core-palette.neutral-dark-90}, {opacity.8})",
+            "value": "{vud-ref-on-light.shade.low}",
             "type": "color",
             "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -2061,7 +2034,7 @@
             "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
           },
           "hover": {
-            "value": "rgba({vud-core-palette.neutral-dark-90},{opacity.8})",
+            "value": "{vud-ref-on-light.shade.low}",
             "type": "color",
             "description": "Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -2113,7 +2086,7 @@
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           }
         },
-        "screen": {
+        "on-screen": {
           "default": {
             "value": "{vud-ref-brand.neutral-light-05}",
             "type": "color",
@@ -2616,7 +2589,7 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "linear-gradient(0deg, rgba( {vud-core-vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {palette.neutral-dark-90},{opacity.12}) 100%)",
+            "value": "linear-gradient(0deg, rgba( {vud-core-vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 100%)",
             "type": "color",
             "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -2653,7 +2626,7 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "linear-gradient(0deg, rgba( {vud-core-vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {palette.neutral-dark-90},{opacity.12}) 100%)",
+            "value": "linear-gradient(0deg, rgba( {vud-core-vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 100%)",
             "type": "color",
             "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -2768,7 +2741,7 @@
   "light": {
     "vud-comp-screen": {
       "surface-default": {
-        "value": "{vud-ref-on-light.fill.screen.default}",
+        "value": "{vud-ref-on-light.fill.on-screen.default}",
         "type": "color",
         "description": "Suitable for product-based UI screens."
       }
