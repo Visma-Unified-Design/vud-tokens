@@ -2910,7 +2910,7 @@
             "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
           "pressed": {
-            "value": "{vud-ref-brand.secondary-90}",
+            "value": "{vud-ref-brand.secondary-80}",
             "type": "color",
             "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
           },
@@ -2920,7 +2920,7 @@
             "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
           },
           "selected": {
-            "value": "{vud-ref-brand.secondary-80}",
+            "value": "{vud-ref-brand.secondary-70}",
             "type": "color",
             "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
@@ -2937,7 +2937,7 @@
         },
         "on-destructive-default": {
           "enabled": {
-            "value": "{vud-ref-functional.default-light-05}",
+            "value": "{vud-ref-functional.error-05}",
             "type": "color",
             "description": "Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
           },
@@ -2947,7 +2947,7 @@
             "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
           },
           "hover": {
-            "value": "{vud-ref-functional.error-05}",
+            "value": "{vud-ref-functional.error-10}",
             "type": "color",
             "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -2984,12 +2984,12 @@
             "description": "Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
           "focused": {
-            "value": "{vud-ref-functional.error-70}",
+            "value": "{vud-ref-functional.error-05}",
             "type": "color",
             "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
           },
           "pressed": {
-            "value": "{vud-ref-functional.error-90}",
+            "value": "{vud-ref-functional.error-20}",
             "type": "color",
             "description": "Border with pressed state refers to an interaction that occurs when the ui element is pressed."
           },
@@ -3001,7 +3001,7 @@
         },
         "on-functional": {
           "default": {
-            "value": "{vud-ref-functional.default-light-05}",
+            "value": "{vud-ref-functional.default-dark-05}",
             "type": "color",
             "description": "Default alerts. Lower prio statuses such as pairing"
           },
@@ -3033,7 +3033,7 @@
         },
         "on-screen": {
           "default": {
-            "value": "{vud-ref-brand.neutral-light-05}",
+            "value": "{vud-ref-brand.neutral-dark-80}",
             "type": "color",
             "description": "Suitable for product-based UI screens."
           }
