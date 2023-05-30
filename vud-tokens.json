@@ -1912,6 +1912,12 @@
           "type": "color"
         }
       },
+      "tint": {
+        "normal": {
+          "value": "rgba({vud-ref-brand.neutral-light-05}, {opacity.8})",
+          "type": "color"
+        }
+      },
       "fill": {
         "on-default": {
           "enabled": {
@@ -2800,6 +2806,12 @@
         },
         "low": {
           "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.8})",
+          "type": "color"
+        }
+      },
+      "tint": {
+        "normal": {
+          "value": "rgba( {vud-ref-brand.neutral-dark-05}, {opacity.8})",
           "type": "color"
         }
       },
