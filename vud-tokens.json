@@ -4290,15 +4290,15 @@
           "type": "color",
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
-        "icon-default": {
-          "value": "{vud-ref-on-light.icon.default}",
-          "type": "color",
-          "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
-        },
         "icon-disabled": {
           "value": "{vud-ref-on-light.icon.disabled}",
           "type": "color",
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "icon-default": {
+          "value": "{vud-ref-on-light.icon.default}",
+          "type": "color",
+          "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
         },
         "surface-enabled": {
           "value": "{vud-ref-on-light.fill.on-default.enabled}",
@@ -4331,7 +4331,7 @@
           "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "surface-disabled": {
-          "value": "{vud-ref-on-light.fill.on-default.disabled}",
+          "value": "rgba({vud-ref-on-light.fill.on-default.disabled}, {opacity.8})",
           "type": "color",
           "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
@@ -4356,7 +4356,12 @@
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "border-selected": {
-          "value": "rgba({vud-ref-on-light.border.on-default.selected-moderate},{opacity.8})",
+          "value": "{vud-ref-on-light.border.on-default.selected-moderate}",
+          "type": "color",
+          "description": "Border with a selected state refers to an interaction that occurs when the ui element is active."
+        },
+        "border-selected-emphasized": {
+          "value": "{vud-ref-on-light.border.on-default.focused}",
           "type": "color",
           "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
         },
@@ -4365,7 +4370,12 @@
           "type": "color",
           "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
-        "border-disabled": {
+        "border-disabled-none": {
+          "value": "rgba({vud-ref-on-light.border.on-default.disabled},{opacity.0})",
+          "type": "color",
+          "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "border-disabled-low": {
           "value": "{vud-ref-on-light.border.on-default.disabled}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
@@ -4397,7 +4407,7 @@
           "type": "color",
           "description": "Surface on container."
         },
-        "surface-enabled": {
+        "surface-transparent": {
           "value": "rgba( {vud-ref-on-light.fill.on-default.enabled}, {opacity.0})",
           "type": "color",
           "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
@@ -4447,7 +4457,12 @@
           "type": "color",
           "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
         },
-        "border-disabled": {
+        "border-disabled-none": {
+          "value": "rgba({vud-ref-on-light.border.on-default.disabled},{opacity.0})",
+          "type": "color",
+          "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "border-disabled-low": {
           "value": "{vud-ref-on-light.border.on-default.disabled}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
@@ -4479,7 +4494,7 @@
           "type": "color",
           "description": "Surface on container."
         },
-        "surface-enabled": {
+        "surface-transparent": {
           "value": "rgba( {vud-ref-on-light.fill.on-default.enabled}, {opacity.0})",
           "type": "color",
           "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
@@ -4515,7 +4530,7 @@
           "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
         },
         "border-hover": {
-          "value": "{vud-ref-brand.secondary-10}",
+          "value": "{vud-ref-brand.neutral-light-60}",
           "type": "color",
           "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -4529,7 +4544,12 @@
           "type": "color",
           "description": "Border with a selected state refers to an interaction that occurs when the ui element is active."
         },
-        "border-disabled": {
+        "border-disabled-none": {
+          "value": "rgba({vud-ref-on-light.border.on-default.disabled},{opacity.0})",
+          "type": "color",
+          "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "border-disabled-low": {
           "value": "{vud-ref-on-light.border.on-default.disabled}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
