@@ -1970,20 +1970,25 @@
             "type": "color",
             "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
           },
+          "selected-week": {
+            "value": "{vud-ref-brand.neutral-light-10}",
+            "type": "color",
+            "description": "Surface with week selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+          },
           "selected-moderate": {
             "value": "{vud-ref-brand.neutral-light-20}",
             "type": "color",
             "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
-          "selected-moderate:hover": {
-            "value": "{vud-ref-brand.secondary-10}",
-            "type": "color",
-            "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
-          },
           "selected-strong": {
             "value": "{vud-ref-brand.primary-80}",
             "type": "color",
             "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
+          },
+          "selected-moderate:hover": {
+            "value": "{vud-ref-brand.secondary-10}",
+            "type": "color",
+            "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
           "selected-strong:hover": {
             "value": "{vud-ref-on-light.shade.low}",
@@ -4320,15 +4325,15 @@
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
-        "surface-selected": {
+        "surface-selected-moderate": {
           "value": "{vud-ref-on-light.fill.on-default.enabled}",
           "type": "color",
           "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
-        "surface-selected-emphasized": {
+        "surface-selected-strong": {
           "value": "{vud-ref-brand.secondary-60}",
           "type": "color",
-          "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+          "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
         },
         "surface-selected:hover": {
           "value": "{vud-ref-on-light.fill.on-default.selected-moderate:hover}",
@@ -4360,15 +4365,15 @@
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
-        "border-selected": {
+        "border-selected-moderate": {
           "value": "{vud-ref-on-light.border.on-default.selected-moderate}",
           "type": "color",
-          "description": "Border with a selected state refers to an interaction that occurs when the ui element is active."
+          "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
         },
-        "border-selected-emphasized": {
+        "border-selected-strong": {
           "value": "{vud-ref-on-light.border.on-default.focused}",
           "type": "color",
-          "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
+          "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
         },
         "border-selected:hover": {
           "value": "{vud-ref-on-light.border.on-default.selected-moderate:hover}",
@@ -4583,6 +4588,11 @@
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
         },
+        "text-inverse": {
+          "value": "{vud-ref-on-light.text.inverse}",
+          "type": "color",
+          "description": "Inverse text refers to the opposite color that contrasts with the background. "
+        },
         "text-disabled": {
           "value": "{vud-ref-on-light.text.disabled}",
           "type": "color",
@@ -4597,6 +4607,11 @@
           "value": "{vud-ref-on-light.icon.default}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-inverse": {
+          "value": "{vud-ref-on-light.icon.inverse}",
+          "type": "color",
+          "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
         "surface-enabled": {
           "value": "{vud-ref-on-light.fill.on-default.enabled}",
@@ -4618,15 +4633,20 @@
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
-        "surface-selected": {
-          "value": "{vud-ref-on-light.fill.on-default.enabled}",
+        "surface-selected-week": {
+          "value": "{vud-ref-on-light.fill.on-default.selected-week}",
+          "type": "color",
+          "description": "Surface with week selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+        },
+        "surface-selected-moderate": {
+          "value": "{vud-ref-on-light.fill.on-default.selected-moderate}",
           "type": "color",
           "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
-        "surface-selected-emphasized": {
+        "surface-selected-strong": {
           "value": "{vud-ref-brand.secondary-60}",
           "type": "color",
-          "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+          "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
         },
         "surface-selected:hover": {
           "value": "{vud-ref-on-light.fill.on-default.selected-moderate:hover}",
@@ -4658,15 +4678,15 @@
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
-        "border-selected": {
+        "border-selected-moderate": {
           "value": "{vud-ref-on-light.border.on-default.selected-moderate}",
           "type": "color",
-          "description": "Border with a selected state refers to an interaction that occurs when the ui element is active."
+          "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
         },
-        "border-selected-emphasized": {
+        "border-selected-strong": {
           "value": "{vud-ref-on-light.border.on-default.focused}",
           "type": "color",
-          "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
+          "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
         },
         "border-selected:hover": {
           "value": "{vud-ref-on-light.border.on-default.selected-moderate:hover}",
