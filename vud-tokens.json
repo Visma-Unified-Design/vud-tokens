@@ -3180,6 +3180,52 @@
           "type": "color"
         }
       }
+    },
+    "boxShadow": {
+      "1": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "4",
+          "spread": "0",
+          "color": "rgba({vud-core-palette.neutral-dark-90}, {opacity.12})",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "2": {
+        "value": {
+          "x": "0",
+          "y": "5",
+          "blur": "10",
+          "spread": "0",
+          "color": "rgba( {vud-core-palette.neutral-dark-90}, {opacity.16})",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "3": {
+        "value": {
+          "x": "0",
+          "y": "10",
+          "blur": "15",
+          "spread": "0",
+          "color": "rgba({vud-core-palette.neutral-dark-90}, {opacity.16})",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "4": {
+        "value": {
+          "x": "0",
+          "y": "15",
+          "blur": "40",
+          "spread": "0",
+          "color": "rgba({vud-core-palette.neutral-dark-90}, {opacity.24})",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
     }
   },
   "light": {
@@ -3704,59 +3750,7 @@
         "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
       }
     },
-    "border": {
-      "thin": {
-        "left": {
-          "value": {
-            "x": "1",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({vud-ref-on-light.border.moderate}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Left border in table cell"
-        },
-        "top": {
-          "value": {
-            "x": "0",
-            "y": "1",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({vud-ref-on-light.border.moderate}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Top border in table cell"
-        },
-        "right": {
-          "value": {
-            "x": "-1",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({vud-ref-on-light.border.moderate}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Right border in table cell"
-        },
-        "bottom": {
-          "value": {
-            "x": "0",
-            "y": "-1",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba({vud-ref-on-light.border.moderate}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Bottom border in table cell"
-        }
-      }
-    },
-    "boxShadow": {
+    "vud-core-boxShadow": {
       "1": {
         "value": {
           "x": "0",
@@ -3808,7 +3802,7 @@
         "type": "sizing"
       }
     },
-    "button": {
+    "vud-ref-button": {
       "border": {
         "inner-shadow": {
           "value": [
@@ -3997,24 +3991,6 @@
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       }
     },
-    "vud-comp-pictogram": {
-      "surface-neutral": {
-        "value": "{vud-ref-on-light.fill.on-pictogram.default}",
-        "type": "color"
-      },
-      "surface-brand": {
-        "value": "{vud-ref-on-light.fill.on-pictogram.primary}",
-        "type": "color"
-      },
-      "border-neutral": {
-        "value": "{vud-ref-on-light.border.on-pictograms.default}",
-        "type": "color"
-      },
-      "border-brand": {
-        "value": "{vud-ref-on-light.border.on-pictograms.primary}",
-        "type": "color"
-      }
-    },
     "vud-comp-input-field": {
       "text-default": {
         "value": "{vud-ref-on-light.text.default}",
@@ -4145,142 +4121,6 @@
         "value": "{vud-comp-btn.on-destructive-low-emphasize.border-enabled}",
         "type": "color",
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
-      }
-    },
-    "vud-comp-search": {
-      "default": {
-        "text-default": {
-          "value": "{vud-ref-on-light.text.default}",
-          "type": "color",
-          "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
-        },
-        "text-emphasized": {
-          "value": "{vud-ref-on-light.text.emphasized}",
-          "type": "color",
-          "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
-        },
-        "text-disabled": {
-          "value": "{vud-ref-on-light.text.disabled}",
-          "type": "color",
-          "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
-        },
-        "icon-default": {
-          "value": "{vud-ref-on-light.icon.default}",
-          "type": "color",
-          "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
-        },
-        "icon-disabled": {
-          "value": "{vud-ref-on-light.icon.disabled}",
-          "type": "color",
-          "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
-        },
-        "surface-enabled": {
-          "value": "{vud-ref-on-light.fill.on-default.enabled}",
-          "type": "color",
-          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-        },
-        "surface-hover": {
-          "value": "{vud-ref-on-light.fill.on-default.hover}",
-          "type": "color",
-          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
-        },
-        "surface-focused": {
-          "value": "{vud-ref-on-light.fill.on-default.focused}",
-          "type": "color",
-          "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
-        },
-        "surface-disabled": {
-          "value": "{vud-ref-on-light.fill.on-default.disabled}",
-          "type": "color",
-          "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
-        },
-        "border-enabled": {
-          "value": "{vud-ref-on-light.border.on-default.enabled}",
-          "type": "color",
-          "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-        },
-        "border-hover": {
-          "value": "{vud-ref-on-light.border.on-default.hover}",
-          "type": "color",
-          "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
-        },
-        "border-focused": {
-          "value": "{vud-ref-on-light.border.on-default.focused}",
-          "type": "color",
-          "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
-        },
-        "border-disabled": {
-          "value": "{vud-ref-on-light.border.on-default.disabled}",
-          "type": "color",
-          "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
-        }
-      },
-      "brand": {
-        "text-default": {
-          "value": "{vud-ref-on-light.text.inverse}",
-          "type": "color",
-          "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
-        },
-        "text-emphasized": {
-          "value": "{vud-ref-on-light.text.emphasized}",
-          "type": "color",
-          "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
-        },
-        "text-disabled": {
-          "value": "{vud-ref-on-light.text.disabled}",
-          "type": "color",
-          "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
-        },
-        "icon-default": {
-          "value": "{vud-ref-on-light.icon.default}",
-          "type": "color",
-          "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
-        },
-        "icon-disabled": {
-          "value": "{vud-ref-on-light.icon.disabled}",
-          "type": "color",
-          "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
-        },
-        "surface-enabled": {
-          "value": "{vud-ref-on-light.fill.on-default.enabled}",
-          "type": "color",
-          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-        },
-        "surface-hover": {
-          "value": "rgba( {vud-ref-on-light.fill.on-default.enabled} ,{opacity.8})",
-          "type": "color",
-          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
-        },
-        "surface-focused": {
-          "value": "{vud-ref-on-light.fill.on-default.focused}",
-          "type": "color",
-          "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
-        },
-        "surface-disabled": {
-          "value": "rgba( {vud-ref-on-light.fill.on-default.disabled} , {opacity.0})",
-          "type": "color",
-          "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
-        },
-        "border-enabled": {
-          "value": "{vud-ref-brand.primary-60}",
-          "type": "color",
-          "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-        },
-        "border-hover": {
-          "value": "{vud-ref-brand.primary-70}",
-          "type": "color",
-          "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
-        },
-        "border-focused": {
-          "value": "{vud-ref-on-light.border.on-default.focused}",
-          "type": "color",
-          "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
-        },
-        "border-disabled": {
-          "value": "rgba( {vud-ref-on-light.fill.on-default.disabled} , {opacity.0})",
-          "type": "color",
-          "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
-        }
       }
     },
     "vud-comp-nav-horizontal": {
@@ -4897,6 +4737,324 @@
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
+      }
+    },
+    "vud-comp-pictogram": {
+      "surface-neutral": {
+        "value": "{vud-ref-on-light.fill.on-pictogram.default}",
+        "type": "color"
+      },
+      "surface-brand": {
+        "value": "{vud-ref-on-light.fill.on-pictogram.primary}",
+        "type": "color"
+      },
+      "border-neutral": {
+        "value": "{vud-ref-on-light.border.on-pictograms.default}",
+        "type": "color"
+      },
+      "border-brand": {
+        "value": "{vud-ref-on-light.border.on-pictograms.primary}",
+        "type": "color"
+      }
+    },
+    "vud-ref-border": {
+      "thin": {
+        "left": {
+          "value": {
+            "x": "1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({vud-ref-on-light.border.moderate}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Left border in table cell"
+        },
+        "top": {
+          "value": {
+            "x": "0",
+            "y": "1",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({vud-ref-on-light.border.moderate}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Top border in table cell"
+        },
+        "right": {
+          "value": {
+            "x": "-1",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({vud-ref-on-light.border.moderate}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Right border in table cell"
+        },
+        "bottom": {
+          "value": {
+            "x": "0",
+            "y": "-1",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba({vud-ref-on-light.border.moderate}, 1.0)",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Bottom border in table cell"
+        }
+      }
+    },
+    "vud-comp-search": {
+      "default": {
+        "text-default": {
+          "value": "{vud-ref-on-light.text.default}",
+          "type": "color",
+          "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+        },
+        "text-emphasized": {
+          "value": "{vud-ref-on-light.text.emphasized}",
+          "type": "color",
+          "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+        },
+        "text-disabled": {
+          "value": "{vud-ref-on-light.text.disabled}",
+          "type": "color",
+          "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
+        },
+        "icon-default": {
+          "value": "{vud-ref-on-light.icon.default}",
+          "type": "color",
+          "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-disabled": {
+          "value": "{vud-ref-on-light.icon.disabled}",
+          "type": "color",
+          "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "surface-enabled": {
+          "value": "{vud-ref-on-light.fill.on-default.enabled}",
+          "type": "color",
+          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        },
+        "surface-hover": {
+          "value": "{vud-ref-on-light.fill.on-default.hover}",
+          "type": "color",
+          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+        },
+        "surface-focused": {
+          "value": "{vud-ref-on-light.fill.on-default.focused}",
+          "type": "color",
+          "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
+        },
+        "surface-disabled": {
+          "value": "{vud-ref-on-light.fill.on-default.disabled}",
+          "type": "color",
+          "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "border-enabled": {
+          "value": "{vud-ref-on-light.border.on-default.enabled}",
+          "type": "color",
+          "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        },
+        "border-hover": {
+          "value": "{vud-ref-on-light.border.on-default.hover}",
+          "type": "color",
+          "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+        },
+        "border-focused": {
+          "value": "{vud-ref-on-light.border.on-default.focused}",
+          "type": "color",
+          "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
+        },
+        "border-disabled": {
+          "value": "{vud-ref-on-light.border.on-default.disabled}",
+          "type": "color",
+          "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+        }
+      },
+      "brand": {
+        "text-default": {
+          "value": "{vud-ref-on-light.text.inverse}",
+          "type": "color",
+          "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+        },
+        "text-emphasized": {
+          "value": "{vud-ref-on-light.text.emphasized}",
+          "type": "color",
+          "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+        },
+        "text-disabled": {
+          "value": "{vud-ref-on-light.text.disabled}",
+          "type": "color",
+          "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
+        },
+        "icon-default": {
+          "value": "{vud-ref-on-light.icon.default}",
+          "type": "color",
+          "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-disabled": {
+          "value": "{vud-ref-on-light.icon.disabled}",
+          "type": "color",
+          "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "surface-enabled": {
+          "value": "{vud-ref-on-light.fill.on-default.enabled}",
+          "type": "color",
+          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        },
+        "surface-hover": {
+          "value": "rgba( {vud-ref-on-light.fill.on-default.enabled} ,{opacity.8})",
+          "type": "color",
+          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+        },
+        "surface-focused": {
+          "value": "{vud-ref-on-light.fill.on-default.focused}",
+          "type": "color",
+          "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
+        },
+        "surface-disabled": {
+          "value": "rgba( {vud-ref-on-light.fill.on-default.disabled} , {opacity.0})",
+          "type": "color",
+          "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "border-enabled": {
+          "value": "{vud-ref-brand.primary-60}",
+          "type": "color",
+          "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        },
+        "border-hover": {
+          "value": "{vud-ref-brand.primary-70}",
+          "type": "color",
+          "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+        },
+        "border-focused": {
+          "value": "{vud-ref-on-light.border.on-default.focused}",
+          "type": "color",
+          "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
+        },
+        "border-disabled": {
+          "value": "rgba( {vud-ref-on-light.fill.on-default.disabled} , {opacity.0})",
+          "type": "color",
+          "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+        }
+      }
+    },
+    "vud-comp-list": {
+      "text-default": {
+        "value": "{vud-ref-on-light.text.default}",
+        "type": "color",
+        "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+      },
+      "text-disabled": {
+        "value": "{vud-ref-on-light.text.disabled}",
+        "type": "color",
+        "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
+      },
+      "icon-default": {
+        "value": "{vud-ref-on-light.icon.default}",
+        "type": "color",
+        "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+      },
+      "icon-disabled": {
+        "value": "{vud-ref-on-light.icon.disabled}",
+        "type": "color",
+        "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
+      },
+      "surface-enabled": {
+        "value": "{vud-ref-on-light.fill.on-default.enabled}",
+        "type": "color",
+        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      },
+      "surface-hover": {
+        "value": "{vud-ref-on-light.fill.on-default.hover}",
+        "type": "color",
+        "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+      },
+      "surface-focused": {
+        "value": "{vud-ref-on-light.fill.on-default.focused}",
+        "type": "color",
+        "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
+      },
+      "surface-pressed": {
+        "value": "{vud-ref-on-light.fill.on-default.pressed}",
+        "type": "color",
+        "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
+      },
+      "surface-selected-moderate": {
+        "value": "{vud-ref-on-light.fill.on-default.selected-moderate}",
+        "type": "color",
+        "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+      },
+      "surface-selected-moderate:hover": {
+        "value": "{vud-ref-on-light.fill.on-default.selected-moderate:hover}",
+        "type": "color",
+        "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+      },
+      "surface-selected-strong": {
+        "value": "{vud-ref-on-light.fill.on-default.selected-strong}",
+        "type": "color",
+        "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
+      },
+      "surface-selected-strong:hover": {
+        "value": "{vud-ref-on-light.fill.on-default.selected-strong:hover}",
+        "type": "color",
+        "description": "Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+      },
+      "surface-disabled": {
+        "value": "{vud-ref-on-light.fill.on-default.disabled}",
+        "type": "color",
+        "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+      },
+      "border-enabled": {
+        "value": "{vud-ref-on-light.border.on-default.enabled}",
+        "type": "color",
+        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      },
+      "border-hover": {
+        "value": "{vud-ref-on-light.border.on-default.hover}",
+        "type": "color",
+        "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+      },
+      "border-focused": {
+        "value": "{vud-ref-on-light.border.on-default.focused}",
+        "type": "color",
+        "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
+      },
+      "border-pressed": {
+        "value": "{vud-ref-on-light.border.on-default.pressed}",
+        "type": "color",
+        "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
+      },
+      "border-selected-moderate": {
+        "value": "{vud-ref-on-light.border.on-default.selected-moderate}",
+        "type": "color",
+        "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
+      },
+      "border-selected-moderate:hover": {
+        "value": "{vud-ref-on-light.border.on-default.selected-moderate:hover}",
+        "type": "color",
+        "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+      },
+      "border-selected-strong": {
+        "value": "{vud-ref-on-light.border.on-default.selected-strong}",
+        "type": "color",
+        "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
+      },
+      "border-selected-strong:hover": {
+        "value": "{vud-ref-on-light.border.on-default.selected-strong:hover}",
+        "type": "color",
+        "description": "Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+      },
+      "border-disabled": {
+        "value": "{vud-ref-on-light.border.on-default.disabled}",
+        "type": "color",
+        "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       }
     }
   },
