@@ -2175,7 +2175,7 @@
             "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
           },
           "selected": {
-            "value": "{vud-ref-brand.primary-70}",
+            "value": "{vud-ref-brand.primary-80}",
             "type": "color",
             "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
@@ -4124,10 +4124,10 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
-          "value": "{vud-ref-on-light.text.secondary}",
+        "text-emphasized": {
+          "value": "{vud-ref-on-light.text.emphasized}",
           "type": "color",
-          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+          "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
         },
         "text-disabled": {
           "value": "{vud-ref-on-light.text.disabled}",
@@ -4187,14 +4187,14 @@
       },
       "brand": {
         "text-default": {
-          "value": "{vud-ref-on-light.text.default}",
+          "value": "{vud-ref-on-light.text.inverse}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
-          "value": "{vud-ref-on-light.text.secondary}",
+        "text-emphasized": {
+          "value": "{vud-ref-on-light.text.emphasized}",
           "type": "color",
-          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+          "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
         },
         "text-disabled": {
           "value": "{vud-ref-on-light.text.disabled}",
@@ -4212,32 +4212,32 @@
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "surface-enabled": {
-          "value": "{vud-ref-on-light.fill.on-default.enabled}",
+          "value": "{vud-ref-brand.neutral-light-05}",
           "type": "color",
           "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "surface-hover": {
-          "value": "{vud-ref-on-light.fill.on-default.hover}",
+          "value": "rgba( {vud-ref-brand.neutral-light-05} ,{opacity.8})",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "surface-focused": {
-          "value": "{vud-ref-on-light.fill.on-default.focused}",
+          "value": "{vud-ref-brand.neutral-light-05}",
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "surface-disabled": {
-          "value": "{vud-ref-on-light.fill.on-default.disabled}",
+          "value": "rgba({vud-ref-brand.neutral-light-05}, {opacity.0})",
           "type": "color",
           "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "border-enabled": {
-          "value": "{vud-ref-brand.primary-60}",
+          "value": "{vud-ref-brand.neutral-light-05}",
           "type": "color",
           "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "border-hover": {
-          "value": "{vud-ref-brand.primary-70}",
+          "value": "{vud-ref-brand.secondary-10}",
           "type": "color",
           "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -4247,7 +4247,7 @@
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "border-disabled": {
-          "value": "{vud-ref-on-light.border.on-default.disabled}",
+          "value": "rgba({vud-ref-brand.neutral-light-05}, {opacity.0})",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
@@ -4260,10 +4260,10 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
-          "value": "{vud-ref-on-light.text.secondary}",
+        "text-emphasized": {
+          "value": "{vud-ref-on-light.text.emphasized}",
           "type": "color",
-          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+          "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
         },
         "text-disabled": {
           "value": "{vud-ref-on-light.text.disabled}",
@@ -4284,11 +4284,6 @@
           "value": "{vud-ref-on-light.fill.on-default.enabled}",
           "type": "color",
           "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-        },
-        "surface-muted": {
-          "value": "{vud-ref-on-light.fill.on-default.muted}",
-          "type": "color",
-          "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
         },
         "surface-transparent": {
           "value": "rgba({vud-ref-functional.default-light-05}, {opacity.0})",
