@@ -5728,40 +5728,24 @@
         "type": "color",
         "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
-      "surface-muted": {
-        "value": "{vud-ref-on-light.fill.on-default.muted}",
-        "type": "color",
-        "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
-      },
       "surface-transparent": {
         "value": "rgba({vud-ref-functional.default-light-05}, {opacity.0})",
         "type": "color",
         "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
-      "surface-selected": {
+      "surface-week": {
+        "value": "{vud-ref-brand.secondary-20}",
+        "type": "color"
+      },
+      "surface-moderate": {
         "value": "{vud-ref-brand.secondary-50}",
         "type": "color",
         "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
-      },
-      "surface-disabled": {
-        "value": "{vud-ref-on-light.fill.on-default.disabled}",
-        "type": "color",
-        "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
-      },
-      "surface-error": {
-        "value": "{vud-comp-btn.on-destructive-low-emphasize.surface-enabled}",
-        "type": "color",
-        "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
       "border-enabled": {
         "value": "{vud-ref-on-light.border.on-default.enabled}",
         "type": "color",
         "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-      },
-      "border-muted": {
-        "value": "{vud-ref-on-light.border.on-default.muted}",
-        "type": "color",
-        "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
       },
       "border-transparent": {
         "value": "rgba({vud-ref-functional.default-light-05}, {opacity.0})",
@@ -5773,10 +5757,10 @@
         "type": "color",
         "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
       },
-      "border-selected": {
-        "value": "{vud-ref-brand.secondary-50}",
+      "border-error": {
+        "value": "{vud-ref-on-light.border.on-destructive-default.enabled}",
         "type": "color",
-        "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
+        "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       },
       "border-disabled": {
         "value": "{vud-ref-on-light.border.on-default.disabled}",
