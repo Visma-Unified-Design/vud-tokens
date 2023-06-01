@@ -2281,6 +2281,13 @@
         }
       }
     },
+    "vud-comp-progress": {
+      "text-secondary": {
+        "value": "{vud-ref-brand.neutral-light-80}",
+        "type": "color",
+        "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
+      }
+    },
     "vud-ref-typescale": {
       "callout": {
         "value": {
@@ -3198,6 +3205,69 @@
         "value": "{vud-ref-on-light.fill.on-screen.default}",
         "type": "color",
         "description": "Suitable for product-based UI screens."
+      }
+    },
+    "vud-comp-progress": {
+      "text-default": {
+        "value": "{vud-ref-on-light.text.default}",
+        "type": "color",
+        "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+      },
+      "text-secondary": {
+        "value": "{vud-ref-brand.neutral-light-80}",
+        "type": "color",
+        "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
+      },
+      "default": {
+        "border-low": {
+          "value": "{vud-ref-brand.neutral-light-40}",
+          "type": "color",
+          "description": "Low intensity."
+        },
+        "border-normal": {
+          "value": "linear-gradient(180deg, {vud-ref-brand.neutral-light-20} 0%, {vud-ref-brand.neutral-light-80} 100%)",
+          "type": "color",
+          "description": "Normal intensity."
+        },
+        "border-medium": {
+          "value": "{vud-ref-brand.neutral-light-80}",
+          "type": "color",
+          "description": "Medium intensity."
+        }
+      },
+      "primary": {
+        "border-low": {
+          "value": "{vud-ref-brand.primary-20}",
+          "type": "color",
+          "description": "Low intensity."
+        },
+        "border-normal": {
+          "value": "linear-gradient(180deg, {vud-ref-brand.primary-05} 0%, {vud-ref-brand.primary-70} 100%)",
+          "type": "color",
+          "description": "Normal intensity."
+        },
+        "border-medium": {
+          "value": "{vud-ref-brand.primary-70}",
+          "type": "color",
+          "description": "Medium intensity."
+        }
+      },
+      "secondary": {
+        "border-low": {
+          "value": "{vud-ref-brand.secondary-20}",
+          "type": "color",
+          "description": "Low intensity."
+        },
+        "border-normal": {
+          "value": "linear-gradient(180deg, {vud-ref-brand.secondary-05} 0%, {vud-ref-brand.secondary-60} 100%)",
+          "type": "color",
+          "description": "Normal intensity."
+        },
+        "border-medium": {
+          "value": "{vud-ref-brand.secondary-50}",
+          "type": "color",
+          "description": "Medium intensity."
+        }
       }
     },
     "vud-comp-btn": {
@@ -5323,59 +5393,6 @@
         "value": "{vud-ref-on-light.fill.on-default.enabled}",
         "type": "color",
         "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-      }
-    },
-    "vud-comp-progress": {
-      "default": {
-        "border-low": {
-          "value": "{vud-ref-brand.neutral-light-40}",
-          "type": "color",
-          "description": "Low intensity."
-        },
-        "border-normal": {
-          "value": "linear-gradient(180deg, {vud-ref-brand.neutral-light-20} 0%, {vud-ref-brand.neutral-light-80} 100%)",
-          "type": "color",
-          "description": "Normal intensity."
-        },
-        "border-medium": {
-          "value": "{vud-ref-brand.neutral-light-80}",
-          "type": "color",
-          "description": "Medium intensity."
-        }
-      },
-      "primary": {
-        "border-low": {
-          "value": "{vud-ref-brand.primary-20}",
-          "type": "color",
-          "description": "Low intensity."
-        },
-        "border-normal": {
-          "value": "linear-gradient(180deg, {vud-ref-brand.primary-05} 0%, {vud-ref-brand.primary-70} 100%)",
-          "type": "color",
-          "description": "Normal intensity."
-        },
-        "border-medium": {
-          "value": "{vud-ref-brand.primary-80}",
-          "type": "color",
-          "description": "Medium intensity."
-        }
-      },
-      "secondary": {
-        "border-low": {
-          "value": "{vud-ref-brand.secondary-20}",
-          "type": "color",
-          "description": "Low intensity."
-        },
-        "border-normal": {
-          "value": "linear-gradient(180deg, {vud-ref-brand.secondary-05} 0%, {vud-ref-brand.secondary-60} 100%)",
-          "type": "color",
-          "description": "Normal intensity."
-        },
-        "border-medium": {
-          "value": "{vud-ref-brand.secondary-60}",
-          "type": "color",
-          "description": "Medium intensity."
-        }
       }
     }
   },
