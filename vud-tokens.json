@@ -3596,102 +3596,102 @@
       }
     },
     "vud-comp-situation": {
-      "status-text-error": {
+      "functional-text-error": {
         "value": "{vud-ref-on-light.text.error}",
         "type": "color",
         "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
       },
-      "status-text-warning": {
+      "functional-text-warning": {
         "value": "{vud-ref-on-light.text.warning}",
         "type": "color",
         "description": "Warning text refers to content that conveys a warning, caution, or alert."
       },
-      "status-text-succes": {
+      "functional-text-succes": {
         "value": "{vud-ref-on-light.text.succes}",
         "type": "color",
         "description": "Success text refers to content that signifies a positive or affirmative message."
       },
-      "status-text-info": {
+      "functional-text-info": {
         "value": "{vud-ref-on-light.text.emphasized}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
-      "status-icon-error": {
+      "functional-icon-error": {
         "value": "{vud-ref-on-light.icon.error}",
         "type": "color",
         "description": "Error icon indicates the occurrence of an error or problem. Suitable for destructive icons."
       },
-      "status-icon-warning": {
+      "functional-icon-warning": {
         "value": "{vud-ref-on-light.icon.warning}",
         "type": "color",
         "description": "Warning icon serves as a visual cue to alert about potential issues, risks, or important information that requires attention."
       },
-      "status-icon-success": {
+      "functional-icon-success": {
         "value": "{vud-ref-on-light.icon.success}",
         "type": "color",
         "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
       },
-      "status-icon-emphasized": {
+      "functional-icon-emphasized": {
         "value": "{vud-ref-on-light.icon.emphasized}",
         "type": "color",
         "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
-      "status-surface-default": {
+      "functional-surface-default": {
         "value": "{vud-ref-on-light.fill.on-functional.default}",
         "type": "color",
         "description": "Suitable for default alerts, lower prio statuses such as pairing."
       },
-      "status-surface-info": {
+      "functional-surface-info": {
         "value": "{vud-ref-on-light.fill.on-functional.info}",
         "type": "color",
         "description": "Suitable for normal alerts, common statuses such as created, sent, printed, processing."
       },
-      "status-surface-draft": {
+      "functional-surface-draft": {
         "value": "{vud-ref-on-light.fill.on-functional.draft}",
         "type": "color",
         "description": "Suitable for alerts and temporary statuses such as drafts."
       },
-      "status-surface-warning": {
+      "functional-surface-warning": {
         "value": "{vud-ref-on-light.fill.on-functional.warning}",
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially warnings and potential problem statuses such as partially paid, losses."
       },
-      "status-surface-error": {
+      "functional-surface-error": {
         "value": "{vud-ref-on-light.fill.on-functional.error}",
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
       },
-      "status-surface-success": {
+      "functional-surface-success": {
         "value": "{vud-ref-on-light.fill.on-functional.success}",
         "type": "color",
         "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
       },
-      "status-border-default": {
+      "functional-border-default": {
         "value": "{vud-ref-on-light.border.on-functional.default}",
         "type": "color",
         "description": "Suitable for default alerts. Specially lower prio statuses such as pairing."
       },
-      "status-border-info": {
+      "functional-border-info": {
         "value": "{vud-ref-on-light.border.on-functional.info}",
         "type": "color",
         "description": "Suitable for normal alerts and common statuses such as created, sent, printed, processing."
       },
-      "status-border-draft": {
+      "functional-border-draft": {
         "value": "{vud-ref-on-light.border.on-functional.draft}",
         "type": "color",
         "description": "Suitable for alerts and temporary statuses such as drafts."
       },
-      "status-border-warning": {
+      "functional-border-warning": {
         "value": "{vud-ref-on-light.border.on-functional.warning}",
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially warnings and potential problem statuses such as partially paid, losses."
       },
-      "status-border-error": {
+      "functional-border-error": {
         "value": "{vud-ref-on-light.border.on-functional.error}",
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
       },
-      "status-border-success": {
+      "functional-border-success": {
         "value": "{vud-ref-on-light.border.on-functional.success}",
         "type": "color",
         "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
@@ -3793,7 +3793,7 @@
     },
     "vud-comp-calendar-slot": {
       "surface-event1": {
-        "value": "{vud-comp-situation.status-surface-info}",
+        "value": "{vud-comp-situation.functional-surface-info}",
         "type": "color",
         "description": "Optimal for scheduling project tasks in a calendar."
       },
@@ -3808,17 +3808,17 @@
         "description": "Optimal for scheduling work hours in a calendar."
       },
       "border-event1": {
-        "value": "{vud-comp-situation.status-border-info}",
+        "value": "{vud-comp-situation.functional-border-info}",
         "type": "color",
         "description": "Optimal for scheduling project tasks in a calendar."
       },
       "border-event2": {
-        "value": "{vud-comp-situation.status-border-warning}",
+        "value": "{vud-comp-situation.functional-border-warning}",
         "type": "color",
         "description": "Optimal for scheduling project tasks in a calendar."
       },
       "border-event3": {
-        "value": "{vud-comp-situation.status-border-success}",
+        "value": "{vud-comp-situation.functional-border-success}",
         "type": "color",
         "description": "Optimal for scheduling work hours in a calendar."
       }
@@ -5170,6 +5170,212 @@
         "value": "{vud-comp-btn.on-destructive-low-emphasize.border-enabled}",
         "type": "color",
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
+      }
+    },
+    "vud-comp-messaging": {
+      "text-default": {
+        "value": "{vud-ref-on-light.text.default}",
+        "type": "color",
+        "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+      },
+      "text-secondary": {
+        "value": "{vud-ref-on-light.text.secondary}",
+        "type": "color",
+        "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+      },
+      "text-disabled": {
+        "value": "{vud-ref-on-light.text.disabled}",
+        "type": "color",
+        "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
+      },
+      "text-error": {
+        "value": "{vud-ref-on-light.text.error}",
+        "type": "color",
+        "description": "Mandatory text refers to text or information that is required in a particular context. "
+      },
+      "icon-default": {
+        "value": "{vud-ref-on-light.icon.default}",
+        "type": "color",
+        "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+      },
+      "icon-emphasized": {
+        "value": "{vud-ref-on-light.icon.emphasized}",
+        "type": "color",
+        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+      },
+      "icon-disabled": {
+        "value": "{vud-ref-on-light.icon.disabled}",
+        "type": "color",
+        "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
+      },
+      "surface-enabled": {
+        "value": "{vud-ref-on-light.fill.on-default.enabled}",
+        "type": "color",
+        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      },
+      "surface-muted": {
+        "value": "{vud-ref-on-light.fill.on-default.muted}",
+        "type": "color",
+        "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
+      },
+      "surface-strong": {
+        "value": "{vud-ref-brand.secondary-60}",
+        "type": "color"
+      },
+      "surface-enabled:hover": {
+        "value": "{vud-comp-messaging.surface-enabled}",
+        "type": "color",
+        "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+      },
+      "surface-muted:hover": {
+        "value": "{vud-comp-messaging.surface-muted}",
+        "type": "color",
+        "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+      },
+      "surface-focused": {
+        "value": "{vud-ref-on-light.fill.on-default.focused}",
+        "type": "color",
+        "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
+      },
+      "surface-pressed": {
+        "value": "{vud-ref-on-light.fill.on-default.pressed}",
+        "type": "color",
+        "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
+      },
+      "surface-selected": {
+        "value": "{vud-ref-on-light.fill.on-default.selected-moderate}",
+        "type": "color",
+        "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+      },
+      "surface-selected:hover": {
+        "value": "{vud-ref-on-light.fill.on-default.selected-moderate:hover}",
+        "type": "color",
+        "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+      },
+      "surface-disabled": {
+        "value": "{vud-ref-on-light.fill.on-default.disabled}",
+        "type": "color",
+        "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+      },
+      "surface-error": {
+        "value": "{vud-comp-btn.on-destructive-low-emphasize.surface-transparent}",
+        "type": "color",
+        "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+      },
+      "surface-error:hover": {
+        "value": "{vud-comp-btn.on-destructive-low-emphasize.surface-hover}",
+        "type": "color",
+        "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+      },
+      "border-enabled": {
+        "value": "{vud-ref-on-light.border.on-default.enabled}",
+        "type": "color",
+        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      },
+      "border-muted": {
+        "value": "{vud-ref-on-light.border.on-default.muted}",
+        "type": "color",
+        "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
+      },
+      "border-transparent": {
+        "value": "rgba({vud-ref-functional.default-light-05}, {opacity.0})",
+        "type": "color",
+        "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+      },
+      "border-hover": {
+        "value": "{vud-ref-on-light.border.on-default.hover}",
+        "type": "color",
+        "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+      },
+      "border-focused": {
+        "value": "{vud-ref-on-light.border.on-default.focused}",
+        "type": "color",
+        "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
+      },
+      "border-pressed": {
+        "value": "{vud-ref-on-light.border.on-default.pressed}",
+        "type": "color",
+        "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
+      },
+      "border-selected": {
+        "value": "{vud-ref-on-light.border.on-default.selected-moderate}",
+        "type": "color",
+        "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
+      },
+      "border-selected:hover": {
+        "value": "{vud-ref-on-light.border.on-default.selected-moderate:hover}",
+        "type": "color",
+        "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+      },
+      "border-disabled": {
+        "value": "{vud-ref-on-light.border.on-default.disabled}",
+        "type": "color",
+        "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+      },
+      "border-error": {
+        "value": "{vud-comp-btn.on-destructive-low-emphasize.border-enabled}",
+        "type": "color",
+        "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
+      }
+    },
+    "vud-comp-modal": {
+      "surface": {
+        "value": "{vud-ref-on-light.fill.on-default.enabled}",
+        "type": "color",
+        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      }
+    },
+    "vud-comp-progress": {
+      "default": {
+        "border-low": {
+          "value": "{vud-ref-brand.neutral-light-40}",
+          "type": "color",
+          "description": "Low intensity."
+        },
+        "border-normal": {
+          "value": "linear-gradient(180deg, {vud-ref-brand.neutral-light-20} 0%, {vud-ref-brand.neutral-light-80} 100%)",
+          "type": "color",
+          "description": "Normal intensity."
+        },
+        "border-medium": {
+          "value": "{vud-ref-brand.neutral-light-80}",
+          "type": "color",
+          "description": "Medium intensity."
+        }
+      },
+      "primary": {
+        "border-low": {
+          "value": "{vud-ref-brand.primary-20}",
+          "type": "color",
+          "description": "Low intensity."
+        },
+        "border-normal": {
+          "value": "linear-gradient(180deg, {vud-ref-brand.primary-05} 0%, {vud-ref-brand.primary-70} 100%)",
+          "type": "color",
+          "description": "Normal intensity."
+        },
+        "border-medium": {
+          "value": "{vud-ref-brand.primary-80}",
+          "type": "color",
+          "description": "Medium intensity."
+        }
+      },
+      "secondary": {
+        "border-low": {
+          "value": "{vud-ref-brand.secondary-20}",
+          "type": "color",
+          "description": "Low intensity."
+        },
+        "border-normal": {
+          "value": "linear-gradient(180deg, {vud-ref-brand.secondary-05} 0%, {vud-ref-brand.secondary-60} 100%)",
+          "type": "color",
+          "description": "Normal intensity."
+        },
+        "border-medium": {
+          "value": "{vud-ref-brand.secondary-60}",
+          "type": "color",
+          "description": "Medium intensity."
+        }
       }
     }
   },
