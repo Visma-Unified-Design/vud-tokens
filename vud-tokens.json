@@ -877,7 +877,7 @@
     },
     "opacity": {
       "0": {
-        "value": "0%",
+        "value": "0",
         "type": "opacity"
       },
       "4": {
@@ -2266,7 +2266,7 @@
       },
       "shade": {
         "normal": {
-          "value": "linear-gradient(0deg, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 100%)",
+          "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.4})",
           "type": "color"
         },
         "low": {
