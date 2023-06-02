@@ -4581,7 +4581,7 @@
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "surface-default": {
-          "value": "{vud-ref-brand.neutral-light-gradient}",
+          "value": "linear-gradient(90deg, {vud-core-palette.neutral-dark-90} 45%, {vud-core-palette.neutral-dark-80} 100%)",
           "type": "color",
           "description": "Surface on container."
         },
