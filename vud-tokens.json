@@ -2893,6 +2893,16 @@
             "type": "color",
             "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
           },
+          "selected-week": {
+            "value": "{vud-ref-brand.neutral-dark-80}",
+            "type": "color",
+            "description": "Surface with week selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+          },
+          "selected-week:hover": {
+            "value": "{vud-ref-brand.neutral-dark-40}",
+            "type": "color",
+            "description": "Surface hovering over a week selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+          },
           "selected-moderate": {
             "value": "{vud-ref-brand.neutral-dark-80}",
             "type": "color",
