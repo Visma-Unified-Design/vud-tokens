@@ -394,7 +394,7 @@
         "type": "color"
       },
       "secondary-gradient": {
-        "value": "linear-gradient(90deg, {vud-core-palette.blue-70} 45%, {vud-core-palette.blue-60} 100%)",
+        "value": "{vud-core-palette.blue-70}",
         "type": "color"
       },
       "tertiary-05": {
@@ -2847,7 +2847,7 @@
       },
       "shade": {
         "normal": {
-          "value": "linear-gradient(0deg, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba( {vud-core-palette.neutral-dark-90},{opacity.12}) 100%)",
+          "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.4})",
           "type": "color"
         },
         "low": {
