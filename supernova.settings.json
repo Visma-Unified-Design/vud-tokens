@@ -2,14 +2,14 @@
     "mode": "single-file",
     "mapping": [{
         "tokenSets": [
-          "core",
+          "global",
           "light"
         ],
         "supernovaBrand": "VUD",
         "supernovaTheme": null
     }, {
         "tokenSets": [
-          "core",
+          "global",
           "dark"
         ],
         "supernovaBrand": "VUD",
