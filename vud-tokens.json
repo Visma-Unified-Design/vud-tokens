@@ -350,7 +350,7 @@
         "type": "color"
       },
       "primary-gradient": {
-        "value": "linear-gradient(90deg, {vud-core-palette.green-70} 45%, {vud-core-palette.green-60} 100%)",
+        "value": "{vud-ref-brand.primary-70}",
         "type": "color"
       },
       "secondary-05": {
@@ -394,7 +394,7 @@
         "type": "color"
       },
       "secondary-gradient": {
-        "value": "{vud-core-palette.blue-70}",
+        "value": "{vud-ref-brand.secondary-70}",
         "type": "color"
       },
       "tertiary-05": {
@@ -482,7 +482,7 @@
         "type": "color"
       },
       "neutral-light-gradient": {
-        "value": "linear-gradient(90deg, {vud-core-palette.neutral-light-90} 0%, {vud-core-palette.neutral-light-80} 100%)",
+        "value": "{vud-ref-brand.neutral-light-90}",
         "type": "color"
       },
       "neutral-dark-05": {
@@ -526,7 +526,7 @@
         "type": "color"
       },
       "neutral-dark-gradient": {
-        "value": "linear-gradient(90deg, {vud-core-palette.neutral-dark-90} 45%, {vud-core-palette.neutral-dark-80} 100%)",
+        "value": "{vud-ref-brand.neutral-dark-70}",
         "type": "color"
       }
     },
@@ -4581,7 +4581,7 @@
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "surface-default": {
-          "value": "linear-gradient(90deg, {vud-core-palette.neutral-dark-90} 45%, {vud-core-palette.neutral-dark-80} 100%)",
+          "value": "{vud-ref-brand.neutral-light-gradient}",
           "type": "color",
           "description": "Surface on container."
         },
