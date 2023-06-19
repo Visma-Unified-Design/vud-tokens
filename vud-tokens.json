@@ -1717,6 +1717,25 @@
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
+      "pictogram": {
+        "border-default": {
+          "value": "{vud-ref-functional.default-light-80}",
+          "type": "color",
+          "description": "\n"
+        },
+        "border-brand": {
+          "value": "{vud-ref-brand.secondary-60}",
+          "type": "color"
+        },
+        "fill-default": {
+          "value": "rgba( {vud-ref-brand.neutral-light-60}, {opacity.24})",
+          "type": "color"
+        },
+        "fill-brand": {
+          "value": "rgba( {vud-ref-brand.secondary-60}, {opacity.24})",
+          "type": "color"
+        }
+      },
       "border": {
         "weak": {
           "value": "{vud-ref-brand.neutral-light-20}",
@@ -2038,33 +2057,6 @@
             "type": "color",
             "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
           }
-        }
-      },
-      "pictogram": {
-        "border-default": {
-          "value": "{vud-ref-functional.default-light-80}",
-          "type": "color",
-          "description": "\n"
-        },
-        "border-primary": {
-          "value": "{vud-ref-brand.primary-60}",
-          "type": "color"
-        },
-        "border-secondary": {
-          "value": "{vud-ref-brand.secondary-60}",
-          "type": "color"
-        },
-        "fill-default": {
-          "value": "rgba( {vud-ref-brand.neutral-light-60}, {opacity.24})",
-          "type": "color"
-        },
-        "fill-primary": {
-          "value": "rgba({vud-ref-brand.primary-60}, {opacity.24})",
-          "type": "color"
-        },
-        "fill-secondary": {
-          "value": "rgba( {vud-ref-brand.secondary-60}, {opacity.24})",
-          "type": "color"
         }
       },
       "fill": {
@@ -4321,24 +4313,6 @@
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       }
     },
-    "vud-comp-pictogram": {
-      "surface-neutral": {
-        "value": "{vud-ref-properties.pictogram.fill-default}",
-        "type": "color"
-      },
-      "surface-brand": {
-        "value": "{vud-ref-properties.pictogram.fill-primary}",
-        "type": "color"
-      },
-      "border-neutral": {
-        "value": "{vud-ref-properties.pictogram.border-default}",
-        "type": "color"
-      },
-      "border-brand": {
-        "value": "{vud-ref-properties.pictogram.border-primary}",
-        "type": "color"
-      }
-    },
     "vud-comp-progress": {
       "text-default": {
         "value": "{vud-ref-properties.text.default}",
@@ -5142,11 +5116,29 @@
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
+      "pictogram": {
+        "border-default": {
+          "value": "{vud-ref-functional.default-light-60}",
+          "type": "color"
+        },
+        "border-brand": {
+          "value": "{vud-ref-brand.secondary-60}",
+          "type": "color"
+        },
+        "fill-default": {
+          "value": "rgba({vud-ref-brand.neutral-dark-05}, {opacity.24})",
+          "type": "color"
+        },
+        "fill-brand": {
+          "value": "rgba( {vud-ref-brand.secondary-60}, {opacity.24})",
+          "type": "color"
+        }
+      },
       "border": {
-        "week": {
+        "weak": {
           "value": "{vud-ref-brand.neutral-dark-70}",
           "type": "color",
-          "description": "Week border refers to a subtle border style."
+          "description": "Weak border refers to a subtle border style."
         },
         "moderate": {
           "value": "{vud-ref-brand.neutral-dark-60}",
@@ -5463,39 +5455,6 @@
             "type": "color",
             "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
           }
-        },
-        "on-pictograms": {
-          "default": {
-            "value": "{vud-ref-functional.default-light-60}",
-            "type": "color",
-            "description": "Default alerts. Specially lower prio statuses such as pairing."
-          },
-          "primary": {
-            "value": "{vud-ref-brand.primary-60}",
-            "type": "color",
-            "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
-          },
-          "secondary": {
-            "value": "{vud-ref-brand.secondary-60}",
-            "type": "color",
-            "description": "Normal alerts. Ccommon statuses such as created, sent, printed, processing."
-          }
-        }
-      },
-      "shade": {
-        "normal": {
-          "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.4})",
-          "type": "color"
-        },
-        "low": {
-          "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.8})",
-          "type": "color"
-        }
-      },
-      "tint": {
-        "low": {
-          "value": "rgba( {vud-ref-brand.neutral-dark-05}, {opacity.8})",
-          "type": "color"
         }
       },
       "fill": {
@@ -5530,15 +5489,15 @@
             "type": "color",
             "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
           },
-          "selected-week": {
+          "selected-weak": {
             "value": "{vud-ref-brand.neutral-dark-80}",
             "type": "color",
-            "description": "Surface with week selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+            "description": "Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
-          "selected-week:hover": {
+          "selected-weak:hover": {
             "value": "{vud-ref-brand.neutral-dark-40}",
             "type": "color",
-            "description": "Surface hovering over a week selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
           "selected-moderate": {
             "value": "{vud-ref-brand.neutral-dark-80}",
@@ -5816,28 +5775,22 @@
             "type": "color",
             "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
           }
+        }
+      },
+      "shade": {
+        "normal": {
+          "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.4})",
+          "type": "color"
         },
-        "on-pictogram": {
-          "default-weak": {
-            "value": "rgba({vud-ref-brand.neutral-dark-05}, {opacity.24})",
-            "type": "color",
-            "description": "Default alerts. Lower prio statuses such as pairing"
-          },
-          "default-moderate": {
-            "value": "rgba({vud-ref-brand.neutral-dark-05})",
-            "type": "color",
-            "description": "Default alerts. Lower prio statuses such as pairing"
-          },
-          "primary": {
-            "value": "rgba({vud-ref-brand.primary-60}, {opacity.24})",
-            "type": "color",
-            "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
-          },
-          "secondary": {
-            "value": "rgba( {vud-ref-brand.secondary-60}, {opacity.24})",
-            "type": "color",
-            "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
-          }
+        "low": {
+          "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.8})",
+          "type": "color"
+        }
+      },
+      "tint": {
+        "low": {
+          "value": "rgba( {vud-ref-brand.neutral-dark-05}, {opacity.8})",
+          "type": "color"
         }
       }
     },
@@ -7349,10 +7302,10 @@
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
-        "surface-selected-week": {
-          "value": "{vud-ref-properties.fill.on-default.selected-week}",
+        "surface-selected-weak": {
+          "value": "{vud-ref-properties.fill.on-default.selected-weak}",
           "type": "color",
-          "description": "Surface with week selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+          "description": "Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
         "surface-selected-moderate": {
           "value": "{vud-ref-properties.fill.on-default.selected-moderate}",
@@ -7364,10 +7317,10 @@
           "type": "color",
           "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
         },
-        "surface-selected-week:hover": {
-          "value": "{vud-ref-properties.fill.on-default.selected-week:hover}",
+        "surface-selected-weak:hover": {
+          "value": "{vud-ref-properties.fill.on-default.selected-weak:hover}",
           "type": "color",
-          "description": "Surface hovering over a week selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+          "description": "Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "surface-selected:hover": {
           "value": "{vud-ref-properties.fill.on-default.selected-moderate:hover}",
@@ -7676,10 +7629,10 @@
         "type": "color",
         "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
       },
-      "surface-selected-week": {
-        "value": "{vud-ref-properties.fill.on-default.selected-week}",
+      "surface-selected-weak": {
+        "value": "{vud-ref-properties.fill.on-default.selected-weak}",
         "type": "color",
-        "description": "Surface with week selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+        "description": "Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
       },
       "surface-selected-moderate": {
         "value": "{vud-ref-properties.fill.on-default.selected-moderate}",
@@ -7753,20 +7706,20 @@
       }
     },
     "vud-comp-pictogram": {
-      "surface-neutral": {
+      "surface-default": {
         "value": "{vud-ref-properties.pictogram.fill-default}",
         "type": "color"
       },
       "surface-brand": {
-        "value": "{vud-ref-properties.pictogram.fill-primary}",
+        "value": "{vud-ref-properties.pictogram.fill-brand}",
         "type": "color"
       },
-      "border-neutral": {
+      "border-default": {
         "value": "{vud-ref-properties.pictogram.border-default}",
         "type": "color"
       },
       "border-brand": {
-        "value": "{vud-ref-properties.pictogram.border-primary}",
+        "value": "{vud-ref-properties.pictogram.border-brand}",
         "type": "color"
       }
     },
@@ -8036,10 +7989,10 @@
       }
     },
     "vud-comp-seperator": {
-      "week": {
-        "value": "{vud-ref-properties.border.week}",
+      "weak": {
+        "value": "{vud-ref-properties.border.weak}",
         "type": "color",
-        "description": "Week border refers to a subtle border style."
+        "description": "Weak border refers to a subtle border style."
       },
       "moderate": {
         "value": "{vud-ref-properties.border.moderate}",
@@ -8446,7 +8399,7 @@
         "type": "color",
         "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
-      "surface-week": {
+      "surface-weak": {
         "value": "{vud-ref-brand.secondary-20}",
         "type": "color"
       },
