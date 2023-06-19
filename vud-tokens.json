@@ -1697,7 +1697,7 @@
           "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "error": {
-          "value": "{vud-ref-functional.error-80}",
+          "value": "{vud-ref-functional.error-60}",
           "type": "color",
           "description": "The error indicates the occurrence of an error or problem. Suitable for destructive icons."
         },
