@@ -1719,7 +1719,7 @@
       },
       "pictogram": {
         "border-default": {
-          "value": "{vud-ref-functional.default-light-80}",
+          "value": "{vud-ref-brand.neutral-light-80}",
           "type": "color",
           "description": "\n"
         },
@@ -5118,7 +5118,7 @@
       },
       "pictogram": {
         "border-default": {
-          "value": "{vud-ref-functional.default-light-60}",
+          "value": "{vud-ref-brand.neutral-dark-50}",
           "type": "color"
         },
         "border-brand": {
