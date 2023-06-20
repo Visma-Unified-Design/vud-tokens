@@ -1718,12 +1718,12 @@
         }
       },
       "pictogram": {
-        "border-default": {
+        "stroke-default": {
           "value": "{vud-ref-brand.neutral-light-80}",
           "type": "color",
           "description": "\n"
         },
-        "border-brand": {
+        "stroke-brand": {
           "value": "{vud-ref-brand.secondary-60}",
           "type": "color"
         },
@@ -5117,11 +5117,11 @@
         }
       },
       "pictogram": {
-        "border-default": {
+        "stroke-default": {
           "value": "{vud-ref-brand.neutral-dark-50}",
           "type": "color"
         },
-        "border-brand": {
+        "stroke-brand": {
           "value": "{vud-ref-brand.secondary-60}",
           "type": "color"
         },
@@ -7715,11 +7715,11 @@
         "type": "color"
       },
       "border-default": {
-        "value": "{vud-ref-properties.pictogram.border-default}",
+        "value": "{vud-ref-properties.pictogram.stroke-default}",
         "type": "color"
       },
       "border-brand": {
-        "value": "{vud-ref-properties.pictogram.border-brand}",
+        "value": "{vud-ref-properties.pictogram.stroke-brand}",
         "type": "color"
       }
     },
