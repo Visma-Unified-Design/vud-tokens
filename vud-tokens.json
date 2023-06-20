@@ -1728,7 +1728,7 @@
           "type": "color"
         },
         "fill-default": {
-          "value": "rgba( {vud-ref-brand.neutral-light-60}, {opacity.24})",
+          "value": "rgba( {vud-ref-brand.neutral-light-80}, {opacity.8})",
           "type": "color"
         },
         "fill-brand": {
