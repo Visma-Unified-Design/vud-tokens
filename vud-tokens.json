@@ -1497,7 +1497,7 @@
         "type": "color"
       }
     },
-    "vud-ref-typescale": {
+    "vud-ref-contextual": {
       "callout": {
         "value": {
           "fontFamily": "{vud-core-font-familiy-secondary}",
@@ -1558,10 +1558,10 @@
           "textDecoration": "{Underline}"
         },
         "type": "typography",
-        "description": "Suitable for navigating to another section or page and can displayed as standalone items or displayed inline within a sentence or paragraph."
+        "description": "Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph."
       }
     },
-    "vud-ref-supporting": {
+    "vud-ref-tabular": {
       "ui--1": {
         "value": {
           "fontFamily": "{vud-core-font-familiy-tertiary}",
@@ -1569,7 +1569,7 @@
           "fontWeight": "{vud-core-font-weight-regular}"
         },
         "type": "typography",
-        "description": "Suitable for displaying data points.\n\nType scaling applied."
+        "description": "Suitable for tabular data.\n\nType scaling applied."
       },
       "ui-0": {
         "value": {
@@ -1578,7 +1578,7 @@
           "fontWeight": "{vud-core-font-weight-regular}"
         },
         "type": "typography",
-        "description": "Suitable for displaying data points.\n\nType scaling applied."
+        "description": "Suitable for tabular data.\n\nType scaling applied."
       },
       "ui-1": {
         "value": {
@@ -1587,7 +1587,7 @@
           "fontWeight": "{vud-core-font-weight-regular}"
         },
         "type": "typography",
-        "description": "Suitable for displaying data points.\n\nType scaling applied."
+        "description": "Suitable for tabular data.\n\nType scaling applied."
       },
       "ui-2": {
         "value": {
@@ -1596,7 +1596,7 @@
           "fontWeight": "{vud-core-font-weight-regular}"
         },
         "type": "typography",
-        "description": "Suitable for displaying data points.\n\nType scaling applied."
+        "description": "Suitable for tabular data.\n\nType scaling applied."
       },
       "ui-3": {
         "value": {
@@ -1605,7 +1605,7 @@
           "fontWeight": "{vud-core-font-weight-regular}"
         },
         "type": "typography",
-        "description": "Suitable for displaying data points.\n\nType scaling applied."
+        "description": "Suitable for tabular data.\n\nType scaling applied."
       },
       "ui-4": {
         "value": {
@@ -1614,7 +1614,7 @@
           "fontWeight": "{vud-core-font-weight-regular}"
         },
         "type": "typography",
-        "description": "Suitable for displaying data points.\n\nType scaling applied."
+        "description": "Suitable for tabular data.\n\nType scaling applied."
       }
     },
     "vud-core-font-familiy-secondary": {
