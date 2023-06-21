@@ -2798,46 +2798,57 @@
       }
     },
     "vud-ref-boxShadow": {
-      "1": {
+      "brand-elevation-01": {
         "value": {
           "x": "0",
           "y": "2",
           "blur": "4",
           "spread": "0",
-          "color": "rgba({vud-core-palette.neutral-dark-90}, {opacity.12})",
+          "color": "rgba({vud-ref-brand.primary-80},{opacity.16})",
           "type": "dropShadow"
         },
         "type": "boxShadow"
       },
-      "2": {
+      "default-elevation-01": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "4",
+          "spread": "0",
+          "color": "rgba( {vud-core-palette.neutral-light-90}, {opacity.8})",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "default-elevation-02": {
         "value": {
           "x": "0",
           "y": "5",
           "blur": "10",
           "spread": "0",
-          "color": "rgba( {vud-core-palette.neutral-dark-90}, {opacity.16})",
+          "color": "rgba( {vud-core-palette.neutral-light-90}, {opacity.12})",
           "type": "dropShadow"
         },
         "type": "boxShadow"
       },
-      "3": {
+      "default-elevation-03": {
         "value": {
           "x": "0",
           "y": "10",
           "blur": "15",
           "spread": "0",
-          "color": "rgba({vud-core-palette.neutral-dark-90}, {opacity.16})",
+          "color": "rgba({vud-core-palette.neutral-light-90}, {opacity.16})",
           "type": "dropShadow"
         },
         "type": "boxShadow"
       },
-      "4": {
+      "default-elevation-04": {
         "value": {
           "x": "0",
           "y": "15",
           "blur": "40",
           "spread": "0",
-          "color": "rgba({vud-core-palette.neutral-dark-90}, {opacity.24})",
+          "color": "rgba({vud-core-palette.neutral-light-90}, {opacity.24})",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -6190,7 +6201,18 @@
       }
     },
     "vud-ref-boxShadow": {
-      "1": {
+      "brand-elevation-01": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "4",
+          "spread": "0",
+          "color": "rgba({vud-ref-brand.primary-80}, {opacity.12})",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "default-elevation-01": {
         "value": {
           "x": "0",
           "y": "2",
@@ -6201,7 +6223,7 @@
         },
         "type": "boxShadow"
       },
-      "2": {
+      "default-elevation-02": {
         "value": {
           "x": "0",
           "y": "5",
@@ -6212,7 +6234,7 @@
         },
         "type": "boxShadow"
       },
-      "3": {
+      "default-elevation-03": {
         "value": {
           "x": "0",
           "y": "10",
@@ -6223,7 +6245,7 @@
         },
         "type": "boxShadow"
       },
-      "4": {
+      "default-elevation-04": {
         "value": {
           "x": "0",
           "y": "15",
