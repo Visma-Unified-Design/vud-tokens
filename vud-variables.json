@@ -8457,7 +8457,19 @@
       }
     }
   },
-  "$themes": [],
+  "$themes": [
+    {
+      "id": "81423920b17c04378e249c73d0bce2c741588253",
+      "name": "VUD",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "global": "enabled",
+        "light": "enabled",
+        "dark": "enabled"
+      },
+      "group": "Visma"
+    }
+  ],
   "$metadata": {
     "tokenSetOrder": [
       "global",
