@@ -22,7 +22,7 @@
         "type": "borderRadius"
       },
       "xl": {
-        "value": "99rem",
+        "value": "99",
         "type": "borderRadius"
       }
     },
