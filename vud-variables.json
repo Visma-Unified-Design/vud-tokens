@@ -2653,6 +2653,11 @@
           "type": "color",
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
+        "icon-default": {
+          "value": "{ref-properties.icon.error}",
+          "type": "color",
+          "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
         "surface-enabled": {
           "value": "{ref-properties.fill.on-destructive-default.enabled}",
           "type": "color",
@@ -2726,7 +2731,7 @@
           "description": "Disabled text indicates that the particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
         "icon-default": {
-          "value": "{ref-properties.icon.error}",
+          "value": "{ref-properties.icon.inverse}",
           "type": "color",
           "description": "Destructive default icon represents a potentially harmful or irreversible action as the default option. This icon serves as a visual cue to convey the potential consequences of selecting or performing that action."
         },
