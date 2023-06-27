@@ -1821,9 +1821,18 @@
             "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "{ref-properties.shade.normal}",
+            "value": "{ref-brand.primary-70}",
             "type": "color",
-            "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "pressed": {
             "value": "{ref-brand.primary-90}",
@@ -1841,9 +1850,18 @@
             "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
           },
           "selected:hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{ref-brand.primary-80}",
             "type": "color",
-            "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "disabled": {
             "value": "{ref-properties.border.on-default.disabled}",
@@ -1858,9 +1876,18 @@
             "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "{ref-properties.shade.normal}",
+            "value": "{ref-brand.secondary-70}",
             "type": "color",
-            "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "pressed": {
             "value": "{ref-brand.secondary-90}",
@@ -1878,9 +1905,18 @@
             "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
           },
           "selected:hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{ref-brand.secondary-80}",
             "type": "color",
-            "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "disabled": {
             "value": "{ref-properties.border.on-default.disabled}",
@@ -1932,9 +1968,18 @@
             "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
           },
           "hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{vud-ref-functional.error-70}",
             "type": "color",
-            "description": "Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "focused": {
             "value": "{ref-properties.border.on-default.focused}",
@@ -2028,9 +2073,18 @@
             "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "{ref-properties.shade.normal}",
+            "value": "{ref-brand.secondary-70}",
             "type": "color",
-            "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "pressed": {
             "value": "{ref-brand.secondary-90}",
@@ -2048,9 +2102,18 @@
             "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
           },
           "selected:hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{ref-brand.secondary-80}",
             "type": "color",
-            "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "disabled": {
             "value": "{ref-properties.border.on-default.disabled}",
@@ -2134,9 +2197,19 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "{ref-properties.shade.normal}",
+            "value": "{ref-brand.primary-70}",
             "type": "color",
-            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "hsl",
+                  "color": "{ref-brand.primary-70} "
+                }
+              }
+            }
           },
           "pressed": {
             "value": "{ref-brand.primary-90}",
@@ -2154,9 +2227,18 @@
             "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected:hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{ref-brand.primary-80}",
             "type": "color",
-            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "disabled": {
             "value": "{ref-properties.fill.on-default.disabled}",
@@ -2171,9 +2253,18 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "{ref-properties.shade.normal}",
+            "value": "{ref-brand.secondary-70}",
             "type": "color",
-            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "pressed": {
             "value": "{ref-brand.secondary-90}",
@@ -2191,9 +2282,18 @@
             "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected:hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{ref-brand.secondary-80}",
             "type": "color",
-            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "disabled": {
             "value": "{ref-properties.fill.on-default.disabled}",
@@ -2245,9 +2345,18 @@
             "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
           },
           "hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{vud-ref-functional.error-70}",
             "type": "color",
-            "description": "Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "focused": {
             "value": "{vud-ref-functional.error-70}",
@@ -2311,9 +2420,18 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "{ref-properties.shade.normal}",
+            "value": "{ref-brand.primary-70}",
             "type": "color",
-            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "pressed": {
             "value": "{ref-brand.primary-90}",
@@ -2331,9 +2449,18 @@
             "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected:hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{ref-brand.primary-80}",
             "type": "color",
-            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "disabled": {
             "value": "{ref-properties.fill.on-default.disabled}",
@@ -2348,9 +2475,18 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "{ref-properties.shade.normal}",
+            "value": "{ref-brand.secondary-70}",
             "type": "color",
-            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "pressed": {
             "value": "{ref-brand.secondary-90}",
@@ -2368,9 +2504,18 @@
             "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected:hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{ref-brand.secondary-80}",
             "type": "color",
-            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "disabled": {
             "value": "{ref-properties.fill.on-default.disabled}",
@@ -5430,9 +5575,18 @@
             "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected:hover": {
-            "value": "rgba( {vud-core-palette.neutral-dark-90}, {opacity.8})",
+            "value": "{ref-brand.primary-05}",
             "type": "color",
-            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "disabled": {
             "value": "{ref-properties.border.on-default.disabled}",
@@ -5447,9 +5601,18 @@
             "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "linear-gradient(0deg, rgba({vud-core-palette.neutral-dark-90},{opacity.12}) 0%, rgba({vud-core-palette.neutral-dark-90},{opacity.12}) 100%)",
+            "value": "{ref-brand.secondary-70}",
             "type": "color",
-            "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "pressed": {
             "value": "{ref-brand.secondary-90}",
@@ -5467,9 +5630,18 @@
             "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
           },
           "selected:hover": {
-            "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.8})",
+            "value": "{ref-brand.secondary-80}",
             "type": "color",
-            "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "disabled": {
             "value": "{ref-properties.border.on-default.disabled}",
@@ -5553,9 +5725,18 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "{ref-properties.shade.normal}",
+            "value": "{ref-brand.primary-70}",
             "type": "color",
-            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "pressed": {
             "value": "{ref-brand.primary-90}",
@@ -5573,9 +5754,18 @@
             "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected:hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{ref-brand.primary-80}",
             "type": "color",
-            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "disabled": {
             "value": "{ref-properties.fill.on-default.disabled}",
@@ -5590,9 +5780,18 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "{ref-properties.shade.normal}",
+            "value": "{ref-brand.secondary-70}",
             "type": "color",
-            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "pressed": {
             "value": "{ref-brand.secondary-80}",
@@ -5610,9 +5809,18 @@
             "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected:hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{ref-brand.secondary-80}",
             "type": "color",
-            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "disabled": {
             "value": "{ref-properties.fill.on-default.disabled}",
@@ -5664,9 +5872,18 @@
             "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
           },
           "hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{vud-ref-functional.error-70}",
             "type": "color",
-            "description": "Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "focused": {
             "value": "{vud-ref-functional.error-05}",
@@ -5730,9 +5947,18 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "{ref-properties.shade.normal}",
+            "value": "{ref-brand.primary-70}",
             "type": "color",
-            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "pressed": {
             "value": "{ref-brand.primary-90}",
@@ -5750,7 +5976,7 @@
             "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected:hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{ref-brand.primary-80}",
             "type": "color",
             "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -5767,9 +5993,18 @@
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
           "hover": {
-            "value": "{ref-properties.shade.normal}",
+            "value": "{ref-brand.secondary-70}",
             "type": "color",
-            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "pressed": {
             "value": "{ref-brand.secondary-90}",
@@ -5787,7 +6022,7 @@
             "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected:hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{ref-brand.secondary-80}",
             "type": "color",
             "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -8708,84 +8943,84 @@
         "ref-properties.shade.low": "a1626138ea4048d6def20a2b226ad3d3819fe011",
         "ref-properties.tint.low": "0a1e553b5a39d46c5eb144e1e8020236dfe46272",
         "ref-properties.data-visualization.1": "682487191f9f2de6fd12febe90a022380e57219c",
-        "comp-btn.on-confimatory-low-emphasis.text-default": "4c6baa8cb482a33dd012907c4edf3d6a1dabece6",
-        "comp-btn.on-confimatory-low-emphasis.text-disabled": "2eaf7d68386927ae7f23f4b06d1e7e7637beb0cf",
-        "comp-btn.on-confimatory-low-emphasis.icon-default": "5abd845e59b8fd0e18d6efe3947a0533a4564dfe",
-        "comp-btn.on-confimatory-low-emphasis.icon-disabled": "e1dd1db7adf9bb296bf994e726063b29b50827e2",
-        "comp-btn.on-confimatory-low-emphasis.surface-enabled": "28e27b97a490bfe96b16fbd8b0fd80e02a415f1d",
-        "comp-btn.on-confimatory-low-emphasis.surface-muted": "f65273c078f3deaac730686282ab7e17b016860f",
-        "comp-btn.on-confimatory-low-emphasis.surface-transparent": "cfaaa65a85083511340d21f20ffd0e3a77e2b2dd",
-        "comp-btn.on-confimatory-low-emphasis.surface-hover": "7c082d6ec038f015692e2a5a9f892a2cb36cb88d",
-        "comp-btn.on-confimatory-low-emphasis.surface-focused": "7b5e0fe08bc859cb390b7fba236560544c903e2a",
-        "comp-btn.on-confimatory-low-emphasis.surface-pressed": "f722f2b580d3f92723fe882996d863536273ccb5",
-        "comp-btn.on-confimatory-low-emphasis.surface-selected-moderate": "b4b30d4dd52f0a6b579d2d3f851ad535f65700e6",
-        "comp-btn.on-confimatory-low-emphasis.surface-selected-moderate:hover": "5194c5a92d5ee6cb87c6e8c8b11113e17b638d42",
-        "comp-btn.on-confimatory-low-emphasis.surface-selected-strong": "8b88d5149a601d74cd4018241c86ea909576ca7d",
-        "comp-btn.on-confimatory-low-emphasis.surface-selected-strong:hover": "d57b4f57a6f6e4205b23527ce86c4e5dd325f7f3",
-        "comp-btn.on-confimatory-low-emphasis.surface-disabled": "153ca3b3727f30eda9767cc12b07f51470a51767",
-        "comp-btn.on-confimatory-low-emphasis.border-enabled": "da6c3961c0e2d10326dc891ec47fa7678f34d02e",
-        "comp-btn.on-confimatory-low-emphasis.border-muted": "71ba1dd0f301879d7e5893d791f20babfe21724e",
-        "comp-btn.on-confimatory-low-emphasis.border-transparent": "9d1722e064b55e9796908b66fa650e623b3982a4",
-        "comp-btn.on-confimatory-low-emphasis.border-hover": "c21043e0f7bdbda347671f05a92f6357020a6b26",
-        "comp-btn.on-confimatory-low-emphasis.border-focused": "b97428eb179e48d6c9b389ae471d5df96ea58aea",
-        "comp-btn.on-confimatory-low-emphasis.border-pressed": "679bdbef0d06bee3c30f1a8c303c55aa8e7e4859",
-        "comp-btn.on-confimatory-low-emphasis.border-selected-moderate": "e1383bace292d9d342d0f3ee6044558b738ce94b",
-        "comp-btn.on-confimatory-low-emphasis.border-selected-moderate:hover": "341d6d93151a9b1662a764155145e253dec8fb73",
-        "comp-btn.on-confimatory-low-emphasis.border-selected-strong": "d3d7e5a22b4f21f413749e13cfe6b1a83d73b8b6",
-        "comp-btn.on-confimatory-low-emphasis.border-selected-strong:hover": "92010409332cadca6565ea293d2140b4daf0a9ad",
-        "comp-btn.on-confimatory-low-emphasis.border-disabled": "f8f857b9a08cb6681503e1ecfc28913b11036e64",
-        "comp-btn.on-confimatory-medium-emphasis.text-default": "e6ca16b6822663f7739962f8e24f349dbb93009e",
-        "comp-btn.on-confimatory-medium-emphasis.text-disabled": "e7ca56cc53d03ca75233e4e901c6456256a41752",
-        "comp-btn.on-confimatory-medium-emphasis.icon-default": "5c10346747fbacfb5a502dac0cc08744236b1b54",
-        "comp-btn.on-confimatory-medium-emphasis.icon-disabled": "6755dd0f67537c83e7e65827653d35edf22d8292",
-        "comp-btn.on-confimatory-medium-emphasis.surface-enabled": "ce74e519ab6938fc8c58bf8800732691437a62ef",
-        "comp-btn.on-confimatory-medium-emphasis.surface-hover": "f407bccadd8e33d437896ef3eed5501b118cd0b5",
-        "comp-btn.on-confimatory-medium-emphasis.surface-focused": "3f908ca5a8fe04e887ea311f8451322368e50103",
-        "comp-btn.on-confimatory-medium-emphasis.surface-pressed": "78ff9df107d304ca5a534dbca9ea22fcde4475fb",
-        "comp-btn.on-confimatory-medium-emphasis.surface-selected": "695695629e8ff72ec75ca7648ebb681e8fda4159",
-        "comp-btn.on-confimatory-medium-emphasis.surface-selected:hover": "6af6e989144926871a25dfc310e3c96e8ef8773b",
-        "comp-btn.on-confimatory-medium-emphasis.surface-disabled": "c042eac28daffb7758ff91961c14358cbdb65a4c",
-        "comp-btn.on-confimatory-medium-emphasis.border-enabled": "e98b03fb2b12072664a2fa7068ce9e68998c430f",
-        "comp-btn.on-confimatory-medium-emphasis.border-hover": "587c1171784998608f30e805cd5cae49c681d6c2",
-        "comp-btn.on-confimatory-medium-emphasis.border-focused": "de13dc645e3b3d925ac26d1469c793c6dfc50562",
-        "comp-btn.on-confimatory-medium-emphasis.border-pressed": "ab1a51d972ae9cf79c320ba2d65d1dcf0d415a10",
-        "comp-btn.on-confimatory-medium-emphasis.border-selected": "53e211e2b2b202662d6526af393a17a51d487256",
-        "comp-btn.on-confimatory-medium-emphasis.border-selected:hover": "9b25e231c4517003da3311b54cd04b1fd014b4be",
-        "comp-btn.on-confimatory-medium-emphasis.border-selected-strong": "25c97202168dbddf5614a88d32da99ceabd578d0",
-        "comp-btn.on-confimatory-medium-emphasis.border-selected-strong:hover": "03e8a79ae7e450191685f6c9454a719700c81928",
-        "comp-btn.on-confimatory-medium-emphasis.border-disabled": "8771771fe6d69ed929ac334e95d26cfebaf0f864",
-        "comp-btn.on-destructive-low-emphasis.text-default": "74520ee6409e9327d7c65e0d5e7393b58e1693ec",
-        "comp-btn.on-destructive-low-emphasis.text-disabled": "b1cd35ddcd3c29d4e1578c2b9dfd63eda0125fbc",
-        "comp-btn.on-destructive-low-emphasis.icon-disabled": "dc47b85e40be512c764818a28da37807525fe442",
-        "comp-btn.on-destructive-low-emphasis.icon-default": "b3908dc25c0cc6655f8caeb7cda5f612ac5f722f",
-        "comp-btn.on-destructive-low-emphasis.surface-enabled": "63585b5ef8ac3945e4e5e80b56c2676b957057ed",
-        "comp-btn.on-destructive-low-emphasis.surface-transparent": "6a4322331f4ee4badfff001b8cea1c7d519087b0",
-        "comp-btn.on-destructive-low-emphasis.surface-hover": "f4615225b1e558d046d5d1da374c77906fb51faa",
-        "comp-btn.on-destructive-low-emphasis.surface-focused": "0b17c8daf36fc75137267032efa52c0a08416aed",
-        "comp-btn.on-destructive-low-emphasis.surface-pressed": "3d0bb09a1e47eb47cf7e49610ec9ecc007ce0bc9",
-        "comp-btn.on-destructive-low-emphasis.surface-disabled": "2b7c46806d023f227bca6a5624e68301f97810b7",
-        "comp-btn.on-destructive-low-emphasis.border-enabled": "39c257dc655f0088cf513464a1bfe1e37ab7c981",
-        "comp-btn.on-destructive-low-emphasis.border-transparent": "660ff1992cd70bd487666d285cc9e989b7908435",
-        "comp-btn.on-destructive-low-emphasis.border-hover": "619f5b7ae8ebcfba8c4ac41149eba20497a84b0f",
-        "comp-btn.on-destructive-low-emphasis.border-focused": "99704d1c16c6e5aff0472345144ee414c1764786",
-        "comp-btn.on-destructive-low-emphasis.border-pressed": "a5cc433bfd2566e4be8880221b44044acfc78650",
-        "comp-btn.on-destructive-low-emphasis.border-disabled": "95893ecdec4efca34938858a71002c9cd554986e",
-        "comp-btn.on-destructive-medium-emphasis.text-default": "0b45eabf94a1c6eda4b60b829fef92decd7fce07",
-        "comp-btn.on-destructive-medium-emphasis.text-disabled": "9f92da6b1d4a6908f2ec2f514c1bf5c2c4a1eb96",
-        "comp-btn.on-destructive-medium-emphasis.icon-default": "d9cd20279a7e34bf4019fbfe6ce8339b0fbf2389",
-        "comp-btn.on-destructive-medium-emphasis.icon-disabled": "c9dfc3788add711e68fc0ebb2f2768746675a467",
-        "comp-btn.on-destructive-medium-emphasis.surface-enabled": "bab1deffc2d46a5558a228dbc3dae0b0dfa8cbad",
-        "comp-btn.on-destructive-medium-emphasis.surface-transparent": "e4bd2ff10384087d106bbf481170eaa558fafc3d",
-        "comp-btn.on-destructive-medium-emphasis.surface-hover": "03a1867496bf0a66dbc5ed8852359a4e71e8c219",
-        "comp-btn.on-destructive-medium-emphasis.surface-focused": "44ee55c3014b94babfeca63213dcfc0749ebbb71",
-        "comp-btn.on-destructive-medium-emphasis.surface-pressed": "bf2fb8f020267dca31eff9c89d607b5860184a47",
-        "comp-btn.on-destructive-medium-emphasis.surface-disabled": "c589e79a9e61161f951959b0599c48dd7311281b",
-        "comp-btn.on-destructive-medium-emphasis.border-enabled": "ba524b91885cba0a6a60666219b3dd494123fe6a",
-        "comp-btn.on-destructive-medium-emphasis.border-transparent": "b5a3a43da64e89d14f286c61ab39d5640051079f",
-        "comp-btn.on-destructive-medium-emphasis.border-hover": "336e55fd622c449822768c647cb3098dcaee7005",
-        "comp-btn.on-destructive-medium-emphasis.border-focused": "fc6c3b11c27085b91dc0798143fc44cda7f02a13",
-        "comp-btn.on-destructive-medium-emphasis.border-pressed": "9c3e8f6745fffdd932ea95d3c07a8582a3e3522b",
-        "comp-btn.on-destructive-medium-emphasis.border-disabled": "81449bc3432c163543161f187ddd60861ade11c4",
+        "comp-btn.on-confimatory-low.text-default": "4c6baa8cb482a33dd012907c4edf3d6a1dabece6",
+        "comp-btn.on-confimatory-low.text-disabled": "2eaf7d68386927ae7f23f4b06d1e7e7637beb0cf",
+        "comp-btn.on-confimatory-low.icon-default": "5abd845e59b8fd0e18d6efe3947a0533a4564dfe",
+        "comp-btn.on-confimatory-low.icon-disabled": "e1dd1db7adf9bb296bf994e726063b29b50827e2",
+        "comp-btn.on-confimatory-low.surface-enabled": "28e27b97a490bfe96b16fbd8b0fd80e02a415f1d",
+        "comp-btn.on-confimatory-low.surface-muted": "f65273c078f3deaac730686282ab7e17b016860f",
+        "comp-btn.on-confimatory-low.surface-transparent": "cfaaa65a85083511340d21f20ffd0e3a77e2b2dd",
+        "comp-btn.on-confimatory-low.surface-hover": "7c082d6ec038f015692e2a5a9f892a2cb36cb88d",
+        "comp-btn.on-confimatory-low.surface-focused": "7b5e0fe08bc859cb390b7fba236560544c903e2a",
+        "comp-btn.on-confimatory-low.surface-pressed": "f722f2b580d3f92723fe882996d863536273ccb5",
+        "comp-btn.on-confimatory-low.surface-selected-moderate": "b4b30d4dd52f0a6b579d2d3f851ad535f65700e6",
+        "comp-btn.on-confimatory-low.surface-selected-moderate:hover": "5194c5a92d5ee6cb87c6e8c8b11113e17b638d42",
+        "comp-btn.on-confimatory-low.surface-selected-strong": "8b88d5149a601d74cd4018241c86ea909576ca7d",
+        "comp-btn.on-confimatory-low.surface-selected-strong:hover": "d57b4f57a6f6e4205b23527ce86c4e5dd325f7f3",
+        "comp-btn.on-confimatory-low.surface-disabled": "153ca3b3727f30eda9767cc12b07f51470a51767",
+        "comp-btn.on-confimatory-low.border-enabled": "da6c3961c0e2d10326dc891ec47fa7678f34d02e",
+        "comp-btn.on-confimatory-low.border-muted": "71ba1dd0f301879d7e5893d791f20babfe21724e",
+        "comp-btn.on-confimatory-low.border-transparent": "9d1722e064b55e9796908b66fa650e623b3982a4",
+        "comp-btn.on-confimatory-low.border-hover": "c21043e0f7bdbda347671f05a92f6357020a6b26",
+        "comp-btn.on-confimatory-low.border-focused": "b97428eb179e48d6c9b389ae471d5df96ea58aea",
+        "comp-btn.on-confimatory-low.border-pressed": "679bdbef0d06bee3c30f1a8c303c55aa8e7e4859",
+        "comp-btn.on-confimatory-low.border-selected-moderate": "e1383bace292d9d342d0f3ee6044558b738ce94b",
+        "comp-btn.on-confimatory-low.border-selected-moderate:hover": "341d6d93151a9b1662a764155145e253dec8fb73",
+        "comp-btn.on-confimatory-low.border-selected-strong": "d3d7e5a22b4f21f413749e13cfe6b1a83d73b8b6",
+        "comp-btn.on-confimatory-low.border-selected-strong:hover": "92010409332cadca6565ea293d2140b4daf0a9ad",
+        "comp-btn.on-confimatory-low.border-disabled": "f8f857b9a08cb6681503e1ecfc28913b11036e64",
+        "comp-btn.on-confimatory-medium.text-default": "e6ca16b6822663f7739962f8e24f349dbb93009e",
+        "comp-btn.on-confimatory-medium.text-disabled": "e7ca56cc53d03ca75233e4e901c6456256a41752",
+        "comp-btn.on-confimatory-medium.icon-default": "5c10346747fbacfb5a502dac0cc08744236b1b54",
+        "comp-btn.on-confimatory-medium.icon-disabled": "6755dd0f67537c83e7e65827653d35edf22d8292",
+        "comp-btn.on-confimatory-medium.surface-enabled": "ce74e519ab6938fc8c58bf8800732691437a62ef",
+        "comp-btn.on-confimatory-medium.surface-hover": "f407bccadd8e33d437896ef3eed5501b118cd0b5",
+        "comp-btn.on-confimatory-medium.surface-focused": "3f908ca5a8fe04e887ea311f8451322368e50103",
+        "comp-btn.on-confimatory-medium.surface-pressed": "78ff9df107d304ca5a534dbca9ea22fcde4475fb",
+        "comp-btn.on-confimatory-medium.surface-selected": "695695629e8ff72ec75ca7648ebb681e8fda4159",
+        "comp-btn.on-confimatory-medium.surface-selected:hover": "6af6e989144926871a25dfc310e3c96e8ef8773b",
+        "comp-btn.on-confimatory-medium.surface-disabled": "c042eac28daffb7758ff91961c14358cbdb65a4c",
+        "comp-btn.on-confimatory-medium.border-enabled": "e98b03fb2b12072664a2fa7068ce9e68998c430f",
+        "comp-btn.on-confimatory-medium.border-hover": "587c1171784998608f30e805cd5cae49c681d6c2",
+        "comp-btn.on-confimatory-medium.border-focused": "de13dc645e3b3d925ac26d1469c793c6dfc50562",
+        "comp-btn.on-confimatory-medium.border-pressed": "ab1a51d972ae9cf79c320ba2d65d1dcf0d415a10",
+        "comp-btn.on-confimatory-medium.border-selected": "53e211e2b2b202662d6526af393a17a51d487256",
+        "comp-btn.on-confimatory-medium.border-selected:hover": "9b25e231c4517003da3311b54cd04b1fd014b4be",
+        "comp-btn.on-confimatory-medium.border-selected-strong": "25c97202168dbddf5614a88d32da99ceabd578d0",
+        "comp-btn.on-confimatory-medium.border-selected-strong:hover": "03e8a79ae7e450191685f6c9454a719700c81928",
+        "comp-btn.on-confimatory-medium.border-disabled": "8771771fe6d69ed929ac334e95d26cfebaf0f864",
+        "comp-btn.on-destructive-low.text-default": "74520ee6409e9327d7c65e0d5e7393b58e1693ec",
+        "comp-btn.on-destructive-low.text-disabled": "b1cd35ddcd3c29d4e1578c2b9dfd63eda0125fbc",
+        "comp-btn.on-destructive-low.icon-disabled": "dc47b85e40be512c764818a28da37807525fe442",
+        "comp-btn.on-destructive-low.icon-default": "b3908dc25c0cc6655f8caeb7cda5f612ac5f722f",
+        "comp-btn.on-destructive-low.surface-enabled": "63585b5ef8ac3945e4e5e80b56c2676b957057ed",
+        "comp-btn.on-destructive-low.surface-transparent": "6a4322331f4ee4badfff001b8cea1c7d519087b0",
+        "comp-btn.on-destructive-low.surface-hover": "f4615225b1e558d046d5d1da374c77906fb51faa",
+        "comp-btn.on-destructive-low.surface-focused": "0b17c8daf36fc75137267032efa52c0a08416aed",
+        "comp-btn.on-destructive-low.surface-pressed": "3d0bb09a1e47eb47cf7e49610ec9ecc007ce0bc9",
+        "comp-btn.on-destructive-low.surface-disabled": "2b7c46806d023f227bca6a5624e68301f97810b7",
+        "comp-btn.on-destructive-low.border-enabled": "39c257dc655f0088cf513464a1bfe1e37ab7c981",
+        "comp-btn.on-destructive-low.border-transparent": "660ff1992cd70bd487666d285cc9e989b7908435",
+        "comp-btn.on-destructive-low.border-hover": "619f5b7ae8ebcfba8c4ac41149eba20497a84b0f",
+        "comp-btn.on-destructive-low.border-focused": "99704d1c16c6e5aff0472345144ee414c1764786",
+        "comp-btn.on-destructive-low.border-pressed": "a5cc433bfd2566e4be8880221b44044acfc78650",
+        "comp-btn.on-destructive-low.border-disabled": "95893ecdec4efca34938858a71002c9cd554986e",
+        "comp-btn.on-destructive-medium.text-default": "0b45eabf94a1c6eda4b60b829fef92decd7fce07",
+        "comp-btn.on-destructive-medium.text-disabled": "9f92da6b1d4a6908f2ec2f514c1bf5c2c4a1eb96",
+        "comp-btn.on-destructive-medium.icon-default": "d9cd20279a7e34bf4019fbfe6ce8339b0fbf2389",
+        "comp-btn.on-destructive-medium.icon-disabled": "c9dfc3788add711e68fc0ebb2f2768746675a467",
+        "comp-btn.on-destructive-medium.surface-enabled": "bab1deffc2d46a5558a228dbc3dae0b0dfa8cbad",
+        "comp-btn.on-destructive-medium.surface-transparent": "e4bd2ff10384087d106bbf481170eaa558fafc3d",
+        "comp-btn.on-destructive-medium.surface-hover": "03a1867496bf0a66dbc5ed8852359a4e71e8c219",
+        "comp-btn.on-destructive-medium.surface-focused": "44ee55c3014b94babfeca63213dcfc0749ebbb71",
+        "comp-btn.on-destructive-medium.surface-pressed": "bf2fb8f020267dca31eff9c89d607b5860184a47",
+        "comp-btn.on-destructive-medium.surface-disabled": "c589e79a9e61161f951959b0599c48dd7311281b",
+        "comp-btn.on-destructive-medium.border-enabled": "ba524b91885cba0a6a60666219b3dd494123fe6a",
+        "comp-btn.on-destructive-medium.border-transparent": "b5a3a43da64e89d14f286c61ab39d5640051079f",
+        "comp-btn.on-destructive-medium.border-hover": "336e55fd622c449822768c647cb3098dcaee7005",
+        "comp-btn.on-destructive-medium.border-focused": "fc6c3b11c27085b91dc0798143fc44cda7f02a13",
+        "comp-btn.on-destructive-medium.border-pressed": "9c3e8f6745fffdd932ea95d3c07a8582a3e3522b",
+        "comp-btn.on-destructive-medium.border-disabled": "81449bc3432c163543161f187ddd60861ade11c4",
         "comp-calendar-slot.surface-event1": "5ee0b2fdebd4f93359c0bbe179080aba3b510f71",
         "comp-calendar-slot.surface-event2": "3cb44ea216cb25f0d6fa7cfa286a2ae6a80a78f7",
         "comp-calendar-slot.surface-event3": "0ba7ade96a6fabd6e7eeeda6408f09c6c7688805",
@@ -9580,84 +9815,84 @@
         "ref-properties.shade.normal": "aeb401984082b150f84d84e56a7dda101813345f",
         "ref-properties.shade.low": "a1626138ea4048d6def20a2b226ad3d3819fe011",
         "ref-properties.tint.low": "0a1e553b5a39d46c5eb144e1e8020236dfe46272",
-        "comp-btn.on-confimatory-low-emphasis.text-default": "4c6baa8cb482a33dd012907c4edf3d6a1dabece6",
-        "comp-btn.on-confimatory-low-emphasis.text-disabled": "2eaf7d68386927ae7f23f4b06d1e7e7637beb0cf",
-        "comp-btn.on-confimatory-low-emphasis.icon-default": "5abd845e59b8fd0e18d6efe3947a0533a4564dfe",
-        "comp-btn.on-confimatory-low-emphasis.icon-disabled": "e1dd1db7adf9bb296bf994e726063b29b50827e2",
-        "comp-btn.on-confimatory-low-emphasis.surface-enabled": "28e27b97a490bfe96b16fbd8b0fd80e02a415f1d",
-        "comp-btn.on-confimatory-low-emphasis.surface-muted": "f65273c078f3deaac730686282ab7e17b016860f",
-        "comp-btn.on-confimatory-low-emphasis.surface-transparent": "cfaaa65a85083511340d21f20ffd0e3a77e2b2dd",
-        "comp-btn.on-confimatory-low-emphasis.surface-hover": "7c082d6ec038f015692e2a5a9f892a2cb36cb88d",
-        "comp-btn.on-confimatory-low-emphasis.surface-focused": "7b5e0fe08bc859cb390b7fba236560544c903e2a",
-        "comp-btn.on-confimatory-low-emphasis.surface-pressed": "f722f2b580d3f92723fe882996d863536273ccb5",
-        "comp-btn.on-confimatory-low-emphasis.surface-selected-moderate": "b4b30d4dd52f0a6b579d2d3f851ad535f65700e6",
-        "comp-btn.on-confimatory-low-emphasis.surface-selected-moderate:hover": "5194c5a92d5ee6cb87c6e8c8b11113e17b638d42",
-        "comp-btn.on-confimatory-low-emphasis.surface-selected-strong": "8b88d5149a601d74cd4018241c86ea909576ca7d",
-        "comp-btn.on-confimatory-low-emphasis.surface-selected-strong:hover": "d57b4f57a6f6e4205b23527ce86c4e5dd325f7f3",
-        "comp-btn.on-confimatory-low-emphasis.surface-disabled": "153ca3b3727f30eda9767cc12b07f51470a51767",
-        "comp-btn.on-confimatory-low-emphasis.border-enabled": "da6c3961c0e2d10326dc891ec47fa7678f34d02e",
-        "comp-btn.on-confimatory-low-emphasis.border-muted": "71ba1dd0f301879d7e5893d791f20babfe21724e",
-        "comp-btn.on-confimatory-low-emphasis.border-transparent": "9d1722e064b55e9796908b66fa650e623b3982a4",
-        "comp-btn.on-confimatory-low-emphasis.border-hover": "c21043e0f7bdbda347671f05a92f6357020a6b26",
-        "comp-btn.on-confimatory-low-emphasis.border-focused": "b97428eb179e48d6c9b389ae471d5df96ea58aea",
-        "comp-btn.on-confimatory-low-emphasis.border-pressed": "679bdbef0d06bee3c30f1a8c303c55aa8e7e4859",
-        "comp-btn.on-confimatory-low-emphasis.border-selected-moderate": "e1383bace292d9d342d0f3ee6044558b738ce94b",
-        "comp-btn.on-confimatory-low-emphasis.border-selected-moderate:hover": "341d6d93151a9b1662a764155145e253dec8fb73",
-        "comp-btn.on-confimatory-low-emphasis.border-selected-strong": "d3d7e5a22b4f21f413749e13cfe6b1a83d73b8b6",
-        "comp-btn.on-confimatory-low-emphasis.border-selected-strong:hover": "92010409332cadca6565ea293d2140b4daf0a9ad",
-        "comp-btn.on-confimatory-low-emphasis.border-disabled": "f8f857b9a08cb6681503e1ecfc28913b11036e64",
-        "comp-btn.on-confimatory-medium-emphasis.text-default": "e6ca16b6822663f7739962f8e24f349dbb93009e",
-        "comp-btn.on-confimatory-medium-emphasis.text-disabled": "e7ca56cc53d03ca75233e4e901c6456256a41752",
-        "comp-btn.on-confimatory-medium-emphasis.icon-default": "5c10346747fbacfb5a502dac0cc08744236b1b54",
-        "comp-btn.on-confimatory-medium-emphasis.icon-disabled": "6755dd0f67537c83e7e65827653d35edf22d8292",
-        "comp-btn.on-confimatory-medium-emphasis.surface-enabled": "ce74e519ab6938fc8c58bf8800732691437a62ef",
-        "comp-btn.on-confimatory-medium-emphasis.surface-hover": "f407bccadd8e33d437896ef3eed5501b118cd0b5",
-        "comp-btn.on-confimatory-medium-emphasis.surface-focused": "3f908ca5a8fe04e887ea311f8451322368e50103",
-        "comp-btn.on-confimatory-medium-emphasis.surface-pressed": "78ff9df107d304ca5a534dbca9ea22fcde4475fb",
-        "comp-btn.on-confimatory-medium-emphasis.surface-selected": "695695629e8ff72ec75ca7648ebb681e8fda4159",
-        "comp-btn.on-confimatory-medium-emphasis.surface-selected:hover": "6af6e989144926871a25dfc310e3c96e8ef8773b",
-        "comp-btn.on-confimatory-medium-emphasis.surface-disabled": "c042eac28daffb7758ff91961c14358cbdb65a4c",
-        "comp-btn.on-confimatory-medium-emphasis.border-enabled": "e98b03fb2b12072664a2fa7068ce9e68998c430f",
-        "comp-btn.on-confimatory-medium-emphasis.border-hover": "587c1171784998608f30e805cd5cae49c681d6c2",
-        "comp-btn.on-confimatory-medium-emphasis.border-focused": "de13dc645e3b3d925ac26d1469c793c6dfc50562",
-        "comp-btn.on-confimatory-medium-emphasis.border-pressed": "ab1a51d972ae9cf79c320ba2d65d1dcf0d415a10",
-        "comp-btn.on-confimatory-medium-emphasis.border-selected": "53e211e2b2b202662d6526af393a17a51d487256",
-        "comp-btn.on-confimatory-medium-emphasis.border-selected:hover": "9b25e231c4517003da3311b54cd04b1fd014b4be",
-        "comp-btn.on-confimatory-medium-emphasis.border-selected-strong": "25c97202168dbddf5614a88d32da99ceabd578d0",
-        "comp-btn.on-confimatory-medium-emphasis.border-selected-strong:hover": "03e8a79ae7e450191685f6c9454a719700c81928",
-        "comp-btn.on-confimatory-medium-emphasis.border-disabled": "8771771fe6d69ed929ac334e95d26cfebaf0f864",
-        "comp-btn.on-destructive-low-emphasis.text-default": "74520ee6409e9327d7c65e0d5e7393b58e1693ec",
-        "comp-btn.on-destructive-low-emphasis.text-disabled": "b1cd35ddcd3c29d4e1578c2b9dfd63eda0125fbc",
-        "comp-btn.on-destructive-low-emphasis.icon-default": "b3908dc25c0cc6655f8caeb7cda5f612ac5f722f",
-        "comp-btn.on-destructive-low-emphasis.icon-disabled": "dc47b85e40be512c764818a28da37807525fe442",
-        "comp-btn.on-destructive-low-emphasis.surface-enabled": "63585b5ef8ac3945e4e5e80b56c2676b957057ed",
-        "comp-btn.on-destructive-low-emphasis.surface-transparent": "6a4322331f4ee4badfff001b8cea1c7d519087b0",
-        "comp-btn.on-destructive-low-emphasis.surface-hover": "f4615225b1e558d046d5d1da374c77906fb51faa",
-        "comp-btn.on-destructive-low-emphasis.surface-focused": "0b17c8daf36fc75137267032efa52c0a08416aed",
-        "comp-btn.on-destructive-low-emphasis.surface-pressed": "3d0bb09a1e47eb47cf7e49610ec9ecc007ce0bc9",
-        "comp-btn.on-destructive-low-emphasis.surface-disabled": "2b7c46806d023f227bca6a5624e68301f97810b7",
-        "comp-btn.on-destructive-low-emphasis.border-enabled": "39c257dc655f0088cf513464a1bfe1e37ab7c981",
-        "comp-btn.on-destructive-low-emphasis.border-transparent": "660ff1992cd70bd487666d285cc9e989b7908435",
-        "comp-btn.on-destructive-low-emphasis.border-hover": "619f5b7ae8ebcfba8c4ac41149eba20497a84b0f",
-        "comp-btn.on-destructive-low-emphasis.border-focused": "99704d1c16c6e5aff0472345144ee414c1764786",
-        "comp-btn.on-destructive-low-emphasis.border-pressed": "a5cc433bfd2566e4be8880221b44044acfc78650",
-        "comp-btn.on-destructive-low-emphasis.border-disabled": "95893ecdec4efca34938858a71002c9cd554986e",
-        "comp-btn.on-destructive-medium-emphasis.text-default": "0b45eabf94a1c6eda4b60b829fef92decd7fce07",
-        "comp-btn.on-destructive-medium-emphasis.text-disabled": "9f92da6b1d4a6908f2ec2f514c1bf5c2c4a1eb96",
-        "comp-btn.on-destructive-medium-emphasis.icon-default": "d9cd20279a7e34bf4019fbfe6ce8339b0fbf2389",
-        "comp-btn.on-destructive-medium-emphasis.icon-disabled": "c9dfc3788add711e68fc0ebb2f2768746675a467",
-        "comp-btn.on-destructive-medium-emphasis.surface-enabled": "bab1deffc2d46a5558a228dbc3dae0b0dfa8cbad",
-        "comp-btn.on-destructive-medium-emphasis.surface-transparent": "e4bd2ff10384087d106bbf481170eaa558fafc3d",
-        "comp-btn.on-destructive-medium-emphasis.surface-hover": "03a1867496bf0a66dbc5ed8852359a4e71e8c219",
-        "comp-btn.on-destructive-medium-emphasis.surface-focused": "44ee55c3014b94babfeca63213dcfc0749ebbb71",
-        "comp-btn.on-destructive-medium-emphasis.surface-pressed": "bf2fb8f020267dca31eff9c89d607b5860184a47",
-        "comp-btn.on-destructive-medium-emphasis.surface-disabled": "c589e79a9e61161f951959b0599c48dd7311281b",
-        "comp-btn.on-destructive-medium-emphasis.border-enabled": "ba524b91885cba0a6a60666219b3dd494123fe6a",
-        "comp-btn.on-destructive-medium-emphasis.border-transparent": "b5a3a43da64e89d14f286c61ab39d5640051079f",
-        "comp-btn.on-destructive-medium-emphasis.border-hover": "336e55fd622c449822768c647cb3098dcaee7005",
-        "comp-btn.on-destructive-medium-emphasis.border-focused": "fc6c3b11c27085b91dc0798143fc44cda7f02a13",
-        "comp-btn.on-destructive-medium-emphasis.border-pressed": "9c3e8f6745fffdd932ea95d3c07a8582a3e3522b",
-        "comp-btn.on-destructive-medium-emphasis.border-disabled": "81449bc3432c163543161f187ddd60861ade11c4",
+        "comp-btn.on-confimatory-low.text-default": "4c6baa8cb482a33dd012907c4edf3d6a1dabece6",
+        "comp-btn.on-confimatory-low.text-disabled": "2eaf7d68386927ae7f23f4b06d1e7e7637beb0cf",
+        "comp-btn.on-confimatory-low.icon-default": "5abd845e59b8fd0e18d6efe3947a0533a4564dfe",
+        "comp-btn.on-confimatory-low.icon-disabled": "e1dd1db7adf9bb296bf994e726063b29b50827e2",
+        "comp-btn.on-confimatory-low.surface-enabled": "28e27b97a490bfe96b16fbd8b0fd80e02a415f1d",
+        "comp-btn.on-confimatory-low.surface-muted": "f65273c078f3deaac730686282ab7e17b016860f",
+        "comp-btn.on-confimatory-low.surface-transparent": "cfaaa65a85083511340d21f20ffd0e3a77e2b2dd",
+        "comp-btn.on-confimatory-low.surface-hover": "7c082d6ec038f015692e2a5a9f892a2cb36cb88d",
+        "comp-btn.on-confimatory-low.surface-focused": "7b5e0fe08bc859cb390b7fba236560544c903e2a",
+        "comp-btn.on-confimatory-low.surface-pressed": "f722f2b580d3f92723fe882996d863536273ccb5",
+        "comp-btn.on-confimatory-low.surface-selected-moderate": "b4b30d4dd52f0a6b579d2d3f851ad535f65700e6",
+        "comp-btn.on-confimatory-low.surface-selected-moderate:hover": "5194c5a92d5ee6cb87c6e8c8b11113e17b638d42",
+        "comp-btn.on-confimatory-low.surface-selected-strong": "8b88d5149a601d74cd4018241c86ea909576ca7d",
+        "comp-btn.on-confimatory-low.surface-selected-strong:hover": "d57b4f57a6f6e4205b23527ce86c4e5dd325f7f3",
+        "comp-btn.on-confimatory-low.surface-disabled": "153ca3b3727f30eda9767cc12b07f51470a51767",
+        "comp-btn.on-confimatory-low.border-enabled": "da6c3961c0e2d10326dc891ec47fa7678f34d02e",
+        "comp-btn.on-confimatory-low.border-muted": "71ba1dd0f301879d7e5893d791f20babfe21724e",
+        "comp-btn.on-confimatory-low.border-transparent": "9d1722e064b55e9796908b66fa650e623b3982a4",
+        "comp-btn.on-confimatory-low.border-hover": "c21043e0f7bdbda347671f05a92f6357020a6b26",
+        "comp-btn.on-confimatory-low.border-focused": "b97428eb179e48d6c9b389ae471d5df96ea58aea",
+        "comp-btn.on-confimatory-low.border-pressed": "679bdbef0d06bee3c30f1a8c303c55aa8e7e4859",
+        "comp-btn.on-confimatory-low.border-selected-moderate": "e1383bace292d9d342d0f3ee6044558b738ce94b",
+        "comp-btn.on-confimatory-low.border-selected-moderate:hover": "341d6d93151a9b1662a764155145e253dec8fb73",
+        "comp-btn.on-confimatory-low.border-selected-strong": "d3d7e5a22b4f21f413749e13cfe6b1a83d73b8b6",
+        "comp-btn.on-confimatory-low.border-selected-strong:hover": "92010409332cadca6565ea293d2140b4daf0a9ad",
+        "comp-btn.on-confimatory-low.border-disabled": "f8f857b9a08cb6681503e1ecfc28913b11036e64",
+        "comp-btn.on-confimatory-medium.text-default": "e6ca16b6822663f7739962f8e24f349dbb93009e",
+        "comp-btn.on-confimatory-medium.text-disabled": "e7ca56cc53d03ca75233e4e901c6456256a41752",
+        "comp-btn.on-confimatory-medium.icon-default": "5c10346747fbacfb5a502dac0cc08744236b1b54",
+        "comp-btn.on-confimatory-medium.icon-disabled": "6755dd0f67537c83e7e65827653d35edf22d8292",
+        "comp-btn.on-confimatory-medium.surface-enabled": "ce74e519ab6938fc8c58bf8800732691437a62ef",
+        "comp-btn.on-confimatory-medium.surface-hover": "f407bccadd8e33d437896ef3eed5501b118cd0b5",
+        "comp-btn.on-confimatory-medium.surface-focused": "3f908ca5a8fe04e887ea311f8451322368e50103",
+        "comp-btn.on-confimatory-medium.surface-pressed": "78ff9df107d304ca5a534dbca9ea22fcde4475fb",
+        "comp-btn.on-confimatory-medium.surface-selected": "695695629e8ff72ec75ca7648ebb681e8fda4159",
+        "comp-btn.on-confimatory-medium.surface-selected:hover": "6af6e989144926871a25dfc310e3c96e8ef8773b",
+        "comp-btn.on-confimatory-medium.surface-disabled": "c042eac28daffb7758ff91961c14358cbdb65a4c",
+        "comp-btn.on-confimatory-medium.border-enabled": "e98b03fb2b12072664a2fa7068ce9e68998c430f",
+        "comp-btn.on-confimatory-medium.border-hover": "587c1171784998608f30e805cd5cae49c681d6c2",
+        "comp-btn.on-confimatory-medium.border-focused": "de13dc645e3b3d925ac26d1469c793c6dfc50562",
+        "comp-btn.on-confimatory-medium.border-pressed": "ab1a51d972ae9cf79c320ba2d65d1dcf0d415a10",
+        "comp-btn.on-confimatory-medium.border-selected": "53e211e2b2b202662d6526af393a17a51d487256",
+        "comp-btn.on-confimatory-medium.border-selected:hover": "9b25e231c4517003da3311b54cd04b1fd014b4be",
+        "comp-btn.on-confimatory-medium.border-selected-strong": "25c97202168dbddf5614a88d32da99ceabd578d0",
+        "comp-btn.on-confimatory-medium.border-selected-strong:hover": "03e8a79ae7e450191685f6c9454a719700c81928",
+        "comp-btn.on-confimatory-medium.border-disabled": "8771771fe6d69ed929ac334e95d26cfebaf0f864",
+        "comp-btn.on-destructive-low.text-default": "74520ee6409e9327d7c65e0d5e7393b58e1693ec",
+        "comp-btn.on-destructive-low.text-disabled": "b1cd35ddcd3c29d4e1578c2b9dfd63eda0125fbc",
+        "comp-btn.on-destructive-low.icon-default": "b3908dc25c0cc6655f8caeb7cda5f612ac5f722f",
+        "comp-btn.on-destructive-low.icon-disabled": "dc47b85e40be512c764818a28da37807525fe442",
+        "comp-btn.on-destructive-low.surface-enabled": "63585b5ef8ac3945e4e5e80b56c2676b957057ed",
+        "comp-btn.on-destructive-low.surface-transparent": "6a4322331f4ee4badfff001b8cea1c7d519087b0",
+        "comp-btn.on-destructive-low.surface-hover": "f4615225b1e558d046d5d1da374c77906fb51faa",
+        "comp-btn.on-destructive-low.surface-focused": "0b17c8daf36fc75137267032efa52c0a08416aed",
+        "comp-btn.on-destructive-low.surface-pressed": "3d0bb09a1e47eb47cf7e49610ec9ecc007ce0bc9",
+        "comp-btn.on-destructive-low.surface-disabled": "2b7c46806d023f227bca6a5624e68301f97810b7",
+        "comp-btn.on-destructive-low.border-enabled": "39c257dc655f0088cf513464a1bfe1e37ab7c981",
+        "comp-btn.on-destructive-low.border-transparent": "660ff1992cd70bd487666d285cc9e989b7908435",
+        "comp-btn.on-destructive-low.border-hover": "619f5b7ae8ebcfba8c4ac41149eba20497a84b0f",
+        "comp-btn.on-destructive-low.border-focused": "99704d1c16c6e5aff0472345144ee414c1764786",
+        "comp-btn.on-destructive-low.border-pressed": "a5cc433bfd2566e4be8880221b44044acfc78650",
+        "comp-btn.on-destructive-low.border-disabled": "95893ecdec4efca34938858a71002c9cd554986e",
+        "comp-btn.on-destructive-medium.text-default": "0b45eabf94a1c6eda4b60b829fef92decd7fce07",
+        "comp-btn.on-destructive-medium.text-disabled": "9f92da6b1d4a6908f2ec2f514c1bf5c2c4a1eb96",
+        "comp-btn.on-destructive-medium.icon-default": "d9cd20279a7e34bf4019fbfe6ce8339b0fbf2389",
+        "comp-btn.on-destructive-medium.icon-disabled": "c9dfc3788add711e68fc0ebb2f2768746675a467",
+        "comp-btn.on-destructive-medium.surface-enabled": "bab1deffc2d46a5558a228dbc3dae0b0dfa8cbad",
+        "comp-btn.on-destructive-medium.surface-transparent": "e4bd2ff10384087d106bbf481170eaa558fafc3d",
+        "comp-btn.on-destructive-medium.surface-hover": "03a1867496bf0a66dbc5ed8852359a4e71e8c219",
+        "comp-btn.on-destructive-medium.surface-focused": "44ee55c3014b94babfeca63213dcfc0749ebbb71",
+        "comp-btn.on-destructive-medium.surface-pressed": "bf2fb8f020267dca31eff9c89d607b5860184a47",
+        "comp-btn.on-destructive-medium.surface-disabled": "c589e79a9e61161f951959b0599c48dd7311281b",
+        "comp-btn.on-destructive-medium.border-enabled": "ba524b91885cba0a6a60666219b3dd494123fe6a",
+        "comp-btn.on-destructive-medium.border-transparent": "b5a3a43da64e89d14f286c61ab39d5640051079f",
+        "comp-btn.on-destructive-medium.border-hover": "336e55fd622c449822768c647cb3098dcaee7005",
+        "comp-btn.on-destructive-medium.border-focused": "fc6c3b11c27085b91dc0798143fc44cda7f02a13",
+        "comp-btn.on-destructive-medium.border-pressed": "9c3e8f6745fffdd932ea95d3c07a8582a3e3522b",
+        "comp-btn.on-destructive-medium.border-disabled": "81449bc3432c163543161f187ddd60861ade11c4",
         "comp-calendar-slot.surface-event1": "5ee0b2fdebd4f93359c0bbe179080aba3b510f71",
         "comp-calendar-slot.surface-event2": "3cb44ea216cb25f0d6fa7cfa286a2ae6a80a78f7",
         "comp-calendar-slot.surface-event3": "0ba7ade96a6fabd6e7eeeda6408f09c6c7688805",
