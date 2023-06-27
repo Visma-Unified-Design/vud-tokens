@@ -1,6 +1,6 @@
 {
   "global": {
-    "radii": {
+    "radius": {
       "none": {
         "value": "0",
         "type": "borderRadius"
@@ -10,15 +10,15 @@
         "type": "borderRadius"
       },
       "s": {
-        "value": "{radii.xs}*4",
+        "value": "{radius.xs}*4",
         "type": "borderRadius"
       },
       "md": {
-        "value": "{radii.xs}*8",
+        "value": "{radius.xs}*8",
         "type": "borderRadius"
       },
       "lg": {
-        "value": "{radii.xs}*12",
+        "value": "{radius.xs}*12",
         "type": "borderRadius"
       },
       "xl": {
@@ -8440,98 +8440,58 @@
     }
   },
   "round": {
-    "space": {
-      "0": {
-        "value": "0",
-        "type": "spacing"
+    "radii": {
+      "none": {
+        "value": "{radius.none}",
+        "type": "borderRadius"
       },
-      "1": {
-        "value": "{spacing.2}",
-        "type": "spacing"
+      "xs": {
+        "value": "{radius.xs}",
+        "type": "borderRadius"
       },
-      "2": {
-        "value": "{spacing.4}",
-        "type": "spacing"
+      "s": {
+        "value": "{radius.s}",
+        "type": "borderRadius"
       },
-      "3": {
-        "value": "{spacing.8}",
-        "type": "spacing"
+      "md": {
+        "value": "{radius.md}",
+        "type": "borderRadius"
       },
-      "4": {
-        "value": "{spacing.12}",
-        "type": "spacing"
+      "lg": {
+        "value": "{radius.lg}",
+        "type": "borderRadius"
       },
-      "5": {
-        "value": "{spacing.16}",
-        "type": "spacing"
-      },
-      "6": {
-        "value": "{spacing.24}",
-        "type": "spacing"
-      },
-      "7": {
-        "value": "{spacing.32}",
-        "type": "spacing"
-      },
-      "8": {
-        "value": "{spacing.40}",
-        "type": "spacing"
-      },
-      "9": {
-        "value": "{spacing.48}",
-        "type": "spacing"
-      },
-      "10": {
-        "value": "{spacing.64}",
-        "type": "spacing"
+      "xl": {
+        "value": "{radius.xl}",
+        "type": "borderRadius"
       }
     }
   },
   "sharp": {
-    "space": {
-      "0": {
-        "value": "0",
-        "type": "spacing"
+    "radii": {
+      "none": {
+        "value": "{radius.none}",
+        "type": "borderRadius"
       },
-      "1": {
-        "value": "0",
-        "type": "spacing"
+      "xs": {
+        "value": "{radius.none}",
+        "type": "borderRadius"
       },
-      "2": {
-        "value": "0",
-        "type": "spacing"
+      "s": {
+        "value": "{radius.none}",
+        "type": "borderRadius"
       },
-      "3": {
-        "value": "0",
-        "type": "spacing"
+      "md": {
+        "value": "{radius.none}",
+        "type": "borderRadius"
       },
-      "4": {
-        "value": "0",
-        "type": "spacing"
+      "lg": {
+        "value": "{radius.none}",
+        "type": "borderRadius"
       },
-      "5": {
-        "value": "0",
-        "type": "spacing"
-      },
-      "6": {
-        "value": "0",
-        "type": "spacing"
-      },
-      "7": {
-        "value": "0",
-        "type": "spacing"
-      },
-      "8": {
-        "value": "0",
-        "type": "spacing"
-      },
-      "9": {
-        "value": "0",
-        "type": "spacing"
-      },
-      "10": {
-        "value": "0",
-        "type": "spacing"
+      "xl": {
+        "value": "{radius.none}",
+        "type": "borderRadius"
       }
     }
   },
@@ -8542,9 +8502,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "light": "enabled",
-        "global": "enabled",
-        "round": "disabled",
-        "sharp": "disabled"
+        "global": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:152:5558",
       "$figmaModeId": "152:12",
@@ -9416,9 +9374,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "dark": "enabled",
-        "global": "enabled",
-        "round": "disabled",
-        "sharp": "disabled"
+        "global": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:152:5558",
       "$figmaModeId": "152:13",
