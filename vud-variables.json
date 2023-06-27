@@ -3191,7 +3191,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "text-mandatory": {
-        "value": "{ref-properties.text.error-low}",
+        "value": "{ref-properties.text.error}",
         "type": "color",
         "description": "Mandatory text refers to text or information that is required in a particular context. "
       },
@@ -3435,7 +3435,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "text-error": {
-        "value": "{ref-properties.text.error-low}",
+        "value": "{ref-properties.text.error}",
         "type": "color",
         "description": "Mandatory text refers to text or information that is required in a particular context. "
       },
@@ -4613,7 +4613,7 @@
     },
     "comp-situation": {
       "functional-text-error": {
-        "value": "{ref-properties.text.error-low}",
+        "value": "{ref-properties.text.error}",
         "type": "color",
         "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
       },
@@ -4849,7 +4849,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "text-error": {
-        "value": "{ref-properties.text.error-low}",
+        "value": "{ref-properties.text.error}",
         "type": "color",
         "description": "Mandatory text refers to text or information that is required in a particular context. "
       },
