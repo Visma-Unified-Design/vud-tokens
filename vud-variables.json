@@ -2403,7 +2403,7 @@
       }
     },
     "comp-btn": {
-      "on-confimatory-low-emphasis": {
+      "on-confimatory-low": {
         "text-default": {
           "value": "{ref-properties.text.default}",
           "type": "color",
@@ -2535,7 +2535,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
-      "on-confimatory-medium-emphasis": {
+      "on-confimatory-medium": {
         "text-default": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
@@ -2637,7 +2637,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
-      "on-destructive-low-emphasis": {
+      "on-destructive-low": {
         "text-default": {
           "value": "{ref-properties.text.error}",
           "type": "color",
@@ -2719,7 +2719,7 @@
           "description": "Border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
-      "on-destructive-medium-emphasis": {
+      "on-destructive-medium": {
         "text-default": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
@@ -3124,7 +3124,7 @@
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "surface-error": {
-        "value": "{comp-btn.on-destructive-low-emphasis.surface-enabled}",
+        "value": "{comp-btn.on-destructive-low.surface-enabled}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
@@ -3251,7 +3251,7 @@
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "surface-error": {
-        "value": "{comp-btn.on-destructive-low-emphasis.surface-enabled}",
+        "value": "{comp-btn.on-destructive-low.surface-enabled}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
@@ -3301,7 +3301,7 @@
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "border-error": {
-        "value": "{comp-btn.on-destructive-low-emphasis.border-enabled}",
+        "value": "{comp-btn.on-destructive-low.border-enabled}",
         "type": "color",
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       }
@@ -3504,12 +3504,12 @@
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "surface-error": {
-        "value": "{comp-btn.on-destructive-low-emphasis.surface-transparent}",
+        "value": "{comp-btn.on-destructive-low.surface-transparent}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
       "surface-error:hover": {
-        "value": "{comp-btn.on-destructive-low-emphasis.surface-hover}",
+        "value": "{comp-btn.on-destructive-low.surface-hover}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
@@ -3559,7 +3559,7 @@
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "border-error": {
-        "value": "{comp-btn.on-destructive-low-emphasis.border-enabled}",
+        "value": "{comp-btn.on-destructive-low.border-enabled}",
         "type": "color",
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       }
@@ -4909,12 +4909,12 @@
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "surface-error": {
-        "value": "{comp-btn.on-destructive-low-emphasis.surface-transparent}",
+        "value": "{comp-btn.on-destructive-low.surface-transparent}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
       "surface-error:hover": {
-        "value": "{comp-btn.on-destructive-low-emphasis.surface-hover}",
+        "value": "{comp-btn.on-destructive-low.surface-hover}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
@@ -4964,7 +4964,7 @@
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "border-error": {
-        "value": "{comp-btn.on-destructive-low-emphasis.border-enabled}",
+        "value": "{comp-btn.on-destructive-low.border-enabled}",
         "type": "color",
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       }
@@ -5816,7 +5816,7 @@
       }
     },
     "comp-btn": {
-      "on-confimatory-low-emphasis": {
+      "on-confimatory-low": {
         "text-default": {
           "value": "{ref-properties.text.default}",
           "type": "color",
@@ -5948,7 +5948,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
-      "on-confimatory-medium-emphasis": {
+      "on-confimatory-medium": {
         "text-default": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
@@ -6050,7 +6050,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
-      "on-destructive-low-emphasis": {
+      "on-destructive-low": {
         "text-default": {
           "value": "{ref-properties.text.error-medium}",
           "type": "color",
@@ -6132,7 +6132,7 @@
           "description": "Border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
-      "on-destructive-medium-emphasis": {
+      "on-destructive-medium": {
         "text-default": {
           "value": "{ref-properties.text.error}",
           "type": "color",
@@ -6537,7 +6537,7 @@
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "surface-error": {
-        "value": "{comp-btn.on-destructive-low-emphasis.surface-enabled}",
+        "value": "{comp-btn.on-destructive-low.surface-enabled}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
@@ -6664,7 +6664,7 @@
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "surface-error": {
-        "value": "{comp-btn.on-destructive-low-emphasis.surface-enabled}",
+        "value": "{comp-btn.on-destructive-low.surface-enabled}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
@@ -6714,7 +6714,7 @@
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "border-error": {
-        "value": "{comp-btn.on-destructive-low-emphasis.border-enabled}",
+        "value": "{comp-btn.on-destructive-low.border-enabled}",
         "type": "color",
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       }
@@ -6917,12 +6917,12 @@
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "surface-error": {
-        "value": "{comp-btn.on-destructive-low-emphasis.surface-transparent}",
+        "value": "{comp-btn.on-destructive-low.surface-transparent}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
       "surface-error:hover": {
-        "value": "{comp-btn.on-destructive-low-emphasis.surface-hover}",
+        "value": "{comp-btn.on-destructive-low.surface-hover}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
@@ -6972,7 +6972,7 @@
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "border-error": {
-        "value": "{comp-btn.on-destructive-low-emphasis.border-enabled}",
+        "value": "{comp-btn.on-destructive-low.border-enabled}",
         "type": "color",
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       }
@@ -8322,12 +8322,12 @@
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "surface-error": {
-        "value": "{comp-btn.on-destructive-low-emphasis.surface-transparent}",
+        "value": "{comp-btn.on-destructive-low.surface-transparent}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
       "surface-error:hover": {
-        "value": "{comp-btn.on-destructive-low-emphasis.surface-hover}",
+        "value": "{comp-btn.on-destructive-low.surface-hover}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
@@ -8377,7 +8377,7 @@
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "border-error": {
-        "value": "{comp-btn.on-destructive-low-emphasis.border-enabled}",
+        "value": "{comp-btn.on-destructive-low.border-enabled}",
         "type": "color",
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       }
@@ -9401,7 +9401,7 @@
         "ref-properties.text.emphasized": "9ff02fcd261f01490ec2d39efad942892a3e5bec",
         "ref-properties.text.links": "ea08e0a4bae06de3a11cef47c4d6e86f003cab7a",
         "ref-properties.text.visited": "82d37fd5d56974c7b712691d8986617770b3931a",
-        "ref-properties.text.error-low": "c14906e75d6095a4747da627822032b0d6cdd65d",
+        "ref-properties.text.error": "5b514a851a432fa43859885b53e03bedfc776a0f",
         "ref-properties.text.error-medium": "3c5d98fb2cb907a36f24274bf63f4a85bcc30f73",
         "ref-properties.text.warning": "2b5a99678e74b561cf7d9d0ceb290a8e1aae043d",
         "ref-properties.text.succes": "81d21384136b4289b418198824d4b6e3df75b17b",
