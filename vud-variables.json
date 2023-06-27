@@ -8470,27 +8470,27 @@
   "sharp": {
     "radii": {
       "none": {
-        "value": "{radius.none}",
+        "value": "{radius.xs}",
         "type": "borderRadius"
       },
       "xs": {
-        "value": "{radius.none}",
+        "value": "{radius.xs}",
         "type": "borderRadius"
       },
       "s": {
-        "value": "{radius.none}",
+        "value": "{radius.xs}",
         "type": "borderRadius"
       },
       "md": {
-        "value": "{radius.none}",
+        "value": "{radius.xs}",
         "type": "borderRadius"
       },
       "lg": {
-        "value": "{radius.none}",
+        "value": "{radius.xs}",
         "type": "borderRadius"
       },
       "xl": {
-        "value": "{radius.none}",
+        "value": "{radius.xs}",
         "type": "borderRadius"
       }
     }
