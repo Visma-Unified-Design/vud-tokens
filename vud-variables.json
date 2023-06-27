@@ -2716,7 +2716,7 @@
       },
       "on-destructive-normal-emphasize": {
         "text-default": {
-          "value": "{ref-properties.text.error}",
+          "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
