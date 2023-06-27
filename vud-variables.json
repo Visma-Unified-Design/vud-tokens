@@ -2639,7 +2639,7 @@
       },
       "on-destructive-low-emphasize": {
         "text-default": {
-          "value": "{ref-properties.text.error}",
+          "value": "{ref-properties.text.error-low}",
           "type": "color",
           "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
@@ -3191,7 +3191,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "text-mandatory": {
-        "value": "{ref-properties.text.error}",
+        "value": "{ref-properties.text.error-low}",
         "type": "color",
         "description": "Mandatory text refers to text or information that is required in a particular context. "
       },
@@ -3435,7 +3435,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "text-error": {
-        "value": "{ref-properties.text.error}",
+        "value": "{ref-properties.text.error-low}",
         "type": "color",
         "description": "Mandatory text refers to text or information that is required in a particular context. "
       },
@@ -4613,7 +4613,7 @@
     },
     "comp-situation": {
       "functional-text-error": {
-        "value": "{ref-properties.text.error}",
+        "value": "{ref-properties.text.error-low}",
         "type": "color",
         "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
       },
@@ -4849,7 +4849,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "text-error": {
-        "value": "{ref-properties.text.error}",
+        "value": "{ref-properties.text.error-low}",
         "type": "color",
         "description": "Mandatory text refers to text or information that is required in a particular context. "
       },
@@ -5074,8 +5074,13 @@
           "type": "color",
           "description": "Visited link\" refers to a hyperlink that has been previously clicked or accessed."
         },
-        "error": {
+        "error-low": {
           "value": "{vud-ref-functional.error-40}",
+          "type": "color",
+          "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
+        },
+        "error-medium": {
+          "value": "{vud-ref-functional.error-80}",
           "type": "color",
           "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
         },
@@ -6047,7 +6052,7 @@
       },
       "on-destructive-low-emphasize": {
         "text-default": {
-          "value": "{ref-properties.text.error}",
+          "value": "{ref-properties.text.error-medium}",
           "type": "color",
           "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
@@ -6055,6 +6060,11 @@
           "value": "{ref-properties.text.disabled}",
           "type": "color",
           "description": "Disabled text indicates that the particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
+        },
+        "icon-default": {
+          "value": "{ref-properties.icon.error}",
+          "type": "color",
+          "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
@@ -6124,7 +6134,7 @@
       },
       "on-destructive-normal-emphasize": {
         "text-default": {
-          "value": "{ref-properties.text.error}",
+          "value": "{ref-properties.text.error-low}",
           "type": "color",
           "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
@@ -6134,7 +6144,7 @@
           "description": "Disabled text indicates that the particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
         "icon-default": {
-          "value": "{ref-properties.icon.error}",
+          "value": "{ref-properties.text.error-low}",
           "type": "color",
           "description": "Destructive default icon represents a potentially harmful or irreversible action as the default option. This icon serves as a visual cue to convey the potential consequences of selecting or performing that action."
         },
@@ -6594,7 +6604,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "text-mandatory": {
-        "value": "{ref-properties.text.error}",
+        "value": "{ref-properties.text.error-low}",
         "type": "color",
         "description": "Mandatory text refers to text or information that is required in a particular context. "
       },
@@ -6838,7 +6848,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "text-error": {
-        "value": "{ref-properties.text.error}",
+        "value": "{ref-properties.text.error-low}",
         "type": "color",
         "description": "Mandatory text refers to text or information that is required in a particular context. "
       },
@@ -8016,7 +8026,7 @@
     },
     "comp-situation": {
       "functional-text-error": {
-        "value": "{ref-properties.text.error}",
+        "value": "{ref-properties.text.error-low}",
         "type": "color",
         "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
       },
@@ -8252,7 +8262,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "text-error": {
-        "value": "{ref-properties.text.error}",
+        "value": "{ref-properties.text.error-low}",
         "type": "color",
         "description": "Mandatory text refers to text or information that is required in a particular context. "
       },
