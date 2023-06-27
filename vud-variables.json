@@ -2639,7 +2639,7 @@
       },
       "on-destructive-low-emphasize": {
         "text-default": {
-          "value": "{ref-properties.text.error-low}",
+          "value": "{ref-properties.text.error}",
           "type": "color",
           "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
@@ -8717,6 +8717,7 @@
         "comp-btn.on-destructive-low-emphasize.text-default": "74520ee6409e9327d7c65e0d5e7393b58e1693ec",
         "comp-btn.on-destructive-low-emphasize.text-disabled": "b1cd35ddcd3c29d4e1578c2b9dfd63eda0125fbc",
         "comp-btn.on-destructive-low-emphasize.icon-disabled": "dc47b85e40be512c764818a28da37807525fe442",
+        "comp-btn.on-destructive-low-emphasize.icon-default": "b3908dc25c0cc6655f8caeb7cda5f612ac5f722f",
         "comp-btn.on-destructive-low-emphasize.surface-enabled": "63585b5ef8ac3945e4e5e80b56c2676b957057ed",
         "comp-btn.on-destructive-low-emphasize.surface-transparent": "6a4322331f4ee4badfff001b8cea1c7d519087b0",
         "comp-btn.on-destructive-low-emphasize.surface-hover": "f4615225b1e558d046d5d1da374c77906fb51faa",
@@ -9400,7 +9401,8 @@
         "ref-properties.text.emphasized": "9ff02fcd261f01490ec2d39efad942892a3e5bec",
         "ref-properties.text.links": "ea08e0a4bae06de3a11cef47c4d6e86f003cab7a",
         "ref-properties.text.visited": "82d37fd5d56974c7b712691d8986617770b3931a",
-        "ref-properties.text.error": "5b514a851a432fa43859885b53e03bedfc776a0f",
+        "ref-properties.text.error-low": "c14906e75d6095a4747da627822032b0d6cdd65d",
+        "ref-properties.text.error-medium": "3c5d98fb2cb907a36f24274bf63f4a85bcc30f73",
         "ref-properties.text.warning": "2b5a99678e74b561cf7d9d0ceb290a8e1aae043d",
         "ref-properties.text.succes": "81d21384136b4289b418198824d4b6e3df75b17b",
         "ref-properties.text.disabled": "04c3f00c947566ce079671ee80882902bbd9f1c1",
@@ -9586,6 +9588,7 @@
         "comp-btn.on-confimatory-normal-emphasize.border-disabled": "8771771fe6d69ed929ac334e95d26cfebaf0f864",
         "comp-btn.on-destructive-low-emphasize.text-default": "74520ee6409e9327d7c65e0d5e7393b58e1693ec",
         "comp-btn.on-destructive-low-emphasize.text-disabled": "b1cd35ddcd3c29d4e1578c2b9dfd63eda0125fbc",
+        "comp-btn.on-destructive-low-emphasize.icon-default": "b3908dc25c0cc6655f8caeb7cda5f612ac5f722f",
         "comp-btn.on-destructive-low-emphasize.icon-disabled": "dc47b85e40be512c764818a28da37807525fe442",
         "comp-btn.on-destructive-low-emphasize.surface-enabled": "63585b5ef8ac3945e4e5e80b56c2676b957057ed",
         "comp-btn.on-destructive-low-emphasize.surface-transparent": "6a4322331f4ee4badfff001b8cea1c7d519087b0",
