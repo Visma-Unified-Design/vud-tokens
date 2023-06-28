@@ -6039,7 +6039,7 @@
         },
         "on-screen": {
           "default": {
-            "value": "{ref-brand.neutral-dark-80}",
+            "value": "{ref-properties.fill.on-default.muted}",
             "type": "color",
             "description": "Suitable for product-based UI screens."
           }
@@ -8934,7 +8934,6 @@
         "ref-properties.fill.on-functional.warning": "d0157091f431eb1c0af2f16c1a275768422c8e2e",
         "ref-properties.fill.on-functional.error": "1a5d1bcc66e87ee9e755f02a5d96a9a6d47f5bb8",
         "ref-properties.fill.on-functional.success": "469981c1ed34fa45073ebae6c111e267dc154d09",
-        "ref-properties.fill.on-screen.default": "3ed57fadd0f968d8144144d715eaf30d736baf64",
         "ref-properties.fill.on-primary-variant.enabled": "032541e7f6e8d2e6bf6536a05daaf29168514458",
         "ref-properties.fill.on-primary-variant.hover": "1ce7b1a3f2c70e03344df3ba3164d1fef896bea1",
         "ref-properties.fill.on-primary-variant.pressed": "6b6cba44797ce29724a31afb95eb678edf348ec8",
@@ -8949,6 +8948,8 @@
         "ref-properties.fill.on-secondary-variant.selected": "eab69e9cdca7bf0a22593edb586235323462346f",
         "ref-properties.fill.on-secondary-variant.selected:hover": "6dae0d5ec13d239faba663ab96439a3def83baf3",
         "ref-properties.fill.on-secondary-variant.disabled": "953cd5bba517547135c04c23076160298f631ec2",
+        "ref-properties.fill.on-surface.default": "a353d7e7f634f49b89e1333c7b99c9b9bec6da23",
+        "ref-properties.fill.on-screen.default": "3ed57fadd0f968d8144144d715eaf30d736baf64",
         "ref-properties.shade.normal": "aeb401984082b150f84d84e56a7dda101813345f",
         "ref-properties.shade.low": "a1626138ea4048d6def20a2b226ad3d3819fe011",
         "ref-properties.tint.low": "0a1e553b5a39d46c5eb144e1e8020236dfe46272",
@@ -9165,7 +9166,6 @@
         "comp-messaging.border-selected:hover": "3d4d0cc2bc66fe0cd79974b94d37c9c4d5cdedfc",
         "comp-messaging.border-disabled": "db9aad30c3b7dbe23b205c73f4324471a6b00d8c",
         "comp-messaging.border-error": "463e9cd44daf7521cdb460492811bf3378a72597",
-        "comp-surface.surface": "df8c68b9a66e2cc5d214e4e9a541b52dc88bec14",
         "comp-nav-horizontal.default.text-default": "d8819bdd3db6abc29a59adc910fff8072092e429",
         "comp-nav-horizontal.default.text-emphasized": "92724752bf14c4ac22a5b6a2b9dfda4e14383d16",
         "comp-nav-horizontal.default.text-disabled": "aaf9fecec8314810d779e99837c90ebf219edbd2",
@@ -9809,7 +9809,6 @@
         "ref-properties.fill.on-functional.warning": "d0157091f431eb1c0af2f16c1a275768422c8e2e",
         "ref-properties.fill.on-functional.error": "1a5d1bcc66e87ee9e755f02a5d96a9a6d47f5bb8",
         "ref-properties.fill.on-functional.success": "469981c1ed34fa45073ebae6c111e267dc154d09",
-        "ref-properties.fill.on-screen.default": "3ed57fadd0f968d8144144d715eaf30d736baf64",
         "ref-properties.fill.on-primary-variant.enabled": "032541e7f6e8d2e6bf6536a05daaf29168514458",
         "ref-properties.fill.on-primary-variant.hover": "1ce7b1a3f2c70e03344df3ba3164d1fef896bea1",
         "ref-properties.fill.on-primary-variant.pressed": "6b6cba44797ce29724a31afb95eb678edf348ec8",
@@ -9824,6 +9823,8 @@
         "ref-properties.fill.on-secondary-variant.selected": "eab69e9cdca7bf0a22593edb586235323462346f",
         "ref-properties.fill.on-secondary-variant.selected:hover": "6dae0d5ec13d239faba663ab96439a3def83baf3",
         "ref-properties.fill.on-secondary-variant.disabled": "953cd5bba517547135c04c23076160298f631ec2",
+        "ref-properties.fill.on-surface.default": "a353d7e7f634f49b89e1333c7b99c9b9bec6da23",
+        "ref-properties.fill.on-screen.default": "3ed57fadd0f968d8144144d715eaf30d736baf64",
         "ref-properties.shade.normal": "aeb401984082b150f84d84e56a7dda101813345f",
         "ref-properties.shade.low": "a1626138ea4048d6def20a2b226ad3d3819fe011",
         "ref-properties.tint.low": "0a1e553b5a39d46c5eb144e1e8020236dfe46272",
@@ -10039,7 +10040,6 @@
         "comp-messaging.border-selected:hover": "3d4d0cc2bc66fe0cd79974b94d37c9c4d5cdedfc",
         "comp-messaging.border-disabled": "db9aad30c3b7dbe23b205c73f4324471a6b00d8c",
         "comp-messaging.border-error": "463e9cd44daf7521cdb460492811bf3378a72597",
-        "comp-surface.surface": "df8c68b9a66e2cc5d214e4e9a541b52dc88bec14",
         "comp-nav-horizontal.default.text-default": "d8819bdd3db6abc29a59adc910fff8072092e429",
         "comp-nav-horizontal.default.text-emphasized": "92724752bf14c4ac22a5b6a2b9dfda4e14383d16",
         "comp-nav-horizontal.default.text-disabled": "aaf9fecec8314810d779e99837c90ebf219edbd2",
