@@ -6253,7 +6253,7 @@
       },
       "on-confimatory-medium": {
         "text-default": {
-          "value": "{ref-properties.text.inverse}",
+          "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
@@ -6263,7 +6263,7 @@
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
         "icon-default": {
-          "value": "{ref-properties.icon.inverse}",
+          "value": "{ref-properties.icon.default}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
         },
@@ -9860,12 +9860,12 @@
         "ref-properties.border.on-destructive-default.focused": "8c977b3fb82579b5a08ed6f4854e645471d99fb2",
         "ref-properties.border.on-destructive-default.pressed": "1bcf115f857598f2cb4d368c7a472a179053aa8d",
         "ref-properties.border.on-destructive-default.disabled": "a3a22d3769c792bd87d98f8d8589f4b62ad93447",
-        "ref-properties.border.destructive-primary.enabled": "7ab922bb0258a85928c59b5d1d430bf90152dbe4",
-        "ref-properties.border.destructive-primary.transparent": "2b5e3a005b1c8dd046db448755b4753d92773953",
-        "ref-properties.border.destructive-primary.hover": "dd6a8b61d6e0ffcb49ebce95214b0f9ed16315fd",
-        "ref-properties.border.destructive-primary.focused": "0e4d29a3a29a1e57aae936ca24cf27d9993494e8",
-        "ref-properties.border.destructive-primary.pressed": "db472969ee69393d4b71dbca15ae9a02ab57a5a8",
-        "ref-properties.border.destructive-primary.disabled": "e697b39af82f52b40299d2d7769f91f1f4b38bb4",
+        "ref-properties.border.on-destructive-primary.enabled": "cfe0d58e2026ba8d1baa30f0cec33532ace7377d",
+        "ref-properties.border.on-destructive-primary.transparent": "ada92dce3f244e36dfc2a8aa493b73d8521b3ecc",
+        "ref-properties.border.on-destructive-primary.hover": "f01275445967ceb90ff2ec5a3fb0269397396f1d",
+        "ref-properties.border.on-destructive-primary.focused": "49cd69665236caf60e792f4537649ac1690ca3cf",
+        "ref-properties.border.on-destructive-primary.pressed": "5106055d4c27d37ca901ea5205636e244a4e7451",
+        "ref-properties.border.on-destructive-primary.disabled": "42c50107de85c4eb55996181c32ba8919f30400f",
         "ref-properties.border.on-functional.default": "5a020d72822a2562f9990b627ce763d5f1c55fc9",
         "ref-properties.border.on-functional.info": "5f19b90a4beba42630e04045305028a8df33bf74",
         "ref-properties.border.on-functional.draft": "0865d884b19d14f0ee7e436854ba5e15ed02e333",
