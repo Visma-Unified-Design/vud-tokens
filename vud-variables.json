@@ -5545,7 +5545,7 @@
             "description": "Border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
           }
         },
-        "destructive-primary": {
+        "on-destructive-primary": {
           "enabled": {
             "value": "{vud-ref-functional.error-50}",
             "type": "color",
@@ -6487,7 +6487,7 @@
           "description": "Surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "border-enabled": {
-          "value": "{ref-properties.border.destructive-primary.enabled}",
+          "value": "{ref-properties.border.on-destructive-primary.enabled}",
           "type": "color",
           "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
@@ -6502,12 +6502,12 @@
           "description": "Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "border-focused": {
-          "value": "{ref-properties.border.destructive-primary.focused}",
+          "value": "{ref-properties.border.on-destructive-primary.focused}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "border-pressed": {
-          "value": "{ref-properties.border.destructive-primary.pressed}",
+          "value": "{ref-properties.border.on-destructive-primary.pressed}",
           "type": "color",
           "description": "Border with pressed state refers to an interaction that occurs when the ui element is pressed."
         },
