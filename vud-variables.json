@@ -2406,13 +2406,6 @@
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           }
         },
-        "on-screen": {
-          "default": {
-            "value": "{ref-brand.neutral-light-05}",
-            "type": "color",
-            "description": "Suitable for product-based UI screens."
-          }
-        },
         "on-primary-variant": {
           "enabled": {
             "value": "{ref-brand.primary-70}",
@@ -2521,6 +2514,20 @@
             "value": "{ref-properties.fill.on-default.disabled}",
             "type": "color",
             "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+          }
+        },
+        "on-surface": {
+          "default": {
+            "value": "{ref-properties.fill.on-default.enabled}",
+            "type": "color",
+            "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+          }
+        },
+        "on-screen": {
+          "default": {
+            "value": "{ref-properties.fill.on-default.muted}",
+            "type": "color",
+            "description": "Suitable for product-based UI screens."
           }
         }
       },
@@ -3712,13 +3719,6 @@
         "value": "{comp-btn.on-destructive-low.border-enabled}",
         "type": "color",
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
-      }
-    },
-    "comp-surface": {
-      "surface": {
-        "value": "{ref-properties.fill.on-default.enabled}",
-        "type": "color",
-        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       }
     },
     "comp-nav-horizontal": {
@@ -5938,13 +5938,6 @@
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           }
         },
-        "on-screen": {
-          "default": {
-            "value": "{ref-brand.neutral-dark-80}",
-            "type": "color",
-            "description": "Suitable for product-based UI screens."
-          }
-        },
         "on-primary-variant": {
           "enabled": {
             "value": "{ref-brand.primary-70}",
@@ -6035,6 +6028,20 @@
             "value": "{ref-properties.fill.on-default.disabled}",
             "type": "color",
             "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+          }
+        },
+        "on-surface": {
+          "default": {
+            "value": "{ref-properties.fill.on-default.enabled}",
+            "type": "color",
+            "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+          }
+        },
+        "on-screen": {
+          "default": {
+            "value": "{ref-brand.neutral-dark-80}",
+            "type": "color",
+            "description": "Suitable for product-based UI screens."
           }
         }
       },
@@ -7220,13 +7227,6 @@
         "value": "{comp-btn.on-destructive-low.border-enabled}",
         "type": "color",
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
-      }
-    },
-    "comp-surface": {
-      "surface": {
-        "value": "{ref-properties.fill.on-default.enabled}",
-        "type": "color",
-        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       }
     },
     "comp-nav-horizontal": {
@@ -9114,6 +9114,7 @@
         "comp-input-field.border-disabled": "30da1d851f7a96f304f34f5302ed9497474156c3",
         "comp-input-field.border-error": "facce6a9d7144b9c18dedfb478fbdd6128a5a23b",
         "comp-list.text-default": "addf7d91c58277e9672c05c0543b5a3987f5c654",
+        "comp-list.text-emphasized": "d9ec72c5664e189bcd6bd3b3c1bf6d0784299479",
         "comp-list.text-disabled": "9fb4c7366b3a79072452bba8ba3ca3062f1bc036",
         "comp-list.icon-default": "871c228d85f12c47c4c2f8e997e2016533ab003e",
         "comp-list.icon-disabled": "bd40d5bbc7173314617ef6b0829da3f5331291ab",
@@ -9164,7 +9165,7 @@
         "comp-messaging.border-selected:hover": "3d4d0cc2bc66fe0cd79974b94d37c9c4d5cdedfc",
         "comp-messaging.border-disabled": "db9aad30c3b7dbe23b205c73f4324471a6b00d8c",
         "comp-messaging.border-error": "463e9cd44daf7521cdb460492811bf3378a72597",
-        "comp-modal.surface": "df8c68b9a66e2cc5d214e4e9a541b52dc88bec14",
+        "comp-surface.surface": "df8c68b9a66e2cc5d214e4e9a541b52dc88bec14",
         "comp-nav-horizontal.default.text-default": "d8819bdd3db6abc29a59adc910fff8072092e429",
         "comp-nav-horizontal.default.text-emphasized": "92724752bf14c4ac22a5b6a2b9dfda4e14383d16",
         "comp-nav-horizontal.default.text-disabled": "aaf9fecec8314810d779e99837c90ebf219edbd2",
@@ -9757,6 +9758,7 @@
         "ref-properties.border.on-primary-variant.selected:hover": "52b31ea58c0fc5096c82ee109c1f5fdaf8359085",
         "ref-properties.border.on-primary-variant.disabled": "64c23bfa2be8b9da7e3aa02daae843ff3a59c97f",
         "ref-properties.border.on-secondary-variant.enabled": "23c5aab57d5ed908cec7ca5e8042bfe65243e80c",
+        "ref-properties.border.on-secondary-variant.hover": "a74c1d13ee9ea2624841e25e25d3ea671af15407",
         "ref-properties.border.on-secondary-variant.pressed": "5a234c0afcef29ffd14943e91493813124c77f7f",
         "ref-properties.border.on-secondary-variant.focused": "7cf181aae120efffd1960f055d330e3dc4c406be",
         "ref-properties.border.on-secondary-variant.selected": "e7bc9f52aebd74c1b70b2b33dee1ccbd1b977edc",
@@ -9986,6 +9988,7 @@
         "comp-input-field.border-disabled": "30da1d851f7a96f304f34f5302ed9497474156c3",
         "comp-input-field.border-error": "facce6a9d7144b9c18dedfb478fbdd6128a5a23b",
         "comp-list.text-default": "addf7d91c58277e9672c05c0543b5a3987f5c654",
+        "comp-list.text-emphasized": "d9ec72c5664e189bcd6bd3b3c1bf6d0784299479",
         "comp-list.text-disabled": "9fb4c7366b3a79072452bba8ba3ca3062f1bc036",
         "comp-list.icon-default": "871c228d85f12c47c4c2f8e997e2016533ab003e",
         "comp-list.icon-disabled": "bd40d5bbc7173314617ef6b0829da3f5331291ab",
@@ -10036,7 +10039,7 @@
         "comp-messaging.border-selected:hover": "3d4d0cc2bc66fe0cd79974b94d37c9c4d5cdedfc",
         "comp-messaging.border-disabled": "db9aad30c3b7dbe23b205c73f4324471a6b00d8c",
         "comp-messaging.border-error": "463e9cd44daf7521cdb460492811bf3378a72597",
-        "comp-modal.surface": "df8c68b9a66e2cc5d214e4e9a541b52dc88bec14",
+        "comp-surface.surface": "df8c68b9a66e2cc5d214e4e9a541b52dc88bec14",
         "comp-nav-horizontal.default.text-default": "d8819bdd3db6abc29a59adc910fff8072092e429",
         "comp-nav-horizontal.default.text-emphasized": "92724752bf14c4ac22a5b6a2b9dfda4e14383d16",
         "comp-nav-horizontal.default.text-disabled": "aaf9fecec8314810d779e99837c90ebf219edbd2",
