@@ -3457,6 +3457,11 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
+      "text-emphasized": {
+        "value": "{ref-properties.text.emphasized}",
+        "type": "color",
+        "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+      },
       "text-disabled": {
         "value": "{ref-properties.text.disabled}",
         "type": "color",
@@ -3709,7 +3714,7 @@
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       }
     },
-    "comp-modal": {
+    "comp-surface": {
       "surface": {
         "value": "{ref-properties.fill.on-default.enabled}",
         "type": "color",
@@ -6960,6 +6965,11 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
+      "text-emphasized": {
+        "value": "{ref-properties.text.emphasized}",
+        "type": "color",
+        "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+      },
       "text-disabled": {
         "value": "{ref-properties.text.disabled}",
         "type": "color",
@@ -7212,7 +7222,7 @@
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       }
     },
-    "comp-modal": {
+    "comp-surface": {
       "surface": {
         "value": "{ref-properties.fill.on-default.enabled}",
         "type": "color",
