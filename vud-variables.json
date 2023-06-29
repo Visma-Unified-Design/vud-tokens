@@ -5216,6 +5216,16 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
+      "icon-inverse": {
+        "value": "{ref-properties.icon.inverse}",
+        "type": "color",
+        "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
+      },
+      "icon-emphasized": {
+        "value": "{ref-properties.icon.emphasized}",
+        "type": "color",
+        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+      },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
         "type": "color",
@@ -5231,11 +5241,7 @@
         "type": "color",
         "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
-      "surface-weak": {
-        "value": "{ref-brand.secondary-20}",
-        "type": "color"
-      },
-      "surface-moderate": {
+      "surface-emphasized": {
         "value": "{ref-brand.secondary-50}",
         "type": "color",
         "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
@@ -5249,6 +5255,11 @@
         "value": "rgba({vud-ref-functional.default-light-05}, {opacity.0})",
         "type": "color",
         "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+      },
+      "border-emphasized": {
+        "value": "{ref-brand.secondary-50}",
+        "type": "color",
+        "description": "Border with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
       },
       "border-focused": {
         "value": "{ref-properties.border.on-default.focused}",
@@ -8794,6 +8805,16 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
+      "icon-inverse": {
+        "value": "{ref-properties.icon.default}",
+        "type": "color",
+        "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
+      },
+      "icon-emphasized": {
+        "value": "{ref-properties.icon.emphasized}",
+        "type": "color",
+        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+      },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
         "type": "color",
@@ -8809,14 +8830,10 @@
         "type": "color",
         "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
-      "surface-weak": {
-        "value": "{ref-brand.secondary-20}",
-        "type": "color"
-      },
-      "surface-moderate": {
+      "surface-emphasized": {
         "value": "{ref-brand.secondary-50}",
         "type": "color",
-        "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+        "description": "Surface with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
       },
       "border-enabled": {
         "value": "{ref-properties.border.on-default.enabled}",
@@ -8827,6 +8844,11 @@
         "value": "rgba({vud-ref-functional.default-dark-05}, {opacity.0})",
         "type": "color",
         "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+      },
+      "border-emphasized": {
+        "value": "{ref-brand.secondary-50}",
+        "type": "color",
+        "description": "Border with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
       },
       "border-focused": {
         "value": "{ref-properties.border.on-default.focused}",
@@ -9584,8 +9606,6 @@
         "comp-toggle.icon-disabled": "05635d7ad4aaf732852a2180add537e6d0e17291",
         "comp-toggle.surface-enabled": "0c9d53a5244ab7042ed99b0205eb843dd4f27885",
         "comp-toggle.surface-transparent": "47be6f3d1bd3eda2befff7b57dcf2e3e74209ccc",
-        "comp-toggle.surface-weak": "284715ced0fd3a839cd57dee57737bd886228796",
-        "comp-toggle.surface-moderate": "abfe1b23ec99c294c05445c40136c3fb4fce2e70",
         "comp-toggle.border-enabled": "8077dc588239c190827e975cff03d97a718f12a5",
         "comp-toggle.border-transparent": "572439100aecfb32b38be13434a017cee57c2976",
         "comp-toggle.border-focused": "8f0a8f5f10b256b5843860ea7b62d6ddff3b5705",
@@ -9823,7 +9843,8 @@
         "spacing.48": "2ce669cfd8ac3223b8583e1f0f36915c6bbc400e",
         "spacing.64": "17938714f7cb87b31821121ef223fa3fccb2fe5e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
-        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a"
+        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
+        "comp-toggle.surface-emphasized": "abfe1b23ec99c294c05445c40136c3fb4fce2e70"
       },
       "group": "Theme"
     },
@@ -10469,8 +10490,6 @@
         "comp-toggle.icon-disabled": "05635d7ad4aaf732852a2180add537e6d0e17291",
         "comp-toggle.surface-enabled": "0c9d53a5244ab7042ed99b0205eb843dd4f27885",
         "comp-toggle.surface-transparent": "47be6f3d1bd3eda2befff7b57dcf2e3e74209ccc",
-        "comp-toggle.surface-weak": "284715ced0fd3a839cd57dee57737bd886228796",
-        "comp-toggle.surface-moderate": "abfe1b23ec99c294c05445c40136c3fb4fce2e70",
         "comp-toggle.border-enabled": "8077dc588239c190827e975cff03d97a718f12a5",
         "comp-toggle.border-transparent": "572439100aecfb32b38be13434a017cee57c2976",
         "comp-toggle.border-focused": "8f0a8f5f10b256b5843860ea7b62d6ddff3b5705",
@@ -10708,7 +10727,8 @@
         "spacing.48": "2ce669cfd8ac3223b8583e1f0f36915c6bbc400e",
         "spacing.64": "17938714f7cb87b31821121ef223fa3fccb2fe5e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
-        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a"
+        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
+        "comp-toggle.surface-emphasized": "abfe1b23ec99c294c05445c40136c3fb4fce2e70"
       },
       "group": "Theme"
     }
