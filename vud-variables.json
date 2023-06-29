@@ -5246,6 +5246,11 @@
         "type": "color",
         "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
       },
+      "surface-disabled": {
+        "value": "{ref-properties.fill.on-default.disabled}",
+        "type": "color",
+        "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+      },
       "border-enabled": {
         "value": "{ref-properties.border.on-default.enabled}",
         "type": "color",
@@ -8835,6 +8840,11 @@
         "type": "color",
         "description": "Surface with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
       },
+      "surface-disabled": {
+        "value": "{ref-properties.fill.on-default.disabled}",
+        "type": "color",
+        "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+      },
       "border-enabled": {
         "value": "{ref-properties.border.on-default.enabled}",
         "type": "color",
@@ -9065,9 +9075,9 @@
         "ref-properties.fill.on-default.focused": "8536d7dc675674efd64567812956ece706e1d0d0",
         "ref-properties.fill.on-default.selected-weak": "20c63107c6068726b0857eb718049feb6a53fe73",
         "ref-properties.fill.on-default.selected-moderate": "b8208531c1f56e70ef75d59559ebd062f46bf32c",
-        "ref-properties.fill.on-default.selected-strong": "9e6ab7420977d66eb156fd33cbdb94ae0e133223",
         "ref-properties.fill.on-default.selected-weak:hover": "d641dfb42916a7f000d88f852f2701751799d362",
         "ref-properties.fill.on-default.selected-moderate:hover": "70a88729d64253069624a66a1ec6c1080d05bb08",
+        "ref-properties.fill.on-default.selected-strong": "9e6ab7420977d66eb156fd33cbdb94ae0e133223",
         "ref-properties.fill.on-default.selected-strong:hover": "0cdfe059c48f4a6b366186425609d94978f882bf",
         "ref-properties.fill.on-default.disabled": "916fe1f854a15cfb1f4769b16fe35ac6de32afa7",
         "ref-properties.fill.on-primary.enabled": "3fae89eebbd8b88ec2ea41581dd500e8f6ff128a",
@@ -9123,6 +9133,7 @@
         "ref-properties.tint.low": "0a1e553b5a39d46c5eb144e1e8020236dfe46272",
         "ref-properties.data-visualization.1": "682487191f9f2de6fd12febe90a022380e57219c",
         "comp-btn.on-confimatory-low.text-default": "4c6baa8cb482a33dd012907c4edf3d6a1dabece6",
+        "comp-btn.on-confimatory-low.text-secondary": "a3cce1927228935ff8160fc90593c51d89dd06e3",
         "comp-btn.on-confimatory-low.text-disabled": "2eaf7d68386927ae7f23f4b06d1e7e7637beb0cf",
         "comp-btn.on-confimatory-low.icon-default": "5abd845e59b8fd0e18d6efe3947a0533a4564dfe",
         "comp-btn.on-confimatory-low.icon-disabled": "e1dd1db7adf9bb296bf994e726063b29b50827e2",
@@ -9149,6 +9160,7 @@
         "comp-btn.on-confimatory-low.border-selected-strong:hover": "92010409332cadca6565ea293d2140b4daf0a9ad",
         "comp-btn.on-confimatory-low.border-disabled": "f8f857b9a08cb6681503e1ecfc28913b11036e64",
         "comp-btn.on-confimatory-medium.text-default": "e6ca16b6822663f7739962f8e24f349dbb93009e",
+        "comp-btn.on-confimatory-medium.text-secondary": "73be48bbb7063793e5af20cde8946d048dd3b482",
         "comp-btn.on-confimatory-medium.text-disabled": "e7ca56cc53d03ca75233e4e901c6456256a41752",
         "comp-btn.on-confimatory-medium.icon-default": "5c10346747fbacfb5a502dac0cc08744236b1b54",
         "comp-btn.on-confimatory-medium.icon-disabled": "6755dd0f67537c83e7e65827653d35edf22d8292",
@@ -9165,8 +9177,6 @@
         "comp-btn.on-confimatory-medium.border-pressed": "ab1a51d972ae9cf79c320ba2d65d1dcf0d415a10",
         "comp-btn.on-confimatory-medium.border-selected": "53e211e2b2b202662d6526af393a17a51d487256",
         "comp-btn.on-confimatory-medium.border-selected:hover": "9b25e231c4517003da3311b54cd04b1fd014b4be",
-        "comp-btn.on-confimatory-medium.border-selected-strong": "25c97202168dbddf5614a88d32da99ceabd578d0",
-        "comp-btn.on-confimatory-medium.border-selected-strong:hover": "03e8a79ae7e450191685f6c9454a719700c81928",
         "comp-btn.on-confimatory-medium.border-disabled": "8771771fe6d69ed929ac334e95d26cfebaf0f864",
         "comp-btn.on-destructive-low.text-default": "74520ee6409e9327d7c65e0d5e7393b58e1693ec",
         "comp-btn.on-destructive-low.text-disabled": "b1cd35ddcd3c29d4e1578c2b9dfd63eda0125fbc",
@@ -9603,11 +9613,15 @@
         "comp-toggle.text-secondary": "51a2531637d64ed46d716bd7a524b6f890f5172e",
         "comp-toggle.text-disabled": "52b68fe20a474d2d6b2af12d399ccd0c8bb41aea",
         "comp-toggle.icon-default": "7e5455cae59ef410bb059af0cacae7863f03879c",
+        "comp-toggle.icon-inverse": "e8f5c5d88be56e28f084084d61517c9add2b544f",
+        "comp-toggle.icon-emphasized": "c5aebda0663836bf350d0b7817b49e9b672c8993",
         "comp-toggle.icon-disabled": "05635d7ad4aaf732852a2180add537e6d0e17291",
         "comp-toggle.surface-enabled": "0c9d53a5244ab7042ed99b0205eb843dd4f27885",
         "comp-toggle.surface-transparent": "47be6f3d1bd3eda2befff7b57dcf2e3e74209ccc",
+        "comp-toggle.surface-emphasized": "abfe1b23ec99c294c05445c40136c3fb4fce2e70",
         "comp-toggle.border-enabled": "8077dc588239c190827e975cff03d97a718f12a5",
         "comp-toggle.border-transparent": "572439100aecfb32b38be13434a017cee57c2976",
+        "comp-toggle.border-emphasized": "aeeaa0dbcdf4c2ca88eacd9f563ef559d91c5b1a",
         "comp-toggle.border-focused": "8f0a8f5f10b256b5843860ea7b62d6ddff3b5705",
         "comp-toggle.border-error": "dc21948c03020fe530f4f79709c05bfba7a61c08",
         "comp-toggle.border-disabled": "57d8954f933cbb9f40a99ed95291e41dfcfedcee",
@@ -9843,8 +9857,7 @@
         "spacing.48": "2ce669cfd8ac3223b8583e1f0f36915c6bbc400e",
         "spacing.64": "17938714f7cb87b31821121ef223fa3fccb2fe5e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
-        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
-        "comp-toggle.surface-emphasized": "abfe1b23ec99c294c05445c40136c3fb4fce2e70"
+        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a"
       },
       "group": "Theme"
     },
@@ -10007,6 +10020,7 @@
         "ref-properties.shade.low": "a1626138ea4048d6def20a2b226ad3d3819fe011",
         "ref-properties.tint.low": "0a1e553b5a39d46c5eb144e1e8020236dfe46272",
         "comp-btn.on-confimatory-low.text-default": "4c6baa8cb482a33dd012907c4edf3d6a1dabece6",
+        "comp-btn.on-confimatory-low.text-secondary": "a3cce1927228935ff8160fc90593c51d89dd06e3",
         "comp-btn.on-confimatory-low.text-disabled": "2eaf7d68386927ae7f23f4b06d1e7e7637beb0cf",
         "comp-btn.on-confimatory-low.icon-default": "5abd845e59b8fd0e18d6efe3947a0533a4564dfe",
         "comp-btn.on-confimatory-low.icon-disabled": "e1dd1db7adf9bb296bf994e726063b29b50827e2",
@@ -10033,6 +10047,7 @@
         "comp-btn.on-confimatory-low.border-selected-strong:hover": "92010409332cadca6565ea293d2140b4daf0a9ad",
         "comp-btn.on-confimatory-low.border-disabled": "f8f857b9a08cb6681503e1ecfc28913b11036e64",
         "comp-btn.on-confimatory-medium.text-default": "e6ca16b6822663f7739962f8e24f349dbb93009e",
+        "comp-btn.on-confimatory-medium.text-secondary": "73be48bbb7063793e5af20cde8946d048dd3b482",
         "comp-btn.on-confimatory-medium.text-disabled": "e7ca56cc53d03ca75233e4e901c6456256a41752",
         "comp-btn.on-confimatory-medium.icon-default": "5c10346747fbacfb5a502dac0cc08744236b1b54",
         "comp-btn.on-confimatory-medium.icon-disabled": "6755dd0f67537c83e7e65827653d35edf22d8292",
@@ -10049,8 +10064,6 @@
         "comp-btn.on-confimatory-medium.border-pressed": "ab1a51d972ae9cf79c320ba2d65d1dcf0d415a10",
         "comp-btn.on-confimatory-medium.border-selected": "53e211e2b2b202662d6526af393a17a51d487256",
         "comp-btn.on-confimatory-medium.border-selected:hover": "9b25e231c4517003da3311b54cd04b1fd014b4be",
-        "comp-btn.on-confimatory-medium.border-selected-strong": "25c97202168dbddf5614a88d32da99ceabd578d0",
-        "comp-btn.on-confimatory-medium.border-selected-strong:hover": "03e8a79ae7e450191685f6c9454a719700c81928",
         "comp-btn.on-confimatory-medium.border-disabled": "8771771fe6d69ed929ac334e95d26cfebaf0f864",
         "comp-btn.on-destructive-low.text-default": "74520ee6409e9327d7c65e0d5e7393b58e1693ec",
         "comp-btn.on-destructive-low.text-disabled": "b1cd35ddcd3c29d4e1578c2b9dfd63eda0125fbc",
@@ -10487,11 +10500,15 @@
         "comp-toggle.text-secondary": "51a2531637d64ed46d716bd7a524b6f890f5172e",
         "comp-toggle.text-disabled": "52b68fe20a474d2d6b2af12d399ccd0c8bb41aea",
         "comp-toggle.icon-default": "7e5455cae59ef410bb059af0cacae7863f03879c",
+        "comp-toggle.icon-inverse": "e8f5c5d88be56e28f084084d61517c9add2b544f",
+        "comp-toggle.icon-emphasized": "c5aebda0663836bf350d0b7817b49e9b672c8993",
         "comp-toggle.icon-disabled": "05635d7ad4aaf732852a2180add537e6d0e17291",
         "comp-toggle.surface-enabled": "0c9d53a5244ab7042ed99b0205eb843dd4f27885",
         "comp-toggle.surface-transparent": "47be6f3d1bd3eda2befff7b57dcf2e3e74209ccc",
+        "comp-toggle.surface-emphasized": "abfe1b23ec99c294c05445c40136c3fb4fce2e70",
         "comp-toggle.border-enabled": "8077dc588239c190827e975cff03d97a718f12a5",
         "comp-toggle.border-transparent": "572439100aecfb32b38be13434a017cee57c2976",
+        "comp-toggle.border-emphasized": "aeeaa0dbcdf4c2ca88eacd9f563ef559d91c5b1a",
         "comp-toggle.border-focused": "8f0a8f5f10b256b5843860ea7b62d6ddff3b5705",
         "comp-toggle.border-error": "dc21948c03020fe530f4f79709c05bfba7a61c08",
         "comp-toggle.border-disabled": "57d8954f933cbb9f40a99ed95291e41dfcfedcee",
@@ -10727,8 +10744,7 @@
         "spacing.48": "2ce669cfd8ac3223b8583e1f0f36915c6bbc400e",
         "spacing.64": "17938714f7cb87b31821121ef223fa3fccb2fe5e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
-        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
-        "comp-toggle.surface-emphasized": "abfe1b23ec99c294c05445c40136c3fb4fce2e70"
+        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a"
       },
       "group": "Theme"
     }
