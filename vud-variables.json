@@ -3444,6 +3444,11 @@
         "type": "color",
         "description": "Mandatory text refers to text or information that is required in a particular context. "
       },
+      "text-error": {
+        "value": "{ref-properties.text.error}",
+        "type": "color",
+        "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
+      },
       "icon-default": {
         "value": "{ref-properties.icon.default}",
         "type": "color",
@@ -4805,7 +4810,7 @@
           "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "surface-hover": {
-          "value": "rgba( {ref-properties.fill.on-default.enabled} ,{opacity.8})",
+          "value": "{ref-properties.fill.on-default.enabled}",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -7092,10 +7097,20 @@
         "type": "color",
         "description": "Mandatory text refers to text or information that is required in a particular context. "
       },
+      "text-error": {
+        "value": "{ref-properties.text.error}",
+        "type": "color",
+        "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
+      },
       "icon-default": {
         "value": "{ref-properties.icon.default}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+      },
+      "icon-emphasized": {
+        "value": "{ref-properties.icon.emphasized}",
+        "type": "color",
+        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -8423,7 +8438,7 @@
       },
       "brand": {
         "text-default": {
-          "value": "{ref-properties.text.inverse}",
+          "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
@@ -8453,7 +8468,7 @@
           "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "surface-hover": {
-          "value": "rgba( {ref-properties.fill.on-default.enabled} ,{opacity.8})",
+          "value": "{ref-properties.fill.on-default.enabled}",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
