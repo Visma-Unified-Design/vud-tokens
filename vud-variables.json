@@ -5396,7 +5396,7 @@
           "description": "Success text refers to content that signifies a positive or affirmative message."
         },
         "disabled": {
-          "value": "{ref-brand.neutral-light-60}",
+          "value": "{ref-brand.neutral-dark-30}",
           "type": "color",
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         }
@@ -5433,7 +5433,7 @@
           "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
         },
         "disabled": {
-          "value": "{ref-brand.neutral-light-60}",
+          "value": "{ref-brand.neutral-dark-30}",
           "type": "color",
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
@@ -5514,7 +5514,7 @@
             "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
           },
           "selected-moderate": {
-            "value": "{ref-brand.neutral-light-60}",
+            "value": "{ref-brand.neutral-dark-50}",
             "type": "color",
             "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
           },
