@@ -5053,7 +5053,7 @@
       "border-strong": {
         "value": "{ref-properties.border.strong}",
         "type": "color",
-        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
+        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border."
       },
       "border-muted": {
         "value": "{ref-properties.border.on-default.muted}",
@@ -8694,9 +8694,9 @@
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "border-strong": {
-        "value": "{ref-properties.border.on-default.default}",
+        "value": "{ref-properties.border.strong}",
         "type": "color",
-        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
+        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border."
       },
       "border-muted": {
         "value": "{ref-properties.border.on-default.muted}",
@@ -9123,6 +9123,7 @@
         "ref-properties.border.strong": "4b93f0fcef55381a383d9a86baf183b7a5008b22",
         "ref-properties.border.extreme": "5ff62df40a8144ffd157fb62fcd0347373d8e381",
         "ref-properties.border.on-default.enabled": "bce18a039920b8ac08d6ec75237e4439c251ae5e",
+        "ref-properties.border.on-default.default": "dac496f496928bdf7875a1d768324318fa01b74c",
         "ref-properties.border.on-default.muted": "b2264c93c062818b3155df4f2e4b635671c27d7c",
         "ref-properties.border.on-default.transparent": "8ad599797ec872cf386cd85fc721f285c5cd72ed",
         "ref-properties.border.on-default.hover": "10e1567b5ea9316366a681be34ce284d6ab34e7f",
@@ -9681,8 +9682,9 @@
         "comp-switch.icon-default": "14b9fafd96b7aef09bda8c68b5c2baad78b90406",
         "comp-switch.icon-inverse": "8e5560cc509f15f4d28069bd2f741ddbb8e888c6",
         "comp-switch.icon-disabled": "18c4a26bbde9c1ef459862344526fcf83bda8a66",
-        "comp-switch.surface-enabled": "22c5e07067c0bd63776d3fcf778aaf759c7398fa",
+        "comp-switch.surface-strong": "4daa3d590ca66166adfe35e2b8753c4916451e99",
         "comp-switch.surface-muted": "83ff1816553af750ccbb8cc08eec8a67756e0a29",
+        "comp-switch.surface-enabled": "22c5e07067c0bd63776d3fcf778aaf759c7398fa",
         "comp-switch.surface-hover": "b82aa999a515fb302206a1944512f8a6226f3aed",
         "comp-switch.surface-focused": "58aa9b941a17ca2a6155e9f099eaa24327842eb7",
         "comp-switch.surface-selected-moderate": "bb57c634be97aede92500efb2978f021c85a8b74",
@@ -9690,9 +9692,10 @@
         "comp-switch.surface-selected-strong": "82971bf5b6b3f378dd95830927bb04fa652d0aed",
         "comp-switch.surface-selected-strong:hover": "54cd2ed056c379412f9ad64aba013b3babd78b1b",
         "comp-switch.surface-disabled": "ecfc5f77ff9c2d75eaece7a31a4a044d173d5ea1",
-        "comp-switch.border-enabled": "5194149e0b91bc2de01e526c1126fa96d7c689f8",
+        "comp-switch.border-strong": "bd2c04c75a8a3380127037690bb6037de18ce50e",
         "comp-switch.border-muted": "32ca174edf4a90fa40d329d7aafdb32b128a8f59",
         "comp-switch.border-transparent": "7c65c10c5c9e71b4e785c902cb4e44597f230b24",
+        "comp-switch.border-enabled": "5194149e0b91bc2de01e526c1126fa96d7c689f8",
         "comp-switch.border-hover": "42be656ff75e5632233a5391ab64b255ffc3cd30",
         "comp-switch.border-focused": "212c279e60bb2064341eaefc4b5cf309221a9602",
         "comp-switch.border-pressed": "ccb2834ad6d4189a9ecc8aa1179d3049f98156ea",
@@ -9978,10 +9981,7 @@
         "spacing.48": "2ce669cfd8ac3223b8583e1f0f36915c6bbc400e",
         "spacing.64": "17938714f7cb87b31821121ef223fa3fccb2fe5e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
-        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
-        "ref-properties.border.on-default.default": "dac496f496928bdf7875a1d768324318fa01b74c",
-        "comp-switch.border-strong": "bd2c04c75a8a3380127037690bb6037de18ce50e",
-        "comp-switch.surface-strong": "4daa3d590ca66166adfe35e2b8753c4916451e99"
+        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a"
       },
       "group": "Theme"
     },
@@ -10023,6 +10023,7 @@
         "ref-properties.border.strong": "4b93f0fcef55381a383d9a86baf183b7a5008b22",
         "ref-properties.border.extreme": "5ff62df40a8144ffd157fb62fcd0347373d8e381",
         "ref-properties.border.on-default.enabled": "bce18a039920b8ac08d6ec75237e4439c251ae5e",
+        "ref-properties.border.on-default.inverse": "dac496f496928bdf7875a1d768324318fa01b74c",
         "ref-properties.border.on-default.muted": "b2264c93c062818b3155df4f2e4b635671c27d7c",
         "ref-properties.border.on-default.transparent": "8ad599797ec872cf386cd85fc721f285c5cd72ed",
         "ref-properties.border.on-default.hover": "10e1567b5ea9316366a681be34ce284d6ab34e7f",
@@ -10580,8 +10581,9 @@
         "comp-switch.icon-default": "14b9fafd96b7aef09bda8c68b5c2baad78b90406",
         "comp-switch.icon-inverse": "8e5560cc509f15f4d28069bd2f741ddbb8e888c6",
         "comp-switch.icon-disabled": "18c4a26bbde9c1ef459862344526fcf83bda8a66",
-        "comp-switch.surface-enabled": "22c5e07067c0bd63776d3fcf778aaf759c7398fa",
+        "comp-switch.surface-strong": "4daa3d590ca66166adfe35e2b8753c4916451e99",
         "comp-switch.surface-muted": "83ff1816553af750ccbb8cc08eec8a67756e0a29",
+        "comp-switch.surface-enabled": "22c5e07067c0bd63776d3fcf778aaf759c7398fa",
         "comp-switch.surface-hover": "b82aa999a515fb302206a1944512f8a6226f3aed",
         "comp-switch.surface-focused": "58aa9b941a17ca2a6155e9f099eaa24327842eb7",
         "comp-switch.surface-selected-moderate": "bb57c634be97aede92500efb2978f021c85a8b74",
@@ -10589,9 +10591,10 @@
         "comp-switch.surface-selected-strong": "82971bf5b6b3f378dd95830927bb04fa652d0aed",
         "comp-switch.surface-selected-strong:hover": "54cd2ed056c379412f9ad64aba013b3babd78b1b",
         "comp-switch.surface-disabled": "ecfc5f77ff9c2d75eaece7a31a4a044d173d5ea1",
-        "comp-switch.border-enabled": "5194149e0b91bc2de01e526c1126fa96d7c689f8",
+        "comp-switch.border-strong": "bd2c04c75a8a3380127037690bb6037de18ce50e",
         "comp-switch.border-muted": "32ca174edf4a90fa40d329d7aafdb32b128a8f59",
         "comp-switch.border-transparent": "7c65c10c5c9e71b4e785c902cb4e44597f230b24",
+        "comp-switch.border-enabled": "5194149e0b91bc2de01e526c1126fa96d7c689f8",
         "comp-switch.border-hover": "42be656ff75e5632233a5391ab64b255ffc3cd30",
         "comp-switch.border-focused": "212c279e60bb2064341eaefc4b5cf309221a9602",
         "comp-switch.border-pressed": "ccb2834ad6d4189a9ecc8aa1179d3049f98156ea",
@@ -10877,10 +10880,7 @@
         "spacing.48": "2ce669cfd8ac3223b8583e1f0f36915c6bbc400e",
         "spacing.64": "17938714f7cb87b31821121ef223fa3fccb2fe5e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
-        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
-        "ref-properties.border.on-default.default": "dac496f496928bdf7875a1d768324318fa01b74c",
-        "comp-switch.border-strong": "bd2c04c75a8a3380127037690bb6037de18ce50e",
-        "comp-switch.surface-strong": "4daa3d590ca66166adfe35e2b8753c4916451e99"
+        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a"
       },
       "group": "Theme"
     }
