@@ -1767,8 +1767,8 @@
             "type": "color",
             "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
-          "inverse": {
-            "value": "{ref-brand.neutral-light-05}",
+          "default": {
+            "value": "{ref-brand.neutral-light-60}",
             "type": "color",
             "description": "Inverse border refers to the opposite color that contrasts with the background. "
           },
@@ -2146,11 +2146,6 @@
             "value": "{ref-brand.neutral-light-05}",
             "type": "color",
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-          },
-          "inverse": {
-            "value": "{ref-brand.neutral-light-05}",
-            "type": "color",
-            "description": "Inverse surface refers to the opposite color that contrasts with the background. "
           },
           "muted": {
             "value": "{ref-brand.neutral-light-20}",
@@ -5006,20 +5001,19 @@
         "type": "color",
         "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
-      "surface-enabled": {
+      "surface-strong": {
         "value": "{ref-properties.fill.on-default.enabled}",
-        "type": "color",
-        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "type": "color"
       },
       "surface-muted": {
         "value": "{ref-properties.fill.on-default.muted}",
         "type": "color",
         "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
       },
-      "surface-inverse": {
-        "value": "{ref-properties.fill.on-default.inverse}",
+      "surface-enabled": {
+        "value": "{ref-properties.fill.on-default.enabled}",
         "type": "color",
-        "description": "Inverse surface refers to the opposite color that contrasts with the background. "
+        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "surface-hover": {
         "value": "{ref-properties.fill.on-default.hover}",
@@ -5056,15 +5050,10 @@
         "type": "color",
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
-      "border-enabled": {
-        "value": "{ref-properties.border.on-default.enabled}",
+      "border-strong": {
+        "value": "{ref-properties.border.strong}",
         "type": "color",
-        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-      },
-      "border-inverse": {
-        "value": "{ref-properties.border.on-default.inverse}",
-        "type": "color",
-        "description": "Inverse border refers to the opposite color that contrasts with the background. "
+        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
       },
       "border-muted": {
         "value": "{ref-properties.border.on-default.muted}",
@@ -5075,6 +5064,11 @@
         "value": "rgba({vud-ref-functional.default-light-05}, {opacity.0})",
         "type": "color",
         "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+      },
+      "border-enabled": {
+        "value": "{ref-properties.border.on-default.enabled}",
+        "type": "color",
+        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "border-hover": {
         "value": "{ref-properties.border.on-default.hover}",
@@ -5818,11 +5812,6 @@
             "value": "{ref-brand.neutral-dark-60}",
             "type": "color",
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-          },
-          "inverse": {
-            "value": "{ref-brand.neutral-dark-05}",
-            "type": "color",
-            "description": "Inverse surface refers to the opposite color that contrasts with the background. "
           },
           "muted": {
             "value": "{ref-brand.neutral-dark-80}",
@@ -8655,20 +8644,19 @@
         "type": "color",
         "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
-      "surface-enabled": {
+      "surface-strong": {
         "value": "{ref-properties.fill.on-default.enabled}",
-        "type": "color",
-        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-      },
-      "surface-inverse": {
-        "value": "{ref-properties.fill.on-default.inverse}",
-        "type": "color",
-        "description": "Inverse surface refers to the opposite color that contrasts with the background. "
+        "type": "color"
       },
       "surface-muted": {
         "value": "{ref-properties.fill.on-default.muted}",
         "type": "color",
         "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
+      },
+      "surface-enabled": {
+        "value": "{ref-properties.fill.on-default.enabled}",
+        "type": "color",
+        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "surface-hover": {
         "value": "{ref-properties.fill.on-default.hover}",
@@ -8705,15 +8693,10 @@
         "type": "color",
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
-      "border-enabled": {
-        "value": "{ref-properties.border.on-default.enabled}",
+      "border-strong": {
+        "value": "{ref-properties.border.on-default.default}",
         "type": "color",
-        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-      },
-      "border-inverse": {
-        "value": "{ref-properties.border.on-default.inverse}",
-        "type": "color",
-        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
       },
       "border-muted": {
         "value": "{ref-properties.border.on-default.muted}",
@@ -8724,6 +8707,11 @@
         "value": "rgba({vud-ref-functional.default-light-05}, {opacity.0})",
         "type": "color",
         "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+      },
+      "border-enabled": {
+        "value": "{ref-properties.border.on-default.enabled}",
+        "type": "color",
+        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "border-hover": {
         "value": "{ref-properties.border.on-default.hover}",
@@ -9990,7 +9978,10 @@
         "spacing.48": "2ce669cfd8ac3223b8583e1f0f36915c6bbc400e",
         "spacing.64": "17938714f7cb87b31821121ef223fa3fccb2fe5e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
-        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a"
+        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
+        "ref-properties.border.on-default.default": "dac496f496928bdf7875a1d768324318fa01b74c",
+        "comp-switch.border-strong": "bd2c04c75a8a3380127037690bb6037de18ce50e",
+        "comp-switch.surface-strong": "4daa3d590ca66166adfe35e2b8753c4916451e99"
       },
       "group": "Theme"
     },
@@ -10886,7 +10877,10 @@
         "spacing.48": "2ce669cfd8ac3223b8583e1f0f36915c6bbc400e",
         "spacing.64": "17938714f7cb87b31821121ef223fa3fccb2fe5e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
-        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a"
+        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
+        "ref-properties.border.on-default.default": "dac496f496928bdf7875a1d768324318fa01b74c",
+        "comp-switch.border-strong": "bd2c04c75a8a3380127037690bb6037de18ce50e",
+        "comp-switch.surface-strong": "4daa3d590ca66166adfe35e2b8753c4916451e99"
       },
       "group": "Theme"
     }
