@@ -1,6 +1,6 @@
 {
   "global": {
-    "radius": {
+    "radii": {
       "none": {
         "value": "0",
         "type": "borderRadius"
@@ -10,19 +10,19 @@
         "type": "borderRadius"
       },
       "s": {
-        "value": "{radius.xs}*4",
+        "value": "{radii.xs}*4",
         "type": "borderRadius"
       },
       "md": {
-        "value": "{radius.xs}*6",
+        "value": "{radii.xs}*6",
         "type": "borderRadius"
       },
       "lg": {
-        "value": "{radius.xs}*8",
+        "value": "{radii.xs}*8",
         "type": "borderRadius"
       },
       "xl": {
-        "value": "{radius.xs}*12",
+        "value": "{radii.xs}*12",
         "type": "borderRadius"
       },
       "xxl": {
@@ -9110,57 +9110,65 @@
     }
   },
   "round": {
-    "radii": {
+    "radius": {
       "none": {
-        "value": "{radius.none}",
+        "value": "{radii.none}",
         "type": "borderRadius"
       },
       "xs": {
-        "value": "{radius.xs}",
+        "value": "{radii.xs}",
         "type": "borderRadius"
       },
       "s": {
-        "value": "{radius.s}",
+        "value": "{radii.s}",
         "type": "borderRadius"
       },
       "md": {
-        "value": "{radius.md}",
+        "value": "{radii.md}",
         "type": "borderRadius"
       },
       "lg": {
-        "value": "{radius.lg}",
+        "value": "{radii.lg}",
         "type": "borderRadius"
       },
       "xl": {
-        "value": "{radius.xl}",
+        "value": "{radii.xl}",
+        "type": "borderRadius"
+      },
+      "xxl": {
+        "value": "{radii.xxl}",
         "type": "borderRadius"
       }
     }
   },
   "sharp": {
-    "radii": {
+    "radius": {
       "none": {
-        "value": "{radius.xs}",
+        "value": "{radii.none}",
         "type": "borderRadius"
       },
       "xs": {
-        "value": "{radius.xs}",
+        "value": "{radii.xs}",
         "type": "borderRadius"
       },
       "s": {
-        "value": "{radius.xs}",
+        "value": "{radii.xs}",
         "type": "borderRadius"
       },
       "md": {
-        "value": "{radius.xs}",
+        "value": "{radii.xs}",
         "type": "borderRadius"
       },
       "lg": {
-        "value": "{radius.xs}",
+        "value": "{radii.xs}",
         "type": "borderRadius"
       },
       "xl": {
-        "value": "{radius.xs}",
+        "value": "{radii.xs}",
+        "type": "borderRadius"
+      },
+      "xxl": {
+        "value": "{radii.xs}",
         "type": "borderRadius"
       }
     }
@@ -9177,12 +9185,13 @@
       "$figmaCollectionId": "VariableCollectionId:158:957",
       "$figmaModeId": "158:5",
       "$figmaVariableReferences": {
-        "radii.none": "d382ded9c094c89022c22a52a9afffbfa61cdf0f",
-        "radii.xs": "f2b8d5f857b7aeea98ab1d2521e63f0621cc6bd4",
-        "radii.s": "a7a9a082781c6c33712088206d9362dbe9cfb84f",
-        "radii.md": "8e22cf4ce27375e09315927b2e0171d17984ebf2",
-        "radii.lg": "294c59809d36079b8a624af14f6d62136991b470",
-        "radii.xl": "7317a60d72d363249840d9093f9374a5f79dfab3"
+        "radius.none": "631f2fb74c16ca62f05f67b7da5318b61845417e",
+        "radius.xs": "7080d4bbe0dbb9cbb3951c5c2372f247554f4446",
+        "radius.s": "38b112f4fd715888d5e57c434480f8be00fe222c",
+        "radius.md": "2ef40fbd7ff3550b9f50243831fedec59f4788a7",
+        "radius.lg": "0f5ab0ebec8b1531dbabc39a7d38757ca9c22f20",
+        "radius.xl": "ccebd1a63b64f7e51e51b2e63ab45c2377ce424f",
+        "radius.xxl": "0619c256077b0066cac15ed63de9a3c5b00418b0"
       },
       "group": "Corners"
     },
@@ -9197,12 +9206,13 @@
       "$figmaCollectionId": "VariableCollectionId:158:957",
       "$figmaModeId": "158:6",
       "$figmaVariableReferences": {
-        "radii.none": "d382ded9c094c89022c22a52a9afffbfa61cdf0f",
-        "radii.xs": "f2b8d5f857b7aeea98ab1d2521e63f0621cc6bd4",
-        "radii.s": "a7a9a082781c6c33712088206d9362dbe9cfb84f",
-        "radii.md": "8e22cf4ce27375e09315927b2e0171d17984ebf2",
-        "radii.lg": "294c59809d36079b8a624af14f6d62136991b470",
-        "radii.xl": "7317a60d72d363249840d9093f9374a5f79dfab3"
+        "radius.none": "631f2fb74c16ca62f05f67b7da5318b61845417e",
+        "radius.xs": "7080d4bbe0dbb9cbb3951c5c2372f247554f4446",
+        "radius.s": "38b112f4fd715888d5e57c434480f8be00fe222c",
+        "radius.md": "2ef40fbd7ff3550b9f50243831fedec59f4788a7",
+        "radius.lg": "0f5ab0ebec8b1531dbabc39a7d38757ca9c22f20",
+        "radius.xl": "ccebd1a63b64f7e51e51b2e63ab45c2377ce424f",
+        "radius.xxl": "0619c256077b0066cac15ed63de9a3c5b00418b0"
       },
       "group": "Corners"
     },
@@ -10076,12 +10086,13 @@
         "ref-brand.neutral-dark-90": "ea971ddc9e97335614d58e38faa7c83b78a8e43e",
         "ref-brand.neutral-dark-gradient": "2f9fd28c27d25c3584578592bc9fc9f63317cf21",
         "viewport.width": "2f0034e23ce41c493340a52a94316676bd32e402",
-        "radius.none": "273254202f6d99ba7f072ce2afbe9fc1e099e8c5",
-        "radius.xs": "7d2cb0253c0a67d30ac316be4204dc193482fcab",
-        "radius.s": "76933644293f2f7394bf60f56cd225dc47fc5ff8",
-        "radius.md": "b9bc66c373511fe53a724d42225dad4b163c77ab",
-        "radius.lg": "436b7cb10e31dde3a916f977bf7a6e1f08b47689",
-        "radius.xl": "cca648fcaac0aa083bbf354e01f6e9aa0b46a6c7",
+        "radii.none": "99edf3e6cf690a9b6bb7064c0fb92742bada1304",
+        "radii.xs": "204a45801204a7254afaf4b525124cd4a5b2fcae",
+        "radii.s": "968b313ca5f46f0e01c3f545363803dff9b83c14",
+        "radii.md": "ed1c89d53c1f4a66dd9f647ad597709577a92e65",
+        "radii.lg": "7ccb375e148d754246d96490463b35efdd6c8a70",
+        "radii.xl": "2c6ebe83c2650db2865b2427ba2b4d4bfa15d13f",
+        "radii.xxl": "329f7b4f8ac9c20acf787797580fd42263fb18a1",
         "border.0": "7d63be7bc1aca8b0fcb6f7a808ad3801db381c7e",
         "border.1": "36191e4e97f4908779dceccd85b6032bc6b151e5",
         "border.2": "e4070fb68243df45cb93c106b4f7ea4b041e8060",
@@ -10986,12 +10997,13 @@
         "ref-brand.neutral-dark-90": "ea971ddc9e97335614d58e38faa7c83b78a8e43e",
         "ref-brand.neutral-dark-gradient": "2f9fd28c27d25c3584578592bc9fc9f63317cf21",
         "viewport.width": "2f0034e23ce41c493340a52a94316676bd32e402",
-        "radius.none": "273254202f6d99ba7f072ce2afbe9fc1e099e8c5",
-        "radius.xs": "7d2cb0253c0a67d30ac316be4204dc193482fcab",
-        "radius.s": "76933644293f2f7394bf60f56cd225dc47fc5ff8",
-        "radius.md": "b9bc66c373511fe53a724d42225dad4b163c77ab",
-        "radius.lg": "436b7cb10e31dde3a916f977bf7a6e1f08b47689",
-        "radius.xl": "cca648fcaac0aa083bbf354e01f6e9aa0b46a6c7",
+        "radii.none": "99edf3e6cf690a9b6bb7064c0fb92742bada1304",
+        "radii.xs": "204a45801204a7254afaf4b525124cd4a5b2fcae",
+        "radii.s": "968b313ca5f46f0e01c3f545363803dff9b83c14",
+        "radii.md": "ed1c89d53c1f4a66dd9f647ad597709577a92e65",
+        "radii.lg": "7ccb375e148d754246d96490463b35efdd6c8a70",
+        "radii.xl": "2c6ebe83c2650db2865b2427ba2b4d4bfa15d13f",
+        "radii.xxl": "329f7b4f8ac9c20acf787797580fd42263fb18a1",
         "border.0": "7d63be7bc1aca8b0fcb6f7a808ad3801db381c7e",
         "border.1": "36191e4e97f4908779dceccd85b6032bc6b151e5",
         "border.2": "e4070fb68243df45cb93c106b4f7ea4b041e8060",
