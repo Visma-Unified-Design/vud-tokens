@@ -14,14 +14,18 @@
         "type": "borderRadius"
       },
       "md": {
-        "value": "{radius.xs}*8",
+        "value": "{radius.xs}*6",
         "type": "borderRadius"
       },
       "lg": {
-        "value": "{radius.xs}*12",
+        "value": "{radius.xs}*8",
         "type": "borderRadius"
       },
       "xl": {
+        "value": "{radius.xs}*12",
+        "type": "borderRadius"
+      },
+      "xxl": {
         "value": "99",
         "type": "borderRadius"
       }
@@ -9814,6 +9818,7 @@
         "comp-switch.on-switch-low.border-selected:hover": "7fdecdf7c26824a0c4f3ee304d8f652c769fa142",
         "comp-switch.on-switch-low.border-disabled": "fc65d0f6e14fd499950efb9f9d5aec180cf34ee3",
         "comp-switch.on-switch-medium.text-default": "81cd501048421a3c7a45179d18923e1471134cb9",
+        "comp-switch.on-switch-medium.text-inverse": "5cd7fbba1753f0b01136494a036267b0f9a32462",
         "comp-switch.on-switch-medium.text-disabled": "7f95a64e958820c6f06dbd3b337a922896ea285f",
         "comp-switch.on-switch-medium.icon-default": "07946ec38e3093f1b1b239b1bb64eb4de7cdffeb",
         "comp-switch.on-switch-medium.icon-disabled": "7bd0ec59215a16f2df791a4cc467a5b4551b68c5",
@@ -10723,6 +10728,7 @@
         "comp-switch.on-switch-low.border-selected:hover": "7fdecdf7c26824a0c4f3ee304d8f652c769fa142",
         "comp-switch.on-switch-low.border-disabled": "fc65d0f6e14fd499950efb9f9d5aec180cf34ee3",
         "comp-switch.on-switch-medium.text-default": "81cd501048421a3c7a45179d18923e1471134cb9",
+        "comp-switch.on-switch-medium.text-inverse": "5cd7fbba1753f0b01136494a036267b0f9a32462",
         "comp-switch.on-switch-medium.text-disabled": "7f95a64e958820c6f06dbd3b337a922896ea285f",
         "comp-switch.on-switch-medium.icon-default": "07946ec38e3093f1b1b239b1bb64eb4de7cdffeb",
         "comp-switch.on-switch-medium.icon-disabled": "7bd0ec59215a16f2df791a4cc467a5b4551b68c5",
