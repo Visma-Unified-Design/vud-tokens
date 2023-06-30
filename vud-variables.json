@@ -4780,7 +4780,7 @@
       },
       "brand": {
         "text-default": {
-          "value": "{ref-properties.text.inverse}",
+          "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
@@ -9421,6 +9421,7 @@
         "comp-input-field.text-secondary": "a5bf5c3ef2664f8726ece4858c03e8a4677c3770",
         "comp-input-field.text-disabled": "51e547ed1ec5d372e567dfe6c7a3367062c3a815",
         "comp-input-field.text-mandatory": "b03d05ce39ebd1fe0a64b53f54314816ad10158e",
+        "comp-input-field.text-error": "8e0dc548e1cee2d960600e82bd672f2cee5a5424",
         "comp-input-field.icon-default": "545c1882487bc264c707afbe636ccc488b5de883",
         "comp-input-field.icon-disabled": "b7e865fb8a68c08755ecc124c5588b2fe43af770",
         "comp-input-field.surface-enabled": "e206fe04a7bfd43044029d9c831c3ee3d33c22af",
@@ -10321,7 +10322,9 @@
         "comp-input-field.text-secondary": "a5bf5c3ef2664f8726ece4858c03e8a4677c3770",
         "comp-input-field.text-disabled": "51e547ed1ec5d372e567dfe6c7a3367062c3a815",
         "comp-input-field.text-mandatory": "b03d05ce39ebd1fe0a64b53f54314816ad10158e",
+        "comp-input-field.text-error": "8e0dc548e1cee2d960600e82bd672f2cee5a5424",
         "comp-input-field.icon-default": "545c1882487bc264c707afbe636ccc488b5de883",
+        "comp-input-field.icon-emphasized": "b3f8ecd90ae290dcfb8f50902e36e7673b51a004",
         "comp-input-field.icon-disabled": "b7e865fb8a68c08755ecc124c5588b2fe43af770",
         "comp-input-field.surface-enabled": "e206fe04a7bfd43044029d9c831c3ee3d33c22af",
         "comp-input-field.surface-muted": "7824ceaac57abe56346d6ef170a471e0df0bf9b3",
