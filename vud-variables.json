@@ -8498,7 +8498,7 @@
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "border-disabled": {
-          "value": "{ref-properties.fill.on-default.disabled}",
+          "value": "{ref-properties.border.on-default.disabled}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
