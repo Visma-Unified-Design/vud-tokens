@@ -5533,7 +5533,7 @@
             "description": "Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
           "disabled": {
-            "value": "{ref-brand.neutral-dark-60}",
+            "value": "{ref-brand.neutral-dark-70}",
             "type": "color",
             "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
           }
