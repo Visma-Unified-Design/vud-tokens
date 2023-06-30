@@ -2147,6 +2147,11 @@
             "type": "color",
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
+          "inverse": {
+            "value": "{ref-brand.neutral-light-05}",
+            "type": "color",
+            "description": "Inverse surface contrast with the background."
+          },
           "muted": {
             "value": "{ref-brand.neutral-light-20}",
             "type": "color",
@@ -5813,6 +5818,11 @@
             "type": "color",
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
+          "inverse": {
+            "value": "{ref-brand.neutral-dark-05}",
+            "type": "color",
+            "description": "Inverse surface contrast with the background."
+          },
           "muted": {
             "value": "{ref-brand.neutral-dark-80}",
             "type": "color",
@@ -8645,7 +8655,7 @@
         "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "surface-strong": {
-        "value": "{ref-properties.fill.on-default.enabled}",
+        "value": "{ref-properties.fill.on-default.inverse}",
         "type": "color"
       },
       "surface-muted": {
@@ -9692,7 +9702,7 @@
         "comp-switch.surface-selected-strong": "82971bf5b6b3f378dd95830927bb04fa652d0aed",
         "comp-switch.surface-selected-strong:hover": "54cd2ed056c379412f9ad64aba013b3babd78b1b",
         "comp-switch.surface-disabled": "ecfc5f77ff9c2d75eaece7a31a4a044d173d5ea1",
-        "comp-switch.border-strong": "bd2c04c75a8a3380127037690bb6037de18ce50e",
+        "comp-switch.border-strong": "cacd4ba0aeb2f836fc7d84538791126ffbfa1671",
         "comp-switch.border-muted": "32ca174edf4a90fa40d329d7aafdb32b128a8f59",
         "comp-switch.border-transparent": "7c65c10c5c9e71b4e785c902cb4e44597f230b24",
         "comp-switch.border-enabled": "5194149e0b91bc2de01e526c1126fa96d7c689f8",
@@ -10591,7 +10601,7 @@
         "comp-switch.surface-selected-strong": "82971bf5b6b3f378dd95830927bb04fa652d0aed",
         "comp-switch.surface-selected-strong:hover": "54cd2ed056c379412f9ad64aba013b3babd78b1b",
         "comp-switch.surface-disabled": "ecfc5f77ff9c2d75eaece7a31a4a044d173d5ea1",
-        "comp-switch.border-strong": "bd2c04c75a8a3380127037690bb6037de18ce50e",
+        "comp-switch.border-strong": "cacd4ba0aeb2f836fc7d84538791126ffbfa1671",
         "comp-switch.border-muted": "32ca174edf4a90fa40d329d7aafdb32b128a8f59",
         "comp-switch.border-transparent": "7c65c10c5c9e71b4e785c902cb4e44597f230b24",
         "comp-switch.border-enabled": "5194149e0b91bc2de01e526c1126fa96d7c689f8",
