@@ -3475,7 +3475,7 @@
         "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
       "surface-hover": {
-        "value": "{ref-properties.fill.on-default.hover}",
+        "value": "{ref-properties.fill.on-default.enabled}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
@@ -7133,7 +7133,7 @@
         "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
       "surface-hover": {
-        "value": "{ref-properties.fill.on-default.hover}",
+        "value": "{ref-properties.fill.on-default.enabled}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
