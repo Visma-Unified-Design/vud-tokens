@@ -1566,7 +1566,7 @@
       }
     },
     "ref-tabular": {
-      "ui--1": {
+      "td--1": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.-1}",
@@ -1575,7 +1575,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "ui-0": {
+      "td-0": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.0}",
@@ -1584,7 +1584,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "ui-1": {
+      "td-1": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.1}",
@@ -1593,7 +1593,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "ui-2": {
+      "td-2": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.2}",
@@ -1602,7 +1602,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "ui-3": {
+      "td-3": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.3}",
@@ -1611,7 +1611,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "ui-4": {
+      "td-4": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.4}",
