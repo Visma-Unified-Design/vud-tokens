@@ -1215,6 +1215,10 @@
       "value": "Medium",
       "type": "fontWeights"
     },
+    "core-font-weight-semibold": {
+      "value": "Semi Bold",
+      "type": "fontWeights"
+    },
     "core-font-weight-bold": {
       "value": "Bold",
       "type": "fontWeights"
@@ -1566,59 +1570,173 @@
       }
     },
     "ref-tabular": {
-      "td--1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.-1}",
-          "fontWeight": "{core-font-weight-regular}"
+      "regular": {
+        "td--1": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.-1}",
+            "fontWeight": "{core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
+        "td-0": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.0}",
+            "fontWeight": "{core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
+        },
+        "td-1": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.1}",
+            "fontWeight": "{core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
+        },
+        "td-2": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.2}",
+            "fontWeight": "{core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
+        },
+        "td-3": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.3}",
+            "fontWeight": "{core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
+        },
+        "td-4": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.4}",
+            "fontWeight": "{core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
+        }
       },
-      "td-0": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.0}",
-          "fontWeight": "{core-font-weight-regular}"
+      "medium": {
+        "td--1": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.-1}",
+            "fontWeight": "{core-font-weight-medium}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
+        "td-0": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.0}",
+            "fontWeight": "{core-font-weight-medium}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
+        },
+        "td-1": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.1}",
+            "fontWeight": "{core-font-weight-medium}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
+        },
+        "td-2": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.2}",
+            "fontWeight": "{core-font-weight-medium}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
+        },
+        "td-3": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.3}",
+            "fontWeight": "{core-font-weight-medium}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
+        },
+        "td-4": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.4}",
+            "fontWeight": "{core-font-weight-medium}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
+        }
       },
-      "td-1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.1}",
-          "fontWeight": "{core-font-weight-regular}"
+      "semibold": {
+        "td--1": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.-1}",
+            "fontWeight": "{core-font-weight-semibold}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-2": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.2}",
-          "fontWeight": "{core-font-weight-regular}"
+        "td-0": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.0}",
+            "fontWeight": "{core-font-weight-semibold}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-3": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.3}",
-          "fontWeight": "{core-font-weight-regular}"
+        "td-1": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.1}",
+            "fontWeight": "{core-font-weight-semibold}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-4": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.4}",
-          "fontWeight": "{core-font-weight-regular}"
+        "td-2": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.2}",
+            "fontWeight": "{core-font-weight-semibold}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
+        "td-3": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.3}",
+            "fontWeight": "{core-font-weight-semibold}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
+        },
+        "td-4": {
+          "value": {
+            "fontFamily": "{core-font-familiy-tertiary}",
+            "fontSize": "{font-size.4}",
+            "fontWeight": "{core-font-weight-semibold}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
+        }
       }
     },
     "core-font-familiy-secondary": {
@@ -1626,7 +1744,7 @@
       "type": "fontFamilies"
     },
     "core-font-familiy-tertiary": {
-      "value": "Fira Code",
+      "value": "Inter",
       "type": "fontFamilies"
     }
   },
