@@ -9367,6 +9367,10 @@
       "xxl": {
         "value": "{radii.xxs}",
         "type": "borderRadius"
+      },
+      "xxxl": {
+        "value": "{radii.xxs}",
+        "type": "borderRadius"
       }
     }
   },
@@ -9383,6 +9387,7 @@
       "$figmaModeId": "158:5",
       "$figmaVariableReferences": {
         "radius.none": "631f2fb74c16ca62f05f67b7da5318b61845417e",
+        "radius.xxs": "d5187c3a1e0da48fd80123a33586d97b2a80349a",
         "radius.xs": "7080d4bbe0dbb9cbb3951c5c2372f247554f4446",
         "radius.s": "38b112f4fd715888d5e57c434480f8be00fe222c",
         "radius.md": "2ef40fbd7ff3550b9f50243831fedec59f4788a7",
@@ -9406,6 +9411,7 @@
       "$figmaVariableReferences": {
         "radius.none": "631f2fb74c16ca62f05f67b7da5318b61845417e",
         "radius.xxs": "d5187c3a1e0da48fd80123a33586d97b2a80349a",
+        "radius.xs": "7080d4bbe0dbb9cbb3951c5c2372f247554f4446",
         "radius.s": "38b112f4fd715888d5e57c434480f8be00fe222c",
         "radius.md": "2ef40fbd7ff3550b9f50243831fedec59f4788a7",
         "radius.lg": "0f5ab0ebec8b1531dbabc39a7d38757ca9c22f20",
