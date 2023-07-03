@@ -6877,6 +6877,11 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
+      "text-inverse": {
+        "value": "{ref-properties.text.default}",
+        "type": "color",
+        "description": "Inverse text refers to the opposite color that contrasts with the background. "
+      },
       "text-disabled": {
         "value": "{ref-properties.text.disabled}",
         "type": "color",
@@ -9479,6 +9484,7 @@
         "comp-calendar-slot.border-event2": "599757d8c43b793022b8117e35b529a8ab38f0d7",
         "comp-calendar-slot.border-event3": "ba5aba24775c12d876f83508fcd753796978c959",
         "comp-calendar.text-default": "42f8ebe47b8595106709b0552cc941b661cee9ee",
+        "comp-calendar.text-inverse": "972b8d780126e56b7c899c023a2ee8cfdd682c17",
         "comp-calendar.text-disabled": "0df2b299c30a1d417388fd9d715d5766967c79fa",
         "comp-calendar.icon-default": "716ee31b7ba4706ad0fdc8b97c431f73f67437fa",
         "comp-calendar.icon-disabled": "2319301607e3ddb94567a08acb77bcd4b1011247",
