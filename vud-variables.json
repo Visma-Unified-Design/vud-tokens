@@ -3400,16 +3400,6 @@
         "value": "{ref-properties.border.on-default.muted}",
         "type": "color",
         "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
-      },
-      "border-moderate": {
-        "value": "{ref-properties.border.moderate}",
-        "type": "color",
-        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
-      },
-      "border-strong": {
-        "value": "{ref-properties.border.strong}",
-        "type": "color",
-        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
       }
     },
     "comp-content": {
@@ -5089,6 +5079,11 @@
         "value": "{ref-properties.border.strong}",
         "type": "color",
         "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
+      },
+      "extreme": {
+        "value": "{ref-properties.border.extreme}",
+        "type": "color",
+        "description": "Extreme default border refers to a standard border style that is branded."
       }
     },
     "comp-situation": {
@@ -7155,16 +7150,6 @@
         "value": "{ref-properties.border.on-default.muted}",
         "type": "color",
         "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
-      },
-      "border-moderate": {
-        "value": "{ref-properties.border.moderate}",
-        "type": "color",
-        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
-      },
-      "border-strong": {
-        "value": "{ref-properties.border.strong}",
-        "type": "color",
-        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
       }
     },
     "comp-content": {
@@ -7227,16 +7212,6 @@
         "value": "rgba({vud-ref-functional.default-light-05}, {opacity.0})",
         "type": "color",
         "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
-      },
-      "border-extreme": {
-        "value": "{ref-properties.border.extreme}",
-        "type": "color",
-        "description": "Extreme default border refers to a standard border style that is branded."
-      },
-      "border-moderate": {
-        "value": "{ref-properties.border.moderate}",
-        "type": "color",
-        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
       }
     },
     "comp-drag-drop": {
@@ -7638,16 +7613,6 @@
         "value": "{ref-properties.border.on-default.muted}",
         "type": "color",
         "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
-      },
-      "border-weak": {
-        "value": "{ref-properties.border.weak}",
-        "type": "color",
-        "description": "Weak border refers to a subtle border style."
-      },
-      "border-moderate": {
-        "value": "{ref-properties.border.moderate}",
-        "type": "color",
-        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
       }
     },
     "comp-messaging": {
@@ -8849,6 +8814,11 @@
         "value": "{ref-properties.border.strong}",
         "type": "color",
         "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
+      },
+      "extreme": {
+        "value": "{ref-properties.border.extreme}",
+        "type": "color",
+        "description": "Extreme default border refers to a standard border style that is branded."
       }
     },
     "comp-situation": {
@@ -9738,8 +9708,6 @@
         "comp-calendar.border-disabled": "bfba0b774918c995f0aa456561a39055b3b6fd64",
         "comp-calendar.border-transparent": "6782aa2e3d5e857200e01dfccd178d902dad9197",
         "comp-calendar.border-muted": "0595baa3dc5adf62af65416da755f88ae1f4d06c",
-        "comp-calendar.border-moderate": "18e628e8bf3e3ade7547e81f7a494fd636c87048",
-        "comp-calendar.border-strong": "80638161db96c7683e42f619e3d8299f0bd73579",
         "comp-content.text-default": "66e5972ea6cbf0f90bc2eaa6e626155bf888dc52",
         "comp-content.text-secondary": "38827e4e71d0b1f69889fccadc42efdacd736fd1",
         "comp-content.text-emphasized": "6329c7a883b0ff6c4bf6e32fe7d1afb5e2a2acc4",
@@ -11057,10 +11025,6 @@
         "comp-toggle.border-focused": "8f0a8f5f10b256b5843860ea7b62d6ddff3b5705",
         "comp-toggle.border-error": "dc21948c03020fe530f4f79709c05bfba7a61c08",
         "comp-toggle.border-disabled": "57d8954f933cbb9f40a99ed95291e41dfcfedcee",
-        "comp-list.border-weak": "f112d8202b4e707439eae30a1a2ff2eb1c053e03",
-        "comp-list.border-moderate": "ad6153b65da564db836b968e910508d903965922",
-        "comp-calendar.border-moderate": "18e628e8bf3e3ade7547e81f7a494fd636c87048",
-        "comp-calendar.border-strong": "80638161db96c7683e42f619e3d8299f0bd73579",
         "vud-core-palette.green-05": "0df1b28bace857359a910fa5ff7c2964ed229f7d",
         "vud-core-palette.green-10": "d68ea7dc47856774b91a55129823f24b377a911b",
         "vud-core-palette.green-20": "9a7da77a875af5715d2ee1c00838782e7df387c5",
