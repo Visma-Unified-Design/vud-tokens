@@ -3480,6 +3480,11 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
+      "text-emphasized": {
+        "value": "{ref-properties.text.emphasized}",
+        "type": "color",
+        "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+      },
       "text-secondary": {
         "value": "{ref-properties.text.secondary}",
         "type": "color",
@@ -7220,6 +7225,11 @@
         "type": "color",
         "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
       },
+      "text-emphasized": {
+        "value": "{ref-properties.text.emphasized}",
+        "type": "color",
+        "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+      },
       "text-disabled": {
         "value": "{ref-properties.text.disabled}",
         "type": "color",
@@ -9416,7 +9426,8 @@
         "radius.md": "2ef40fbd7ff3550b9f50243831fedec59f4788a7",
         "radius.lg": "0f5ab0ebec8b1531dbabc39a7d38757ca9c22f20",
         "radius.xl": "ccebd1a63b64f7e51e51b2e63ab45c2377ce424f",
-        "radius.xxl": "0619c256077b0066cac15ed63de9a3c5b00418b0"
+        "radius.xxl": "0619c256077b0066cac15ed63de9a3c5b00418b0",
+        "radius.xxxl": "11518ddd3fa26dde9a4a5ce86ff05a927d00fe8d"
       },
       "group": "Corners"
     },
