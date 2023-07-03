@@ -3995,11 +3995,6 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
-          "value": "{ref-properties.text.secondary}",
-          "type": "color",
-          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
-        },
         "text-emphasized": {
           "value": "{ref-properties.text.emphasized}",
           "type": "color",
@@ -4112,11 +4107,6 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
-          "value": "{ref-properties.text.inverse}",
-          "type": "color",
-          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
-        },
         "text-disabled": {
           "value": "{ref-properties.text.disabled}",
           "type": "color",
@@ -4208,11 +4198,6 @@
           "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
-        },
-        "text-secondary": {
-          "value": "{ref-properties.text.inverse}",
-          "type": "color",
-          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
         "text-disabled": {
           "value": "{ref-properties.text.disabled}",
@@ -4307,6 +4292,11 @@
           "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. "
+        },
+        "text-secondary": {
+          "value": "{ref-properties.text.secondary}",
+          "type": "color",
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
         "text-emphasized": {
           "value": "{ref-properties.text.emphasized}",
@@ -4440,6 +4430,11 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content."
         },
+        "text-secondary": {
+          "value": "{ref-properties.text.inverse}",
+          "type": "color",
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+        },
         "text-disabled": {
           "value": "{ref-properties.text.disabled}",
           "type": "color",
@@ -4531,6 +4526,11 @@
           "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+        },
+        "text-secondary": {
+          "value": "{ref-properties.text.inverse}",
+          "type": "color",
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
         "text-disabled": {
           "value": "{ref-properties.text.disabled}",
@@ -7715,11 +7715,6 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
-          "value": "{ref-properties.text.secondary}",
-          "type": "color",
-          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
-        },
         "text-emphasized": {
           "value": "{ref-properties.text.emphasized}",
           "type": "color",
@@ -7832,11 +7827,6 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
-          "value": "{ref-properties.text.inverse}",
-          "type": "color",
-          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
-        },
         "text-disabled": {
           "value": "{ref-properties.text.disabled}",
           "type": "color",
@@ -7928,11 +7918,6 @@
           "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
-        },
-        "text-secondary": {
-          "value": "{ref-properties.text.secondary}",
-          "type": "color",
-          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
         "text-disabled": {
           "value": "{ref-properties.text.disabled}",
@@ -8027,6 +8012,11 @@
           "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. "
+        },
+        "text-secondary": {
+          "value": "{ref-properties.text.secondary}",
+          "type": "color",
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
         "text-emphasized": {
           "value": "{ref-properties.text.emphasized}",
@@ -8160,6 +8150,11 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content."
         },
+        "text-secondary": {
+          "value": "{ref-properties.text.inverse}",
+          "type": "color",
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+        },
         "text-disabled": {
           "value": "{ref-properties.text.disabled}",
           "type": "color",
@@ -8251,6 +8246,11 @@
           "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+        },
+        "text-secondary": {
+          "value": "{ref-properties.text.secondary}",
+          "type": "color",
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
         "text-disabled": {
           "value": "{ref-properties.text.disabled}",
@@ -9748,7 +9748,6 @@
         "comp-messaging.border-disabled": "db9aad30c3b7dbe23b205c73f4324471a6b00d8c",
         "comp-messaging.border-error": "463e9cd44daf7521cdb460492811bf3378a72597",
         "comp-nav-horizontal.default.text-default": "d8819bdd3db6abc29a59adc910fff8072092e429",
-        "comp-nav-horizontal.default.text-secondary": "383233d61695c264ce17bb18626b6a1e72c76148",
         "comp-nav-horizontal.default.text-emphasized": "92724752bf14c4ac22a5b6a2b9dfda4e14383d16",
         "comp-nav-horizontal.default.text-disabled": "aaf9fecec8314810d779e99837c90ebf219edbd2",
         "comp-nav-horizontal.default.icon-disabled": "2c6c5ef6c9e3d598b88d00e1a7f84557b5f10baf",
@@ -9771,7 +9770,6 @@
         "comp-nav-horizontal.default.border-disabled-none": "9d60eddcc0b1d3832703b189f2d7adf1e7cd7d2f",
         "comp-nav-horizontal.default.border-disabled-low": "40a7c01977228e266b4f1361e58c4a6284f6914a",
         "comp-nav-horizontal.brand.text-default": "9e786e18f6b25cdc0e60d5dec93d9ef8a7548e68",
-        "comp-nav-horizontal.brand.text-secondary": "e3c4738dd72077cab9d258c36da6289245e66abd",
         "comp-nav-horizontal.brand.text-disabled": "c8b4de8595d1ce89bdc500586cd51e01e0810cbb",
         "comp-nav-horizontal.brand.icon-default": "0803ae2fe9206e09f5430606b29516959f7ca503",
         "comp-nav-horizontal.brand.icon-disabled": "b6456a4a17ee586185bd00095da48813dea0b7ad",
@@ -9790,7 +9788,6 @@
         "comp-nav-horizontal.brand.border-disabled-none": "4d26da1fe5756973250b07b0511cef3710278e77",
         "comp-nav-horizontal.brand.border-disabled-low": "af082f93830614b7621f7a735219ad540c2e43fc",
         "comp-nav-horizontal.inverse.text-default": "89462f56adbc6ee901261a36458d3b4ca6b018c8",
-        "comp-nav-horizontal.inverse.text-secondary": "c91f6d4e145b83759361d02acb2ab63b7611fbb2",
         "comp-nav-horizontal.inverse.text-disabled": "28653d07701bc10337e68e8e61050657d05982ba",
         "comp-nav-horizontal.inverse.icon-default": "0604be08b4137acd9e701a7c279fd2fcb32a22c0",
         "comp-nav-horizontal.inverse.icon-disabled": "8066abab85119be7eb333321ba9abefebd5bc96e",
@@ -10262,7 +10259,10 @@
         "spacing.48": "2ce669cfd8ac3223b8583e1f0f36915c6bbc400e",
         "spacing.64": "17938714f7cb87b31821121ef223fa3fccb2fe5e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
-        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a"
+        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
+        "comp-nav-vertical.inverse.text-secondary": "c91f6d4e145b83759361d02acb2ab63b7611fbb2",
+        "comp-nav-vertical.brand.text-secondary": "e3c4738dd72077cab9d258c36da6289245e66abd",
+        "comp-nav-vertical.default.text-secondary": "383233d61695c264ce17bb18626b6a1e72c76148"
       },
       "group": "Theme"
     },
@@ -10660,7 +10660,6 @@
         "comp-messaging.border-disabled": "db9aad30c3b7dbe23b205c73f4324471a6b00d8c",
         "comp-messaging.border-error": "463e9cd44daf7521cdb460492811bf3378a72597",
         "comp-nav-horizontal.default.text-default": "d8819bdd3db6abc29a59adc910fff8072092e429",
-        "comp-nav-horizontal.default.text-secondary": "383233d61695c264ce17bb18626b6a1e72c76148",
         "comp-nav-horizontal.default.text-emphasized": "92724752bf14c4ac22a5b6a2b9dfda4e14383d16",
         "comp-nav-horizontal.default.text-disabled": "aaf9fecec8314810d779e99837c90ebf219edbd2",
         "comp-nav-horizontal.default.icon-disabled": "2c6c5ef6c9e3d598b88d00e1a7f84557b5f10baf",
@@ -10683,7 +10682,6 @@
         "comp-nav-horizontal.default.border-disabled-none": "9d60eddcc0b1d3832703b189f2d7adf1e7cd7d2f",
         "comp-nav-horizontal.default.border-disabled-low": "40a7c01977228e266b4f1361e58c4a6284f6914a",
         "comp-nav-horizontal.brand.text-default": "9e786e18f6b25cdc0e60d5dec93d9ef8a7548e68",
-        "comp-nav-horizontal.brand.text-secondary": "e3c4738dd72077cab9d258c36da6289245e66abd",
         "comp-nav-horizontal.brand.text-disabled": "c8b4de8595d1ce89bdc500586cd51e01e0810cbb",
         "comp-nav-horizontal.brand.icon-default": "0803ae2fe9206e09f5430606b29516959f7ca503",
         "comp-nav-horizontal.brand.icon-disabled": "b6456a4a17ee586185bd00095da48813dea0b7ad",
@@ -10702,7 +10700,6 @@
         "comp-nav-horizontal.brand.border-disabled-none": "4d26da1fe5756973250b07b0511cef3710278e77",
         "comp-nav-horizontal.brand.border-disabled-low": "af082f93830614b7621f7a735219ad540c2e43fc",
         "comp-nav-horizontal.inverse.text-default": "89462f56adbc6ee901261a36458d3b4ca6b018c8",
-        "comp-nav-horizontal.inverse.text-secondary": "c91f6d4e145b83759361d02acb2ab63b7611fbb2",
         "comp-nav-horizontal.inverse.text-disabled": "28653d07701bc10337e68e8e61050657d05982ba",
         "comp-nav-horizontal.inverse.icon-default": "0604be08b4137acd9e701a7c279fd2fcb32a22c0",
         "comp-nav-horizontal.inverse.icon-disabled": "8066abab85119be7eb333321ba9abefebd5bc96e",
@@ -11176,7 +11173,10 @@
         "spacing.48": "2ce669cfd8ac3223b8583e1f0f36915c6bbc400e",
         "spacing.64": "17938714f7cb87b31821121ef223fa3fccb2fe5e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
-        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a"
+        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
+        "comp-nav-vertical.inverse.text-secondary": "c91f6d4e145b83759361d02acb2ab63b7611fbb2",
+        "comp-nav-vertical.brand.text-secondary": "e3c4738dd72077cab9d258c36da6289245e66abd",
+        "comp-nav-vertical.default.text-secondary": "383233d61695c264ce17bb18626b6a1e72c76148"
       },
       "group": "Theme"
     }
