@@ -3731,6 +3731,11 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
+      "icon-emphasized": {
+        "value": "{ref-properties.icon.emphasized}",
+        "type": "color",
+        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+      },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
         "type": "color",
@@ -7431,6 +7436,11 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
+      "icon-emphasized": {
+        "value": "{ref-properties.icon.emphasized}",
+        "type": "color",
+        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+      },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
         "type": "color",
@@ -9663,6 +9673,8 @@
         "comp-list.surface-pressed": "efcce78b688a23b5d6d97e02bdd87e95de74c0e4",
         "comp-list.surface-selected-moderate": "57cc0594bb615018db8c919783e6d7c87cf7c4db",
         "comp-list.surface-selected-moderate:hover": "0e19d6b9eac91028083098f5430a21b4da753d78",
+        "comp-list.surface-transparent": "5bcea2b5802456855d964f3ca73f8b517d2d1c4f",
+        "comp-list.surface-muted": "af7fcec3fb3b17c55a38bdc66d5f472116f3a033",
         "comp-list.surface-disabled": "63e76620721e16f824c7c38a04c68a48c09b8139",
         "comp-list.border-enabled": "bc47604990043c3c6020e8431f7e0d48db59982b",
         "comp-list.border-hover": "7d2416aae0083b7af84c158b3238c2dfd073fb8c",
@@ -9673,8 +9685,8 @@
         "comp-list.border-disabled": "254d135111cd64b3ca66a7d4d7371dab5a7415ea",
         "comp-list.border-transparent": "06941e438d71ad6575f0f3299f48230f26b865b6",
         "comp-list.border-muted": "d8659f77f2ed678d39d8099a06b5b739460ab3e3",
-        "comp-list.surface-muted": "af7fcec3fb3b17c55a38bdc66d5f472116f3a033",
-        "comp-list.surface-transparent": "5bcea2b5802456855d964f3ca73f8b517d2d1c4f",
+        "comp-list.border-weak": "f112d8202b4e707439eae30a1a2ff2eb1c053e03",
+        "comp-list.border-moderate": "ad6153b65da564db836b968e910508d903965922",
         "comp-messaging.text-default": "ff9a8ece23ad1ed24f9bcf7e4573d28c1181a412",
         "comp-messaging.text-secondary": "ef24b765226cefdb67e853213143891ef8d0807a",
         "comp-messaging.text-disabled": "c571eab9e75b0fb1f26566c9ad43b88806f08aec",
@@ -10571,6 +10583,8 @@
         "comp-list.surface-pressed": "efcce78b688a23b5d6d97e02bdd87e95de74c0e4",
         "comp-list.surface-selected-moderate": "57cc0594bb615018db8c919783e6d7c87cf7c4db",
         "comp-list.surface-selected-moderate:hover": "0e19d6b9eac91028083098f5430a21b4da753d78",
+        "comp-list.surface-transparent": "5bcea2b5802456855d964f3ca73f8b517d2d1c4f",
+        "comp-list.surface-muted": "af7fcec3fb3b17c55a38bdc66d5f472116f3a033",
         "comp-list.surface-disabled": "63e76620721e16f824c7c38a04c68a48c09b8139",
         "comp-list.border-enabled": "bc47604990043c3c6020e8431f7e0d48db59982b",
         "comp-list.border-hover": "7d2416aae0083b7af84c158b3238c2dfd073fb8c",
@@ -10581,8 +10595,6 @@
         "comp-list.border-disabled": "254d135111cd64b3ca66a7d4d7371dab5a7415ea",
         "comp-list.border-transparent": "06941e438d71ad6575f0f3299f48230f26b865b6",
         "comp-list.border-muted": "d8659f77f2ed678d39d8099a06b5b739460ab3e3",
-        "comp-list.surface-muted": "af7fcec3fb3b17c55a38bdc66d5f472116f3a033",
-        "comp-list.surface-transparent": "5bcea2b5802456855d964f3ca73f8b517d2d1c4f",
         "comp-messaging.text-default": "ff9a8ece23ad1ed24f9bcf7e4573d28c1181a412",
         "comp-messaging.text-secondary": "ef24b765226cefdb67e853213143891ef8d0807a",
         "comp-messaging.text-disabled": "c571eab9e75b0fb1f26566c9ad43b88806f08aec",
@@ -10891,6 +10903,8 @@
         "comp-toggle.border-focused": "8f0a8f5f10b256b5843860ea7b62d6ddff3b5705",
         "comp-toggle.border-error": "dc21948c03020fe530f4f79709c05bfba7a61c08",
         "comp-toggle.border-disabled": "57d8954f933cbb9f40a99ed95291e41dfcfedcee",
+        "comp-list.border-weak": "f112d8202b4e707439eae30a1a2ff2eb1c053e03",
+        "comp-list.border-moderate": "ad6153b65da564db836b968e910508d903965922",
         "vud-core-palette.green-05": "0df1b28bace857359a910fa5ff7c2964ed229f7d",
         "vud-core-palette.green-10": "d68ea7dc47856774b91a55129823f24b377a911b",
         "vud-core-palette.green-20": "9a7da77a875af5715d2ee1c00838782e7df387c5",
