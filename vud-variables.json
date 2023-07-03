@@ -2679,6 +2679,13 @@
             "type": "color",
             "description": "Suitable for product-based UI screens."
           }
+        },
+        "on-mark-tag": {
+          "default": {
+            "value": "{vud-core-palette.orange-10}",
+            "type": "color",
+            "description": "Suitable for highligting text."
+          }
         }
       },
       "shade": {
@@ -6347,6 +6354,13 @@
             "type": "color",
             "description": "Suitable for product-based UI screens."
           }
+        },
+        "on-mark-tag": {
+          "default": {
+            "value": "{vud-core-palette.orange-10}",
+            "type": "color",
+            "description": "Suitable for highlighting text."
+          }
         }
       },
       "shade": {
@@ -9507,6 +9521,9 @@
         "comp-btn.on-destructive-medium.border-focused": "fc6c3b11c27085b91dc0798143fc44cda7f02a13",
         "comp-btn.on-destructive-medium.border-pressed": "9c3e8f6745fffdd932ea95d3c07a8582a3e3522b",
         "comp-btn.on-destructive-medium.border-disabled": "81449bc3432c163543161f187ddd60861ade11c4",
+        "comp-calendar-slot.text-event1": "d907a5fe4a4310cc4734173feb13619f947c56ea",
+        "comp-calendar-slot.text-event2": "7ec4724a3334aa4cb261593a975c90bd58b60cce",
+        "comp-calendar-slot.text-event3": "aae2f68c178fdbf569cdcb80c5c1d300d9e7dce6",
         "comp-calendar-slot.surface-event1": "5ee0b2fdebd4f93359c0bbe179080aba3b510f71",
         "comp-calendar-slot.surface-event2": "3cb44ea216cb25f0d6fa7cfa286a2ae6a80a78f7",
         "comp-calendar-slot.surface-event3": "0ba7ade96a6fabd6e7eeeda6408f09c6c7688805",
@@ -10409,6 +10426,9 @@
         "comp-btn.on-destructive-medium.border-focused": "fc6c3b11c27085b91dc0798143fc44cda7f02a13",
         "comp-btn.on-destructive-medium.border-pressed": "9c3e8f6745fffdd932ea95d3c07a8582a3e3522b",
         "comp-btn.on-destructive-medium.border-disabled": "81449bc3432c163543161f187ddd60861ade11c4",
+        "comp-calendar-slot.text-event1": "d907a5fe4a4310cc4734173feb13619f947c56ea",
+        "comp-calendar-slot.text-event2": "7ec4724a3334aa4cb261593a975c90bd58b60cce",
+        "comp-calendar-slot.text-event3": "aae2f68c178fdbf569cdcb80c5c1d300d9e7dce6",
         "comp-calendar-slot.surface-event1": "5ee0b2fdebd4f93359c0bbe179080aba3b510f71",
         "comp-calendar-slot.surface-event2": "3cb44ea216cb25f0d6fa7cfa286a2ae6a80a78f7",
         "comp-calendar-slot.surface-event3": "0ba7ade96a6fabd6e7eeeda6408f09c6c7688805",
@@ -10416,6 +10436,7 @@
         "comp-calendar-slot.border-event2": "599757d8c43b793022b8117e35b529a8ab38f0d7",
         "comp-calendar-slot.border-event3": "ba5aba24775c12d876f83508fcd753796978c959",
         "comp-calendar.text-default": "42f8ebe47b8595106709b0552cc941b661cee9ee",
+        "comp-calendar.text-inverse": "972b8d780126e56b7c899c023a2ee8cfdd682c17",
         "comp-calendar.text-disabled": "0df2b299c30a1d417388fd9d715d5766967c79fa",
         "comp-calendar.icon-default": "716ee31b7ba4706ad0fdc8b97c431f73f67437fa",
         "comp-calendar.icon-disabled": "2319301607e3ddb94567a08acb77bcd4b1011247",
