@@ -3251,6 +3251,11 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
+      "text-secondary": {
+        "value": "{ref-properties.text.secondary}",
+        "type": "color",
+        "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+      },
       "text-inverse": {
         "value": "{ref-properties.text.inverse}",
         "type": "color",
@@ -3265,6 +3270,11 @@
         "value": "{ref-properties.icon.default}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+      },
+      "icon-emphasized": {
+        "value": "{ref-properties.icon.emphasized}",
+        "type": "color",
+        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -3332,16 +3342,6 @@
         "type": "color",
         "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
-      "border-muted": {
-        "value": "{ref-properties.border.on-default.muted}",
-        "type": "color",
-        "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
-      },
-      "border-transparent": {
-        "value": "rgba({vud-ref-functional.default-light-05}, {opacity.0})",
-        "type": "color",
-        "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
-      },
       "border-hover": {
         "value": "{ref-properties.border.on-default.hover}",
         "type": "color",
@@ -3368,12 +3368,12 @@
         "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
       "border-selected-strong": {
-        "value": "{ref-properties.border.on-default.selected-strong}",
+        "value": "{ref-properties.fill.on-secondary.selected}",
         "type": "color",
         "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
       },
       "border-selected-strong:hover": {
-        "value": "{ref-properties.border.on-default.selected-strong:hover}",
+        "value": "{ref-properties.fill.on-secondary.selected:hover}",
         "type": "color",
         "description": "Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
         "$extensions": {}
@@ -3382,6 +3382,26 @@
         "value": "{ref-properties.border.on-default.disabled}",
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+      },
+      "border-transparent": {
+        "value": "rgba({vud-ref-functional.default-light-05}, {opacity.0})",
+        "type": "color",
+        "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+      },
+      "border-muted": {
+        "value": "{ref-properties.border.on-default.muted}",
+        "type": "color",
+        "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
+      },
+      "border-moderate": {
+        "value": "{ref-properties.border.moderate}",
+        "type": "color",
+        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
+      },
+      "border-strong": {
+        "value": "{ref-properties.border.strong}",
+        "type": "color",
+        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
       }
     },
     "comp-content": {
@@ -6956,6 +6976,11 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
+      "text-secondary": {
+        "value": "{ref-properties.text.secondary}",
+        "type": "color",
+        "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+      },
       "text-inverse": {
         "value": "{ref-properties.text.default}",
         "type": "color",
@@ -6970,6 +6995,11 @@
         "value": "{ref-properties.icon.default}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+      },
+      "icon-emphasized": {
+        "value": "{ref-properties.icon.emphasized}",
+        "type": "color",
+        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -7038,16 +7068,6 @@
         "type": "color",
         "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
-      "border-muted": {
-        "value": "{ref-properties.border.on-default.muted}",
-        "type": "color",
-        "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
-      },
-      "border-transparent": {
-        "value": "rgba({vud-ref-functional.default-dark-05}, {opacity.0})",
-        "type": "color",
-        "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
-      },
       "border-hover": {
         "value": "{ref-properties.border.on-default.hover}",
         "type": "color",
@@ -7097,6 +7117,26 @@
         "value": "{ref-properties.border.on-default.disabled}",
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+      },
+      "border-transparent": {
+        "value": "rgba({vud-ref-functional.default-dark-05}, {opacity.0})",
+        "type": "color",
+        "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+      },
+      "border-muted": {
+        "value": "{ref-properties.border.on-default.muted}",
+        "type": "color",
+        "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
+      },
+      "border-moderate": {
+        "value": "{ref-properties.border.moderate}",
+        "type": "color",
+        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
+      },
+      "border-strong": {
+        "value": "{ref-properties.border.strong}",
+        "type": "color",
+        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
       }
     },
     "comp-content": {
@@ -9748,6 +9788,8 @@
         "comp-messaging.border-disabled": "db9aad30c3b7dbe23b205c73f4324471a6b00d8c",
         "comp-messaging.border-error": "463e9cd44daf7521cdb460492811bf3378a72597",
         "comp-nav-horizontal.default.text-default": "d8819bdd3db6abc29a59adc910fff8072092e429",
+        "comp-nav-vertical.default.text-default": "893ee5f1de4149a3a8295199b4b078cbf080bd69",
+        "comp-nav-vertical.default.text-secondary": "383233d61695c264ce17bb18626b6a1e72c76148",
         "comp-nav-horizontal.default.text-emphasized": "92724752bf14c4ac22a5b6a2b9dfda4e14383d16",
         "comp-nav-horizontal.default.text-disabled": "aaf9fecec8314810d779e99837c90ebf219edbd2",
         "comp-nav-horizontal.default.icon-disabled": "2c6c5ef6c9e3d598b88d00e1a7f84557b5f10baf",
@@ -9770,6 +9812,8 @@
         "comp-nav-horizontal.default.border-disabled-none": "9d60eddcc0b1d3832703b189f2d7adf1e7cd7d2f",
         "comp-nav-horizontal.default.border-disabled-low": "40a7c01977228e266b4f1361e58c4a6284f6914a",
         "comp-nav-horizontal.brand.text-default": "9e786e18f6b25cdc0e60d5dec93d9ef8a7548e68",
+        "comp-nav-vertical.brand.text-default": "0846c80ac67f3ce8e71a5187ad15d638a53609ab",
+        "comp-nav-vertical.brand.text-secondary": "e3c4738dd72077cab9d258c36da6289245e66abd",
         "comp-nav-horizontal.brand.text-disabled": "c8b4de8595d1ce89bdc500586cd51e01e0810cbb",
         "comp-nav-horizontal.brand.icon-default": "0803ae2fe9206e09f5430606b29516959f7ca503",
         "comp-nav-horizontal.brand.icon-disabled": "b6456a4a17ee586185bd00095da48813dea0b7ad",
@@ -9788,6 +9832,8 @@
         "comp-nav-horizontal.brand.border-disabled-none": "4d26da1fe5756973250b07b0511cef3710278e77",
         "comp-nav-horizontal.brand.border-disabled-low": "af082f93830614b7621f7a735219ad540c2e43fc",
         "comp-nav-horizontal.inverse.text-default": "89462f56adbc6ee901261a36458d3b4ca6b018c8",
+        "comp-nav-vertical.inverse.text-default": "6356d56daa74ea98751d9288cc0eee22796429bb",
+        "comp-nav-vertical.inverse.text-secondary": "c91f6d4e145b83759361d02acb2ab63b7611fbb2",
         "comp-nav-horizontal.inverse.text-disabled": "28653d07701bc10337e68e8e61050657d05982ba",
         "comp-nav-horizontal.inverse.icon-default": "0604be08b4137acd9e701a7c279fd2fcb32a22c0",
         "comp-nav-horizontal.inverse.icon-disabled": "8066abab85119be7eb333321ba9abefebd5bc96e",
@@ -9805,7 +9851,6 @@
         "comp-nav-horizontal.inverse.border-selected": "27cd7801a8774a32ea086598ab495e193ffe02a1",
         "comp-nav-horizontal.inverse.border-disabled-none": "b41c5f3a82e069bf3c8ce793741e183c51cfdf98",
         "comp-nav-horizontal.inverse.border-disabled-low": "f11e2b7a7576e40636aa4dcf07d8a28603aa2588",
-        "comp-nav-vertical.default.text-default": "893ee5f1de4149a3a8295199b4b078cbf080bd69",
         "comp-nav-vertical.default.text-emphasized": "ca489f7c544b88f705f8018bdbcbd110f872aef7",
         "comp-nav-vertical.default.text-inverse": "a5e1f8168c299081b27363c1fd83096b581f7865",
         "comp-nav-vertical.default.text-disabled": "0b8d454997f4d3da17168894424c29e739852ab3",
@@ -9831,7 +9876,6 @@
         "comp-nav-vertical.default.border-selected:hover": "f8e15e22ae09eff20871b4e4d28080b097a72b37",
         "comp-nav-vertical.default.border-disabled-none": "dd81911b802a3bb83fc33d1f1378ebb5d9dbdf02",
         "comp-nav-vertical.default.border-disabled-low": "5a6d5f98ea76b3d9ccd5e07901fa3c5a5bf4a455",
-        "comp-nav-vertical.brand.text-default": "0846c80ac67f3ce8e71a5187ad15d638a53609ab",
         "comp-nav-vertical.brand.text-disabled": "f4defb23ae54ef2f6398c55cfd9992fea7592db8",
         "comp-nav-vertical.brand.icon-default": "d34e42988b49606daa560cd1a7e2fce4e095da67",
         "comp-nav-vertical.brand.icon-disabled": "d2ab4000a9cb4fdb4b731bba4f9c6bcbac2d1608",
@@ -9849,7 +9893,6 @@
         "comp-nav-vertical.brand.border-selected:hover": "c4abebbad93694974d3973873f673fa3bcba2d5f",
         "comp-nav-vertical.brand.border-disabled-none": "77818da7eb640e2c7a8409119dc86aa759763a57",
         "comp-nav-vertical.brand.border-disabled-low": "cc5cca451a72659bddcc2b30952a1a381482e6d7",
-        "comp-nav-vertical.inverse.text-default": "6356d56daa74ea98751d9288cc0eee22796429bb",
         "comp-nav-vertical.inverse.text-disabled": "211b8c7431dff96dcfe904c10900c4a9c67dae88",
         "comp-nav-vertical.inverse.icon-default": "9c284cb04759c46cdb9527b186d84dd9f792801d",
         "comp-nav-vertical.inverse.icon-disabled": "c1aef7f31ab639bfee5b966d51196475c18162ee",
@@ -10259,10 +10302,7 @@
         "spacing.48": "2ce669cfd8ac3223b8583e1f0f36915c6bbc400e",
         "spacing.64": "17938714f7cb87b31821121ef223fa3fccb2fe5e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
-        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
-        "comp-nav-vertical.inverse.text-secondary": "c91f6d4e145b83759361d02acb2ab63b7611fbb2",
-        "comp-nav-vertical.brand.text-secondary": "e3c4738dd72077cab9d258c36da6289245e66abd",
-        "comp-nav-vertical.default.text-secondary": "383233d61695c264ce17bb18626b6a1e72c76148"
+        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a"
       },
       "group": "Theme"
     },
@@ -10660,6 +10700,8 @@
         "comp-messaging.border-disabled": "db9aad30c3b7dbe23b205c73f4324471a6b00d8c",
         "comp-messaging.border-error": "463e9cd44daf7521cdb460492811bf3378a72597",
         "comp-nav-horizontal.default.text-default": "d8819bdd3db6abc29a59adc910fff8072092e429",
+        "comp-nav-vertical.default.text-default": "893ee5f1de4149a3a8295199b4b078cbf080bd69",
+        "comp-nav-vertical.default.text-secondary": "383233d61695c264ce17bb18626b6a1e72c76148",
         "comp-nav-horizontal.default.text-emphasized": "92724752bf14c4ac22a5b6a2b9dfda4e14383d16",
         "comp-nav-horizontal.default.text-disabled": "aaf9fecec8314810d779e99837c90ebf219edbd2",
         "comp-nav-horizontal.default.icon-disabled": "2c6c5ef6c9e3d598b88d00e1a7f84557b5f10baf",
@@ -10682,6 +10724,8 @@
         "comp-nav-horizontal.default.border-disabled-none": "9d60eddcc0b1d3832703b189f2d7adf1e7cd7d2f",
         "comp-nav-horizontal.default.border-disabled-low": "40a7c01977228e266b4f1361e58c4a6284f6914a",
         "comp-nav-horizontal.brand.text-default": "9e786e18f6b25cdc0e60d5dec93d9ef8a7548e68",
+        "comp-nav-vertical.brand.text-default": "0846c80ac67f3ce8e71a5187ad15d638a53609ab",
+        "comp-nav-vertical.brand.text-secondary": "e3c4738dd72077cab9d258c36da6289245e66abd",
         "comp-nav-horizontal.brand.text-disabled": "c8b4de8595d1ce89bdc500586cd51e01e0810cbb",
         "comp-nav-horizontal.brand.icon-default": "0803ae2fe9206e09f5430606b29516959f7ca503",
         "comp-nav-horizontal.brand.icon-disabled": "b6456a4a17ee586185bd00095da48813dea0b7ad",
@@ -10700,6 +10744,8 @@
         "comp-nav-horizontal.brand.border-disabled-none": "4d26da1fe5756973250b07b0511cef3710278e77",
         "comp-nav-horizontal.brand.border-disabled-low": "af082f93830614b7621f7a735219ad540c2e43fc",
         "comp-nav-horizontal.inverse.text-default": "89462f56adbc6ee901261a36458d3b4ca6b018c8",
+        "comp-nav-vertical.inverse.text-default": "6356d56daa74ea98751d9288cc0eee22796429bb",
+        "comp-nav-vertical.inverse.text-secondary": "c91f6d4e145b83759361d02acb2ab63b7611fbb2",
         "comp-nav-horizontal.inverse.text-disabled": "28653d07701bc10337e68e8e61050657d05982ba",
         "comp-nav-horizontal.inverse.icon-default": "0604be08b4137acd9e701a7c279fd2fcb32a22c0",
         "comp-nav-horizontal.inverse.icon-disabled": "8066abab85119be7eb333321ba9abefebd5bc96e",
@@ -10717,7 +10763,6 @@
         "comp-nav-horizontal.inverse.border-selected": "27cd7801a8774a32ea086598ab495e193ffe02a1",
         "comp-nav-horizontal.inverse.border-disabled-none": "b41c5f3a82e069bf3c8ce793741e183c51cfdf98",
         "comp-nav-horizontal.inverse.border-disabled-low": "f11e2b7a7576e40636aa4dcf07d8a28603aa2588",
-        "comp-nav-vertical.default.text-default": "893ee5f1de4149a3a8295199b4b078cbf080bd69",
         "comp-nav-vertical.default.text-emphasized": "ca489f7c544b88f705f8018bdbcbd110f872aef7",
         "comp-nav-vertical.default.text-inverse": "a5e1f8168c299081b27363c1fd83096b581f7865",
         "comp-nav-vertical.default.text-disabled": "0b8d454997f4d3da17168894424c29e739852ab3",
@@ -10743,7 +10788,6 @@
         "comp-nav-vertical.default.border-selected:hover": "f8e15e22ae09eff20871b4e4d28080b097a72b37",
         "comp-nav-vertical.default.border-disabled-none": "dd81911b802a3bb83fc33d1f1378ebb5d9dbdf02",
         "comp-nav-vertical.default.border-disabled-low": "5a6d5f98ea76b3d9ccd5e07901fa3c5a5bf4a455",
-        "comp-nav-vertical.brand.text-default": "0846c80ac67f3ce8e71a5187ad15d638a53609ab",
         "comp-nav-vertical.brand.text-disabled": "f4defb23ae54ef2f6398c55cfd9992fea7592db8",
         "comp-nav-vertical.brand.icon-default": "d34e42988b49606daa560cd1a7e2fce4e095da67",
         "comp-nav-vertical.brand.icon-disabled": "d2ab4000a9cb4fdb4b731bba4f9c6bcbac2d1608",
@@ -10761,7 +10805,6 @@
         "comp-nav-vertical.brand.border-selected:hover": "c4abebbad93694974d3973873f673fa3bcba2d5f",
         "comp-nav-vertical.brand.border-disabled-none": "77818da7eb640e2c7a8409119dc86aa759763a57",
         "comp-nav-vertical.brand.border-disabled-low": "cc5cca451a72659bddcc2b30952a1a381482e6d7",
-        "comp-nav-vertical.inverse.text-default": "6356d56daa74ea98751d9288cc0eee22796429bb",
         "comp-nav-vertical.inverse.text-disabled": "211b8c7431dff96dcfe904c10900c4a9c67dae88",
         "comp-nav-vertical.inverse.icon-default": "9c284cb04759c46cdb9527b186d84dd9f792801d",
         "comp-nav-vertical.inverse.icon-disabled": "c1aef7f31ab639bfee5b966d51196475c18162ee",
@@ -11173,10 +11216,7 @@
         "spacing.48": "2ce669cfd8ac3223b8583e1f0f36915c6bbc400e",
         "spacing.64": "17938714f7cb87b31821121ef223fa3fccb2fe5e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
-        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
-        "comp-nav-vertical.inverse.text-secondary": "c91f6d4e145b83759361d02acb2ab63b7611fbb2",
-        "comp-nav-vertical.brand.text-secondary": "e3c4738dd72077cab9d258c36da6289245e66abd",
-        "comp-nav-vertical.default.text-secondary": "383233d61695c264ce17bb18626b6a1e72c76148"
+        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a"
       },
       "group": "Theme"
     }
