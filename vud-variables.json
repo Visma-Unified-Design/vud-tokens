@@ -3192,13 +3192,28 @@
       }
     },
     "comp-calendar-slot": {
+      "text-event1": {
+        "value": "{ref-properties.text.emphasized}",
+        "type": "color",
+        "description": "Optimal for scheduling project tasks in a calendar."
+      },
+      "text-event2": {
+        "value": "{ref-properties.text.warning}",
+        "type": "color",
+        "description": "Optimal for scheduling sick leave in a calendar."
+      },
+      "text-event3": {
+        "value": "{ref-properties.text.succes}",
+        "type": "color",
+        "description": "Optimal for scheduling work hours in a calendar."
+      },
       "surface-event1": {
         "value": "{comp-situation.functional-surface-info}",
         "type": "color",
         "description": "Optimal for scheduling project tasks in a calendar."
       },
       "surface-event2": {
-        "value": "{vud-ref-functional.warning-05}",
+        "value": "{vud-ref-functional.warning-10}",
         "type": "color",
         "description": "Optimal for scheduling sick leave in a calendar."
       },
@@ -6840,6 +6855,21 @@
       }
     },
     "comp-calendar-slot": {
+      "text-event1": {
+        "value": "{ref-properties.text.emphasized}",
+        "type": "color",
+        "description": "Optimal for scheduling project tasks in a calendar."
+      },
+      "text-event2": {
+        "value": "{ref-properties.text.warning}",
+        "type": "color",
+        "description": "Optimal for scheduling sick leave in a calendar."
+      },
+      "text-event3": {
+        "value": "{ref-properties.text.succes}",
+        "type": "color",
+        "description": "Optimal for scheduling work hours in a calendar."
+      },
       "surface-event1": {
         "value": "{comp-situation.functional-surface-info}",
         "type": "color",
