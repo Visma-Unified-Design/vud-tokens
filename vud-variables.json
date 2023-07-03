@@ -3443,21 +3443,6 @@
         "type": "color",
         "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
-      "border-enabled": {
-        "value": "{ref-properties.border.on-default.enabled}",
-        "type": "color",
-        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-      },
-      "border-muted": {
-        "value": "{ref-properties.border.on-default.muted}",
-        "type": "color",
-        "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
-      },
-      "border-transparent": {
-        "value": "rgba({vud-ref-functional.default-light-05}, {opacity.0})",
-        "type": "color",
-        "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
-      },
       "surface-enabled": {
         "value": "{ref-properties.fill.on-default.enabled}",
         "type": "color",
@@ -3472,6 +3457,31 @@
         "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
         "type": "color",
         "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+      },
+      "border-enabled": {
+        "value": "{ref-properties.border.on-default.enabled}",
+        "type": "color",
+        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      },
+      "border-transparent": {
+        "value": "rgba({vud-ref-functional.default-light-05}, {opacity.0})",
+        "type": "color",
+        "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+      },
+      "border-muted": {
+        "value": "{ref-properties.border.on-default.muted}",
+        "type": "color",
+        "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
+      },
+      "border-moderate": {
+        "value": "{ref-properties.border.moderate}",
+        "type": "color",
+        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
+      },
+      "border-extreme": {
+        "value": "{ref-properties.border.extreme}",
+        "type": "color",
+        "description": "Extreme default border refers to a standard border style that is branded."
       }
     },
     "comp-drag-drop": {
@@ -3499,6 +3509,11 @@
         "value": "{ref-properties.icon.default}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+      },
+      "icon-emphasized": {
+        "value": "{ref-properties.icon.emphasized}",
+        "type": "color",
+        "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -7183,6 +7198,21 @@
         "type": "color",
         "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
+      "surface-enabled": {
+        "value": "{ref-properties.fill.on-default.enabled}",
+        "type": "color",
+        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      },
+      "surface-muted": {
+        "value": "{ref-properties.fill.on-default.muted}",
+        "type": "color",
+        "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
+      },
+      "surface-transparent": {
+        "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
+        "type": "color",
+        "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+      },
       "border-enabled": {
         "value": "{ref-properties.border.on-default.enabled}",
         "type": "color",
@@ -7198,20 +7228,15 @@
         "type": "color",
         "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
-      "surface-enabled": {
-        "value": "{ref-properties.fill.on-default.enabled}",
+      "border-extreme": {
+        "value": "{ref-properties.border.extreme}",
         "type": "color",
-        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Extreme default border refers to a standard border style that is branded."
       },
-      "surface-muted": {
-        "value": "{ref-properties.fill.on-default.muted}",
+      "border-moderate": {
+        "value": "{ref-properties.border.moderate}",
         "type": "color",
-        "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
-      },
-      "surface-transparent": {
-        "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
-        "type": "color",
-        "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
       }
     },
     "comp-drag-drop": {
@@ -7239,6 +7264,11 @@
         "value": "{ref-properties.icon.default}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+      },
+      "icon-emphasized": {
+        "value": "{ref-properties.icon.emphasized}",
+        "type": "color",
+        "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
