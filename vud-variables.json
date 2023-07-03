@@ -3766,6 +3766,16 @@
         "type": "color",
         "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
+      "surface-transparent": {
+        "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
+        "type": "color",
+        "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+      },
+      "surface-muted": {
+        "value": "{ref-properties.fill.on-default.muted}",
+        "type": "color",
+        "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
+      },
       "surface-disabled": {
         "value": "{ref-properties.fill.on-default.disabled}",
         "type": "color",
@@ -3816,15 +3826,15 @@
         "type": "color",
         "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
       },
-      "surface-muted": {
-        "value": "{ref-properties.fill.on-default.muted}",
+      "border-weak": {
+        "value": "{ref-properties.border.weak}",
         "type": "color",
-        "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
+        "description": "Weak border refers to a subtle border style."
       },
-      "surface-transparent": {
-        "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
+      "border-moderate": {
+        "value": "{ref-properties.border.moderate}",
         "type": "color",
-        "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
       }
     },
     "comp-messaging": {
@@ -7456,6 +7466,16 @@
         "type": "color",
         "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
+      "surface-transparent": {
+        "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
+        "type": "color",
+        "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+      },
+      "surface-muted": {
+        "value": "{ref-properties.fill.on-default.muted}",
+        "type": "color",
+        "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
+      },
       "surface-disabled": {
         "value": "{ref-properties.fill.on-default.disabled}",
         "type": "color",
@@ -7506,15 +7526,15 @@
         "type": "color",
         "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
       },
-      "surface-muted": {
-        "value": "{ref-properties.fill.on-default.muted}",
+      "border-weak": {
+        "value": "{ref-properties.border.weak}",
         "type": "color",
-        "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
+        "description": "Weak border refers to a subtle border style."
       },
-      "surface-transparent": {
-        "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
+      "border-moderate": {
+        "value": "{ref-properties.border.moderate}",
         "type": "color",
-        "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
       }
     },
     "comp-messaging": {
@@ -9449,6 +9469,7 @@
         "ref-properties.fill.on-secondary-variant.disabled": "953cd5bba517547135c04c23076160298f631ec2",
         "ref-properties.fill.on-surface.default": "df8c68b9a66e2cc5d214e4e9a541b52dc88bec14",
         "ref-properties.fill.on-screen.default": "3ed57fadd0f968d8144144d715eaf30d736baf64",
+        "ref-properties.fill.on-mark-tag.default": "338f5b4dc2ab4dc781d55041613689ef06e11dc9",
         "ref-properties.shade.normal": "aeb401984082b150f84d84e56a7dda101813345f",
         "ref-properties.shade.low": "a1626138ea4048d6def20a2b226ad3d3819fe011",
         "ref-properties.tint.low": "0a1e553b5a39d46c5eb144e1e8020236dfe46272",
@@ -9631,6 +9652,7 @@
         "comp-input-field.border-disabled": "30da1d851f7a96f304f34f5302ed9497474156c3",
         "comp-input-field.border-error": "facce6a9d7144b9c18dedfb478fbdd6128a5a23b",
         "comp-list.text-default": "addf7d91c58277e9672c05c0543b5a3987f5c654",
+        "comp-list.text-secondary": "b17350c5767645e7d9dfcd49a51b060c8416745e",
         "comp-list.text-emphasized": "d9ec72c5664e189bcd6bd3b3c1bf6d0784299479",
         "comp-list.text-disabled": "9fb4c7366b3a79072452bba8ba3ca3062f1bc036",
         "comp-list.icon-default": "871c228d85f12c47c4c2f8e997e2016533ab003e",
@@ -10355,6 +10377,7 @@
         "ref-properties.fill.on-secondary-variant.disabled": "953cd5bba517547135c04c23076160298f631ec2",
         "ref-properties.fill.on-surface.default": "df8c68b9a66e2cc5d214e4e9a541b52dc88bec14",
         "ref-properties.fill.on-screen.default": "3ed57fadd0f968d8144144d715eaf30d736baf64",
+        "ref-properties.fill.on-mark-tag.default": "338f5b4dc2ab4dc781d55041613689ef06e11dc9",
         "ref-properties.shade.normal": "aeb401984082b150f84d84e56a7dda101813345f",
         "ref-properties.shade.low": "a1626138ea4048d6def20a2b226ad3d3819fe011",
         "ref-properties.tint.low": "0a1e553b5a39d46c5eb144e1e8020236dfe46272",
@@ -10537,6 +10560,7 @@
         "comp-input-field.border-disabled": "30da1d851f7a96f304f34f5302ed9497474156c3",
         "comp-input-field.border-error": "facce6a9d7144b9c18dedfb478fbdd6128a5a23b",
         "comp-list.text-default": "addf7d91c58277e9672c05c0543b5a3987f5c654",
+        "comp-list.text-secondary": "b17350c5767645e7d9dfcd49a51b060c8416745e",
         "comp-list.text-emphasized": "d9ec72c5664e189bcd6bd3b3c1bf6d0784299479",
         "comp-list.text-disabled": "9fb4c7366b3a79072452bba8ba3ca3062f1bc036",
         "comp-list.icon-default": "871c228d85f12c47c4c2f8e997e2016533ab003e",
