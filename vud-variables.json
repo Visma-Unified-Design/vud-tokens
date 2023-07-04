@@ -4395,25 +4395,20 @@
           "type": "color",
           "description": "Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
-        "surface-selected-moderate": {
-          "value": "{ref-properties.fill.on-default.selected-moderate}",
+        "surface-selected-weak:hover": {
+          "value": "{ref-properties.fill.on-default.selected-weak:hover}",
           "type": "color",
-          "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+          "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "surface-selected-strong": {
           "value": "{ref-brand.secondary-60}",
           "type": "color",
           "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
         },
-        "surface-selected-weak:hover": {
-          "value": "{ref-properties.fill.on-default.selected-weak:hover}",
+        "surface-selected-strong:hover": {
+          "value": "{ref-brand.secondary-60}",
           "type": "color",
-          "description": "Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
-        },
-        "surface-selected:hover": {
-          "value": "{ref-properties.fill.on-default.selected-moderate:hover}",
-          "type": "color",
-          "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+          "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "surface-disabled": {
           "value": "rgba({ref-properties.fill.on-default.disabled}, {opacity.8})",
@@ -4440,18 +4435,13 @@
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
-        "border-selected-moderate": {
-          "value": "{ref-properties.border.on-default.selected-moderate}",
-          "type": "color",
-          "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
-        },
         "border-selected-strong": {
-          "value": "{ref-properties.border.on-default.focused}",
+          "value": "{ref-brand.secondary-60}",
           "type": "color",
           "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
         },
-        "border-selected:hover": {
-          "value": "{ref-properties.border.on-default.selected-moderate:hover}",
+        "border-selected-strong:hover": {
+          "value": "{ref-brand.secondary-60}",
           "type": "color",
           "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -4528,7 +4518,7 @@
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
         },
         "surface-selected-weak:hover": {
-          "value": "{ref-properties.tint.low}",
+          "value": "{ref-properties.shade.low}",
           "type": "color",
           "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -8196,29 +8186,24 @@
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "surface-selected-weak": {
-          "value": "{ref-properties.fill.on-default.selected-weak}",
+          "value": "{ref-properties.shade.low}",
           "type": "color",
           "description": "Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
-        "surface-selected-moderate": {
-          "value": "{ref-properties.fill.on-default.selected-moderate}",
-          "type": "color",
-          "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
-        },
-        "surface-selected-strong": {
-          "value": "{ref-brand.secondary-60}",
-          "type": "color",
-          "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
-        },
         "surface-selected-weak:hover": {
-          "value": "{ref-properties.fill.on-default.selected-weak:hover}",
+          "value": "{ref-properties.shade.low}",
           "type": "color",
           "description": "Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
-        "surface-selected:hover": {
-          "value": "{ref-properties.fill.on-default.selected-moderate:hover}",
+        "surface-selected-strong": {
+          "value": "{ref-properties.fill.on-default.inverse}",
           "type": "color",
-          "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+          "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
+        },
+        "surface-selected-strong:hover": {
+          "value": "{ref-properties.fill.on-default.inverse}",
+          "type": "color",
+          "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "surface-disabled": {
           "value": "rgba({ref-properties.fill.on-default.disabled}, {opacity.8})",
@@ -8245,20 +8230,15 @@
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
-        "border-selected-moderate": {
-          "value": "{ref-properties.border.on-default.selected-moderate}",
-          "type": "color",
-          "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
-        },
         "border-selected-strong": {
-          "value": "{ref-properties.border.on-default.focused}",
+          "value": "{ref-properties.border.on-default.inverse}",
           "type": "color",
           "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
         },
-        "border-selected:hover": {
-          "value": "{ref-properties.border.on-default.selected-moderate:hover}",
+        "border-selected-strong:hover": {
+          "value": "{ref-properties.border.on-default.default}",
           "type": "color",
-          "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+          "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "border-disabled-none": {
           "value": "rgba({ref-properties.border.on-default.disabled},{opacity.0})",
@@ -8333,17 +8313,17 @@
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
         },
         "surface-selected-weak:hover": {
-          "value": "{ref-properties.tint.low}",
+          "value": "{ref-properties.shade.low}",
           "type": "color",
           "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "surface-selected-strong": {
-          "value": "{ref-properties.fill.on-default.enabled}",
+          "value": "{ref-properties.fill.on-default.inverse}",
           "type": "color",
           "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
         },
         "surface-selected-strong:hover": {
-          "value": "{ref-properties.tint.low}",
+          "value": "{ref-properties.fill.on-default.inverse}",
           "type": "color",
           "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -8373,7 +8353,7 @@
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "border-selected-weak": {
-          "value": "{ref-brand.secondary-10}",
+          "value": "{ref-properties.shade.low}",
           "type": "color",
           "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -10046,18 +10026,13 @@
         "comp-nav-vertical.default.surface-hover": "5ac1f51ee187170682a5afb299e45f7a1e39470e",
         "comp-nav-vertical.default.surface-focused": "705af636b1268a0070fe5649023018aa44424742",
         "comp-nav-vertical.default.surface-selected-weak": "72879ca8280b575ed699498293a2d77dc821ba9a",
-        "comp-nav-vertical.default.surface-selected-moderate": "b1691a748d1d01413ef0e15b24fea6549c748695",
         "comp-nav-vertical.default.surface-selected-strong": "263ea9ca62b277e13ac870c8786b959284482c5f",
-        "comp-nav-vertical.default.surface-selected-weak:hover": "8386c7927d70d81ef893d46312e63e1991807eb2",
-        "comp-nav-vertical.default.surface-selected:hover": "9ea4fb267e918d025bdf4c030554a249f17970f2",
         "comp-nav-vertical.default.surface-disabled": "fb16d03e7b30a67b8bc4fa1f00adaf2f555833d0",
         "comp-nav-vertical.default.border-enabled": "b3baf04ab21b2ea3bb24a5e3901d75dd0195caff",
         "comp-nav-vertical.default.border-transparent": "58837886c8b45eec5637d933a4d5c741d7021b5d",
         "comp-nav-vertical.default.border-hover": "ef6bfb6d2a2c32c5c0210a19dcf6a7df39825ec0",
         "comp-nav-vertical.default.border-focused": "2191800aa0d4c436f66f539cd85b2a0bc7a6a333",
-        "comp-nav-vertical.default.border-selected-moderate": "4b4388a8e1fbb7ae4de74871a4b2f25442a1334d",
         "comp-nav-vertical.default.border-selected-strong": "22d80a7a31f03e37341adf7e31b811424410992e",
-        "comp-nav-vertical.default.border-selected:hover": "f8e15e22ae09eff20871b4e4d28080b097a72b37",
         "comp-nav-vertical.default.border-disabled-none": "dd81911b802a3bb83fc33d1f1378ebb5d9dbdf02",
         "comp-nav-vertical.default.border-disabled-low": "5a6d5f98ea76b3d9ccd5e07901fa3c5a5bf4a455",
         "comp-nav-vertical.brand.text-disabled": "f4defb23ae54ef2f6398c55cfd9992fea7592db8",
@@ -10488,7 +10463,10 @@
         "comp-nav-vertical.brand.border-selected-weak:hover": "c4abebbad93694974d3973873f673fa3bcba2d5f",
         "comp-nav-vertical.inverse.surface-selected-weak": "7aafb8aca90f9b7d5b943a12d147f248410604eb",
         "comp-nav-vertical.inverse.border-selected-weak:hover": "2686a963687f66c0475b675e699ac9c51da87c04",
-        "comp-nav-vertical.inverse.border-selected-weak": "e4ca017f0b30211b13d55ebc813b77e29ed278ff"
+        "comp-nav-vertical.inverse.border-selected-weak": "e4ca017f0b30211b13d55ebc813b77e29ed278ff",
+        "comp-nav-vertical.default.surface-selected-strong:hover": "8386c7927d70d81ef893d46312e63e1991807eb2",
+        "comp-nav-vertical.default.surface-selected-weak:hover": "9ea4fb267e918d025bdf4c030554a249f17970f2",
+        "comp-nav-vertical.default.border-selected-strong:hover": "f8e15e22ae09eff20871b4e4d28080b097a72b37"
       },
       "group": "Theme"
     },
@@ -10962,18 +10940,13 @@
         "comp-nav-vertical.default.surface-hover": "5ac1f51ee187170682a5afb299e45f7a1e39470e",
         "comp-nav-vertical.default.surface-focused": "705af636b1268a0070fe5649023018aa44424742",
         "comp-nav-vertical.default.surface-selected-weak": "72879ca8280b575ed699498293a2d77dc821ba9a",
-        "comp-nav-vertical.default.surface-selected-moderate": "b1691a748d1d01413ef0e15b24fea6549c748695",
         "comp-nav-vertical.default.surface-selected-strong": "263ea9ca62b277e13ac870c8786b959284482c5f",
-        "comp-nav-vertical.default.surface-selected-weak:hover": "8386c7927d70d81ef893d46312e63e1991807eb2",
-        "comp-nav-vertical.default.surface-selected:hover": "9ea4fb267e918d025bdf4c030554a249f17970f2",
         "comp-nav-vertical.default.surface-disabled": "fb16d03e7b30a67b8bc4fa1f00adaf2f555833d0",
         "comp-nav-vertical.default.border-enabled": "b3baf04ab21b2ea3bb24a5e3901d75dd0195caff",
         "comp-nav-vertical.default.border-transparent": "58837886c8b45eec5637d933a4d5c741d7021b5d",
         "comp-nav-vertical.default.border-hover": "ef6bfb6d2a2c32c5c0210a19dcf6a7df39825ec0",
         "comp-nav-vertical.default.border-focused": "2191800aa0d4c436f66f539cd85b2a0bc7a6a333",
-        "comp-nav-vertical.default.border-selected-moderate": "4b4388a8e1fbb7ae4de74871a4b2f25442a1334d",
         "comp-nav-vertical.default.border-selected-strong": "22d80a7a31f03e37341adf7e31b811424410992e",
-        "comp-nav-vertical.default.border-selected:hover": "f8e15e22ae09eff20871b4e4d28080b097a72b37",
         "comp-nav-vertical.default.border-disabled-none": "dd81911b802a3bb83fc33d1f1378ebb5d9dbdf02",
         "comp-nav-vertical.default.border-disabled-low": "5a6d5f98ea76b3d9ccd5e07901fa3c5a5bf4a455",
         "comp-nav-vertical.brand.text-disabled": "f4defb23ae54ef2f6398c55cfd9992fea7592db8",
@@ -11404,7 +11377,10 @@
         "comp-nav-vertical.brand.border-selected-weak:hover": "c4abebbad93694974d3973873f673fa3bcba2d5f",
         "comp-nav-vertical.inverse.surface-selected-weak": "7aafb8aca90f9b7d5b943a12d147f248410604eb",
         "comp-nav-vertical.inverse.border-selected-weak:hover": "2686a963687f66c0475b675e699ac9c51da87c04",
-        "comp-nav-vertical.inverse.border-selected-weak": "e4ca017f0b30211b13d55ebc813b77e29ed278ff"
+        "comp-nav-vertical.inverse.border-selected-weak": "e4ca017f0b30211b13d55ebc813b77e29ed278ff",
+        "comp-nav-vertical.default.surface-selected-strong:hover": "8386c7927d70d81ef893d46312e63e1991807eb2",
+        "comp-nav-vertical.default.surface-selected-weak:hover": "9ea4fb267e918d025bdf4c030554a249f17970f2",
+        "comp-nav-vertical.default.border-selected-strong:hover": "f8e15e22ae09eff20871b4e4d28080b097a72b37"
       },
       "group": "Theme"
     }
