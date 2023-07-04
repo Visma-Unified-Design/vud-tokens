@@ -8460,12 +8460,12 @@
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "surface-selected-weak": {
-          "value": "{ref-properties.tint.low}",
+          "value": "{ref-properties.shade.low}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
         },
         "surface-selected-weak:hover": {
-          "value": "{ref-properties.tint.low}",
+          "value": "{ref-properties.shade.low}",
           "type": "color",
           "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
