@@ -1206,6 +1206,10 @@
         "value": "48%",
         "type": "opacity"
       },
+      "56": {
+        "value": "56%",
+        "type": "opacity"
+      },
       "64": {
         "value": "64%",
         "type": "opacity"
@@ -4474,7 +4478,7 @@
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
         "text-disabled": {
-          "value": "{ref-properties.text.disabled}",
+          "value": "rgba({ref-properties.text.inverse}, {opacity.56})",
           "type": "color",
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
@@ -4484,7 +4488,7 @@
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
         },
         "icon-disabled": {
-          "value": "{ref-properties.icon.disabled}",
+          "value": "rgba({ref-properties.icon.inverse},{opacity.56})",
           "type": "color",
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
@@ -4571,7 +4575,7 @@
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
         "text-disabled": {
-          "value": "{ref-properties.text.disabled}",
+          "value": "rgba({ref-properties.text.inverse} ,{opacity.56})",
           "type": "color",
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
@@ -4581,7 +4585,7 @@
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
         },
         "icon-disabled": {
-          "value": "{ref-properties.icon.disabled}",
+          "value": "rgba({ref-properties.icon.inverse},{opacity.56})",
           "type": "color",
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
