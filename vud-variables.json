@@ -8440,7 +8440,7 @@
           "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "surface-selected-strong": {
-          "value": "{ref-properties.tint.low}",
+          "value": "{ref-properties.fill.on-default.selected-strong}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
         },
