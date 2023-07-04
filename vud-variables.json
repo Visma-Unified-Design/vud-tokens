@@ -4650,7 +4650,7 @@
           "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "surface-selected-strong": {
-          "value": "{ref-properties.tint.low}",
+          "value": "{ref-properties.fill.on-default.enabled}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
         },
@@ -4685,7 +4685,7 @@
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "border-selected-weak": {
-          "value": "rgba( {ref-brand.neutral-light-60} , {opacity.0})",
+          "value": "{ref-properties.border.on-default.transparent}",
           "type": "color",
           "description": "Border with a selected state refers to an interaction that occurs when the ui element is active."
         },
@@ -4695,7 +4695,7 @@
           "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "border-selected-strong": {
-          "value": "rgba( {ref-brand.neutral-light-60} , {opacity.0})",
+          "value": "{ref-properties.border.on-default.transparent}",
           "type": "color",
           "description": "Border with a selected state refers to an interaction that occurs when the ui element is active."
         },
