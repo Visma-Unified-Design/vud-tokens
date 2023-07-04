@@ -4370,15 +4370,15 @@
           "type": "color",
           "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
-        "surface-enabled": {
-          "value": "{ref-properties.fill.on-default.enabled}",
-          "type": "color",
-          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-        },
         "surface-transparent": {
           "value": "rgba({vud-ref-functional.default-light-05}, {opacity.0})",
           "type": "color",
           "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+        },
+        "surface-enabled": {
+          "value": "{ref-properties.fill.on-default.enabled}",
+          "type": "color",
+          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "surface-hover": {
           "value": "{ref-properties.fill.on-default.hover}",
@@ -4503,7 +4503,7 @@
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "surface-default": {
-          "value": "{ref-brand.secondary-70}",
+          "value": "{ref-brand.secondary-60}",
           "type": "color",
           "description": "Surface on container."
         },
@@ -8170,15 +8170,15 @@
           "type": "color",
           "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
-        "surface-enabled": {
-          "value": "{ref-properties.fill.on-default.enabled}",
-          "type": "color",
-          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
-        },
         "surface-transparent": {
           "value": "rgba({vud-ref-functional.default-dark-05}, {opacity.0})",
           "type": "color",
           "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
+        },
+        "surface-enabled": {
+          "value": "{ref-properties.fill.on-default.enabled}",
+          "type": "color",
+          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "surface-hover": {
           "value": "{ref-properties.fill.on-default.hover}",
@@ -8303,7 +8303,7 @@
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "surface-default": {
-          "value": "{ref-brand.secondary-70}",
+          "value": "{ref-brand.secondary-60}",
           "type": "color",
           "description": "Surface on container."
         },
