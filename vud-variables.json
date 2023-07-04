@@ -4235,7 +4235,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
-      "inverse": {
+      "inverted": {
         "text-default": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
@@ -4598,7 +4598,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
-      "inverse": {
+      "inverted": {
         "text-default": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
@@ -8040,7 +8040,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
-      "inverse": {
+      "inverted": {
         "text-default": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
@@ -8403,7 +8403,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
-      "inverse": {
+      "inverted": {
         "text-default": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
