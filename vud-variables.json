@@ -6126,7 +6126,7 @@
             "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
           },
           "hover": {
-            "value": "{ref-brand.neutral-dark-40}",
+            "value": "{ref-brand.neutral-dark-60}",
             "type": "color",
             "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -8236,7 +8236,7 @@
           "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
         },
         "border-selected-strong:hover": {
-          "value": "{ref-properties.border.on-default.default}",
+          "value": "{ref-properties.border.on-default.inverse}",
           "type": "color",
           "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -8395,7 +8395,7 @@
           "description": "Inverse text refers to the opposite color that contrasts with the background. "
         },
         "text-secondary": {
-          "value": "{ref-properties.text.secondary}",
+          "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
