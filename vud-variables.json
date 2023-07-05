@@ -5315,6 +5315,11 @@
         "type": "color",
         "description": "Suitable for default alerts. Specially lower prio statuses such as pairing."
       },
+      "functional-border-muted": {
+        "value": "{ref-properties.border.on-functional.muted}",
+        "type": "color",
+        "description": "Muted border refers to a subtle border style.\n"
+      },
       "functional-border-inverse": {
         "value": "{ref-properties.border.moderate}",
         "type": "color",
@@ -9204,6 +9209,11 @@
         "value": "{ref-properties.border.on-functional.default}",
         "type": "color",
         "description": "Suitable for default alerts. Specially lower prio statuses such as pairing."
+      },
+      "functional-border-muted": {
+        "value": "{ref-properties.border.on-functional.muted}",
+        "type": "color",
+        "description": "Muted border refers to a subtle border style.\n"
       },
       "functional-border-inverse": {
         "value": "{ref-properties.border.moderate}",
