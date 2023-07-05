@@ -2191,7 +2191,7 @@
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           },
           "success-low": {
-            "value": "{vud-ref-functional.success-60}",
+            "value": "{vud-ref-functional.success-70}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           },
@@ -2201,7 +2201,7 @@
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           },
           "success-medium": {
-            "value": "{vud-ref-functional.success-60}",
+            "value": "{vud-ref-functional.success-70}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           }
