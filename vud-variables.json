@@ -2165,6 +2165,11 @@
             "type": "color",
             "description": "Default alerts. Specially lower prio statuses such as pairing."
           },
+          "inverse": {
+            "value": "{vud-ref-functional.default-light-90}",
+            "type": "color",
+            "description": "Inverse border refers to the opposite color that contrasts with the background. "
+          },
           "muted": {
             "value": "{ref-properties.border.weak}",
             "type": "color",
@@ -2570,6 +2575,11 @@
             "value": "{vud-ref-functional.default-light-05}",
             "type": "color",
             "description": "Default alerts. Lower prio statuses such as pairing"
+          },
+          "inverse": {
+            "value": "{vud-ref-functional.default-light-90}",
+            "type": "color",
+            "description": "Inverse surface contrast with the background."
           },
           "muted": {
             "value": "{ref-properties.shade.low}",
@@ -5281,7 +5291,7 @@
         "description": "Default alerts. Lower prio statuses such as pairing\n"
       },
       "functional-surface-inverse": {
-        "value": "{vud-ref-functional.default-light-90}",
+        "value": "{ref-properties.fill.on-functional.inverse}",
         "type": "color",
         "description": "Inverse surface refers to the opposite color that contrasts with the background. "
       },
@@ -5336,7 +5346,7 @@
         "description": "Muted border refers to a subtle border style.\n"
       },
       "functional-border-inverse": {
-        "value": "{ref-properties.border.moderate}",
+        "value": "{ref-properties.border.on-functional.inverse}",
         "type": "color",
         "description": "Inverse border refers to the opposite color that contrasts with the background. "
       },
@@ -6104,6 +6114,11 @@
             "type": "color",
             "description": "Default alerts. Specially lower prio statuses such as pairing."
           },
+          "inverse": {
+            "value": "{vud-ref-functional.default-light-90}",
+            "type": "color",
+            "description": "Inverse border contrast with the background.\n"
+          },
           "muted": {
             "value": "{ref-properties.border.weak}",
             "type": "color",
@@ -6553,6 +6568,11 @@
             "value": "{ref-properties.fill.on-default.disabled}",
             "type": "color",
             "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+          },
+          "inverse": {
+            "value": "{vud-ref-functional.default-light-90}",
+            "type": "color",
+            "description": "Inverse surface contrast with the background."
           }
         },
         "on-primary-variant": {
@@ -9191,7 +9211,7 @@
         "description": "Default alerts. Lower prio statuses such as pairing\n"
       },
       "functional-surface-inverse": {
-        "value": "{vud-ref-functional.default-dark-90}",
+        "value": "{ref-properties.fill.on-functional.inverse}",
         "type": "color",
         "description": "Inverse surface refers to the opposite color that contrasts with the background. "
       },
