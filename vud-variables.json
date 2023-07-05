@@ -5304,6 +5304,11 @@
         "value": "{ref-properties.border.on-functional.success}",
         "type": "color",
         "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
+      },
+      "functional-border-disabled": {
+        "value": "{ref-properties.border.on-default.disabled}",
+        "type": "color",
+        "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.\n"
       }
     },
     "comp-switch": {
@@ -9139,6 +9144,11 @@
         "value": "{ref-properties.border.on-functional.success}",
         "type": "color",
         "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
+      },
+      "functional-border-disabled": {
+        "value": "{ref-properties.border.on-default.disabled}",
+        "type": "color",
+        "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.\n"
       }
     },
     "comp-switch": {
