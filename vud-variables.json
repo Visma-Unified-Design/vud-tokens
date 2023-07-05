@@ -5275,6 +5275,11 @@
         "type": "color",
         "description": "Suitable for default alerts, lower prio statuses such as pairing."
       },
+      "functional-surface-muted": {
+        "value": "{ref-properties.fill.on-functional.muted}",
+        "type": "color",
+        "description": "Default alerts. Lower prio statuses such as pairing\n"
+      },
       "functional-surface-inverse": {
         "value": "{vud-ref-functional.default-light-90}",
         "type": "color",
@@ -9179,6 +9184,11 @@
         "value": "{ref-properties.fill.on-functional.default}",
         "type": "color",
         "description": "Suitable for default alerts, lower prio statuses such as pairing."
+      },
+      "functional-surface-muted": {
+        "value": "{ref-properties.fill.on-functional.muted}",
+        "type": "color",
+        "description": "Default alerts. Lower prio statuses such as pairing\n"
       },
       "functional-surface-inverse": {
         "value": "{vud-ref-functional.default-dark-90}",
