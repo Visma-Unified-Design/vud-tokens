@@ -5210,6 +5210,11 @@
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
+      "functional-text-disabled": {
+        "value": "{ref-properties.text.disabled}",
+        "type": "color",
+        "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
+      },
       "functional-icon-error": {
         "value": "{ref-properties.icon.error}",
         "type": "color",
@@ -9039,6 +9044,11 @@
         "value": "{ref-properties.text.emphasized}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+      },
+      "functional-text-disabled": {
+        "value": "{ref-properties.text.disabled}",
+        "type": "color",
+        "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "functional-icon-error": {
         "value": "{ref-properties.icon.error}",
