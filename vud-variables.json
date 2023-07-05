@@ -2180,12 +2180,22 @@
             "type": "color",
             "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
           },
-          "error": {
+          "error-low": {
             "value": "{vud-ref-functional.error-70}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           },
-          "success": {
+          "success-low": {
+            "value": "{vud-ref-functional.success-60}",
+            "type": "color",
+            "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+          },
+          "error-medium": {
+            "value": "{vud-ref-functional.error-70}",
+            "type": "color",
+            "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+          },
+          "success-medium": {
             "value": "{vud-ref-functional.success-60}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
@@ -2556,6 +2566,11 @@
             "type": "color",
             "description": "Default alerts. Lower prio statuses such as pairing"
           },
+          "muted": {
+            "value": "{ref-properties.shade.low}",
+            "type": "color",
+            "description": "Default alerts. Lower prio statuses such as pairing"
+          },
           "info": {
             "value": "{vud-ref-functional.info-05}",
             "type": "color",
@@ -2571,15 +2586,25 @@
             "type": "color",
             "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
           },
-          "error": {
+          "error-low": {
             "value": "{vud-ref-functional.error-05}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           },
-          "success": {
+          "success-low": {
             "value": "{vud-ref-functional.success-05}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+          },
+          "success-medium": {
+            "value": "{vud-ref-functional.success-60}",
+            "type": "color",
+            "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+          },
+          "error-medium": {
+            "value": "{vud-ref-functional.error-70}",
+            "type": "color",
+            "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           }
         },
         "on-primary-variant": {
@@ -3266,7 +3291,7 @@
         "description": "Optimal for scheduling project tasks in a calendar."
       },
       "border-event3": {
-        "value": "{comp-situation.functional-border-success}",
+        "value": "{comp-situation.functional-border-success-low}",
         "type": "color",
         "description": "Optimal for scheduling work hours in a calendar."
       }
@@ -5260,13 +5285,23 @@
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially warnings and potential problem statuses such as partially paid, losses."
       },
-      "functional-surface-error": {
-        "value": "{ref-properties.fill.on-functional.error}",
+      "functional-surface-error-low": {
+        "value": "{ref-properties.fill.on-functional.error-low}",
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
       },
-      "functional-surface-success": {
-        "value": "{ref-properties.fill.on-functional.success}",
+      "functional-surface-success-low": {
+        "value": "{ref-properties.fill.on-functional.success-low}",
+        "type": "color",
+        "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
+      },
+      "functional-surface-error-medium": {
+        "value": "{ref-properties.fill.on-functional.error-medium}",
+        "type": "color",
+        "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
+      },
+      "functional-surface-success-low-medium": {
+        "value": "{ref-properties.fill.on-functional.success-medium}",
         "type": "color",
         "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
       },
@@ -5295,13 +5330,23 @@
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially warnings and potential problem statuses such as partially paid, losses."
       },
-      "functional-border-error": {
-        "value": "{ref-properties.border.on-functional.error}",
+      "functional-border-error-low": {
+        "value": "{ref-properties.border.on-functional.error-low}",
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
       },
-      "functional-border-success": {
-        "value": "{ref-properties.border.on-functional.success}",
+      "functional-border-success-low": {
+        "value": "{ref-properties.border.on-functional.success-low}",
+        "type": "color",
+        "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
+      },
+      "functional-border-error-medium": {
+        "value": "{ref-properties.border.on-functional.error-medium}",
+        "type": "color",
+        "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
+      },
+      "functional-border-success-medium": {
+        "value": "{ref-properties.border.on-functional.success-medium}",
         "type": "color",
         "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
       },
@@ -6049,13 +6094,23 @@
             "type": "color",
             "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
           },
-          "error": {
+          "error-low": {
             "value": "{vud-ref-functional.error-10}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           },
-          "success": {
+          "success-low": {
             "value": "{vud-ref-functional.success-10}",
+            "type": "color",
+            "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+          },
+          "error-medium": {
+            "value": "{vud-ref-functional.error-50}",
+            "type": "color",
+            "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+          },
+          "success-medium": {
+            "value": "{vud-ref-functional.success-50}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           }
@@ -6424,6 +6479,11 @@
             "type": "color",
             "description": "Default alerts. Lower prio statuses such as pairing"
           },
+          "muted": {
+            "value": "{ref-properties.shade.low}",
+            "type": "color",
+            "description": "Default alerts. Lower prio statuses such as pairing"
+          },
           "info": {
             "value": "{vud-ref-functional.info-05}",
             "type": "color",
@@ -6439,13 +6499,23 @@
             "type": "color",
             "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
           },
-          "error": {
+          "error-low": {
             "value": "{vud-ref-functional.error-05}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           },
-          "success": {
+          "success-low": {
             "value": "{vud-ref-functional.success-05}",
+            "type": "color",
+            "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+          },
+          "error-medium": {
+            "value": "{vud-ref-functional.error-70}",
+            "type": "color",
+            "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+          },
+          "success-medium": {
+            "value": "{vud-ref-functional.success-60}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           }
@@ -7111,7 +7181,7 @@
         "description": "Optimal for scheduling project tasks in a calendar."
       },
       "border-event3": {
-        "value": "{comp-situation.functional-border-success}",
+        "value": "{comp-situation.functional-border-success-low}",
         "type": "color",
         "description": "Optimal for scheduling work hours in a calendar."
       }
@@ -9100,13 +9170,23 @@
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially warnings and potential problem statuses such as partially paid, losses."
       },
-      "functional-surface-error": {
-        "value": "{ref-properties.fill.on-functional.error}",
+      "functional-surface-error-low": {
+        "value": "{ref-properties.fill.on-functional.error-low}",
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
       },
-      "functional-surface-success": {
-        "value": "{ref-properties.fill.on-functional.success}",
+      "functional-surface-success-low": {
+        "value": "{ref-properties.fill.on-functional.success-low}",
+        "type": "color",
+        "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
+      },
+      "functional-surface-error-medium": {
+        "value": "{ref-properties.fill.on-functional.error-medium}",
+        "type": "color",
+        "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
+      },
+      "functional-surface-success-low-medium": {
+        "value": "{ref-properties.fill.on-functional.success-medium}",
         "type": "color",
         "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
       },
@@ -9135,13 +9215,23 @@
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially warnings and potential problem statuses such as partially paid, losses."
       },
-      "functional-border-error": {
-        "value": "{ref-properties.border.on-functional.error}",
+      "functional-border-error-low": {
+        "value": "{ref-properties.border.on-functional.error-low}",
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
       },
-      "functional-border-success": {
-        "value": "{ref-properties.border.on-functional.success}",
+      "functional-border-success-low": {
+        "value": "{ref-properties.border.on-functional.success-low}",
+        "type": "color",
+        "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
+      },
+      "functional-border-error-medium": {
+        "value": "{ref-properties.border.on-functional.error-medium}",
+        "type": "color",
+        "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
+      },
+      "functional-border-success-medium": {
+        "value": "{ref-properties.border.on-functional.success-medium}",
         "type": "color",
         "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
       },
@@ -9727,8 +9817,6 @@
         "ref-properties.border.on-functional.info": "5f19b90a4beba42630e04045305028a8df33bf74",
         "ref-properties.border.on-functional.draft": "0865d884b19d14f0ee7e436854ba5e15ed02e333",
         "ref-properties.border.on-functional.warning": "bbdab6f7ff872b11f1ad64a93fbf5a709090c1a3",
-        "ref-properties.border.on-functional.error": "a5eb920d7a10c6657f38e2f0b39ad144cd6cd5fb",
-        "ref-properties.border.on-functional.success": "810f0811777203822b9ccc01a435971f9e680d45",
         "ref-properties.border.on-primary-variant.enabled": "f1874600d510ce3c193b214da5f6005d6b95173e",
         "ref-properties.border.on-primary-variant.hover": "68861e0c7e9c8c28a8eae514111c55e071a903f6",
         "ref-properties.border.on-primary-variant.pressed": "0728c8df3fbd4c2a226eb50fc6f307e3701d7301",
@@ -9786,9 +9874,6 @@
         "ref-properties.fill.on-functional.default": "e5ee84f9bc9ab0c1f2a716e104b6fae5c09102d8",
         "ref-properties.fill.on-functional.info": "ce55043a813c534b6f50b99662856e0a7cf853af",
         "ref-properties.fill.on-functional.draft": "55111c9626921596b1bfafe78262ab0eb9fcfb97",
-        "ref-properties.fill.on-functional.warning": "d0157091f431eb1c0af2f16c1a275768422c8e2e",
-        "ref-properties.fill.on-functional.error": "1a5d1bcc66e87ee9e755f02a5d96a9a6d47f5bb8",
-        "ref-properties.fill.on-functional.success": "469981c1ed34fa45073ebae6c111e267dc154d09",
         "ref-properties.fill.on-primary-variant.enabled": "032541e7f6e8d2e6bf6536a05daaf29168514458",
         "ref-properties.fill.on-primary-variant.hover": "1ce7b1a3f2c70e03344df3ba3164d1fef896bea1",
         "ref-properties.fill.on-primary-variant.pressed": "6b6cba44797ce29724a31afb95eb678edf348ec8",
@@ -10234,15 +10319,11 @@
         "comp-situation.functional-surface-info": "48415a7764f3b5f369c38ebe4d218d9ca2fd74f0",
         "comp-situation.functional-surface-draft": "25cd6dfa0315522cfc50c591ec86b4e4992654f4",
         "comp-situation.functional-surface-warning": "fafbffbece351e733e96e1f9d3868e032a3cb15e",
-        "comp-situation.functional-surface-error": "331eb49a318b71ed94dec0464af7581627f847c5",
-        "comp-situation.functional-surface-success": "382c93737f232482f52350d945617925bc73d26b",
         "comp-situation.functional-border-default": "27020fd06d72c3b240c933c8835b89c0295ed2eb",
         "comp-situation.functional-border-inverse": "dfb7e3ba9acef1fedb818b8f09b024ce8a0b2d42",
         "comp-situation.functional-border-info": "1fcb3695ca3beb11c7554857840b7a59e40c22af",
         "comp-situation.functional-border-draft": "2db3b56d257310662d4779074248a7c93d719795",
         "comp-situation.functional-border-warning": "678097a7c7c5a8c3b221552ceb0b9780e4aa7005",
-        "comp-situation.functional-border-error": "8ab638e87d82d5ce7f555560bff569038c1510d7",
-        "comp-situation.functional-border-success": "fe17f83bb0561219f96d80e09589e486213ee6e6",
         "comp-switch.text-default": "871a5f58423173279f049e915dd2e2724dc4d571",
         "comp-switch.text-inverse": "921e525daf57628dedbb6b4b8b6fcf37ba808bc0",
         "comp-switch.text-secondary": "3ce27927874bb9ff97371a0072f3d203ba6c52f7",
@@ -10560,7 +10641,16 @@
         "comp-nav-vertical.inverse.border-selected-weak": "e4ca017f0b30211b13d55ebc813b77e29ed278ff",
         "comp-nav-vertical.default.surface-selected-strong:hover": "8386c7927d70d81ef893d46312e63e1991807eb2",
         "comp-nav-vertical.default.surface-selected-weak:hover": "9ea4fb267e918d025bdf4c030554a249f17970f2",
-        "comp-nav-vertical.default.border-selected-strong:hover": "f8e15e22ae09eff20871b4e4d28080b097a72b37"
+        "comp-nav-vertical.default.border-selected-strong:hover": "f8e15e22ae09eff20871b4e4d28080b097a72b37",
+        "ref-properties.fill.on-functional.error-low": "1a5d1bcc66e87ee9e755f02a5d96a9a6d47f5bb8",
+        "ref-properties.fill.on-functional.success-low": "469981c1ed34fa45073ebae6c111e267dc154d09",
+        "ref-properties.fill.on-functional.warning": "d0157091f431eb1c0af2f16c1a275768422c8e2e",
+        "comp-situation.functional-surface-error-low": "331eb49a318b71ed94dec0464af7581627f847c5",
+        "comp-situation.functional-surface-success-low": "382c93737f232482f52350d945617925bc73d26b",
+        "comp-situation.functional-border-error-low": "8ab638e87d82d5ce7f555560bff569038c1510d7",
+        "comp-situation.functional-border-success-low": "fe17f83bb0561219f96d80e09589e486213ee6e6",
+        "ref-properties.border.on-functional.error-low": "a5eb920d7a10c6657f38e2f0b39ad144cd6cd5fb",
+        "ref-properties.border.on-functional.success-low": "810f0811777203822b9ccc01a435971f9e680d45"
       },
       "group": "Theme"
     },
@@ -10643,8 +10733,6 @@
         "ref-properties.border.on-functional.info": "5f19b90a4beba42630e04045305028a8df33bf74",
         "ref-properties.border.on-functional.draft": "0865d884b19d14f0ee7e436854ba5e15ed02e333",
         "ref-properties.border.on-functional.warning": "bbdab6f7ff872b11f1ad64a93fbf5a709090c1a3",
-        "ref-properties.border.on-functional.error": "a5eb920d7a10c6657f38e2f0b39ad144cd6cd5fb",
-        "ref-properties.border.on-functional.success": "810f0811777203822b9ccc01a435971f9e680d45",
         "ref-properties.border.on-primary-variant.enabled": "f1874600d510ce3c193b214da5f6005d6b95173e",
         "ref-properties.border.on-primary-variant.hover": "68861e0c7e9c8c28a8eae514111c55e071a903f6",
         "ref-properties.border.on-primary-variant.pressed": "0728c8df3fbd4c2a226eb50fc6f307e3701d7301",
@@ -10702,9 +10790,6 @@
         "ref-properties.fill.on-functional.default": "e5ee84f9bc9ab0c1f2a716e104b6fae5c09102d8",
         "ref-properties.fill.on-functional.info": "ce55043a813c534b6f50b99662856e0a7cf853af",
         "ref-properties.fill.on-functional.draft": "55111c9626921596b1bfafe78262ab0eb9fcfb97",
-        "ref-properties.fill.on-functional.warning": "d0157091f431eb1c0af2f16c1a275768422c8e2e",
-        "ref-properties.fill.on-functional.error": "1a5d1bcc66e87ee9e755f02a5d96a9a6d47f5bb8",
-        "ref-properties.fill.on-functional.success": "469981c1ed34fa45073ebae6c111e267dc154d09",
         "ref-properties.fill.on-primary-variant.enabled": "032541e7f6e8d2e6bf6536a05daaf29168514458",
         "ref-properties.fill.on-primary-variant.hover": "1ce7b1a3f2c70e03344df3ba3164d1fef896bea1",
         "ref-properties.fill.on-primary-variant.pressed": "6b6cba44797ce29724a31afb95eb678edf348ec8",
@@ -11148,15 +11233,11 @@
         "comp-situation.functional-surface-info": "48415a7764f3b5f369c38ebe4d218d9ca2fd74f0",
         "comp-situation.functional-surface-draft": "25cd6dfa0315522cfc50c591ec86b4e4992654f4",
         "comp-situation.functional-surface-warning": "fafbffbece351e733e96e1f9d3868e032a3cb15e",
-        "comp-situation.functional-surface-error": "331eb49a318b71ed94dec0464af7581627f847c5",
-        "comp-situation.functional-surface-success": "382c93737f232482f52350d945617925bc73d26b",
         "comp-situation.functional-border-default": "27020fd06d72c3b240c933c8835b89c0295ed2eb",
         "comp-situation.functional-border-inverse": "dfb7e3ba9acef1fedb818b8f09b024ce8a0b2d42",
         "comp-situation.functional-border-info": "1fcb3695ca3beb11c7554857840b7a59e40c22af",
         "comp-situation.functional-border-draft": "2db3b56d257310662d4779074248a7c93d719795",
         "comp-situation.functional-border-warning": "678097a7c7c5a8c3b221552ceb0b9780e4aa7005",
-        "comp-situation.functional-border-error": "8ab638e87d82d5ce7f555560bff569038c1510d7",
-        "comp-situation.functional-border-success": "fe17f83bb0561219f96d80e09589e486213ee6e6",
         "comp-switch.text-default": "871a5f58423173279f049e915dd2e2724dc4d571",
         "comp-switch.text-inverse": "921e525daf57628dedbb6b4b8b6fcf37ba808bc0",
         "comp-switch.text-secondary": "3ce27927874bb9ff97371a0072f3d203ba6c52f7",
@@ -11474,7 +11555,16 @@
         "comp-nav-vertical.inverse.border-selected-weak": "e4ca017f0b30211b13d55ebc813b77e29ed278ff",
         "comp-nav-vertical.default.surface-selected-strong:hover": "8386c7927d70d81ef893d46312e63e1991807eb2",
         "comp-nav-vertical.default.surface-selected-weak:hover": "9ea4fb267e918d025bdf4c030554a249f17970f2",
-        "comp-nav-vertical.default.border-selected-strong:hover": "f8e15e22ae09eff20871b4e4d28080b097a72b37"
+        "comp-nav-vertical.default.border-selected-strong:hover": "f8e15e22ae09eff20871b4e4d28080b097a72b37",
+        "ref-properties.fill.on-functional.error-low": "1a5d1bcc66e87ee9e755f02a5d96a9a6d47f5bb8",
+        "ref-properties.fill.on-functional.success-low": "469981c1ed34fa45073ebae6c111e267dc154d09",
+        "ref-properties.fill.on-functional.warning": "d0157091f431eb1c0af2f16c1a275768422c8e2e",
+        "comp-situation.functional-surface-error-low": "331eb49a318b71ed94dec0464af7581627f847c5",
+        "comp-situation.functional-surface-success-low": "382c93737f232482f52350d945617925bc73d26b",
+        "comp-situation.functional-border-error-low": "8ab638e87d82d5ce7f555560bff569038c1510d7",
+        "comp-situation.functional-border-success-low": "fe17f83bb0561219f96d80e09589e486213ee6e6",
+        "ref-properties.border.on-functional.error-low": "a5eb920d7a10c6657f38e2f0b39ad144cd6cd5fb",
+        "ref-properties.border.on-functional.success-low": "810f0811777203822b9ccc01a435971f9e680d45"
       },
       "group": "Theme"
     }
