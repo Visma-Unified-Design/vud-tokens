@@ -4445,6 +4445,16 @@
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
+        "border-selected-weak": {
+          "value": "{ref-properties.border.on-default.selected-weak}",
+          "type": "color",
+          "description": "Border with selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
+        },
+        "border-selected-weak:hover": {
+          "value": "{ref-properties.border.on-default.selected-weak:hover}",
+          "type": "color",
+          "description": "Border with selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
+        },
         "border-selected-strong": {
           "value": "{ref-brand.secondary-60}",
           "type": "color",
@@ -8249,6 +8259,16 @@
           "value": "{ref-properties.border.on-default.focused}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
+        },
+        "border-selected-weak": {
+          "value": "{ref-properties.border.on-default.selected-weak}",
+          "type": "color",
+          "description": "Border with selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
+        },
+        "border-selected-weak:hover": {
+          "value": "{ref-properties.border.on-default.selected-weak:hover}",
+          "type": "color",
+          "description": "Border with selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
         },
         "border-selected-strong": {
           "value": "{ref-properties.border.on-default.inverse}",
