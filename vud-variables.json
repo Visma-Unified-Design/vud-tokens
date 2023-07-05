@@ -1110,6 +1110,10 @@
         "value": "{sizing.2}*24",
         "type": "sizing"
       },
+      "56": {
+        "value": "{sizing.2}*28",
+        "type": "sizing"
+      },
       "64": {
         "value": "{sizing.2}*32",
         "type": "sizing"
