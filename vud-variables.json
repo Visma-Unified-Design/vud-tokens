@@ -1807,7 +1807,7 @@
           "type": "color",
           "description": "Warning text refers to content that conveys a warning, caution, or alert."
         },
-        "succes": {
+        "success": {
           "value": "{vud-ref-functional.success-70}",
           "type": "color",
           "description": "Success text refers to content that signifies a positive or affirmative message."
@@ -3271,7 +3271,7 @@
         "description": "Optimal for scheduling sick leave in a calendar."
       },
       "text-event3": {
-        "value": "{ref-properties.text.succes}",
+        "value": "{ref-properties.text.success}",
         "type": "color",
         "description": "Optimal for scheduling work hours in a calendar."
       },
@@ -4796,8 +4796,8 @@
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
-      "text-succes": {
-        "value": "{ref-properties.text.succes}",
+      "text-success": {
+        "value": "{ref-properties.text.success}",
         "type": "color",
         "description": "Success text refers to content that signifies a positive or affirmative message."
       },
@@ -5235,8 +5235,8 @@
         "type": "color",
         "description": "Warning text refers to content that conveys a warning, caution, or alert."
       },
-      "functional-text-succes": {
-        "value": "{ref-properties.text.succes}",
+      "functional-text-success": {
+        "value": "{ref-properties.text.success}",
         "type": "color",
         "description": "Success text refers to content that signifies a positive or affirmative message."
       },
@@ -5795,7 +5795,7 @@
           "type": "color",
           "description": "Warning text refers to content that conveys a warning, caution, or alert."
         },
-        "succes": {
+        "success": {
           "value": "{vud-ref-functional.success-50}",
           "type": "color",
           "description": "Success text refers to content that signifies a positive or affirmative message."
@@ -7181,7 +7181,7 @@
         "description": "Optimal for scheduling sick leave in a calendar."
       },
       "text-event3": {
-        "value": "{ref-properties.text.succes}",
+        "value": "{ref-properties.text.success}",
         "type": "color",
         "description": "Optimal for scheduling work hours in a calendar."
       },
@@ -8701,8 +8701,8 @@
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
-      "text-succes": {
-        "value": "{ref-properties.text.succes}",
+      "text-success": {
+        "value": "{ref-properties.text.success}",
         "type": "color",
         "description": "Success text refers to content that signifies a positive or affirmative message."
       },
@@ -9140,8 +9140,8 @@
         "type": "color",
         "description": "Warning text refers to content that conveys a warning, caution, or alert."
       },
-      "functional-text-succes": {
-        "value": "{ref-properties.text.succes}",
+      "functional-text-success": {
+        "value": "{ref-properties.text.success}",
         "type": "color",
         "description": "Success text refers to content that signifies a positive or affirmative message."
       },
