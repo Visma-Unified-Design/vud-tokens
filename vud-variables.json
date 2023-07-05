@@ -5305,12 +5305,12 @@
         "type": "color",
         "description": "Inverse surface refers to the opposite color that contrasts with the background. "
       },
-      "functional-surface-overlay-shade": {
+      "functional-surface-overlay-default": {
         "value": "{ref-properties.shade.low}",
         "type": "color",
         "description": "Default alerts. Lower prio statuses such as pairing\n"
       },
-      "functional-surface-overlay-tint": {
+      "functional-surface-overlay-inverse": {
         "value": "{ref-properties.tint.low}",
         "type": "color",
         "description": "Default alerts. Lower prio statuses such as pairing\n"
@@ -9245,13 +9245,13 @@
         "type": "color",
         "description": "Inverse surface refers to the opposite color that contrasts with the background. "
       },
-      "functional-surface-overlay-shade": {
-        "value": "{ref-properties.shade.low}",
+      "functional-surface-overlay-default": {
+        "value": "{ref-properties.tint.low}",
         "type": "color",
         "description": "Default alerts. Lower prio statuses such as pairing\n"
       },
-      "functional-surface-overlay-tint": {
-        "value": "{ref-properties.tint.low}",
+      "functional-surface-overlay-inverse": {
+        "value": "{ref-properties.shade.low}",
         "type": "color",
         "description": "Default alerts. Lower prio statuses such as pairing\n"
       },
