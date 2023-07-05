@@ -2602,7 +2602,7 @@
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           },
           "success-medium": {
-            "value": "{vud-ref-functional.success-60}",
+            "value": "{vud-ref-functional.success-70}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           },
