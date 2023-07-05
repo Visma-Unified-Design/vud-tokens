@@ -5180,6 +5180,16 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
+      "functional-text-inverse": {
+        "value": "{ref-properties.text.inverse}",
+        "type": "color",
+        "description": "Inverse text refers to the opposite color that contrasts with the background. "
+      },
+      "functional-text-secondary": {
+        "value": "{ref-properties.text.secondary}",
+        "type": "color",
+        "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
+      },
       "functional-text-error": {
         "value": "{ref-properties.text.error}",
         "type": "color",
@@ -5261,7 +5271,7 @@
         "description": "Suitable for default alerts. Specially lower prio statuses such as pairing."
       },
       "functional-border-inverse": {
-        "value": "{vud-ref-functional.default-light-90}",
+        "value": "{ref-properties.border.moderate}",
         "type": "color",
         "description": "Inverse border refers to the opposite color that contrasts with the background. "
       },
@@ -8999,6 +9009,16 @@
         "value": "{ref-properties.text.default}",
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+      },
+      "functional-text-inverse": {
+        "value": "{ref-properties.text.inverse}",
+        "type": "color",
+        "description": "Inverse text refers to the opposite color that contrasts with the background. "
+      },
+      "functional-text-secondary": {
+        "value": "{ref-properties.text.secondary}",
+        "type": "color",
+        "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
       },
       "functional-text-error": {
         "value": "{ref-properties.text.error}",
