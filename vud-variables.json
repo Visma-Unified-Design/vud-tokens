@@ -3941,6 +3941,11 @@
         "value": "{ref-properties.border.moderate}",
         "type": "color",
         "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
+      },
+      "border-extreme": {
+        "value": "{ref-properties.border.extreme}",
+        "type": "color",
+        "description": "Extreme default border refers to a standard border style that is branded.\n"
       }
     },
     "comp-messaging": {
@@ -7866,6 +7871,11 @@
         "value": "{ref-properties.border.on-default.muted}",
         "type": "color",
         "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
+      },
+      "border-extreme": {
+        "value": "{ref-properties.border.extreme}",
+        "type": "color",
+        "description": "Extreme default border refers to a standard border style that is branded.\n"
       }
     },
     "comp-messaging": {
