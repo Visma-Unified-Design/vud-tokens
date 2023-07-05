@@ -5171,6 +5171,11 @@
       }
     },
     "comp-situation": {
+      "functional-text-default": {
+        "value": "{ref-properties.text.default}",
+        "type": "color",
+        "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+      },
       "functional-text-error": {
         "value": "{ref-properties.text.error}",
         "type": "color",
@@ -8986,6 +8991,11 @@
       }
     },
     "comp-situation": {
+      "functional-text-default": {
+        "value": "{ref-properties.text.default}",
+        "type": "color",
+        "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+      },
       "functional-text-error": {
         "value": "{ref-properties.text.error}",
         "type": "color",
