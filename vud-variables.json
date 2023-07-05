@@ -9101,7 +9101,7 @@
         "description": "Suitable for default alerts. Specially lower prio statuses such as pairing."
       },
       "functional-border-inverse": {
-        "value": "{vud-ref-functional.default-dark-90}",
+        "value": "{ref-properties.border.moderate}",
         "type": "color",
         "description": "Inverse border refers to the opposite color that contrasts with the background. "
       },
