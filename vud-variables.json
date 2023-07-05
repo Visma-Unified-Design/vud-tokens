@@ -5315,6 +5315,11 @@
         "type": "color",
         "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
       },
+      "functional-surface-disabled": {
+        "value": "{ref-properties.fill.on-functional.disabled}",
+        "type": "color",
+        "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+      },
       "functional-border-default": {
         "value": "{ref-properties.border.on-functional.default}",
         "type": "color",
@@ -9214,6 +9219,11 @@
         "value": "{ref-properties.fill.on-functional.success-medium}",
         "type": "color",
         "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
+      },
+      "functional-surface-disabled": {
+        "value": "{ref-properties.fill.on-functional.disabled}",
+        "type": "color",
+        "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "functional-border-default": {
         "value": "{ref-properties.border.on-functional.default}",
