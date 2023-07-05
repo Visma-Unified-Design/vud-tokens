@@ -2165,6 +2165,11 @@
             "type": "color",
             "description": "Default alerts. Specially lower prio statuses such as pairing."
           },
+          "muted": {
+            "value": "{ref-properties.border.weak}",
+            "type": "color",
+            "description": "Muted border refers to a subtle border style."
+          },
           "info": {
             "value": "{vud-ref-functional.info-60}",
             "type": "color",
@@ -6078,6 +6083,11 @@
             "value": "{vud-ref-functional.default-dark-05}",
             "type": "color",
             "description": "Default alerts. Specially lower prio statuses such as pairing."
+          },
+          "muted": {
+            "value": "{ref-properties.border.weak}",
+            "type": "color",
+            "description": "Muted border refers to a subtle border style."
           },
           "info": {
             "value": "{vud-ref-functional.info-10}",
