@@ -2760,18 +2760,22 @@
         }
       },
       "shade": {
-        "normal": {
-          "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.4})",
-          "type": "color"
-        },
         "low": {
           "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.8})",
+          "type": "color"
+        },
+        "medium": {
+          "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.12})",
           "type": "color"
         }
       },
       "tint": {
         "low": {
           "value": "rgba({ref-brand.neutral-light-05}, {opacity.8})",
+          "type": "color"
+        },
+        "medium": {
+          "value": "rgba( {ref-brand.neutral-dark-05}, {opacity.12})",
           "type": "color"
         }
       },
@@ -4533,6 +4537,11 @@
           "value": "{ref-properties.border.on-default.disabled}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "seperator": {
+          "value": "{ref-properties.shade.medium}",
+          "type": "color",
+          "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
       "brand": {
@@ -4663,6 +4672,11 @@
         },
         "border-disabled-low": {
           "value": "{ref-properties.border.on-default.disabled}",
+          "type": "color",
+          "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "seperator": {
+          "value": "{ref-properties.tint.medium}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
@@ -4797,6 +4811,10 @@
           "value": "{ref-properties.border.on-default.disabled}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "seperator": {
+          "value": "{ref-properties.shade.medium}",
+          "type": "color"
         }
       }
     },
@@ -6710,18 +6728,22 @@
         }
       },
       "shade": {
-        "normal": {
-          "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.4})",
-          "type": "color"
-        },
         "low": {
           "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.8})",
+          "type": "color"
+        },
+        "medium": {
+          "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.12})",
           "type": "color"
         }
       },
       "tint": {
         "low": {
           "value": "rgba( {ref-brand.neutral-dark-05}, {opacity.8})",
+          "type": "color"
+        },
+        "medium": {
+          "value": "rgba( {ref-brand.neutral-dark-05}, {opacity.12})",
           "type": "color"
         }
       }
@@ -8473,6 +8495,11 @@
           "value": "{ref-properties.border.on-default.disabled}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "seperator": {
+          "value": "{ref-properties.tint.medium}",
+          "type": "color",
+          "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
       "brand": {
@@ -8603,6 +8630,11 @@
         },
         "border-disabled-low": {
           "value": "{ref-properties.border.on-default.disabled}",
+          "type": "color",
+          "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "seperator": {
+          "value": "{ref-properties.tint.medium}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
@@ -8737,6 +8769,10 @@
           "value": "{ref-properties.border.on-default.disabled}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "seperator": {
+          "value": "{ref-properties.tint.medium}",
+          "type": "color"
         }
       }
     },
@@ -10001,7 +10037,6 @@
         "ref-properties.fill.on-surface.default": "df8c68b9a66e2cc5d214e4e9a541b52dc88bec14",
         "ref-properties.fill.on-screen.default": "3ed57fadd0f968d8144144d715eaf30d736baf64",
         "ref-properties.fill.on-mark-tag.default": "338f5b4dc2ab4dc781d55041613689ef06e11dc9",
-        "ref-properties.shade.normal": "aeb401984082b150f84d84e56a7dda101813345f",
         "ref-properties.shade.low": "a1626138ea4048d6def20a2b226ad3d3819fe011",
         "ref-properties.tint.low": "0a1e553b5a39d46c5eb144e1e8020236dfe46272",
         "ref-properties.data-visualization.1": "682487191f9f2de6fd12febe90a022380e57219c",
@@ -10917,7 +10952,6 @@
         "ref-properties.fill.on-surface.default": "df8c68b9a66e2cc5d214e4e9a541b52dc88bec14",
         "ref-properties.fill.on-screen.default": "3ed57fadd0f968d8144144d715eaf30d736baf64",
         "ref-properties.fill.on-mark-tag.default": "338f5b4dc2ab4dc781d55041613689ef06e11dc9",
-        "ref-properties.shade.normal": "aeb401984082b150f84d84e56a7dda101813345f",
         "ref-properties.shade.low": "a1626138ea4048d6def20a2b226ad3d3819fe011",
         "ref-properties.tint.low": "0a1e553b5a39d46c5eb144e1e8020236dfe46272",
         "comp-btn.on-confimatory-low.text-default": "4c6baa8cb482a33dd012907c4edf3d6a1dabece6",
