@@ -2610,6 +2610,11 @@
             "value": "{vud-ref-functional.error-70}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+          },
+          "disabled": {
+            "value": "{ref-properties.fill.on-default.disabled}",
+            "type": "color",
+            "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
           }
         },
         "on-primary-variant": {
@@ -6533,6 +6538,11 @@
             "value": "{vud-ref-functional.success-60}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+          },
+          "disabled": {
+            "value": "{ref-properties.fill.on-default.disabled}",
+            "type": "color",
+            "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
           }
         },
         "on-primary-variant": {
