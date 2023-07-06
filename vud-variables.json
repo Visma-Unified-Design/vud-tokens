@@ -4110,6 +4110,11 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
+        "text-secondary": {
+          "value": "{ref-properties.text.secondary}",
+          "type": "color",
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+        },
         "text-emphasized": {
           "value": "{ref-properties.text.emphasized}",
           "type": "color",
@@ -4120,15 +4125,20 @@
           "type": "color",
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
-        "icon-disabled": {
-          "value": "{ref-properties.icon.disabled}",
-          "type": "color",
-          "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
-        },
         "icon-default": {
           "value": "{ref-properties.icon.default}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-emphasized": {
+          "value": "{ref-properties.icon.emphasized}",
+          "type": "color",
+          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        },
+        "icon-disabled": {
+          "value": "{ref-properties.icon.disabled}",
+          "type": "color",
+          "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "surface-enabled": {
           "value": "{ref-properties.fill.on-default.enabled}",
@@ -4222,6 +4232,16 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
+        "text-secondary": {
+          "value": "{ref-properties.text.secondary}",
+          "type": "color",
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+        },
+        "text-emphasized": {
+          "value": "{ref-properties.text.inverse}",
+          "type": "color",
+          "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+        },
         "text-disabled": {
           "value": "{ref-properties.text.disabled}",
           "type": "color",
@@ -4231,6 +4251,11 @@
           "value": "{ref-properties.icon.inverse}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-emphasized": {
+          "value": "{ref-properties.icon.emphasized}",
+          "type": "color",
+          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
@@ -4273,7 +4298,7 @@
           "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "border-enabled": {
-          "value": "rgba({ref-properties.border.on-default.enabled},{opacity.8})",
+          "value": "{ref-properties.border.weak}",
           "type": "color",
           "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
@@ -4288,7 +4313,7 @@
           "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "border-focused": {
-          "value": "{ref-properties.border.on-default.focused}",
+          "value": "{ref-properties.border.on-functional.muted}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
@@ -4314,6 +4339,16 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
+        "text-secondary": {
+          "value": "{ref-properties.text.secondary}",
+          "type": "color",
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+        },
+        "text-emphasized": {
+          "value": "{ref-properties.text.inverse}",
+          "type": "color",
+          "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+        },
         "text-disabled": {
           "value": "{ref-properties.text.disabled}",
           "type": "color",
@@ -4323,6 +4358,11 @@
           "value": "{ref-properties.icon.inverse}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-emphasized": {
+          "value": "{ref-properties.icon.emphasized}",
+          "type": "color",
+          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
@@ -4380,7 +4420,7 @@
           "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "border-focused": {
-          "value": "{ref-properties.border.on-default.focused}",
+          "value": "{ref-properties.border.on-functional.muted}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
@@ -8073,6 +8113,11 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
+        "text-secondary": {
+          "value": "{ref-properties.text.secondary}",
+          "type": "color",
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+        },
         "text-emphasized": {
           "value": "{ref-properties.text.emphasized}",
           "type": "color",
@@ -8087,6 +8132,11 @@
           "value": "{ref-properties.icon.disabled}",
           "type": "color",
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "icon-emphasized": {
+          "value": "{ref-properties.icon.emphasized}",
+          "type": "color",
+          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "icon-default": {
           "value": "{ref-properties.icon.default}",
@@ -8185,15 +8235,30 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
+        "text-secondary": {
+          "value": "{ref-properties.text.secondary}",
+          "type": "color",
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+        },
         "text-disabled": {
           "value": "{ref-properties.text.disabled}",
           "type": "color",
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
+        "text-emphasized": {
+          "value": "{ref-properties.text.inverse}",
+          "type": "color",
+          "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+        },
         "icon-default": {
           "value": "{ref-properties.icon.inverse}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-emphasized": {
+          "value": "{ref-properties.icon.emphasized}",
+          "type": "color",
+          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
@@ -8277,6 +8342,16 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
+        "text-secondary": {
+          "value": "{ref-properties.text.secondary}",
+          "type": "color",
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+        },
+        "text-emphasized": {
+          "value": "{ref-properties.text.inverse}",
+          "type": "color",
+          "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+        },
         "text-disabled": {
           "value": "{ref-properties.text.disabled}",
           "type": "color",
@@ -8286,6 +8361,11 @@
           "value": "{ref-properties.icon.inverse}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-emphasized": {
+          "value": "{ref-properties.icon.emphasized}",
+          "type": "color",
+          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
