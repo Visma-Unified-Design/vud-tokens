@@ -8407,12 +8407,12 @@
       },
       "inverted": {
         "text-default": {
-          "value": "{ref-properties.text.default}",
+          "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
         "text-inverse": {
-          "value": "{ref-properties.text.inverse}",
+          "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Inverse text refers to the opposite color that contrasts with the background. "
         },
@@ -8452,7 +8452,7 @@
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "surface-default": {
-          "value": "{ref-brand.neutral-dark-gradient}",
+          "value": "{ref-brand.neutral-dark-05}",
           "type": "color",
           "description": "Surface on container."
         },
