@@ -1168,6 +1168,10 @@
         "value": "{spacing.2}*24",
         "type": "spacing"
       },
+      "56": {
+        "value": "{spacing.2}*28",
+        "type": "spacing"
+      },
       "64": {
         "value": "{spacing.2}*32",
         "type": "spacing"
@@ -4110,6 +4114,11 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
+        "text-inverse": {
+          "value": "{ref-properties.text.inverse}",
+          "type": "color",
+          "description": "Inverse text refers to the opposite color that contrasts with the background. "
+        },
         "text-secondary": {
           "value": "{ref-properties.text.secondary}",
           "type": "color",
@@ -4125,15 +4134,15 @@
           "type": "color",
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
-        "icon-default": {
-          "value": "{ref-properties.icon.default}",
-          "type": "color",
-          "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
-        },
         "icon-emphasized": {
           "value": "{ref-properties.icon.emphasized}",
           "type": "color",
           "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        },
+        "icon-default": {
+          "value": "{ref-properties.icon.default}",
+          "type": "color",
+          "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
@@ -4168,7 +4177,7 @@
         "surface-selected-strong": {
           "value": "{ref-brand.secondary-60}",
           "type": "color",
-          "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
+          "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active."
         },
         "surface-selected:hover": {
           "value": "{ref-properties.fill.on-default.selected-moderate:hover}",
@@ -4232,6 +4241,11 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
+        "text-inverse": {
+          "value": "{ref-properties.text.default}",
+          "type": "color",
+          "description": "Inverse text refers to the opposite color that contrasts with the background. "
+        },
         "text-secondary": {
           "value": "{ref-properties.text.secondary}",
           "type": "color",
@@ -4287,10 +4301,15 @@
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
-        "surface-selected": {
+        "surface-selected-moderate": {
           "value": "{ref-brand.secondary-80}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
+        },
+        "surface-selected-strong": {
+          "value": "{ref-brand.neutral-light-05}",
+          "type": "color",
+          "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. "
         },
         "surface-disabled": {
           "value": "{ref-properties.fill.on-default.disabled}",
@@ -4338,6 +4357,11 @@
           "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+        },
+        "text-inverse": {
+          "value": "{ref-properties.text.default}",
+          "type": "color",
+          "description": "Inverse text refers to the opposite color that contrasts with the background. "
         },
         "text-secondary": {
           "value": "{ref-properties.text.secondary}",
@@ -4394,10 +4418,15 @@
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
-        "surface-selected": {
+        "surface-selected-moderate": {
           "value": "{ref-brand.neutral-light-90}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
+        },
+        "surface-selected-strong": {
+          "value": "{ref-brand.neutral-light-05}",
+          "type": "color",
+          "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. "
         },
         "surface-disabled": {
           "value": "{ref-properties.fill.on-default.disabled}",
@@ -8113,6 +8142,11 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
+        "text-inverse": {
+          "value": "{ref-properties.text.inverse}",
+          "type": "color",
+          "description": "Inverse text refers to the opposite color that contrasts with the background. "
+        },
         "text-secondary": {
           "value": "{ref-properties.text.secondary}",
           "type": "color",
@@ -8171,7 +8205,7 @@
         "surface-selected-strong": {
           "value": "{ref-brand.secondary-60}",
           "type": "color",
-          "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
+          "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. "
         },
         "surface-selected:hover": {
           "value": "{ref-properties.fill.on-default.selected-moderate:hover}",
@@ -8235,6 +8269,11 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
+        "text-inverse": {
+          "value": "{ref-properties.text.default}",
+          "type": "color",
+          "description": "Inverse text refers to the opposite color that contrasts with the background. "
+        },
         "text-secondary": {
           "value": "{ref-properties.text.secondary}",
           "type": "color",
@@ -8290,10 +8329,15 @@
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
-        "surface-selected": {
+        "surface-selected-moderate": {
           "value": "{ref-brand.secondary-80}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
+        },
+        "surface-selected-strong": {
+          "value": "{ref-brand.neutral-light-05}",
+          "type": "color",
+          "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. "
         },
         "surface-disabled": {
           "value": "{ref-properties.fill.on-default.disabled}",
@@ -8341,6 +8385,11 @@
           "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+        },
+        "text-inverse": {
+          "value": "{ref-properties.text.default}",
+          "type": "color",
+          "description": "Inverse text refers to the opposite color that contrasts with the background. "
         },
         "text-secondary": {
           "value": "{ref-properties.text.secondary}",
@@ -8397,10 +8446,15 @@
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
-        "surface-selected": {
+        "surface-selected-moderate": {
           "value": "{ref-brand.neutral-dark-90}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
+        },
+        "surface-selected-strong": {
+          "value": "{ref-brand.secondary-60}",
+          "type": "color",
+          "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active."
         },
         "surface-disabled": {
           "value": "{ref-properties.fill.on-default.disabled}",
@@ -10400,7 +10454,6 @@
         "comp-nav-horizontal.brand.surface-transparent": "a8995daa3ad46e30b38a1c40ec6d0a773aa7e6ad",
         "comp-nav-horizontal.brand.surface-hover": "70911702acac139cd9b2fb872670ff959b269ddc",
         "comp-nav-horizontal.brand.surface-focused": "2303bff6090e4391b8b6c468fb7b9d2ccd6b894d",
-        "comp-nav-horizontal.brand.surface-selected": "60fc8786d4c12af217593cf71e20cf58a0118f9b",
         "comp-nav-horizontal.brand.surface-disabled": "dec59db69d099e151801f419fa41310ed2d56cd7",
         "comp-nav-horizontal.brand.border-enabled": "d07d6e7a4e519666a85ec2cb9777b6782505dd4a",
         "comp-nav-horizontal.brand.border-transparent": "76b82e3db9dbccc02249e4fdd9796fb5fda2583f",
@@ -10885,7 +10938,8 @@
         "comp-situation.functional-border-error-low": "8ab638e87d82d5ce7f555560bff569038c1510d7",
         "comp-situation.functional-border-success-low": "fe17f83bb0561219f96d80e09589e486213ee6e6",
         "ref-properties.border.on-functional.error-low": "a5eb920d7a10c6657f38e2f0b39ad144cd6cd5fb",
-        "ref-properties.border.on-functional.success-low": "810f0811777203822b9ccc01a435971f9e680d45"
+        "ref-properties.border.on-functional.success-low": "810f0811777203822b9ccc01a435971f9e680d45",
+        "comp-nav-horizontal.brand.surface-selected-moderate": "60fc8786d4c12af217593cf71e20cf58a0118f9b"
       },
       "group": "Theme"
     },
@@ -11313,7 +11367,6 @@
         "comp-nav-horizontal.brand.surface-transparent": "a8995daa3ad46e30b38a1c40ec6d0a773aa7e6ad",
         "comp-nav-horizontal.brand.surface-hover": "70911702acac139cd9b2fb872670ff959b269ddc",
         "comp-nav-horizontal.brand.surface-focused": "2303bff6090e4391b8b6c468fb7b9d2ccd6b894d",
-        "comp-nav-horizontal.brand.surface-selected": "60fc8786d4c12af217593cf71e20cf58a0118f9b",
         "comp-nav-horizontal.brand.surface-disabled": "dec59db69d099e151801f419fa41310ed2d56cd7",
         "comp-nav-horizontal.brand.border-enabled": "d07d6e7a4e519666a85ec2cb9777b6782505dd4a",
         "comp-nav-horizontal.brand.border-transparent": "76b82e3db9dbccc02249e4fdd9796fb5fda2583f",
@@ -11798,7 +11851,8 @@
         "comp-situation.functional-border-error-low": "8ab638e87d82d5ce7f555560bff569038c1510d7",
         "comp-situation.functional-border-success-low": "fe17f83bb0561219f96d80e09589e486213ee6e6",
         "ref-properties.border.on-functional.error-low": "a5eb920d7a10c6657f38e2f0b39ad144cd6cd5fb",
-        "ref-properties.border.on-functional.success-low": "810f0811777203822b9ccc01a435971f9e680d45"
+        "ref-properties.border.on-functional.success-low": "810f0811777203822b9ccc01a435971f9e680d45",
+        "comp-nav-horizontal.brand.surface-selected-moderate": "60fc8786d4c12af217593cf71e20cf58a0118f9b"
       },
       "group": "Theme"
     }
