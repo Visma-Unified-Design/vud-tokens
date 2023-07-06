@@ -8477,7 +8477,7 @@
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "surface-selected-moderate": {
-          "value": "{ref-brand.neutral-dark-90}",
+          "value": "{ref-brand.neutral-dark-05}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
         },
