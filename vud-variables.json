@@ -8482,7 +8482,7 @@
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
         },
         "surface-selected-strong": {
-          "value": "{ref-brand.secondary-60}",
+          "value": "{ref-properties.fill.on-default.selected-strong}",
           "type": "color",
           "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active."
         },
@@ -8492,7 +8492,7 @@
           "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "border-enabled": {
-          "value": "{ref-properties.border.on-default.enabled}",
+          "value": "{ref-properties.border.on-default.inverse}",
           "type": "color",
           "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
