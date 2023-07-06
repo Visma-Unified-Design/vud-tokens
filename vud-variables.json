@@ -4813,7 +4813,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "seperator": {
-          "value": "{ref-properties.shade.medium}",
+          "value": "{ref-properties.tint.medium}",
           "type": "color"
         }
       }
@@ -8771,7 +8771,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "seperator": {
-          "value": "{ref-properties.tint.medium}",
+          "value": "{ref-properties.shade.medium}",
           "type": "color"
         }
       }
