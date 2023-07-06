@@ -4134,15 +4134,20 @@
           "type": "color",
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
-        "icon-emphasized": {
-          "value": "{ref-properties.icon.emphasized}",
-          "type": "color",
-          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
-        },
         "icon-default": {
           "value": "{ref-properties.icon.default}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-inverse": {
+          "value": "{ref-properties.icon.inverse}",
+          "type": "color",
+          "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
+        },
+        "icon-emphasized": {
+          "value": "{ref-properties.icon.emphasized}",
+          "type": "color",
+          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
@@ -4266,6 +4271,11 @@
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
         },
+        "icon-inverse": {
+          "value": "{ref-properties.icon.default}",
+          "type": "color",
+          "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
+        },
         "icon-emphasized": {
           "value": "{ref-properties.icon.emphasized}",
           "type": "color",
@@ -4382,6 +4392,11 @@
           "value": "{ref-properties.icon.inverse}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-inverse": {
+          "value": "{ref-properties.icon.default}",
+          "type": "color",
+          "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
         "icon-emphasized": {
           "value": "{ref-properties.icon.emphasized}",
@@ -8162,20 +8177,25 @@
           "type": "color",
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
-        "icon-disabled": {
-          "value": "{ref-properties.icon.disabled}",
+        "icon-default": {
+          "value": "{ref-properties.icon.default}",
           "type": "color",
-          "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
+          "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-inverse": {
+          "value": "{ref-properties.icon.inverse}",
+          "type": "color",
+          "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
         "icon-emphasized": {
           "value": "{ref-properties.icon.emphasized}",
           "type": "color",
           "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
-        "icon-default": {
-          "value": "{ref-properties.icon.default}",
+        "icon-disabled": {
+          "value": "{ref-properties.icon.disabled}",
           "type": "color",
-          "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+          "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "surface-enabled": {
           "value": "{ref-properties.fill.on-default.enabled}",
@@ -8265,12 +8285,12 @@
       },
       "brand": {
         "text-default": {
-          "value": "{ref-properties.text.inverse}",
+          "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
         "text-inverse": {
-          "value": "{ref-properties.text.default}",
+          "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Inverse text refers to the opposite color that contrasts with the background. "
         },
@@ -8293,6 +8313,11 @@
           "value": "{ref-properties.icon.inverse}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-inverse": {
+          "value": "{ref-properties.icon.default}",
+          "type": "color",
+          "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
         "icon-emphasized": {
           "value": "{ref-properties.icon.emphasized}",
@@ -8382,12 +8407,12 @@
       },
       "inverted": {
         "text-default": {
-          "value": "{ref-properties.text.inverse}",
+          "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
         "text-inverse": {
-          "value": "{ref-properties.text.default}",
+          "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Inverse text refers to the opposite color that contrasts with the background. "
         },
@@ -8410,6 +8435,11 @@
           "value": "{ref-properties.icon.inverse}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-inverse": {
+          "value": "{ref-properties.icon.default}",
+          "type": "color",
+          "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
         "icon-emphasized": {
           "value": "{ref-properties.icon.emphasized}",
