@@ -1255,7 +1255,7 @@
       "value": "Bold",
       "type": "fontWeights"
     },
-    "Underline": {
+    "underline": {
       "value": "underline",
       "type": "textDecoration"
     },
@@ -1598,7 +1598,7 @@
           "fontFamily": "{core-font-familiy-secondary}",
           "fontWeight": "{core-font-weight-regular}",
           "fontSize": "{font-size.0}",
-          "textDecoration": "{Underline}"
+          "textDecoration": "{underline}"
         },
         "type": "typography",
         "description": "Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph."
