@@ -1526,67 +1526,273 @@
       }
     },
     "ref-contextual": {
-      "callout": {
-        "value": {
-          "fontFamily": "{core-font-familiy-secondary}",
-          "fontSize": "{font-size.-1}"
+      "regular": {
+        "callout": {
+          "value": {
+            "fontFamily": "{core-font-familiy-secondary}",
+            "fontSize": "{font-size.-1}",
+            "fontWeight": "{core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for highlighting important details or provide additional context. \n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for highlighting important details or provide additional context. \n\nType scaling applied."
+        "h1": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "fontSize": "{font-size.4}",
+            "fontWeight": "{core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h1 tag is commonly used to display the main title on a webpage.\nType scaling applied."
+        },
+        "h2": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "fontSize": "{font-size.2}",
+            "fontWeight": "{core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus. \nThe h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section.\nType scaling applied."
+        },
+        "h3": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "lineHeight": "",
+            "fontSize": "{font-size.1}",
+            "fontWeight": "{core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.\n\nType scaling applied."
+        },
+        "h4": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "fontWeight": "{core-font-weight-regular}",
+            "fontSize": "{font-size.0}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
+        },
+        "body": {
+          "value": {
+            "fontFamily": "{core-font-familiy-secondary}",
+            "fontWeight": "{core-font-weight-regular}",
+            "fontSize": "{font-size.0}"
+          },
+          "type": "typography",
+          "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
+        },
+        "link": {
+          "value": {
+            "fontFamily": "{core-font-familiy-secondary}",
+            "fontWeight": "{core-font-weight-regular}",
+            "fontSize": "{font-size.0}",
+            "textDecoration": "{Underline}"
+          },
+          "type": "typography",
+          "description": "Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph."
+        }
       },
-      "body": {
-        "value": {
-          "fontFamily": "{core-font-familiy-secondary}",
-          "fontWeight": "{core-font-weight-regular}",
-          "fontSize": "{font-size.0}"
+      "medium": {
+        "callout": {
+          "value": {
+            "fontFamily": "{core-font-familiy-secondary}",
+            "fontSize": "{font-size.-1}",
+            "fontWeight": "{core-font-weight-medium}"
+          },
+          "type": "typography",
+          "description": "Suitable for highlighting important details or provide additional context. \n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
+        "h1": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "fontSize": "{font-size.4}",
+            "fontWeight": "{core-font-weight-medium}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h1 tag is commonly used to display the main title on a webpage.\nType scaling applied."
+        },
+        "h4": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "fontWeight": "{core-font-weight-medium}",
+            "fontSize": "{font-size.0}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
+        },
+        "h2": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "fontSize": "{font-size.2}",
+            "fontWeight": "{core-font-weight-medium}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus. \nThe h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section.\nType scaling applied."
+        },
+        "h3": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "lineHeight": "",
+            "fontSize": "{font-size.1}",
+            "fontWeight": "{core-font-weight-medium}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.\n\nType scaling applied."
+        },
+        "body": {
+          "value": {
+            "fontFamily": "{core-font-familiy-secondary}",
+            "fontWeight": "{core-font-weight-medium}",
+            "fontSize": "{font-size.0}"
+          },
+          "type": "typography",
+          "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
+        },
+        "link": {
+          "value": {
+            "fontFamily": "{core-font-familiy-secondary}",
+            "fontWeight": "{core-font-weight-medium}",
+            "fontSize": "{font-size.0}",
+            "textDecoration": "{Underline}"
+          },
+          "type": "typography",
+          "description": "Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph."
+        }
       },
-      "h1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-primary}",
-          "fontSize": "{font-size.4}",
-          "fontWeight": "{core-font-weight-medium}"
+      "semibold": {
+        "callout": {
+          "value": {
+            "fontFamily": "{core-font-familiy-secondary}",
+            "fontSize": "{font-size.-1}",
+            "fontWeight": "{core-font-weight-semibold}"
+          },
+          "type": "typography",
+          "description": "Suitable for highlighting important details or provide additional context. \n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h1 tag is commonly used to display the main title on a webpage.\nType scaling applied."
+        "h1": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "fontSize": "{font-size.4}",
+            "fontWeight": "{core-font-weight-semibold}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h1 tag is commonly used to display the main title on a webpage.\nType scaling applied."
+        },
+        "h4": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "fontWeight": "{core-font-weight-semibold}",
+            "fontSize": "{font-size.0}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
+        },
+        "h2": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "fontSize": "{font-size.2}",
+            "fontWeight": "{core-font-weight-semibold}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus. \nThe h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section.\nType scaling applied."
+        },
+        "h3": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "lineHeight": "",
+            "fontSize": "{font-size.1}",
+            "fontWeight": "{core-font-weight-semibold}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.\n\nType scaling applied."
+        },
+        "body": {
+          "value": {
+            "fontFamily": "{core-font-familiy-secondary}",
+            "fontWeight": "{core-font-weight-semibold}",
+            "fontSize": "{font-size.0}"
+          },
+          "type": "typography",
+          "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
+        },
+        "link": {
+          "value": {
+            "fontFamily": "{core-font-familiy-secondary}",
+            "fontWeight": "{core-font-weight-semibold}",
+            "fontSize": "{font-size.0}",
+            "textDecoration": "{Underline}"
+          },
+          "type": "typography",
+          "description": "Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph."
+        }
       },
-      "h2": {
-        "value": {
-          "fontFamily": "{core-font-familiy-primary}",
-          "fontSize": "{font-size.2}"
+      "bold": {
+        "callout": {
+          "value": {
+            "fontFamily": "{core-font-familiy-secondary}",
+            "fontSize": "{font-size.-1}",
+            "fontWeight": "{core-font-weight-bold}"
+          },
+          "type": "typography",
+          "description": "Suitable for highlighting important details or provide additional context. \n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus. \nThe h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section.\nType scaling applied."
-      },
-      "h3": {
-        "value": {
-          "fontFamily": "{core-font-familiy-primary}",
-          "lineHeight": "",
-          "fontSize": "{font-size.1}"
+        "h1": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "fontSize": "{font-size.4}",
+            "fontWeight": "{core-font-weight-bold}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h1 tag is commonly used to display the main title on a webpage.\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.\n\nType scaling applied."
-      },
-      "h4": {
-        "value": {
-          "fontFamily": "{core-font-familiy-primary}",
-          "fontWeight": "{core-font-weight-medium}",
-          "fontSize": "{font-size.0}"
+        "h4": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "fontWeight": "{core-font-weight-bold}",
+            "fontSize": "{font-size.0}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
-      },
-      "link": {
-        "value": {
-          "fontFamily": "{core-font-familiy-secondary}",
-          "fontWeight": "{core-font-weight-regular}",
-          "fontSize": "{font-size.0}",
-          "textDecoration": "{Underline}"
+        "h2": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "fontSize": "{font-size.2}",
+            "fontWeight": "{core-font-weight-bold}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus. \nThe h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section.\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph."
+        "h3": {
+          "value": {
+            "fontFamily": "{core-font-familiy-primary}",
+            "lineHeight": "",
+            "fontSize": "{font-size.1}",
+            "fontWeight": "{core-font-weight-bold}"
+          },
+          "type": "typography",
+          "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.\n\nType scaling applied."
+        },
+        "body": {
+          "value": {
+            "fontFamily": "{core-font-familiy-secondary}",
+            "fontWeight": "{core-font-weight-bold}",
+            "fontSize": "{font-size.0}"
+          },
+          "type": "typography",
+          "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
+        },
+        "link": {
+          "value": {
+            "fontFamily": "{core-font-familiy-secondary}",
+            "fontWeight": "{core-font-weight-bold}",
+            "fontSize": "{font-size.0}",
+            "textDecoration": "{Underline}"
+          },
+          "type": "typography",
+          "description": "Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph."
+        }
       }
     },
     "ref-tabular": {
