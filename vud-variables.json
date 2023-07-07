@@ -5703,6 +5703,11 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
+      "text-emphasized": {
+        "value": "{ref-properties.text.emphasized}",
+        "type": "color",
+        "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+      },
       "text-secondary": {
         "value": "{ref-properties.text.secondary}",
         "type": "color",
@@ -5722,6 +5727,11 @@
         "value": "{ref-properties.icon.default}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+      },
+      "icon-emphasized": {
+        "value": "{ref-properties.icon.emphasized}",
+        "type": "color",
+        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -9776,6 +9786,11 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
+      "text-emphasized": {
+        "value": "{ref-properties.text.emphasized}",
+        "type": "color",
+        "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+      },
       "text-secondary": {
         "value": "{ref-properties.text.secondary}",
         "type": "color",
@@ -9795,6 +9810,11 @@
         "value": "{ref-properties.icon.default}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+      },
+      "icon-emphasized": {
+        "value": "{ref-properties.icon.emphasized}",
+        "type": "color",
+        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
