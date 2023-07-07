@@ -5051,10 +5051,20 @@
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
+      "icon-default": {
+        "value": "{ref-properties.icon.default}",
+        "type": "color",
+        "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+      },
       "icon-emphasized": {
         "value": "{ref-properties.icon.emphasized}",
         "type": "color",
         "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+      },
+      "icon-disabled": {
+        "value": "{ref-properties.icon.disabled}",
+        "type": "color",
+        "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "icon-success": {
         "value": "{ref-properties.icon.success}",
@@ -9104,6 +9114,11 @@
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
+      "icon-default": {
+        "value": "{ref-properties.icon.default}",
+        "type": "color",
+        "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+      },
       "icon-emphasized": {
         "value": "{ref-properties.icon.emphasized}",
         "type": "color",
@@ -9113,6 +9128,11 @@
         "value": "{ref-properties.icon.success}",
         "type": "color",
         "description": "Success text refers to content that signifies a positive or affirmative message."
+      },
+      "icon-disabled": {
+        "value": "{ref-properties.icon.disabled}",
+        "type": "color",
+        "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
       }
     },
     "comp-progress": {
