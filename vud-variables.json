@@ -1175,6 +1175,18 @@
       "64": {
         "value": "{spacing.2}*32",
         "type": "spacing"
+      },
+      "96": {
+        "value": "{spacing.2}*48",
+        "type": "spacing"
+      },
+      "128": {
+        "value": "{spacing.2}*64",
+        "type": "spacing"
+      },
+      "256": {
+        "value": "{spacing.2}*128",
+        "type": "spacing"
       }
     },
     "opacity": {
