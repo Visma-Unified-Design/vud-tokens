@@ -3584,7 +3584,7 @@
         }
       }
     },
-    "ref-boxShadow": {
+    "ref-box-shadow": {
       "brand-elevation-01": {
         "value": {
           "x": "0",
@@ -5540,7 +5540,7 @@
         }
       }
     },
-    "comp-tableCell": {
+    "comp-table-cell": {
       "border": {
         "left": {
           "value": {
@@ -8055,7 +8055,7 @@
         }
       }
     },
-    "ref-boxShadow": {
+    "ref-box-shadow": {
       "brand-elevation-01": {
         "value": {
           "x": "0",
@@ -10006,7 +10006,7 @@
         }
       }
     },
-    "comp-tableCell": {
+    "comp-td-cell": {
       "border": {
         "left": {
           "value": {
@@ -10923,7 +10923,19 @@
     {
       "id": "81423920b17c04378e249c73d0bce2c741588253",
       "name": "Light",
-      "$figmaStyleReferences": {},
+      "$figmaStyleReferences": {
+        "ref-boxShadow.brand-elevation-01": "S:358255cf6eae43cae502b06fbbf2636d8a15fb49,",
+        "ref-boxShadow.default-elevation-01": "S:54a2a7a03a3e85c53e7455808695fbc27f3455e2,",
+        "ref-boxShadow.default-elevation-02": "S:cb3f0538482123f73e706441446e4a22898780d5,",
+        "ref-boxShadow.default-elevation-03": "S:f35b8955daade0285194879fece530ab5dab1275,",
+        "ref-boxShadow.default-elevation-04": "S:3835fabdf40d0bd07a94786284480ad2ada237a2,",
+        "comp-button-border.inner-shadow": "S:0a897dffbd79d04f5b97c280a3cc58f1777bbbd3,",
+        "comp-tableCell.border.left": "S:bb046d7c5e6295931c11efbc69fdac7ab55d4dbc,",
+        "comp-tableCell.border.top": "S:0f2f169b7218c7fa96ee049609a851f1468c46c7,",
+        "comp-tableCell.border.right": "S:e07438cd633f75f38c2042e4d7cff99d6aec9011,",
+        "comp-tableCell.border.bottom": "S:7ad9d0746cbceac750f2d5b49c960fec22ec23a0,",
+        "comp-tableCell.focus-indicator.left": "S:ddca7cd46f46ce19187a1ec981803b856c276992,"
+      },
       "selectedTokenSets": {
         "light": "enabled",
         "global": "enabled"
