@@ -6398,7 +6398,7 @@
           "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
         "emphasized": {
-          "value": "{ref-brand.secondary-50}",
+          "value": "{ref-brand.secondary-40}",
           "type": "color",
           "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
@@ -6448,7 +6448,7 @@
           "description": "Weak border refers to a subtle border style."
         },
         "moderate": {
-          "value": "{ref-brand.neutral-dark-60}",
+          "value": "{ref-brand.neutral-dark-50}",
           "type": "color",
           "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
         },
@@ -8277,7 +8277,7 @@
         "$extensions": {}
       },
       "surface-disabled": {
-        "value": "{ref-properties.fill.on-default.muted}",
+        "value": "{ref-properties.fill.on-default.disabled}",
         "type": "color",
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
