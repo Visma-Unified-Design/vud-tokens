@@ -5590,20 +5590,20 @@
           "type": "boxShadow",
           "description": "Bottom border in table cell"
         }
-      },
-      "focus-indicator": {
-        "left": {
-          "value": {
-            "x": "4",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba( {ref-properties.border.extreme}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Focus-indicator refers to the thick line along the shortest side of the minimum bounding box of the unfocused component or sub-component."
-        }
+      }
+    },
+    "ref-focus-indicator": {
+      "left": {
+        "value": {
+          "x": "4",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{ref-properties.border.extreme}",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow",
+        "description": "Focus-indicator refers to the thick line along the shortest side of the minimum bounding box of the unfocused component or sub-component."
       }
     },
     "comp-search": {
@@ -10056,20 +10056,20 @@
           "type": "boxShadow",
           "description": "Bottom border in table cell"
         }
-      },
-      "focus-indicator": {
-        "left": {
-          "value": {
-            "x": "4",
-            "y": "0",
-            "blur": "0",
-            "spread": "0",
-            "color": "rgba( {ref-properties.border.extreme}, 1.0)",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "Focus-indicator refers to the thick line along the shortest side of the minimum bounding box of the unfocused component or sub-component."
-        }
+      }
+    },
+    "ref-focus-indicator": {
+      "left": {
+        "value": {
+          "x": "4",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{ref-properties.border.extreme}",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow",
+        "description": "Focus-indicator refers to the thick line along the shortest side of the minimum bounding box of the unfocused component or sub-component."
       }
     },
     "comp-search": {
@@ -10929,12 +10929,23 @@
         "ref-boxShadow.default-elevation-02": "S:cb3f0538482123f73e706441446e4a22898780d5,",
         "ref-boxShadow.default-elevation-03": "S:f35b8955daade0285194879fece530ab5dab1275,",
         "ref-boxShadow.default-elevation-04": "S:3835fabdf40d0bd07a94786284480ad2ada237a2,",
-        "comp-button-border.inner-shadow": "S:0a897dffbd79d04f5b97c280a3cc58f1777bbbd3,",
+        "comp-button-border.inner-shadow": "S:5d3b7cf70691f123e690dcf99de46ce57089281f,",
         "comp-tableCell.border.left": "S:bb046d7c5e6295931c11efbc69fdac7ab55d4dbc,",
         "comp-tableCell.border.top": "S:0f2f169b7218c7fa96ee049609a851f1468c46c7,",
         "comp-tableCell.border.right": "S:e07438cd633f75f38c2042e4d7cff99d6aec9011,",
         "comp-tableCell.border.bottom": "S:7ad9d0746cbceac750f2d5b49c960fec22ec23a0,",
-        "comp-tableCell.focus-indicator.left": "S:ddca7cd46f46ce19187a1ec981803b856c276992,"
+        "comp-tableCell.focus-indicator.left": "S:ddca7cd46f46ce19187a1ec981803b856c276992,",
+        "ref-box-shadow.brand-elevation-01": "S:6e12359a19c6d4b138632286095a2f0868979446,",
+        "ref-box-shadow.default-elevation-01": "S:26174ed59e5d0c1f3a13b19583a7cd3df4b9ee3f,",
+        "ref-box-shadow.default-elevation-02": "S:826680127f15340e5c2cdf1b0a88804a2a8b5c8a,",
+        "ref-box-shadow.default-elevation-03": "S:321cc1705e19bc20e1ac94c2a37d6f6944eff2ed,",
+        "ref-box-shadow.default-elevation-04": "S:97d1c6976165a286b5b42a6874c0272dbfb2a150,",
+        "comp-table-cell.border.left": "S:436d46735346c517addb443dfd953fbc966e0440,",
+        "comp-table-cell.border.top": "S:28f21453285981337421fb607bd69e2ac1a0bb03,",
+        "comp-table-cell.border.right": "S:58bd3a02e08c16048c6c2b4746fdef502b18fa84,",
+        "comp-table-cell.border.bottom": "S:ba3e227d5805d0e0dc510289ca8827df46bef66a,",
+        "comp-table-cell.focus-indicator.left": "S:db9a15eb7f22e206a7f8d6ddf09841a9b9ea5d0a,",
+        "ref-focus-indicator.left": "S:241efd3c52b46bb5f7e1e646cacd243086472055,"
       },
       "selectedTokenSets": {
         "light": "enabled",
