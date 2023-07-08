@@ -6375,7 +6375,7 @@
           "type": "color",
           "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
         },
-        "error-medium": {
+        "error-moderate": {
           "value": "{vud-ref-functional.error-80}",
           "type": "color",
           "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
@@ -7425,7 +7425,7 @@
       },
       "on-destructive": {
         "text-default": {
-          "value": "{ref-properties.text.error-medium}",
+          "value": "{ref-properties.text.error-moderate}",
           "type": "color",
           "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
@@ -10257,7 +10257,7 @@
         "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
       },
       "functional-text-error": {
-        "value": "{ref-properties.text.error}",
+        "value": "{ref-properties.text.error-moderate}",
         "type": "color",
         "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
       },
@@ -11885,7 +11885,6 @@
         "ref-properties.text.links": "ea08e0a4bae06de3a11cef47c4d6e86f003cab7a",
         "ref-properties.text.visited": "82d37fd5d56974c7b712691d8986617770b3931a",
         "ref-properties.text.error": "5b514a851a432fa43859885b53e03bedfc776a0f",
-        "ref-properties.text.error-medium": "3c5d98fb2cb907a36f24274bf63f4a85bcc30f73",
         "ref-properties.text.warning": "2b5a99678e74b561cf7d9d0ceb290a8e1aae043d",
         "ref-properties.text.succes": "81d21384136b4289b418198824d4b6e3df75b17b",
         "ref-properties.text.disabled": "04c3f00c947566ce079671ee80882902bbd9f1c1",
@@ -12776,7 +12775,8 @@
         "comp-situation.functional-border-success-low": "fe17f83bb0561219f96d80e09589e486213ee6e6",
         "ref-properties.border.on-functional.error-low": "a5eb920d7a10c6657f38e2f0b39ad144cd6cd5fb",
         "ref-properties.border.on-functional.success-low": "810f0811777203822b9ccc01a435971f9e680d45",
-        "comp-nav-horizontal.brand.surface-selected-moderate": "60fc8786d4c12af217593cf71e20cf58a0118f9b"
+        "comp-nav-horizontal.brand.surface-selected-moderate": "60fc8786d4c12af217593cf71e20cf58a0118f9b",
+        "ref-properties.text.error-moderate": "3c5d98fb2cb907a36f24274bf63f4a85bcc30f73"
       },
       "group": "Theme"
     }
