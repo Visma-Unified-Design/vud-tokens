@@ -1806,6 +1806,11 @@
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
         },
+        "info": {
+          "value": "{ref-brand.secondary-60}",
+          "type": "color",
+          "description": "Info text gives a clear summary of the information."
+        },
         "links": {
           "value": "{ref-brand.secondary-60}",
           "type": "color",
@@ -1821,15 +1826,15 @@
           "type": "color",
           "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
         },
-        "warning": {
-          "value": "{vud-ref-functional.warning-90}",
-          "type": "color",
-          "description": "Warning text refers to content that conveys a warning, caution, or alert."
-        },
         "success": {
           "value": "{vud-ref-functional.success-70}",
           "type": "color",
           "description": "Success text refers to content that signifies a positive or affirmative message."
+        },
+        "warning": {
+          "value": "{vud-ref-functional.warning-90}",
+          "type": "color",
+          "description": "Warning text refers to content that conveys a warning, caution, or alert."
         },
         "disabled": {
           "value": "{ref-brand.neutral-light-60}",
@@ -6346,9 +6351,14 @@
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
         },
         "emphasized": {
-          "value": "{ref-brand.neutral-dark-05}",
+          "value": "{ref-brand.secondary-40}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+        },
+        "info": {
+          "value": "{ref-brand.secondary-70}",
+          "type": "color",
+          "description": "Info text gives a clear summary of the information."
         },
         "links": {
           "value": "{ref-brand.neutral-dark-05}",
@@ -6371,12 +6381,12 @@
           "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
         },
         "warning": {
-          "value": "{vud-ref-functional.warning-50}",
+          "value": "{vud-ref-functional.warning-90}",
           "type": "color",
           "description": "Warning text refers to content that conveys a warning, caution, or alert."
         },
         "success": {
-          "value": "{vud-ref-functional.success-50}",
+          "value": "{vud-ref-functional.success-70}",
           "type": "color",
           "description": "Success text refers to content that signifies a positive or affirmative message."
         },
