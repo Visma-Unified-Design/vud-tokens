@@ -2214,22 +2214,22 @@
             "type": "color",
             "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
           },
-          "error-low": {
+          "error-weak": {
             "value": "{vud-ref-functional.error-70}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           },
-          "success-low": {
+          "success-weak": {
             "value": "{vud-ref-functional.success-70}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           },
-          "error-medium": {
+          "error-moderate": {
             "value": "{vud-ref-functional.error-70}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           },
-          "success-medium": {
+          "success-moderate": {
             "value": "{vud-ref-functional.success-70}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
@@ -2262,7 +2262,7 @@
             "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected:hover": {
-            "value": "{ref-properties.shade.low}",
+            "value": "{ref-properties.shade.weak}",
             "type": "color",
             "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -2784,21 +2784,21 @@
         }
       },
       "shade": {
-        "low": {
+        "weak": {
           "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.8})",
           "type": "color"
         },
-        "medium": {
+        "moderate": {
           "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.12})",
           "type": "color"
         }
       },
       "tint": {
-        "low": {
+        "weak": {
           "value": "rgba({ref-brand.neutral-light-05}, {opacity.8})",
           "type": "color"
         },
-        "medium": {
+        "moderate": {
           "value": "rgba( {ref-brand.neutral-dark-05}, {opacity.12})",
           "type": "color"
         }
@@ -5026,7 +5026,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "seperator": {
-          "value": "{ref-properties.shade.medium}",
+          "value": "{ref-properties.shade.moderate}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
@@ -5088,12 +5088,12 @@
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "surface-selected-weak": {
-          "value": "{ref-properties.shade.low}",
+          "value": "{ref-properties.shade.weak}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
         },
         "surface-selected-weak:hover": {
-          "value": "{ref-properties.shade.low}",
+          "value": "{ref-properties.shade.weak}",
           "type": "color",
           "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -5103,7 +5103,7 @@
           "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
         },
         "surface-selected-strong:hover": {
-          "value": "{ref-properties.tint.low}",
+          "value": "{ref-properties.tint.weak}",
           "type": "color",
           "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -5163,7 +5163,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "seperator": {
-          "value": "{ref-properties.tint.medium}",
+          "value": "{ref-properties.tint.moderate}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
@@ -5225,12 +5225,12 @@
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "surface-selected-weak": {
-          "value": "{ref-properties.tint.low}",
+          "value": "{ref-properties.tint.weak}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
         },
         "surface-selected-weak:hover": {
-          "value": "{ref-properties.tint.low}",
+          "value": "{ref-properties.tint.weak}",
           "type": "color",
           "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -5240,7 +5240,7 @@
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
         },
         "surface-selected-strong:hover": {
-          "value": "{ref-properties.tint.low}",
+          "value": "{ref-properties.tint.weak}",
           "type": "color",
           "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -5300,7 +5300,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "seperator": {
-          "value": "{ref-properties.tint.medium}",
+          "value": "{ref-properties.tint.moderate}",
           "type": "color"
         }
       }
@@ -5846,12 +5846,12 @@
         "description": "Inverse surface refers to the opposite color that contrasts with the background. "
       },
       "functional-surface-overlay-default": {
-        "value": "{ref-properties.shade.low}",
+        "value": "{ref-properties.shade.weak}",
         "type": "color",
         "description": "Default alerts. Lower prio statuses such as pairing\n"
       },
       "functional-surface-overlay-inverse": {
-        "value": "{ref-properties.tint.low}",
+        "value": "{ref-properties.tint.weak}",
         "type": "color",
         "description": "Default alerts. Lower prio statuses such as pairing\n"
       },
@@ -5926,22 +5926,22 @@
         "description": "Suitable for alerts, toasts, tooltips. Specially warnings and potential problem statuses such as partially paid, losses."
       },
       "functional-border-error-low": {
-        "value": "{ref-properties.border.on-functional.error-low}",
+        "value": "{ref-properties.border.on-functional.error-weak}",
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
       },
       "functional-border-success-low": {
-        "value": "{ref-properties.border.on-functional.success-low}",
+        "value": "{ref-properties.border.on-functional.success-weak}",
         "type": "color",
         "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
       },
       "functional-border-error-medium": {
-        "value": "{ref-properties.border.on-functional.error-medium}",
+        "value": "{ref-properties.border.on-functional.error-moderate}",
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
       },
       "functional-border-success-medium": {
-        "value": "{ref-properties.border.on-functional.success-medium}",
+        "value": "{ref-properties.border.on-functional.success-moderate}",
         "type": "color",
         "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
       },
@@ -6714,22 +6714,22 @@
             "type": "color",
             "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
           },
-          "error-low": {
+          "error-weak": {
             "value": "{vud-ref-functional.error-10}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           },
-          "success-low": {
+          "success-weak": {
             "value": "{vud-ref-functional.success-10}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
           },
-          "error-medium": {
+          "error-moderate": {
             "value": "{vud-ref-functional.error-50}",
             "type": "color",
             "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           },
-          "success-medium": {
+          "success-moderate": {
             "value": "{vud-ref-functional.success-50}",
             "type": "color",
             "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
@@ -7265,21 +7265,21 @@
         }
       },
       "shade": {
-        "low": {
+        "weak": {
           "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.8})",
           "type": "color"
         },
-        "medium": {
+        "moderate": {
           "value": "rgba( {vud-core-palette.neutral-dark-90},{opacity.12})",
           "type": "color"
         }
       },
       "tint": {
-        "low": {
+        "weak": {
           "value": "rgba( {ref-brand.neutral-dark-05}, {opacity.8})",
           "type": "color"
         },
-        "medium": {
+        "moderate": {
           "value": "rgba( {ref-brand.neutral-dark-05}, {opacity.12})",
           "type": "color"
         }
@@ -9422,12 +9422,12 @@
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "surface-selected-weak": {
-          "value": "{ref-properties.shade.low}",
+          "value": "{ref-properties.shade.weak}",
           "type": "color",
           "description": "Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
         "surface-selected-weak:hover": {
-          "value": "{ref-properties.shade.low}",
+          "value": "{ref-properties.shade.weak}",
           "type": "color",
           "description": "Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -9497,7 +9497,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "seperator": {
-          "value": "{ref-properties.tint.medium}",
+          "value": "{ref-properties.tint.moderate}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
@@ -9559,12 +9559,12 @@
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "surface-selected-weak": {
-          "value": "{ref-properties.shade.low}",
+          "value": "{ref-properties.shade.weak}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
         },
         "surface-selected-weak:hover": {
-          "value": "{ref-properties.shade.low}",
+          "value": "{ref-properties.shade.weak}",
           "type": "color",
           "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -9604,7 +9604,7 @@
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "border-selected-weak": {
-          "value": "{ref-properties.shade.low}",
+          "value": "{ref-properties.shade.weak}",
           "type": "color",
           "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -9634,7 +9634,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "seperator": {
-          "value": "{ref-properties.tint.medium}",
+          "value": "{ref-properties.tint.moderate}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
@@ -9696,12 +9696,12 @@
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "surface-selected-weak": {
-          "value": "{ref-properties.shade.low}",
+          "value": "{ref-properties.shade.weak}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
         },
         "surface-selected-weak:hover": {
-          "value": "{ref-properties.shade.low}",
+          "value": "{ref-properties.shade.weak}",
           "type": "color",
           "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -9711,7 +9711,7 @@
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
         },
         "surface-selected-strong:hover": {
-          "value": "{ref-properties.tint.low}",
+          "value": "{ref-properties.tint.weak}",
           "type": "color",
           "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -9771,7 +9771,7 @@
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "seperator": {
-          "value": "{ref-properties.shade.medium}",
+          "value": "{ref-properties.shade.moderate}",
           "type": "color"
         }
       }
@@ -10317,12 +10317,12 @@
         "description": "Inverse surface refers to the opposite color that contrasts with the background. "
       },
       "functional-surface-overlay-default": {
-        "value": "{ref-properties.tint.low}",
+        "value": "{ref-properties.tint.weak}",
         "type": "color",
         "description": "Default alerts. Lower prio statuses such as pairing\n"
       },
       "functional-surface-overlay-inverse": {
-        "value": "{ref-properties.shade.low}",
+        "value": "{ref-properties.shade.weak}",
         "type": "color",
         "description": "Default alerts. Lower prio statuses such as pairing\n"
       },
@@ -10397,22 +10397,22 @@
         "description": "Suitable for alerts, toasts, tooltips. Specially warnings and potential problem statuses such as partially paid, losses."
       },
       "functional-border-error-low": {
-        "value": "{ref-properties.border.on-functional.error-low}",
+        "value": "{ref-properties.border.on-functional.error-weak}",
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
       },
       "functional-border-success-low": {
-        "value": "{ref-properties.border.on-functional.success-low}",
+        "value": "{ref-properties.border.on-functional.success-weak}",
         "type": "color",
         "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
       },
       "functional-border-error-medium": {
-        "value": "{ref-properties.border.on-functional.error-medium}",
+        "value": "{ref-properties.border.on-functional.error-moderate}",
         "type": "color",
         "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
       },
       "functional-border-success-medium": {
-        "value": "{ref-properties.border.on-functional.success-medium}",
+        "value": "{ref-properties.border.on-functional.success-moderate}",
         "type": "color",
         "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
       },
@@ -11105,8 +11105,6 @@
         "ref-properties.fill.on-surface.default": "df8c68b9a66e2cc5d214e4e9a541b52dc88bec14",
         "ref-properties.fill.on-screen.default": "3ed57fadd0f968d8144144d715eaf30d736baf64",
         "ref-properties.fill.on-mark-tag.default": "338f5b4dc2ab4dc781d55041613689ef06e11dc9",
-        "ref-properties.shade.low": "a1626138ea4048d6def20a2b226ad3d3819fe011",
-        "ref-properties.tint.low": "0a1e553b5a39d46c5eb144e1e8020236dfe46272",
         "ref-properties.data-visualization.1": "682487191f9f2de6fd12febe90a022380e57219c",
         "comp-btn.on-confimatory-low.text-default": "4c6baa8cb482a33dd012907c4edf3d6a1dabece6",
         "comp-btn.on-confimatory-low.text-secondary": "a3cce1927228935ff8160fc90593c51d89dd06e3",
@@ -11861,9 +11859,11 @@
         "comp-situation.functional-surface-success-low": "382c93737f232482f52350d945617925bc73d26b",
         "comp-situation.functional-border-error-low": "8ab638e87d82d5ce7f555560bff569038c1510d7",
         "comp-situation.functional-border-success-low": "fe17f83bb0561219f96d80e09589e486213ee6e6",
-        "ref-properties.border.on-functional.error-low": "a5eb920d7a10c6657f38e2f0b39ad144cd6cd5fb",
-        "ref-properties.border.on-functional.success-low": "810f0811777203822b9ccc01a435971f9e680d45",
-        "comp-nav-horizontal.brand.surface-selected-moderate": "60fc8786d4c12af217593cf71e20cf58a0118f9b"
+        "comp-nav-horizontal.brand.surface-selected-moderate": "60fc8786d4c12af217593cf71e20cf58a0118f9b",
+        "ref-properties.border.on-functional.error-weak": "a5eb920d7a10c6657f38e2f0b39ad144cd6cd5fb",
+        "ref-properties.border.on-functional.success-weak": "810f0811777203822b9ccc01a435971f9e680d45",
+        "ref-properties.shade.weak": "a1626138ea4048d6def20a2b226ad3d3819fe011",
+        "ref-properties.tint.weak": "0a1e553b5a39d46c5eb144e1e8020236dfe46272"
       },
       "group": "Theme"
     },
@@ -12019,8 +12019,6 @@
         "ref-properties.fill.on-surface.default": "df8c68b9a66e2cc5d214e4e9a541b52dc88bec14",
         "ref-properties.fill.on-screen.default": "3ed57fadd0f968d8144144d715eaf30d736baf64",
         "ref-properties.fill.on-mark-tag.default": "338f5b4dc2ab4dc781d55041613689ef06e11dc9",
-        "ref-properties.shade.low": "a1626138ea4048d6def20a2b226ad3d3819fe011",
-        "ref-properties.tint.low": "0a1e553b5a39d46c5eb144e1e8020236dfe46272",
         "comp-btn.on-confimatory-low.text-default": "4c6baa8cb482a33dd012907c4edf3d6a1dabece6",
         "comp-btn.on-confimatory-low.text-secondary": "a3cce1927228935ff8160fc90593c51d89dd06e3",
         "comp-btn.on-confimatory-low.text-disabled": "2eaf7d68386927ae7f23f4b06d1e7e7637beb0cf",
@@ -12773,10 +12771,12 @@
         "comp-situation.functional-surface-success-low": "382c93737f232482f52350d945617925bc73d26b",
         "comp-situation.functional-border-error-low": "8ab638e87d82d5ce7f555560bff569038c1510d7",
         "comp-situation.functional-border-success-low": "fe17f83bb0561219f96d80e09589e486213ee6e6",
-        "ref-properties.border.on-functional.error-low": "a5eb920d7a10c6657f38e2f0b39ad144cd6cd5fb",
-        "ref-properties.border.on-functional.success-low": "810f0811777203822b9ccc01a435971f9e680d45",
         "comp-nav-horizontal.brand.surface-selected-moderate": "60fc8786d4c12af217593cf71e20cf58a0118f9b",
-        "ref-properties.text.error-moderate": "3c5d98fb2cb907a36f24274bf63f4a85bcc30f73"
+        "ref-properties.text.error-moderate": "3c5d98fb2cb907a36f24274bf63f4a85bcc30f73",
+        "ref-properties.border.on-functional.error-weak": "a5eb920d7a10c6657f38e2f0b39ad144cd6cd5fb",
+        "ref-properties.border.on-functional.success-weak": "810f0811777203822b9ccc01a435971f9e680d45",
+        "ref-properties.shade.weak": "a1626138ea4048d6def20a2b226ad3d3819fe011",
+        "ref-properties.tint.weak": "0a1e553b5a39d46c5eb144e1e8020236dfe46272"
       },
       "group": "Theme"
     }
