@@ -5875,11 +5875,6 @@
         "type": "color",
         "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
       },
-      "funct-text-warning-moderate": {
-        "value": "{ref-properties.text.warning-moderate}",
-        "type": "color",
-        "description": "Warning text refers to content that conveys a warning, caution, or alert."
-      },
       "funct-text-success-moderate": {
         "value": "{ref-properties.text.success-moderate}",
         "type": "color",
@@ -5894,6 +5889,16 @@
         "value": "{ref-properties.text.draft-moderate}",
         "type": "color",
         "description": "Draft refers to temporary statuses."
+      },
+      "funct-text-warning-moderate": {
+        "value": "{ref-properties.text.warning-moderate}",
+        "type": "color",
+        "description": "Warning text refers to content that conveys a warning, caution, or alert."
+      },
+      "funct-text-error-moderate": {
+        "value": "{ref-properties.text.error-moderate}",
+        "type": "color",
+        "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
       },
       "funct-icon-error": {
         "value": "{ref-properties.icon.error}",
@@ -10431,11 +10436,6 @@
         "type": "color",
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
-      "funct-text-warning-weak": {
-        "value": "{ref-properties.text.warning-weak}",
-        "type": "color",
-        "description": "Warning text refers to content that conveys a warning, caution, or alert."
-      },
       "funct-text-success-weak": {
         "value": "{ref-properties.text.success-weak}",
         "type": "color",
@@ -10451,13 +10451,13 @@
         "type": "color",
         "description": "Draft refers to temporary statuses."
       },
-      "funct-text-error-moderate": {
-        "value": "{ref-properties.text.error-moderate}",
+      "funct-text-warning-weak": {
+        "value": "{ref-properties.text.warning-weak}",
         "type": "color",
-        "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
+        "description": "Warning text refers to content that conveys a warning, caution, or alert."
       },
-      "funct-text-warning-moderate": {
-        "value": "{ref-properties.text.warning-moderate}",
+      "funct-text-error-weak": {
+        "value": "{ref-properties.text.error-weak}",
         "type": "color",
         "description": "Warning text refers to content that conveys a warning, caution, or alert."
       },
@@ -10475,6 +10475,16 @@
         "value": "{ref-properties.text.draft-moderate}",
         "type": "color",
         "description": "Draft refers to temporary statuses."
+      },
+      "funct-text-warning-moderate": {
+        "value": "{ref-properties.text.warning-moderate}",
+        "type": "color",
+        "description": "Warning text refers to content that conveys a warning, caution, or alert."
+      },
+      "funct-text-error-moderate": {
+        "value": "{ref-properties.text.error-moderate}",
+        "type": "color",
+        "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
       },
       "funct-icon-error": {
         "value": "{ref-properties.icon.error}",
