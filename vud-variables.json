@@ -5943,12 +5943,27 @@
       "functional-surface-success-moderate": {
         "value": "{ref-properties.fill.on-functional.success-moderate}",
         "type": "color",
-        "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
+        "description": "Suitable for badges. Specially success and positive statuses such as accepted, paid, delivered."
+      },
+      "functional-surface-info-moderate": {
+        "value": "{ref-properties.fill.on-functional.info-moderate}",
+        "type": "color",
+        "description": "Suitable for badges. Common statuses such as created, sent, printed, processing."
+      },
+      "functional-surface-draft-moderate": {
+        "value": "{ref-properties.fill.on-functional.draft-moderate}",
+        "type": "color",
+        "description": "Suitable for badges. Temporary statuses such as drafts."
+      },
+      "functional-surface-warning-moderate": {
+        "value": "{ref-properties.fill.on-functional.warning-moderate}",
+        "type": "color",
+        "description": "Suitable for badges. Warnings and potential problem statuses such as partially paid, losses "
       },
       "functional-surface-error-moderate": {
         "value": "{ref-properties.fill.on-functional.error-moderate}",
         "type": "color",
-        "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
+        "description": "Suitable for badges. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
       },
       "functional-surface-disabled": {
         "value": "{ref-properties.fill.on-functional.disabled}",
@@ -5998,12 +6013,12 @@
       "functional-border-success-moderate": {
         "value": "{ref-properties.border.on-functional.success-moderate}",
         "type": "color",
-        "description": "Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered."
+        "description": "Suitable for badges. Specially success and positive statuses such as accepted, paid, delivered."
       },
       "functional-border-error-moderate": {
         "value": "{ref-properties.border.on-functional.error-moderate}",
         "type": "color",
-        "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
+        "description": "Suitable for badges. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
       },
       "functional-border-disabled": {
         "value": "{ref-properties.border.on-default.disabled}",
@@ -7242,27 +7257,27 @@
           "success-moderate": {
             "value": "{vud-ref-functional.success-70}",
             "type": "color",
-            "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
+            "description": "Suitable for badges. Success and positive statuses such as accepted, paid, delivered."
           },
           "info-moderate": {
             "value": "{vud-ref-functional.info-70}",
             "type": "color",
-            "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+            "description": "Suitable for badges. Common statuses such as created, sent, printed, processing."
           },
           "draft-moderate": {
             "value": "{vud-ref-functional.draft-70}",
             "type": "color",
-            "description": "Alerts. Temporary statuses such as drafts"
+            "description": "Suitable for badges. Temporary statuses such as drafts."
           },
           "warning-moderate": {
             "value": "{vud-ref-functional.warning-70}",
             "type": "color",
-            "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
+            "description": "Suitable for badges. Warnings and potential problem statuses such as partially paid, losses "
           },
           "error-moderate": {
             "value": "{vud-ref-functional.error-70}",
             "type": "color",
-            "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
+            "description": "Suitable for badges. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
           }
         },
         "on-primary-variant": {
@@ -10535,6 +10550,21 @@
         "value": "{ref-properties.border.on-default.disabled}",
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.\n"
+      },
+      "functional-surface-info-moderate": {
+        "value": "{ref-properties.fill.on-functional.info-moderate}",
+        "type": "color",
+        "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
+      },
+      "functional-surface-draft-moderate": {
+        "value": "{ref-properties.fill.on-functional.draft-moderate}",
+        "type": "color",
+        "description": "Badges. Temporary statuses such as drafts"
+      },
+      "functional-surface-warning-moderate": {
+        "value": "{ref-properties.fill.on-functional.warning-moderate}",
+        "type": "color",
+        "description": "Suitable for badges. Warnings and potential problem statuses such as partially paid, losses "
       }
     },
     "comp-switch": {
