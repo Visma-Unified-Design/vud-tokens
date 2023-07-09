@@ -10417,12 +10417,12 @@
     },
     "comp-situation": {
       "funct-text-default": {
-        "value": "{ref-properties.text.default}",
+        "value": "{ref-properties.text.inverse}",
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
       "funct-text-inverse": {
-        "value": "{ref-properties.text.inverse}",
+        "value": "{ref-properties.text.default}",
         "type": "color",
         "description": "Inverse text refers to the opposite color that contrasts with the background. "
       },
