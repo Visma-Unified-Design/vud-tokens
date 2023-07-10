@@ -2,12 +2,16 @@
   "global": {},
   "light": {},
   "dark": {},
+  "round": {},
+  "sharp": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "global",
       "light",
-      "dark"
+      "dark",
+      "round",
+      "sharp"
     ]
   }
 }
