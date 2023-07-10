@@ -1,11 +1,11 @@
 {
-  "core": {},
+  "global": {},
   "light": {},
   "dark": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "core",
+      "global",
       "light",
       "dark"
     ]
