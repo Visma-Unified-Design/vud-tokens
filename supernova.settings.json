@@ -3,14 +3,18 @@
     "mapping": [{
         "tokenSets": [
           "global",
-          "light"
+          "light",
+          "round",
+          "sharp"
         ],
         "supernovaBrand": "VUD",
         "supernovaTheme": null
     }, {
         "tokenSets": [
           "global",
-          "dark"
+          "dark",
+          "round",
+          "sharp"
         ],
         "supernovaBrand": "VUD",
         "supernovaTheme": "Dark theme"
