@@ -929,6 +929,10 @@
       "value": "Medium",
       "type": "fontWeights"
     },
+    "vud-core-font-weight-semibold": {
+      "value": "Semi Bold",
+      "type": "fontWeights"
+    },
     "vud-core-font-weight-bold": {
       "value": "Bold",
       "type": "fontWeights"
@@ -1562,59 +1566,61 @@
       }
     },
     "vud-ref-tabular": {
-      "ui--1": {
-        "value": {
-          "fontFamily": "{vud-core-font-familiy-tertiary}",
-          "fontSize": "{font-size.-1}",
-          "fontWeight": "{vud-core-font-weight-regular}"
+      "regular": {
+        "td--1": {
+          "value": {
+            "fontFamily": "{vud-core-font-familiy-tertiary}",
+            "fontSize": "{font-size.-1}",
+            "fontWeight": "{vud-core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "ui-0": {
-        "value": {
-          "fontFamily": "{vud-core-font-familiy-tertiary}",
-          "fontSize": "{font-size.0}",
-          "fontWeight": "{vud-core-font-weight-regular}"
+        "td-0": {
+          "value": {
+            "fontFamily": "{vud-core-font-familiy-tertiary}",
+            "fontSize": "{font-size.0}",
+            "fontWeight": "{vud-core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "ui-1": {
-        "value": {
-          "fontFamily": "{vud-core-font-familiy-tertiary}",
-          "fontSize": "{font-size.1}",
-          "fontWeight": "{vud-core-font-weight-regular}"
+        "td-1": {
+          "value": {
+            "fontFamily": "{vud-core-font-familiy-tertiary}",
+            "fontSize": "{font-size.1}",
+            "fontWeight": "{vud-core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "ui-2": {
-        "value": {
-          "fontFamily": "{vud-core-font-familiy-tertiary}",
-          "fontSize": "{font-size.2}",
-          "fontWeight": "{vud-core-font-weight-regular}"
+        "td-2": {
+          "value": {
+            "fontFamily": "{vud-core-font-familiy-tertiary}",
+            "fontSize": "{font-size.2}",
+            "fontWeight": "{vud-core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "ui-3": {
-        "value": {
-          "fontFamily": "{vud-core-font-familiy-tertiary}",
-          "fontSize": "{font-size.3}",
-          "fontWeight": "{vud-core-font-weight-regular}"
+        "td-3": {
+          "value": {
+            "fontFamily": "{vud-core-font-familiy-tertiary}",
+            "fontSize": "{font-size.3}",
+            "fontWeight": "{vud-core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
         },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "ui-4": {
-        "value": {
-          "fontFamily": "{vud-core-font-familiy-tertiary}",
-          "fontSize": "{font-size.4}",
-          "fontWeight": "{vud-core-font-weight-regular}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
+        "td-4": {
+          "value": {
+            "fontFamily": "{vud-core-font-familiy-tertiary}",
+            "fontSize": "{font-size.4}",
+            "fontWeight": "{vud-core-font-weight-regular}"
+          },
+          "type": "typography",
+          "description": "Suitable for tabular data.\n\nType scaling applied."
+        }
       }
     },
     "vud-core-font-familiy-secondary": {
@@ -1622,7 +1628,7 @@
       "type": "fontFamilies"
     },
     "vud-core-font-familiy-tertiary": {
-      "value": "Fira Code",
+      "value": "Inter",
       "type": "fontFamilies"
     }
   },
@@ -5033,6 +5039,12 @@
         "value": "{vud-ref-properties.border.on-default.disabled}",
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+      }
+    },
+    "vud-comp-test": {
+      "color": {
+        "value": "#10ff5c",
+        "type": "color"
       }
     }
   },
