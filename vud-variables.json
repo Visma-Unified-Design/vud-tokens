@@ -11112,52 +11112,6 @@
   },
   "$themes": [
     {
-      "id": "e4eec78dbc2dda069c6183d178620ea5f56abe75",
-      "name": "Round",
-      "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "round": "enabled",
-        "global": "source"
-      },
-      "$figmaCollectionId": "VariableCollectionId:158:957",
-      "$figmaModeId": "158:5",
-      "$figmaVariableReferences": {
-        "radius.none": "631f2fb74c16ca62f05f67b7da5318b61845417e",
-        "radius.xxs": "d5187c3a1e0da48fd80123a33586d97b2a80349a",
-        "radius.xs": "7080d4bbe0dbb9cbb3951c5c2372f247554f4446",
-        "radius.s": "38b112f4fd715888d5e57c434480f8be00fe222c",
-        "radius.md": "2ef40fbd7ff3550b9f50243831fedec59f4788a7",
-        "radius.lg": "0f5ab0ebec8b1531dbabc39a7d38757ca9c22f20",
-        "radius.xl": "ccebd1a63b64f7e51e51b2e63ab45c2377ce424f",
-        "radius.xxl": "0619c256077b0066cac15ed63de9a3c5b00418b0",
-        "radius.xxxl": "11518ddd3fa26dde9a4a5ce86ff05a927d00fe8d"
-      },
-      "group": "Corners"
-    },
-    {
-      "id": "c3a489c17ba1cc967e4e8bb83d903b9921adb3e2",
-      "name": "Sharp",
-      "$figmaStyleReferences": {},
-      "selectedTokenSets": {
-        "sharp": "enabled",
-        "global": "source"
-      },
-      "$figmaCollectionId": "VariableCollectionId:158:957",
-      "$figmaModeId": "158:6",
-      "$figmaVariableReferences": {
-        "radius.none": "631f2fb74c16ca62f05f67b7da5318b61845417e",
-        "radius.xxs": "d5187c3a1e0da48fd80123a33586d97b2a80349a",
-        "radius.xs": "7080d4bbe0dbb9cbb3951c5c2372f247554f4446",
-        "radius.s": "38b112f4fd715888d5e57c434480f8be00fe222c",
-        "radius.md": "2ef40fbd7ff3550b9f50243831fedec59f4788a7",
-        "radius.lg": "0f5ab0ebec8b1531dbabc39a7d38757ca9c22f20",
-        "radius.xl": "ccebd1a63b64f7e51e51b2e63ab45c2377ce424f",
-        "radius.xxl": "0619c256077b0066cac15ed63de9a3c5b00418b0",
-        "radius.xxxl": "11518ddd3fa26dde9a4a5ce86ff05a927d00fe8d"
-      },
-      "group": "Corners"
-    },
-    {
       "id": "81423920b17c04378e249c73d0bce2c741588253",
       "name": "Light",
       "$figmaStyleReferences": {
