@@ -1801,7 +1801,7 @@
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
         },
-        "emphasized": {
+        "emphasis": {
           "value": "{ref-brand.secondary-60}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
@@ -1809,7 +1809,7 @@
         "links": {
           "value": "{ref-brand.secondary-60}",
           "type": "color",
-          "description": "Links refers to emphasized clickable elements."
+          "description": "Links refers to emphasis clickable elements."
         },
         "visited": {
           "value": "{vud-ref-funct.draft-60}",
@@ -1883,10 +1883,10 @@
           "type": "color",
           "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
-        "emphasized": {
+        "emphasis": {
           "value": "{ref-brand.secondary-50}",
           "type": "color",
-          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+          "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "error": {
           "value": "{vud-ref-funct.error-60}",
@@ -3737,7 +3737,7 @@
     },
     "comp-calendar-slot": {
       "text-event1": {
-        "value": "{ref-properties.text.emphasized}",
+        "value": "{ref-properties.text.emphasis}",
         "type": "color",
         "description": "Optimal for scheduling project tasks in a calendar."
       },
@@ -3808,10 +3808,10 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -3942,8 +3942,8 @@
         "type": "color",
         "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
       },
-      "text-emphasized": {
-        "value": "{ref-properties.text.emphasized}",
+      "text-emphasis": {
+        "value": "{ref-properties.text.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
@@ -3957,10 +3957,10 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.\n"
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.\n"
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -4014,8 +4014,8 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
-      "text-emphasized": {
-        "value": "{ref-properties.text.emphasized}",
+      "text-emphasis": {
+        "value": "{ref-properties.text.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
@@ -4034,8 +4034,8 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
@@ -4288,8 +4288,8 @@
         "type": "color",
         "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
       },
-      "text-emphasized": {
-        "value": "{ref-properties.text.emphasized}",
+      "text-emphasis": {
+        "value": "{ref-properties.text.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
@@ -4303,10 +4303,10 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -4450,10 +4450,10 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -4587,8 +4587,8 @@
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
-        "text-emphasized": {
-          "value": "{ref-properties.text.emphasized}",
+        "text-emphasis": {
+          "value": "{ref-properties.text.emphasis}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
         },
@@ -4607,10 +4607,10 @@
           "type": "color",
           "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
-        "icon-emphasized": {
-          "value": "{ref-properties.icon.emphasized}",
+        "icon-emphasis": {
+          "value": "{ref-properties.icon.emphasis}",
           "type": "color",
-          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+          "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
@@ -4719,7 +4719,7 @@
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
-        "text-emphasized": {
+        "text-emphasis": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
@@ -4739,10 +4739,10 @@
           "type": "color",
           "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
-        "icon-emphasized": {
-          "value": "{ref-properties.icon.emphasized}",
+        "icon-emphasis": {
+          "value": "{ref-properties.icon.emphasis}",
           "type": "color",
-          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+          "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
@@ -4841,7 +4841,7 @@
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
-        "text-emphasized": {
+        "text-emphasis": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
@@ -4861,10 +4861,10 @@
           "type": "color",
           "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
-        "icon-emphasized": {
-          "value": "{ref-properties.icon.emphasized}",
+        "icon-emphasis": {
+          "value": "{ref-properties.icon.emphasis}",
           "type": "color",
-          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+          "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
@@ -4960,8 +4960,8 @@
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
-        "text-emphasized": {
-          "value": "{ref-properties.text.emphasized}",
+        "text-emphasis": {
+          "value": "{ref-properties.text.emphasis}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
         },
@@ -5381,8 +5381,8 @@
         "type": "color",
         "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
       },
-      "text-emphasized": {
-        "value": "{ref-properties.text.emphasized}",
+      "text-emphasis": {
+        "value": "{ref-properties.text.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
@@ -5526,10 +5526,10 @@
         "type": "color",
         "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -5678,8 +5678,8 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-emphasized": {
-          "value": "{ref-properties.text.emphasized}",
+        "text-emphasis": {
+          "value": "{ref-properties.text.emphasis}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
         },
@@ -5745,8 +5745,8 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-emphasized": {
-          "value": "{ref-properties.text.emphasized}",
+        "text-emphasis": {
+          "value": "{ref-properties.text.emphasis}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
         },
@@ -5915,10 +5915,10 @@
         "type": "color",
         "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
       },
-      "funct-icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "funct-icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "funct-surface-default": {
         "value": "{ref-properties.fill.on-funct.default}",
@@ -6223,8 +6223,8 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
-      "text-emphasized": {
-        "value": "{ref-properties.text.emphasized}",
+      "text-emphasis": {
+        "value": "{ref-properties.text.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
@@ -6248,10 +6248,10 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -6390,10 +6390,10 @@
         "type": "color",
         "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -6410,7 +6410,7 @@
         "type": "color",
         "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
-      "surface-emphasized": {
+      "surface-emphasis": {
         "value": "{ref-brand.secondary-50}",
         "type": "color",
         "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
@@ -6430,7 +6430,7 @@
         "type": "color",
         "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
-      "border-emphasized": {
+      "border-emphasis": {
         "value": "{ref-brand.secondary-50}",
         "type": "color",
         "description": "Border with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
@@ -6470,7 +6470,7 @@
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
         },
-        "emphasized": {
+        "emphasis": {
           "value": "{ref-brand.secondary-40}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
@@ -6483,7 +6483,7 @@
         "links": {
           "value": "{ref-brand.neutral-dark-05}",
           "type": "color",
-          "description": "Links refers to emphasized clickable elements."
+          "description": "Links refers to emphasis clickable elements."
         },
         "disabled": {
           "value": "{ref-brand.neutral-dark-30}",
@@ -6552,10 +6552,10 @@
           "type": "color",
           "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
-        "emphasized": {
+        "emphasis": {
           "value": "{ref-brand.secondary-40}",
           "type": "color",
-          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+          "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "error": {
           "value": "{vud-ref-funct.error-80}",
@@ -8328,7 +8328,7 @@
     },
     "comp-calendar-slot": {
       "text-event1": {
-        "value": "{ref-properties.text.emphasized}",
+        "value": "{ref-properties.text.emphasis}",
         "type": "color",
         "description": "Optimal for scheduling project tasks in a calendar."
       },
@@ -8399,10 +8399,10 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -8543,8 +8543,8 @@
         "type": "color",
         "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
       },
-      "text-emphasized": {
-        "value": "{ref-properties.text.emphasized}",
+      "text-emphasis": {
+        "value": "{ref-properties.text.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
@@ -8558,10 +8558,10 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.\n"
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.\n"
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -8610,8 +8610,8 @@
         "type": "color",
         "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
       },
-      "text-emphasized": {
-        "value": "{ref-properties.text.emphasized}",
+      "text-emphasis": {
+        "value": "{ref-properties.text.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
@@ -8625,8 +8625,8 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
@@ -8762,10 +8762,10 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -8884,8 +8884,8 @@
         "type": "color",
         "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
       },
-      "text-emphasized": {
-        "value": "{ref-properties.text.emphasized}",
+      "text-emphasis": {
+        "value": "{ref-properties.text.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
@@ -8899,10 +8899,10 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -9036,10 +9036,10 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -9173,8 +9173,8 @@
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
-        "text-emphasized": {
-          "value": "{ref-properties.text.emphasized}",
+        "text-emphasis": {
+          "value": "{ref-properties.text.emphasis}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
         },
@@ -9193,10 +9193,10 @@
           "type": "color",
           "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
-        "icon-emphasized": {
-          "value": "{ref-properties.icon.emphasized}",
+        "icon-emphasis": {
+          "value": "{ref-properties.icon.emphasis}",
           "type": "color",
-          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+          "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
@@ -9310,7 +9310,7 @@
           "type": "color",
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
-        "text-emphasized": {
+        "text-emphasis": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
@@ -9325,10 +9325,10 @@
           "type": "color",
           "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
-        "icon-emphasized": {
-          "value": "{ref-properties.icon.emphasized}",
+        "icon-emphasis": {
+          "value": "{ref-properties.icon.emphasis}",
           "type": "color",
-          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+          "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
@@ -9427,7 +9427,7 @@
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
-        "text-emphasized": {
+        "text-emphasis": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
@@ -9447,10 +9447,10 @@
           "type": "color",
           "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
-        "icon-emphasized": {
-          "value": "{ref-properties.icon.emphasized}",
+        "icon-emphasis": {
+          "value": "{ref-properties.icon.emphasis}",
           "type": "color",
-          "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+          "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
@@ -9551,8 +9551,8 @@
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
-        "text-emphasized": {
-          "value": "{ref-properties.text.emphasized}",
+        "text-emphasis": {
+          "value": "{ref-properties.text.emphasis}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
         },
@@ -9967,8 +9967,8 @@
         "type": "color",
         "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
       },
-      "text-emphasized": {
-        "value": "{ref-properties.text.emphasized}",
+      "text-emphasis": {
+        "value": "{ref-properties.text.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
@@ -10112,10 +10112,10 @@
         "type": "color",
         "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-success": {
         "value": "{ref-properties.icon.success}",
@@ -10264,8 +10264,8 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-emphasized": {
-          "value": "{ref-properties.text.emphasized}",
+        "text-emphasis": {
+          "value": "{ref-properties.text.emphasis}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
         },
@@ -10331,8 +10331,8 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-emphasized": {
-          "value": "{ref-properties.text.emphasized}",
+        "text-emphasis": {
+          "value": "{ref-properties.text.emphasis}",
           "type": "color",
           "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
         },
@@ -10501,10 +10501,10 @@
         "type": "color",
         "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
       },
-      "funct-icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "funct-icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "funct-surface-default": {
         "value": "{ref-properties.fill.on-funct.default}",
@@ -10809,8 +10809,8 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
-      "text-emphasized": {
-        "value": "{ref-properties.text.emphasized}",
+      "text-emphasis": {
+        "value": "{ref-properties.text.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
@@ -10834,10 +10834,10 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -10976,10 +10976,10 @@
         "type": "color",
         "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
       },
-      "icon-emphasized": {
-        "value": "{ref-properties.icon.emphasized}",
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "Emphasized icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -10996,7 +10996,7 @@
         "type": "color",
         "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
-      "surface-emphasized": {
+      "surface-emphasis": {
         "value": "{ref-brand.secondary-50}",
         "type": "color",
         "description": "Surface with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
@@ -11016,7 +11016,7 @@
         "type": "color",
         "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
-      "border-emphasized": {
+      "border-emphasis": {
         "value": "{ref-brand.secondary-50}",
         "type": "color",
         "description": "Border with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
@@ -11224,9 +11224,7 @@
         "ref-properties.icon.success": "13f81b25d606b33c109984617192968afad500dd",
         "ref-properties.icon.disabled": "dafd73adad2805f89330d5f8c7189cc4128857b4",
         "ref-properties.pictogram.stroke-default": "3e7779d734e44e720b141e8d4d65f22afc759359",
-        "ref-properties.pictogram.stroke-brand": "f8e13692a730c33b36b66d801f0f5d1b6212c0bc",
         "ref-properties.pictogram.fill-default": "e87876d0bfe1ff0831c7e944ace7001b3ec28087",
-        "ref-properties.pictogram.fill-brand": "d24f79839b559512fa51c937b95e37392ddefc55",
         "ref-properties.border.weak": "bd7e66b4536b6fe8d946b6a32573bae8af143164",
         "ref-properties.border.moderate": "68e975701a416a8134d8cc04816d715e98f5a373",
         "ref-properties.border.strong": "4b93f0fcef55381a383d9a86baf183b7a5008b22",
@@ -12268,7 +12266,9 @@
         "spacing.128": "c4c36b450c69227f4f3a75bbf2ebbaf6365ed83a",
         "spacing.256": "f294ae03416cb6db7f196bee66ecf998db4af00e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
-        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a"
+        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
+        "ref-properties.pictogram.stroke-brand": "f8e13692a730c33b36b66d801f0f5d1b6212c0bc",
+        "ref-properties.pictogram.fill-brand": "d24f79839b559512fa51c937b95e37392ddefc55"
       },
       "group": "Themes"
     },
@@ -12308,9 +12308,7 @@
         "ref-properties.icon.success": "13f81b25d606b33c109984617192968afad500dd",
         "ref-properties.icon.disabled": "dafd73adad2805f89330d5f8c7189cc4128857b4",
         "ref-properties.pictogram.stroke-default": "3e7779d734e44e720b141e8d4d65f22afc759359",
-        "ref-properties.pictogram.stroke-brand": "f8e13692a730c33b36b66d801f0f5d1b6212c0bc",
         "ref-properties.pictogram.fill-default": "e87876d0bfe1ff0831c7e944ace7001b3ec28087",
-        "ref-properties.pictogram.fill-brand": "d24f79839b559512fa51c937b95e37392ddefc55",
         "ref-properties.border.weak": "bd7e66b4536b6fe8d946b6a32573bae8af143164",
         "ref-properties.border.moderate": "68e975701a416a8134d8cc04816d715e98f5a373",
         "ref-properties.border.strong": "4b93f0fcef55381a383d9a86baf183b7a5008b22",
@@ -13348,7 +13346,9 @@
         "spacing.128": "c4c36b450c69227f4f3a75bbf2ebbaf6365ed83a",
         "spacing.256": "f294ae03416cb6db7f196bee66ecf998db4af00e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
-        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a"
+        "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
+        "ref-properties.pictogram.stroke-brand": "f8e13692a730c33b36b66d801f0f5d1b6212c0bc",
+        "ref-properties.pictogram.fill-brand": "d24f79839b559512fa51c937b95e37392ddefc55"
       },
       "group": "Themes"
     }
