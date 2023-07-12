@@ -1937,12 +1937,12 @@
         "moderate": {
           "value": "{ref-brand.neutral-light-30}",
           "type": "color",
-          "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
+          "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator. "
         },
         "strong": {
           "value": "{ref-brand.neutral-light-60}",
           "type": "color",
-          "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
+          "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted separators."
         },
         "extreme": {
           "value": "{ref-brand.primary-60}",
@@ -4000,7 +4000,7 @@
       "border-moderate": {
         "value": "{ref-properties.border.moderate}",
         "type": "color",
-        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
+        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator. "
       },
       "border-extreme": {
         "value": "{ref-properties.border.extreme}",
@@ -4411,7 +4411,7 @@
       "border-moderate": {
         "value": "{ref-properties.border.moderate}",
         "type": "color",
-        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
+        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator. "
       },
       "border-extreme": {
         "value": "{ref-properties.border.extreme}",
@@ -5082,7 +5082,7 @@
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
-      "seperator": {
+      "separator": {
         "value": "{ref-properties.shade.moderate}",
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
@@ -5219,7 +5219,7 @@
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
-      "seperator": {
+      "separator": {
         "value": "{ref-properties.tint.moderate}",
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
@@ -5356,7 +5356,7 @@
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
-      "seperator": {
+      "separator": {
         "value": "{ref-properties.tint.moderate}",
         "type": "color"
       }
@@ -5803,7 +5803,7 @@
         }
       }
     },
-    "comp-seperator": {
+    "comp-separator": {
       "weak": {
         "value": "{ref-properties.border.weak}",
         "type": "color",
@@ -5812,12 +5812,12 @@
       "moderate": {
         "value": "{ref-properties.border.moderate}",
         "type": "color",
-        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
+        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator. "
       },
       "strong": {
         "value": "{ref-properties.border.strong}",
         "type": "color",
-        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
+        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted separators."
       },
       "extreme": {
         "value": "{ref-properties.border.extreme}",
@@ -6601,12 +6601,12 @@
         "moderate": {
           "value": "{ref-brand.neutral-dark-50}",
           "type": "color",
-          "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
+          "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator. "
         },
         "strong": {
           "value": "{ref-brand.neutral-dark-30}",
           "type": "color",
-          "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
+          "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted separators."
         },
         "extreme": {
           "value": "{ref-brand.primary-60}",
@@ -9664,7 +9664,7 @@
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
-      "seperator": {
+      "separator": {
         "value": "{ref-properties.tint.moderate}",
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
@@ -9801,7 +9801,7 @@
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
-      "seperator": {
+      "separator": {
         "value": "{ref-properties.tint.moderate}",
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
@@ -9938,7 +9938,7 @@
         "type": "color",
         "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
-      "seperator": {
+      "separator": {
         "value": "{ref-properties.shade.moderate}",
         "type": "color"
       }
@@ -10385,7 +10385,7 @@
         }
       }
     },
-    "comp-seperator": {
+    "comp-separator": {
       "weak": {
         "value": "{ref-properties.border.weak}",
         "type": "color",
@@ -10394,12 +10394,12 @@
       "moderate": {
         "value": "{ref-properties.border.moderate}",
         "type": "color",
-        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid seperator. "
+        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator. "
       },
       "strong": {
         "value": "{ref-properties.border.strong}",
         "type": "color",
-        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted seperators."
+        "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted separators."
       },
       "extreme": {
         "value": "{ref-properties.border.extreme}",
