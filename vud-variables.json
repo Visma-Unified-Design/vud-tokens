@@ -3223,10 +3223,10 @@
           "type": "color",
           "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
-        "text-inverse": {
+        "text-error": {
           "value": "{ref-properties.text.error-moderate}",
           "type": "color",
-          "description": "Inverse text refers to the opposite color that contrasts with the background. "
+          "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
         },
         "text-disabled": {
           "value": "{ref-properties.text.disabled}",
@@ -7816,10 +7816,10 @@
           "type": "color",
           "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
-        "text-inverse": {
+        "text-error": {
           "value": "{ref-properties.text.error-moderate}",
           "type": "color",
-          "description": "Inverse text refers to the opposite color that contrasts with the background. "
+          "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
         },
         "text-disabled": {
           "value": "{ref-properties.text.disabled}",
