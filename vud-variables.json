@@ -6612,7 +6612,7 @@
           "type": "color"
         },
         "fill-default": {
-          "value": "rgba({ref-brand.neutral-dark-05}, {opacity.24})",
+          "value": "rgba({ref-brand.neutral-dark-05}, {opacity.8})",
           "type": "color"
         },
         "fill-emphasis": {
