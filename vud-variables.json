@@ -1948,7 +1948,7 @@
           "type": "color",
           "description": "\n"
         },
-        "stroke-brand": {
+        "stroke-emphasis": {
           "value": "{ref-brand.secondary-60}",
           "type": "color"
         },
@@ -1956,7 +1956,7 @@
           "value": "rgba( {ref-brand.neutral-light-80}, {opacity.8})",
           "type": "color"
         },
-        "fill-brand": {
+        "fill-emphasis": {
           "value": "rgba( {ref-brand.secondary-60}, {opacity.24})",
           "type": "color"
         }
@@ -3219,7 +3219,7 @@
       },
       "on-destructive": {
         "text-default": {
-          "value": "{ref-properties.text.inverse}",
+          "value": "{ref-properties.text.error-moderate}",
           "type": "color",
           "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
@@ -6607,7 +6607,7 @@
           "value": "{ref-brand.neutral-dark-50}",
           "type": "color"
         },
-        "stroke-brand": {
+        "stroke-emphasis": {
           "value": "{ref-brand.secondary-60}",
           "type": "color"
         },
@@ -6615,7 +6615,7 @@
           "value": "rgba({ref-brand.neutral-dark-05}, {opacity.24})",
           "type": "color"
         },
-        "fill-brand": {
+        "fill-emphasis": {
           "value": "rgba( {ref-brand.secondary-60}, {opacity.24})",
           "type": "color"
         }
@@ -7807,7 +7807,7 @@
       },
       "on-destructive": {
         "text-default": {
-          "value": "{ref-properties.text.error-weak}",
+          "value": "{ref-properties.text.error-moderate}",
           "type": "color",
           "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
@@ -8003,7 +8003,7 @@
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
         "icon-default": {
-          "value": "{ref-properties.icon.inverse}",
+          "value": "{ref-properties.icon.default}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
         },
@@ -12240,8 +12240,8 @@
         "spacing.256": "f294ae03416cb6db7f196bee66ecf998db4af00e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
         "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
-        "ref-properties.pictogram.stroke-brand": "f8e13692a730c33b36b66d801f0f5d1b6212c0bc",
-        "ref-properties.pictogram.fill-brand": "d24f79839b559512fa51c937b95e37392ddefc55"
+        "ref-properties.pictogram.stroke-emphasis": "f8e13692a730c33b36b66d801f0f5d1b6212c0bc",
+        "ref-properties.pictogram.fill-emphasis": "d24f79839b559512fa51c937b95e37392ddefc55"
       },
       "group": "Themes"
     },
@@ -13320,8 +13320,8 @@
         "spacing.256": "f294ae03416cb6db7f196bee66ecf998db4af00e",
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
         "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
-        "ref-properties.pictogram.stroke-brand": "f8e13692a730c33b36b66d801f0f5d1b6212c0bc",
-        "ref-properties.pictogram.fill-brand": "d24f79839b559512fa51c937b95e37392ddefc55"
+        "ref-properties.pictogram.stroke-emphasis": "f8e13692a730c33b36b66d801f0f5d1b6212c0bc",
+        "ref-properties.pictogram.fill-emphasis": "d24f79839b559512fa51c937b95e37392ddefc55"
       },
       "group": "Themes"
     }
