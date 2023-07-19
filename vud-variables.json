@@ -1986,7 +1986,7 @@
             "type": "color"
           },
           "stroke-emphasis": {
-            "value": "{ref-brand.secondary-60}",
+            "value": "{ref-brand.tertiary-60}",
             "type": "color"
           },
           "fill-default": {
@@ -1994,7 +1994,7 @@
             "type": "color"
           },
           "fill-emphasis": {
-            "value": "rgba( {ref-brand.secondary-60}, {opacity.24})",
+            "value": "rgba( {ref-brand.tertiary-60}, {opacity.24})",
             "type": "color"
           }
         }
