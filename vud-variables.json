@@ -4057,21 +4057,6 @@
         "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
         "type": "color",
         "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
-      },
-      "border-muted": {
-        "value": "{ref-properties.border.on-default.muted}",
-        "type": "color",
-        "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
-      },
-      "border-moderate": {
-        "value": "{ref-properties.border.moderate}",
-        "type": "color",
-        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator. "
-      },
-      "border-extreme": {
-        "value": "{ref-properties.border.extreme}",
-        "type": "color",
-        "description": "Extreme default border refers to a standard border style that is branded."
       }
     },
     "comp-drag-drop": {
@@ -4468,21 +4453,6 @@
         "value": "{ref-properties.border.on-default.muted}",
         "type": "color",
         "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
-      },
-      "border-weak": {
-        "value": "{ref-properties.border.weak}",
-        "type": "color",
-        "description": "Weak border refers to a subtle border style."
-      },
-      "border-moderate": {
-        "value": "{ref-properties.border.moderate}",
-        "type": "color",
-        "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator. "
-      },
-      "border-extreme": {
-        "value": "{ref-properties.border.extreme}",
-        "type": "color",
-        "description": "Extreme default border refers to a standard border style that is branded.\n"
       }
     },
     "comp-messaging": {
@@ -9098,11 +9068,6 @@
         "value": "{ref-properties.border.on-default.muted}",
         "type": "color",
         "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
-      },
-      "border-extreme": {
-        "value": "{ref-properties.border.extreme}",
-        "type": "color",
-        "description": "Extreme default border refers to a standard border style that is branded.\n"
       }
     },
     "comp-messaging": {
@@ -11622,9 +11587,6 @@
         "comp-content.surface-transparent": "f4d99ba9bd1f74ccf0c6f181b6958d4a8432b13b",
         "comp-content.border-enabled": "70814d10c178632a7f6139acb875ccc9e29b1398",
         "comp-content.border-transparent": "5121248b988749dbc5df4b3f9d175818794098da",
-        "comp-content.border-muted": "b75ac5407361d3bae7fb0540a3df7d2d6e1f41b3",
-        "comp-content.border-moderate": "b9aeff5c3f3bcf46f5f69af58c612afc84e6860e",
-        "comp-content.border-extreme": "53f48de353d033d734d146b866136746ef8c8a4b",
         "comp-drag-drop.text-default": "fecebb29fa018857af902497961ba07495173558",
         "comp-drag-drop.text-emphasized": "d7216ae51f86fb471b84afaae8fe4d3ca685257f",
         "comp-drag-drop.text-secondary": "df2902fde8cf4f507f1cb4045e278a3b88bcba3e",
@@ -11703,9 +11665,6 @@
         "comp-list.border-disabled": "254d135111cd64b3ca66a7d4d7371dab5a7415ea",
         "comp-list.border-transparent": "06941e438d71ad6575f0f3299f48230f26b865b6",
         "comp-list.border-muted": "d8659f77f2ed678d39d8099a06b5b739460ab3e3",
-        "comp-list.border-weak": "adb69e7d570ae1869d02afaa04ef2dc70e53057a",
-        "comp-list.border-moderate": "f8d57b31b2d9c260b5c53997903ce78d93800ba6",
-        "comp-list.border-extreme": "0f6c76b0246189caaddf1ffe13d11ff552c6c076",
         "comp-messaging.text-default": "ff9a8ece23ad1ed24f9bcf7e4573d28c1181a412",
         "comp-messaging.text-inverse": "83798466c6a83a4c9989347801f7cefc4013128e",
         "comp-messaging.text-secondary": "ef24b765226cefdb67e853213143891ef8d0807a",
@@ -12785,7 +12744,6 @@
         "comp-list.border-disabled": "254d135111cd64b3ca66a7d4d7371dab5a7415ea",
         "comp-list.border-transparent": "06941e438d71ad6575f0f3299f48230f26b865b6",
         "comp-list.border-muted": "d8659f77f2ed678d39d8099a06b5b739460ab3e3",
-        "comp-list.border-extreme": "0f6c76b0246189caaddf1ffe13d11ff552c6c076",
         "comp-messaging.text-default": "ff9a8ece23ad1ed24f9bcf7e4573d28c1181a412",
         "comp-messaging.text-inverse": "83798466c6a83a4c9989347801f7cefc4013128e",
         "comp-messaging.text-secondary": "ef24b765226cefdb67e853213143891ef8d0807a",
