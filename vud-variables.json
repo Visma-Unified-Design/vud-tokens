@@ -1943,22 +1943,60 @@
         }
       },
       "pictogram": {
-        "stroke-default": {
-          "value": "{ref-brand.neutral-light-80}",
-          "type": "color",
-          "description": "\n"
+        "on-primary": {
+          "stroke-default": {
+            "value": "{ref-brand.neutral-light-80}",
+            "type": "color",
+            "description": "\n"
+          },
+          "stroke-emphasis": {
+            "value": "{ref-brand.primary-60}",
+            "type": "color"
+          },
+          "fill-default": {
+            "value": "rgba( {ref-brand.neutral-light-80}, {opacity.8})",
+            "type": "color"
+          },
+          "fill-emphasis": {
+            "value": "rgba( {ref-brand.primary-60}, {opacity.24})",
+            "type": "color"
+          }
         },
-        "stroke-emphasis": {
-          "value": "{ref-brand.secondary-60}",
-          "type": "color"
+        "on-secondary": {
+          "stroke-default": {
+            "value": "{ref-brand.neutral-dark-50}",
+            "type": "color"
+          },
+          "stroke-emphasis": {
+            "value": "{ref-brand.secondary-60}",
+            "type": "color"
+          },
+          "fill-default": {
+            "value": "rgba({ref-brand.neutral-dark-05}, {opacity.8})",
+            "type": "color"
+          },
+          "fill-emphasis": {
+            "value": "rgba( {ref-brand.secondary-60}, {opacity.24})",
+            "type": "color"
+          }
         },
-        "fill-default": {
-          "value": "rgba( {ref-brand.neutral-light-80}, {opacity.8})",
-          "type": "color"
-        },
-        "fill-emphasis": {
-          "value": "rgba( {ref-brand.secondary-60}, {opacity.24})",
-          "type": "color"
+        "on-tertiary": {
+          "stroke-default": {
+            "value": "{ref-brand.neutral-dark-50}",
+            "type": "color"
+          },
+          "stroke-emphasis": {
+            "value": "{ref-brand.secondary-60}",
+            "type": "color"
+          },
+          "fill-default": {
+            "value": "rgba({ref-brand.neutral-dark-05}, {opacity.8})",
+            "type": "color"
+          },
+          "fill-emphasis": {
+            "value": "rgba( {ref-brand.secondary-60}, {opacity.24})",
+            "type": "color"
+          }
         }
       },
       "border": {
@@ -6603,21 +6641,59 @@
         }
       },
       "pictogram": {
-        "stroke-default": {
-          "value": "{ref-brand.neutral-dark-50}",
-          "type": "color"
+        "on-primary": {
+          "stroke-default": {
+            "value": "{ref-brand.neutral-dark-50}",
+            "type": "color"
+          },
+          "stroke-emphasis": {
+            "value": "{ref-brand.primary-60}",
+            "type": "color"
+          },
+          "fill-default": {
+            "value": "rgba({ref-brand.neutral-dark-05}, {opacity.8})",
+            "type": "color"
+          },
+          "fill-emphasis": {
+            "value": "rgba( {ref-brand.primary-60}, {opacity.24})",
+            "type": "color"
+          }
         },
-        "stroke-emphasis": {
-          "value": "{ref-brand.secondary-60}",
-          "type": "color"
+        "on-secondary": {
+          "stroke-default": {
+            "value": "{ref-brand.neutral-dark-50}",
+            "type": "color"
+          },
+          "stroke-emphasis": {
+            "value": "{ref-brand.secondary-60}",
+            "type": "color"
+          },
+          "fill-default": {
+            "value": "rgba({ref-brand.neutral-dark-05}, {opacity.8})",
+            "type": "color"
+          },
+          "fill-emphasis": {
+            "value": "rgba( {ref-brand.secondary-60}, {opacity.24})",
+            "type": "color"
+          }
         },
-        "fill-default": {
-          "value": "rgba({ref-brand.neutral-dark-05}, {opacity.8})",
-          "type": "color"
-        },
-        "fill-emphasis": {
-          "value": "rgba( {ref-brand.secondary-60}, {opacity.24})",
-          "type": "color"
+        "on-tertiary": {
+          "stroke-default": {
+            "value": "{ref-brand.neutral-dark-50}",
+            "type": "color"
+          },
+          "stroke-emphasis": {
+            "value": "{ref-brand.tertiary-60}",
+            "type": "color"
+          },
+          "fill-default": {
+            "value": "rgba({ref-brand.neutral-dark-05}, {opacity.8})",
+            "type": "color"
+          },
+          "fill-emphasis": {
+            "value": "rgba( {ref-brand.tertiary-60}, {opacity.24})",
+            "type": "color"
+          }
         }
       },
       "border": {
