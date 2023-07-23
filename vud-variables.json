@@ -6543,22 +6543,22 @@
           "description": "Warning text refers to content that conveys a warning, caution, or alert."
         },
         "error-moderate": {
-          "value": "{vud-ref-funct.error-40}",
+          "value": "{vud-ref-funct.error-80}",
           "type": "color",
           "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
         },
         "success-weak": {
-          "value": "{vud-ref-funct.default-dark-05}",
+          "value": "{vud-ref-funct.success-05}",
           "type": "color",
           "description": "Success text refers to content that signifies a positive or affirmative message."
         },
         "info-weak": {
-          "value": "{vud-ref-funct.default-dark-05}",
+          "value": "{vud-ref-funct.info-05}",
           "type": "color",
           "description": "Info text gives a clear summary of the information."
         },
         "draft-weak": {
-          "value": "{vud-ref-funct.default-dark-05}",
+          "value": "{vud-ref-funct.draft-05}",
           "type": "color",
           "description": "Draft refers to temporary statuses."
         },
@@ -6568,7 +6568,7 @@
           "description": "Warning text refers to content that conveys a warning, caution, or alert."
         },
         "error-weak": {
-          "value": "{vud-ref-funct.default-dark-05}",
+          "value": "{vud-ref-funct.error-05}",
           "type": "color",
           "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
         }
@@ -7261,7 +7261,7 @@
         },
         "on-destructive-default": {
           "enabled": {
-            "value": "{vud-ref-funct.error-05}",
+            "value": "{vud-ref-funct.default-dark-70}",
             "type": "color",
             "description": "Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
           },
@@ -7276,7 +7276,7 @@
             "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
           "focused": {
-            "value": "{vud-ref-funct.error-05}",
+            "value": "{vud-ref-funct.default-dark-70}",
             "type": "color",
             "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
           },
@@ -7679,7 +7679,7 @@
       },
       "on-destructive": {
         "text-default": {
-          "value": "{ref-properties.text.error-moderate}",
+          "value": "{ref-properties.text.error-weak}",
           "type": "color",
           "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
