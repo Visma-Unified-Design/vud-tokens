@@ -3100,6 +3100,11 @@
           "type": "color",
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
+        "icon-inverse": {
+          "value": "{ref-properties.icon.error}",
+          "type": "color",
+          "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
+        },
         "surface-enabled": {
           "value": "{ref-properties.fill.on-destructive-default.enabled}",
           "type": "color",
@@ -6595,7 +6600,7 @@
           "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "error": {
-          "value": "{vud-ref-funct.error-80}",
+          "value": "{vud-ref-funct.error-60}",
           "type": "color",
           "description": "The error indicates the occurrence of an error or problem. Suitable for destructive icons."
         },
@@ -7699,9 +7704,14 @@
           "description": "Disabled text indicates that the particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
         "icon-default": {
-          "value": "{ref-properties.icon.error}",
+          "value": "{ref-properties.icon.default}",
           "type": "color",
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "icon-inverse": {
+          "value": "{ref-properties.icon.error}",
+          "type": "color",
+          "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
