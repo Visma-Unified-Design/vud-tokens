@@ -2943,6 +2943,11 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
+        "text-inverse": {
+          "value": "{ref-properties.text.default}",
+          "type": "color",
+          "description": "Inverse text refers to the opposite color that contrasts with the background. "
+        },
         "text-secondary": {
           "value": "{ref-properties.text.secondary}",
           "type": "color",
@@ -7555,6 +7560,11 @@
           "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+        },
+        "text-inverse": {
+          "value": "{ref-properties.text.inverse}",
+          "type": "color",
+          "description": "Inverse text refers to the opposite color that contrasts with the background. "
         },
         "text-secondary": {
           "value": "{ref-properties.text.secondary}",
