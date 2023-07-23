@@ -2963,6 +2963,11 @@
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
         },
+        "icon-inverse": {
+          "value": "{ref-properties.icon.default}",
+          "type": "color",
+          "description": "Inverse text refers to the opposite color that contrasts with the background. "
+        },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
           "type": "color",
@@ -7580,6 +7585,11 @@
           "value": "{ref-properties.icon.default}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-inverse": {
+          "value": "{ref-properties.icon.inverse}",
+          "type": "color",
+          "description": "Inverse text refers to the opposite color that contrasts with the background. "
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
