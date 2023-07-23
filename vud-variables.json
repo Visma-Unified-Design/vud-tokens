@@ -7704,12 +7704,12 @@
           "description": "Disabled text indicates that the particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
         "icon-default": {
-          "value": "{ref-properties.icon.default}",
+          "value": "{ref-properties.icon.error}",
           "type": "color",
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "icon-inverse": {
-          "value": "{ref-properties.icon.error}",
+          "value": "{vud-ref-funct.error-80}",
           "type": "color",
           "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
