@@ -6498,7 +6498,7 @@
     "ref-properties": {
       "text": {
         "default": {
-          "value": "{ref-brand.neutral-dark-05}",
+          "value": "{ref-brand.neutral-dark-10}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
