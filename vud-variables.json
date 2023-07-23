@@ -6600,17 +6600,17 @@
           "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
         },
         "error": {
-          "value": "{vud-ref-funct.error-60}",
+          "value": "{vud-ref-funct.error-40}",
           "type": "color",
           "description": "The error indicates the occurrence of an error or problem. Suitable for destructive icons."
         },
         "warning": {
-          "value": "{vud-ref-funct.warning-60}",
+          "value": "{vud-ref-funct.warning-40}",
           "type": "color",
           "description": "Warning icon serves as a visual cue to alert about potential issues, risks, or important information that requires attention."
         },
         "success": {
-          "value": "{vud-ref-funct.success-60}",
+          "value": "{vud-ref-funct.success-40}",
           "type": "color",
           "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
         },
@@ -7689,7 +7689,7 @@
       },
       "on-destructive": {
         "text-default": {
-          "value": "{ref-properties.text.error-weak}",
+          "value": "{vud-ref-funct.error-40}",
           "type": "color",
           "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
