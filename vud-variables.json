@@ -3681,7 +3681,7 @@
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
         "icon-default": {
-          "value": "{ref-properties.icon.inverse}",
+          "value": "{ref-brand.secondary-70}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
         },
@@ -3689,6 +3689,11 @@
           "value": "{ref-properties.icon.disabled}",
           "type": "color",
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
+        },
+        "icon-inverse": {
+          "value": "{ref-properties.icon.inverse}",
+          "type": "color",
+          "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
         "surface-enabled": {
           "value": "{ref-properties.fill.on-secondary-variant.enabled}",
@@ -3698,7 +3703,8 @@
         "surface-hover": {
           "value": "{ref-properties.fill.on-secondary-variant.hover}",
           "type": "color",
-          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+          "$extensions": {}
         },
         "surface-focused": {
           "value": "{ref-properties.fill.on-secondary-variant.focused}",
@@ -8062,7 +8068,7 @@
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
         "icon-default": {
-          "value": "{ref-properties.icon.inverse}",
+          "value": "{ref-brand.primary-70}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
         },
@@ -8341,9 +8347,14 @@
           "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
         },
         "icon-default": {
-          "value": "{ref-properties.icon.inverse}",
+          "value": "{ref-brand.secondary-70}",
           "type": "color",
           "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+        },
+        "icon-inverse": {
+          "value": "{ref-properties.icon.default}",
+          "type": "color",
+          "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
         "icon-disabled": {
           "value": "{ref-properties.icon.disabled}",
