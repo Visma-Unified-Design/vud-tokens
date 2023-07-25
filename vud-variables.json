@@ -7090,7 +7090,7 @@
       "fill": {
         "on-default": {
           "enabled": {
-            "value": "{ref-brand.neutral-dark-60}",
+            "value": "{ref-brand.neutral-dark-70}",
             "type": "color",
             "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
           },
@@ -7115,7 +7115,7 @@
             "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
           "pressed": {
-            "value": "{ref-brand.neutral-dark-70}",
+            "value": "{ref-brand.neutral-dark-90}",
             "type": "color",
             "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
           },
