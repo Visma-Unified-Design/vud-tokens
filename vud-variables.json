@@ -3211,7 +3211,7 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
+        "text-inverse": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
@@ -3387,11 +3387,11 @@
       },
       "on-variant": {
         "text-default": {
-          "value": "{ref-properties.text.inverse}",
+          "value": "{ref-brand.primary-90}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
+        "text-inverse": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
@@ -3490,7 +3490,7 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
+        "text-inverse": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
@@ -3666,11 +3666,11 @@
       },
       "on-variant": {
         "text-default": {
-          "value": "{ref-properties.text.inverse}",
+          "value": "{ref-brand.secondary-90}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
+        "text-inverse": {
           "value": "{ref-properties.text.inverse}",
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
@@ -7870,8 +7870,8 @@
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
-          "value": "{ref-properties.text.secondary}",
+        "text-inverse": {
+          "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
@@ -8047,12 +8047,12 @@
       },
       "on-variant": {
         "text-default": {
-          "value": "{ref-properties.text.inverse}",
+          "value": "{ref-brand.primary-90}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
-          "value": "{ref-properties.text.inverse}",
+        "text-inverse": {
+          "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
@@ -8146,12 +8146,12 @@
     "comp-btn-secondary": {
       "on-confimatory": {
         "text-default": {
-          "value": "{ref-properties.text.inverse}",
+          "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
-          "value": "{ref-properties.text.inverse}",
+        "text-inverse": {
+          "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
@@ -8326,12 +8326,12 @@
       },
       "on-variant": {
         "text-default": {
-          "value": "{ref-properties.text.inverse}",
+          "value": "{ref-brand.secondary-90}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
         },
-        "text-secondary": {
-          "value": "{ref-properties.text.inverse}",
+        "text-inverse": {
+          "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
@@ -11542,7 +11542,6 @@
         "comp-btn-default.on-destructive.border-pressed": "a5cc433bfd2566e4be8880221b44044acfc78650",
         "comp-btn-default.on-destructive.border-disabled": "95893ecdec4efca34938858a71002c9cd554986e",
         "comp-btn-primary.on-confimatory.text-default": "e6ca16b6822663f7739962f8e24f349dbb93009e",
-        "comp-btn-primary.on-confimatory.text-secondary": "73be48bbb7063793e5af20cde8946d048dd3b482",
         "comp-btn-primary.on-confimatory.text-disabled": "e7ca56cc53d03ca75233e4e901c6456256a41752",
         "comp-btn-primary.on-confimatory.icon-default": "5c10346747fbacfb5a502dac0cc08744236b1b54",
         "comp-btn-primary.on-confimatory.icon-disabled": "6755dd0f67537c83e7e65827653d35edf22d8292",
@@ -11577,7 +11576,6 @@
         "comp-btn-primary.on-destructive.border-pressed": "9c3e8f6745fffdd932ea95d3c07a8582a3e3522b",
         "comp-btn-primary.on-destructive.border-disabled": "81449bc3432c163543161f187ddd60861ade11c4",
         "comp-btn-primary.on-variant.text-default": "88269cc70aef41376d6e8f0521049a207c048e22",
-        "comp-btn-primary.on-variant.text-secondary": "ae5a943539ac3c4570312077c5b0cd24418fffde",
         "comp-btn-primary.on-variant.text-disabled": "ebb1f7050209bdedebed3179f4558b5f447f9021",
         "comp-btn-primary.on-variant.icon-default": "07bfab80186e424d8962fc5153c6800d79bb0e01",
         "comp-btn-primary.on-variant.icon-disabled": "51548dc02cbd2b7a99ad8a0478ab4ff32a2ab95c",
@@ -11596,7 +11594,6 @@
         "comp-btn-primary.on-variant.border-selected:hover": "98be08bf967f1e9a40d6010398e0ea5ec27b0da3",
         "comp-btn-primary.on-variant.border-disabled": "6106579d3914e796540fcaa105bfd04251f666f3",
         "comp-btn-secondary.on-confimatory.text-default": "a28f67f99af3d834f6d7efafddf731f97f78b90a",
-        "comp-btn-secondary.on-confimatory.text-secondary": "89de965e038250111604b4e733f2d47113ad7e10",
         "comp-btn-secondary.on-confimatory.text-disabled": "663cebf63542ec55e9cb7cb33bb68b00ab0478e8",
         "comp-btn-secondary.on-confimatory.icon-default": "5f67280cecc792027e5eecb119f8dbbd3ea0d181",
         "comp-btn-secondary.on-confimatory.icon-disabled": "5f3f79bb444cd180a3cd92a86069f179582fafe4",
@@ -11631,7 +11628,6 @@
         "comp-btn-secondary.on-destructive.border-pressed": "b8764af4bcf3c9fb27d9601dffcff32208588bf5",
         "comp-btn-secondary.on-destructive.border-disabled": "debf649a733e8ffee3e6037ab6df17255736ec32",
         "comp-btn-secondary.on-variant.text-default": "90510354884d15c855ffb0655444d05c7a33ad9d",
-        "comp-btn-secondary.on-variant.text-secondary": "4b2a3340322aa6244f53556f4ee2905c61efaba0",
         "comp-btn-secondary.on-variant.text-disabled": "e948fe94195ecb85de569273877fb026eb2a7bb1",
         "comp-btn-secondary.on-variant.icon-default": "2742f7ac7f93de53ed37f55bc0297f3ae150fd42",
         "comp-btn-secondary.on-variant.icon-disabled": "346652b0fb616f35412eee53e1adfcebe6e3b9e7",
@@ -12388,7 +12384,11 @@
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
         "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
         "ref-properties.pictogram.stroke-emphasis": "f8e13692a730c33b36b66d801f0f5d1b6212c0bc",
-        "ref-properties.pictogram.fill-emphasis": "d24f79839b559512fa51c937b95e37392ddefc55"
+        "ref-properties.pictogram.fill-emphasis": "d24f79839b559512fa51c937b95e37392ddefc55",
+        "comp-btn-primary.on-confimatory.text-inverse": "73be48bbb7063793e5af20cde8946d048dd3b482",
+        "comp-btn-primary.on-variant.text-inverse": "ae5a943539ac3c4570312077c5b0cd24418fffde",
+        "comp-btn-secondary.on-confimatory.text-inverse": "89de965e038250111604b4e733f2d47113ad7e10",
+        "comp-btn-secondary.on-variant.text-inverse": "4b2a3340322aa6244f53556f4ee2905c61efaba0"
       },
       "group": "Themes"
     },
@@ -12619,7 +12619,6 @@
         "comp-btn-default.on-destructive.border-pressed": "a5cc433bfd2566e4be8880221b44044acfc78650",
         "comp-btn-default.on-destructive.border-disabled": "95893ecdec4efca34938858a71002c9cd554986e",
         "comp-btn-primary.on-confimatory.text-default": "e6ca16b6822663f7739962f8e24f349dbb93009e",
-        "comp-btn-primary.on-confimatory.text-secondary": "73be48bbb7063793e5af20cde8946d048dd3b482",
         "comp-btn-primary.on-confimatory.text-disabled": "e7ca56cc53d03ca75233e4e901c6456256a41752",
         "comp-btn-primary.on-confimatory.icon-default": "5c10346747fbacfb5a502dac0cc08744236b1b54",
         "comp-btn-primary.on-confimatory.icon-disabled": "6755dd0f67537c83e7e65827653d35edf22d8292",
@@ -12654,7 +12653,6 @@
         "comp-btn-primary.on-destructive.border-pressed": "9c3e8f6745fffdd932ea95d3c07a8582a3e3522b",
         "comp-btn-primary.on-destructive.border-disabled": "81449bc3432c163543161f187ddd60861ade11c4",
         "comp-btn-primary.on-variant.text-default": "88269cc70aef41376d6e8f0521049a207c048e22",
-        "comp-btn-primary.on-variant.text-secondary": "ae5a943539ac3c4570312077c5b0cd24418fffde",
         "comp-btn-primary.on-variant.text-disabled": "ebb1f7050209bdedebed3179f4558b5f447f9021",
         "comp-btn-primary.on-variant.icon-default": "07bfab80186e424d8962fc5153c6800d79bb0e01",
         "comp-btn-primary.on-variant.icon-disabled": "51548dc02cbd2b7a99ad8a0478ab4ff32a2ab95c",
@@ -12673,7 +12671,6 @@
         "comp-btn-primary.on-variant.border-selected:hover": "98be08bf967f1e9a40d6010398e0ea5ec27b0da3",
         "comp-btn-primary.on-variant.border-disabled": "6106579d3914e796540fcaa105bfd04251f666f3",
         "comp-btn-secondary.on-confimatory.text-default": "a28f67f99af3d834f6d7efafddf731f97f78b90a",
-        "comp-btn-secondary.on-confimatory.text-secondary": "89de965e038250111604b4e733f2d47113ad7e10",
         "comp-btn-secondary.on-confimatory.text-disabled": "663cebf63542ec55e9cb7cb33bb68b00ab0478e8",
         "comp-btn-secondary.on-confimatory.icon-default": "5f67280cecc792027e5eecb119f8dbbd3ea0d181",
         "comp-btn-secondary.on-confimatory.icon-disabled": "5f3f79bb444cd180a3cd92a86069f179582fafe4",
@@ -12708,7 +12705,6 @@
         "comp-btn-secondary.on-destructive.border-pressed": "b8764af4bcf3c9fb27d9601dffcff32208588bf5",
         "comp-btn-secondary.on-destructive.border-disabled": "debf649a733e8ffee3e6037ab6df17255736ec32",
         "comp-btn-secondary.on-variant.text-default": "90510354884d15c855ffb0655444d05c7a33ad9d",
-        "comp-btn-secondary.on-variant.text-secondary": "4b2a3340322aa6244f53556f4ee2905c61efaba0",
         "comp-btn-secondary.on-variant.text-disabled": "e948fe94195ecb85de569273877fb026eb2a7bb1",
         "comp-btn-secondary.on-variant.icon-default": "2742f7ac7f93de53ed37f55bc0297f3ae150fd42",
         "comp-btn-secondary.on-variant.icon-disabled": "346652b0fb616f35412eee53e1adfcebe6e3b9e7",
@@ -13467,7 +13463,11 @@
         "viewport.min": "32c4a33d1649663a4ad9e2d37bce9d32804458e3",
         "viewport.max": "ba4421e3be6a84d15d3068dd24d89ef12aaad97a",
         "ref-properties.pictogram.stroke-emphasis": "f8e13692a730c33b36b66d801f0f5d1b6212c0bc",
-        "ref-properties.pictogram.fill-emphasis": "d24f79839b559512fa51c937b95e37392ddefc55"
+        "ref-properties.pictogram.fill-emphasis": "d24f79839b559512fa51c937b95e37392ddefc55",
+        "comp-btn-primary.on-confimatory.text-inverse": "73be48bbb7063793e5af20cde8946d048dd3b482",
+        "comp-btn-primary.on-variant.text-inverse": "ae5a943539ac3c4570312077c5b0cd24418fffde",
+        "comp-btn-secondary.on-confimatory.text-inverse": "89de965e038250111604b4e733f2d47113ad7e10",
+        "comp-btn-secondary.on-variant.text-inverse": "4b2a3340322aa6244f53556f4ee2905c61efaba0"
       },
       "group": "Themes"
     }
