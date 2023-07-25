@@ -2644,9 +2644,18 @@
             "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
           },
           "hover": {
-            "value": "{vud-ref-funct.error-05}",
+            "value": "{vud-ref-funct.error-70}",
             "type": "color",
-            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "focused": {
             "value": "{vud-ref-funct.default-light-05}",
@@ -2654,7 +2663,7 @@
             "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
           },
           "pressed": {
-            "value": "{vud-ref-funct.error-20}",
+            "value": "{vud-ref-funct.error-90}",
             "type": "color",
             "description": "Surface with pressed state refers to an interaction that occurs when the ui element is pressed."
           },
@@ -3091,7 +3100,7 @@
           "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "text-inverse": {
-          "value": "{ref-properties.text.error-moderate}",
+          "value": "{ref-properties.text.error-weak}",
           "type": "color",
           "description": "Inverse text refers to the opposite color that contrasts with the background. "
         },
@@ -3111,7 +3120,7 @@
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "icon-inverse": {
-          "value": "{ref-properties.icon.error}",
+          "value": "{ref-properties.icon.inverse}",
           "type": "color",
           "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
@@ -7291,9 +7300,18 @@
             "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
           },
           "hover": {
-            "value": "{vud-ref-funct.error-10}",
+            "value": "{vud-ref-funct.error-70}",
             "type": "color",
-            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+            "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "0.12",
+                  "space": "hsl"
+                }
+              }
+            }
           },
           "focused": {
             "value": "{vud-ref-funct.default-dark-70}",
@@ -7301,7 +7319,7 @@
             "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
           },
           "pressed": {
-            "value": "{vud-ref-funct.error-20}",
+            "value": "{vud-ref-funct.error-90}",
             "type": "color",
             "description": "Surface with pressed state refers to an interaction that occurs when the ui element is pressed."
           },
@@ -7331,7 +7349,7 @@
                 "modify": {
                   "type": "darken",
                   "value": "0.12",
-                  "space": "lch"
+                  "space": "hsl"
                 }
               }
             }
@@ -7714,7 +7732,7 @@
           "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "text-inverse": {
-          "value": "{ref-properties.text.error-moderate}",
+          "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Inverse text refers to the opposite color that contrasts with the background. "
         },
@@ -7729,7 +7747,7 @@
           "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "icon-inverse": {
-          "value": "{vud-ref-funct.error-80}",
+          "value": "{ref-properties.icon.default}",
           "type": "color",
           "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
         },
