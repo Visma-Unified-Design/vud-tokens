@@ -5645,7 +5645,7 @@
       },
       "default": {
         "border-weak": {
-          "value": "{ref-brand.neutral-light-40}",
+          "value": "{ref-properties.shade.weak}",
           "type": "color",
           "description": "Low intensity."
         },
@@ -10335,7 +10335,7 @@
       },
       "default": {
         "border-weak": {
-          "value": "{ref-brand.neutral-dark-40}",
+          "value": "{ref-properties.tint.weak}",
           "type": "color",
           "description": "Low intensity."
         },
