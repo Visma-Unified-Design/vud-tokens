@@ -4387,6 +4387,11 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
+      "text-inverse": {
+        "value": "{ref-properties.text.default}",
+        "type": "color",
+        "description": "Inverse text refers to the opposite color that contrasts with the background. "
+      },
       "text-secondary": {
         "value": "{ref-properties.text.secondary}",
         "type": "color",
@@ -5640,7 +5645,7 @@
       },
       "default": {
         "border-weak": {
-          "value": "{ref-brand.neutral-light-40}",
+          "value": "{ref-properties.shade.weak}",
           "type": "color",
           "description": "Low intensity."
         },
@@ -6394,7 +6399,7 @@
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
       "surface-error:hover": {
-        "value": "{comp-btn-default.on-destructive.surface-hover}",
+        "value": "{ref-properties.fill.on-funct.error-weak}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
@@ -7172,7 +7177,7 @@
             "description": "Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected-weak:hover": {
-            "value": "{ref-brand.neutral-dark-40}",
+            "value": "{ref-brand.neutral-dark-60}",
             "type": "color",
             "description": "Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -7182,7 +7187,7 @@
             "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected-moderate:hover": {
-            "value": "{ref-brand.neutral-dark-40}",
+            "value": "{ref-brand.neutral-dark-60}",
             "type": "color",
             "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -9072,6 +9077,11 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
+      "text-inverse": {
+        "value": "{ref-properties.text.inverse}",
+        "type": "color",
+        "description": "Inverse text refers to the opposite color that contrasts with the background. "
+      },
       "text-secondary": {
         "value": "{ref-properties.text.secondary}",
         "type": "color",
@@ -10325,7 +10335,7 @@
       },
       "default": {
         "border-weak": {
-          "value": "{ref-brand.neutral-dark-40}",
+          "value": "{ref-properties.tint.weak}",
           "type": "color",
           "description": "Low intensity."
         },
@@ -11079,7 +11089,7 @@
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
       "surface-error:hover": {
-        "value": "{comp-btn-default.on-destructive.surface-hover}",
+        "value": "{ref-properties.fill.on-funct.error-weak}",
         "type": "color",
         "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
