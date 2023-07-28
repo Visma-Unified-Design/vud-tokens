@@ -7177,7 +7177,7 @@
             "description": "Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected-weak:hover": {
-            "value": "{ref-brand.neutral-dark-40}",
+            "value": "{ref-brand.neutral-dark-60}",
             "type": "color",
             "description": "Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
@@ -7187,7 +7187,7 @@
             "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
           },
           "selected-moderate:hover": {
-            "value": "{ref-brand.neutral-dark-40}",
+            "value": "{ref-brand.neutral-dark-60}",
             "type": "color",
             "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
           },
