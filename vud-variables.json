@@ -2110,7 +2110,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "darken",
-                  "value": "0.04",
+                  "value": "0.12",
                   "space": "hsl"
                 }
               }
@@ -2139,7 +2139,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "darken",
-                  "value": "0.04",
+                  "value": "0.12",
                   "space": "hsl"
                 }
               }
@@ -2165,7 +2165,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "darken",
-                  "value": "0.04",
+                  "value": "0.12",
                   "space": "hsl"
                 }
               }
@@ -2194,7 +2194,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "darken",
-                  "value": "0.04",
+                  "value": "0.12",
                   "space": "hsl"
                 }
               }
