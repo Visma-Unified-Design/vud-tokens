@@ -4275,6 +4275,11 @@
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
+      "icon-emphasis": {
+        "value": "{ref-properties.icon.emphasis}",
+        "type": "color",
+        "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+      },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
         "type": "color",
@@ -8963,7 +8968,7 @@
       "icon-emphasis": {
         "value": "{ref-properties.icon.emphasis}",
         "type": "color",
-        "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
+        "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
