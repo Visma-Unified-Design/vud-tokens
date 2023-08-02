@@ -6601,7 +6601,7 @@
           "description": "Warning text refers to content that conveys a warning, caution, or alert."
         },
         "error-moderate": {
-          "value": "{vud-ref-funct.error-40}",
+          "value": "{vud-ref-funct.error-80}",
           "type": "color",
           "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
         },
