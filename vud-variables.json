@@ -4280,6 +4280,11 @@
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
+      "icon-success": {
+        "value": "{ref-properties.icon.success}",
+        "type": "color",
+        "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
+      },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
         "type": "color",
@@ -8974,6 +8979,11 @@
         "value": "{ref-properties.icon.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+      },
+      "icon-success": {
+        "value": "{ref-properties.icon.success}",
+        "type": "color",
+        "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
