@@ -3856,7 +3856,7 @@
     },
     "comp-calendar-slot": {
       "text-event1": {
-        "value": "{ref-properties.text.emphasis}",
+        "value": "{ref-properties.text.info-moderate}",
         "type": "color",
         "description": "Optimal for scheduling project tasks in a calendar."
       },
@@ -8541,7 +8541,7 @@
     },
     "comp-calendar-slot": {
       "text-event1": {
-        "value": "{ref-properties.text.emphasis}",
+        "value": "{ref-properties.text.info-moderate}",
         "type": "color",
         "description": "Optimal for scheduling project tasks in a calendar."
       },
