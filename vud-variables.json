@@ -1964,7 +1964,7 @@
         },
         "on-secondary": {
           "stroke-default": {
-            "value": "{ref-brand.neutral-dark-50}",
+            "value": "{ref-brand.neutral-light-80}",
             "type": "color"
           },
           "stroke-emphasis": {
@@ -1972,7 +1972,7 @@
             "type": "color"
           },
           "fill-default": {
-            "value": "rgba({ref-brand.neutral-dark-05}, {opacity.8})",
+            "value": "rgba( {ref-brand.neutral-light-80}, {opacity.8})",
             "type": "color"
           },
           "fill-emphasis": {
@@ -1982,7 +1982,7 @@
         },
         "on-tertiary": {
           "stroke-default": {
-            "value": "{ref-brand.neutral-dark-50}",
+            "value": "{ref-brand.neutral-light-80}",
             "type": "color"
           },
           "stroke-emphasis": {
@@ -1990,7 +1990,7 @@
             "type": "color"
           },
           "fill-default": {
-            "value": "rgba({ref-brand.neutral-dark-05}, {opacity.8})",
+            "value": "rgba( {ref-brand.neutral-light-80}, {opacity.8})",
             "type": "color"
           },
           "fill-emphasis": {
@@ -3856,7 +3856,7 @@
     },
     "comp-calendar-slot": {
       "text-event1": {
-        "value": "{ref-properties.text.emphasis}",
+        "value": "{ref-properties.text.info-moderate}",
         "type": "color",
         "description": "Optimal for scheduling project tasks in a calendar."
       },
@@ -4279,6 +4279,11 @@
         "value": "{ref-properties.icon.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+      },
+      "icon-success": {
+        "value": "{ref-properties.icon.success}",
+        "type": "color",
+        "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -5839,6 +5844,11 @@
           "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+        },
+        "text-secondary": {
+          "value": "{ref-properties.text.secondary}",
+          "type": "color",
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
         },
         "text-emphasis": {
           "value": "{ref-properties.text.emphasis}",
@@ -8531,7 +8541,7 @@
     },
     "comp-calendar-slot": {
       "text-event1": {
-        "value": "{ref-properties.text.emphasis}",
+        "value": "{ref-properties.text.info-moderate}",
         "type": "color",
         "description": "Optimal for scheduling project tasks in a calendar."
       },
@@ -8969,6 +8979,11 @@
         "value": "{ref-properties.icon.emphasis}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
+      },
+      "icon-success": {
+        "value": "{ref-properties.icon.success}",
+        "type": "color",
+        "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -10529,6 +10544,11 @@
           "value": "{ref-properties.text.default}",
           "type": "color",
           "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+        },
+        "text-secondary": {
+          "value": "{ref-properties.text.secondary}",
+          "type": "color",
+          "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
         },
         "text-emphasis": {
           "value": "{ref-properties.text.emphasis}",
