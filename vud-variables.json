@@ -9733,7 +9733,7 @@
         "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
       },
       "surface-selected-strong": {
-        "value": "{ref-properties.fill.on-default.selected-strong}",
+        "value": "{ref-brand.secondary-60}",
         "type": "color",
         "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active."
       },
