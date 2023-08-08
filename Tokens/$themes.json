@@ -27,8 +27,8 @@
       "ref-focus-indicator.left": "S:241efd3c52b46bb5f7e1e646cacd243086472055,"
     },
     "selectedTokenSets": {
-      "light": "enabled",
-      "global": "enabled"
+      "global": "enabled",
+      "Mode/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6457:59066",
     "$figmaModeId": "6457:0",
@@ -1135,7 +1135,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "dark": "enabled",
-      "global": "enabled"
+      "global": "enabled",
+      "Mode/light": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6457:59066",
     "$figmaModeId": "6457:1",
