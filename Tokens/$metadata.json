@@ -1,0 +1,9 @@
+{
+  "tokenSetOrder": [
+    "global",
+    "light",
+    "dark",
+    "round",
+    "sharp"
+  ]
+}
