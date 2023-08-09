@@ -1,0 +1,17 @@
+{
+  "global": {},
+  "light": {},
+  "dark": {},
+  "round": {},
+  "sharp": {},
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "light",
+      "dark",
+      "round",
+      "sharp"
+    ]
+  }
+}
