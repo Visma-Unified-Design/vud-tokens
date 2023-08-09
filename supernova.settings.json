@@ -3,7 +3,7 @@
     "mapping": [{
         "tokenSets": [
           "global",
-          "light",
+          "Mode/light",
           "round",
           "sharp"
         ],
