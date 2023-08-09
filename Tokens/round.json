@@ -1,0 +1,40 @@
+{
+  "radius": {
+    "none": {
+      "value": "{radii.none}",
+      "type": "borderRadius"
+    },
+    "xxs": {
+      "value": "{radii.xxs}",
+      "type": "borderRadius"
+    },
+    "xs": {
+      "value": "{radii.xs}",
+      "type": "borderRadius"
+    },
+    "s": {
+      "value": "{radii.s}",
+      "type": "borderRadius"
+    },
+    "md": {
+      "value": "{radii.md}",
+      "type": "borderRadius"
+    },
+    "lg": {
+      "value": "{radii.lg}",
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": "{radii.xl}",
+      "type": "borderRadius"
+    },
+    "xxl": {
+      "value": "{radii.xxl}",
+      "type": "borderRadius"
+    },
+    "xxxl": {
+      "value": "{radii.xxxl}",
+      "type": "borderRadius"
+    }
+  }
+}
