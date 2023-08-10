@@ -1007,7 +1007,7 @@
           }
         },
         "pressed": {
-          "value": "{ref-brand.primary-90}",
+          "value": "{ref-brand.primary-70}",
           "type": "color",
           "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
@@ -1017,12 +1017,12 @@
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected": {
-          "value": "{ref-brand.primary-80}",
+          "value": "{ref-brand.primary-50}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
         "selected:hover": {
-          "value": "{ref-brand.primary-80}",
+          "value": "{ref-brand.primary-50}",
           "type": "color",
           "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -1072,12 +1072,12 @@
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected": {
-          "value": "{ref-brand.secondary-80}",
+          "value": "{ref-brand.secondary-50}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
         "selected:hover": {
-          "value": "{ref-brand.secondary-80}",
+          "value": "{ref-brand.secondary-50}",
           "type": "color",
           "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -1085,7 +1085,7 @@
               "modify": {
                 "type": "darken",
                 "value": "0.12",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           }

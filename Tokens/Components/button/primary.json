@@ -1,0 +1,119 @@
+{
+  "comp-btn-confirmatory": {
+    "text-default": {
+      "value": "{ref-brand.primary-90}",
+      "type": "color",
+      "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
+    },
+    "text-disabled": {
+      "value": "{ref-properties.text.disabled}",
+      "type": "color",
+      "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
+    },
+    "icon-default": {
+      "value": "{ref-properties.icon.inverse}",
+      "type": "color",
+      "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+    },
+    "icon-disabled": {
+      "value": "{ref-properties.icon.disabled}",
+      "type": "color",
+      "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
+    },
+    "surface-enabled": {
+      "value": "{ref-properties.fill.on-primary-variant.enabled}",
+      "type": "color",
+      "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+    },
+    "surface-hover": {
+      "value": "{ref-properties.fill.on-primary-variant.hover}",
+      "type": "color",
+      "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+    },
+    "surface-focused": {
+      "value": "{ref-properties.fill.on-primary-variant.focused}",
+      "type": "color",
+      "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
+    },
+    "surface-pressed": {
+      "value": "{ref-properties.fill.on-primary-variant.pressed}",
+      "type": "color",
+      "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
+    },
+    "surface-selected-strong": {
+      "value": "{ref-properties.fill.on-primary.selected}",
+      "type": "color",
+      "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+    },
+    "surface-selected-strong:hover": {
+      "value": "{ref-properties.fill.on-primary.selected:hover}",
+      "type": "color",
+      "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+    },
+    "surface-disabled": {
+      "value": "{ref-properties.fill.on-primary-variant.disabled}",
+      "type": "color",
+      "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+    },
+    "border-enabled": {
+      "value": "{ref-properties.border.on-primary-variant.enabled}",
+      "type": "color",
+      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+    },
+    "border-hover": {
+      "value": "{ref-properties.border.on-primary-variant.hover}",
+      "type": "color",
+      "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+    },
+    "border-focused": {
+      "value": "{ref-properties.border.on-primary-variant.focused}",
+      "type": "color",
+      "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
+    },
+    "border-pressed": {
+      "value": "{ref-properties.border.on-primary-variant.pressed}",
+      "type": "color",
+      "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
+    },
+    "border-selected-strong": {
+      "value": "{ref-properties.border.on-primary.selected}",
+      "type": "color",
+      "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
+    },
+    "border-selected-strong:hover": {
+      "value": "{ref-properties.border.on-primary.selected:hover}",
+      "type": "color",
+      "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+    },
+    "border-disabled": {
+      "value": "{ref-properties.border.on-primary-variant.disabled}",
+      "type": "color",
+      "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+    },
+    "text-inverse": {
+      "value": "{ref-properties.text.inverse}",
+      "type": "color",
+      "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+    },
+    "surface-selected": {
+      "value": "{ref-properties.fill.on-primary-variant.selected}",
+      "type": "color",
+      "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+    },
+    "surface-selected:hover": {
+      "value": "{ref-properties.fill.on-primary-variant.selected:hover}",
+      "type": "color",
+      "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+    },
+    "border-selected": {
+      "value": "{ref-properties.border.on-primary-variant.selected}",
+      "type": "color",
+      "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
+    },
+    "border-selected:hover": {
+      "value": "{ref-properties.border.on-primary-variant.selected:hover}",
+      "type": "color",
+      "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+    }
+  }
+}

@@ -2,8 +2,21 @@
   "tokenSetOrder": [
     "global",
     "Mode/light",
-    "dark",
-    "round",
-    "sharp"
+    "Mode/dark",
+    "Density/condensed",
+    "Density/default",
+    "Density/regular",
+    "Density/relaxed",
+    "Dimension/small",
+    "Dimension/medium",
+    "Dimension/large",
+    "Radius/round",
+    "Radius/sharp",
+    "Components/button/default",
+    "Components/button/transparent",
+    "Components/button/primary",
+    "Components/button/secondary",
+    "Components/btn-variant/primary",
+    "Components/btn-variant/secondary"
   ]
 }
