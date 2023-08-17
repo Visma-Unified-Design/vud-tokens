@@ -3,6 +3,12 @@
     "Global/core",
     "Mode/light",
     "Mode/dark",
+    "Components/button/default",
+    "Components/button/transparent",
+    "Components/button/primary",
+    "Components/button/secondary",
+    "Components/btn-variant/primary",
+    "Components/btn-variant/secondary",
     "Density/condensed",
     "Density/default",
     "Density/regular",
@@ -11,12 +17,6 @@
     "Dimension/medium",
     "Dimension/large",
     "Radius/round",
-    "Radius/sharp",
-    "Components/button/default",
-    "Components/button/transparent",
-    "Components/button/primary",
-    "Components/button/secondary",
-    "Components/btn-variant/primary",
-    "Components/btn-variant/secondary"
+    "Radius/sharp"
   ]
 }
