@@ -1,6 +1,6 @@
 {
   "tokenSetOrder": [
-    "global",
+    "Global/core",
     "Mode/light",
     "Mode/dark",
     "Density/condensed",
