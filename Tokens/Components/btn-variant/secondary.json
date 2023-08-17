@@ -20,15 +20,15 @@
       "type": "color",
       "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
     },
+    "icon-inverse": {
+      "value": "{comp-btn-secondary.on-variant.icon-inverse}",
+      "type": "color",
+      "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
+    },
     "icon-disabled": {
       "value": "{ref-properties.icon.disabled}",
       "type": "color",
       "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
-    },
-    "icon-inverse": {
-      "value": "{ref-properties.icon.inverse}",
-      "type": "color",
-      "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
     },
     "surface-enabled": {
       "value": "{ref-properties.fill.on-secondary-variant.enabled}",

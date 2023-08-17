@@ -16,9 +16,14 @@
       "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
     },
     "icon-default": {
-      "value": "{ref-properties.icon.inverse}",
+      "value": "{comp-btn-primary.on-variant.icon-default}",
       "type": "color",
       "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+    },
+    "icon-inverse": {
+      "value": "{comp-btn-primary.on-variant.icon-inverse}",
+      "type": "color",
+      "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
     },
     "icon-disabled": {
       "value": "{ref-properties.icon.disabled}",
