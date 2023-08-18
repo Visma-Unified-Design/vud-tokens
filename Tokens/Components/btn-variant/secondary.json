@@ -1,5 +1,5 @@
 {
-  "comp-btn-confirmatory": {
+  "comp-btn": {
     "text-default": {
       "value": "{ref-brand.secondary-90}",
       "type": "color",
