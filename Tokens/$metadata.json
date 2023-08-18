@@ -10,6 +10,7 @@
     "Components/btn-destructive/default",
     "Components/btn-destructive/transparent",
     "Components/btn-destructive/primary",
+    "Components/btn-variant/default",
     "Components/btn-variant/primary",
     "Components/btn-variant/secondary",
     "Density/condensed",
