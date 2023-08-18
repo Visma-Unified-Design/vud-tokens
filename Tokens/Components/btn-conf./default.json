@@ -56,7 +56,7 @@
       "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
     },
     "surface-selected:hover": {
-      "value": "{ref-properties.border.on-default.selected-strong:hover}",
+      "value": "{ref-properties.fill.on-default.selected-strong:hover}",
       "type": "color",
       "description": "Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
