@@ -5,11 +5,6 @@
       "type": "color",
       "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
     },
-    "text-inverse": {
-      "value": "{ref-properties.text.error-weak}",
-      "type": "color",
-      "description": "Inverse text refers to the opposite color that contrasts with the background. "
-    },
     "text-disabled": {
       "value": "{ref-properties.text.disabled}",
       "type": "color",

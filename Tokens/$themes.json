@@ -4,14 +4,7 @@
     "name": "Core",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/core": "enabled",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Global/core": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:638",
     "$figmaModeId": "48:0",
@@ -289,14 +282,7 @@
     },
     "selectedTokenSets": {
       "Mode/light": "enabled",
-      "Global/core": "enabled",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Global/core": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:21:580",
     "$figmaModeId": "21:0",
@@ -1404,14 +1390,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Mode/dark": "enabled",
-      "Global/core": "enabled",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Global/core": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:21:580",
     "$figmaModeId": "21:1",
@@ -2521,14 +2500,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Density/condensed": "enabled",
-      "Global/core": "source",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:21:1677",
     "$figmaModeId": "21:2",
@@ -2544,14 +2516,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Density/default": "enabled",
-      "Global/core": "source",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:21:1677",
     "$figmaModeId": "21:3",
@@ -2567,14 +2532,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Density/regular": "enabled",
-      "Global/core": "source",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:21:1677",
     "$figmaModeId": "21:4",
@@ -2590,14 +2548,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Density/relaxed": "enabled",
-      "Global/core": "source",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:21:1677",
     "$figmaModeId": "21:5",
@@ -2613,14 +2564,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Dimension/small": "enabled",
-      "Global/core": "source",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:21:1680",
     "$figmaModeId": "21:6",
@@ -2635,14 +2579,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Dimension/medium": "enabled",
-      "Global/core": "source",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:21:1680",
     "$figmaModeId": "21:7",
@@ -2657,14 +2594,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Dimension/large": "enabled",
-      "Global/core": "source",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:21:1680",
     "$figmaModeId": "21:8",
@@ -2679,14 +2609,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/round": "enabled",
-      "Global/core": "source",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:21:1682",
     "$figmaModeId": "21:9",
@@ -2709,14 +2632,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/sharp": "enabled",
-      "Global/core": "source",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:21:1682",
     "$figmaModeId": "21:10",
@@ -2740,13 +2656,7 @@
     "selectedTokenSets": {
       "Mode/light": "source",
       "Global/core": "source",
-      "Components/btn-conf./default": "enabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Components/btn-conf./default": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:26:776",
     "$figmaModeId": "26:0",
@@ -2783,13 +2693,7 @@
     "selectedTokenSets": {
       "Mode/light": "source",
       "Global/core": "source",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "enabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Components/btn-conf./transparent": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:26:776",
     "$figmaModeId": "26:1",
@@ -2826,13 +2730,7 @@
     "selectedTokenSets": {
       "Mode/light": "source",
       "Global/core": "source",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "enabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Components/btn-conf./primary": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:26:776",
     "$figmaModeId": "26:2",
@@ -2870,13 +2768,7 @@
     "selectedTokenSets": {
       "Mode/light": "source",
       "Global/core": "source",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "enabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Components/btn-conf./secondary": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:26:776",
     "$figmaModeId": "26:3",
@@ -2909,14 +2801,7 @@
     "selectedTokenSets": {
       "Mode/light": "source",
       "Components/btn-variant/primary": "enabled",
-      "Global/core": "source",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:26:804",
     "$figmaModeId": "26:4",
@@ -2951,14 +2836,7 @@
     "selectedTokenSets": {
       "Mode/light": "source",
       "Components/btn-variant/secondary": "enabled",
-      "Global/core": "source",
-      "Components/btn-conf./default": "disabled",
-      "Components/btn-conf./transparent": "disabled",
-      "Components/btn-conf./primary": "disabled",
-      "Components/btn-conf./secondary": "disabled",
-      "Components/btn-destructive/primary": "disabled",
-      "Components/btn-destructive/default": "disabled",
-      "Components/btn-destructive/transparent": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:26:804",
     "$figmaModeId": "26:5",
