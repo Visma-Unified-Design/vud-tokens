@@ -1119,7 +1119,7 @@
       "icon-inverse": {
         "value": "{ref-properties.icon.inverse}",
         "type": "color",
-        "description": "Inverse text refers to the opposite color that contrasts with the background. "
+        "description": "Inverse icon refers to the opposite color that contrasts with the background. "
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",

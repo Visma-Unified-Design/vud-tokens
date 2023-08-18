@@ -1175,7 +1175,7 @@
       "icon-inverse": {
         "value": "{ref-properties.icon.default}",
         "type": "color",
-        "description": "Inverse text refers to the opposite color that contrasts with the background. "
+        "description": "Inverse icon refers to the opposite color that contrasts with the background. "
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -1384,6 +1384,13 @@
         "type": "color",
         "description": "Border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       }
+    }
+  },
+  "comp-btn": {
+    "icon-inverse": {
+      "value": "{ref-properties.icon.inverse}",
+      "type": "color",
+      "description": "Inverse icon refers to the opposite color that contrasts with the background. "
     }
   },
   "comp-btn-primary": {
