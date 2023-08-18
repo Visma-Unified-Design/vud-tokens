@@ -50,12 +50,12 @@
       "type": "color",
       "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
     },
-    "surface-selected-strong": {
+    "surface-selected": {
       "value": "{ref-properties.fill.on-secondary.selected}",
       "type": "color",
       "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
     },
-    "surface-selected-strong:hover": {
+    "surface-selected:hover": {
       "value": "{ref-properties.fill.on-secondary.selected:hover}",
       "type": "color",
       "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
@@ -85,12 +85,12 @@
       "type": "color",
       "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
     },
-    "border-selected-strong": {
+    "border-selected": {
       "value": "{ref-properties.border.on-secondary.selected}",
       "type": "color",
       "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
     },
-    "border-selected-strong:hover": {
+    "border-selected:hover": {
       "value": "{ref-properties.border.on-secondary.selected:hover}",
       "type": "color",
       "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
