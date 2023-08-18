@@ -282,7 +282,7 @@
     },
     "selectedTokenSets": {
       "Mode/light": "enabled",
-      "Global/core": "enabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:61:1678",
     "$figmaModeId": "61:2",
@@ -1391,7 +1391,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Mode/dark": "enabled",
-      "Global/core": "enabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:61:1678",
     "$figmaModeId": "61:3",
