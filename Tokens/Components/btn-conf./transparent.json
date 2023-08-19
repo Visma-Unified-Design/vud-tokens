@@ -66,9 +66,10 @@
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "border-enabled": {
-      "value": "{ref-properties.border.on-default.transparent}",
+      "value": "rgba({ref-properties.border.on-default.enabled}, {opacity.0})",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.",
+      "$extensions": {}
     },
     "border-hover": {
       "value": "{ref-properties.border.on-default.hover}",
