@@ -993,18 +993,10 @@
           "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{ref-brand.primary-30}",
+          "value": "{ref-brand.primary-20}",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "0.12",
-                "space": "hsl"
-              }
-            }
-          }
+          "$extensions": {}
         },
         "pressed": {
           "value": "{ref-brand.primary-90}",
@@ -1048,18 +1040,10 @@
           "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{ref-brand.secondary-30}",
+          "value": "{ref-brand.secondary-20}",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "darken",
-                "value": "0.12",
-                "space": "hsl"
-              }
-            }
-          }
+          "$extensions": {}
         },
         "pressed": {
           "value": "{ref-brand.secondary-90}",
