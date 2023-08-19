@@ -4,7 +4,10 @@
     "name": "Core",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/core": "enabled"
+      "Global/core": "enabled",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:2276",
     "$figmaModeId": "77:0",
@@ -282,7 +285,10 @@
     },
     "selectedTokenSets": {
       "Mode/light": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:2518",
     "$figmaModeId": "77:1",
@@ -1150,7 +1156,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Mode/dark": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:2518",
     "$figmaModeId": "77:2",
@@ -2020,7 +2029,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Density/condensed": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3376",
     "$figmaModeId": "77:3",
@@ -2036,7 +2048,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Density/default": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3376",
     "$figmaModeId": "77:4",
@@ -2052,7 +2067,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Density/regular": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3376",
     "$figmaModeId": "77:5",
@@ -2068,7 +2086,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Density/relaxed": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3376",
     "$figmaModeId": "77:6",
@@ -2084,7 +2105,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Dimension/small": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3379",
     "$figmaModeId": "77:7",
@@ -2099,7 +2123,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Dimension/medium": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3379",
     "$figmaModeId": "77:8",
@@ -2114,7 +2141,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Dimension/large": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3379",
     "$figmaModeId": "77:9",
@@ -2129,7 +2159,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/round": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3381",
     "$figmaModeId": "77:10",
@@ -2152,7 +2185,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/sharp": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3381",
     "$figmaModeId": "77:11",
@@ -2176,7 +2212,10 @@
     "selectedTokenSets": {
       "Mode/light": "source",
       "Global/core": "source",
-      "Components/btn-conf./default": "enabled"
+      "Components/btn-conf./default": "enabled",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3391",
     "$figmaModeId": "77:12",
@@ -2211,7 +2250,10 @@
     "selectedTokenSets": {
       "Mode/light": "source",
       "Global/core": "source",
-      "Components/btn-conf./transparent": "enabled"
+      "Components/btn-conf./transparent": "enabled",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3391",
     "$figmaModeId": "77:13",
@@ -2246,7 +2288,10 @@
     "selectedTokenSets": {
       "Mode/light": "source",
       "Global/core": "source",
-      "Components/btn-conf./primary": "enabled"
+      "Components/btn-conf./primary": "enabled",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3391",
     "$figmaModeId": "77:14",
@@ -2281,7 +2326,10 @@
     "selectedTokenSets": {
       "Mode/light": "source",
       "Global/core": "source",
-      "Components/btn-conf./secondary": "enabled"
+      "Components/btn-conf./secondary": "enabled",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3391",
     "$figmaModeId": "77:15",
@@ -2316,7 +2364,10 @@
     "selectedTokenSets": {
       "Global/core": "source",
       "Mode/light": "source",
-      "Components/btn-destructive/default": "enabled"
+      "Components/btn-destructive/default": "enabled",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3412",
     "$figmaModeId": "77:16",
@@ -2347,7 +2398,10 @@
     "selectedTokenSets": {
       "Global/core": "source",
       "Mode/light": "source",
-      "Components/btn-destructive/transparent": "enabled"
+      "Components/btn-destructive/transparent": "enabled",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3412",
     "$figmaModeId": "77:17",
@@ -2378,7 +2432,10 @@
     "selectedTokenSets": {
       "Global/core": "source",
       "Mode/light": "source",
-      "Components/btn-destructive/primary": "enabled"
+      "Components/btn-destructive/primary": "enabled",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3412",
     "$figmaModeId": "77:18",
@@ -2408,7 +2465,9 @@
     "selectedTokenSets": {
       "Global/core": "source",
       "Mode/light": "source",
-      "Components/btn-variant/default": "enabled"
+      "Components/btn-tint/default": "enabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3429",
     "$figmaModeId": "77:19",
@@ -2434,7 +2493,7 @@
       "comp-btn.border-selected:hover": "560c03221521c83bfbe9b5826c8d9678fde2ac27",
       "comp-btn.border-disabled": "a819d860e3b473c7ab7d1e89367695cba2dede6a"
     },
-    "group": "Button variant"
+    "group": "Button tint"
   },
   {
     "id": "aa0833cb74da153d134d0a62ba7957d8ac626cc6",
@@ -2442,8 +2501,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Mode/light": "source",
-      "Components/btn-variant/primary": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "enabled",
+      "Components/btn-tint/secondary": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3429",
     "$figmaModeId": "77:20",
@@ -2469,7 +2530,7 @@
       "comp-btn.border-selected:hover": "560c03221521c83bfbe9b5826c8d9678fde2ac27",
       "comp-btn.border-disabled": "a819d860e3b473c7ab7d1e89367695cba2dede6a"
     },
-    "group": "Button variant"
+    "group": "Button tint"
   },
   {
     "id": "85a248585a4372fe184570d5e11b51555bdac293",
@@ -2477,8 +2538,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Mode/light": "source",
-      "Components/btn-variant/secondary": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-tint/default": "disabled",
+      "Components/btn-tint/primary": "disabled",
+      "Components/btn-tint/secondary": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3429",
     "$figmaModeId": "77:21",
@@ -2504,6 +2567,6 @@
       "comp-btn.border-selected:hover": "560c03221521c83bfbe9b5826c8d9678fde2ac27",
       "comp-btn.border-disabled": "a819d860e3b473c7ab7d1e89367695cba2dede6a"
     },
-    "group": "Button variant"
+    "group": "Button tint"
   }
 ]
