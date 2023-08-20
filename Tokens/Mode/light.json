@@ -1137,7 +1137,7 @@
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
       "text-inverse": {
-        "value": "{ref-properties.text.default}",
+        "value": "{ref-properties.text.inverse}",
         "type": "color",
         "description": "Inverse text refers to the opposite color that contrasts with the background. "
       },
@@ -1996,12 +1996,6 @@
       "type": "boxShadow"
     }
   },
-  "viewport": {
-    "width": {
-      "value": "1440",
-      "type": "sizing"
-    }
-  },
   "comp-button-border": {
     "inner-shadow": {
       "value": [
@@ -2023,6 +2017,12 @@
         }
       ],
       "type": "boxShadow"
+    }
+  },
+  "viewport": {
+    "width": {
+      "value": "1440",
+      "type": "sizing"
     }
   },
   "comp-calendar-slot": {
