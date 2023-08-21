@@ -1,0 +1,27 @@
+{
+    "mode": "multi-file",
+    "mapping": [{
+        "tokenSets": [
+          "global",
+          "Mode/light",
+          "round",
+          "sharp"
+        ],
+        "supernovaBrand": "VUD",
+        "supernovaTheme": null
+    }, {
+        "tokenSets": [
+          "global",
+          "dark",
+          "round",
+          "sharp"
+        ],
+        "supernovaBrand": "VUD",
+        "supernovaTheme": "Dark theme"
+    }],
+    "settings": {
+      "dryRun": false,
+      "verbose": true,
+      "preciseCopy": true
+    }
+  }
