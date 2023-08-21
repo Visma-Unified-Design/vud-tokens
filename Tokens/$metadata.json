@@ -3,6 +3,10 @@
     "Global/core",
     "Mode/light",
     "Mode/dark",
+    "Components/btn-conf/default",
+    "Components/btn-conf/primary",
+    "Components/btn-conf/secondary",
+    "Components/btn-conf/transparent",
     "Components/btn-destructive/default",
     "Components/btn-destructive/transparent",
     "Components/btn-destructive/primary",
@@ -17,10 +21,6 @@
     "Dimension/medium",
     "Dimension/large",
     "Radius/round",
-    "Radius/sharp",
-    "Components/btn-conf/default",
-    "Components/btn-conf/primary",
-    "Components/btn-conf/secondary",
-    "Components/btn-conf/transparent"
+    "Radius/sharp"
   ]
 }
