@@ -1,9 +1,9 @@
 {
-    "mode": "multi-file",
+    "mode": "single-file",
     "mapping": [{
         "tokenSets": [
           "global",
-          "Mode/light",
+          "light",
           "round",
           "sharp"
         ],
