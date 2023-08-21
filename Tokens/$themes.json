@@ -2175,7 +2175,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Mode/light": "source",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-conf/default": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3391",
     "$figmaModeId": "77:12",
@@ -2209,7 +2210,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Mode/light": "source",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-conf/transparent": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3391",
     "$figmaModeId": "77:13",
@@ -2243,7 +2245,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Mode/light": "source",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-conf/primary": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3391",
     "$figmaModeId": "77:14",
@@ -2277,7 +2280,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Mode/light": "source",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Components/btn-conf/secondary": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3391",
     "$figmaModeId": "77:15",
