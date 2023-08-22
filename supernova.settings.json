@@ -1,5 +1,5 @@
 {
-    "mode": "single-file",
+    "mode": "multi-file",
     "mapping": [{
         "tokenSets": [
           "Global/core",
