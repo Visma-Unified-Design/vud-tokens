@@ -2176,7 +2176,7 @@
     "selectedTokenSets": {
       "Mode/light": "source",
       "Global/core": "source",
-      "Components/btn-conf./default": "enabled"
+      "Components/btn-conf/default": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3391",
     "$figmaModeId": "77:12",
@@ -2211,7 +2211,7 @@
     "selectedTokenSets": {
       "Mode/light": "source",
       "Global/core": "source",
-      "Components/btn-conf./transparent": "enabled"
+      "Components/btn-conf/transparent": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3391",
     "$figmaModeId": "77:13",
@@ -2246,7 +2246,7 @@
     "selectedTokenSets": {
       "Mode/light": "source",
       "Global/core": "source",
-      "Components/btn-conf./primary": "enabled"
+      "Components/btn-conf/primary": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3391",
     "$figmaModeId": "77:14",
@@ -2281,7 +2281,7 @@
     "selectedTokenSets": {
       "Mode/light": "source",
       "Global/core": "source",
-      "Components/btn-conf./secondary": "enabled"
+      "Components/btn-conf/secondary": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:77:3391",
     "$figmaModeId": "77:15",
