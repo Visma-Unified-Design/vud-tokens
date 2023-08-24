@@ -278,7 +278,7 @@
       "comp-table-cell.border.right": "S:58bd3a02e08c16048c6c2b4746fdef502b18fa84,",
       "comp-table-cell.border.bottom": "S:ba3e227d5805d0e0dc510289ca8827df46bef66a,",
       "comp-table-cell.focus-indicator.left": "S:db9a15eb7f22e206a7f8d6ddf09841a9b9ea5d0a,",
-      "ref-focus-indicator.left": "S:241efd3c52b46bb5f7e1e646cacd243086472055,"
+      "ref-focus-indicator.focus": "S:241efd3c52b46bb5f7e1e646cacd243086472055,"
     },
     "selectedTokenSets": {
       "Mode/light": "enabled",

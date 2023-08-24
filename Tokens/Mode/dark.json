@@ -3918,7 +3918,7 @@
     }
   },
   "ref-focus-indicator": {
-    "left": {
+    "focus": {
       "value": {
         "x": "4",
         "y": "0",
@@ -3928,7 +3928,7 @@
         "type": "innerShadow"
       },
       "type": "boxShadow",
-      "description": "Focus-indicator refers to the thick line along the shortest side of the minimum bounding box of the unfocused component or sub-component."
+      "description": "Focus-indicator refers to the thick line along a side of the bounding box."
     }
   },
   "comp-search": {
