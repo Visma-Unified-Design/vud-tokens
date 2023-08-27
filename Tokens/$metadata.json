@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
     "Global/core",
-    "Mode/light",
-    "Mode/dark",
+    "Themes/light",
+    "Themes/dark",
     "Components/btn-conf/default",
     "Components/btn-conf/primary",
     "Components/btn-conf/secondary",
