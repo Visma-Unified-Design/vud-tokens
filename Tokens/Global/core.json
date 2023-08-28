@@ -1242,47 +1242,47 @@
     "100": {
       "value": "100",
       "type": "fontWeights",
-      "description": "/* Thin */\n\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n\n"
+      "description": "Thin: <font-weight-absolute> numeric values [1,1000]\n\n"
     },
     "200": {
       "value": "200",
       "type": "fontWeights",
-      "description": "/* Extra Light */ CSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Extra Light: <font-weight-absolute> numeric values [1,1000]\n"
     },
     "300": {
       "value": "300",
       "type": "fontWeights",
-      "description": "/* Light */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Light: <font-weight-absolute> numeric values [1,1000]\n"
     },
     "400": {
       "value": "400",
       "type": "fontWeights",
-      "description": "/* Normal */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Normal: <font-weight-absolute> numeric values [1,1000]\n"
     },
     "500": {
       "value": "500",
       "type": "fontWeights",
-      "description": "/* Medium */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Medium: <font-weight-absolute> numeric values [1,1000]\n"
     },
     "600": {
       "value": "600",
       "type": "fontWeights",
-      "description": "/* Semi Bold */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Semi Bold: <font-weight-absolute> numeric values [1,1000]\n"
     },
     "700": {
       "value": "700",
       "type": "fontWeights",
-      "description": "/* Bold */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Bold: <font-weight-absolute> numeric values [1,1000]\n"
     },
     " 800": {
       "value": "600",
       "type": "fontWeights",
-      "description": "/* Extra Bold */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Extra Bold: <font-weight-absolute> numeric values [1,1000]\n"
     },
     " 900": {
       "value": "900",
       "type": "fontWeights",
-      "description": "/* Black */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Black: <font-weight-absolute> numeric values [1,1000]\n"
     }
   },
   "underline": {
