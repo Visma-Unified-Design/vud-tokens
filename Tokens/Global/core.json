@@ -33,7 +33,7 @@
       "type": "borderRadius"
     },
     "xxxl": {
-      "value": "99",
+      "value": "99px",
       "type": "borderRadius"
     }
   },
@@ -829,7 +829,7 @@
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.400}",
         "lineHeight": "Auto",
-        "fontSize": "48"
+        "fontSize": "48px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -839,7 +839,7 @@
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "48"
+        "fontSize": "48px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -849,7 +849,7 @@
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.400}",
         "lineHeight": "Auto",
-        "fontSize": "32"
+        "fontSize": "32px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -859,7 +859,7 @@
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "32"
+        "fontSize": "32px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -869,7 +869,7 @@
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.400}",
         "lineHeight": "Auto",
-        "fontSize": "24"
+        "fontSize": "24px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -879,7 +879,7 @@
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.500}",
         "lineHeight": "Auto",
-        "fontSize": "24"
+        "fontSize": "24px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -889,7 +889,7 @@
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "24"
+        "fontSize": "24px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -898,7 +898,7 @@
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.400}",
-        "fontSize": "20",
+        "fontSize": "20px",
         "lineHeight": "Auto"
       },
       "type": "typography",
@@ -908,7 +908,7 @@
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.500}",
-        "fontSize": "20",
+        "fontSize": "20px",
         "lineHeight": "Auto"
       },
       "type": "typography",
@@ -919,7 +919,7 @@
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "20"
+        "fontSize": "20px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -931,7 +931,7 @@
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.400}",
         "lineHeight": "Auto",
-        "fontSize": "20"
+        "fontSize": "20px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -941,7 +941,7 @@
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.500}",
         "lineHeight": "Auto",
-        "fontSize": "20"
+        "fontSize": "20px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -951,7 +951,7 @@
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "48"
+        "fontSize": "48px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -961,7 +961,7 @@
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.400}",
         "lineHeight": "Auto",
-        "fontSize": "16"
+        "fontSize": "16px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -971,7 +971,7 @@
         "fontFamily": "{core-font-familiy-primary}",
         "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "24"
+        "fontSize": "24px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -981,7 +981,7 @@
         "fontFamily": "{core-font-familiy-secondary}",
         "fontWeight": "{numeric-values-font-weight.400}",
         "lineHeight": "Auto",
-        "fontSize": "14"
+        "fontSize": "14px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -991,7 +991,7 @@
         "fontFamily": "{core-font-familiy-secondary}",
         "fontWeight": "{numeric-values-font-weight.500}",
         "lineHeight": "Auto",
-        "fontSize": "14"
+        "fontSize": "14px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -1001,7 +1001,7 @@
         "fontFamily": "{core-font-familiy-secondary}",
         "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "14"
+        "fontSize": "14px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -1011,7 +1011,7 @@
         "fontFamily": "{core-font-familiy-secondary}",
         "fontWeight": "{numeric-values-font-weight.400}",
         "lineHeight": "Auto",
-        "fontSize": "13"
+        "fontSize": "13px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -1021,7 +1021,7 @@
         "fontFamily": "{core-font-familiy-secondary}",
         "fontWeight": "{numeric-values-font-weight.500}",
         "lineHeight": "Auto",
-        "fontSize": "13"
+        "fontSize": "13px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -1031,14 +1031,14 @@
         "fontFamily": "{core-font-familiy-secondary}",
         "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "13"
+        "fontSize": "13px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
     }
   },
   "base": {
-    "value": "2",
+    "value": "2px",
     "type": "other",
     "description": "Unique base for sizing, spacing"
   },
@@ -1052,23 +1052,23 @@
       "type": "borderWidth"
     },
     "1": {
-      "value": "1",
+      "value": "1px",
       "type": "borderWidth"
     },
     "2": {
-      "value": "2",
+      "value": "2px",
       "type": "borderWidth"
     },
     "4": {
-      "value": "4",
+      "value": "4px",
       "type": "borderWidth"
     },
     "8": {
-      "value": "8",
+      "value": "8px",
       "type": "borderWidth"
     },
     "1,5": {
-      "value": "1.5",
+      "value": "1.5px",
       "type": "borderWidth"
     }
   },
@@ -1234,7 +1234,7 @@
       "type": "opacity"
     },
     "100": {
-      "value": "100",
+      "value": "100%",
       "type": "opacity"
     }
   },
@@ -1242,47 +1242,47 @@
     "100": {
       "value": "100",
       "type": "fontWeights",
-      "description": "CSS syntax: <font-weight-absolute> numeric values [1,1000]\n/* Thin */"
+      "description": "/* Thin */\n\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n\n"
     },
     "200": {
       "value": "200",
       "type": "fontWeights",
-      "description": "CSS syntax: <font-weight-absolute> numeric values [1,1000]\n/* Extra Light */"
+      "description": "/* Extra Light */ CSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
     },
     "300": {
       "value": "300",
       "type": "fontWeights",
-      "description": "CSS syntax: <font-weight-absolute> numeric values [1,1000]\n/* Light */"
+      "description": "/* Light */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
     },
     "400": {
       "value": "400",
       "type": "fontWeights",
-      "description": "CSS syntax: <font-weight-absolute> numeric values [1,1000]\n/* Normal */"
+      "description": "/* Normal */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
     },
     "500": {
       "value": "500",
       "type": "fontWeights",
-      "description": "CSS syntax: <font-weight-absolute> numeric values [1,1000]\n/* Medium */"
+      "description": "/* Medium */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
     },
     "600": {
       "value": "600",
       "type": "fontWeights",
-      "description": "CSS syntax: <font-weight-absolute> numeric values [1,1000]\n/* Semi Bold */"
+      "description": "/* Semi Bold */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
     },
     "700": {
       "value": "700",
       "type": "fontWeights",
-      "description": "CSS syntax: <font-weight-absolute> numeric values [1,1000]\n/* Bold */"
+      "description": "/* Bold */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
     },
     " 800": {
       "value": "600",
       "type": "fontWeights",
-      "description": "CSS syntax: <font-weight-absolute> numeric values [1,1000]\n/* Extra Bold */"
+      "description": "/* Extra Bold */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
     },
     " 900": {
       "value": "900",
       "type": "fontWeights",
-      "description": "CSS syntax: <font-weight-absolute> numeric values [1,1000]\n/* Black */"
+      "description": "/* Black */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
     }
   },
   "underline": {

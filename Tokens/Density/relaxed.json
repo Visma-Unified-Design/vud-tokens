@@ -5,15 +5,8 @@
       "type": "sizing"
     },
     "padding": {
-      "value": "20",
+      "value": "20px",
       "type": "spacing"
     }
-  },
-  "td-row": {
-    "value": {
-      "sizing": "{density.height}",
-      "spacing": "{density.padding}"
-    },
-    "type": "composition"
   }
 }
