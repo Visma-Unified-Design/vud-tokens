@@ -33,7 +33,7 @@
       "type": "borderRadius"
     },
     "xxxl": {
-      "value": "99",
+      "value": "99px",
       "type": "borderRadius"
     }
   },
@@ -827,9 +827,9 @@
     "lg-regular": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-regular}",
+        "fontWeight": "{numeric-values-font-weight.400}",
         "lineHeight": "Auto",
-        "fontSize": "48"
+        "fontSize": "48px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -837,9 +837,9 @@
     "lg-bold": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-bold}",
+        "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "48"
+        "fontSize": "48px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -847,9 +847,9 @@
     "md-regular": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-regular}",
+        "fontWeight": "{numeric-values-font-weight.400}",
         "lineHeight": "Auto",
-        "fontSize": "32"
+        "fontSize": "32px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -857,9 +857,9 @@
     "md-bold": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-bold}",
+        "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "32"
+        "fontSize": "32px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -867,9 +867,9 @@
     "s-regular": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-regular}",
+        "fontWeight": "{numeric-values-font-weight.400}",
         "lineHeight": "Auto",
-        "fontSize": "24"
+        "fontSize": "24px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -877,9 +877,9 @@
     "s-semibold": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-medium}",
+        "fontWeight": "{numeric-values-font-weight.500}",
         "lineHeight": "Auto",
-        "fontSize": "24"
+        "fontSize": "24px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -887,9 +887,9 @@
     "s-bold": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-bold}",
+        "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "24"
+        "fontSize": "24px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -897,8 +897,8 @@
     "xs-regular": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-regular}",
-        "fontSize": "20",
+        "fontWeight": "{numeric-values-font-weight.400}",
+        "fontSize": "20px",
         "lineHeight": "Auto"
       },
       "type": "typography",
@@ -907,8 +907,8 @@
     "xs-semibold": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-medium}",
-        "fontSize": "20",
+        "fontWeight": "{numeric-values-font-weight.500}",
+        "fontSize": "20px",
         "lineHeight": "Auto"
       },
       "type": "typography",
@@ -917,9 +917,9 @@
     "xs-bold": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-bold}",
+        "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "20"
+        "fontSize": "20px"
       },
       "type": "typography",
       "description": "Suitable for content-based layouts like news articles or content-heavy pages."
@@ -929,9 +929,9 @@
     "primary-lg-regular": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-regular}",
+        "fontWeight": "{numeric-values-font-weight.400}",
         "lineHeight": "Auto",
-        "fontSize": "20"
+        "fontSize": "20px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -939,9 +939,9 @@
     "primary-lg-semibold": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-medium}",
+        "fontWeight": "{numeric-values-font-weight.500}",
         "lineHeight": "Auto",
-        "fontSize": "20"
+        "fontSize": "20px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -949,9 +949,9 @@
     "primary-lg-bold": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-bold}",
+        "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "48"
+        "fontSize": "48px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -959,9 +959,9 @@
     "primary-s-regular": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-regular}",
+        "fontWeight": "{numeric-values-font-weight.400}",
         "lineHeight": "Auto",
-        "fontSize": "16"
+        "fontSize": "16px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -969,9 +969,9 @@
     "primary-s-bold": {
       "value": {
         "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{core-font-weight-bold}",
+        "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "24"
+        "fontSize": "24px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -979,9 +979,9 @@
     "secondary-md-regular": {
       "value": {
         "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{core-font-weight-regular}",
+        "fontWeight": "{numeric-values-font-weight.400}",
         "lineHeight": "Auto",
-        "fontSize": "14"
+        "fontSize": "14px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -989,9 +989,9 @@
     "secondary-md-semibold": {
       "value": {
         "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{core-font-weight-medium}",
+        "fontWeight": "{numeric-values-font-weight.500}",
         "lineHeight": "Auto",
-        "fontSize": "14"
+        "fontSize": "14px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -999,9 +999,9 @@
     "secondary-md-bold": {
       "value": {
         "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{core-font-weight-bold}",
+        "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "14"
+        "fontSize": "14px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -1009,9 +1009,9 @@
     "secondary-s-regular": {
       "value": {
         "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{core-font-weight-regular}",
+        "fontWeight": "{numeric-values-font-weight.400}",
         "lineHeight": "Auto",
-        "fontSize": "13"
+        "fontSize": "13px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -1019,9 +1019,9 @@
     "secondary-s-semibold": {
       "value": {
         "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{core-font-weight-medium}",
+        "fontWeight": "{numeric-values-font-weight.500}",
         "lineHeight": "Auto",
-        "fontSize": "13"
+        "fontSize": "13px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
@@ -1029,16 +1029,16 @@
     "secondary-s-bold": {
       "value": {
         "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{core-font-weight-bold}",
+        "fontWeight": "{numeric-values-font-weight.700}",
         "lineHeight": "Auto",
-        "fontSize": "13"
+        "fontSize": "13px"
       },
       "type": "typography",
       "description": "Body text establishes the fundamental font size used throughout an application.\n"
     }
   },
   "base": {
-    "value": "2",
+    "value": "2px",
     "type": "other",
     "description": "Unique base for sizing, spacing"
   },
@@ -1052,23 +1052,23 @@
       "type": "borderWidth"
     },
     "1": {
-      "value": "1",
+      "value": "1px",
       "type": "borderWidth"
     },
     "2": {
-      "value": "2",
+      "value": "2px",
       "type": "borderWidth"
     },
     "4": {
-      "value": "4",
+      "value": "4px",
       "type": "borderWidth"
     },
     "8": {
-      "value": "8",
+      "value": "8px",
       "type": "borderWidth"
     },
     "1,5": {
-      "value": "1.5",
+      "value": "1.5px",
       "type": "borderWidth"
     }
   },
@@ -1234,25 +1234,56 @@
       "type": "opacity"
     },
     "100": {
-      "value": "100",
+      "value": "100%",
       "type": "opacity"
     }
   },
-  "core-font-weight-regular": {
-    "value": "Regular",
-    "type": "fontWeights"
-  },
-  "core-font-weight-medium": {
-    "value": "Medium",
-    "type": "fontWeights"
-  },
-  "core-font-weight-semibold": {
-    "value": "Semi Bold",
-    "type": "fontWeights"
-  },
-  "core-font-weight-bold": {
-    "value": "Bold",
-    "type": "fontWeights"
+  "numeric-values-font-weight": {
+    "100": {
+      "value": "100",
+      "type": "fontWeights",
+      "description": "/* Thin */\n\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n\n"
+    },
+    "200": {
+      "value": "200",
+      "type": "fontWeights",
+      "description": "/* Extra Light */ CSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+    },
+    "300": {
+      "value": "300",
+      "type": "fontWeights",
+      "description": "/* Light */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+    },
+    "400": {
+      "value": "400",
+      "type": "fontWeights",
+      "description": "/* Normal */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+    },
+    "500": {
+      "value": "500",
+      "type": "fontWeights",
+      "description": "/* Medium */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+    },
+    "600": {
+      "value": "600",
+      "type": "fontWeights",
+      "description": "/* Semi Bold */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+    },
+    "700": {
+      "value": "700",
+      "type": "fontWeights",
+      "description": "/* Bold */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+    },
+    " 800": {
+      "value": "600",
+      "type": "fontWeights",
+      "description": "/* Extra Bold */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+    },
+    " 900": {
+      "value": "900",
+      "type": "fontWeights",
+      "description": "/* Black */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+    }
   },
   "underline": {
     "value": "underline",
@@ -1542,7 +1573,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-secondary}",
           "fontSize": "{font-size.-1}",
-          "fontWeight": "{core-font-weight-regular}"
+          "fontWeight": "{numeric-values-font-weight.400}"
         },
         "type": "typography",
         "description": "Suitable for highlighting important details or provide additional context. \n\nType scaling applied."
@@ -1551,7 +1582,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-primary}",
           "fontSize": "{font-size.2}",
-          "fontWeight": "{core-font-weight-regular}"
+          "fontWeight": "{numeric-values-font-weight.400}"
         },
         "type": "typography",
         "description": "Suitable for product-based UI designs such as panels, cards, and menus. \nThe h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section.\nType scaling applied."
@@ -1559,7 +1590,7 @@
       "h4": {
         "value": {
           "fontFamily": "{core-font-familiy-primary}",
-          "fontWeight": "{core-font-weight-regular}",
+          "fontWeight": "{numeric-values-font-weight.400}",
           "fontSize": "{font-size.0}"
         },
         "type": "typography",
@@ -1568,7 +1599,7 @@
       "body": {
         "value": {
           "fontFamily": "{core-font-familiy-secondary}",
-          "fontWeight": "{core-font-weight-regular}",
+          "fontWeight": "{numeric-values-font-weight.400}",
           "fontSize": "{font-size.0}"
         },
         "type": "typography",
@@ -1577,7 +1608,7 @@
       "link": {
         "value": {
           "fontFamily": "{core-font-familiy-secondary}",
-          "fontWeight": "{core-font-weight-regular}",
+          "fontWeight": "{numeric-values-font-weight.400}",
           "fontSize": "{font-size.0}",
           "textDecoration": "{underline}"
         },
@@ -1590,7 +1621,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-primary}",
           "fontSize": "{font-size.4}",
-          "fontWeight": "{core-font-weight-medium}"
+          "fontWeight": "{numeric-values-font-weight.500}"
         },
         "type": "typography",
         "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h1 tag is commonly used to display the main title on a webpage.\nType scaling applied."
@@ -1600,7 +1631,7 @@
           "fontFamily": "{core-font-familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size.1}",
-          "fontWeight": "{core-font-weight-medium}"
+          "fontWeight": "{numeric-values-font-weight.500}"
         },
         "type": "typography",
         "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.\n\nType scaling applied."
@@ -1608,7 +1639,7 @@
       "h4": {
         "value": {
           "fontFamily": "{core-font-familiy-primary}",
-          "fontWeight": "{core-font-weight-medium}",
+          "fontWeight": "{numeric-values-font-weight.500}",
           "fontSize": "{font-size.0}"
         },
         "type": "typography",
@@ -1617,7 +1648,7 @@
       "body": {
         "value": {
           "fontFamily": "{core-font-familiy-secondary}",
-          "fontWeight": "{core-font-weight-semibold}",
+          "fontWeight": "{numeric-values-font-weight.600}",
           "fontSize": "{font-size.0}"
         },
         "type": "typography",
@@ -1628,7 +1659,7 @@
       "body": {
         "value": {
           "fontFamily": "{core-font-familiy-secondary}",
-          "fontWeight": "{core-font-weight-bold}",
+          "fontWeight": "{numeric-values-font-weight.700}",
           "fontSize": "{font-size.0}"
         },
         "type": "typography",
@@ -1642,7 +1673,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.-1}",
-          "fontWeight": "{core-font-weight-regular}"
+          "fontWeight": "{numeric-values-font-weight.400}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1651,7 +1682,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.0}",
-          "fontWeight": "{core-font-weight-regular}"
+          "fontWeight": "{numeric-values-font-weight.400}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1660,7 +1691,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.1}",
-          "fontWeight": "{core-font-weight-regular}"
+          "fontWeight": "{numeric-values-font-weight.400}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1669,7 +1700,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.2}",
-          "fontWeight": "{core-font-weight-regular}"
+          "fontWeight": "{numeric-values-font-weight.400}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1678,7 +1709,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.3}",
-          "fontWeight": "{core-font-weight-regular}"
+          "fontWeight": "{numeric-values-font-weight.400}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1687,7 +1718,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.4}",
-          "fontWeight": "{core-font-weight-regular}"
+          "fontWeight": "{numeric-values-font-weight.400}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1698,7 +1729,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.-1}",
-          "fontWeight": "{core-font-weight-medium}"
+          "fontWeight": "{numeric-values-font-weight.500}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1707,7 +1738,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.0}",
-          "fontWeight": "{core-font-weight-medium}"
+          "fontWeight": "{numeric-values-font-weight.500}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1716,7 +1747,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.1}",
-          "fontWeight": "{core-font-weight-medium}"
+          "fontWeight": "{numeric-values-font-weight.500}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1725,7 +1756,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.2}",
-          "fontWeight": "{core-font-weight-medium}"
+          "fontWeight": "{numeric-values-font-weight.500}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1734,7 +1765,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.3}",
-          "fontWeight": "{core-font-weight-medium}"
+          "fontWeight": "{numeric-values-font-weight.500}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1743,7 +1774,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.4}",
-          "fontWeight": "{core-font-weight-medium}"
+          "fontWeight": "{numeric-values-font-weight.500}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1754,7 +1785,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.-1}",
-          "fontWeight": "{core-font-weight-semibold}"
+          "fontWeight": "{numeric-values-font-weight.600}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1763,7 +1794,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.0}",
-          "fontWeight": "{core-font-weight-semibold}"
+          "fontWeight": "{numeric-values-font-weight.600}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1772,7 +1803,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.1}",
-          "fontWeight": "{core-font-weight-semibold}"
+          "fontWeight": "{numeric-values-font-weight.600}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1781,7 +1812,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.2}",
-          "fontWeight": "{core-font-weight-semibold}"
+          "fontWeight": "{numeric-values-font-weight.600}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1790,7 +1821,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.3}",
-          "fontWeight": "{core-font-weight-semibold}"
+          "fontWeight": "{numeric-values-font-weight.600}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1799,7 +1830,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.4}",
-          "fontWeight": "{core-font-weight-semibold}"
+          "fontWeight": "{numeric-values-font-weight.600}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -1813,5 +1844,17 @@
   "core-font-familiy-tertiary": {
     "value": "Inter",
     "type": "fontFamilies"
+  },
+  "keyword-values-font-weight": {
+    "normal": {
+      "value": "Normal",
+      "type": "fontWeights",
+      "description": "CSS syntax: <font-weight-absolute> keyword values"
+    },
+    "bold": {
+      "value": "Bold",
+      "type": "fontWeights",
+      "description": "CSS syntax: font-weight-absolute> numeric values [1,1000]"
+    }
   }
 }
