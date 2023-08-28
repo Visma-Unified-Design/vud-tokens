@@ -3,7 +3,7 @@
     "mapping": [{
         "tokenSets": [
           "Global/core",
-          "Mode/light",
+          "Themes/light",
           "Components/btn-conf/default",
           "Components/btn-conf/primary",
           "Components/btn-conf/secondary",
@@ -29,7 +29,7 @@
     }, {
         "tokenSets": [
           "Global/core",
-          "Mode/dark",
+          "Themes/dark",
           "Components/btn-conf/default",
           "Components/btn-conf/primary",
           "Components/btn-conf/secondary",
