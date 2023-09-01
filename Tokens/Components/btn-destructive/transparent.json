@@ -31,7 +31,7 @@
       "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
     },
     "surface-enabled": {
-      "value": "rgba({ref-properties.fill.on-destructive-default.enabled}, {opacity.0})",
+      "value": "rgba({ref-properties.fill.on-destructive-default.enabled}, {opacity.opaque-0})",
       "type": "color",
       "description": "Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
     },
@@ -56,7 +56,7 @@
       "description": "Surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "border-enabled": {
-      "value": "rgba({ref-properties.border.on-destructive-default.enabled}, {opacity.0})",
+      "value": "rgba({ref-properties.border.on-destructive-default.enabled}, {opacity.opaque-0})",
       "type": "color",
       "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
     },

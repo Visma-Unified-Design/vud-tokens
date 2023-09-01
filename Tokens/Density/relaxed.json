@@ -1,7 +1,7 @@
 {
   "density": {
     "height": {
-      "value": "{sizing.56}",
+      "value": "{sizing.size-56}",
       "type": "sizing"
     },
     "padding": {
