@@ -136,11 +136,11 @@
           "type": "color"
         },
         "fill-default": {
-          "value": "rgba( {ref-brand.neutral-light-80}, {opacity.8})",
+          "value": "rgba( {ref-brand.neutral-light-80}, {opacity.opaque-8})",
           "type": "color"
         },
         "fill-emphasis": {
-          "value": "rgba( {ref-brand.primary-60}, {opacity.24})",
+          "value": "rgba( {ref-brand.primary-60}, {opacity.opaque-24})",
           "type": "color"
         }
       },
@@ -154,11 +154,11 @@
           "type": "color"
         },
         "fill-default": {
-          "value": "rgba( {ref-brand.neutral-light-80}, {opacity.8})",
+          "value": "rgba( {ref-brand.neutral-light-80}, {opacity.opaque-8})",
           "type": "color"
         },
         "fill-emphasis": {
-          "value": "rgba( {ref-brand.secondary-60}, {opacity.24})",
+          "value": "rgba( {ref-brand.secondary-60}, {opacity.opaque-24})",
           "type": "color"
         }
       },
@@ -172,11 +172,11 @@
           "type": "color"
         },
         "fill-default": {
-          "value": "rgba( {ref-brand.neutral-light-80}, {opacity.8})",
+          "value": "rgba( {ref-brand.neutral-light-80}, {opacity.opaque-8})",
           "type": "color"
         },
         "fill-emphasis": {
-          "value": "rgba( {ref-brand.tertiary-60}, {opacity.24})",
+          "value": "rgba( {ref-brand.tertiary-60}, {opacity.opaque-24})",
           "type": "color"
         }
       }
@@ -214,7 +214,7 @@
           "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
         },
         "transparent": {
-          "value": "rgba({ref-brand.neutral-light-60}, {opacity.0})",
+          "value": "rgba({ref-brand.neutral-light-60}, {opacity.opaque-0})",
           "type": "color",
           "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
         },
@@ -395,7 +395,7 @@
           "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "transparent": {
-          "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+          "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
           "type": "color",
           "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
         },
@@ -427,7 +427,7 @@
           "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "transparent": {
-          "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+          "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
           "type": "color",
           "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
         },
@@ -657,7 +657,7 @@
           "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
         },
         "transparent": {
-          "value": "rgba({ref-brand.neutral-light-05}, {opacity.0})",
+          "value": "rgba({ref-brand.neutral-light-05}, {opacity.opaque-0})",
           "type": "color",
           "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
         },
@@ -839,7 +839,7 @@
           "description": "Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "transparent": {
-          "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+          "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
           "type": "color",
           "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
         },
@@ -880,7 +880,7 @@
           "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "transparent": {
-          "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+          "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
           "type": "color",
           "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
         },
@@ -1104,21 +1104,21 @@
     },
     "shade": {
       "weak": {
-        "value": "rgba( {vud-base.neutral-dark-90},{opacity.8})",
+        "value": "rgba( {vud-base.neutral-dark-90},{opacity.opaque-8})",
         "type": "color"
       },
       "moderate": {
-        "value": "rgba( {vud-base.neutral-dark-90},{opacity.12})",
+        "value": "rgba( {vud-base.neutral-dark-90},{opacity.opaque-12})",
         "type": "color"
       }
     },
     "tint": {
       "weak": {
-        "value": "rgba({ref-brand.neutral-light-05}, {opacity.8})",
+        "value": "rgba({ref-brand.neutral-light-05}, {opacity.opaque-8})",
         "type": "color"
       },
       "moderate": {
-        "value": "rgba( {ref-brand.neutral-dark-05}, {opacity.12})",
+        "value": "rgba( {ref-brand.neutral-dark-05}, {opacity.opaque-12})",
         "type": "color"
       }
     },
@@ -1177,7 +1177,7 @@
         "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
       },
       "surface-transparent": {
-        "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
+        "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.opaque-0})",
         "type": "color",
         "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
@@ -1232,7 +1232,7 @@
         "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
       },
       "border-transparent": {
-        "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+        "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
         "type": "color",
         "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
@@ -1314,7 +1314,7 @@
         "description": "Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       },
       "surface-transparent": {
-        "value": "rgba({ref-properties.fill.on-destructive-default.enabled}, {opacity.0})",
+        "value": "rgba({ref-properties.fill.on-destructive-default.enabled}, {opacity.opaque-0})",
         "type": "color",
         "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
       },
@@ -1344,7 +1344,7 @@
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       },
       "border-transparent": {
-        "value": "rgba({ref-properties.border.on-destructive-default.enabled}, {opacity.0})",
+        "value": "rgba({ref-properties.border.on-destructive-default.enabled}, {opacity.opaque-0})",
         "type": "color",
         "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
       },
@@ -1495,7 +1495,7 @@
         "description": "Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       },
       "surface-transparent": {
-        "value": "rgba({ref-properties.fill.on-destructive-default.enabled}, {opacity.0})",
+        "value": "rgba({ref-properties.fill.on-destructive-default.enabled}, {opacity.opaque-0})",
         "type": "color",
         "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
       },
@@ -1526,7 +1526,7 @@
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       },
       "border-transparent": {
-        "value": "rgba({ref-properties.border.on-destructive-default.enabled}, {opacity.0})",
+        "value": "rgba({ref-properties.border.on-destructive-default.enabled}, {opacity.opaque-0})",
         "type": "color",
         "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
       },
@@ -1779,7 +1779,7 @@
         "description": "Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       },
       "surface-transparent": {
-        "value": "rgba({ref-properties.fill.on-destructive-default.enabled}, {opacity.0})",
+        "value": "rgba({ref-properties.fill.on-destructive-default.enabled}, {opacity.opaque-0})",
         "type": "color",
         "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
       },
@@ -1810,7 +1810,7 @@
         "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       },
       "border-transparent": {
-        "value": "rgba({ref-properties.border.on-destructive-default.enabled}, {opacity.0})",
+        "value": "rgba({ref-properties.border.on-destructive-default.enabled}, {opacity.opaque-0})",
         "type": "color",
         "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
       },
@@ -1946,7 +1946,7 @@
         "y": "2",
         "blur": "4",
         "spread": "0",
-        "color": "rgba({ref-brand.primary-80},{opacity.16})",
+        "color": "rgba({ref-brand.primary-80},{opacity.opaque-16})",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -1957,7 +1957,7 @@
         "y": "2",
         "blur": "4",
         "spread": "0",
-        "color": "rgba( {vud-base.neutral-light-90}, {opacity.8})",
+        "color": "rgba( {vud-base.neutral-light-90}, {opacity.opaque-8})",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -1968,7 +1968,7 @@
         "y": "5",
         "blur": "10",
         "spread": "0",
-        "color": "rgba( {vud-base.neutral-light-90}, {opacity.12})",
+        "color": "rgba( {vud-base.neutral-light-90}, {opacity.opaque-12})",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -1979,7 +1979,7 @@
         "y": "10",
         "blur": "15",
         "spread": "0",
-        "color": "rgba({vud-base.neutral-light-90}, {opacity.16})",
+        "color": "rgba({vud-base.neutral-light-90}, {opacity.opaque-16})",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -1990,7 +1990,7 @@
         "y": "15",
         "blur": "40",
         "spread": "0",
-        "color": "rgba({vud-base.neutral-light-90}, {opacity.24})",
+        "color": "rgba({vud-base.neutral-light-90}, {opacity.opaque-24})",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -2012,7 +2012,7 @@
           "y": "2",
           "blur": "4",
           "spread": "0",
-          "color": "rgba({ref-brand.secondary-90}, {opacity.12})",
+          "color": "rgba({ref-brand.secondary-90}, {opacity.opaque-12})",
           "type": "dropShadow"
         }
       ],
@@ -2119,7 +2119,7 @@
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2211,7 +2211,7 @@
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2268,7 +2268,7 @@
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-transparent": {
-      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
+      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2278,7 +2278,7 @@
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     }
@@ -2330,7 +2330,7 @@
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2380,7 +2380,7 @@
       "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2472,7 +2472,7 @@
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2522,7 +2522,7 @@
       "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2634,7 +2634,7 @@
       "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "surface-transparent": {
-      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
+      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2684,7 +2684,7 @@
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2805,7 +2805,7 @@
       "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2897,7 +2897,7 @@
       "description": "Surface on container."
     },
     "surface-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2932,7 +2932,7 @@
       "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "surface-disabled": {
-      "value": "rgba({ref-properties.fill.on-default.disabled}, {opacity.8})",
+      "value": "rgba({ref-properties.fill.on-default.disabled}, {opacity.opaque-8})",
       "type": "color",
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
@@ -2942,7 +2942,7 @@
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2972,7 +2972,7 @@
       "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "border-disabled-none": {
-      "value": "rgba({ref-properties.border.on-default.disabled},{opacity.0})",
+      "value": "rgba({ref-properties.border.on-default.disabled},{opacity.opaque-0})",
       "type": "color",
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
@@ -3034,7 +3034,7 @@
       "description": "Surface on container."
     },
     "surface-transparent": {
-      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
+      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -3044,7 +3044,7 @@
       "description": "Surface on container."
     },
     "surface-hover": {
-      "value": "rgba({ref-properties.fill.on-default.enabled}, {opacity.8})",
+      "value": "rgba({ref-properties.fill.on-default.enabled}, {opacity.opaque-8})",
       "type": "color",
       "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
@@ -3074,7 +3074,7 @@
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -3094,7 +3094,7 @@
       "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
     },
     "border-disabled-none": {
-      "value": "rgba({ref-properties.border.on-default.disabled},{opacity.0})",
+      "value": "rgba({ref-properties.border.on-default.disabled},{opacity.opaque-0})",
       "type": "color",
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
@@ -3156,7 +3156,7 @@
       "description": "Surface on container."
     },
     "surface-transparent": {
-      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
+      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -3166,7 +3166,7 @@
       "description": "Surface on container."
     },
     "surface-hover": {
-      "value": "rgba({ref-properties.fill.on-default.enabled}, {opacity.8})",
+      "value": "rgba({ref-properties.fill.on-default.enabled}, {opacity.opaque-8})",
       "type": "color",
       "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
@@ -3196,7 +3196,7 @@
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -3216,7 +3216,7 @@
       "description": "Border with a selected state refers to an interaction that occurs when the ui element is active."
     },
     "border-disabled-none": {
-      "value": "rgba({ref-properties.border.on-default.disabled},{opacity.0})",
+      "value": "rgba({ref-properties.border.on-default.disabled},{opacity.opaque-0})",
       "type": "color",
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
@@ -3273,7 +3273,7 @@
       "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -3317,7 +3317,7 @@
       }
     },
     "surface-disabled": {
-      "value": "rgba({ref-properties.fill.on-default.disabled}, {opacity.8})",
+      "value": "rgba({ref-properties.fill.on-default.disabled}, {opacity.opaque-8})",
       "type": "color",
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
@@ -3327,7 +3327,7 @@
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -3371,7 +3371,7 @@
       }
     },
     "border-disabled-none": {
-      "value": "rgba({ref-properties.border.on-default.disabled},{opacity.0})",
+      "value": "rgba({ref-properties.border.on-default.disabled},{opacity.opaque-0})",
       "type": "color",
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
@@ -3403,7 +3403,7 @@
       "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
     },
     "text-disabled": {
-      "value": "rgba({ref-properties.text.inverse}, {opacity.56})",
+      "value": "rgba({ref-properties.text.inverse}, {opacity.opaque-56})",
       "type": "color",
       "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
     },
@@ -3418,12 +3418,12 @@
       "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
     },
     "icon-disabled": {
-      "value": "rgba({ref-properties.icon.inverse},{opacity.56})",
+      "value": "rgba({ref-properties.icon.inverse},{opacity.opaque-56})",
       "type": "color",
       "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "surface-transparent": {
-      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
+      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -3433,7 +3433,7 @@
       "description": "Surface on container."
     },
     "surface-hover": {
-      "value": "rgba({ref-properties.fill.on-default.enabled}, {opacity.8})",
+      "value": "rgba({ref-properties.fill.on-default.enabled}, {opacity.opaque-8})",
       "type": "color",
       "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
@@ -3463,17 +3463,17 @@
       "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "surface-disabled": {
-      "value": "rgba( {ref-properties.fill.on-default.disabled} ,{opacity.0})",
+      "value": "rgba( {ref-properties.fill.on-default.disabled} ,{opacity.opaque-0})",
       "type": "color",
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "border-enabled": {
-      "value": "rgba({ref-properties.border.on-default.enabled},{opacity.8})",
+      "value": "rgba({ref-properties.border.on-default.enabled},{opacity.opaque-8})",
       "type": "color",
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -3508,7 +3508,7 @@
       "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "border-disabled-none": {
-      "value": "rgba({ref-properties.border.on-default.disabled},{opacity.0})",
+      "value": "rgba({ref-properties.border.on-default.disabled},{opacity.opaque-0})",
       "type": "color",
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
@@ -3540,7 +3540,7 @@
       "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
     },
     "text-disabled": {
-      "value": "rgba({ref-properties.text.inverse} ,{opacity.56})",
+      "value": "rgba({ref-properties.text.inverse} ,{opacity.opaque-56})",
       "type": "color",
       "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
     },
@@ -3555,12 +3555,12 @@
       "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
     },
     "icon-disabled": {
-      "value": "rgba({ref-properties.icon.inverse},{opacity.56})",
+      "value": "rgba({ref-properties.icon.inverse},{opacity.opaque-56})",
       "type": "color",
       "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "surface-transparent": {
-      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
+      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -3570,7 +3570,7 @@
       "description": "Surface on container."
     },
     "surface-hover": {
-      "value": "rgba({ref-properties.fill.on-default.enabled}, {opacity.8})",
+      "value": "rgba({ref-properties.fill.on-default.enabled}, {opacity.opaque-8})",
       "type": "color",
       "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
@@ -3600,7 +3600,7 @@
       "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "surface-disabled": {
-      "value": "rgba( {ref-properties.fill.on-default.disabled} ,{opacity.0})",
+      "value": "rgba( {ref-properties.fill.on-default.disabled} ,{opacity.opaque-0})",
       "type": "color",
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
@@ -3610,7 +3610,7 @@
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -3645,7 +3645,7 @@
       "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "border-disabled-none": {
-      "value": "rgba({ref-properties.border.on-default.disabled},{opacity.0})",
+      "value": "rgba({ref-properties.border.on-default.disabled},{opacity.opaque-0})",
       "type": "color",
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
@@ -3716,7 +3716,7 @@
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-transparent": {
-      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.0})",
+      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -4466,7 +4466,7 @@
       "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -4568,7 +4568,7 @@
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -4623,7 +4623,7 @@
       "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -4705,7 +4705,7 @@
       "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -4725,7 +4725,7 @@
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.0})",
+      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },

@@ -1,0 +1,8 @@
+{
+  "density": {
+    "default": {
+      "value": "{sizing.size-40}",
+      "type": "sizing"
+    }
+  }
+}
