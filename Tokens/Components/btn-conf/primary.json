@@ -1,5 +1,5 @@
 {
-  "comp-btn": {
+  "comp-btn-confirmatory": {
     "text-default": {
       "value": "{comp-btn-primary.on-confimatory.text-inverse}",
       "type": "color",

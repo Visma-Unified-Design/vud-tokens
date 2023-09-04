@@ -1,5 +1,5 @@
 {
-  "comp-btn": {
+  "comp-btn-tint": {
     "text-default": {
       "value": "{comp-btn-primary.on-variant.text-default}",
       "type": "color",

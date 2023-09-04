@@ -16,5 +16,23 @@
       "value": "20px",
       "type": "spacing"
     }
+  },
+  "height": {
+    "condensed": {
+      "value": "{sizing.size-32}",
+      "type": "sizing"
+    },
+    "default": {
+      "value": "{sizing.size-32}",
+      "type": "sizing"
+    },
+    "regular": {
+      "value": "{sizing.size-32}",
+      "type": "sizing"
+    },
+    "relaxed": {
+      "value": "{sizing.size-32}",
+      "type": "sizing"
+    }
   }
 }

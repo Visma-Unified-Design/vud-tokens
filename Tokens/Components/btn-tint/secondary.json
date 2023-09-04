@@ -1,5 +1,5 @@
 {
-  "comp-btn": {
+  "comp-btn-tint": {
     "text-default": {
       "value": "{ref-brand.secondary-90}",
       "type": "color",

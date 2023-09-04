@@ -1,5 +1,5 @@
 {
-  "comp-btn": {
+  "comp-btn-destructive": {
     "text-default": {
       "value": "{ref-properties.text.error-weak}",
       "type": "color",
