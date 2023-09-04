@@ -1,0 +1,20 @@
+{
+  "padding-height": {
+    "condensed": {
+      "value": "{spacing.space-8}",
+      "type": "spacing"
+    },
+    "default": {
+      "value": "{spacing.space-12}",
+      "type": "spacing"
+    },
+    "regular": {
+      "value": "{spacing.space-16}",
+      "type": "spacing"
+    },
+    "relaxed": {
+      "value": "20px",
+      "type": "spacing"
+    }
+  }
+}
