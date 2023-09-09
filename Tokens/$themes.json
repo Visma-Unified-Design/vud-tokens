@@ -2025,8 +2025,8 @@
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "758:0",
     "$figmaVariableReferences": {
-      "density.padding-height": "76c05261579123944b15e5d4c758c6ef9e3a8146",
-      "density.height": "e09aaa069cd12fd83fda05532e5c5362ae8446a5"
+      "density.height": "e09aaa069cd12fd83fda05532e5c5362ae8446a5",
+      "density.paddingHeight": "76c05261579123944b15e5d4c758c6ef9e3a8146"
     },
     "group": "Density"
   },
@@ -2041,8 +2041,8 @@
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "758:2",
     "$figmaVariableReferences": {
-      "density.padding-height": "76c05261579123944b15e5d4c758c6ef9e3a8146",
-      "density.height": "e09aaa069cd12fd83fda05532e5c5362ae8446a5"
+      "density.height": "e09aaa069cd12fd83fda05532e5c5362ae8446a5",
+      "density.paddingHeight": "76c05261579123944b15e5d4c758c6ef9e3a8146"
     },
     "group": "Density"
   },
@@ -2057,8 +2057,8 @@
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "759:3",
     "$figmaVariableReferences": {
-      "density.padding-height": "76c05261579123944b15e5d4c758c6ef9e3a8146",
-      "density.height": "e09aaa069cd12fd83fda05532e5c5362ae8446a5"
+      "density.height": "e09aaa069cd12fd83fda05532e5c5362ae8446a5",
+      "density.paddingHeight": "76c05261579123944b15e5d4c758c6ef9e3a8146"
     },
     "group": "Density"
   },
@@ -2073,8 +2073,8 @@
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "759:4",
     "$figmaVariableReferences": {
-      "density.padding-height": "76c05261579123944b15e5d4c758c6ef9e3a8146",
-      "density.height": "e09aaa069cd12fd83fda05532e5c5362ae8446a5"
+      "density.height": "e09aaa069cd12fd83fda05532e5c5362ae8446a5",
+      "density.paddingHeight": "76c05261579123944b15e5d4c758c6ef9e3a8146"
     },
     "group": "Density"
   },

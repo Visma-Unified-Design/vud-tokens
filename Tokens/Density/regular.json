@@ -1,6 +1,6 @@
 {
   "density": {
-    "padding-height": {
+    "paddingHeight": {
       "value": "{spacing.space-16}",
       "type": "spacing"
     },
