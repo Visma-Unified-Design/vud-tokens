@@ -20,7 +20,6 @@
     "Dimension/small",
     "Dimension/medium",
     "Dimension/large",
-    "Radius/round",
-    "Radius/sharp"
+    "Radius/round"
   ]
 }

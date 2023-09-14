@@ -1,5 +1,5 @@
 {
-  "radius": {
+  "rounded": {
     "none": {
       "value": "{radii.none}",
       "type": "borderRadius"
