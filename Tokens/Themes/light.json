@@ -1939,8 +1939,19 @@
       }
     }
   },
-  "ref-box-shadow": {
-    "brand-elevation-01": {
+  "ref-shadow": {
+    "default-elevation-0": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "rgba( {vud-base.neutral-light-90}, {opacity.opaque-8})",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "brand-elevation-1": {
       "value": {
         "x": "0",
         "y": "2",
@@ -1951,7 +1962,7 @@
       },
       "type": "boxShadow"
     },
-    "default-elevation-01": {
+    "default-elevation-1": {
       "value": {
         "x": "0",
         "y": "2",
@@ -1962,7 +1973,7 @@
       },
       "type": "boxShadow"
     },
-    "default-elevation-02": {
+    "default-elevation-2": {
       "value": {
         "x": "0",
         "y": "5",
@@ -1973,7 +1984,7 @@
       },
       "type": "boxShadow"
     },
-    "default-elevation-03": {
+    "default-elevation-3": {
       "value": {
         "x": "0",
         "y": "10",
@@ -1984,7 +1995,7 @@
       },
       "type": "boxShadow"
     },
-    "default-elevation-04": {
+    "default-elevation-4": {
       "value": {
         "x": "0",
         "y": "15",
@@ -3899,7 +3910,7 @@
       }
     }
   },
-  "comp-table-cell": {
+  "comp-td-cell": {
     "border": {
       "left": {
         "value": {
