@@ -135,7 +135,7 @@
           "type": "color"
         },
         "fill-default": {
-          "value": "rgba({ref-brand.neutral-dark-05}, {opacity.8})",
+          "value": "#c72929",
           "type": "color"
         },
         "fill-emphasis": {
