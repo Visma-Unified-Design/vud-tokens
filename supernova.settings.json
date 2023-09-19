@@ -13,16 +13,7 @@
           "Components/btn-destructive/primary",
           "Components/btn-tint/default",
           "Components/btn-tint/primary",
-          "Components/btn-tint/secondary",
-          "Spacing/condensed",
-          "Spacing/default",
-          "Spacing/regular",
-          "Spacing/relaxed",
-          "Dimension/small",
-          "Dimension/medium",
-          "Dimension/large",
-          "Radius/round",
-          "Radius/sharp"
+          "Components/btn-tint/secondary"
         ],
         "supernovaBrand": "VUD",
         "supernovaTheme": null
@@ -39,20 +30,64 @@
           "Components/btn-destructive/primary",
           "Components/btn-tint/default",
           "Components/btn-tint/primary",
-          "Components/btn-tint/secondary",
+          "Components/btn-tint/secondary"
+        ],
+        "supernovaBrand": "VUD",
+        "supernovaTheme": "Dark theme"
+
+       
+    },
+    {
+        "tokenSets": [
+          "Global/core",
           "Spacing/condensed",
           "Spacing/default",
           "Spacing/regular",
-          "Spacing/relaxed",
+          "Spacing/relaxed"
+        ],
+        "supernovaBrand": "VUD",
+        "supernovaTheme": "Density"
+
+       
+    },
+        {
+        "tokenSets": [
+          "Global/core",
+          "Spacing/condensed",
+          "Spacing/default",
+          "Spacing/regular",
+          "Spacing/relaxed"
+        ],
+        "supernovaBrand": "VUD",
+        "supernovaTheme": "Density"
+
+       
+    },
+        {
+        "tokenSets": [
+          "Global/core",
           "Dimension/small",
           "Dimension/medium",
-          "Dimension/large",
+          "Dimension/large"
+        ],
+        "supernovaBrand": "VUD",
+        "supernovaTheme": "Dimension"
+
+       
+    },
+          {
+        "tokenSets": [
+          "Global/core",
           "Radius/round",
           "Radius/sharp"
         ],
         "supernovaBrand": "VUD",
-        "supernovaTheme": "Dark theme"
-    }],
+        "supernovaTheme": "Radius"  
+    }
+    
+    
+    
+    ],
     "settings": {
       "dryRun": false,
       "verbose": true,
