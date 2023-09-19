@@ -1212,7 +1212,7 @@
         "description": "Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       },
       "text-inverse": {
-        "value": "{ref-properties.text.default}",
+        "value": "{ref-properties.text.inverse}",
         "type": "color",
         "description": "Inverse text refers to the opposite color that contrasts with the background. "
       },
@@ -1480,7 +1480,7 @@
         "description": "Border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       }
     },
-    "on-variant": {
+    "on-tint": {
       "text-default": {
         "value": "{ref-brand.primary-90}",
         "type": "color",
@@ -1764,7 +1764,7 @@
         "description": "Border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       }
     },
-    "on-variant": {
+    "on-tint": {
       "text-default": {
         "value": "{ref-brand.secondary-90}",
         "type": "color",
@@ -1949,7 +1949,7 @@
           "y": "0",
           "blur": "0",
           "spread": "3",
-          "color": "{ref-brand.neutral-dark-05}",
+          "color": "{ref-brand.neutral-dark-90}",
           "type": "innerShadow"
         },
         {
