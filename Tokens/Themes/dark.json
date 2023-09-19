@@ -1487,7 +1487,7 @@
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
       "text-inverse": {
-        "value": "{ref-properties.text.default}",
+        "value": "{vud-ref-funct.success-05}",
         "type": "color",
         "description": "Inverse text refers to the opposite color that contrasts with the background. "
       },
@@ -1502,7 +1502,7 @@
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
       "icon-inverse": {
-        "value": "{ref-properties.icon.default}",
+        "value": "{ref-brand.primary-10}",
         "type": "color",
         "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
       },
@@ -1771,7 +1771,7 @@
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
       "text-inverse": {
-        "value": "{ref-properties.text.default}",
+        "value": "{vud-ref-funct.info-05}",
         "type": "color",
         "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
       },
@@ -1786,7 +1786,7 @@
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
       "icon-inverse": {
-        "value": "{ref-properties.icon.default}",
+        "value": "{ref-brand.secondary-10}",
         "type": "color",
         "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
       },
