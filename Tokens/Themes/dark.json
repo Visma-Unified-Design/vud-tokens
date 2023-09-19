@@ -290,7 +290,7 @@
           "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{ref-brand.secondary-50}",
+          "value": "{ref-brand.neutral-dark-05}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
@@ -328,7 +328,7 @@
           "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{ref-brand.secondary-50}",
+          "value": "{ref-brand.neutral-dark-05}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
@@ -481,23 +481,23 @@
       },
       "on-primary-tint": {
         "enabled": {
-          "value": "{ref-brand.primary-50}",
+          "value": "{ref-brand.primary-60}",
           "type": "color",
           "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{ref-brand.primary-40}",
+          "value": "{ref-brand.primary-50}",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {}
         },
         "pressed": {
-          "value": "{ref-brand.primary-40}",
+          "value": "{ref-brand.primary-60}",
           "type": "color",
           "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{ref-brand.secondary-50}",
+          "value": "{ref-brand.neutral-dark-05}",
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
@@ -528,23 +528,23 @@
       },
       "on-secondary-tint": {
         "enabled": {
-          "value": "{ref-brand.secondary-50}",
+          "value": "{ref-brand.secondary-60}",
           "type": "color",
           "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{ref-brand.secondary-40}",
+          "value": "{ref-brand.secondary-50}",
           "type": "color",
           "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {}
         },
         "pressed": {
-          "value": "{ref-brand.secondary-40}",
+          "value": "{ref-brand.secondary-50}",
           "type": "color",
           "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{ref-brand.secondary-50}",
+          "value": "{ref-brand.neutral-dark-05}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
@@ -990,12 +990,12 @@
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected": {
-          "value": "{ref-brand.secondary-70}",
+          "value": "{ref-brand.secondary-80}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
         "selected:hover": {
-          "value": "{ref-brand.secondary-70}",
+          "value": "{ref-brand.secondary-80}",
           "type": "color",
           "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -1482,7 +1482,7 @@
     },
     "on-tint": {
       "text-default": {
-        "value": "{ref-properties.text.default}",
+        "value": "{vud-ref-funct.success-05}",
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
@@ -1497,7 +1497,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "icon-default": {
-        "value": "{ref-brand.primary-80}",
+        "value": "{ref-brand.primary-10}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
@@ -1766,7 +1766,7 @@
     },
     "on-tint": {
       "text-default": {
-        "value": "{ref-brand.secondary-90}",
+        "value": "{vud-ref-funct.info-05}",
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
@@ -1781,7 +1781,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "icon-default": {
-        "value": "{ref-brand.secondary-70}",
+        "value": "{ref-brand.secondary-10}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
