@@ -3,17 +3,6 @@
     "Global/core",
     "Themes/light",
     "Themes/dark",
-    "Components/button",
-    "Colors/btn-conf/default",
-    "Colors/btn-conf/primary",
-    "Colors/btn-conf/secondary",
-    "Colors/btn-conf/transparent",
-    "Colors/btn-destructive/default",
-    "Colors/btn-destructive/primary",
-    "Colors/btn-destructive/transparent",
-    "Colors/btn-tint/default",
-    "Colors/btn-tint/primary",
-    "Colors/btn-tint/secondary",
     "Density/condensed",
     "Density/default",
     "Density/regular",
@@ -21,6 +10,12 @@
     "Dimension/small",
     "Dimension/medium",
     "Dimension/large",
-    "Radius/round"
+    "Radius/round",
+    "Radius/sharp",
+    "Extends/button",
+    "Extends/radius",
+    "Extends/density",
+    "Extends/modal",
+    "Extends/card"
   ]
 }

@@ -9,39 +9,32 @@
       "type": "borderRadius"
     },
     "xs": {
-      "value": "{radii.xs}",
+      "value": "{radii.xxs}",
       "type": "borderRadius"
     },
     "s": {
-      "value": "{radii.s}",
+      "value": "{radii.xxs}",
       "type": "borderRadius"
     },
     "md": {
-      "value": "{radii.md}",
+      "value": "{radii.xxs}",
       "type": "borderRadius"
     },
     "lg": {
-      "value": "{radii.lg}",
+      "value": "{radii.xxs}",
       "type": "borderRadius"
     },
     "xl": {
-      "value": "{radii.xl}",
+      "value": "{radii.xxs}",
       "type": "borderRadius"
     },
     "xxl": {
-      "value": "{radii.xxl}",
+      "value": "{radii.xxs}",
       "type": "borderRadius"
     },
     "xxxl": {
-      "value": "{radii.xxxl}",
+      "value": "{radii.xxs}",
       "type": "borderRadius"
     }
-  },
-  "Card": {
-    "value": {
-      "borderRadius": "{radius.xl}",
-      "height": "{sizing.size-96}"
-    },
-    "type": "composition"
   }
 }

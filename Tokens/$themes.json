@@ -4,17 +4,7 @@
     "name": "Core",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/core": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
+      "Global/core": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1039:134",
     "$figmaModeId": "1039:0",
@@ -292,17 +282,7 @@
     },
     "selectedTokenSets": {
       "Global/core": "source",
-      "Themes/light": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
+      "Themes/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:152:5558",
     "$figmaModeId": "152:12",
@@ -1170,17 +1150,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Themes/dark": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
+      "Themes/dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:152:5558",
     "$figmaModeId": "152:13",
@@ -2045,190 +2015,12 @@
     "group": "Themes"
   },
   {
-    "id": "c00952bb13ca410d4b7f313f44869c80e97718bd",
-    "name": "Default",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Global/core": "source",
-      "Themes/light": "source",
-      "Components/button": "enabled",
-      "Colors/btn-conf/default": "enabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
-    },
-    "group": "Button conf"
-  },
-  {
-    "id": "2ee4c643614c1b00add16bc1baf28b716555757c",
-    "name": "Primary",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Global/core": "source",
-      "Themes/light": "source",
-      "Components/button": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "enabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
-    },
-    "group": "Button conf"
-  },
-  {
-    "id": "58cf5f6ecb54d07a8beaa716ab38b57ad96a0b4d",
-    "name": "Secondary",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Global/core": "source",
-      "Themes/light": "source",
-      "Components/button": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "enabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
-    },
-    "group": "Button conf"
-  },
-  {
-    "id": "e5a9bd527454a53b23cc709ffa231ac5724c53df",
-    "name": "Transparent",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Global/core": "source",
-      "Themes/light": "source",
-      "Components/button": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "enabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
-    },
-    "group": "Button conf"
-  },
-  {
-    "id": "e4812c36d300bc45b228de55eb147a8163d6352d",
-    "name": "Default",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Global/core": "source",
-      "Themes/light": "source",
-      "Components/button": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "enabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
-    },
-    "group": "Button destructive"
-  },
-  {
-    "id": "022ee34570a75392b372605223eb16cbd9447c67",
-    "name": "Primary",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Global/core": "source",
-      "Themes/light": "source",
-      "Components/button": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "enabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
-    },
-    "group": "Button destructive"
-  },
-  {
-    "id": "5014abdef1f4da93abb873df87c9ff29b9e60a5c",
-    "name": "Transparent",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Global/core": "source",
-      "Themes/light": "source",
-      "Components/button": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "enabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
-    },
-    "group": "Button destructive"
-  },
-  {
-    "id": "25b3eba5a2a216ac0870eb3407538f60d746ea9a",
-    "name": "Default",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Global/core": "source",
-      "Themes/light": "source",
-      "Components/button": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "enabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
-    },
-    "group": "Button tint"
-  },
-  {
     "id": "3ee57dfa4748d6f290df6a3d88a77d8666b4248d",
     "name": "Condensed",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Density/condensed": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
+      "Density/condensed": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "758:0",
@@ -2244,17 +2036,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Density/default": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
+      "Density/default": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "758:2",
@@ -2270,17 +2052,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Density/regular": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
+      "Density/regular": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "759:3",
@@ -2296,17 +2068,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Density/relaxed": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
+      "Density/relaxed": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "759:4",
@@ -2322,17 +2084,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Dimension/small": "enabled",
-      "Global/core": "source",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:761:350",
     "$figmaModeId": "761:5",
@@ -2347,17 +2099,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Dimension/medium": "enabled",
-      "Global/core": "source",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:761:350",
     "$figmaModeId": "761:6",
@@ -2372,17 +2114,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Dimension/large": "enabled",
-      "Global/core": "source",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:761:350",
     "$figmaModeId": "761:7",
@@ -2396,18 +2128,8 @@
     "name": "Round",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Radius/round": "enabled",
       "Global/core": "source",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "disabled"
+      "Radius/round": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:158:957",
     "$figmaModeId": "158:5",
@@ -2425,45 +2147,13 @@
     "group": "Radius"
   },
   {
-    "id": "f5f735d982429b65933e5fe5bd6feba42bca59bc",
-    "name": "Primary",
+    "id": "e4360ffc557ae4e4b69e579434b3cfbdccb14fc0",
+    "name": "Sharp",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Themes/light": "source",
-      "Components/button": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "enabled",
-      "Colors/btn-tint/secondary": "disabled"
+      "Radius/sharp": "enabled"
     },
-    "group": "Button tint"
-  },
-  {
-    "id": "6db41409fe535ce1e72e0b23e2cc5886923ac415",
-    "name": "Secondary",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Global/core": "source",
-      "Themes/light": "source",
-      "Components/button": "enabled",
-      "Colors/btn-conf/default": "disabled",
-      "Colors/btn-conf/primary": "disabled",
-      "Colors/btn-conf/secondary": "disabled",
-      "Colors/btn-conf/transparent": "disabled",
-      "Colors/btn-destructive/default": "disabled",
-      "Colors/btn-destructive/primary": "disabled",
-      "Colors/btn-destructive/transparent": "disabled",
-      "Colors/btn-tint/default": "disabled",
-      "Colors/btn-tint/primary": "disabled",
-      "Colors/btn-tint/secondary": "enabled"
-    },
-    "group": "Button tint"
+    "group": "Radius"
   }
 ]
