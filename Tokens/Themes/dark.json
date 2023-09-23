@@ -1935,12 +1935,6 @@
       "type": "boxShadow"
     }
   },
-  "viewport": {
-    "width": {
-      "value": "1440",
-      "type": "sizing"
-    }
-  },
   "comp-button-border": {
     "inner-shadow": {
       "value": [

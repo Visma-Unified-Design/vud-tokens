@@ -4,7 +4,10 @@
     "name": "Core",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/core": "enabled"
+      "Global/core": "enabled",
+      "Viewport/mobile": "disabled",
+      "Viewport/tablet": "disabled",
+      "Viewport/desktop": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1039:134",
     "$figmaModeId": "1039:0",
@@ -282,7 +285,10 @@
     },
     "selectedTokenSets": {
       "Global/core": "source",
-      "Themes/light": "enabled"
+      "Themes/light": "enabled",
+      "Viewport/mobile": "disabled",
+      "Viewport/tablet": "disabled",
+      "Viewport/desktop": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:152:5558",
     "$figmaModeId": "152:12",
@@ -1150,7 +1156,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Themes/dark": "enabled"
+      "Themes/dark": "enabled",
+      "Viewport/mobile": "disabled",
+      "Viewport/tablet": "disabled",
+      "Viewport/desktop": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:152:5558",
     "$figmaModeId": "152:13",
@@ -2020,7 +2029,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Density/condensed": "enabled"
+      "Density/condensed": "enabled",
+      "Viewport/mobile": "disabled",
+      "Viewport/tablet": "disabled",
+      "Viewport/desktop": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "758:0",
@@ -2036,7 +2048,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Density/default": "enabled"
+      "Density/default": "enabled",
+      "Viewport/mobile": "disabled",
+      "Viewport/tablet": "disabled",
+      "Viewport/desktop": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "758:2",
@@ -2052,7 +2067,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Density/regular": "enabled"
+      "Density/regular": "enabled",
+      "Viewport/mobile": "disabled",
+      "Viewport/tablet": "disabled",
+      "Viewport/desktop": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "759:3",
@@ -2068,7 +2086,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Density/relaxed": "enabled"
+      "Density/relaxed": "enabled",
+      "Viewport/mobile": "disabled",
+      "Viewport/tablet": "disabled",
+      "Viewport/desktop": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "759:4",
@@ -2084,7 +2105,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Dimension/small": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Viewport/mobile": "disabled",
+      "Viewport/tablet": "disabled",
+      "Viewport/desktop": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:761:350",
     "$figmaModeId": "761:5",
@@ -2099,7 +2123,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Dimension/medium": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Viewport/mobile": "disabled",
+      "Viewport/tablet": "disabled",
+      "Viewport/desktop": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:761:350",
     "$figmaModeId": "761:6",
@@ -2114,7 +2141,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Dimension/large": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Viewport/mobile": "disabled",
+      "Viewport/tablet": "disabled",
+      "Viewport/desktop": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:761:350",
     "$figmaModeId": "761:7",
@@ -2129,7 +2159,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Radius/round": "enabled"
+      "Radius/round": "enabled",
+      "Viewport/mobile": "disabled",
+      "Viewport/tablet": "disabled",
+      "Viewport/desktop": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:158:957",
     "$figmaModeId": "158:5",
@@ -2152,8 +2185,41 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Radius/sharp": "enabled"
+      "Radius/sharp": "enabled",
+      "Viewport/mobile": "disabled",
+      "Viewport/tablet": "disabled",
+      "Viewport/desktop": "disabled"
     },
     "group": "Radius"
+  },
+  {
+    "id": "188a73c1b170c663e90429b3dd81d1da2449531e",
+    "name": "Desktop",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Global/core": "source",
+      "Viewport/desktop": "enabled"
+    },
+    "group": "Viewport"
+  },
+  {
+    "id": "a840fe5081019666afedf46b092071b9907946d1",
+    "name": "Tablet",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Global/core": "source",
+      "Viewport/tablet": "enabled"
+    },
+    "group": "Viewport"
+  },
+  {
+    "id": "98b2978f51efd7adaf7c26d779af7ba84a80f4ed",
+    "name": "Mobile",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Global/core": "source",
+      "Viewport/mobile": "enabled"
+    },
+    "group": "Viewport"
   }
 ]

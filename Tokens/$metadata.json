@@ -16,6 +16,9 @@
     "Extends/radius",
     "Extends/density",
     "Extends/modal",
-    "Extends/card"
+    "Extends/card",
+    "Viewport/desktop",
+    "Viewport/tablet",
+    "Viewport/mobile"
   ]
 }

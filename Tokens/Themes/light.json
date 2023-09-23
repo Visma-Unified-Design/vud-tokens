@@ -2030,12 +2030,6 @@
       "type": "boxShadow"
     }
   },
-  "viewport": {
-    "width": {
-      "value": "1440",
-      "type": "sizing"
-    }
-  },
   "comp-calendar-slot": {
     "text-event1": {
       "value": "{ref-properties.text.info-moderate}",
