@@ -36,12 +36,5 @@
       "value": "{radii.xxxl}",
       "type": "borderRadius"
     }
-  },
-  "Card": {
-    "value": {
-      "borderRadius": "{radius.xl}",
-      "height": "{sizing.size-96}"
-    },
-    "type": "composition"
   }
 }
