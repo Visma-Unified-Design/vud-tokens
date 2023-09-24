@@ -132,24 +132,6 @@
           "description": "\n"
         },
         "stroke-emphasis": {
-          "value": "{ref-brand.primary-60}",
-          "type": "color"
-        },
-        "fill-default": {
-          "value": "rgba( {ref-brand.neutral-light-80}, {opacity.opaque-8})",
-          "type": "color"
-        },
-        "fill-emphasis": {
-          "value": "rgba( {ref-brand.primary-60}, {opacity.opaque-24})",
-          "type": "color"
-        }
-      },
-      "on-secondary": {
-        "stroke-default": {
-          "value": "{ref-brand.neutral-light-80}",
-          "type": "color"
-        },
-        "stroke-emphasis": {
           "value": "{ref-brand.secondary-60}",
           "type": "color"
         },
@@ -159,6 +141,24 @@
         },
         "fill-emphasis": {
           "value": "rgba( {ref-brand.secondary-60}, {opacity.opaque-24})",
+          "type": "color"
+        }
+      },
+      "on-secondary": {
+        "stroke-default": {
+          "value": "{ref-brand.neutral-light-80}",
+          "type": "color"
+        },
+        "stroke-emphasis": {
+          "value": "{ref-brand.primary-60}",
+          "type": "color"
+        },
+        "fill-default": {
+          "value": "rgba( {ref-brand.neutral-light-80}, {opacity.opaque-8})",
+          "type": "color"
+        },
+        "fill-emphasis": {
+          "value": "rgba( {ref-brand.primary-60}, {opacity.opaque-24})",
           "type": "color"
         }
       },
