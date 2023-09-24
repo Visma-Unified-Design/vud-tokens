@@ -7,10 +7,6 @@
     "height": {
       "value": "{sizing.size-32}",
       "type": "sizing"
-    },
-    "paddingHeight-copy": {
-      "value": "{spacing.space-8}",
-      "type": "spacing"
     }
   }
 }
