@@ -2380,12 +2380,12 @@
       "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
     },
     "text-mandatory": {
-      "value": "{ref-properties.text.error-moderate}",
+      "value": "{ref-properties.text.error-weak}",
       "type": "color",
       "description": "Mandatory text refers to text or information that is required in a particular context. "
     },
     "text-error": {
-      "value": "{ref-properties.text.error-moderate}",
+      "value": "{ref-properties.text.error-weak}",
       "type": "color",
       "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
     },
