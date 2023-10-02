@@ -1,0 +1,12 @@
+{
+  "density": {
+    "paddingHeight": {
+      "value": "20px",
+      "type": "spacing"
+    },
+    "height": {
+      "value": "{sizing.size-56}",
+      "type": "sizing"
+    }
+  }
+}

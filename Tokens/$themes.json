@@ -4,15 +4,7 @@
     "name": "Core",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/core": "enabled",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
+      "Global/core": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1039:134",
     "$figmaModeId": "1039:0",
@@ -276,29 +268,21 @@
       "comp-tableCell.border.right": "S:e07438cd633f75f38c2042e4d7cff99d6aec9011,",
       "comp-tableCell.border.bottom": "S:7ad9d0746cbceac750f2d5b49c960fec22ec23a0,",
       "comp-tableCell.focus-indicator.left": "S:ddca7cd46f46ce19187a1ec981803b856c276992,",
-      "ref-box-shadow.brand-elevation-01": "S:6e12359a19c6d4b138632286095a2f0868979446,",
-      "ref-box-shadow.default-elevation-01": "S:26174ed59e5d0c1f3a13b19583a7cd3df4b9ee3f,",
-      "ref-box-shadow.default-elevation-02": "S:826680127f15340e5c2cdf1b0a88804a2a8b5c8a,",
-      "ref-box-shadow.default-elevation-03": "S:321cc1705e19bc20e1ac94c2a37d6f6944eff2ed,",
-      "ref-box-shadow.default-elevation-04": "S:97d1c6976165a286b5b42a6874c0272dbfb2a150,",
       "comp-table-cell.border.left": "S:436d46735346c517addb443dfd953fbc966e0440,",
       "comp-table-cell.border.top": "S:28f21453285981337421fb607bd69e2ac1a0bb03,",
       "comp-table-cell.border.right": "S:58bd3a02e08c16048c6c2b4746fdef502b18fa84,",
       "comp-table-cell.border.bottom": "S:ba3e227d5805d0e0dc510289ca8827df46bef66a,",
       "comp-table-cell.focus-indicator.left": "S:db9a15eb7f22e206a7f8d6ddf09841a9b9ea5d0a,",
-      "ref-focus-indicator.focus": "S:241efd3c52b46bb5f7e1e646cacd243086472055,"
+      "ref-focus-indicator.focus": "S:241efd3c52b46bb5f7e1e646cacd243086472055,",
+      "ref-box-shadow.brand-elevation-1": "S:6e12359a19c6d4b138632286095a2f0868979446,",
+      "ref-box-shadow.default-elevation-1": "S:26174ed59e5d0c1f3a13b19583a7cd3df4b9ee3f,",
+      "ref-box-shadow.default-elevation-2": "S:826680127f15340e5c2cdf1b0a88804a2a8b5c8a,",
+      "ref-box-shadow.default-elevation-3": "S:321cc1705e19bc20e1ac94c2a37d6f6944eff2ed,",
+      "ref-box-shadow.default-elevation-4": "S:97d1c6976165a286b5b42a6874c0272dbfb2a150,"
     },
     "selectedTokenSets": {
       "Global/core": "source",
-      "Themes/light": "enabled",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
+      "Themes/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:152:5558",
     "$figmaModeId": "152:12",
@@ -1166,15 +1150,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Themes/dark": "enabled",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
+      "Themes/dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:152:5558",
     "$figmaModeId": "152:13",
@@ -2044,23 +2020,14 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "enabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
+      "Density/condensed": "enabled",
+      "Extends/density": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "758:0",
     "$figmaVariableReferences": {
-      "density.py.condensed": "9e4f6d00da2f0cf7c3c0c29307d40b9f29d5ce04",
-      "density.py.default": "0daae835b81825ddec28bc629ae59e156a046516",
-      "density.py.regular": "0b6fae27a331adf6f9f4b250795727ee7677cdb3",
-      "density.py.relaxed": "9c957affa855bd37e71763c13884ede194a1a6af",
-      "density.default": "a7ba321003a5a53a467762698fa0af8a14f847df"
+      "density.paddingHeight": "76c05261579123944b15e5d4c758c6ef9e3a8146",
+      "density.height": "e09aaa069cd12fd83fda05532e5c5362ae8446a5"
     },
     "group": "Density"
   },
@@ -2070,23 +2037,13 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "enabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
+      "Density/default": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "758:2",
     "$figmaVariableReferences": {
-      "density.gap.condensed": "f880ea9e7973b9d497d217888890128b8d740d03",
-      "density.gap.default": "1509cde8b813842fd8e974bbc045d62d94a26fc7",
-      "density.gap.regular": "f880ea9e7973b9d497d217888890128b8d740d03",
-      "density.gap.relaxed": "76c05261579123944b15e5d4c758c6ef9e3a8146",
-      "density.default": "a7ba321003a5a53a467762698fa0af8a14f847df"
+      "density.paddingHeight": "76c05261579123944b15e5d4c758c6ef9e3a8146",
+      "density.height": "e09aaa069cd12fd83fda05532e5c5362ae8446a5"
     },
     "group": "Density"
   },
@@ -2096,23 +2053,13 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "enabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
+      "Density/regular": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "759:3",
     "$figmaVariableReferences": {
-      "density.gap.condensed": "f880ea9e7973b9d497d217888890128b8d740d03",
-      "density.gap.default": "1509cde8b813842fd8e974bbc045d62d94a26fc7",
-      "density.gap.regular": "f880ea9e7973b9d497d217888890128b8d740d03",
-      "density.gap.relaxed": "76c05261579123944b15e5d4c758c6ef9e3a8146",
-      "density.default": "a7ba321003a5a53a467762698fa0af8a14f847df"
+      "density.paddingHeight": "76c05261579123944b15e5d4c758c6ef9e3a8146",
+      "density.height": "e09aaa069cd12fd83fda05532e5c5362ae8446a5"
     },
     "group": "Density"
   },
@@ -2122,110 +2069,23 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "enabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
+      "Density/relaxed": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:758:344",
     "$figmaModeId": "759:4",
     "$figmaVariableReferences": {
-      "density.gap.condensed": "f880ea9e7973b9d497d217888890128b8d740d03",
-      "density.gap.default": "1509cde8b813842fd8e974bbc045d62d94a26fc7",
-      "density.gap.regular": "f880ea9e7973b9d497d217888890128b8d740d03",
-      "density.gap.relaxed": "76c05261579123944b15e5d4c758c6ef9e3a8146",
-      "density.default": "a7ba321003a5a53a467762698fa0af8a14f847df"
+      "density.paddingHeight": "76c05261579123944b15e5d4c758c6ef9e3a8146",
+      "density.height": "e09aaa069cd12fd83fda05532e5c5362ae8446a5"
     },
     "group": "Density"
-  },
-  {
-    "id": "9b92d3ce5bceafafb7f9ab413fdb065a83ff6742",
-    "name": "Small",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Dimension/small": "enabled",
-      "Global/core": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
-    },
-    "$figmaCollectionId": "VariableCollectionId:761:350",
-    "$figmaModeId": "761:5",
-    "$figmaVariableReferences": {
-      "size": "3cff39209a5b2948839963dea247d8edc75fa90b"
-    },
-    "group": "Dimension"
-  },
-  {
-    "id": "ce919cffc88a948e26e80b1f10247524c52d13aa",
-    "name": "Medium",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Dimension/medium": "enabled",
-      "Global/core": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
-    },
-    "$figmaCollectionId": "VariableCollectionId:761:350",
-    "$figmaModeId": "761:6",
-    "$figmaVariableReferences": {
-      "size": "3cff39209a5b2948839963dea247d8edc75fa90b"
-    },
-    "group": "Dimension"
-  },
-  {
-    "id": "67a57b7d3e15a32c8887d312fa49ff5e60bfad39",
-    "name": "Large",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Dimension/large": "enabled",
-      "Global/core": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
-    },
-    "$figmaCollectionId": "VariableCollectionId:761:350",
-    "$figmaModeId": "761:7",
-    "$figmaVariableReferences": {
-      "size": "3cff39209a5b2948839963dea247d8edc75fa90b"
-    },
-    "group": "Dimension"
   },
   {
     "id": "f14d6aa90ffc18a56b1974e111f42c2609b15f78",
     "name": "Round",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Radius/round": "enabled",
       "Global/core": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
+      "Radius/round": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:158:957",
     "$figmaModeId": "158:5",
@@ -2243,451 +2103,76 @@
     "group": "Radius"
   },
   {
-    "id": "ba4a8e84af7e0b8928584167ae2cfda830657796",
+    "id": "e4360ffc557ae4e4b69e579434b3cfbdccb14fc0",
     "name": "Sharp",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Radius/sharp": "enabled",
       "Global/core": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
-    },
-    "$figmaCollectionId": "VariableCollectionId:158:957",
-    "$figmaModeId": "158:6",
-    "$figmaVariableReferences": {
-      "radius.none": "631f2fb74c16ca62f05f67b7da5318b61845417e",
-      "radius.xxs": "d5187c3a1e0da48fd80123a33586d97b2a80349a",
-      "radius.xs": "7080d4bbe0dbb9cbb3951c5c2372f247554f4446",
-      "radius.s": "38b112f4fd715888d5e57c434480f8be00fe222c",
-      "radius.md": "2ef40fbd7ff3550b9f50243831fedec59f4788a7",
-      "radius.lg": "0f5ab0ebec8b1531dbabc39a7d38757ca9c22f20",
-      "radius.xl": "ccebd1a63b64f7e51e51b2e63ab45c2377ce424f",
-      "radius.xxl": "0619c256077b0066cac15ed63de9a3c5b00418b0",
-      "radius.xxxl": "11518ddd3fa26dde9a4a5ce86ff05a927d00fe8d"
+      "Radius/sharp": "enabled"
     },
     "group": "Radius"
   },
   {
-    "id": "88c0cb3ce0603e797f288ab06d631aea8cb03e37",
-    "name": "Default",
+    "id": "0eace8f4f33adb4709b04d543fd79f2145c5fee5",
+    "name": "Large",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/core": "source",
-      "Components/btn-conf/default": "enabled",
-      "Themes/light": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
+      "Global/core": "enabled",
+      "Extends/dimension": "enabled",
+      "Dimension/large": "enabled"
     },
-    "$figmaCollectionId": "VariableCollectionId:1039:376",
-    "$figmaModeId": "1039:1",
-    "$figmaVariableReferences": {
-      "comp-btn.text-default": "8938f31159c149bb328788f5343c17bb69f19f94",
-      "comp-btn.text-inverse": "440c922a063e51904d786a0003b86538e6dfd1e6",
-      "comp-btn.text-disabled": "409d1606d3ac2c5fc2332903a91085b88d8af426",
-      "comp-btn.icon-default": "d1c588538affbf2f8214d4fa62e5a8f2360bd7cf",
-      "comp-btn.icon-inverse": "66cfa543243c2fa136ad834370f8854fd6147445",
-      "comp-btn.icon-disabled": "0607ab2588e824c6559449d3fe741b0004e1f1e3",
-      "comp-btn.surface-enabled": "c83df3c1e4f129f68be73bf68b944d75a5b98ae5",
-      "comp-btn.surface-hover": "5e853c21141b1a434281a0b30f39be70d4b926b2",
-      "comp-btn.surface-focused": "aa329eb5c8de5c21b1c598c651b78ee7eebc2568",
-      "comp-btn.surface-pressed": "22ca9f298ef9c11e8069366109dc4174e315e859",
-      "comp-btn.surface-selected": "1cbceec94bc8258e004301c9cd399342a4449e28",
-      "comp-btn.surface-selected:hover": "c19e90c8b56faf449a114d4c711f390c8b1abc4b",
-      "comp-btn.surface-disabled": "140a19ddf11eb94f499329b21416538e8ecd6683",
-      "comp-btn.border-enabled": "66909572117ec1ee1f971bae88381865d998ada2",
-      "comp-btn.border-hover": "cd189df2df74b21e582c989b19afe15ed21dc960",
-      "comp-btn.border-focused": "2b3adb4f67d85fa7bf0126bd7bfee78bfa9a803c",
-      "comp-btn.border-pressed": "2eb4caf3b6d95b412493c1b667fe4ff6a7888ff7",
-      "comp-btn.border-selected": "150ca6b5aa64969d15a359c49f2b6beec9524447",
-      "comp-btn.border-selected:hover": "3681f6b25807745efde943268634c129e8c470f7",
-      "comp-btn.border-disabled": "c51ab964da023a5d46abb34cd376a468268fd9c9"
-    },
-    "group": "Button confirmatory"
+    "group": "Dimension"
   },
   {
-    "id": "c849184303f12cdf9ac88a19ab98175835c1fc61",
-    "name": "Transparent",
+    "id": "188a73c1b170c663e90429b3dd81d1da2449531e",
+    "name": "Desktop",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Components/btn-conf/transparent": "enabled",
-      "Themes/light": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
+      "Viewport/desktop": "enabled"
     },
-    "$figmaCollectionId": "VariableCollectionId:1039:376",
-    "$figmaModeId": "1039:2",
-    "$figmaVariableReferences": {
-      "comp-btn.text-default": "8938f31159c149bb328788f5343c17bb69f19f94",
-      "comp-btn.text-inverse": "440c922a063e51904d786a0003b86538e6dfd1e6",
-      "comp-btn.text-disabled": "409d1606d3ac2c5fc2332903a91085b88d8af426",
-      "comp-btn.icon-default": "d1c588538affbf2f8214d4fa62e5a8f2360bd7cf",
-      "comp-btn.icon-inverse": "66cfa543243c2fa136ad834370f8854fd6147445",
-      "comp-btn.icon-disabled": "0607ab2588e824c6559449d3fe741b0004e1f1e3",
-      "comp-btn.surface-enabled": "c83df3c1e4f129f68be73bf68b944d75a5b98ae5",
-      "comp-btn.surface-hover": "5e853c21141b1a434281a0b30f39be70d4b926b2",
-      "comp-btn.surface-focused": "aa329eb5c8de5c21b1c598c651b78ee7eebc2568",
-      "comp-btn.surface-pressed": "22ca9f298ef9c11e8069366109dc4174e315e859",
-      "comp-btn.surface-selected": "1cbceec94bc8258e004301c9cd399342a4449e28",
-      "comp-btn.surface-selected:hover": "c19e90c8b56faf449a114d4c711f390c8b1abc4b",
-      "comp-btn.surface-disabled": "140a19ddf11eb94f499329b21416538e8ecd6683",
-      "comp-btn.border-enabled": "66909572117ec1ee1f971bae88381865d998ada2",
-      "comp-btn.border-hover": "cd189df2df74b21e582c989b19afe15ed21dc960",
-      "comp-btn.border-focused": "2b3adb4f67d85fa7bf0126bd7bfee78bfa9a803c",
-      "comp-btn.border-pressed": "2eb4caf3b6d95b412493c1b667fe4ff6a7888ff7",
-      "comp-btn.border-selected": "150ca6b5aa64969d15a359c49f2b6beec9524447",
-      "comp-btn.border-selected:hover": "3681f6b25807745efde943268634c129e8c470f7",
-      "comp-btn.border-disabled": "c51ab964da023a5d46abb34cd376a468268fd9c9"
-    },
-    "group": "Button confirmatory"
+    "group": "Viewport"
   },
   {
-    "id": "23d2f9dc21bea831d5e371a8569f308235fae206",
-    "name": "Primary",
+    "id": "a840fe5081019666afedf46b092071b9907946d1",
+    "name": "Tablet",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Components/btn-conf/primary": "enabled",
-      "Themes/light": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
+      "Viewport/tablet": "enabled"
     },
-    "$figmaCollectionId": "VariableCollectionId:1039:376",
-    "$figmaModeId": "1039:3",
-    "$figmaVariableReferences": {
-      "comp-btn.text-default": "8938f31159c149bb328788f5343c17bb69f19f94",
-      "comp-btn.text-inverse": "440c922a063e51904d786a0003b86538e6dfd1e6",
-      "comp-btn.text-disabled": "409d1606d3ac2c5fc2332903a91085b88d8af426",
-      "comp-btn.icon-default": "d1c588538affbf2f8214d4fa62e5a8f2360bd7cf",
-      "comp-btn.icon-inverse": "66cfa543243c2fa136ad834370f8854fd6147445",
-      "comp-btn.icon-disabled": "0607ab2588e824c6559449d3fe741b0004e1f1e3",
-      "comp-btn.surface-enabled": "c83df3c1e4f129f68be73bf68b944d75a5b98ae5",
-      "comp-btn.surface-hover": "5e853c21141b1a434281a0b30f39be70d4b926b2",
-      "comp-btn.surface-focused": "aa329eb5c8de5c21b1c598c651b78ee7eebc2568",
-      "comp-btn.surface-pressed": "22ca9f298ef9c11e8069366109dc4174e315e859",
-      "comp-btn.surface-selected": "1cbceec94bc8258e004301c9cd399342a4449e28",
-      "comp-btn.surface-selected:hover": "c19e90c8b56faf449a114d4c711f390c8b1abc4b",
-      "comp-btn.surface-disabled": "140a19ddf11eb94f499329b21416538e8ecd6683",
-      "comp-btn.border-enabled": "66909572117ec1ee1f971bae88381865d998ada2",
-      "comp-btn.border-hover": "cd189df2df74b21e582c989b19afe15ed21dc960",
-      "comp-btn.border-focused": "2b3adb4f67d85fa7bf0126bd7bfee78bfa9a803c",
-      "comp-btn.border-pressed": "2eb4caf3b6d95b412493c1b667fe4ff6a7888ff7",
-      "comp-btn.border-selected": "150ca6b5aa64969d15a359c49f2b6beec9524447",
-      "comp-btn.border-selected:hover": "3681f6b25807745efde943268634c129e8c470f7",
-      "comp-btn.border-disabled": "c51ab964da023a5d46abb34cd376a468268fd9c9"
-    },
-    "group": "Button confirmatory"
+    "group": "Viewport"
   },
   {
-    "id": "3964232208685a3c1b2d21456c99013e294b8a14",
-    "name": "Secondary",
+    "id": "98b2978f51efd7adaf7c26d779af7ba84a80f4ed",
+    "name": "Mobile",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "source",
-      "Components/btn-conf/secondary": "enabled",
-      "Themes/light": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
+      "Viewport/mobile": "enabled"
     },
-    "$figmaCollectionId": "VariableCollectionId:1039:376",
-    "$figmaModeId": "1039:4",
-    "$figmaVariableReferences": {
-      "comp-btn.text-default": "8938f31159c149bb328788f5343c17bb69f19f94",
-      "comp-btn.text-inverse": "440c922a063e51904d786a0003b86538e6dfd1e6",
-      "comp-btn.text-disabled": "409d1606d3ac2c5fc2332903a91085b88d8af426",
-      "comp-btn.icon-default": "d1c588538affbf2f8214d4fa62e5a8f2360bd7cf",
-      "comp-btn.icon-inverse": "66cfa543243c2fa136ad834370f8854fd6147445",
-      "comp-btn.icon-disabled": "0607ab2588e824c6559449d3fe741b0004e1f1e3",
-      "comp-btn.surface-enabled": "c83df3c1e4f129f68be73bf68b944d75a5b98ae5",
-      "comp-btn.surface-hover": "5e853c21141b1a434281a0b30f39be70d4b926b2",
-      "comp-btn.surface-focused": "aa329eb5c8de5c21b1c598c651b78ee7eebc2568",
-      "comp-btn.surface-pressed": "22ca9f298ef9c11e8069366109dc4174e315e859",
-      "comp-btn.surface-selected": "1cbceec94bc8258e004301c9cd399342a4449e28",
-      "comp-btn.surface-selected:hover": "c19e90c8b56faf449a114d4c711f390c8b1abc4b",
-      "comp-btn.surface-disabled": "140a19ddf11eb94f499329b21416538e8ecd6683",
-      "comp-btn.border-enabled": "66909572117ec1ee1f971bae88381865d998ada2",
-      "comp-btn.border-hover": "cd189df2df74b21e582c989b19afe15ed21dc960",
-      "comp-btn.border-focused": "2b3adb4f67d85fa7bf0126bd7bfee78bfa9a803c",
-      "comp-btn.border-pressed": "2eb4caf3b6d95b412493c1b667fe4ff6a7888ff7",
-      "comp-btn.border-selected": "150ca6b5aa64969d15a359c49f2b6beec9524447",
-      "comp-btn.border-selected:hover": "3681f6b25807745efde943268634c129e8c470f7",
-      "comp-btn.border-disabled": "c51ab964da023a5d46abb34cd376a468268fd9c9"
-    },
-    "group": "Button confirmatory"
+    "group": "Viewport"
   },
   {
-    "id": "d76ecc8179ad89cff376cb6116f572da8cbeed5f",
-    "name": "Default",
+    "id": "294ca6954dc867534a28ff4f84bcc152a3b9c7ff",
+    "name": "Medium",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/core": "source",
-      "Components/btn-destructive/default": "enabled",
-      "Themes/light": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
+      "Global/core": "enabled",
+      "Extends/dimension": "enabled",
+      "Dimension/medium": "enabled"
     },
-    "$figmaCollectionId": "VariableCollectionId:1050:137",
-    "$figmaModeId": "1050:1",
-    "$figmaVariableReferences": {
-      "comp-btn.text-default": "163bc117b869e9868c18998468534e27b876bb0f",
-      "comp-btn.text-inverse": "6612140cbf78c67463adf6d4af778eda997ffaa1",
-      "comp-btn.text-disabled": "2e2c9a45c251045bcb6bb9ba9e881a55386f6662",
-      "comp-btn.icon-disabled": "61d0588577e1ddece143c17e7430bf30b45ddd24",
-      "comp-btn.icon-default": "b73918439be8210ad7c33351a1da1eda698fdb48",
-      "comp-btn.icon-inverse": "5b0930f3b20044f060097490b3ce0497715bc02b",
-      "comp-btn.surface-enabled": "fb433694e2edd4f32561103f0760ab598afd7eeb",
-      "comp-btn.surface-hover": "7973aaa1e3567e0e98d638331168d28de2333773",
-      "comp-btn.surface-focused": "dd4565ebca31acf85005dbb90977bfc3dbf6ff09",
-      "comp-btn.surface-pressed": "34337b80c4e4da004d5a4ce7185c0434fd80d13e",
-      "comp-btn.surface-disabled": "344bd0e9d81f1e7e618338177f171bbc50e967cb",
-      "comp-btn.border-enabled": "2ace162ffa06469d5169b63dbf94d5026c334275",
-      "comp-btn.border-hover": "1d7f978653dd56123759e84a9f9088b0b8bb05db",
-      "comp-btn.border-focused": "817fc86900c0e676415db4dfa64e04efb2354bc3",
-      "comp-btn.border-pressed": "13659ba223123e6fde6a788d05bbf05506e22050",
-      "comp-btn.border-disabled": "0970dcd068a7fa71e9c873c80d0edaeadc4dda59"
-    },
-    "group": "Button destructive"
+    "group": "Dimension"
   },
   {
-    "id": "d2e2d653ae7904e0535921f6f6acb6ac4c27e2e1",
-    "name": "Transparent",
+    "id": "22aa43595474b207a8d7f132847b0ba7d9d0edce",
+    "name": "Small",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/core": "source",
-      "Components/btn-destructive/transparent": "enabled",
-      "Themes/light": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
+      "Global/core": "enabled",
+      "Extends/dimension": "enabled",
+      "Dimension/small": "enabled"
     },
-    "$figmaCollectionId": "VariableCollectionId:1050:137",
-    "$figmaModeId": "1050:2",
-    "$figmaVariableReferences": {
-      "comp-btn.text-default": "163bc117b869e9868c18998468534e27b876bb0f",
-      "comp-btn.text-inverse": "6612140cbf78c67463adf6d4af778eda997ffaa1",
-      "comp-btn.text-disabled": "2e2c9a45c251045bcb6bb9ba9e881a55386f6662",
-      "comp-btn.icon-disabled": "61d0588577e1ddece143c17e7430bf30b45ddd24",
-      "comp-btn.icon-default": "b73918439be8210ad7c33351a1da1eda698fdb48",
-      "comp-btn.icon-inverse": "5b0930f3b20044f060097490b3ce0497715bc02b",
-      "comp-btn.surface-enabled": "fb433694e2edd4f32561103f0760ab598afd7eeb",
-      "comp-btn.surface-hover": "7973aaa1e3567e0e98d638331168d28de2333773",
-      "comp-btn.surface-focused": "dd4565ebca31acf85005dbb90977bfc3dbf6ff09",
-      "comp-btn.surface-pressed": "34337b80c4e4da004d5a4ce7185c0434fd80d13e",
-      "comp-btn.surface-disabled": "344bd0e9d81f1e7e618338177f171bbc50e967cb",
-      "comp-btn.border-enabled": "2ace162ffa06469d5169b63dbf94d5026c334275",
-      "comp-btn.border-hover": "1d7f978653dd56123759e84a9f9088b0b8bb05db",
-      "comp-btn.border-focused": "817fc86900c0e676415db4dfa64e04efb2354bc3",
-      "comp-btn.border-pressed": "13659ba223123e6fde6a788d05bbf05506e22050",
-      "comp-btn.border-disabled": "0970dcd068a7fa71e9c873c80d0edaeadc4dda59"
-    },
-    "group": "Button destructive"
-  },
-  {
-    "id": "769bc737f309df32a11989df4db63cd347ae5afd",
-    "name": "Primary",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Global/core": "source",
-      "Components/btn-destructive/primary": "enabled",
-      "Themes/light": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
-    },
-    "$figmaCollectionId": "VariableCollectionId:1050:137",
-    "$figmaModeId": "1050:3",
-    "$figmaVariableReferences": {
-      "comp-btn.text-default": "163bc117b869e9868c18998468534e27b876bb0f",
-      "comp-btn.text-inverse": "6612140cbf78c67463adf6d4af778eda997ffaa1",
-      "comp-btn.text-disabled": "2e2c9a45c251045bcb6bb9ba9e881a55386f6662",
-      "comp-btn.icon-default": "b73918439be8210ad7c33351a1da1eda698fdb48",
-      "comp-btn.icon-disabled": "61d0588577e1ddece143c17e7430bf30b45ddd24",
-      "comp-btn.surface-enabled": "fb433694e2edd4f32561103f0760ab598afd7eeb",
-      "comp-btn.surface-hover": "7973aaa1e3567e0e98d638331168d28de2333773",
-      "comp-btn.surface-focused": "dd4565ebca31acf85005dbb90977bfc3dbf6ff09",
-      "comp-btn.surface-pressed": "34337b80c4e4da004d5a4ce7185c0434fd80d13e",
-      "comp-btn.surface-disabled": "344bd0e9d81f1e7e618338177f171bbc50e967cb",
-      "comp-btn.border-enabled": "2ace162ffa06469d5169b63dbf94d5026c334275",
-      "comp-btn.border-hover": "1d7f978653dd56123759e84a9f9088b0b8bb05db",
-      "comp-btn.border-focused": "817fc86900c0e676415db4dfa64e04efb2354bc3",
-      "comp-btn.border-pressed": "13659ba223123e6fde6a788d05bbf05506e22050",
-      "comp-btn.border-disabled": "0970dcd068a7fa71e9c873c80d0edaeadc4dda59"
-    },
-    "group": "Button destructive"
-  },
-  {
-    "id": "aea757e7225c14972a01ea9b5977ecfa9e082198",
-    "name": "Default",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Global/core": "source",
-      "Components/btn-tint/default": "enabled",
-      "Themes/light": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
-    },
-    "$figmaCollectionId": "VariableCollectionId:1039:404",
-    "$figmaModeId": "1171:0",
-    "$figmaVariableReferences": {
-      "comp-btn.text-default": "2f993220914770789c23db8f208a42788f1f2b31",
-      "comp-btn.text-inverse": "222c501a6d18f20f8946ee15aa02fa928b66636a",
-      "comp-btn.text-disabled": "8040457b63f9a052f0f0a0356eec696c3a179882",
-      "comp-btn.icon-default": "a16e3420be9db28a63ee4019d0922626fbb58515",
-      "comp-btn.icon-inverse": "f1ad94d0d221490dc1210987ea731f7f6577c8db",
-      "comp-btn.icon-disabled": "77523bcce53893df56ec0c1133daae9464705ee1",
-      "comp-btn.surface-enabled": "bcc94d8daaf17ed6048dc9a04b48c4fde9689cb0",
-      "comp-btn.surface-hover": "f1f318a1bd169c26a6df4c7ffc4fd55702957333",
-      "comp-btn.surface-focused": "309370ee50fe90ea3f572ab999de7777d7e06bbc",
-      "comp-btn.surface-pressed": "057747b75e3908479d9ce2fd4811ad2ffae306cd",
-      "comp-btn.surface-selected": "9f3aed14851de76ec7c0c0dbc66cee2d3d877fcf",
-      "comp-btn.surface-selected:hover": "2e1a0235d661ba4e1ec16a1f6e0bc18f6a372e87",
-      "comp-btn.surface-disabled": "f2c96bf22baf36131996b2b8d926ad7e662ea0be",
-      "comp-btn.border-enabled": "5afb3707a9f7f49d258b163aa9fe3248d812daa9",
-      "comp-btn.border-hover": "eb4e7be789f81b59c9438eb190944d6684b61945",
-      "comp-btn.border-focused": "048d7cf5ab16feb9ae20fdf553e1a52f1e67d368",
-      "comp-btn.border-pressed": "4cdabd854c256e7dd42ac16ba7513ee6019cc5d7",
-      "comp-btn.border-selected": "f98bb834a67664eba623d1cdcf989c8077f87722",
-      "comp-btn.border-selected:hover": "fb35f4137e7d2aa983d08407e0a8597ac84c240a",
-      "comp-btn.border-disabled": "327942ceebcabbf242b272c40f370b2c715def4a"
-    },
-    "group": "Button tint"
-  },
-  {
-    "id": "aa0833cb74da153d134d0a62ba7957d8ac626cc6",
-    "name": "Primary",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Global/core": "source",
-      "Components/btn-tint/primary": "enabled",
-      "Themes/light": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
-    },
-    "$figmaCollectionId": "VariableCollectionId:1039:404",
-    "$figmaModeId": "1039:5",
-    "$figmaVariableReferences": {
-      "comp-btn.text-default": "2f993220914770789c23db8f208a42788f1f2b31",
-      "comp-btn.text-inverse": "222c501a6d18f20f8946ee15aa02fa928b66636a",
-      "comp-btn.text-disabled": "8040457b63f9a052f0f0a0356eec696c3a179882",
-      "comp-btn.icon-default": "a16e3420be9db28a63ee4019d0922626fbb58515",
-      "comp-btn.icon-inverse": "f1ad94d0d221490dc1210987ea731f7f6577c8db",
-      "comp-btn.icon-disabled": "77523bcce53893df56ec0c1133daae9464705ee1",
-      "comp-btn.surface-enabled": "bcc94d8daaf17ed6048dc9a04b48c4fde9689cb0",
-      "comp-btn.surface-hover": "f1f318a1bd169c26a6df4c7ffc4fd55702957333",
-      "comp-btn.surface-focused": "309370ee50fe90ea3f572ab999de7777d7e06bbc",
-      "comp-btn.surface-pressed": "057747b75e3908479d9ce2fd4811ad2ffae306cd",
-      "comp-btn.surface-selected": "9f3aed14851de76ec7c0c0dbc66cee2d3d877fcf",
-      "comp-btn.surface-selected:hover": "2e1a0235d661ba4e1ec16a1f6e0bc18f6a372e87",
-      "comp-btn.surface-disabled": "f2c96bf22baf36131996b2b8d926ad7e662ea0be",
-      "comp-btn.border-enabled": "5afb3707a9f7f49d258b163aa9fe3248d812daa9",
-      "comp-btn.border-hover": "eb4e7be789f81b59c9438eb190944d6684b61945",
-      "comp-btn.border-focused": "048d7cf5ab16feb9ae20fdf553e1a52f1e67d368",
-      "comp-btn.border-pressed": "4cdabd854c256e7dd42ac16ba7513ee6019cc5d7",
-      "comp-btn.border-selected": "f98bb834a67664eba623d1cdcf989c8077f87722",
-      "comp-btn.border-selected:hover": "fb35f4137e7d2aa983d08407e0a8597ac84c240a",
-      "comp-btn.border-disabled": "327942ceebcabbf242b272c40f370b2c715def4a"
-    },
-    "group": "Button tint"
-  },
-  {
-    "id": "85a248585a4372fe184570d5e11b51555bdac293",
-    "name": "Secondary",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Global/core": "source",
-      "Components/btn-tint/secondary": "enabled",
-      "Themes/light": "source",
-      "Sizing/condensed": "disabled",
-      "Spacing/condensed": "disabled",
-      "Spacing/default": "disabled",
-      "Spacing/regular": "disabled",
-      "Spacing/relaxed": "disabled",
-      "Sizing/default": "disabled",
-      "Sizing/regular": "disabled",
-      "Sizing/relaxed": "disabled"
-    },
-    "$figmaCollectionId": "VariableCollectionId:1039:404",
-    "$figmaModeId": "1039:6",
-    "$figmaVariableReferences": {
-      "comp-btn.text-default": "2f993220914770789c23db8f208a42788f1f2b31",
-      "comp-btn.text-inverse": "222c501a6d18f20f8946ee15aa02fa928b66636a",
-      "comp-btn.text-disabled": "8040457b63f9a052f0f0a0356eec696c3a179882",
-      "comp-btn.icon-default": "a16e3420be9db28a63ee4019d0922626fbb58515",
-      "comp-btn.icon-inverse": "f1ad94d0d221490dc1210987ea731f7f6577c8db",
-      "comp-btn.icon-disabled": "77523bcce53893df56ec0c1133daae9464705ee1",
-      "comp-btn.surface-enabled": "bcc94d8daaf17ed6048dc9a04b48c4fde9689cb0",
-      "comp-btn.surface-hover": "f1f318a1bd169c26a6df4c7ffc4fd55702957333",
-      "comp-btn.surface-focused": "309370ee50fe90ea3f572ab999de7777d7e06bbc",
-      "comp-btn.surface-pressed": "057747b75e3908479d9ce2fd4811ad2ffae306cd",
-      "comp-btn.surface-selected": "9f3aed14851de76ec7c0c0dbc66cee2d3d877fcf",
-      "comp-btn.surface-selected:hover": "2e1a0235d661ba4e1ec16a1f6e0bc18f6a372e87",
-      "comp-btn.surface-disabled": "f2c96bf22baf36131996b2b8d926ad7e662ea0be",
-      "comp-btn.border-enabled": "5afb3707a9f7f49d258b163aa9fe3248d812daa9",
-      "comp-btn.border-hover": "eb4e7be789f81b59c9438eb190944d6684b61945",
-      "comp-btn.border-focused": "048d7cf5ab16feb9ae20fdf553e1a52f1e67d368",
-      "comp-btn.border-pressed": "4cdabd854c256e7dd42ac16ba7513ee6019cc5d7",
-      "comp-btn.border-selected": "f98bb834a67664eba623d1cdcf989c8077f87722",
-      "comp-btn.border-selected:hover": "fb35f4137e7d2aa983d08407e0a8597ac84c240a",
-      "comp-btn.border-disabled": "327942ceebcabbf242b272c40f370b2c715def4a"
-    },
-    "group": "Button tint"
+    "group": "Dimension"
   }
 ]
