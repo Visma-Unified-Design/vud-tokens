@@ -302,8 +302,7 @@
         "selected:hover": {
           "value": "{ref-brand.primary-40}",
           "type": "color",
-          "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
-          "$extensions": {}
+          "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "disabled": {
           "value": "{ref-properties.border.on-default.disabled}",
@@ -488,8 +487,7 @@
         "hover": {
           "value": "{ref-brand.primary-40}",
           "type": "color",
-          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
-          "$extensions": {}
+          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "pressed": {
           "value": "{ref-brand.primary-50}",
@@ -535,8 +533,7 @@
         "hover": {
           "value": "{ref-brand.secondary-40}",
           "type": "color",
-          "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
-          "$extensions": {}
+          "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "pressed": {
           "value": "{ref-brand.secondary-50}",
@@ -929,8 +926,7 @@
         "hover": {
           "value": "{ref-brand.primary-20}",
           "type": "color",
-          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
-          "$extensions": {}
+          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "pressed": {
           "value": "{ref-brand.primary-90}",
@@ -976,8 +972,7 @@
         "hover": {
           "value": "{ref-brand.secondary-20}",
           "type": "color",
-          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
-          "$extensions": {}
+          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "pressed": {
           "value": "{ref-brand.secondary-90}",
@@ -1353,8 +1348,7 @@
       "surface-selected:hover": {
         "value": "{ref-properties.fill.on-primary.selected:hover}",
         "type": "color",
-        "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
-        "$extensions": {}
+        "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
       "surface-disabled": {
         "value": "{ref-properties.fill.on-primary.disabled}",
@@ -1389,8 +1383,7 @@
       "border-selected:hover": {
         "value": "{ref-properties.border.on-primary.selected:hover}",
         "type": "color",
-        "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
-        "$extensions": {}
+        "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
       "border-disabled": {
         "value": "{ref-properties.border.on-primary.disabled}",
@@ -1715,8 +1708,7 @@
       "surface-hover": {
         "value": "{ref-properties.fill.on-destructive-primary.hover}",
         "type": "color",
-        "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
-        "$extensions": {}
+        "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
       "surface-focused": {
         "value": "{ref-properties.fill.on-destructive-primary.focused}",
@@ -2074,8 +2066,7 @@
     "surface-selected-moderate:hover": {
       "value": "{ref-properties.fill.on-default.selected-moderate:hover}",
       "type": "color",
-      "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
-      "$extensions": {}
+      "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "surface-selected-strong": {
       "value": "{ref-properties.fill.on-secondary.selected}",
@@ -2085,8 +2076,7 @@
     "surface-selected-strong:hover": {
       "value": "{ref-properties.fill.on-secondary.selected:hover}",
       "type": "color",
-      "description": "Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
-      "$extensions": {}
+      "description": "Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "surface-disabled": {
       "value": "{ref-properties.fill.on-default.disabled}",
@@ -2140,8 +2130,7 @@
     "border-selected-strong:hover": {
       "value": "{ref-properties.border.on-secondary.selected:hover}",
       "type": "color",
-      "description": "Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
-      "$extensions": {}
+      "description": "Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "border-disabled": {
       "value": "{ref-properties.border.on-default.disabled}",

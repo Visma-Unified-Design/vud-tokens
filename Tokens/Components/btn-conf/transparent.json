@@ -68,8 +68,7 @@
     "border-enabled": {
       "value": "rgba({ref-properties.border.on-default.enabled}, {opacity.opaque-0})",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.",
-      "$extensions": {}
+      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-hover": {
       "value": "{ref-properties.border.on-default.hover}",

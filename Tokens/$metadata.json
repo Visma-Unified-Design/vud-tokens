@@ -27,6 +27,24 @@
     "Dimension/medium",
     "Dimension/large",
     "Radius/round",
-    "Radius/sharp"
+    "Radius/sharp",
+    "Components/btn-conf/default",
+    "Components/btn-conf/primary",
+    "Components/btn-conf/secondary",
+    "Components/btn-conf/transparent",
+    "Components/btn-destructive/default",
+    "Components/btn-destructive/primary",
+    "Components/btn-destructive/transparent",
+    "Components/btn-tint/default",
+    "Components/btn-tint/primary",
+    "Components/btn-tint/secondary",
+    "Sizing/condensed",
+    "Sizing/default",
+    "Sizing/regular",
+    "Sizing/relaxed",
+    "Spacing/condensed",
+    "Spacing/default",
+    "Spacing/regular",
+    "Spacing/relaxed"
   ]
 }

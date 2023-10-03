@@ -38,8 +38,7 @@
     "surface-hover": {
       "value": "{ref-properties.fill.on-secondary-variant.hover}",
       "type": "color",
-      "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
-      "$extensions": {}
+      "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "surface-focused": {
       "value": "{ref-properties.fill.on-secondary-variant.focused}",
