@@ -39,8 +39,9 @@
   },
   "vud-base": {
     "green-05": {
-      "value": "#EBF7EB",
-      "type": "color"
+      "value": "rgba(229,1,245,0.31)",
+      "type": "color",
+      "$extensions": {}
     },
     "green-10": {
       "value": "#CFE7CF",
