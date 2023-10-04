@@ -1,12 +1,19 @@
 {
   "density": {
-    "paddingHeight": {
+    "height": {
+      "value": "{sizing.56}",
+      "type": "sizing"
+    },
+    "padding": {
       "value": "20px",
       "type": "spacing"
-    },
-    "height": {
-      "value": "{sizing.size-56}",
-      "type": "sizing"
     }
+  },
+  "td-row": {
+    "value": {
+      "sizing": "{density.height}",
+      "spacing": "{density.padding}"
+    },
+    "type": "composition"
   }
 }
