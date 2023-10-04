@@ -1,26 +1,22 @@
 {
   "tokenSetOrder": [
     "Global/core",
-    "Mode/light",
-    "Mode/dark",
-    "Components/btn-conf./default",
-    "Components/btn-conf./transparent",
-    "Components/btn-conf./primary",
-    "Components/btn-conf./secondary",
-    "Components/btn-destructive/default",
-    "Components/btn-destructive/transparent",
-    "Components/btn-destructive/primary",
-    "Components/btn-tint/default",
-    "Components/btn-tint/primary",
-    "Components/btn-tint/secondary",
+    "Themes/light",
+    "Themes/dark",
     "Density/condensed",
     "Density/default",
     "Density/regular",
     "Density/relaxed",
-    "Dimension/small",
-    "Dimension/medium",
     "Dimension/large",
+    "Dimension/medium",
+    "Dimension/small",
     "Radius/round",
-    "Radius/sharp"
+    "Radius/sharp",
+    "Extends/radius",
+    "Extends/density",
+    "Extends/dimension",
+    "Viewport/desktop",
+    "Viewport/tablet",
+    "Viewport/mobile"
   ]
 }
