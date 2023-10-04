@@ -6,7 +6,7 @@
           "Themes/light",
           "Extends/radius",
           "Extends/density",
-          "Extends/dimension",
+          "Extends/dimension"
         ],
         "supernovaBrand": "VUD",
         "supernovaTheme": null
