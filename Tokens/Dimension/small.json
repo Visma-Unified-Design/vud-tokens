@@ -1,6 +1,8 @@
 {
-  "size": {
-    "value": "{sizing.32}",
-    "type": "sizing"
+  "dimension": {
+    "size": {
+      "value": "{sizing.size-32}",
+      "type": "sizing"
+    }
   }
 }
