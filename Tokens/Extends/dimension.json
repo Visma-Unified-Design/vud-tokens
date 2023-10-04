@@ -1,1 +1,8 @@
-{}
+{
+  "dimension": {
+    "size": {
+      "value": "{sizing.size-48}",
+      "type": "sizing"
+    }
+  }
+}
