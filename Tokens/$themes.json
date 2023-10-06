@@ -5,7 +5,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "enabled",
-      "Global/brand": "disabled"
+      "Global/brand": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1:4850",
     "$figmaModeId": "1:50",
@@ -196,164 +196,6 @@
       "viewport.width": "d43c465d2750ee8b5621932c56b83fb841146bec",
       "viewport.min": "1a10f1dfe87af4e35246448b0cff418e93a12474",
       "viewport.max": "0b20c6664965e7d418c0e747d117473064a8e0a0"
-    },
-    "group": "Global"
-  },
-  {
-    "id": "b2cf14813f6422d218c17b91c32318ceec0b2034",
-    "name": "Brand",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Global/core": "source",
-      "Global/brand": "enabled"
-    },
-    "$figmaCollectionId": "VariableCollectionId:1:4850",
-    "$figmaModeId": "1:51",
-    "$figmaVariableReferences": {
-      "radii.none": "29ef0ab32cf0cbeb23a4939e37d8bde4a70e8f85",
-      "radii.xxs": "fb5d8f34a26fcb04dba9ee31d15c87ade45d9f22",
-      "radii.xs": "68e4e8e8383471006d3556b47c23f783f355842f",
-      "radii.s": "26af6a8838a74d66db72a48ec7a1b48dec5d5222",
-      "radii.md": "0ad9d456e9c67a6bbcb16368c736afbc6c42921a",
-      "radii.lg": "5125fa6d065e19ffd3ef5e50f33ef9dff4a690f9",
-      "radii.xl": "b34e4739d723badd6a89a9ecc514d39ccdd3e4cb",
-      "radii.xxl": "b71af87ab5eb3fe735afc0e7c2a34c31222dd353",
-      "radii.xxxl": "d63e5a7ed95e390107e4693047bf295f0c01f012",
-      "spcs.purple-05": "89dc4cbfe3aa71a692bc893282a52f0f73556b1f",
-      "spcs.purple-10": "a20239450360228616cac9e9b4166efa5c2404cd",
-      "spcs.purple-20": "eab6ddca7821518d0b88cd0dcd2789caea9a486b",
-      "spcs.purple-30": "53c34244a59a1b665358b94a55d76deb9b893a3d",
-      "spcs.purple-40": "d39e3c8f03dac88a6ef85d0aca96c376f149304f",
-      "spcs.purple-50": "ffc425ae4b993f861ce8f2886b05f66457a333b1",
-      "spcs.purple-60": "776be7e538a234e5d359a90594f8f4fa899c6f43",
-      "spcs.purple-70": "e57fd99e4de456d969bdafae7befd83c5a4bf58d",
-      "spcs.purple-80": "58db750d2bc5423c2c494bfa99deb3bbab4487ea",
-      "spcs.purple-90": "22ab0114e73088ca4b77475587bb06f890452e83",
-      "spcs.coral-05": "c74d60fda9da0d2241a8d41f6b3776681ff4727d",
-      "spcs.coral-10": "b16c0abacc986426dd20f89d3f8577f9bc42d123",
-      "spcs.coral-20": "ea16bd943455ae4358959fabe1ec5b724f8b1aa7",
-      "spcs.coral-30": "8b9a742645d40c44b93856f0e39bb51fbe49be9a",
-      "spcs.coral-40": "3c8e485d774669b1d6d9e2337ba494f5e8f82a3b",
-      "spcs.coral-50": "b1d476d4f5523c1632a7b80c7c554ffb0bb19955",
-      "spcs.coral-60": "b4cc66fdbf91e13f9eef4020d0a25a490e877941",
-      "spcs.coral-70": "8508d0a88dc0ef1fa6a190aab81065ccb10a2358",
-      "spcs.coral-80": "7150c623d9b1522fa5f4f61b7633f9135fdb0460",
-      "spcs.coral-90": "8d8d42b19c586aef4ae6cbd3132290d747a4613d",
-      "spcs.vanilla-05": "f98f3cf50d55c587ba8785b8392a56d87f1d00b1",
-      "spcs.vanilla-10": "7b3600185f4245706331175df4720c8eb4cc7330",
-      "spcs.vanilla-20": "7b45a8ff535a85f4c923c8ca4a5db2b74cd6b8b1",
-      "spcs.vanilla-30": "0dbc4809a3c859538cde391deb9c3f3395429a31",
-      "spcs.vanilla-40": "6732b765d5478f5f07c13de98c13d4bcd4b02e81",
-      "spcs.vanilla-50": "66bcb93ca47b8d633fad444c19ab8f37252091d2",
-      "spcs.vanilla-60": "144ee25ce7f91b72313f6a17d275eb2ddff4585c",
-      "spcs.vanilla-70": "eee1193a80a42fa1e4d692129435159dcc7114bf",
-      "spcs.vanilla-80": "9603d92fde2d2a5f7f915983fd0e1feea9b59f16",
-      "spcs.vanilla-90": "e2f049b9e6633e063fe063c75f3f021be14cdfac",
-      "spcs.green-05": "df6c54bd55bf0f52faeb5051eced987710edfb68",
-      "spcs.green-10": "b15afe57bb7daab3c214c3cbf78ec9aa51fc11b2",
-      "spcs.green-20": "b8782c2cd59b32844a357d3cf658dfb3a1f41b97",
-      "spcs.green-30": "c401b3ae9c9b37b05a6c60269ce6966ea5dd6666",
-      "spcs.green-40": "51bcb65902c2402342cb4e56a0349dde3c5b225d",
-      "spcs.green-50": "cf561702ce6b43cbf2ecbfe49597935b0a962b93",
-      "spcs.green-60": "245f05d8c79e881fdf68ac19db9f23da0e9bd2b7",
-      "spcs.green-70": "6400902f28872119457aa88f4dedae824bcd97e4",
-      "spcs.green-80": "4c023a3688751d9c3c70ef31d94e5684051023f5",
-      "spcs.green-90": "779f026d55895385773cd5b2140921307607ed5c",
-      "spcs.red-05": "2e1c820731c9f7c5fbb35f8729054c2efe0aaa22",
-      "spcs.red-10": "b92127a9d801a232f8ac931726f42e7d938286a2",
-      "spcs.red-20": "e605a6c1706418bf98fe84a1c4a81b63ebd18928",
-      "spcs.red-30": "6de443496346bc6ac268b866b8f67695f54d0466",
-      "spcs.red-40": "132a0d4727b1742e1bf603d3548b1459bd072f9f",
-      "spcs.red-50": "1090bdd313d945d3dfba6fb39ff1ea3a23ec06ba",
-      "spcs.red-60": "f8c4abe9f175f8bcb474845883c82575a7b650e2",
-      "spcs.red-70": "297157db11cb49d8f98bc5ffa9a3d7ff09162657",
-      "spcs.red-80": "f5e5904cbe38258dccfc203bd383599c567c3e59",
-      "spcs.red-90": "8f152da97802efac76d0aff9f288283ba118e5dc",
-      "spcs.orange-05": "d35af5b90fd18291a3da2fd7e34f6e03a3af4ebb",
-      "spcs.orange-10": "54bb6e4e48f80ce01801009154145412cecf4fc2",
-      "spcs.orange-20": "053091005fb45d9a53c97165ae5d3a1ab0a6ec75",
-      "spcs.orange-30": "bb375022ebc2acb8bb2b9ef95c0b76c0edcc467e",
-      "spcs.orange-40": "32eef30a58dfe10d6dabc3899f03f9df0f444bd9",
-      "spcs.orange-50": "7f08b1b41c681a1db76c7ac0ee0e28b091ddccc0",
-      "spcs.orange-60": "185b8bde3e0ab1734bbc50b61d306b223c7d2121",
-      "spcs.orange-70": "1077e5152921b66a5b4bdb481a73b1f75fe1d3a4",
-      "spcs.orange-80": "ddd83341bb0c251d26ca17a5929e3eb4b82044da",
-      "spcs.orange-90": "0e69709eeb05a238a8b92fb2fd14cc0d52842255",
-      "spcs.neutral-light-05": "76104902b46d415670b7be2e3d0a55ca8ee506b3",
-      "spcs.neutral-light-10": "bd1e3db8bde75f1c0f3d629913be33cc54658670",
-      "spcs.neutral-light-20": "ce3a90e0ab88259bc8c95908f7ec9ab2fcaa9749",
-      "spcs.neutral-light-30": "f16ce1447dad09343f15758f37415ca3d35fd3d0",
-      "spcs.neutral-light-40": "aad760e45f5649a611be5d21b0487f00f55ac174",
-      "spcs.neutral-light-50": "a2e4b62a5501cc981925ff687d772ea898c05781",
-      "spcs.neutral-light-60": "131006791ad2c5ffbd1f22d29eea49d3daf0ef8a",
-      "spcs.neutral-light-70": "463923d169972c51bb961c79d779b5c25f5be902",
-      "spcs.neutral-light-80": "52563de0d0022d05074b08afd18ea1ea7f2cde38",
-      "spcs.neutral-light-90": "6196b1b472e3fdbf40d8b864c3672408ef78ef64",
-      "spcs.neutral-dark-05": "58761d540e004deac32c8c1c2ea0ff5d85c9f57b",
-      "spcs.neutral-dark-10": "686c33af50789f8e92ed43ef0ce40cacce5ccf85",
-      "spcs.neutral-dark-20": "e46b1b853d6efd7b54880563647a52760731ac00",
-      "spcs.neutral-dark-30": "644a826ad1af43284a74d81b3add74f2a22627a1",
-      "spcs.neutral-dark-40": "0c7e27711df086ddc658e1ecd61b0e55cd4a4d37",
-      "spcs.neutral-dark-50": "ff69d8212811191d3707107e17ff94dd920d43fe",
-      "spcs.neutral-dark-60": "c4e69a4d61a1ce7b529c5328ae1d9fe5ed0bd66a",
-      "spcs.neutral-dark-70": "10a574af35a1feb376111c84a4a88bf42ce1e680",
-      "spcs.neutral-dark-80": "2cc5d5f1c9ba68dc7d6a50b1d7b347cf742fec3b",
-      "spcs.neutral-dark-90": "8fd59e8953381a872376c14529430a1171c7f789",
-      "brand.primary-05": "b3f97b3a1a5fe77fa5b50b744bb861f044554b99",
-      "brand.primary-10": "7df8526e7fb0f8f906272553b00ff6113adf7563",
-      "brand.primary-20": "79e8cd77ba913e79e728d92c42d25550cbd98682",
-      "brand.primary-30": "ef313c7c50d2419ed79dcb67c2dad7b604ab548e",
-      "brand.primary-40": "4ebc6b1c0af5875a6e79ef2c5da10a921fd2c8b3",
-      "brand.primary-50": "083db88496a86622d431e93bdcd56fd05b615df1",
-      "brand.primary-60": "8967b3f866d7cc327924435870828ab5cb11eaa9",
-      "brand.primary-70": "f51c534d737af087c9ddb1f5ad9372c4b199dbe9",
-      "brand.primary-80": "1776a1635d05d52ae96b185a003784f5c442c831",
-      "brand.primary-90": "f31d8308b6856c542bb24edf21425e6415ff17e1",
-      "brand.primary-gradient": "3e71aaa5879c8e47cf673defb831be52a57b8009",
-      "brand.secondary-05": "9cfc808fb54e84afd28f73ae2d7799c95399e829",
-      "brand.secondary-10": "25304f627607e7adfbcdcedc4640c6e53755e7f5",
-      "brand.secondary-20": "d75bdda7ba625ceafccd052b67741651a612c7d0",
-      "brand.secondary-30": "39561696cb7fd649058e8d2804c8aaf65d4bba15",
-      "brand.secondary-40": "391c218710bc035b729f45cee9c87bd54788866b",
-      "brand.secondary-50": "4868ce390882d94634a091ffe8e8155fe189d403",
-      "brand.secondary-60": "397629e08d6d3cc75a6e2d7b89ea65507a9a5c74",
-      "brand.secondary-70": "8b69e4a23eb25c9441c11800e6f1917e62265e99",
-      "brand.secondary-80": "a9114b826470d6abb5f4e13e11ccf1831be47188",
-      "brand.secondary-90": "ea4d3ae4009d834d7c9bee502c0c1c2213f8db3d",
-      "brand.secondary-gradient": "12751726f50eec95c5e0048522fee291a25641e6",
-      "brand.tertiary-05": "f51182847e2a4a582576612d6602d0a69aa0fdcd",
-      "brand.tertiary-10": "51393de6601fac6dbe1cc2e800a121a3d4915b71",
-      "brand.tertiary-20": "258b6b6de66b9eef4aa4387f75ce729a71d773ff",
-      "brand.tertiary-30": "553743f0a99de8e43ede04d8fb382d3aed7b75cd",
-      "brand.tertiary-40": "8ceea7de4f8fd981c7f0d07d142610a057faea46",
-      "brand.tertiary-50": "3c98ee56354efbe86b37b064365301a54c74cd21",
-      "brand.tertiary-60": "2db6f127b1f2a174de6f19ea9631d7b5b56fb72c",
-      "brand.tertiary-70": "c754fa8fe23d2f8a9bae6a7961c090521fe13e8d",
-      "brand.tertiary-80": "7ab6759a31f229d10000d67b3f240232c6426124",
-      "brand.tertiary-90": "e58a8229098a3bf483acc5180d62b3c8f9e3d1f1",
-      "brand.tertiary-gradient": "6fe06e105271a141aaface59bef0272b5cc14c41",
-      "brand.neutral-light-05": "addae365a1a1cab77940aefa4a42aec240ec3ceb",
-      "brand.neutral-light-10": "1825ac064d059a612769d18714bbb99f7c19f7a8",
-      "brand.neutral-light-20": "78c8c8220336914ea9fef1062d0c295bb3657d38",
-      "brand.neutral-light-30": "e197eaa2d95bee532db6ddb808b4b7bba75cd201",
-      "brand.neutral-light-40": "9c9d3aff7d4d392b9fc4ac5d36b119b2eb518245",
-      "brand.neutral-light-50": "5b0de322d7c0209fdc902407381e8b7cb5361e5e",
-      "brand.neutral-light-60": "2cd98b903a2a75dfcdcb66e02c3b807c885836fc",
-      "brand.neutral-light-70": "6f0079a8f6d3ee4ad88f9dd9d3332645306fcd3e",
-      "brand.neutral-light-80": "558379558bf93312c3e95b2e392324aa51b123e9",
-      "brand.neutral-light-90": "1ea086adbfd18650861edd11589eeef19afd25fb",
-      "brand.neutral-light-gradient": "8cf50a679e62ef85195d0c1c12acd6b681944528",
-      "brand.neutral-dark-05": "abf129b0656571e5369f548e35d81d21e7b732d7",
-      "brand.neutral-dark-10": "a851e6d71e4bd9a9fbe50c6aa498ab90a9f27d1c",
-      "brand.neutral-dark-20": "635b491591a70f624bcc82096f63ea5fd05503df",
-      "brand.neutral-dark-30": "51311613400f3e1338f2581bae7fd78cbb583bdf",
-      "brand.neutral-dark-40": "95527fbb8964988da0c8606132e48fa47329528e",
-      "brand.neutral-dark-50": "ed30821aa3f283fc6bd540d4b99584a8378b235a",
-      "brand.neutral-dark-60": "f29b036995a03a96dd33ef3882926626fe5c6678",
-      "brand.neutral-dark-70": "4b2133bff24887e95a9d49c79a268a3c4579c4c7",
-      "brand.neutral-dark-80": "8b5fe45b4ca8a503ecec07cf597f7b7b41a019e5",
-      "brand.neutral-dark-90": "78c12cf2ab3970dcac237d4a0885d00b923c0758",
-      "brand.neutral-dark-gradient": "0aad8fbca491f6ac4303760bf655348c63dba037"
     },
     "group": "Global"
   },
@@ -2125,8 +1967,7 @@
     "selectedTokenSets": {
       "Density/condensed": "enabled",
       "Extends/density": "enabled",
-      "Global/core": "source",
-      "Global/brand": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1:6029",
     "$figmaModeId": "1:54",
@@ -2142,8 +1983,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Density/default": "enabled",
-      "Global/core": "source",
-      "Global/brand": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1:6029",
     "$figmaModeId": "1:55",
@@ -2159,8 +1999,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Density/regular": "enabled",
-      "Global/core": "source",
-      "Global/brand": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1:6029",
     "$figmaModeId": "1:56",
@@ -2176,8 +2015,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Density/relaxed": "enabled",
-      "Global/core": "source",
-      "Global/brand": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1:6029",
     "$figmaModeId": "1:57",
@@ -2193,8 +2031,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/round": "enabled",
-      "Global/core": "source",
-      "Global/brand": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1:6032",
     "$figmaModeId": "1:58",
@@ -2217,8 +2054,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/sharp": "enabled",
-      "Global/core": "source",
-      "Global/brand": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1:6032",
     "$figmaModeId": "1:59",
@@ -2242,8 +2078,7 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/small": "enabled",
-      "Global/core": "source",
-      "Global/brand": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1:6042",
     "$figmaModeId": "1:60",
@@ -2259,8 +2094,7 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/medium": "enabled",
-      "Global/core": "source",
-      "Global/brand": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1:6042",
     "$figmaModeId": "1:61",
@@ -2276,8 +2110,7 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/large": "enabled",
-      "Global/core": "source",
-      "Global/brand": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1:6042",
     "$figmaModeId": "1:62",
@@ -2292,8 +2125,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/desktop": "enabled",
-      "Global/core": "source",
-      "Global/brand": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1:6044",
     "$figmaModeId": "1:63",
@@ -2308,8 +2140,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/tablet": "enabled",
-      "Global/core": "source",
-      "Global/brand": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1:6044",
     "$figmaModeId": "1:64",
@@ -2324,8 +2155,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/mobile": "enabled",
-      "Global/core": "source",
-      "Global/brand": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:1:6044",
     "$figmaModeId": "1:65",
