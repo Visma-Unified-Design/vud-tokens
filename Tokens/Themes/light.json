@@ -2,124 +2,124 @@
   "ref-properties": {
     "text": {
       "default": {
-        "value": "{ref-brand.neutral-light-90}",
+        "value": "{brand.neutral-light-90}",
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
       "inverse": {
-        "value": "{ref-brand.neutral-light-05}",
+        "value": "{brand.neutral-light-05}",
         "type": "color",
         "description": "Inverse text refers to the opposite color that contrasts with the background. "
       },
       "secondary": {
-        "value": "{ref-brand.neutral-light-80}",
+        "value": "{brand.neutral-light-80}",
         "type": "color",
         "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
       },
       "emphasis": {
-        "value": "{ref-brand.secondary-60}",
+        "value": "{brand.secondary-60}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
       "links": {
-        "value": "{ref-brand.secondary-60}",
+        "value": "{brand.secondary-60}",
         "type": "color",
         "description": "Links refers to emphasis clickable elements."
       },
       "visited": {
-        "value": "{vud-ref-funct.draft-60}",
+        "value": "{vud-funct.draft-60}",
         "type": "color",
         "description": "Visited link\" refers to a hyperlink that has been previously clicked or accessed."
       },
       "disabled": {
-        "value": "{ref-brand.neutral-light-60}",
+        "value": "{brand.neutral-light-60}",
         "type": "color",
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "success-moderate": {
-        "value": "{vud-ref-funct.success-70}",
+        "value": "{vud-funct.success-70}",
         "type": "color",
         "description": "Success text refers to content that signifies a positive or affirmative message."
       },
       "info-moderate": {
-        "value": "{ref-brand.secondary-60}",
+        "value": "{brand.secondary-60}",
         "type": "color",
         "description": "Info text gives a clear summary of the information."
       },
       "draft-moderate": {
-        "value": "{vud-ref-funct.draft-80}",
+        "value": "{vud-funct.draft-80}",
         "type": "color",
         "description": "Draft refers to temporary statuses."
       },
       "warning-moderate": {
-        "value": "{vud-ref-funct.warning-90}",
+        "value": "{vud-funct.warning-90}",
         "type": "color",
         "description": "Warning text refers to content that conveys a warning, caution, or alert."
       },
       "error-moderate": {
-        "value": "{vud-ref-funct.error-80}",
+        "value": "{vud-funct.error-80}",
         "type": "color",
         "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
       },
       "success-weak": {
-        "value": "{vud-ref-funct.default-light-05}",
+        "value": "{vud-funct.default-light-05}",
         "type": "color",
         "description": "Success text refers to content that signifies a positive or affirmative message."
       },
       "info-weak": {
-        "value": "{vud-ref-funct.default-light-05}",
+        "value": "{vud-funct.default-light-05}",
         "type": "color",
         "description": "Info text gives a clear summary of the information."
       },
       "draft-weak": {
-        "value": "{vud-ref-funct.default-light-05}",
+        "value": "{vud-funct.default-light-05}",
         "type": "color",
         "description": "Draft refers to temporary statuses."
       },
       "warning-weak": {
-        "value": "{vud-ref-funct.default-light-05}",
+        "value": "{vud-funct.default-light-05}",
         "type": "color",
         "description": "Warning text refers to content that conveys a warning, caution, or alert."
       },
       "error-weak": {
-        "value": "{vud-ref-funct.default-light-05}",
+        "value": "{vud-funct.default-light-05}",
         "type": "color",
         "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
       }
     },
     "icon": {
       "default": {
-        "value": "{ref-brand.neutral-light-80}",
+        "value": "{brand.neutral-light-80}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
       "inverse": {
-        "value": "{ref-brand.neutral-light-05}",
+        "value": "{brand.neutral-light-05}",
         "type": "color",
         "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
       },
       "emphasis": {
-        "value": "{ref-brand.secondary-50}",
+        "value": "{brand.secondary-50}",
         "type": "color",
         "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "error": {
-        "value": "{vud-ref-funct.error-60}",
+        "value": "{vud-funct.error-60}",
         "type": "color",
         "description": "The error indicates the occurrence of an error or problem. Suitable for destructive icons."
       },
       "warning": {
-        "value": "{vud-ref-funct.warning-60}",
+        "value": "{vud-funct.warning-60}",
         "type": "color",
         "description": "Warning icon serves as a visual cue to alert about potential issues, risks, or important information that requires attention."
       },
       "success": {
-        "value": "{vud-ref-funct.success-60}",
+        "value": "{vud-funct.success-60}",
         "type": "color",
         "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
       },
       "disabled": {
-        "value": "{ref-brand.neutral-light-60}",
+        "value": "{brand.neutral-light-60}",
         "type": "color",
         "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
       }
@@ -127,139 +127,139 @@
     "pictogram": {
       "on-primary": {
         "stroke-default": {
-          "value": "{ref-brand.neutral-light-80}",
+          "value": "{brand.neutral-light-80}",
           "type": "color",
           "description": "\n"
         },
         "stroke-emphasis": {
-          "value": "{ref-brand.secondary-60}",
+          "value": "{brand.secondary-60}",
           "type": "color"
         },
         "fill-default": {
-          "value": "rgba( {ref-brand.neutral-light-80}, {opacity.opaque-8})",
+          "value": "rgba( {brand.neutral-light-80}, {opacity.opaque-8})",
           "type": "color"
         },
         "fill-emphasis": {
-          "value": "rgba( {ref-brand.secondary-60}, {opacity.opaque-24})",
+          "value": "rgba( {brand.secondary-60}, {opacity.opaque-24})",
           "type": "color"
         }
       },
       "on-secondary": {
         "stroke-default": {
-          "value": "{ref-brand.neutral-light-80}",
+          "value": "{brand.neutral-light-80}",
           "type": "color"
         },
         "stroke-emphasis": {
-          "value": "{ref-brand.primary-60}",
+          "value": "{brand.primary-60}",
           "type": "color"
         },
         "fill-default": {
-          "value": "rgba( {ref-brand.neutral-light-80}, {opacity.opaque-8})",
+          "value": "rgba( {brand.neutral-light-80}, {opacity.opaque-8})",
           "type": "color"
         },
         "fill-emphasis": {
-          "value": "rgba( {ref-brand.primary-60}, {opacity.opaque-24})",
+          "value": "rgba( {brand.primary-60}, {opacity.opaque-24})",
           "type": "color"
         }
       },
       "on-tertiary": {
         "stroke-default": {
-          "value": "{ref-brand.neutral-light-80}",
+          "value": "{brand.neutral-light-80}",
           "type": "color"
         },
         "stroke-emphasis": {
-          "value": "{ref-brand.tertiary-60}",
+          "value": "{brand.tertiary-60}",
           "type": "color"
         },
         "fill-default": {
-          "value": "rgba( {ref-brand.neutral-light-80}, {opacity.opaque-8})",
+          "value": "rgba( {brand.neutral-light-80}, {opacity.opaque-8})",
           "type": "color"
         },
         "fill-emphasis": {
-          "value": "rgba( {ref-brand.tertiary-60}, {opacity.opaque-24})",
+          "value": "rgba( {brand.tertiary-60}, {opacity.opaque-24})",
           "type": "color"
         }
       }
     },
     "border": {
       "weak": {
-        "value": "{ref-brand.neutral-light-20}",
+        "value": "{brand.neutral-light-20}",
         "type": "color",
         "description": "Weak border refers to a subtle border style."
       },
       "moderate": {
-        "value": "{ref-brand.neutral-light-30}",
+        "value": "{brand.neutral-light-30}",
         "type": "color",
         "description": "The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator. "
       },
       "strong": {
-        "value": "{ref-brand.neutral-light-60}",
+        "value": "{brand.neutral-light-60}",
         "type": "color",
         "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted separators."
       },
       "extreme": {
-        "value": "{ref-brand.primary-60}",
+        "value": "{brand.primary-60}",
         "type": "color",
         "description": "Extreme default border refers to a standard border style that is branded."
       },
       "on-default": {
         "enabled": {
-          "value": "{ref-brand.neutral-light-60}",
+          "value": "{brand.neutral-light-60}",
           "type": "color",
           "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "muted": {
-          "value": "{ref-brand.neutral-light-20}",
+          "value": "{brand.neutral-light-20}",
           "type": "color",
           "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
         },
         "transparent": {
-          "value": "rgba({ref-brand.neutral-light-60}, {opacity.opaque-0})",
+          "value": "rgba({brand.neutral-light-60}, {opacity.opaque-0})",
           "type": "color",
           "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
         },
         "hover": {
-          "value": "{ref-brand.secondary-50}",
+          "value": "{brand.secondary-50}",
           "type": "color",
           "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "pressed": {
-          "value": "{ref-brand.neutral-light-60}",
+          "value": "{brand.neutral-light-60}",
           "type": "color",
           "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{ref-brand.secondary-50}",
+          "value": "{brand.secondary-50}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected-weak": {
-          "value": "{ref-brand.neutral-light-10}",
+          "value": "{brand.neutral-light-10}",
           "type": "color",
           "description": "Border with a selected state refers to an interaction that occurs when the ui element is active."
         },
         "selected-weak:hover": {
-          "value": "{ref-brand.secondary-50}",
+          "value": "{brand.secondary-50}",
           "type": "color",
           "description": "Border hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection."
         },
         "selected-moderate": {
-          "value": "{ref-brand.neutral-light-60}",
+          "value": "{brand.neutral-light-60}",
           "type": "color",
           "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
         },
         "selected-moderate:hover": {
-          "value": "{ref-brand.secondary-50}",
+          "value": "{brand.secondary-50}",
           "type": "color",
           "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "selected-strong": {
-          "value": "{ref-brand.primary-80}",
+          "value": "{brand.primary-80}",
           "type": "color",
           "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
         },
         "selected-strong:hover": {
-          "value": "{ref-brand.primary-80}",
+          "value": "{brand.primary-80}",
           "type": "color",
           "description": "Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -273,19 +273,19 @@
           }
         },
         "disabled": {
-          "value": "{ref-brand.neutral-light-40}",
+          "value": "{brand.neutral-light-40}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
       "on-primary": {
         "enabled": {
-          "value": "{ref-brand.primary-70}",
+          "value": "{brand.primary-70}",
           "type": "color",
           "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{ref-brand.primary-70}",
+          "value": "{brand.primary-70}",
           "type": "color",
           "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -299,22 +299,22 @@
           }
         },
         "pressed": {
-          "value": "{ref-brand.primary-90}",
+          "value": "{brand.primary-90}",
           "type": "color",
           "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{ref-brand.secondary-50}",
+          "value": "{brand.secondary-50}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected": {
-          "value": "{ref-brand.primary-80}",
+          "value": "{brand.primary-80}",
           "type": "color",
           "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
         },
         "selected:hover": {
-          "value": "{ref-brand.primary-80}",
+          "value": "{brand.primary-80}",
           "type": "color",
           "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -335,12 +335,12 @@
       },
       "on-secondary": {
         "enabled": {
-          "value": "{ref-brand.secondary-70}",
+          "value": "{brand.secondary-70}",
           "type": "color",
           "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{ref-brand.secondary-70}",
+          "value": "{brand.secondary-70}",
           "type": "color",
           "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -354,22 +354,22 @@
           }
         },
         "pressed": {
-          "value": "{ref-brand.secondary-90}",
+          "value": "{brand.secondary-90}",
           "type": "color",
           "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{ref-brand.secondary-50}",
+          "value": "{brand.secondary-50}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected": {
-          "value": "{ref-brand.secondary-80}",
+          "value": "{brand.secondary-80}",
           "type": "color",
           "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
         },
         "selected:hover": {
-          "value": "{ref-brand.secondary-80}",
+          "value": "{brand.secondary-80}",
           "type": "color",
           "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -390,17 +390,17 @@
       },
       "on-destructive-default": {
         "enabled": {
-          "value": "{vud-ref-funct.error-70}",
+          "value": "{vud-funct.error-70}",
           "type": "color",
           "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "transparent": {
-          "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+          "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
           "type": "color",
           "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
         },
         "hover": {
-          "value": "{vud-ref-funct.error-70}",
+          "value": "{vud-funct.error-70}",
           "type": "color",
           "description": "Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -410,7 +410,7 @@
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "pressed": {
-          "value": "{vud-ref-funct.error-90}",
+          "value": "{vud-funct.error-90}",
           "type": "color",
           "description": "Border with pressed state refers to an interaction that occurs when the ui element is pressed."
         },
@@ -422,17 +422,17 @@
       },
       "on-destructive-primary": {
         "enabled": {
-          "value": "{vud-ref-funct.error-70}",
+          "value": "{vud-funct.error-70}",
           "type": "color",
           "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "transparent": {
-          "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+          "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
           "type": "color",
           "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
         },
         "hover": {
-          "value": "{vud-ref-funct.error-70}",
+          "value": "{vud-funct.error-70}",
           "type": "color",
           "description": "Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -451,7 +451,7 @@
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "pressed": {
-          "value": "{vud-ref-funct.error-90}",
+          "value": "{vud-funct.error-90}",
           "type": "color",
           "description": "Border with pressed state refers to an interaction that occurs when the ui element is pressed."
         },
@@ -463,12 +463,12 @@
       },
       "on-funct": {
         "default": {
-          "value": "{vud-ref-funct.default-light-60}",
+          "value": "{vud-funct.default-light-60}",
           "type": "color",
           "description": "Default alerts. Specially lower prio statuses such as pairing."
         },
         "inverse": {
-          "value": "{vud-ref-funct.default-light-90}",
+          "value": "{vud-funct.default-light-90}",
           "type": "color",
           "description": "Inverse border refers to the opposite color that contrasts with the background. "
         },
@@ -478,64 +478,64 @@
           "description": "Muted border refers to a subtle border style."
         },
         "success-weak": {
-          "value": "{vud-ref-funct.success-60}",
+          "value": "{vud-funct.success-60}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         },
         "info-weak": {
-          "value": "{vud-ref-funct.info-60}",
+          "value": "{vud-funct.info-60}",
           "type": "color",
           "description": "Normal alerts. Ccommon statuses such as created, sent, printed, processing."
         },
         "draft-weak": {
-          "value": "{vud-ref-funct.draft-60}",
+          "value": "{vud-funct.draft-60}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "warning-weak": {
-          "value": "{vud-ref-funct.warning-70}",
+          "value": "{vud-funct.warning-70}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "error-weak": {
-          "value": "{vud-ref-funct.error-70}",
+          "value": "{vud-funct.error-70}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "success-moderate": {
-          "value": "{vud-ref-funct.success-70}",
+          "value": "{vud-funct.success-70}",
           "type": "color",
           "description": "Suitable for badges. Success and positive statuses such as accepted, paid, delivered."
         },
         "info-moderate": {
-          "value": "{vud-ref-funct.info-70}",
+          "value": "{vud-funct.info-70}",
           "type": "color",
           "description": "Suitable for badges. Ccommon statuses such as created, sent, printed, processing."
         },
         "draft-moderate": {
-          "value": "{vud-ref-funct.draft-70}",
+          "value": "{vud-funct.draft-70}",
           "type": "color",
           "description": "Suitable for badges. Temporary statuses such as drafts."
         },
         "warning-moderate": {
-          "value": "{vud-ref-funct.warning-70}",
+          "value": "{vud-funct.warning-70}",
           "type": "color",
           "description": "Suitable for badges. Warnings and potential problem statuses such as partially paid, losses."
         },
         "error-moderate": {
-          "value": "{vud-ref-funct.error-70}",
+          "value": "{vud-funct.error-70}",
           "type": "color",
           "description": "Suitable for badges. Errors and failure statuses such as rejected, not sent, overdue, not delivered."
         }
       },
       "on-primary-tint": {
         "enabled": {
-          "value": "{ref-brand.primary-60}",
+          "value": "{brand.primary-60}",
           "type": "color",
           "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{ref-brand.primary-60}",
+          "value": "{brand.primary-60}",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -549,22 +549,22 @@
           }
         },
         "pressed": {
-          "value": "{ref-brand.primary-90}",
+          "value": "{brand.primary-90}",
           "type": "color",
           "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{ref-brand.secondary-50}",
+          "value": "{brand.secondary-50}",
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected": {
-          "value": "{ref-brand.primary-80}",
+          "value": "{brand.primary-80}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
         "selected:hover": {
-          "value": "{ref-brand.primary-80}",
+          "value": "{brand.primary-80}",
           "type": "color",
           "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -585,12 +585,12 @@
       },
       "on-secondary-tint": {
         "enabled": {
-          "value": "{ref-brand.secondary-60}",
+          "value": "{brand.secondary-60}",
           "type": "color",
           "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{ref-brand.secondary-60}",
+          "value": "{brand.secondary-60}",
           "type": "color",
           "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -604,22 +604,22 @@
           }
         },
         "pressed": {
-          "value": "{ref-brand.secondary-90}",
+          "value": "{brand.secondary-90}",
           "type": "color",
           "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{ref-brand.secondary-50}",
+          "value": "{brand.secondary-50}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected": {
-          "value": "{ref-brand.secondary-80}",
+          "value": "{brand.secondary-80}",
           "type": "color",
           "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
         },
         "selected:hover": {
-          "value": "{ref-brand.secondary-80}",
+          "value": "{brand.secondary-80}",
           "type": "color",
           "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -642,67 +642,67 @@
     "fill": {
       "on-default": {
         "enabled": {
-          "value": "{ref-brand.neutral-light-05}",
+          "value": "{brand.neutral-light-05}",
           "type": "color",
           "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "inverse": {
-          "value": "{ref-brand.neutral-light-05}",
+          "value": "{brand.neutral-light-05}",
           "type": "color",
           "description": "Inverse surface contrast with the background."
         },
         "muted": {
-          "value": "{ref-brand.neutral-light-20}",
+          "value": "{brand.neutral-light-20}",
           "type": "color",
           "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
         },
         "transparent": {
-          "value": "rgba({ref-brand.neutral-light-05}, {opacity.opaque-0})",
+          "value": "rgba({brand.neutral-light-05}, {opacity.opaque-0})",
           "type": "color",
           "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
         },
         "hover": {
-          "value": "{ref-brand.secondary-10}",
+          "value": "{brand.secondary-10}",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "pressed": {
-          "value": "{ref-brand.neutral-light-30}",
+          "value": "{brand.neutral-light-30}",
           "type": "color",
           "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{ref-brand.neutral-light-05}",
+          "value": "{brand.neutral-light-05}",
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected-weak": {
-          "value": "{ref-brand.neutral-light-10}",
+          "value": "{brand.neutral-light-10}",
           "type": "color",
           "description": "Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
         "selected-weak:hover": {
-          "value": "{ref-brand.secondary-05}",
+          "value": "{brand.secondary-05}",
           "type": "color",
           "description": "Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "selected-moderate": {
-          "value": "{ref-brand.neutral-light-20}",
+          "value": "{brand.neutral-light-20}",
           "type": "color",
           "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
         "selected-moderate:hover": {
-          "value": "{ref-brand.secondary-10}",
+          "value": "{brand.secondary-10}",
           "type": "color",
           "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "selected-strong": {
-          "value": "{ref-brand.primary-80}",
+          "value": "{brand.primary-80}",
           "type": "color",
           "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
         },
         "selected-strong:hover": {
-          "value": "{ref-brand.primary-80}",
+          "value": "{brand.primary-80}",
           "type": "color",
           "description": "Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -716,19 +716,19 @@
           }
         },
         "disabled": {
-          "value": "{ref-brand.neutral-light-05}",
+          "value": "{brand.neutral-light-05}",
           "type": "color",
           "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
       },
       "on-primary": {
         "enabled": {
-          "value": "{ref-brand.primary-70}",
+          "value": "{brand.primary-70}",
           "type": "color",
           "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{ref-brand.primary-70}",
+          "value": "{brand.primary-70}",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -743,22 +743,22 @@
           }
         },
         "pressed": {
-          "value": "{ref-brand.primary-90}",
+          "value": "{brand.primary-90}",
           "type": "color",
           "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{ref-brand.primary-70}",
+          "value": "{brand.primary-70}",
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected": {
-          "value": "{ref-brand.primary-80}",
+          "value": "{brand.primary-80}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
         "selected:hover": {
-          "value": "{ref-brand.primary-80}",
+          "value": "{brand.primary-80}",
           "type": "color",
           "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -779,12 +779,12 @@
       },
       "on-secondary": {
         "enabled": {
-          "value": "{ref-brand.secondary-70}",
+          "value": "{brand.secondary-70}",
           "type": "color",
           "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{ref-brand.secondary-70}",
+          "value": "{brand.secondary-70}",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -798,22 +798,22 @@
           }
         },
         "pressed": {
-          "value": "{ref-brand.secondary-90}",
+          "value": "{brand.secondary-90}",
           "type": "color",
           "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{ref-brand.secondary-70}",
+          "value": "{brand.secondary-70}",
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected": {
-          "value": "{ref-brand.secondary-80}",
+          "value": "{brand.secondary-80}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
         "selected:hover": {
-          "value": "{ref-brand.secondary-80}",
+          "value": "{brand.secondary-80}",
           "type": "color",
           "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -834,17 +834,17 @@
       },
       "on-destructive-default": {
         "enabled": {
-          "value": "{vud-ref-funct.default-light-05}",
+          "value": "{vud-funct.default-light-05}",
           "type": "color",
           "description": "Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "transparent": {
-          "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+          "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
           "type": "color",
           "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
         },
         "hover": {
-          "value": "{vud-ref-funct.error-70}",
+          "value": "{vud-funct.error-70}",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -858,12 +858,12 @@
           }
         },
         "focused": {
-          "value": "{vud-ref-funct.default-light-05}",
+          "value": "{vud-funct.default-light-05}",
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "pressed": {
-          "value": "{vud-ref-funct.error-90}",
+          "value": "{vud-funct.error-90}",
           "type": "color",
           "description": "Surface with pressed state refers to an interaction that occurs when the ui element is pressed."
         },
@@ -875,17 +875,17 @@
       },
       "on-destructive-primary": {
         "enabled": {
-          "value": "{vud-ref-funct.error-70}",
+          "value": "{vud-funct.error-70}",
           "type": "color",
           "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "transparent": {
-          "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+          "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
           "type": "color",
           "description": "Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences."
         },
         "hover": {
-          "value": "{vud-ref-funct.error-70}",
+          "value": "{vud-funct.error-70}",
           "type": "color",
           "description": "Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -899,12 +899,12 @@
           }
         },
         "focused": {
-          "value": "{vud-ref-funct.error-70}",
+          "value": "{vud-funct.error-70}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "pressed": {
-          "value": "{vud-ref-funct.error-90}",
+          "value": "{vud-funct.error-90}",
           "type": "color",
           "description": "Border with pressed state refers to an interaction that occurs when the ui element is pressed."
         },
@@ -916,12 +916,12 @@
       },
       "on-funct": {
         "default": {
-          "value": "{vud-ref-funct.default-light-05}",
+          "value": "{vud-funct.default-light-05}",
           "type": "color",
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "inverse": {
-          "value": "{vud-ref-funct.default-light-90}",
+          "value": "{vud-funct.default-light-90}",
           "type": "color",
           "description": "Inverse surface contrast with the background."
         },
@@ -936,84 +936,84 @@
           "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "success-weak": {
-          "value": "{vud-ref-funct.success-05}",
+          "value": "{vud-funct.success-05}",
           "type": "color",
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         },
         "info-weak": {
-          "value": "{vud-ref-funct.info-05}",
+          "value": "{vud-funct.info-05}",
           "type": "color",
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "draft-weak": {
-          "value": "{vud-ref-funct.draft-05}",
+          "value": "{vud-funct.draft-05}",
           "type": "color",
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "warning-weak": {
-          "value": "{vud-ref-funct.warning-05}",
+          "value": "{vud-funct.warning-05}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "error-weak": {
-          "value": "{vud-ref-funct.error-05}",
+          "value": "{vud-funct.error-05}",
           "type": "color",
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "success-moderate": {
-          "value": "{vud-ref-funct.success-70}",
+          "value": "{vud-funct.success-70}",
           "type": "color",
           "description": "Suitable for badges. Success and positive statuses such as accepted, paid, delivered."
         },
         "info-moderate": {
-          "value": "{vud-ref-funct.info-70}",
+          "value": "{vud-funct.info-70}",
           "type": "color",
           "description": "Suitable for badges. Common statuses such as created, sent, printed, processing."
         },
         "draft-moderate": {
-          "value": "{vud-ref-funct.draft-70}",
+          "value": "{vud-funct.draft-70}",
           "type": "color",
           "description": "Suitable for badges. Temporary statuses such as drafts."
         },
         "warning-moderate": {
-          "value": "{vud-ref-funct.warning-70}",
+          "value": "{vud-funct.warning-70}",
           "type": "color",
           "description": "Suitable for badges. Warnings and potential problem statuses such as partially paid, losses."
         },
         "error-moderate": {
-          "value": "{vud-ref-funct.error-70}",
+          "value": "{vud-funct.error-70}",
           "type": "color",
           "description": "Suitable for badges. Errors and failure statuses such as rejected, not sent, overdue, not delivered."
         }
       },
       "on-primary-tint": {
         "enabled": {
-          "value": "{ref-brand.primary-05}",
+          "value": "{brand.primary-05}",
           "type": "color",
           "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{ref-brand.primary-20}",
+          "value": "{brand.primary-20}",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "pressed": {
-          "value": "{ref-brand.primary-90}",
+          "value": "{brand.primary-90}",
           "type": "color",
           "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{ref-brand.primary-05}",
+          "value": "{brand.primary-05}",
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected": {
-          "value": "{ref-brand.primary-80}",
+          "value": "{brand.primary-80}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
         "selected:hover": {
-          "value": "{ref-brand.primary-80}",
+          "value": "{brand.primary-80}",
           "type": "color",
           "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -1034,32 +1034,32 @@
       },
       "on-secondary-tint": {
         "enabled": {
-          "value": "{ref-brand.secondary-05}",
+          "value": "{brand.secondary-05}",
           "type": "color",
           "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{ref-brand.secondary-20}",
+          "value": "{brand.secondary-20}",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "pressed": {
-          "value": "{ref-brand.secondary-90}",
+          "value": "{brand.secondary-90}",
           "type": "color",
           "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{ref-brand.secondary-05}",
+          "value": "{brand.secondary-05}",
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected": {
-          "value": "{ref-brand.secondary-80}",
+          "value": "{brand.secondary-80}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
         "selected:hover": {
-          "value": "{ref-brand.secondary-80}",
+          "value": "{brand.secondary-80}",
           "type": "color",
           "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
@@ -1094,7 +1094,7 @@
       },
       "on-mark": {
         "default": {
-          "value": "{vud-base.orange-10}",
+          "value": "{vud.orange-10}",
           "type": "color",
           "description": "Suitable for highligting text."
         }
@@ -1102,27 +1102,27 @@
     },
     "shade": {
       "weak": {
-        "value": "rgba( {vud-base.neutral-dark-90},{opacity.opaque-8})",
+        "value": "rgba( {vud.neutral-dark-90},{opacity.opaque-8})",
         "type": "color"
       },
       "moderate": {
-        "value": "rgba( {vud-base.neutral-dark-90},{opacity.opaque-12})",
+        "value": "rgba( {vud.neutral-dark-90},{opacity.opaque-12})",
         "type": "color"
       }
     },
     "tint": {
       "weak": {
-        "value": "rgba({ref-brand.neutral-light-05}, {opacity.opaque-8})",
+        "value": "rgba({brand.neutral-light-05}, {opacity.opaque-8})",
         "type": "color"
       },
       "moderate": {
-        "value": "rgba( {ref-brand.neutral-dark-05}, {opacity.opaque-12})",
+        "value": "rgba( {brand.neutral-dark-05}, {opacity.opaque-12})",
         "type": "color"
       }
     },
     "data-visualization": {
       "1": {
-        "value": "{vud-ref-funct.warning-30}",
+        "value": "{vud-funct.warning-30}",
         "type": "color"
       }
     }
@@ -1230,7 +1230,7 @@
         "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
       },
       "border-transparent": {
-        "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+        "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
         "type": "color",
         "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
@@ -1550,7 +1550,7 @@
     },
     "on-tint": {
       "text-default": {
-        "value": "{ref-brand.primary-90}",
+        "value": "{brand.primary-90}",
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
@@ -1565,7 +1565,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "icon-default": {
-        "value": "{ref-brand.primary-80}",
+        "value": "{brand.primary-80}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
@@ -1833,7 +1833,7 @@
     },
     "on-tint": {
       "text-default": {
-        "value": "{ref-brand.secondary-90}",
+        "value": "{brand.secondary-90}",
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
@@ -1848,7 +1848,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "icon-default": {
-        "value": "{ref-brand.secondary-70}",
+        "value": "{brand.secondary-70}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
@@ -1941,7 +1941,7 @@
         "y": "0",
         "blur": "0",
         "spread": "0",
-        "color": "rgba( {vud-base.neutral-light-90}, {opacity.opaque-8})",
+        "color": "rgba( {vud.neutral-light-90}, {opacity.opaque-8})",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -1952,7 +1952,7 @@
         "y": "2",
         "blur": "4",
         "spread": "0",
-        "color": "rgba({ref-brand.primary-80},{opacity.opaque-16})",
+        "color": "rgba({brand.primary-80},{opacity.opaque-16})",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -1963,7 +1963,7 @@
         "y": "2",
         "blur": "4",
         "spread": "0",
-        "color": "rgba( {vud-base.neutral-light-90}, {opacity.opaque-8})",
+        "color": "rgba( {vud.neutral-light-90}, {opacity.opaque-8})",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -1974,7 +1974,7 @@
         "y": "5",
         "blur": "10",
         "spread": "0",
-        "color": "rgba( {vud-base.neutral-light-90}, {opacity.opaque-12})",
+        "color": "rgba( {vud.neutral-light-90}, {opacity.opaque-12})",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -1985,7 +1985,7 @@
         "y": "10",
         "blur": "15",
         "spread": "0",
-        "color": "rgba({vud-base.neutral-light-90}, {opacity.opaque-16})",
+        "color": "rgba({vud.neutral-light-90}, {opacity.opaque-16})",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -1996,7 +1996,7 @@
         "y": "15",
         "blur": "40",
         "spread": "0",
-        "color": "rgba({vud-base.neutral-light-90}, {opacity.opaque-24})",
+        "color": "rgba({vud.neutral-light-90}, {opacity.opaque-24})",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -2010,7 +2010,7 @@
           "y": "0",
           "blur": "0",
           "spread": "3",
-          "color": "{ref-brand.neutral-light-05}",
+          "color": "{brand.neutral-light-05}",
           "type": "innerShadow"
         },
         {
@@ -2018,7 +2018,7 @@
           "y": "2",
           "blur": "4",
           "spread": "0",
-          "color": "rgba({ref-brand.secondary-90}, {opacity.opaque-12})",
+          "color": "rgba({brand.secondary-90}, {opacity.opaque-12})",
           "type": "dropShadow"
         }
       ],
@@ -2047,12 +2047,12 @@
       "description": "Optimal for scheduling project tasks in a calendar."
     },
     "surface-event2": {
-      "value": "{vud-ref-funct.warning-10}",
+      "value": "{vud-funct.warning-10}",
       "type": "color",
       "description": "Optimal for scheduling sick leave in a calendar."
     },
     "surface-event3": {
-      "value": "{vud-ref-funct.success-05}",
+      "value": "{vud-funct.success-05}",
       "type": "color",
       "description": "Optimal for scheduling work hours in a calendar."
     },
@@ -2119,7 +2119,7 @@
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2209,7 +2209,7 @@
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2276,7 +2276,7 @@
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     }
@@ -2328,7 +2328,7 @@
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2378,7 +2378,7 @@
       "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2470,7 +2470,7 @@
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2520,7 +2520,7 @@
       "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2682,7 +2682,7 @@
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2744,7 +2744,7 @@
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-strong": {
-      "value": "{ref-brand.secondary-60}",
+      "value": "{brand.secondary-60}",
       "type": "color"
     },
     "surface-enabled:hover": {
@@ -2803,7 +2803,7 @@
       "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2895,7 +2895,7 @@
       "description": "Surface on container."
     },
     "surface-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -2920,7 +2920,7 @@
       "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
     },
     "surface-selected-strong": {
-      "value": "{ref-brand.secondary-60}",
+      "value": "{brand.secondary-60}",
       "type": "color",
       "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active."
     },
@@ -2940,7 +2940,7 @@
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -3027,7 +3027,7 @@
       "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "surface-default": {
-      "value": "{ref-brand.secondary-gradient}",
+      "value": "{brand.secondary-gradient}",
       "type": "color",
       "description": "Surface on container."
     },
@@ -3037,7 +3037,7 @@
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
     "surface-enabled": {
-      "value": "{ref-brand.secondary-70}",
+      "value": "{brand.secondary-70}",
       "type": "color",
       "description": "Surface on container."
     },
@@ -3052,12 +3052,12 @@
       "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
     },
     "surface-selected-moderate": {
-      "value": "{ref-brand.secondary-80}",
+      "value": "{brand.secondary-80}",
       "type": "color",
       "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
     },
     "surface-selected-strong": {
-      "value": "{ref-brand.neutral-light-05}",
+      "value": "{brand.neutral-light-05}",
       "type": "color",
       "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. "
     },
@@ -3067,17 +3067,17 @@
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "border-enabled": {
-      "value": "{ref-brand.secondary-10}",
+      "value": "{brand.secondary-10}",
       "type": "color",
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
     "border-hover": {
-      "value": "{ref-brand.secondary-10}",
+      "value": "{brand.secondary-10}",
       "type": "color",
       "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
@@ -3087,7 +3087,7 @@
       "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
     },
     "border-selected": {
-      "value": "{ref-brand.secondary-10}",
+      "value": "{brand.secondary-10}",
       "type": "color",
       "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
     },
@@ -3149,7 +3149,7 @@
       "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "surface-default": {
-      "value": "{ref-brand.neutral-light-gradient}",
+      "value": "{brand.neutral-light-gradient}",
       "type": "color",
       "description": "Surface on container."
     },
@@ -3159,7 +3159,7 @@
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
     "surface-enabled": {
-      "value": "{ref-brand.neutral-light-90}",
+      "value": "{brand.neutral-light-90}",
       "type": "color",
       "description": "Surface on container."
     },
@@ -3174,12 +3174,12 @@
       "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
     },
     "surface-selected-moderate": {
-      "value": "{ref-brand.neutral-light-90}",
+      "value": "{brand.neutral-light-90}",
       "type": "color",
       "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
     },
     "surface-selected-strong": {
-      "value": "{ref-brand.neutral-light-05}",
+      "value": "{brand.neutral-light-05}",
       "type": "color",
       "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. "
     },
@@ -3194,12 +3194,12 @@
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
     "border-hover": {
-      "value": "{ref-brand.neutral-light-60}",
+      "value": "{brand.neutral-light-60}",
       "type": "color",
       "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
@@ -3209,7 +3209,7 @@
       "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
     },
     "border-selected": {
-      "value": "{ref-brand.neutral-light-60}",
+      "value": "{brand.neutral-light-60}",
       "type": "color",
       "description": "Border with a selected state refers to an interaction that occurs when the ui element is active."
     },
@@ -3271,7 +3271,7 @@
       "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -3296,12 +3296,12 @@
       "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "surface-selected-strong": {
-      "value": "{ref-brand.secondary-60}",
+      "value": "{brand.secondary-60}",
       "type": "color",
       "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
     },
     "surface-selected-strong:hover": {
-      "value": "{ref-brand.secondary-60}",
+      "value": "{brand.secondary-60}",
       "type": "color",
       "description": "Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
       "$extensions": {
@@ -3325,7 +3325,7 @@
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -3350,12 +3350,12 @@
       "description": "Border with selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
     },
     "border-selected-strong": {
-      "value": "{ref-brand.secondary-60}",
+      "value": "{brand.secondary-60}",
       "type": "color",
       "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
     },
     "border-selected-strong:hover": {
-      "value": "{ref-brand.secondary-60}",
+      "value": "{brand.secondary-60}",
       "type": "color",
       "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
       "$extensions": {
@@ -3426,7 +3426,7 @@
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
     "surface-default": {
-      "value": "{ref-brand.secondary-60}",
+      "value": "{brand.secondary-60}",
       "type": "color",
       "description": "Surface on container."
     },
@@ -3471,12 +3471,12 @@
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
     "border-hover": {
-      "value": "{ref-brand.secondary-10}",
+      "value": "{brand.secondary-10}",
       "type": "color",
       "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
@@ -3486,22 +3486,22 @@
       "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
     },
     "border-selected-weak": {
-      "value": "{ref-brand.secondary-10}",
+      "value": "{brand.secondary-10}",
       "type": "color",
       "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "border-selected-weak:hover": {
-      "value": "{ref-brand.secondary-10}",
+      "value": "{brand.secondary-10}",
       "type": "color",
       "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "border-selected-strong": {
-      "value": "{ref-brand.secondary-10}",
+      "value": "{brand.secondary-10}",
       "type": "color",
       "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "border-selected-strong:hover": {
-      "value": "{ref-brand.secondary-10}",
+      "value": "{brand.secondary-10}",
       "type": "color",
       "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
@@ -3563,7 +3563,7 @@
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
     "surface-default": {
-      "value": "{ref-brand.neutral-light-90}",
+      "value": "{brand.neutral-light-90}",
       "type": "color",
       "description": "Surface on container."
     },
@@ -3608,12 +3608,12 @@
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
     "border-hover": {
-      "value": "{ref-brand.neutral-light-60}",
+      "value": "{brand.neutral-light-60}",
       "type": "color",
       "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
@@ -3628,7 +3628,7 @@
       "description": "Border with a selected state refers to an interaction that occurs when the ui element is active."
     },
     "border-selected-weak:hover": {
-      "value": "{ref-brand.neutral-light-60}",
+      "value": "{brand.neutral-light-60}",
       "type": "color",
       "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
@@ -3638,7 +3638,7 @@
       "description": "Border with a selected state refers to an interaction that occurs when the ui element is active."
     },
     "border-selected-strong:hover": {
-      "value": "{ref-brand.neutral-light-60}",
+      "value": "{brand.neutral-light-60}",
       "type": "color",
       "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
@@ -3689,17 +3689,17 @@
       "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
     },
     "surface-weak": {
-      "value": "{ref-brand.neutral-light-40}",
+      "value": "{brand.neutral-light-40}",
       "type": "color",
       "description": "Low intensity."
     },
     "surface-moderate": {
-      "value": "linear-gradient(90deg, {ref-brand.primary-60} 0%, {ref-brand.secondary-60} 100%)",
+      "value": "linear-gradient(90deg, {brand.primary-60} 0%, {brand.secondary-60} 100%)",
       "type": "color",
       "description": "Normal intensity."
     },
     "surface-strong": {
-      "value": "{ref-brand.secondary-60}",
+      "value": "{brand.secondary-60}",
       "type": "color",
       "description": "Medium intensity."
     },
@@ -3841,7 +3841,7 @@
       "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
     },
     "text-secondary": {
-      "value": "{ref-brand.neutral-light-80}",
+      "value": "{brand.neutral-light-80}",
       "type": "color",
       "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
     },
@@ -3852,46 +3852,46 @@
         "description": "Low intensity."
       },
       "border-moderate": {
-        "value": "linear-gradient(180deg, {ref-brand.neutral-light-20} 0%, {ref-brand.neutral-light-80} 100%)",
+        "value": "linear-gradient(180deg, {brand.neutral-light-20} 0%, {brand.neutral-light-80} 100%)",
         "type": "color",
         "description": "Normal intensity."
       },
       "border-strong": {
-        "value": "{ref-brand.neutral-light-80}",
+        "value": "{brand.neutral-light-80}",
         "type": "color",
         "description": "Medium intensity."
       }
     },
     "primary": {
       "border-weak": {
-        "value": "{ref-brand.primary-20}",
+        "value": "{brand.primary-20}",
         "type": "color",
         "description": "Low intensity."
       },
       "border-moderate": {
-        "value": "linear-gradient(180deg, {ref-brand.primary-05} 0%, {ref-brand.primary-70} 100%)",
+        "value": "linear-gradient(180deg, {brand.primary-05} 0%, {brand.primary-70} 100%)",
         "type": "color",
         "description": "Normal intensity."
       },
       "border-strong": {
-        "value": "{ref-brand.primary-70}",
+        "value": "{brand.primary-70}",
         "type": "color",
         "description": "Medium intensity."
       }
     },
     "secondary": {
       "border-weak": {
-        "value": "{ref-brand.secondary-20}",
+        "value": "{brand.secondary-20}",
         "type": "color",
         "description": "Low intensity."
       },
       "border-moderate": {
-        "value": "linear-gradient(180deg, {ref-brand.secondary-05} 0%, {ref-brand.secondary-60} 100%)",
+        "value": "linear-gradient(180deg, {brand.secondary-05} 0%, {brand.secondary-60} 100%)",
         "type": "color",
         "description": "Normal intensity."
       },
       "border-strong": {
-        "value": "{ref-brand.secondary-50}",
+        "value": "{brand.secondary-50}",
         "type": "color",
         "description": "Medium intensity."
       }
@@ -4083,12 +4083,12 @@
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "border-enabled": {
-        "value": "{ref-brand.primary-60}",
+        "value": "{brand.primary-60}",
         "type": "color",
         "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "border-hover": {
-        "value": "{ref-brand.primary-70}",
+        "value": "{brand.primary-70}",
         "type": "color",
         "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
@@ -4464,7 +4464,7 @@
       "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -4566,7 +4566,7 @@
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -4621,7 +4621,7 @@
       "description": "Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
@@ -4703,12 +4703,12 @@
       "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
     "surface-emphasis": {
-      "value": "{ref-brand.secondary-50}",
+      "value": "{brand.secondary-50}",
       "type": "color",
       "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
     },
@@ -4723,12 +4723,12 @@
       "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
-      "value": "rgba({vud-ref-funct.default-light-05}, {opacity.opaque-0})",
+      "value": "rgba({vud-funct.default-light-05}, {opacity.opaque-0})",
       "type": "color",
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
     "border-emphasis": {
-      "value": "{ref-brand.secondary-50}",
+      "value": "{brand.secondary-50}",
       "type": "color",
       "description": "Border with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
     },

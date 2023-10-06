@@ -3,6 +3,7 @@
     "mapping": [{
         "tokenSets": [
           "Global/core",
+          "Global/brand",
           "Themes/light",
           "Extends/radius",
           "Extends/density",
@@ -13,6 +14,7 @@
     }, {
         "tokenSets": [
           "Global/core",
+          "Global/brand",
           "Themes/dark",
           "Extends/radius",
           "Extends/density",

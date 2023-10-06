@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
     "Global/core",
+    "Global/brand",
     "Themes/light",
     "Themes/dark",
     "Density/condensed",
