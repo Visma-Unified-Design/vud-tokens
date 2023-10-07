@@ -1018,5 +1018,19 @@
   "core-font-familiy-tertiary": {
     "value": "Inter",
     "type": "fontFamilies"
+  },
+  "viewport": {
+    "width": {
+      "value": "1440",
+      "type": "sizing"
+    },
+    "min": {
+      "value": "320",
+      "type": "sizing"
+    },
+    "max": {
+      "value": "1920",
+      "type": "sizing"
+    }
   }
 }
