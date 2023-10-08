@@ -1,0 +1,20 @@
+{
+  "pictogram": {
+    "stroke-default": {
+      "value": "{brand.neutral-light-80}",
+      "type": "color"
+    },
+    "stroke-emphasis": {
+      "value": "{brand.tertiary-60}",
+      "type": "color"
+    },
+    "fill-default": {
+      "value": "rgba( {brand.neutral-light-80}, {opacity.opaque-8})",
+      "type": "color"
+    },
+    "fill-emphasis": {
+      "value": "rgba( {brand.tertiary-60}, {opacity.opaque-24})",
+      "type": "color"
+    }
+  }
+}

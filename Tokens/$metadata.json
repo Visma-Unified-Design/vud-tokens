@@ -11,13 +11,17 @@
     "Dimension/small",
     "Dimension/medium",
     "Dimension/large",
+    "Pictogram/primary",
+    "Pictogram/secondary",
+    "Pictogram/tertiary",
     "Radius/round",
     "Radius/sharp",
-    "Extends/radius",
-    "Extends/density",
-    "Extends/dimension",
     "Viewport/desktop",
     "Viewport/tablet",
-    "Viewport/mobile"
+    "Viewport/mobile",
+    "Extends/density",
+    "Extends/dimension",
+    "Extends/pictogram",
+    "Extends/radius"
   ]
 }
