@@ -2946,7 +2946,7 @@
       "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
     },
     "icon-default": {
-      "value": "{ref-properties.icon.inverse}",
+      "value": "{ref-properties.icon.default}",
       "type": "color",
       "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
     },
