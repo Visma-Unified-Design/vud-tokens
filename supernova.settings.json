@@ -5,9 +5,10 @@
           "Global/core",
           "Global/brand",
           "Themes/light",
-          "Extends/radius",
           "Extends/density",
-          "Extends/dimension"
+          "Extends/dimension",
+          "Extends/pictogram",
+          "Extends/radius"
         ],
         "supernovaBrand": "VUD",
         "supernovaTheme": null
@@ -16,9 +17,10 @@
           "Global/core",
           "Global/brand",
           "Themes/dark",
-          "Extends/radius",
           "Extends/density",
-          "Extends/dimension"
+          "Extends/dimension",
+          "Extends/pictogram",
+          "Extends/radius"
         ],
         "supernovaBrand": "VUD",
         "supernovaTheme": "Dark"
