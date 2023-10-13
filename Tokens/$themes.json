@@ -1100,7 +1100,6 @@
       "comp-table.text-emphasis": "40bd27ae4256c5e92ab9c8fcf8665c73da3dfa35",
       "comp-table.text-secondary": "12a9e7060539e5e0f5ed2bac85b6bed452892043",
       "comp-table.text-disabled": "01c62a33403604b0760772735770d0c439cfe668",
-      "comp-table.text-error": "663120cff5eb3e1e3d93f312a3f71ca7001033e7",
       "comp-table.icon-default": "444969e3a8a31f1f5a4e6fb3f53d39bc794e94b5",
       "comp-table.icon-emphasis": "02502322bc0d05e3a8455447aebb929f49d3edbb",
       "comp-table.icon-disabled": "532806ec0b9bf197e5343f3507433f4a16520719",
@@ -1141,7 +1140,8 @@
       "comp-toggle.border-emphasis": "deeae4781b6a084363e8fd1481ff525cffd8fd84",
       "comp-toggle.border-focused": "0a77b79ddd20b4bd471f615b4ee73a3c26b8fdd8",
       "comp-toggle.border-error": "ad1e81667262f308d28ce3823b068ac614e26875",
-      "comp-toggle.border-disabled": "366dad8f1bea6bf9dcdcdbd5f0cbb560b852bf9a"
+      "comp-toggle.border-disabled": "366dad8f1bea6bf9dcdcdbd5f0cbb560b852bf9a",
+      "comp-table.text-error-weak": "663120cff5eb3e1e3d93f312a3f71ca7001033e7"
     },
     "group": "Themes"
   },
@@ -1970,7 +1970,6 @@
       "comp-table.text-emphasis": "40bd27ae4256c5e92ab9c8fcf8665c73da3dfa35",
       "comp-table.text-secondary": "12a9e7060539e5e0f5ed2bac85b6bed452892043",
       "comp-table.text-disabled": "01c62a33403604b0760772735770d0c439cfe668",
-      "comp-table.text-error": "663120cff5eb3e1e3d93f312a3f71ca7001033e7",
       "comp-table.icon-default": "444969e3a8a31f1f5a4e6fb3f53d39bc794e94b5",
       "comp-table.icon-emphasis": "02502322bc0d05e3a8455447aebb929f49d3edbb",
       "comp-table.icon-disabled": "532806ec0b9bf197e5343f3507433f4a16520719",
@@ -2011,7 +2010,8 @@
       "comp-toggle.border-emphasis": "deeae4781b6a084363e8fd1481ff525cffd8fd84",
       "comp-toggle.border-focused": "0a77b79ddd20b4bd471f615b4ee73a3c26b8fdd8",
       "comp-toggle.border-error": "ad1e81667262f308d28ce3823b068ac614e26875",
-      "comp-toggle.border-disabled": "366dad8f1bea6bf9dcdcdbd5f0cbb560b852bf9a"
+      "comp-toggle.border-disabled": "366dad8f1bea6bf9dcdcdbd5f0cbb560b852bf9a",
+      "comp-table.text-error-weak": "663120cff5eb3e1e3d93f312a3f71ca7001033e7"
     },
     "group": "Themes"
   },
