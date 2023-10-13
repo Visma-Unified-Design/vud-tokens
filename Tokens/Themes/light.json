@@ -4512,6 +4512,11 @@
       "value": "{ref-properties.border.on-default.disabled}",
       "type": "color",
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+    },
+    "border-error": {
+      "value": "{ref-properties.border.on-destructive-default.enabled}",
+      "type": "color",
+      "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
     }
   },
   "comp-table": {
