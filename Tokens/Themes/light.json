@@ -1371,7 +1371,7 @@
   "comp-btn-primary": {
     "on-confimatory": {
       "text-default": {
-        "value": "{ref-properties.text.inverse}",
+        "value": "{ref-properties.text.default}",
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
@@ -1386,9 +1386,14 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "icon-default": {
-        "value": "{ref-properties.icon.inverse}",
+        "value": "{ref-properties.icon.default}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
+      },
+      "icon-inverse": {
+        "value": "{ref-properties.icon.inverse}",
+        "type": "color",
+        "description": "Inverse text refers to the opposite color that contrasts with the background. "
       },
       "icon-disabled": {
         "value": "{ref-properties.icon.disabled}",
@@ -1397,6 +1402,11 @@
       },
       "surface-enabled": {
         "value": "{ref-properties.fill.on-primary.enabled}",
+        "type": "color",
+        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      },
+      "surface-transparent": {
+        "value": "rgba( {ref-properties.fill.on-primary.enabled}, {opacity.opaque-0})",
         "type": "color",
         "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
@@ -1420,15 +1430,20 @@
         "type": "color",
         "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
       },
+      "surface-selected:hover": {
+        "value": "{ref-properties.fill.on-primary.selected:hover}",
+        "type": "color",
+        "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+      },
       "surface-disabled": {
         "value": "{ref-properties.fill.on-primary.disabled}",
         "type": "color",
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
-      "surface-selected:hover": {
-        "value": "{ref-properties.fill.on-primary.selected:hover}",
+      "border-transparent": {
+        "value": "rgba( {ref-properties.border.on-primary.enabled}, {opacity.opaque-0})",
         "type": "color",
-        "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
+        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "border-enabled": {
         "value": "{ref-properties.border.on-primary.enabled}",
