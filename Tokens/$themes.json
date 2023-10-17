@@ -518,10 +518,7 @@
       "comp-btn-default.on-destructive.border-focused": "2954897a6398601df6259a2fd4fb95f8b3285f49",
       "comp-btn-default.on-destructive.border-pressed": "4b7e1dcded17449d1d311d0d84eb68e6e56fe2f9",
       "comp-btn-default.on-destructive.border-disabled": "ab19712084c82f0ec02eaaf8bf399fc314bfa3e4",
-      "comp-btn-primary.on-confimatory.text-default": "b0ad936490744a8d607d152ab7dae54b00965f5a",
-      "comp-btn-primary.on-confimatory.text-inverse": "bf32468b81d53ca9d5520a3f2bb1afec5a6a8392",
       "comp-btn-primary.on-confimatory.text-disabled": "2df452413fa31e4f749951b7ec68c1220749927d",
-      "comp-btn-primary.on-confimatory.icon-default": "c96e7e4d26b516f0dc7566dcae9c2ad19effc2f0",
       "comp-btn-primary.on-confimatory.icon-disabled": "1388852cd0e04ff232f57dc7add63924187c21d9",
       "comp-btn-primary.on-confimatory.surface-enabled": "57c342cca90b2bb0b09993485d7b5f0537f76a6d",
       "comp-btn-primary.on-confimatory.surface-hover": "30c7fba7c6da8b0b08d0bcbd898a70579a650a83",
@@ -1141,7 +1138,10 @@
       "comp-toggle.border-focused": "0a77b79ddd20b4bd471f615b4ee73a3c26b8fdd8",
       "comp-toggle.border-error": "ad1e81667262f308d28ce3823b068ac614e26875",
       "comp-toggle.border-disabled": "366dad8f1bea6bf9dcdcdbd5f0cbb560b852bf9a",
-      "comp-table.text-error-weak": "663120cff5eb3e1e3d93f312a3f71ca7001033e7"
+      "comp-table.text-error-weak": "663120cff5eb3e1e3d93f312a3f71ca7001033e7",
+      "comp-btn-primary.on-confimatory.icon-inverse": "c96e7e4d26b516f0dc7566dcae9c2ad19effc2f0",
+      "comp-btn-primary.on-confimatory.text-default": "bf32468b81d53ca9d5520a3f2bb1afec5a6a8392",
+      "comp-btn-primary.on-confimatory.text-inverse": "b0ad936490744a8d607d152ab7dae54b00965f5a"
     },
     "group": "Themes"
   },
@@ -1386,10 +1386,7 @@
       "comp-btn-default.on-destructive.border-focused": "2954897a6398601df6259a2fd4fb95f8b3285f49",
       "comp-btn-default.on-destructive.border-pressed": "4b7e1dcded17449d1d311d0d84eb68e6e56fe2f9",
       "comp-btn-default.on-destructive.border-disabled": "ab19712084c82f0ec02eaaf8bf399fc314bfa3e4",
-      "comp-btn-primary.on-confimatory.text-default": "b0ad936490744a8d607d152ab7dae54b00965f5a",
-      "comp-btn-primary.on-confimatory.text-inverse": "bf32468b81d53ca9d5520a3f2bb1afec5a6a8392",
       "comp-btn-primary.on-confimatory.text-disabled": "2df452413fa31e4f749951b7ec68c1220749927d",
-      "comp-btn-primary.on-confimatory.icon-default": "c96e7e4d26b516f0dc7566dcae9c2ad19effc2f0",
       "comp-btn-primary.on-confimatory.icon-disabled": "1388852cd0e04ff232f57dc7add63924187c21d9",
       "comp-btn-primary.on-confimatory.surface-enabled": "57c342cca90b2bb0b09993485d7b5f0537f76a6d",
       "comp-btn-primary.on-confimatory.surface-hover": "30c7fba7c6da8b0b08d0bcbd898a70579a650a83",
@@ -2011,7 +2008,10 @@
       "comp-toggle.border-focused": "0a77b79ddd20b4bd471f615b4ee73a3c26b8fdd8",
       "comp-toggle.border-error": "ad1e81667262f308d28ce3823b068ac614e26875",
       "comp-toggle.border-disabled": "366dad8f1bea6bf9dcdcdbd5f0cbb560b852bf9a",
-      "comp-table.text-error-weak": "663120cff5eb3e1e3d93f312a3f71ca7001033e7"
+      "comp-table.text-error-weak": "663120cff5eb3e1e3d93f312a3f71ca7001033e7",
+      "comp-btn-primary.on-confimatory.icon-inverse": "c96e7e4d26b516f0dc7566dcae9c2ad19effc2f0",
+      "comp-btn-primary.on-confimatory.text-default": "bf32468b81d53ca9d5520a3f2bb1afec5a6a8392",
+      "comp-btn-primary.on-confimatory.text-inverse": "b0ad936490744a8d607d152ab7dae54b00965f5a"
     },
     "group": "Themes"
   },
