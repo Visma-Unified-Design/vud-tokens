@@ -2638,7 +2638,7 @@
       "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
     },
     "text-inverse": {
-      "value": "{ref-properties.text.inverse}",
+      "value": "{ref-properties.text.default}",
       "type": "color",
       "description": "Inverse text refers to the opposite color that contrasts with the background. \n"
     },
@@ -4474,6 +4474,11 @@
       "value": "{ref-properties.border.on-default.disabled}",
       "type": "color",
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+    },
+    "border-error": {
+      "value": "{ref-properties.border.on-destructive-default.enabled}",
+      "type": "color",
+      "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
     }
   },
   "comp-table": {
@@ -4497,8 +4502,13 @@
       "type": "color",
       "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
     },
-    "text-error": {
+    "text-error-weak": {
       "value": "{ref-properties.text.error-weak}",
+      "type": "color",
+      "description": "Mandatory text refers to text or information that is required in a particular context. "
+    },
+    "text-error-moderate": {
+      "value": "{ref-properties.text.error-moderate}",
       "type": "color",
       "description": "Mandatory text refers to text or information that is required in a particular context. "
     },
