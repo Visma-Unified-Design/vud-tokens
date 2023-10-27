@@ -2,7 +2,7 @@
   "ref-properties": {
     "text": {
       "default": {
-        "value": "{brand.neutral-light-90}",
+        "value": "{brand.neutral-dark-90}",
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
