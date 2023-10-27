@@ -3185,7 +3185,7 @@
       "description": "Default text refers to the main or prominent textual content. "
     },
     "text-inverse": {
-      "value": "{ref-properties.text.inverse}",
+      "value": "{ref-properties.text.default}",
       "type": "color",
       "description": "Inverse text refers to the opposite color that contrasts with the background. "
     },
