@@ -4734,55 +4734,5 @@
       "type": "color",
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     }
-  },
-  "opacity": {
-    "opaque-0": {
-      "value": "0",
-      "type": "opacity"
-    },
-    "opaque-4": {
-      "value": "4%",
-      "type": "opacity"
-    },
-    "opaque-8": {
-      "value": "8%",
-      "type": "opacity"
-    },
-    "opaque-12": {
-      "value": "12%",
-      "type": "opacity"
-    },
-    "opaque-16": {
-      "value": "16%",
-      "type": "opacity"
-    },
-    "opaque-24": {
-      "value": "24%",
-      "type": "opacity"
-    },
-    "opaque-32": {
-      "value": "32%",
-      "type": "opacity"
-    },
-    "opaque-40": {
-      "value": "40%",
-      "type": "opacity"
-    },
-    "opaque-48": {
-      "value": "48%",
-      "type": "opacity"
-    },
-    "opaque-56": {
-      "value": "56%",
-      "type": "opacity"
-    },
-    "opaque-64": {
-      "value": "64%",
-      "type": "opacity"
-    },
-    "opaque-100": {
-      "value": "100%",
-      "type": "opacity"
-    }
   }
 }
