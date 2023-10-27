@@ -3215,7 +3215,7 @@
       "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
     },
     "icon-inverse": {
-      "value": "{ref-properties.icon.inverse}",
+      "value": "{ref-properties.icon.default}",
       "type": "color",
       "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
     },
