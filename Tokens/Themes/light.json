@@ -3169,7 +3169,7 @@
       "description": "Surface on container."
     },
     "surface-transparent": {
-      "value": "rgba( {ref-properties.fill.on-default.enabled}, {opacity.opaque-0})",
+      "value": "rgba({ref-properties.fill.on-default.enabled}, 0)",
       "type": "color",
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
