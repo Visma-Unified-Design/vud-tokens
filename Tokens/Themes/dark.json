@@ -3260,7 +3260,7 @@
       "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
     },
     "surface-selected-strong:hover": {
-      "value": "{brand.secondary-60}",
+      "value": "{brand.secondary-70}",
       "type": "color",
       "$extensions": {
         "studio.tokens": {
@@ -3309,14 +3309,13 @@
       "description": "Border with selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
     },
     "border-selected-strong": {
-      "value": "{ref-properties.border.on-default.inverse}",
+      "value": "{brand.secondary-50}",
       "type": "color",
       "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements."
     },
     "border-selected-strong:hover": {
-      "value": "{ref-properties.border.on-default.inverse}",
+      "value": "{brand.secondary-40}",
       "type": "color",
-      "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
       "$extensions": {
         "studio.tokens": {
           "modify": {
@@ -3325,7 +3324,8 @@
             "space": "hsl"
           }
         }
-      }
+      },
+      "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "border-disabled-none": {
       "value": "rgba({ref-properties.border.on-default.disabled},{opacity.opaque-0})",
