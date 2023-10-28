@@ -37,7 +37,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "success-moderate": {
-        "value": "{vud-funct.success-70}",
+        "value": "{vud-funct.success-50}",
         "type": "color",
         "description": "Success text refers to content that signifies a positive or affirmative message."
       },
