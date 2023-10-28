@@ -42,47 +42,47 @@
         "description": "Success text refers to content that signifies a positive or affirmative message."
       },
       "info-moderate": {
-        "value": "{brand.secondary-70}",
+        "value": "{brand.secondary-40}",
         "type": "color",
         "description": "Info text gives a clear summary of the information."
       },
       "draft-moderate": {
-        "value": "{vud-funct.draft-80}",
+        "value": "{vud-funct.draft-10}",
         "type": "color",
         "description": "Draft refers to temporary statuses."
       },
       "warning-moderate": {
-        "value": "{vud-funct.warning-90}",
+        "value": "{vud-funct.warning-50}",
         "type": "color",
         "description": "Warning text refers to content that conveys a warning, caution, or alert."
       },
       "error-moderate": {
-        "value": "{vud-funct.error-80}",
+        "value": "{vud-funct.error-40}",
         "type": "color",
         "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
       },
       "success-weak": {
-        "value": "{vud-funct.success-05}",
+        "value": "{vud-funct.success-20}",
         "type": "color",
         "description": "Success text refers to content that signifies a positive or affirmative message."
       },
       "info-weak": {
-        "value": "{vud-funct.info-05}",
+        "value": "{vud-funct.info-20}",
         "type": "color",
         "description": "Info text gives a clear summary of the information."
       },
       "draft-weak": {
-        "value": "{vud-funct.draft-05}",
+        "value": "{vud-funct.draft-20}",
         "type": "color",
         "description": "Draft refers to temporary statuses."
       },
       "warning-weak": {
-        "value": "{vud-funct.default-dark-05}",
+        "value": "{vud-funct.default-dark-20}",
         "type": "color",
         "description": "Warning text refers to content that conveys a warning, caution, or alert."
       },
       "error-weak": {
-        "value": "{vud-funct.error-05}",
+        "value": "{vud-funct.error-20}",
         "type": "color",
         "description": "Error text refers to incorrect or invalid information on a form or during a data entry process. "
       }
@@ -867,28 +867,73 @@
           "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "success-weak": {
-          "value": "{vud-funct.success-05}",
+          "value": "{vud-funct.success-90}",
           "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "48",
+                "space": "hsl"
+              }
+            }
+          },
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         },
         "info-weak": {
-          "value": "{vud-funct.info-05}",
+          "value": "{vud-funct.info-90}",
           "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "48",
+                "space": "hsl"
+              }
+            }
+          },
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "draft-weak": {
-          "value": "{vud-funct.draft-05}",
+          "value": "{vud-funct.draft-90}",
           "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "48",
+                "space": "hsl"
+              }
+            }
+          },
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "warning-weak": {
-          "value": "{vud-funct.warning-05}",
+          "value": "{vud-funct.warning-90}",
           "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "48",
+                "space": "hsl"
+              }
+            }
+          },
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "error-weak": {
-          "value": "{vud-funct.error-05}",
+          "value": "{vud-funct.error-90}",
           "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "48",
+                "space": "hsl"
+              }
+            }
+          },
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "success-moderate": {
@@ -3554,7 +3599,6 @@
     "surface-selected-strong:hover": {
       "value": "{ref-properties.shade.weak}",
       "type": "color",
-      "$extensions": {},
       "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "surface-disabled": {
