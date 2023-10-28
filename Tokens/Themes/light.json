@@ -208,6 +208,11 @@
           "type": "color",
           "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
+        "inverse": {
+          "value": "{brand.neutral-light-60}",
+          "type": "color",
+          "description": "Inverse border refers to the opposite color that contrasts with the background. "
+        },
         "muted": {
           "value": "{brand.neutral-light-20}",
           "type": "color",
