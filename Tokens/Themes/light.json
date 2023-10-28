@@ -4560,11 +4560,6 @@
       "type": "color",
       "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
     },
-    "text-error-weak": {
-      "value": "{ref-properties.text.error-moderate}",
-      "type": "color",
-      "description": "Mandatory text refers to text or information that is required in a particular context. "
-    },
     "text-error-moderate": {
       "value": "{ref-properties.text.error-moderate}",
       "type": "color",
