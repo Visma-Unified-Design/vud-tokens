@@ -867,33 +867,73 @@
           "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         },
         "success-weak": {
-          "value": "rgba({vud-funct.success-90}, 0.48)",
+          "value": "{vud-funct.success-90}",
           "type": "color",
-          "$extensions": {},
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.12",
+                "space": "hsl"
+              }
+            }
+          },
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         },
         "info-weak": {
-          "value": "rgba({vud-funct.info-90}, 0.48)",
+          "value": "{vud-funct.info-90}",
           "type": "color",
-          "$extensions": {},
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.12",
+                "space": "hsl"
+              }
+            }
+          },
           "description": "Normal alerts. Common statuses such as created, sent, printed, processing"
         },
         "draft-weak": {
-          "value": "rgba({vud-funct.draft-90}, 0.48)",
+          "value": "{vud-funct.draft-90}",
           "type": "color",
-          "$extensions": {},
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.12",
+                "space": "hsl"
+              }
+            }
+          },
           "description": "Alerts. Temporary statuses such as drafts"
         },
         "warning-weak": {
-          "value": "rgba({vud-funct.warning-90}, 0.48)",
+          "value": "{vud-funct.warning-90}",
           "type": "color",
-          "$extensions": {},
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.32",
+                "space": "hsl"
+              }
+            }
+          },
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "error-weak": {
-          "value": "rgba({vud-funct.error-90}, 0.48)",
+          "value": "{vud-funct.error-90}",
           "type": "color",
-          "$extensions": {},
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "0.32",
+                "space": "hsl"
+              }
+            }
+          },
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "success-moderate": {
