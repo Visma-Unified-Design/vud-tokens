@@ -104,7 +104,7 @@
         "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "error": {
-        "value": "{vud-funct.error-60}",
+        "value": "{spcs.red-70}",
         "type": "color",
         "description": "The error indicates the occurrence of an error or problem. Suitable for destructive icons."
       },
@@ -114,7 +114,7 @@
         "description": "Warning icon serves as a visual cue to alert about potential issues, risks, or important information that requires attention."
       },
       "success": {
-        "value": "{vud-funct.success-60}",
+        "value": "{spcs.green-70}",
         "type": "color",
         "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
       },
