@@ -104,7 +104,7 @@
         "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "error": {
-        "value": "{spcs.red-70}",
+        "value": "{spcs-base.red-70}",
         "type": "color",
         "description": "The error indicates the occurrence of an error or problem. Suitable for destructive icons."
       },
@@ -114,7 +114,7 @@
         "description": "Warning icon serves as a visual cue to alert about potential issues, risks, or important information that requires attention."
       },
       "success": {
-        "value": "{spcs.green-70}",
+        "value": "{spcs-base.green-70}",
         "type": "color",
         "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
       },
@@ -280,12 +280,12 @@
       },
       "on-primary": {
         "enabled": {
-          "value": "{spcs.green-70}",
+          "value": "{spcs-base.green-70}",
           "type": "color",
           "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{spcs.green-70}",
+          "value": "{spcs-base.green-70}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -299,22 +299,22 @@
           "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "pressed": {
-          "value": "{spcs.green-90}",
+          "value": "{spcs-base.green-90}",
           "type": "color",
           "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{spcs.green-50}",
+          "value": "{spcs-base.green-50}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected": {
-          "value": "{spcs.green-80}",
+          "value": "{spcs-base.green-80}",
           "type": "color",
           "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
         },
         "selected:hover": {
-          "value": "{spcs.green-80}",
+          "value": "{spcs-base.green-80}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -723,12 +723,12 @@
       },
       "on-primary": {
         "enabled": {
-          "value": "{spcs.green-70}",
+          "value": "{spcs-base.green-70}",
           "type": "color",
           "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{spcs.green-70}",
+          "value": "{spcs-base.green-70}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -743,22 +743,22 @@
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "pressed": {
-          "value": "{spcs.green-90}",
+          "value": "{spcs-base.green-90}",
           "type": "color",
           "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{spcs.green-70}",
+          "value": "{spcs-base.green-70}",
           "type": "color",
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected": {
-          "value": "{spcs.green-80}",
+          "value": "{spcs-base.green-80}",
           "type": "color",
           "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
         "selected:hover": {
-          "value": "{spcs.green-80}",
+          "value": "{spcs-base.green-80}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -4718,7 +4718,7 @@
       "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
     "surface-emphasis": {
-      "value": "{spcs.green-70}",
+      "value": "{spcs-base.green-70}",
       "type": "color",
       "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
     },
@@ -4738,7 +4738,7 @@
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
     "border-emphasis": {
-      "value": "{spcs.green-50}",
+      "value": "{spcs-base.green-50}",
       "type": "color",
       "description": "Border with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
     },
