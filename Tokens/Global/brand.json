@@ -9,7 +9,7 @@
       "type": "borderRadius"
     },
     "xs": {
-      "value": "{base}*2",
+      "value": "{base}*4",
       "type": "borderRadius"
     },
     "s": {
