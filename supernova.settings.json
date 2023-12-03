@@ -3,55 +3,27 @@
     "mapping": [{
         "tokenSets": [
           "Global/core",
-          "Mode/light",
-          "Components/btn-conf/default",
-          "Components/btn-conf/primary",
-          "Components/btn-conf/secondary",
-          "Components/btn-conf/transparent",
-          "Components/btn-destructive/default",
-          "Components/btn-destructive/transparent",
-          "Components/btn-destructive/primary",
-          "Components/btn-tint/default",
-          "Components/btn-tint/primary",
-          "Components/btn-tint/secondary",
-          "Density/condensed",
-          "Density/default",
-          "Density/regular",
-          "Density/relaxed",
-          "Dimension/small",
-          "Dimension/medium",
-          "Dimension/large",
-          "Radius/round",
-          "Radius/sharp"
+          "Global/brand",
+          "Themes/light",
+          "Extends/density",
+          "Extends/dimension",
+          "Extends/pictogram",
+          "Extends/radius"
         ],
         "supernovaBrand": "VUD",
         "supernovaTheme": null
     }, {
         "tokenSets": [
           "Global/core",
-          "Mode/dark",
-          "Components/btn-conf/default",
-          "Components/btn-conf/primary",
-          "Components/btn-conf/secondary",
-          "Components/btn-conf/transparent",
-          "Components/btn-destructive/default",
-          "Components/btn-destructive/transparent",
-          "Components/btn-destructive/primary",
-          "Components/btn-tint/default",
-          "Components/btn-tint/primary",
-          "Components/btn-tint/secondary",
-          "Density/condensed",
-          "Density/default",
-          "Density/regular",
-          "Density/relaxed",
-          "Dimension/small",
-          "Dimension/medium",
-          "Dimension/large",
-          "Radius/round",
-          "Radius/sharp"
+          "Global/brand",
+          "Themes/dark",
+          "Extends/density",
+          "Extends/dimension",
+          "Extends/pictogram",
+          "Extends/radius"
         ],
         "supernovaBrand": "VUD",
-        "supernovaTheme": "Dark theme"
+        "supernovaTheme": "Dark"
     }],
     "settings": {
       "dryRun": false,

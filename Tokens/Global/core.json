@@ -37,7 +37,7 @@
       "type": "borderRadius"
     }
   },
-  "vud-base": {
+  "vud": {
     "green-05": {
       "value": "#EBF7EB",
       "type": "color"
@@ -319,722 +319,286 @@
       "type": "color"
     }
   },
-  "vud-ref-funct": {
+  "vud-funct": {
     "error-05": {
-      "value": "{vud-base.red-05}",
+      "value": "{vud.red-05}",
       "type": "color"
     },
     "error-10": {
-      "value": "{vud-base.red-10}",
+      "value": "{vud.red-10}",
       "type": "color"
     },
     "error-20": {
-      "value": "{vud-base.red-20}",
+      "value": "{vud.red-20}",
       "type": "color"
     },
     "error-30": {
-      "value": "{vud-base.red-30}",
+      "value": "{vud.red-30}",
       "type": "color"
     },
     "error-40": {
-      "value": "{vud-base.red-40}",
+      "value": "{vud.red-40}",
       "type": "color"
     },
     "error-50": {
-      "value": "{vud-base.red-50}",
+      "value": "{vud.red-50}",
       "type": "color"
     },
     "error-60": {
-      "value": "{vud-base.red-60}",
+      "value": "{vud.red-60}",
       "type": "color"
     },
     "error-70": {
-      "value": "{vud-base.red-70}",
+      "value": "{vud.red-70}",
       "type": "color"
     },
     "error-80": {
-      "value": "{vud-base.red-80}",
+      "value": "{vud.red-80}",
       "type": "color"
     },
     "error-90": {
-      "value": "{vud-base.red-90}",
+      "value": "{vud.red-90}",
       "type": "color"
     },
     "warning-05": {
-      "value": "{vud-base.orange-05}",
+      "value": "{vud.orange-05}",
       "type": "color"
     },
     "warning-10": {
-      "value": "{vud-base.orange-10}",
+      "value": "{vud.orange-10}",
       "type": "color"
     },
     "warning-20": {
-      "value": "{vud-base.orange-20}",
+      "value": "{vud.orange-20}",
       "type": "color"
     },
     "warning-30": {
-      "value": "{vud-base.orange-30}",
+      "value": "{vud.orange-30}",
       "type": "color"
     },
     "warning-40": {
-      "value": "{vud-base.orange-40}",
+      "value": "{vud.orange-40}",
       "type": "color"
     },
     "warning-50": {
-      "value": "{vud-base.orange-50}",
+      "value": "{vud.orange-50}",
       "type": "color"
     },
     "warning-60": {
-      "value": "{vud-base.orange-60}",
+      "value": "{vud.orange-60}",
       "type": "color"
     },
     "warning-70": {
-      "value": "{vud-base.orange-70}",
+      "value": "{vud.orange-70}",
       "type": "color"
     },
     "warning-80": {
-      "value": "{vud-base.orange-80}",
+      "value": "{vud.orange-80}",
       "type": "color"
     },
     "warning-90": {
-      "value": "{vud-base.orange-90}",
+      "value": "{vud.orange-90}",
       "type": "color"
     },
     "info-05": {
-      "value": "{vud-base.blue-05}",
+      "value": "{vud.blue-05}",
       "type": "color"
     },
     "info-10": {
-      "value": "{vud-base.blue-10}",
+      "value": "{vud.blue-10}",
       "type": "color"
     },
     "info-20": {
-      "value": "{vud-base.blue-20}",
+      "value": "{vud.blue-20}",
       "type": "color"
     },
     "info-30": {
-      "value": "{vud-base.blue-30}",
+      "value": "{vud.blue-30}",
       "type": "color"
     },
     "info-40": {
-      "value": "{vud-base.blue-40}",
+      "value": "{vud.blue-40}",
       "type": "color"
     },
     "info-50": {
-      "value": "{vud-base.blue-50}",
+      "value": "{vud.blue-50}",
       "type": "color"
     },
     "info-60": {
-      "value": "{vud-base.blue-60}",
+      "value": "{vud.blue-60}",
       "type": "color"
     },
     "info-70": {
-      "value": "{vud-base.blue-70}",
+      "value": "{vud.blue-70}",
       "type": "color"
     },
     "info-80": {
-      "value": "{vud-base.blue-80}",
+      "value": "{vud.blue-80}",
       "type": "color"
     },
     "info-90": {
-      "value": "{vud-base.blue-90}",
+      "value": "{vud.blue-90}",
       "type": "color"
     },
     "draft-05": {
-      "value": "{vud-base.purple-05}",
+      "value": "{vud.purple-05}",
       "type": "color"
     },
     "draft-10": {
-      "value": "{vud-base.purple-10}",
+      "value": "{vud.purple-10}",
       "type": "color"
     },
     "draft-20": {
-      "value": "{vud-base.purple-20}",
+      "value": "{vud.purple-20}",
       "type": "color"
     },
     "draft-30": {
-      "value": "{vud-base.purple-30}",
+      "value": "{vud.purple-30}",
       "type": "color"
     },
     "draft-40": {
-      "value": "{vud-base.purple-40}",
+      "value": "{vud.purple-40}",
       "type": "color"
     },
     "draft-50": {
-      "value": "{vud-base.purple-50}",
+      "value": "{vud.purple-50}",
       "type": "color"
     },
     "draft-60": {
-      "value": "{vud-base.purple-60}",
+      "value": "{vud.purple-60}",
       "type": "color"
     },
     "draft-70": {
-      "value": "{vud-base.purple-70}",
+      "value": "{vud.purple-70}",
       "type": "color"
     },
     "draft-80": {
-      "value": "{vud-base.purple-80}",
+      "value": "{vud.purple-80}",
       "type": "color"
     },
     "draft-90": {
-      "value": "{vud-base.purple-90}",
+      "value": "{vud.purple-90}",
       "type": "color"
     },
     "success-05": {
-      "value": "{vud-base.green-05}",
+      "value": "{vud.green-05}",
       "type": "color"
     },
     "success-10": {
-      "value": "{vud-base.green-10}",
+      "value": "{vud.green-10}",
       "type": "color"
     },
     "success-20": {
-      "value": "{vud-base.green-20}",
+      "value": "{vud.green-20}",
       "type": "color"
     },
     "success-30": {
-      "value": "{vud-base.green-30}",
+      "value": "{vud.green-30}",
       "type": "color"
     },
     "success-40": {
-      "value": "{vud-base.green-40}",
+      "value": "{vud.green-40}",
       "type": "color"
     },
     "success-50": {
-      "value": "{vud-base.green-50}",
+      "value": "{vud.green-50}",
       "type": "color"
     },
     "success-60": {
-      "value": "{vud-base.green-60}",
+      "value": "{vud.green-60}",
       "type": "color"
     },
     "success-70": {
-      "value": "{vud-base.green-70}",
+      "value": "{vud.green-70}",
       "type": "color"
     },
     "success-80": {
-      "value": "{vud-base.green-80}",
+      "value": "{vud.green-80}",
       "type": "color"
     },
     "success-90": {
-      "value": "{vud-base.green-90}",
+      "value": "{vud.green-90}",
       "type": "color"
     },
     "default-light-05": {
-      "value": "{vud-base.neutral-light-05}",
+      "value": "{vud.neutral-light-05}",
       "type": "color"
     },
     "default-light-10": {
-      "value": "{vud-base.neutral-light-10}",
+      "value": "{vud.neutral-light-10}",
       "type": "color"
     },
     "default-light-20": {
-      "value": "{vud-base.neutral-light-20}",
+      "value": "{vud.neutral-light-20}",
       "type": "color"
     },
     "default-light-30": {
-      "value": "{vud-base.neutral-light-30}",
+      "value": "{vud.neutral-light-30}",
       "type": "color"
     },
     "default-light-40": {
-      "value": "{vud-base.neutral-light-40}",
+      "value": "{vud.neutral-light-40}",
       "type": "color"
     },
     "default-light-50": {
-      "value": "{vud-base.neutral-light-50}",
+      "value": "{vud.neutral-light-50}",
       "type": "color"
     },
     "default-light-60": {
-      "value": "{vud-base.neutral-light-60}",
+      "value": "{vud.neutral-light-60}",
       "type": "color"
     },
     "default-light-70": {
-      "value": "{vud-base.neutral-light-70}",
+      "value": "{vud.neutral-light-70}",
       "type": "color"
     },
     "default-light-80": {
-      "value": "{vud-base.neutral-light-80}",
+      "value": "{vud.neutral-light-80}",
       "type": "color"
     },
     "default-light-90": {
-      "value": "{vud-base.neutral-light-90}",
+      "value": "{vud.neutral-light-90}",
       "type": "color"
     },
     "default-dark-05": {
-      "value": "{vud-base.neutral-dark-05}",
+      "value": "{vud.neutral-dark-05}",
       "type": "color"
     },
     "default-dark-10": {
-      "value": "{vud-base.neutral-dark-10}",
+      "value": "{vud.neutral-dark-10}",
       "type": "color"
     },
     "default-dark-20": {
-      "value": "{vud-base.neutral-dark-20}",
+      "value": "{vud.neutral-dark-20}",
       "type": "color"
     },
     "default-dark-30": {
-      "value": "{vud-base.neutral-dark-30}",
+      "value": "{vud.neutral-dark-30}",
       "type": "color"
     },
     "default-dark-40": {
-      "value": "{vud-base.neutral-dark-40}",
+      "value": "{vud.neutral-dark-40}",
       "type": "color"
     },
     "default-dark-50": {
-      "value": "{vud-base.neutral-dark-50}",
+      "value": "{vud.neutral-dark-50}",
       "type": "color"
     },
     "default-dark-60": {
-      "value": "{vud-base.neutral-dark-60}",
+      "value": "{vud.neutral-dark-60}",
       "type": "color"
     },
     "default-dark-70": {
-      "value": "{vud-base.neutral-dark-70}",
+      "value": "{vud.neutral-dark-70}",
       "type": "color"
     },
     "default-dark-80": {
-      "value": "{vud-base.neutral-dark-80}",
+      "value": "{vud.neutral-dark-80}",
       "type": "color"
     },
     "default-dark-90": {
-      "value": "{vud-base.neutral-dark-90}",
+      "value": "{vud.neutral-dark-90}",
       "type": "color"
-    }
-  },
-  "ref-brand": {
-    "primary-05": {
-      "value": "{vud-base.green-05}",
-      "type": "color"
-    },
-    "primary-10": {
-      "value": "{vud-base.green-10}",
-      "type": "color"
-    },
-    "primary-20": {
-      "value": "{vud-base.green-20}",
-      "type": "color"
-    },
-    "primary-30": {
-      "value": "{vud-base.green-30}",
-      "type": "color"
-    },
-    "primary-40": {
-      "value": "{vud-base.green-40}",
-      "type": "color"
-    },
-    "primary-50": {
-      "value": "{vud-base.green-50}",
-      "type": "color"
-    },
-    "primary-60": {
-      "value": "{vud-base.green-60}",
-      "type": "color"
-    },
-    "primary-70": {
-      "value": "{vud-base.green-70}",
-      "type": "color"
-    },
-    "primary-80": {
-      "value": "{vud-base.green-80}",
-      "type": "color"
-    },
-    "primary-90": {
-      "value": "{vud-base.green-90}",
-      "type": "color"
-    },
-    "primary-gradient": {
-      "value": "{ref-brand.primary-70}",
-      "type": "color"
-    },
-    "secondary-05": {
-      "value": "{vud-base.blue-05}",
-      "type": "color"
-    },
-    "secondary-10": {
-      "value": "{vud-base.blue-10}",
-      "type": "color"
-    },
-    "secondary-20": {
-      "value": "{vud-base.blue-20}",
-      "type": "color"
-    },
-    "secondary-30": {
-      "value": "{vud-base.blue-30}",
-      "type": "color"
-    },
-    "secondary-40": {
-      "value": "{vud-base.blue-40}",
-      "type": "color"
-    },
-    "secondary-50": {
-      "value": "{vud-base.blue-50}",
-      "type": "color"
-    },
-    "secondary-60": {
-      "value": "{vud-base.blue-60}",
-      "type": "color"
-    },
-    "secondary-70": {
-      "value": "{vud-base.blue-70}",
-      "type": "color"
-    },
-    "secondary-80": {
-      "value": "{vud-base.blue-80}",
-      "type": "color"
-    },
-    "secondary-90": {
-      "value": "{vud-base.blue-90}",
-      "type": "color"
-    },
-    "secondary-gradient": {
-      "value": "{ref-brand.secondary-70}",
-      "type": "color"
-    },
-    "tertiary-05": {
-      "value": "{vud-base.purple-05}",
-      "type": "color"
-    },
-    "tertiary-10": {
-      "value": "{vud-base.purple-10}",
-      "type": "color"
-    },
-    "tertiary-20": {
-      "value": "{vud-base.purple-20}",
-      "type": "color"
-    },
-    "tertiary-30": {
-      "value": "{vud-base.purple-30}",
-      "type": "color"
-    },
-    "tertiary-40": {
-      "value": "{vud-base.purple-40}",
-      "type": "color"
-    },
-    "tertiary-50": {
-      "value": "{vud-base.purple-50}",
-      "type": "color"
-    },
-    "tertiary-60": {
-      "value": "{vud-base.purple-60}",
-      "type": "color"
-    },
-    "tertiary-70": {
-      "value": "{vud-base.purple-70}",
-      "type": "color"
-    },
-    "tertiary-80": {
-      "value": "{vud-base.purple-80}",
-      "type": "color"
-    },
-    "tertiary-90": {
-      "value": "{vud-base.purple-90}",
-      "type": "color"
-    },
-    "tertiary-gradient": {
-      "value": "{vud-base.purple-90}",
-      "type": "color"
-    },
-    "neutral-light-05": {
-      "value": "{vud-base.neutral-light-05}",
-      "type": "color"
-    },
-    "neutral-light-10": {
-      "value": "{vud-base.neutral-light-10}",
-      "type": "color"
-    },
-    "neutral-light-20": {
-      "value": "{vud-base.neutral-light-20}",
-      "type": "color"
-    },
-    "neutral-light-30": {
-      "value": "{vud-base.neutral-light-30}",
-      "type": "color"
-    },
-    "neutral-light-40": {
-      "value": "{vud-base.neutral-light-40}",
-      "type": "color"
-    },
-    "neutral-light-50": {
-      "value": "{vud-base.neutral-light-50}",
-      "type": "color"
-    },
-    "neutral-light-60": {
-      "value": "{vud-base.neutral-light-60}",
-      "type": "color"
-    },
-    "neutral-light-70": {
-      "value": "{vud-base.neutral-light-70}",
-      "type": "color"
-    },
-    "neutral-light-80": {
-      "value": "{vud-base.neutral-light-80}",
-      "type": "color"
-    },
-    "neutral-light-90": {
-      "value": "{vud-base.neutral-light-90}",
-      "type": "color"
-    },
-    "neutral-light-gradient": {
-      "value": "{ref-brand.neutral-light-90}",
-      "type": "color"
-    },
-    "neutral-dark-05": {
-      "value": "{vud-base.neutral-dark-05}",
-      "type": "color"
-    },
-    "neutral-dark-10": {
-      "value": "{vud-base.neutral-dark-10}",
-      "type": "color"
-    },
-    "neutral-dark-20": {
-      "value": "{vud-base.neutral-dark-20}",
-      "type": "color"
-    },
-    "neutral-dark-30": {
-      "value": "{vud-base.neutral-dark-30}",
-      "type": "color"
-    },
-    "neutral-dark-40": {
-      "value": "{vud-base.neutral-dark-40}",
-      "type": "color"
-    },
-    "neutral-dark-50": {
-      "value": "{vud-base.neutral-dark-50}",
-      "type": "color"
-    },
-    "neutral-dark-60": {
-      "value": "{vud-base.neutral-dark-60}",
-      "type": "color"
-    },
-    "neutral-dark-70": {
-      "value": "{vud-base.neutral-dark-70}",
-      "type": "color"
-    },
-    "neutral-dark-80": {
-      "value": "{vud-base.neutral-dark-80}",
-      "type": "color"
-    },
-    "neutral-dark-90": {
-      "value": "{vud-base.neutral-dark-90}",
-      "type": "color"
-    },
-    "neutral-dark-gradient": {
-      "value": "{ref-brand.neutral-dark-70}",
-      "type": "color"
-    }
-  },
-  "vud-core-font-style-title": {
-    "lg-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.400}",
-        "lineHeight": "Auto",
-        "fontSize": "48px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "lg-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.700}",
-        "lineHeight": "Auto",
-        "fontSize": "48px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "md-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.400}",
-        "lineHeight": "Auto",
-        "fontSize": "32px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "md-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.700}",
-        "lineHeight": "Auto",
-        "fontSize": "32px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "s-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.400}",
-        "lineHeight": "Auto",
-        "fontSize": "24px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "s-semibold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.500}",
-        "lineHeight": "Auto",
-        "fontSize": "24px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "s-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.700}",
-        "lineHeight": "Auto",
-        "fontSize": "24px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "xs-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.400}",
-        "fontSize": "20px",
-        "lineHeight": "Auto"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "xs-semibold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.500}",
-        "fontSize": "20px",
-        "lineHeight": "Auto"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts"
-    },
-    "xs-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.700}",
-        "lineHeight": "Auto",
-        "fontSize": "20px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    }
-  },
-  "vud-core-font-style-body": {
-    "primary-lg-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.400}",
-        "lineHeight": "Auto",
-        "fontSize": "20px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "primary-lg-semibold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.500}",
-        "lineHeight": "Auto",
-        "fontSize": "20px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "primary-lg-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.700}",
-        "lineHeight": "Auto",
-        "fontSize": "48px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "primary-s-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.400}",
-        "lineHeight": "Auto",
-        "fontSize": "16px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "primary-s-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.700}",
-        "lineHeight": "Auto",
-        "fontSize": "24px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-md-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.400}",
-        "lineHeight": "Auto",
-        "fontSize": "14px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-md-semibold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.500}",
-        "lineHeight": "Auto",
-        "fontSize": "14px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-md-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.700}",
-        "lineHeight": "Auto",
-        "fontSize": "14px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-s-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.400}",
-        "lineHeight": "Auto",
-        "fontSize": "13px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-s-semibold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.500}",
-        "lineHeight": "Auto",
-        "fontSize": "13px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-s-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.700}",
-        "lineHeight": "Auto",
-        "fontSize": "13px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
     }
   },
   "base": {
@@ -1042,247 +606,243 @@
     "type": "other",
     "description": "Unique base for sizing, spacing"
   },
-  "core-font-familiy-primary": {
-    "value": "Ubuntu",
-    "type": "fontFamilies"
-  },
   "border": {
-    "0": {
+    "border-0": {
       "value": "0",
       "type": "borderWidth"
     },
-    "1": {
+    "border-1": {
       "value": "1px",
       "type": "borderWidth"
     },
-    "2": {
+    "border-2": {
       "value": "2px",
       "type": "borderWidth"
     },
-    "4": {
+    "border-4": {
       "value": "4px",
       "type": "borderWidth"
     },
-    "8": {
+    "border-8": {
       "value": "8px",
       "type": "borderWidth"
     },
-    "1,5": {
+    "border-1,5": {
       "value": "1.5px",
       "type": "borderWidth"
     }
   },
   "sizing": {
-    "2": {
+    "size-2": {
       "value": "{base}",
       "type": "sizing"
     },
-    "4": {
-      "value": "{sizing.2}*2",
+    "size-4": {
+      "value": "{sizing.size-2}*2",
       "type": "sizing"
     },
-    "8": {
-      "value": "{sizing.2}*4",
+    "size-8": {
+      "value": "{sizing.size-2}*4",
       "type": "sizing"
     },
-    "12": {
-      "value": "{sizing.2}*6",
+    "size-12": {
+      "value": "{sizing.size-2}*6",
       "type": "sizing"
     },
-    "16": {
-      "value": "{sizing.2}*8",
+    "size-16": {
+      "value": "{sizing.size-2}*8",
       "type": "sizing"
     },
-    "24": {
-      "value": "{sizing.2}*12",
+    "size-24": {
+      "value": "{sizing.size-2}*12",
       "type": "sizing"
     },
-    "32": {
-      "value": "{sizing.2}*16",
+    "size-32": {
+      "value": "{sizing.size-2}*16",
       "type": "sizing"
     },
-    "40": {
-      "value": "{sizing.2}*20",
+    "size-40": {
+      "value": "{sizing.size-2}*20",
       "type": "sizing"
     },
-    "48": {
-      "value": "{sizing.2}*24",
+    "size-48": {
+      "value": "{sizing.size-2}*24",
       "type": "sizing"
     },
-    "56": {
-      "value": "{sizing.2}*28",
+    "size-56": {
+      "value": "{sizing.size-2}*28",
       "type": "sizing"
     },
-    "64": {
-      "value": "{sizing.2}*32",
+    "size-64": {
+      "value": "{sizing.size-2}*32",
       "type": "sizing"
     },
-    "96": {
-      "value": "{sizing.2}*48",
+    "size-96": {
+      "value": "{sizing.size-2}*48",
       "type": "sizing"
     },
-    "128": {
-      "value": "{sizing.2}*64",
+    "size-128": {
+      "value": "{sizing.size-2}*64",
       "type": "sizing"
     },
-    "256": {
-      "value": "{sizing.2}*128",
+    "size-256": {
+      "value": "{sizing.size-2}*128",
       "type": "sizing"
     }
   },
   "spacing": {
-    "2": {
+    "space-2": {
       "value": "{base}",
       "type": "spacing"
     },
-    "4": {
-      "value": "{spacing.2}*2",
+    "space-4": {
+      "value": "{spacing.space-2}*2",
       "type": "spacing"
     },
-    "8": {
-      "value": "{spacing.2}*4",
+    "space-8": {
+      "value": "{spacing.space-2}*4",
       "type": "spacing"
     },
-    "12": {
-      "value": "{spacing.2}*6",
+    "space-12": {
+      "value": "{spacing.space-2}*6",
       "type": "spacing"
     },
-    "16": {
-      "value": "{spacing.2}*8",
+    "space-16": {
+      "value": "{spacing.space-2}*8",
       "type": "spacing"
     },
-    "24": {
-      "value": "{spacing.2}*12",
+    "space-24": {
+      "value": "{spacing.space-2}*12",
       "type": "spacing"
     },
-    "32": {
-      "value": "{spacing.2}*16",
+    "space-32": {
+      "value": "{spacing.space-2}*16",
       "type": "spacing"
     },
-    "40": {
-      "value": "{spacing.2}*20",
+    "space-40": {
+      "value": "{spacing.space-2}*20",
       "type": "spacing"
     },
-    "48": {
-      "value": "{spacing.2}*24",
+    "space-48": {
+      "value": "{spacing.space-2}*24",
       "type": "spacing"
     },
-    "56": {
-      "value": "{spacing.2}*28",
+    "space-56": {
+      "value": "{spacing.space-2}*28",
       "type": "spacing"
     },
-    "64": {
-      "value": "{spacing.2}*32",
+    "space-64": {
+      "value": "{spacing.space-2}*32",
       "type": "spacing"
     },
-    "96": {
-      "value": "{spacing.2}*48",
+    "space-96": {
+      "value": "{spacing.space-2}*48",
       "type": "spacing"
     },
-    "128": {
-      "value": "{spacing.2}*64",
+    "space-128": {
+      "value": "{spacing.space-2}*64",
       "type": "spacing"
     },
-    "256": {
-      "value": "{spacing.2}*128",
+    "space-256": {
+      "value": "{spacing.space-2}*128",
       "type": "spacing"
     }
   },
   "opacity": {
-    "0": {
+    "opaque-0": {
       "value": "0",
       "type": "opacity"
     },
-    "4": {
+    "opaque-4": {
       "value": "4%",
       "type": "opacity"
     },
-    "8": {
+    "opaque-8": {
       "value": "8%",
       "type": "opacity"
     },
-    "12": {
+    "opaque-12": {
       "value": "12%",
       "type": "opacity"
     },
-    "16": {
+    "opaque-16": {
       "value": "16%",
       "type": "opacity"
     },
-    "24": {
+    "opaque-24": {
       "value": "24%",
       "type": "opacity"
     },
-    "32": {
+    "opaque-32": {
       "value": "32%",
       "type": "opacity"
     },
-    "40": {
+    "opaque-40": {
       "value": "40%",
       "type": "opacity"
     },
-    "48": {
+    "opaque-48": {
       "value": "48%",
       "type": "opacity"
     },
-    "56": {
+    "opaque-56": {
       "value": "56%",
       "type": "opacity"
     },
-    "64": {
+    "opaque-64": {
       "value": "64%",
       "type": "opacity"
     },
-    "100": {
+    "opaque-100": {
       "value": "100%",
       "type": "opacity"
     }
   },
   "numeric-values-font-weight": {
-    "100": {
+    "thin": {
       "value": "100",
       "type": "fontWeights",
-      "description": "/* Thin */\n\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n\n"
+      "description": "Thin: <font-weight-absolute> numeric values [1,1000]\n\n"
     },
-    "200": {
+    "extra-light": {
       "value": "200",
       "type": "fontWeights",
-      "description": "/* Extra Light */ CSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Extra Light: <font-weight-absolute> numeric values [1,1000]\n"
     },
-    "300": {
+    "light": {
       "value": "300",
       "type": "fontWeights",
-      "description": "/* Light */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Light: <font-weight-absolute> numeric values [1,1000]\n"
     },
-    "400": {
+    "normal": {
       "value": "400",
       "type": "fontWeights",
-      "description": "/* Normal */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Normal: <font-weight-absolute> numeric values [1,1000]\n"
     },
-    "500": {
+    "medium": {
       "value": "500",
       "type": "fontWeights",
-      "description": "/* Medium */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Medium: <font-weight-absolute> numeric values [1,1000]\n"
     },
-    "600": {
+    "semi-bold": {
       "value": "600",
       "type": "fontWeights",
-      "description": "/* Semi Bold */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Semi Bold: <font-weight-absolute> numeric values [1,1000]\n"
     },
-    "700": {
+    "bold": {
       "value": "700",
       "type": "fontWeights",
-      "description": "/* Bold */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Bold: <font-weight-absolute> numeric values [1,1000]\n"
     },
-    " 800": {
-      "value": "600",
+    "extra-bold": {
+      "value": "800",
       "type": "fontWeights",
-      "description": "/* Extra Bold */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Extra Bold: <font-weight-absolute> numeric values [1,1000]\n"
     },
-    " 900": {
+    "black": {
       "value": "900",
       "type": "fontWeights",
-      "description": "/* Black */\nCSS syntax: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Black: <font-weight-absolute> numeric values [1,1000]\n"
     }
   },
   "underline": {
@@ -1567,284 +1127,6 @@
       "type": "sizing"
     }
   },
-  "ref-contextual": {
-    "regular": {
-      "callout": {
-        "value": {
-          "fontFamily": "{core-font-familiy-secondary}",
-          "fontSize": "{font-size.-1}",
-          "fontWeight": "{numeric-values-font-weight.400}"
-        },
-        "type": "typography",
-        "description": "Suitable for highlighting important details or provide additional context. \n\nType scaling applied."
-      },
-      "h2": {
-        "value": {
-          "fontFamily": "{core-font-familiy-primary}",
-          "fontSize": "{font-size.2}",
-          "fontWeight": "{numeric-values-font-weight.400}"
-        },
-        "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus. \nThe h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section.\nType scaling applied."
-      },
-      "h4": {
-        "value": {
-          "fontFamily": "{core-font-familiy-primary}",
-          "fontWeight": "{numeric-values-font-weight.400}",
-          "fontSize": "{font-size.0}"
-        },
-        "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
-      },
-      "body": {
-        "value": {
-          "fontFamily": "{core-font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.400}",
-          "fontSize": "{font-size.0}"
-        },
-        "type": "typography",
-        "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
-      },
-      "link": {
-        "value": {
-          "fontFamily": "{core-font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.400}",
-          "fontSize": "{font-size.0}",
-          "textDecoration": "{underline}"
-        },
-        "type": "typography",
-        "description": "Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph."
-      }
-    },
-    "medium": {
-      "h1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-primary}",
-          "fontSize": "{font-size.4}",
-          "fontWeight": "{numeric-values-font-weight.500}"
-        },
-        "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h1 tag is commonly used to display the main title on a webpage.\nType scaling applied."
-      },
-      "h3": {
-        "value": {
-          "fontFamily": "{core-font-familiy-primary}",
-          "lineHeight": "",
-          "fontSize": "{font-size.1}",
-          "fontWeight": "{numeric-values-font-weight.500}"
-        },
-        "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.\n\nType scaling applied."
-      },
-      "h4": {
-        "value": {
-          "fontFamily": "{core-font-familiy-primary}",
-          "fontWeight": "{numeric-values-font-weight.500}",
-          "fontSize": "{font-size.0}"
-        },
-        "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
-      },
-      "body": {
-        "value": {
-          "fontFamily": "{core-font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.600}",
-          "fontSize": "{font-size.0}"
-        },
-        "type": "typography",
-        "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
-      }
-    },
-    "bold": {
-      "body": {
-        "value": {
-          "fontFamily": "{core-font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.700}",
-          "fontSize": "{font-size.0}"
-        },
-        "type": "typography",
-        "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
-      }
-    }
-  },
-  "ref-tabular": {
-    "regular": {
-      "td--1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.-1}",
-          "fontWeight": "{numeric-values-font-weight.400}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-0": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.0}",
-          "fontWeight": "{numeric-values-font-weight.400}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.1}",
-          "fontWeight": "{numeric-values-font-weight.400}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-2": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.2}",
-          "fontWeight": "{numeric-values-font-weight.400}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-3": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.3}",
-          "fontWeight": "{numeric-values-font-weight.400}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-4": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.4}",
-          "fontWeight": "{numeric-values-font-weight.400}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      }
-    },
-    "medium": {
-      "td--1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.-1}",
-          "fontWeight": "{numeric-values-font-weight.500}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-0": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.0}",
-          "fontWeight": "{numeric-values-font-weight.500}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.1}",
-          "fontWeight": "{numeric-values-font-weight.500}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-2": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.2}",
-          "fontWeight": "{numeric-values-font-weight.500}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-3": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.3}",
-          "fontWeight": "{numeric-values-font-weight.500}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-4": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.4}",
-          "fontWeight": "{numeric-values-font-weight.500}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      }
-    },
-    "semibold": {
-      "td--1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.-1}",
-          "fontWeight": "{numeric-values-font-weight.600}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-0": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.0}",
-          "fontWeight": "{numeric-values-font-weight.600}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.1}",
-          "fontWeight": "{numeric-values-font-weight.600}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-2": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.2}",
-          "fontWeight": "{numeric-values-font-weight.600}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-3": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.3}",
-          "fontWeight": "{numeric-values-font-weight.600}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-4": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.4}",
-          "fontWeight": "{numeric-values-font-weight.600}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      }
-    }
-  },
-  "core-font-familiy-secondary": {
-    "value": "Open Sans",
-    "type": "fontFamilies"
-  },
-  "core-font-familiy-tertiary": {
-    "value": "Inter",
-    "type": "fontFamilies"
-  },
   "keyword-values-font-weight": {
     "normal": {
       "value": "Normal",
@@ -1855,6 +1137,228 @@
       "value": "Bold",
       "type": "fontWeights",
       "description": "CSS syntax: font-weight-absolute> numeric values [1,1000]"
+    }
+  },
+  "brand": {
+    "primary-05": {
+      "value": "{vud.green-05}",
+      "type": "color"
+    },
+    "primary-10": {
+      "value": "{vud.green-10}",
+      "type": "color"
+    },
+    "primary-20": {
+      "value": "{vud.green-20}",
+      "type": "color"
+    },
+    "primary-30": {
+      "value": "{vud.green-30}",
+      "type": "color"
+    },
+    "primary-40": {
+      "value": "{vud.green-40}",
+      "type": "color"
+    },
+    "primary-50": {
+      "value": "{vud.green-50}",
+      "type": "color"
+    },
+    "primary-60": {
+      "value": "{vud.green-60}",
+      "type": "color"
+    },
+    "primary-70": {
+      "value": "{vud.green-70}",
+      "type": "color"
+    },
+    "primary-80": {
+      "value": "{vud.green-80}",
+      "type": "color"
+    },
+    "primary-90": {
+      "value": "{vud.green-90}",
+      "type": "color"
+    },
+    "primary-gradient": {
+      "value": "{brand.primary-70}",
+      "type": "color"
+    },
+    "secondary-05": {
+      "value": "{vud.blue-05}",
+      "type": "color"
+    },
+    "secondary-10": {
+      "value": "{vud.blue-10}",
+      "type": "color"
+    },
+    "secondary-20": {
+      "value": "{vud.blue-20}",
+      "type": "color"
+    },
+    "secondary-30": {
+      "value": "{vud.blue-30}",
+      "type": "color"
+    },
+    "secondary-40": {
+      "value": "{vud.blue-40}",
+      "type": "color"
+    },
+    "secondary-50": {
+      "value": "{vud.blue-50}",
+      "type": "color"
+    },
+    "secondary-60": {
+      "value": "{vud.blue-60}",
+      "type": "color"
+    },
+    "secondary-70": {
+      "value": "{vud.blue-70}",
+      "type": "color"
+    },
+    "secondary-80": {
+      "value": "{vud.blue-80}",
+      "type": "color"
+    },
+    "secondary-90": {
+      "value": "{vud.blue-90}",
+      "type": "color"
+    },
+    "secondary-gradient": {
+      "value": "{brand.secondary-70}",
+      "type": "color"
+    },
+    "tertiary-05": {
+      "value": "{vud.purple-05}",
+      "type": "color"
+    },
+    "tertiary-10": {
+      "value": "{vud.purple-10}",
+      "type": "color"
+    },
+    "tertiary-20": {
+      "value": "{vud.purple-20}",
+      "type": "color"
+    },
+    "tertiary-30": {
+      "value": "{vud.purple-30}",
+      "type": "color"
+    },
+    "tertiary-40": {
+      "value": "{vud.purple-40}",
+      "type": "color"
+    },
+    "tertiary-50": {
+      "value": "{vud.purple-50}",
+      "type": "color"
+    },
+    "tertiary-60": {
+      "value": "{vud.purple-60}",
+      "type": "color"
+    },
+    "tertiary-70": {
+      "value": "{vud.purple-70}",
+      "type": "color"
+    },
+    "tertiary-80": {
+      "value": "{vud.purple-80}",
+      "type": "color"
+    },
+    "tertiary-90": {
+      "value": "{vud.purple-90}",
+      "type": "color"
+    },
+    "tertiary-gradient": {
+      "value": "{vud.purple-90}",
+      "type": "color"
+    },
+    "neutral-light-05": {
+      "value": "{vud.neutral-light-05}",
+      "type": "color"
+    },
+    "neutral-light-10": {
+      "value": "{vud.neutral-light-10}",
+      "type": "color"
+    },
+    "neutral-light-20": {
+      "value": "{vud.neutral-light-20}",
+      "type": "color"
+    },
+    "neutral-light-30": {
+      "value": "{vud.neutral-light-30}",
+      "type": "color"
+    },
+    "neutral-light-40": {
+      "value": "{vud.neutral-light-40}",
+      "type": "color"
+    },
+    "neutral-light-50": {
+      "value": "{vud.neutral-light-50}",
+      "type": "color"
+    },
+    "neutral-light-60": {
+      "value": "{vud.neutral-light-60}",
+      "type": "color"
+    },
+    "neutral-light-70": {
+      "value": "{vud.neutral-light-70}",
+      "type": "color"
+    },
+    "neutral-light-80": {
+      "value": "{vud.neutral-light-80}",
+      "type": "color"
+    },
+    "neutral-light-90": {
+      "value": "{vud.neutral-light-90}",
+      "type": "color"
+    },
+    "neutral-light-gradient": {
+      "value": "{brand.neutral-light-90}",
+      "type": "color"
+    },
+    "neutral-dark-05": {
+      "value": "{vud.neutral-dark-05}",
+      "type": "color"
+    },
+    "neutral-dark-10": {
+      "value": "{vud.neutral-dark-10}",
+      "type": "color"
+    },
+    "neutral-dark-20": {
+      "value": "{vud.neutral-dark-20}",
+      "type": "color"
+    },
+    "neutral-dark-30": {
+      "value": "{vud.neutral-dark-30}",
+      "type": "color"
+    },
+    "neutral-dark-40": {
+      "value": "{vud.neutral-dark-40}",
+      "type": "color"
+    },
+    "neutral-dark-50": {
+      "value": "{vud.neutral-dark-50}",
+      "type": "color"
+    },
+    "neutral-dark-60": {
+      "value": "{vud.neutral-dark-60}",
+      "type": "color"
+    },
+    "neutral-dark-70": {
+      "value": "{vud.neutral-dark-70}",
+      "type": "color"
+    },
+    "neutral-dark-80": {
+      "value": "{vud.neutral-dark-80}",
+      "type": "color"
+    },
+    "neutral-dark-90": {
+      "value": "{vud.neutral-dark-90}",
+      "type": "color"
+    },
+    "neutral-dark-gradient": {
+      "value": "{brand.neutral-dark-70}",
+      "type": "color"
     }
   }
 }

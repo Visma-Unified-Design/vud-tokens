@@ -1,0 +1,21 @@
+{
+  "pictogram": {
+    "stroke-default": {
+      "value": "{ref-properties.pictogram.on-tertiary.stroke-default}",
+      "type": "color",
+      "description": "\n"
+    },
+    "stroke-emphasis": {
+      "value": "{ref-properties.pictogram.on-tertiary.stroke-emphasis}",
+      "type": "color"
+    },
+    "fill-default": {
+      "value": "{ref-properties.pictogram.on-tertiary.fill-default}",
+      "type": "color"
+    },
+    "fill-emphasis": {
+      "value": "{ref-properties.pictogram.on-tertiary.fill-emphasis}",
+      "type": "color"
+    }
+  }
+}
