@@ -4,20 +4,11 @@ const { promises } = require('fs');
 
 registerTransforms(StyleDictionary);
 
-// StyleDictionary.registerTransform({
-//   type: `value`,
-//   transitive: true,
-//   name: `figma/calc`,
-//   matcher: ({ value }) => typeof value === 'string' && value?.includes('*'),
-//   transformer: ({ value }) => `calc(${value})`,
-// });
-
 StyleDictionary.registerTransform({
   name: 'transform/pxToRem',
   type: `value`,
   transitive: true,
   matcher: (token) => typeof token.value === "string" && token.value.indexOf("px") !== -1,
-  // matcher: token => ['sizing', 'spacing', 'borderRadius', 'borderWidth', 'fontSizes', 'dimension'].includes(token.type),
   transformer: (token) => {
     const baseFont = 10; // 1rem = 10px
     const floatVal = parseFloat(token.value);
@@ -78,7 +69,7 @@ const sdLight = StyleDictionary.extend({
           excludeParentKeys: true,
           options: {
               "outputReferences": true,
-              "selector": [":host", ":root"],
+              "selector": [":host", " :root", " :host html[data-theme='light'], :host html.light-theme", " :root html[data-theme='light'] , :root html.light-theme"],
           },
         },
       ],
@@ -123,7 +114,7 @@ const sdDark = StyleDictionary.extend({
           excludeParentKeys: true,
           options: {
               "outputReferences": true,
-              "selector": [":host", ":root"],
+              "selector": [":host html[data-theme='dark'], :host html.dark-theme", " :root html[data-theme='dark'], :root html.dark-theme"],
           },
         },
       ],

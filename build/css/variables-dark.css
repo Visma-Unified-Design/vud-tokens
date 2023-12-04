@@ -1,9 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 04 Dec 2023 13:42:15 GMT
+ * Generated on Mon, 04 Dec 2023 17:43:54 GMT
  */
 
-:host,:root {
+:host html[data-theme='dark'], :host html.dark-theme, :root html[data-theme='dark'], :root html.dark-theme {
   --core-font-familiy-tertiary: Inter;
   --core-font-familiy-secondary: 'Open Sans';
   --core-font-familiy-primary: Ubuntu;
