@@ -29,10 +29,10 @@ jobs:
           env:
             API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
           with:
-            source-directory: 'build'
+            source-directory: build/
             destination-github-username: 'Visma-Unified-Design'
             destination-repository-name: 'vud'
             commit-message: 'Update figma tokens compiled to code tokens'
             target-branch: tokens
-            target-directory: src/tokens
+            target-directory: src/tokens/
 
