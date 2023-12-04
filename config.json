@@ -1,0 +1,18 @@
+{
+    "source": ["Tokens/**/*.json"],
+    "platforms": {
+        "css": {
+            "transformGroup": "tokens-studio",
+            "buildPath": "dist/",
+            "basePxFontSize": 10,
+            "files": [{
+                "format": "css/variables",
+                "destination": "variables.css",
+                "options": {
+                    "outputReferences": true,
+                    "selector": [":host", ":root"]
+                }
+            }]
+        }
+    }
+}
