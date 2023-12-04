@@ -9,9 +9,6 @@ on:
     push:
       branches: [ main ]
 
-    pull_request:
-      branches: [ main ]
-
     # Allows you to run this workflow manually from the Actions tab
     workflow_dispatch:
 
@@ -26,10 +23,7 @@ jobs:
 
     steps:
         - uses: actions/checkout@v2
-        # - name: creates output
-          # some command from your repository that creates
-          # output to "source-directory" ("output" in the example)
-          # run:  sh ./build.sh
+
         - name: Pushes to another repository
           uses: cpina/github-action-push-to-another-repository@main
           env:
@@ -37,8 +31,7 @@ jobs:
           with:
             source-directory: 'build'
             destination-github-username: 'Visma-Unified-Design'
-            destination-repository-name: 'vud-tokens'
-            user-email: mihai.baciu@visma.com
+            destination-repository-name: 'vud'
             commit-message: 'Update figma tokens compiled to code tokens'
             target-branch: tokens
             target-directory: src/tokens
