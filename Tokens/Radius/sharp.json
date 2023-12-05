@@ -1,39 +1,39 @@
 {
   "radius": {
     "none": {
-      "value": "{radii.none}",
+      "value": "{vud-radii.none}",
       "type": "borderRadius"
     },
     "xxs": {
-      "value": "{radii.xxs}",
+      "value": "{vud-radii.xxs}",
       "type": "borderRadius"
     },
     "xs": {
-      "value": "{radii.xxs}",
+      "value": "{vud-radii.xxs}",
       "type": "borderRadius"
     },
     "s": {
-      "value": "{radii.xxs}",
+      "value": "{vud-radii.xxs}",
       "type": "borderRadius"
     },
     "md": {
-      "value": "{radii.xxs}",
+      "value": "{vud-radii.xxs}",
       "type": "borderRadius"
     },
     "lg": {
-      "value": "{radii.xxs}",
+      "value": "{vud-radii.xxs}",
       "type": "borderRadius"
     },
     "xl": {
-      "value": "{radii.xxs}",
+      "value": "{vud-radii.xxs}",
       "type": "borderRadius"
     },
     "xxl": {
-      "value": "{radii.xxs}",
+      "value": "{vud-radii.xxs}",
       "type": "borderRadius"
     },
     "xxxl": {
-      "value": "{radii.xxs}",
+      "value": "{vud-radii.xxs}",
       "type": "borderRadius"
     }
   }

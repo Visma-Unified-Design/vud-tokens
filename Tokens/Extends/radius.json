@@ -1,7 +1,7 @@
 {
   "radius": {
     "s": {
-      "value": "{radii.s}",
+      "value": "{vud-radii.s}",
       "type": "borderRadius"
     }
   }

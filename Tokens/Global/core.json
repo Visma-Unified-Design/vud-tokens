@@ -1,5 +1,5 @@
 {
-  "radii": {
+  "vud-radii": {
     "none": {
       "value": "0",
       "type": "borderRadius"
@@ -749,16 +749,16 @@
     }
   },
   "opacity": {
-    "opaque-0": {
+    "0": {
       "value": "0",
+      "type": "opacity"
+    },
+    "8": {
+      "value": "8%",
       "type": "opacity"
     },
     "opaque-4": {
       "value": "4%",
-      "type": "opacity"
-    },
-    "opaque-8": {
-      "value": "8%",
       "type": "opacity"
     },
     "opaque-12": {

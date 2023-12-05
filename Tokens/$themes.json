@@ -10,15 +10,6 @@
     "$figmaCollectionId": "VariableCollectionId:1039:134",
     "$figmaModeId": "1039:0",
     "$figmaVariableReferences": {
-      "radii.none": "f8766cb858dc407f8704f8d4c511b0a7c040ffdb",
-      "radii.xxs": "9f0a9e9cffae5b346e6713c6088937ae3e71efec",
-      "radii.xs": "eca1a2ca1528d2434401f9cef9ce689c7dae36d7",
-      "radii.s": "58dffb029bad086e4c8dec5ca42b5ff4ba634ddf",
-      "radii.md": "109e770a235e7a95e1bd12b9c7ccf7e8284e04c7",
-      "radii.lg": "803697b4fa919630bd20f64c5c47684b4c9cc690",
-      "radii.xl": "fb776c191422ba3790a6abbe6efce3398329c1d3",
-      "radii.xxl": "1c5f341c9bd0f8c970a17093706d8c107dc948b8",
-      "radii.xxxl": "a027544f427c708de7520eb522f719d54f3a5269",
       "brand.primary-05": "2e35f631ee4c63c57795c5869540a1b7bb7203f5",
       "brand.primary-10": "fb3f1f8e4456ca9ad199433957c783e948c9eb82",
       "brand.primary-20": "6e2c80681c35fd3da107b8cd078c4147a0325291",
@@ -250,7 +241,16 @@
       "spacing.space-64": "f66026d75a388f77ab8682d6be6472a9873d0de3",
       "spacing.space-96": "a2a10d1613f2fbfb53c3c525726c34116c89738b",
       "spacing.space-128": "2969fbe176ddd7902826623edcd02f7a50bf051d",
-      "spacing.space-256": "7c31dab26b7c419994129536a64b8114c48485e6"
+      "spacing.space-256": "7c31dab26b7c419994129536a64b8114c48485e6",
+      "vud-radii.none": "f8766cb858dc407f8704f8d4c511b0a7c040ffdb",
+      "vud-radii.xxs": "9f0a9e9cffae5b346e6713c6088937ae3e71efec",
+      "vud-radii.xs": "eca1a2ca1528d2434401f9cef9ce689c7dae36d7",
+      "vud-radii.s": "58dffb029bad086e4c8dec5ca42b5ff4ba634ddf",
+      "vud-radii.md": "109e770a235e7a95e1bd12b9c7ccf7e8284e04c7",
+      "vud-radii.lg": "803697b4fa919630bd20f64c5c47684b4c9cc690",
+      "vud-radii.xl": "fb776c191422ba3790a6abbe6efce3398329c1d3",
+      "vud-radii.xxl": "1c5f341c9bd0f8c970a17093706d8c107dc948b8",
+      "vud-radii.xxxl": "a027544f427c708de7520eb522f719d54f3a5269"
     },
     "group": "Global"
   },
