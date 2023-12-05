@@ -3983,6 +3983,11 @@
         "type": "color",
         "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
       },
+      "text-secondary": {
+        "value": "{ref-properties.text.secondary}",
+        "type": "color",
+        "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience."
+      },
       "text-emphasis": {
         "value": "{ref-properties.text.emphasis}",
         "type": "color",
