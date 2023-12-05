@@ -17,7 +17,7 @@ StyleDictionary.registerTransform({
       throwSizeError(token.name, token.value, 'rem');
     }
 
-    if (floatVal === 0) { return '0'; }
+    if (floatVal === 0) { return 0; }
 
     return `${floatVal / baseFont}rem`;
   },
@@ -61,7 +61,6 @@ const sdLight = StyleDictionary.extend({
     css: {
       transforms: cssTransforms,
       buildPath: 'build/css/',
-      basePxFontSize: 10,
       files: [
         {
           destination: 'variables-light.css',
@@ -77,7 +76,7 @@ const sdLight = StyleDictionary.extend({
     scss: {
       transforms: cssTransforms,
       buildPath: 'build/scss/',
-      basePxFontSize: 10,
+      prefix: "light",
       files: [
         {
           destination: '_variables-light.scss',
@@ -106,7 +105,6 @@ const sdDark = StyleDictionary.extend({
     css: {
       transforms: cssTransforms,
       buildPath: 'build/css/',
-      basePxFontSize: 10,
       files: [
         {
           destination: 'variables-dark.css',
@@ -122,7 +120,7 @@ const sdDark = StyleDictionary.extend({
     scss: {
       transforms: cssTransforms,
       buildPath: 'build/scss/',
-      basePxFontSize: 10,
+      prefix: "dark",
       files: [
         {
           destination: '_variables-dark.scss',
