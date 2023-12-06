@@ -1,35 +1,35 @@
 {
   "radii": {
     "none": {
-      "value": "0",
+      "value": "{vud-radii.none}",
       "type": "borderRadius"
     },
     "xxs": {
-      "value": "{base}",
+      "value": "{vud-radii.xxs}",
       "type": "borderRadius"
     },
     "xs": {
-      "value": "{base}*2",
+      "value": "{vud-radii.xs}*2",
       "type": "borderRadius"
     },
     "s": {
-      "value": "{base}*4",
+      "value": "{vud-radii.xxs}*4",
       "type": "borderRadius"
     },
     "md": {
-      "value": "{base}*6",
+      "value": "{vud-radii.md}*6",
       "type": "borderRadius"
     },
     "lg": {
-      "value": "{base}*8",
+      "value": "{vud-radii.lg}*8",
       "type": "borderRadius"
     },
     "xl": {
-      "value": "{base}*12",
+      "value": "{vud-radii.xl}*12",
       "type": "borderRadius"
     },
     "xxl": {
-      "value": "{base}*16",
+      "value": "{vud-radii.xxl}*16",
       "type": "borderRadius"
     },
     "xxxl": {
@@ -79,7 +79,7 @@
       "type": "color"
     },
     "primary-gradient": {
-      "value": "{brand.primary-70}",
+      "value": "{vud-brand.primary-70}",
       "type": "color"
     },
     "secondary-05": {
@@ -123,7 +123,7 @@
       "type": "color"
     },
     "secondary-gradient": {
-      "value": "{brand.secondary-70}",
+      "value": "{vud-brand.secondary-70}",
       "type": "color"
     },
     "tertiary-05": {
@@ -211,7 +211,7 @@
       "type": "color"
     },
     "neutral-light-gradient": {
-      "value": "{brand.neutral-light-90}",
+      "value": "{vud-brand.neutral-light-90}",
       "type": "color"
     },
     "neutral-dark-05": {
@@ -255,7 +255,7 @@
       "type": "color"
     },
     "neutral-dark-gradient": {
-      "value": "{brand.neutral-dark-70}",
+      "value": "{vud-brand.neutral-dark-70}",
       "type": "color"
     }
   },
@@ -476,270 +476,6 @@
   "core-font-familiy-primary": {
     "value": "Ubuntu",
     "type": "fontFamilies"
-  },
-  "scale": {
-    "const": {
-      "min": {
-        "f0": {
-          "value": "16",
-          "type": "fontSizes",
-          "description": "This base font-size is expressed in pixels (px) for min. viewport.\n\n\nA base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%)."
-        },
-        "r": {
-          "value": "1.5",
-          "type": "fontSizes"
-        },
-        "n": {
-          "value": "5",
-          "type": "fontSizes"
-        }
-      },
-      "max": {
-        "f0": {
-          "value": "14",
-          "type": "fontSizes",
-          "description": "This base font-size is expressed in pixels (px) for max. viewport.\n\n\nA base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%)."
-        },
-        "r": {
-          "value": "2.8",
-          "type": "fontSizes"
-        },
-        "n": {
-          "value": "5",
-          "type": "fontSizes"
-        }
-      }
-    },
-    "f-1": {
-      "min": {
-        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(-1/{scale.const.min.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The minimum value the property can take."
-      },
-      "max": {
-        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(-1/{scale.const.max.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The maximum value the property can take."
-      },
-      "v": {
-        "value": "100 * ({scale.f-1.max}-{scale.f-1.min}) / ({viewport.max}-{viewport.min})",
-        "type": "fontSizes"
-      },
-      "r": {
-        "value": "( {viewport.min} * {scale.f-1.max} - {viewport.max} * {scale.f-1.min}) / ({viewport.min}-{viewport.max})",
-        "type": "fontSizes"
-      },
-      "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.f-1.v} + {scale.f-1.r})",
-        "type": "fontSizes",
-        "description": "The preferred value or ideal size for the property."
-      },
-      "clamp": {
-        "value": "min( max( {scale.f-1.min},  {scale.f-1.fluid}) ,{scale.f-1.max})",
-        "type": "fontSizes"
-      },
-      "clamp-css": {
-        "value": "clamp(0.94rem, calc(-0.26vw + 1.00rem), 0.69rem)",
-        "type": "fontSizes",
-        "description": "Intended for development."
-      }
-    },
-    "f0": {
-      "min": {
-        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(0/{scale.const.min.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The minimum value the property can take."
-      },
-      "max": {
-        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(0/{scale.const.max.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The maximum value the property can take."
-      },
-      "v": {
-        "value": "100 * ({scale.f0.max}-{scale.f0.min}) / ({viewport.max}-{viewport.min})",
-        "type": "fontSizes"
-      },
-      "r": {
-        "value": "( {viewport.min} * {scale.f0.max} - {viewport.max} * {scale.f0.min}) / ({viewport.min}-{viewport.max})",
-        "type": "fontSizes"
-      },
-      "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.f0.v} + {scale.f0.r})",
-        "type": "fontSizes",
-        "description": "The preferred value or ideal size for the property."
-      },
-      "clamp": {
-        "value": "min( max( {scale.f0.min},  {scale.f0.fluid}) ,{scale.f0.max})",
-        "type": "fontSizes"
-      },
-      "clamp-css": {
-        "value": "clamp(1.00rem, calc(-0.13vw + 1.03rem), 0.88rem)",
-        "type": "fontSizes",
-        "description": "Intended for development."
-      }
-    },
-    "f1": {
-      "min": {
-        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(1/{scale.const.min.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The minimum value the property can take."
-      },
-      "max": {
-        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(1/{scale.const.max.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The maximum value the property can take."
-      },
-      "v": {
-        "value": "100 * ({scale.f1.max}-{scale.f1.min}) / ({viewport.max}-{viewport.min})",
-        "type": "fontSizes"
-      },
-      "r": {
-        "value": "( {viewport.min} * {scale.f1.max} - {viewport.max} * {scale.f1.min}) / ({viewport.min}-{viewport.max})",
-        "type": "fontSizes"
-      },
-      "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.f1.v} + {scale.f1.r})",
-        "type": "fontSizes",
-        "description": "The preferred value or ideal size for the property."
-      },
-      "clamp": {
-        "value": "min( max( {scale.f1.min},  {scale.f1.fluid}) ,{scale.f1.max})",
-        "type": "fontSizes"
-      },
-      "clamp-css": {
-        "value": "clamp(1.06rem, calc(0.00vw + 1.06rem), 1.06rem)",
-        "type": "fontSizes",
-        "description": "Intended for development."
-      }
-    },
-    "f2": {
-      "min": {
-        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(2/{scale.const.min.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The minimum value the property can take."
-      },
-      "max": {
-        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(2/{scale.const.max.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The maximum value the property can take."
-      },
-      "v": {
-        "value": "100 * ({scale.f2.max}-{scale.f2.min}) / ({viewport.max}-{viewport.min})",
-        "type": "fontSizes"
-      },
-      "r": {
-        "value": "( {viewport.min} * {scale.f2.max} - {viewport.max} * {scale.f2.min}) / ({viewport.min}-{viewport.max})",
-        "type": "fontSizes"
-      },
-      "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.f2.v} + {scale.f2.r})",
-        "type": "fontSizes",
-        "description": "The preferred value or ideal size for the property."
-      },
-      "clamp": {
-        "value": "min( max( {scale.f2.min},  {scale.f2.fluid}) ,{scale.f2.max})",
-        "type": "fontSizes"
-      },
-      "clamp-css": {
-        "value": "clamp(1.19rem, calc(0.13vw + 1.16rem), 1.31rem)",
-        "type": "fontSizes",
-        "description": "Intended for development."
-      }
-    },
-    "f3": {
-      "min": {
-        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(3/{scale.const.min.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The minimum value the property can take."
-      },
-      "max": {
-        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(3/{scale.const.max.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The maximum value the property can take."
-      },
-      "v": {
-        "value": "100 * ({scale.f3.max}-{scale.f3.min}) / ({viewport.max}-{viewport.min})",
-        "type": "fontSizes"
-      },
-      "r": {
-        "value": "( {viewport.min} * {scale.f3.max} - {viewport.max} * {scale.f3.min}) / ({viewport.min}-{viewport.max})",
-        "type": "fontSizes"
-      },
-      "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.f3.v} + {scale.f3.r})",
-        "type": "fontSizes",
-        "description": "The preferred value or ideal size for the property."
-      },
-      "clamp": {
-        "value": "min( max( {scale.f3.min},  {scale.f3.fluid}) ,{scale.f3.max})",
-        "type": "fontSizes"
-      },
-      "clamp-css": {
-        "value": "clamp(1.25rem, calc(0.38vw + 1.16rem), 1.63rem)",
-        "type": "fontSizes",
-        "description": "Intended for development."
-      }
-    },
-    "f4": {
-      "min": {
-        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(4/{scale.const.min.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The minimum value the property can take."
-      },
-      "max": {
-        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(4/{scale.const.max.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The maximum value the property can take."
-      },
-      "v": {
-        "value": "100 * ({scale.f4.max}-{scale.f4.min}) / ({viewport.max}-{viewport.min})",
-        "type": "fontSizes"
-      },
-      "r": {
-        "value": "( {viewport.min} * {scale.f4.max} - {viewport.max} * {scale.f4.min}) / ({viewport.min}-{viewport.max})",
-        "type": "fontSizes"
-      },
-      "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.f4.v} + {scale.f4.r})",
-        "type": "fontSizes",
-        "description": "The preferred value or ideal size for the property."
-      },
-      "clamp": {
-        "value": "min( max( {scale.f4.min},  {scale.f4.fluid}) ,{scale.f4.max})",
-        "type": "fontSizes"
-      },
-      "clamp-css": {
-        "value": "clamp(1.38rem, calc(0.64vw + 1.23rem), 2.00rem)",
-        "type": "fontSizes",
-        "description": "Intended for development."
-      }
-    }
-  },
-  "font-size": {
-    "0": {
-      "value": "{scale.f0.clamp}",
-      "type": "fontSizes"
-    },
-    "1": {
-      "value": "{scale.f1.clamp}",
-      "type": "fontSizes"
-    },
-    "2": {
-      "value": "{scale.f2.clamp}",
-      "type": "fontSizes"
-    },
-    "3": {
-      "value": "{scale.f3.clamp}",
-      "type": "fontSizes"
-    },
-    "4": {
-      "value": "{scale.f4.clamp}",
-      "type": "fontSizes"
-    },
-    "-1": {
-      "value": "{scale.f-1.clamp}",
-      "type": "fontSizes"
-    }
   },
   "ref-contextual": {
     "regular": {
