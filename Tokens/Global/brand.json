@@ -482,7 +482,7 @@
       "callout": {
         "value": {
           "fontFamily": "{core-font-familiy-secondary}",
-          "fontSize": "{font-size.-1}",
+          "fontSize": "{font-size.xs}",
           "fontWeight": "{numeric-values-font-weight.normal}"
         },
         "type": "typography",
@@ -491,7 +491,7 @@
       "h2": {
         "value": {
           "fontFamily": "{core-font-familiy-primary}",
-          "fontSize": "{font-size.2}",
+          "fontSize": "{font-size.lg}",
           "fontWeight": "{numeric-values-font-weight.normal}"
         },
         "type": "typography",
@@ -501,7 +501,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-primary}",
           "fontWeight": "{numeric-values-font-weight.normal}",
-          "fontSize": "{font-size.0}"
+          "fontSize": "{font-size.s}"
         },
         "type": "typography",
         "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
@@ -510,7 +510,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-secondary}",
           "fontWeight": "{numeric-values-font-weight.normal}",
-          "fontSize": "{font-size.0}"
+          "fontSize": "{font-size.s}"
         },
         "type": "typography",
         "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
@@ -519,7 +519,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-secondary}",
           "fontWeight": "{numeric-values-font-weight.normal}",
-          "fontSize": "{font-size.0}",
+          "fontSize": "{font-size.s}",
           "textDecoration": "{underline}"
         },
         "type": "typography",
@@ -530,7 +530,7 @@
       "h1": {
         "value": {
           "fontFamily": "{core-font-familiy-primary}",
-          "fontSize": "{font-size.4}",
+          "fontSize": "{font-size.xxl}",
           "fontWeight": "{numeric-values-font-weight.medium}"
         },
         "type": "typography",
@@ -540,7 +540,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-primary}",
           "lineHeight": "",
-          "fontSize": "{font-size.1}",
+          "fontSize": "{font-size.md}",
           "fontWeight": "{numeric-values-font-weight.medium}"
         },
         "type": "typography",
@@ -550,7 +550,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-primary}",
           "fontWeight": "{numeric-values-font-weight.medium}",
-          "fontSize": "{font-size.0}"
+          "fontSize": "{font-size.s}"
         },
         "type": "typography",
         "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
@@ -559,7 +559,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-secondary}",
           "fontWeight": "{numeric-values-font-weight.semi-bold}",
-          "fontSize": "{font-size.0}"
+          "fontSize": "{font-size.s}"
         },
         "type": "typography",
         "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
@@ -570,7 +570,7 @@
         "value": {
           "fontFamily": "{core-font-familiy-secondary}",
           "fontWeight": "{numeric-values-font-weight.bold}",
-          "fontSize": "{font-size.0}"
+          "fontSize": "{font-size.s}"
         },
         "type": "typography",
         "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
@@ -582,7 +582,7 @@
       "td--1": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.-1}",
+          "fontSize": "{font-size.xs}",
           "fontWeight": "{numeric-values-font-weight.normal}"
         },
         "type": "typography",
@@ -591,7 +591,7 @@
       "td-0": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.0}",
+          "fontSize": "{font-size.s}",
           "fontWeight": "{numeric-values-font-weight.normal}"
         },
         "type": "typography",
@@ -600,7 +600,7 @@
       "td-1": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.1}",
+          "fontSize": "{font-size.md}",
           "fontWeight": "{numeric-values-font-weight.normal}"
         },
         "type": "typography",
@@ -609,7 +609,7 @@
       "td-2": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.2}",
+          "fontSize": "{font-size.lg}",
           "fontWeight": "{numeric-values-font-weight.normal}"
         },
         "type": "typography",
@@ -618,7 +618,7 @@
       "td-3": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.3}",
+          "fontSize": "{font-size.xl}",
           "fontWeight": "{numeric-values-font-weight.normal}"
         },
         "type": "typography",
@@ -627,7 +627,7 @@
       "td-4": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.4}",
+          "fontSize": "{font-size.xxl}",
           "fontWeight": "{numeric-values-font-weight.normal}"
         },
         "type": "typography",
@@ -638,7 +638,7 @@
       "td--1": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.-1}",
+          "fontSize": "{font-size.xs}",
           "fontWeight": "{numeric-values-font-weight.medium}"
         },
         "type": "typography",
@@ -647,7 +647,7 @@
       "td-0": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.0}",
+          "fontSize": "{font-size.s}",
           "fontWeight": "{numeric-values-font-weight.medium}"
         },
         "type": "typography",
@@ -656,7 +656,7 @@
       "td-1": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.1}",
+          "fontSize": "{font-size.md}",
           "fontWeight": "{numeric-values-font-weight.medium}"
         },
         "type": "typography",
@@ -665,7 +665,7 @@
       "td-2": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.2}",
+          "fontSize": "{font-size.lg}",
           "fontWeight": "{numeric-values-font-weight.medium}"
         },
         "type": "typography",
@@ -674,7 +674,7 @@
       "td-3": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.3}",
+          "fontSize": "{font-size.xl}",
           "fontWeight": "{numeric-values-font-weight.medium}"
         },
         "type": "typography",
@@ -683,7 +683,7 @@
       "td-4": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.4}",
+          "fontSize": "{font-size.xxl}",
           "fontWeight": "{numeric-values-font-weight.medium}"
         },
         "type": "typography",
@@ -694,7 +694,7 @@
       "td--1": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.-1}",
+          "fontSize": "{font-size.xs}",
           "fontWeight": "{numeric-values-font-weight.semi-bold}"
         },
         "type": "typography",
@@ -703,7 +703,7 @@
       "td-0": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.0}",
+          "fontSize": "{font-size.s}",
           "fontWeight": "{numeric-values-font-weight.semi-bold}"
         },
         "type": "typography",
@@ -712,7 +712,7 @@
       "td-1": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.1}",
+          "fontSize": "{font-size.md}",
           "fontWeight": "{numeric-values-font-weight.semi-bold}"
         },
         "type": "typography",
@@ -721,7 +721,7 @@
       "td-2": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.2}",
+          "fontSize": "{font-size.lg}",
           "fontWeight": "{numeric-values-font-weight.semi-bold}"
         },
         "type": "typography",
@@ -730,7 +730,7 @@
       "td-3": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.3}",
+          "fontSize": "{font-size.xl}",
           "fontWeight": "{numeric-values-font-weight.semi-bold}"
         },
         "type": "typography",
@@ -739,7 +739,7 @@
       "td-4": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.4}",
+          "fontSize": "{font-size.xxl}",
           "fontWeight": "{numeric-values-font-weight.semi-bold}"
         },
         "type": "typography",
