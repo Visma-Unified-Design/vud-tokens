@@ -607,144 +607,144 @@
     "description": "Unique base for sizing, spacing"
   },
   "border": {
-    "border-0": {
+    "0": {
       "value": "0",
       "type": "borderWidth"
     },
-    "border-1": {
+    "1": {
       "value": "1px",
       "type": "borderWidth"
     },
-    "border-2": {
+    "2": {
       "value": "2px",
       "type": "borderWidth"
     },
-    "border-4": {
+    "4": {
       "value": "4px",
       "type": "borderWidth"
     },
-    "border-8": {
+    "8": {
       "value": "8px",
       "type": "borderWidth"
     },
-    "border-1,5": {
+    "1,5": {
       "value": "1.5px",
       "type": "borderWidth"
     }
   },
   "sizing": {
-    "size-2": {
+    "2": {
       "value": "{base}",
       "type": "sizing"
     },
-    "size-4": {
-      "value": "{sizing.size-2}*2",
+    "4": {
+      "value": "{sizing.2}*2",
       "type": "sizing"
     },
-    "size-8": {
-      "value": "{sizing.size-2}*4",
+    "8": {
+      "value": "{sizing.2}*4",
       "type": "sizing"
     },
-    "size-12": {
-      "value": "{sizing.size-2}*6",
+    "12": {
+      "value": "{sizing.2}*6",
       "type": "sizing"
     },
-    "size-16": {
-      "value": "{sizing.size-2}*8",
+    "16": {
+      "value": "{sizing.2}*8",
       "type": "sizing"
     },
-    "size-24": {
-      "value": "{sizing.size-2}*12",
+    "24": {
+      "value": "{sizing.2}*12",
       "type": "sizing"
     },
-    "size-32": {
-      "value": "{sizing.size-2}*16",
+    "32": {
+      "value": "{sizing.2}*16",
       "type": "sizing"
     },
-    "size-40": {
-      "value": "{sizing.size-2}*20",
+    "40": {
+      "value": "{sizing.2}*20",
       "type": "sizing"
     },
-    "size-48": {
-      "value": "{sizing.size-2}*24",
+    "48": {
+      "value": "{sizing.2}*24",
       "type": "sizing"
     },
-    "size-56": {
-      "value": "{sizing.size-2}*28",
+    "56": {
+      "value": "{sizing.2}*28",
       "type": "sizing"
     },
-    "size-64": {
-      "value": "{sizing.size-2}*32",
+    "64": {
+      "value": "{sizing.2}*32",
       "type": "sizing"
     },
-    "size-96": {
-      "value": "{sizing.size-2}*48",
+    "96": {
+      "value": "{sizing.2}*48",
       "type": "sizing"
     },
-    "size-128": {
-      "value": "{sizing.size-2}*64",
+    "128": {
+      "value": "{sizing.2}*64",
       "type": "sizing"
     },
-    "size-256": {
-      "value": "{sizing.size-2}*128",
+    "256": {
+      "value": "{sizing.2}*128",
       "type": "sizing"
     }
   },
   "spacing": {
-    "space-2": {
+    "2": {
       "value": "{base}",
       "type": "spacing"
     },
-    "space-4": {
-      "value": "{spacing.space-2}*2",
+    "4": {
+      "value": "{spacing.2}*2",
       "type": "spacing"
     },
-    "space-8": {
-      "value": "{spacing.space-2}*4",
+    "8": {
+      "value": "{spacing.2}*4",
       "type": "spacing"
     },
-    "space-12": {
-      "value": "{spacing.space-2}*6",
+    "12": {
+      "value": "{spacing.2}*6",
       "type": "spacing"
     },
-    "space-16": {
-      "value": "{spacing.space-2}*8",
+    "16": {
+      "value": "{spacing.2}*8",
       "type": "spacing"
     },
-    "space-24": {
-      "value": "{spacing.space-2}*12",
+    "24": {
+      "value": "{spacing.2}*12",
       "type": "spacing"
     },
-    "space-32": {
-      "value": "{spacing.space-2}*16",
+    "32": {
+      "value": "{spacing.2}*16",
       "type": "spacing"
     },
-    "space-40": {
-      "value": "{spacing.space-2}*20",
+    "40": {
+      "value": "{spacing.2}*20",
       "type": "spacing"
     },
-    "space-48": {
-      "value": "{spacing.space-2}*24",
+    "48": {
+      "value": "{spacing.2}*24",
       "type": "spacing"
     },
-    "space-56": {
-      "value": "{spacing.space-2}*28",
+    "56": {
+      "value": "{spacing.2}*28",
       "type": "spacing"
     },
-    "space-64": {
-      "value": "{spacing.space-2}*32",
+    "64": {
+      "value": "{spacing.2}*32",
       "type": "spacing"
     },
-    "space-96": {
-      "value": "{spacing.space-2}*48",
+    "96": {
+      "value": "{spacing.2}*48",
       "type": "spacing"
     },
-    "space-128": {
-      "value": "{spacing.space-2}*64",
+    "128": {
+      "value": "{spacing.2}*64",
       "type": "spacing"
     },
-    "space-256": {
-      "value": "{spacing.space-2}*128",
+    "256": {
+      "value": "{spacing.2}*128",
       "type": "spacing"
     }
   },
@@ -753,47 +753,47 @@
       "value": "0",
       "type": "opacity"
     },
+    "4": {
+      "value": "4%",
+      "type": "opacity"
+    },
     "8": {
       "value": "8%",
       "type": "opacity"
     },
-    "opaque-4": {
-      "value": "4%",
-      "type": "opacity"
-    },
-    "opaque-12": {
+    "12": {
       "value": "12%",
       "type": "opacity"
     },
-    "opaque-16": {
+    "16": {
       "value": "16%",
       "type": "opacity"
     },
-    "opaque-24": {
+    "24": {
       "value": "24%",
       "type": "opacity"
     },
-    "opaque-32": {
+    "32": {
       "value": "32%",
       "type": "opacity"
     },
-    "opaque-40": {
+    "40": {
       "value": "40%",
       "type": "opacity"
     },
-    "opaque-48": {
+    "48": {
       "value": "48%",
       "type": "opacity"
     },
-    "opaque-56": {
+    "56": {
       "value": "56%",
       "type": "opacity"
     },
-    "opaque-64": {
+    "64": {
       "value": "64%",
       "type": "opacity"
     },
-    "opaque-100": {
+    "100": {
       "value": "100%",
       "type": "opacity"
     }
@@ -1139,7 +1139,7 @@
       "description": "CSS syntax: font-weight-absolute> numeric values [1,1000]"
     }
   },
-  "brand": {
+  "vud-brand": {
     "primary-05": {
       "value": "{vud.green-05}",
       "type": "color"
@@ -1181,7 +1181,7 @@
       "type": "color"
     },
     "primary-gradient": {
-      "value": "{brand.primary-70}",
+      "value": "{vud-brand.primary-70}",
       "type": "color"
     },
     "secondary-05": {
@@ -1225,7 +1225,7 @@
       "type": "color"
     },
     "secondary-gradient": {
-      "value": "{brand.secondary-70}",
+      "value": "{vud-brand.secondary-70}",
       "type": "color"
     },
     "tertiary-05": {
@@ -1313,7 +1313,7 @@
       "type": "color"
     },
     "neutral-light-gradient": {
-      "value": "{brand.neutral-light-90}",
+      "value": "{vud-brand.neutral-light-90}",
       "type": "color"
     },
     "neutral-dark-05": {
@@ -1357,7 +1357,7 @@
       "type": "color"
     },
     "neutral-dark-gradient": {
-      "value": "{brand.neutral-dark-70}",
+      "value": "{vud-brand.neutral-dark-70}",
       "type": "color"
     }
   }

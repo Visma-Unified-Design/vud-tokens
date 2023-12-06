@@ -9,31 +9,31 @@
       "type": "borderRadius"
     },
     "xs": {
-      "value": "{vud-radii.xs}",
+      "value": "{radii.xs}",
       "type": "borderRadius"
     },
     "s": {
-      "value": "{vud-radii.s}",
+      "value": "{radii.s}",
       "type": "borderRadius"
     },
     "md": {
-      "value": "{vud-radii.md}",
+      "value": "{radii.md}",
       "type": "borderRadius"
     },
     "lg": {
-      "value": "{vud-radii.lg}",
+      "value": "{radii.lg}",
       "type": "borderRadius"
     },
     "xl": {
-      "value": "{vud-radii.xl}",
+      "value": "{radii.xl}",
       "type": "borderRadius"
     },
     "xxl": {
-      "value": "{vud-radii.xxl}",
+      "value": "{radii.xxl}",
       "type": "borderRadius"
     },
     "xxxl": {
-      "value": "{vud-radii.xxxl}",
+      "value": "{radii.xxxl}",
       "type": "borderRadius"
     }
   }

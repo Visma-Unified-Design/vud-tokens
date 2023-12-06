@@ -21,7 +21,6 @@
     "Viewport/mobile",
     "Extends/density",
     "Extends/dimension",
-    "Extends/pictogram",
-    "Extends/radius"
+    "Extends/pictogram"
   ]
 }

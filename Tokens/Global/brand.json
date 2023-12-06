@@ -9,27 +9,27 @@
       "type": "borderRadius"
     },
     "xs": {
-      "value": "{base}*2",
+      "value": "{vud-radii.xs}*2",
       "type": "borderRadius"
     },
     "s": {
-      "value": "{base}*4",
+      "value": "{vud-radii.xxs}*4",
       "type": "borderRadius"
     },
     "md": {
-      "value": "{base}*6",
+      "value": "{vud-radii.md}*6",
       "type": "borderRadius"
     },
     "lg": {
-      "value": "{base}*8",
+      "value": "{vud-radii.lg}*8",
       "type": "borderRadius"
     },
     "xl": {
-      "value": "{base}*12",
+      "value": "{vud-radii.xl}*12",
       "type": "borderRadius"
     },
     "xxl": {
-      "value": "{base}*16",
+      "value": "{vud-radii.xxl}*16",
       "type": "borderRadius"
     },
     "xxxl": {
@@ -79,7 +79,7 @@
       "type": "color"
     },
     "primary-gradient": {
-      "value": "{brand.primary-70}",
+      "value": "{vud-brand.primary-70}",
       "type": "color"
     },
     "secondary-05": {
@@ -123,7 +123,7 @@
       "type": "color"
     },
     "secondary-gradient": {
-      "value": "{brand.secondary-70}",
+      "value": "{vud-brand.secondary-70}",
       "type": "color"
     },
     "tertiary-05": {
@@ -211,7 +211,7 @@
       "type": "color"
     },
     "neutral-light-gradient": {
-      "value": "{brand.neutral-light-90}",
+      "value": "{vud-brand.neutral-light-90}",
       "type": "color"
     },
     "neutral-dark-05": {
@@ -255,7 +255,7 @@
       "type": "color"
     },
     "neutral-dark-gradient": {
-      "value": "{brand.neutral-dark-70}",
+      "value": "{vud-brand.neutral-dark-70}",
       "type": "color"
     }
   },

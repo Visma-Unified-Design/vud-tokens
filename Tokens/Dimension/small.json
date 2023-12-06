@@ -1,7 +1,7 @@
 {
   "dimension": {
     "size": {
-      "value": "{sizing.size-32}",
+      "value": "{sizing.32}",
       "type": "sizing"
     }
   }
