@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 06 Dec 2023 10:06:50 GMT
+ * Generated on Wed, 06 Dec 2023 19:13:28 GMT
  */
 
 :host html[data-theme='dark'], :host html.dark-theme, :root html[data-theme='dark'], :root html.dark-theme {
@@ -13,12 +13,12 @@
   --viewport-max: 192rem;
   --viewport-min: 32rem;
   --viewport-width: 144rem;
-  --scale-f4-clamp-css: clamp(1.38rem, calc(0.64vw + 1.23rem), 2.00rem); /* Intended for development. */
-  --scale-f3-clamp-css: clamp(1.25rem, calc(0.38vw + 1.16rem), 1.63rem); /* Intended for development. */
-  --scale-f2-clamp-css: clamp(1.19rem, calc(0.13vw + 1.16rem), 1.31rem); /* Intended for development. */
-  --scale-f1-clamp-css: clamp(1.06rem, calc(0.00vw + 1.06rem), 1.06rem); /* Intended for development. */
-  --scale-f0-clamp-css: clamp(1.00rem, calc(-0.13vw + 1.03rem), 0.88rem); /* Intended for development. */
-  --scale-f-1-clamp-css: clamp(0.94rem, calc(-0.26vw + 1.00rem), 0.69rem); /* Intended for development. */
+  --scale-xxl-clamp-css: clamp(1.38rem, calc(0.64vw + 1.23rem), 2.00rem); /* Intended for development. */
+  --scale-xl-clamp-css: clamp(1.25rem, calc(0.38vw + 1.16rem), 1.63rem); /* Intended for development. */
+  --scale-lg-clamp-css: clamp(1.19rem, calc(0.13vw + 1.16rem), 1.31rem); /* Intended for development. */
+  --scale-md-clamp-css: clamp(1.06rem, calc(0.00vw + 1.06rem), 1.06rem); /* Intended for development. */
+  --scale-s-clamp-css: clamp(1.00rem, calc(-0.13vw + 1.03rem), 0.88rem); /* Intended for development. */
+  --scale-xs-clamp-css: clamp(0.94rem, calc(-0.26vw + 1.00rem), 0.69rem); /* Intended for development. */
   --scale-const-max-n: 0.5rem;
   --scale-const-max-r: 0.27999999999999997rem;
   --scale-const-max-f0: 1.4rem; /* This base font-size is expressed in pixels (px) for max. viewport.   A base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%). */
@@ -134,34 +134,34 @@
   --ref-properties-shade-moderate: rgba( var(--vud-neutral-dark-90),var(--opacity-12));
   --ref-properties-shade-weak: rgba( var(--vud-neutral-dark-90),var(--opacity-8));
   --ref-properties-fill-on-mark-default: var(--vud-orange-10); /* Suitable for highlighting text. */
-  --ref-tabular-semibold-td-4: var(--numeric-values-font-weight-semi-bold) var(--font-size-4)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-semibold-td-3: var(--numeric-values-font-weight-semi-bold) var(--font-size-3)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-semibold-td-2: var(--numeric-values-font-weight-semi-bold) var(--font-size-2)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-semibold-td-1: var(--numeric-values-font-weight-semi-bold) var(--font-size-1)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-semibold-td-0: var(--numeric-values-font-weight-semi-bold) var(--font-size-0)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-semibold-td-1: var(--numeric-values-font-weight-semi-bold) var(--font-size-1)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-medium-td-4: var(--numeric-values-font-weight-medium) var(--font-size-4)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-medium-td-3: var(--numeric-values-font-weight-medium) var(--font-size-3)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-medium-td-2: var(--numeric-values-font-weight-medium) var(--font-size-2)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-medium-td-1: var(--numeric-values-font-weight-medium) var(--font-size-1)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-medium-td-0: var(--numeric-values-font-weight-medium) var(--font-size-0)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-medium-td-1: var(--numeric-values-font-weight-medium) var(--font-size-1)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-regular-td-4: var(--numeric-values-font-weight-normal) var(--font-size-4)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-regular-td-3: var(--numeric-values-font-weight-normal) var(--font-size-3)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-regular-td-2: var(--numeric-values-font-weight-normal) var(--font-size-2)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-regular-td-1: var(--numeric-values-font-weight-normal) var(--font-size-1)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-regular-td-0: var(--numeric-values-font-weight-normal) var(--font-size-0)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-tabular-regular-td-1: var(--numeric-values-font-weight-normal) var(--font-size-1)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
-  --ref-contextual-bold-body: var(--numeric-values-font-weight-bold) var(--font-size-0)/1 var(--core-font-familiy-secondary); /* Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied. */
-  --ref-contextual-medium-body: var(--numeric-values-font-weight-semi-bold) var(--font-size-0)/1 var(--core-font-familiy-secondary); /* Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied. */
-  --ref-contextual-medium-h4: var(--numeric-values-font-weight-medium) var(--font-size-0)/1 var(--core-font-familiy-primary); /* Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied. */
-  --ref-contextual-medium-h3: var(--numeric-values-font-weight-medium) var(--font-size-1)/1 var(--core-font-familiy-primary); /* Suitable for product-based UI designs such as panels, cards, and menus. The h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.  Type scaling applied. */
-  --ref-contextual-medium-h1: var(--numeric-values-font-weight-medium) var(--font-size-4)/1 var(--core-font-familiy-primary); /* Suitable for product-based UI designs such as panels, cards, and menus. The h1 tag is commonly used to display the main title on a webpage. Type scaling applied. */
-  --ref-contextual-regular-link: var(--numeric-values-font-weight-normal) var(--font-size-0)/1 var(--core-font-familiy-secondary); /* Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph. */
-  --ref-contextual-regular-body: var(--numeric-values-font-weight-normal) var(--font-size-0)/1 var(--core-font-familiy-secondary); /* Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied. */
-  --ref-contextual-regular-h4: var(--numeric-values-font-weight-normal) var(--font-size-0)/1 var(--core-font-familiy-primary); /* Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied. */
-  --ref-contextual-regular-h2: var(--numeric-values-font-weight-normal) var(--font-size-2)/1 var(--core-font-familiy-primary); /* Suitable for product-based UI designs such as panels, cards, and menus.  The h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section. Type scaling applied. */
-  --ref-contextual-regular-callout: var(--numeric-values-font-weight-normal) var(--font-size-1)/1 var(--core-font-familiy-secondary); /* Suitable for highlighting important details or provide additional context.   Type scaling applied. */
+  --ref-tabular-semibold-td-4: var(--numeric-values-font-weight-semi-bold) var(--font-size-xxl)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-semibold-td-3: var(--numeric-values-font-weight-semi-bold) var(--font-size-xl)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-semibold-td-2: var(--numeric-values-font-weight-semi-bold) var(--font-size-lg)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-semibold-td-1: var(--numeric-values-font-weight-semi-bold) var(--font-size-md)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-semibold-td-0: var(--numeric-values-font-weight-semi-bold) var(--font-size-s)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-semibold-td-1: var(--numeric-values-font-weight-semi-bold) var(--font-size-xs)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-medium-td-4: var(--numeric-values-font-weight-medium) var(--font-size-xxl)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-medium-td-3: var(--numeric-values-font-weight-medium) var(--font-size-xl)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-medium-td-2: var(--numeric-values-font-weight-medium) var(--font-size-lg)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-medium-td-1: var(--numeric-values-font-weight-medium) var(--font-size-md)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-medium-td-0: var(--numeric-values-font-weight-medium) var(--font-size-s)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-medium-td-1: var(--numeric-values-font-weight-medium) var(--font-size-xs)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-regular-td-4: var(--numeric-values-font-weight-normal) var(--font-size-xxl)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-regular-td-3: var(--numeric-values-font-weight-normal) var(--font-size-xl)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-regular-td-2: var(--numeric-values-font-weight-normal) var(--font-size-lg)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-regular-td-1: var(--numeric-values-font-weight-normal) var(--font-size-md)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-regular-td-0: var(--numeric-values-font-weight-normal) var(--font-size-s)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-tabular-regular-td-1: var(--numeric-values-font-weight-normal) var(--font-size-xs)/1 var(--core-font-familiy-tertiary); /* Suitable for tabular data.  Type scaling applied. */
+  --ref-contextual-bold-body: var(--numeric-values-font-weight-bold) var(--font-size-s)/1 var(--core-font-familiy-secondary); /* Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied. */
+  --ref-contextual-medium-body: var(--numeric-values-font-weight-semi-bold) var(--font-size-s)/1 var(--core-font-familiy-secondary); /* Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied. */
+  --ref-contextual-medium-h4: var(--numeric-values-font-weight-medium) var(--font-size-s)/1 var(--core-font-familiy-primary); /* Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied. */
+  --ref-contextual-medium-h3: var(--numeric-values-font-weight-medium) var(--font-size-md)/1 var(--core-font-familiy-primary); /* Suitable for product-based UI designs such as panels, cards, and menus. The h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.  Type scaling applied. */
+  --ref-contextual-medium-h1: var(--numeric-values-font-weight-medium) var(--font-size-xxl)/1 var(--core-font-familiy-primary); /* Suitable for product-based UI designs such as panels, cards, and menus. The h1 tag is commonly used to display the main title on a webpage. Type scaling applied. */
+  --ref-contextual-regular-link: var(--numeric-values-font-weight-normal) var(--font-size-s)/1 var(--core-font-familiy-secondary); /* Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph. */
+  --ref-contextual-regular-body: var(--numeric-values-font-weight-normal) var(--font-size-s)/1 var(--core-font-familiy-secondary); /* Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied. */
+  --ref-contextual-regular-h4: var(--numeric-values-font-weight-normal) var(--font-size-s)/1 var(--core-font-familiy-primary); /* Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied. */
+  --ref-contextual-regular-h2: var(--numeric-values-font-weight-normal) var(--font-size-lg)/1 var(--core-font-familiy-primary); /* Suitable for product-based UI designs such as panels, cards, and menus.  The h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section. Type scaling applied. */
+  --ref-contextual-regular-callout: var(--numeric-values-font-weight-normal) var(--font-size-xs)/1 var(--core-font-familiy-secondary); /* Suitable for highlighting important details or provide additional context.   Type scaling applied. */
   --core-font-style-body-secondary-s-bold: var(--numeric-values-font-weight-bold) 13px/Auto var(--core-font-familiy-secondary); /* Body text establishes the fundamental font size used throughout an application.  */
   --core-font-style-body-secondary-s-semibold: var(--numeric-values-font-weight-medium) 13px/Auto var(--core-font-familiy-secondary); /* Body text establishes the fundamental font size used throughout an application.  */
   --core-font-style-body-secondary-s-regular: var(--numeric-values-font-weight-normal) 13px/Auto var(--core-font-familiy-secondary); /* Body text establishes the fundamental font size used throughout an application.  */
@@ -286,30 +286,30 @@
   --vud-brand-primary-20: var(--vud-green-20);
   --vud-brand-primary-10: var(--vud-green-10);
   --vud-brand-primary-05: var(--vud-green-05);
-  --scale-f4-fluid: round((var(--viewport-width)/100) * var(--scale-f4-v) + var(--scale-f4-r)); /* The preferred value or ideal size for the property. */
-  --scale-f4-r: ( var(--viewport-min) * var(--scale-f4-max) - var(--viewport-max) * var(--scale-f4-min)) / (var(--viewport-min)-var(--viewport-max));
-  --scale-f4-max: 5*roundTo((var(--scale-const-max-f0)*var(--scale-const-max-r)^(4/var(--scale-const-max-n))/5),1); /* The maximum value the property can take. */
-  --scale-f4-min: 5*roundTo((var(--scale-const-min-f0)*var(--scale-const-min-r)^(4/var(--scale-const-min-n))/5),1); /* The minimum value the property can take. */
-  --scale-f3-fluid: round((var(--viewport-width)/100) * var(--scale-f3-v) + var(--scale-f3-r)); /* The preferred value or ideal size for the property. */
-  --scale-f3-r: ( var(--viewport-min) * var(--scale-f3-max) - var(--viewport-max) * var(--scale-f3-min)) / (var(--viewport-min)-var(--viewport-max));
-  --scale-f3-max: 5*roundTo((var(--scale-const-max-f0)*var(--scale-const-max-r)^(3/var(--scale-const-max-n))/5),1); /* The maximum value the property can take. */
-  --scale-f3-min: 5*roundTo((var(--scale-const-min-f0)*var(--scale-const-min-r)^(3/var(--scale-const-min-n))/5),1); /* The minimum value the property can take. */
-  --scale-f2-fluid: round((var(--viewport-width)/100) * var(--scale-f2-v) + var(--scale-f2-r)); /* The preferred value or ideal size for the property. */
-  --scale-f2-r: ( var(--viewport-min) * var(--scale-f2-max) - var(--viewport-max) * var(--scale-f2-min)) / (var(--viewport-min)-var(--viewport-max));
-  --scale-f2-max: 5*roundTo((var(--scale-const-max-f0)*var(--scale-const-max-r)^(2/var(--scale-const-max-n))/5),1); /* The maximum value the property can take. */
-  --scale-f2-min: 5*roundTo((var(--scale-const-min-f0)*var(--scale-const-min-r)^(2/var(--scale-const-min-n))/5),1); /* The minimum value the property can take. */
-  --scale-f1-fluid: round((var(--viewport-width)/100) * var(--scale-f1-v) + var(--scale-f1-r)); /* The preferred value or ideal size for the property. */
-  --scale-f1-r: ( var(--viewport-min) * var(--scale-f1-max) - var(--viewport-max) * var(--scale-f1-min)) / (var(--viewport-min)-var(--viewport-max));
-  --scale-f1-max: 5*roundTo((var(--scale-const-max-f0)*var(--scale-const-max-r)^(1/var(--scale-const-max-n))/5),1); /* The maximum value the property can take. */
-  --scale-f1-min: 5*roundTo((var(--scale-const-min-f0)*var(--scale-const-min-r)^(1/var(--scale-const-min-n))/5),1); /* The minimum value the property can take. */
-  --scale-f0-fluid: round((var(--viewport-width)/100) * var(--scale-f0-v) + var(--scale-f0-r)); /* The preferred value or ideal size for the property. */
-  --scale-f0-r: ( var(--viewport-min) * var(--scale-f0-max) - var(--viewport-max) * var(--scale-f0-min)) / (var(--viewport-min)-var(--viewport-max));
-  --scale-f0-max: 5*roundTo((var(--scale-const-max-f0)*var(--scale-const-max-r)^(0/var(--scale-const-max-n))/5),1); /* The maximum value the property can take. */
-  --scale-f0-min: 5*roundTo((var(--scale-const-min-f0)*var(--scale-const-min-r)^(0/var(--scale-const-min-n))/5),1); /* The minimum value the property can take. */
-  --scale-f-1-fluid: round((var(--viewport-width)/100) * var(--scale-f-1-v) + var(--scale-f-1-r)); /* The preferred value or ideal size for the property. */
-  --scale-f-1-r: ( var(--viewport-min) * var(--scale-f-1-max) - var(--viewport-max) * var(--scale-f-1-min)) / (var(--viewport-min)-var(--viewport-max));
-  --scale-f-1-max: 5*roundTo((var(--scale-const-max-f0)*var(--scale-const-max-r)^(-1/var(--scale-const-max-n))/5),1); /* The maximum value the property can take. */
-  --scale-f-1-min: 5*roundTo((var(--scale-const-min-f0)*var(--scale-const-min-r)^(-1/var(--scale-const-min-n))/5),1); /* The minimum value the property can take. */
+  --scale-xxl-fluid: round((var(--viewport-width)/100) * var(--scale-xxl-v) + var(--scale-xxl-r)); /* The preferred value or ideal size for the property. */
+  --scale-xxl-r: ( var(--viewport-min) * var(--scale-xxl-max) - var(--viewport-max) * var(--scale-xxl-min)) / (var(--viewport-min)-var(--viewport-max));
+  --scale-xxl-max: 5*roundTo((var(--scale-const-max-f0)*var(--scale-const-max-r)^(4/var(--scale-const-max-n))/5),1); /* The maximum value the property can take. */
+  --scale-xxl-min: 5*roundTo((var(--scale-const-min-f0)*var(--scale-const-min-r)^(4/var(--scale-const-min-n))/5),1); /* The minimum value the property can take. */
+  --scale-xl-fluid: round((var(--viewport-width)/100) * var(--scale-xl-v) + var(--scale-xl-r)); /* The preferred value or ideal size for the property. */
+  --scale-xl-r: ( var(--viewport-min) * var(--scale-xl-max) - var(--viewport-max) * var(--scale-xl-min)) / (var(--viewport-min)-var(--viewport-max));
+  --scale-xl-max: 5*roundTo((var(--scale-const-max-f0)*var(--scale-const-max-r)^(3/var(--scale-const-max-n))/5),1); /* The maximum value the property can take. */
+  --scale-xl-min: 5*roundTo((var(--scale-const-min-f0)*var(--scale-const-min-r)^(3/var(--scale-const-min-n))/5),1); /* The minimum value the property can take. */
+  --scale-lg-fluid: round((var(--viewport-width)/100) * var(--scale-lg-v) + var(--scale-lg-r)); /* The preferred value or ideal size for the property. */
+  --scale-lg-r: ( var(--viewport-min) * var(--scale-lg-max) - var(--viewport-max) * var(--scale-lg-min)) / (var(--viewport-min)-var(--viewport-max));
+  --scale-lg-max: 5*roundTo((var(--scale-const-max-f0)*var(--scale-const-max-r)^(2/var(--scale-const-max-n))/5),1); /* The maximum value the property can take. */
+  --scale-lg-min: 5*roundTo((var(--scale-const-min-f0)*var(--scale-const-min-r)^(2/var(--scale-const-min-n))/5),1); /* The minimum value the property can take. */
+  --scale-md-fluid: round((var(--viewport-width)/100) * var(--scale-md-v) + var(--scale-md-r)); /* The preferred value or ideal size for the property. */
+  --scale-md-r: ( var(--viewport-min) * var(--scale-md-max) - var(--viewport-max) * var(--scale-md-min)) / (var(--viewport-min)-var(--viewport-max));
+  --scale-md-max: 5*roundTo((var(--scale-const-max-f0)*var(--scale-const-max-r)^(1/var(--scale-const-max-n))/5),1); /* The maximum value the property can take. */
+  --scale-md-min: 5*roundTo((var(--scale-const-min-f0)*var(--scale-const-min-r)^(1/var(--scale-const-min-n))/5),1); /* The minimum value the property can take. */
+  --scale-s-fluid: round((var(--viewport-width)/100) * var(--scale-s-v) + var(--scale-s-r)); /* The preferred value or ideal size for the property. */
+  --scale-s-r: ( var(--viewport-min) * var(--scale-s-max) - var(--viewport-max) * var(--scale-s-min)) / (var(--viewport-min)-var(--viewport-max));
+  --scale-s-max: 5*roundTo((var(--scale-const-max-f0)*var(--scale-const-max-r)^(0/var(--scale-const-max-n))/5),1); /* The maximum value the property can take. */
+  --scale-s-min: 5*roundTo((var(--scale-const-min-f0)*var(--scale-const-min-r)^(0/var(--scale-const-min-n))/5),1); /* The minimum value the property can take. */
+  --scale-xs-fluid: round((var(--viewport-width)/100) * var(--scale-xs-v) + var(--scale-xs-r)); /* The preferred value or ideal size for the property. */
+  --scale-xs-r: ( var(--viewport-min) * var(--scale-xs-max) - var(--viewport-max) * var(--scale-xs-min)) / (var(--viewport-min)-var(--viewport-max));
+  --scale-xs-max: 5*roundTo((var(--scale-const-max-f0)*var(--scale-const-max-r)^(-1/var(--scale-const-max-n))/5),1); /* The maximum value the property can take. */
+  --scale-xs-min: 5*roundTo((var(--scale-const-min-f0)*var(--scale-const-min-r)^(-1/var(--scale-const-min-n))/5),1); /* The minimum value the property can take. */
   --spacing-2: var(--base);
   --sizing-2: var(--base);
   --vud-funct-default-dark-90: var(--vud-neutral-dark-90);
@@ -655,18 +655,18 @@
   --vud-brand-neutral-light-gradient: var(--vud-brand-neutral-light-90);
   --vud-brand-secondary-gradient: var(--vud-brand-secondary-70);
   --vud-brand-primary-gradient: var(--vud-brand-primary-70);
-  --scale-f4-clamp: min( max( var(--scale-f4-min),  var(--scale-f4-fluid)) ,var(--scale-f4-max));
-  --scale-f4-v: 100 * (var(--scale-f4-max)-var(--scale-f4-min)) / (var(--viewport-max)-var(--viewport-min));
-  --scale-f3-clamp: min( max( var(--scale-f3-min),  var(--scale-f3-fluid)) ,var(--scale-f3-max));
-  --scale-f3-v: 100 * (var(--scale-f3-max)-var(--scale-f3-min)) / (var(--viewport-max)-var(--viewport-min));
-  --scale-f2-clamp: min( max( var(--scale-f2-min),  var(--scale-f2-fluid)) ,var(--scale-f2-max));
-  --scale-f2-v: 100 * (var(--scale-f2-max)-var(--scale-f2-min)) / (var(--viewport-max)-var(--viewport-min));
-  --scale-f1-clamp: min( max( var(--scale-f1-min),  var(--scale-f1-fluid)) ,var(--scale-f1-max));
-  --scale-f1-v: 100 * (var(--scale-f1-max)-var(--scale-f1-min)) / (var(--viewport-max)-var(--viewport-min));
-  --scale-f0-clamp: min( max( var(--scale-f0-min),  var(--scale-f0-fluid)) ,var(--scale-f0-max));
-  --scale-f0-v: 100 * (var(--scale-f0-max)-var(--scale-f0-min)) / (var(--viewport-max)-var(--viewport-min));
-  --scale-f-1-clamp: min( max( var(--scale-f-1-min),  var(--scale-f-1-fluid)) ,var(--scale-f-1-max));
-  --scale-f-1-v: 100 * (var(--scale-f-1-max)-var(--scale-f-1-min)) / (var(--viewport-max)-var(--viewport-min));
+  --scale-xxl-clamp: min( max( var(--scale-xxl-min),  var(--scale-xxl-fluid)) ,var(--scale-xxl-max));
+  --scale-xxl-v: 100 * (var(--scale-xxl-max)-var(--scale-xxl-min)) / (var(--viewport-max)-var(--viewport-min));
+  --scale-xl-clamp: min( max( var(--scale-xl-min),  var(--scale-xl-fluid)) ,var(--scale-xl-max));
+  --scale-xl-v: 100 * (var(--scale-xl-max)-var(--scale-xl-min)) / (var(--viewport-max)-var(--viewport-min));
+  --scale-lg-clamp: min( max( var(--scale-lg-min),  var(--scale-lg-fluid)) ,var(--scale-lg-max));
+  --scale-lg-v: 100 * (var(--scale-lg-max)-var(--scale-lg-min)) / (var(--viewport-max)-var(--viewport-min));
+  --scale-md-clamp: min( max( var(--scale-md-min),  var(--scale-md-fluid)) ,var(--scale-md-max));
+  --scale-md-v: 100 * (var(--scale-md-max)-var(--scale-md-min)) / (var(--viewport-max)-var(--viewport-min));
+  --scale-s-clamp: min( max( var(--scale-s-min),  var(--scale-s-fluid)) ,var(--scale-s-max));
+  --scale-s-v: 100 * (var(--scale-s-max)-var(--scale-s-min)) / (var(--viewport-max)-var(--viewport-min));
+  --scale-xs-clamp: min( max( var(--scale-xs-min),  var(--scale-xs-fluid)) ,var(--scale-xs-max));
+  --scale-xs-v: 100 * (var(--scale-xs-max)-var(--scale-xs-min)) / (var(--viewport-max)-var(--viewport-min));
   --spacing-256: var(--spacing-2)*128;
   --spacing-128: var(--spacing-2)*64;
   --spacing-96: var(--spacing-2)*48;
@@ -1285,12 +1285,12 @@
   --ref-properties-border-on-destructive-default-disabled: var(--ref-properties-border-on-default-disabled); /* Border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --ref-properties-border-on-secondary-disabled: var(--ref-properties-border-on-default-disabled); /* A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --ref-properties-border-on-primary-disabled: var(--ref-properties-border-on-default-disabled); /* A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
-  --font-size-1: var(--scale-f-1-clamp);
-  --font-size-4: var(--scale-f4-clamp);
-  --font-size-3: var(--scale-f3-clamp);
-  --font-size-2: var(--scale-f2-clamp);
-  --font-size-1: var(--scale-f1-clamp);
-  --font-size-0: var(--scale-f0-clamp);
+  --font-size-xxl: var(--scale-xxl-clamp);
+  --font-size-xl: var(--scale-xl-clamp);
+  --font-size-lg: var(--scale-lg-clamp);
+  --font-size-md: var(--scale-md-clamp);
+  --font-size-s: var(--scale-s-clamp);
+  --font-size-xs: var(--scale-xs-clamp);
   --comp-table-border-error: var(--comp-btn-default-on-destructive-border-enabled); /* Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
   --comp-table-surface-error: var(--comp-btn-default-on-destructive-surface-transparent); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --comp-situation-funct-border-muted: var(--ref-properties-border-on-funct-muted); /* Muted border refers to a subtle border style.  */
