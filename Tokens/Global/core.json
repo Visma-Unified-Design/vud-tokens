@@ -882,7 +882,7 @@
         }
       }
     },
-    "f-1": {
+    "xs": {
       "min": {
         "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(-1/{scale.const.min.n})/5),1)",
         "type": "fontSizes",
@@ -894,20 +894,20 @@
         "description": "The maximum value the property can take."
       },
       "v": {
-        "value": "100 * ({scale.f-1.max}-{scale.f-1.min}) / ({viewport.max}-{viewport.min})",
+        "value": "100 * ({scale.xs.max}-{scale.xs.min}) / ({viewport.max}-{viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {viewport.min} * {scale.f-1.max} - {viewport.max} * {scale.f-1.min}) / ({viewport.min}-{viewport.max})",
+        "value": "( {viewport.min} * {scale.xs.max} - {viewport.max} * {scale.xs.min}) / ({viewport.min}-{viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.f-1.v} + {scale.f-1.r})",
+        "value": "round(({viewport.width}/100) * {scale.xs.v} + {scale.xs.r})",
         "type": "fontSizes",
         "description": "The preferred value or ideal size for the property."
       },
       "clamp": {
-        "value": "min( max( {scale.f-1.min},  {scale.f-1.fluid}) ,{scale.f-1.max})",
+        "value": "min( max( {scale.xs.min},  {scale.xs.fluid}) ,{scale.xs.max})",
         "type": "fontSizes"
       },
       "clamp-css": {
@@ -916,7 +916,7 @@
         "description": "Intended for development."
       }
     },
-    "f0": {
+    "s": {
       "min": {
         "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(0/{scale.const.min.n})/5),1)",
         "type": "fontSizes",
@@ -928,20 +928,20 @@
         "description": "The maximum value the property can take."
       },
       "v": {
-        "value": "100 * ({scale.f0.max}-{scale.f0.min}) / ({viewport.max}-{viewport.min})",
+        "value": "100 * ({scale.s.max}-{scale.s.min}) / ({viewport.max}-{viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {viewport.min} * {scale.f0.max} - {viewport.max} * {scale.f0.min}) / ({viewport.min}-{viewport.max})",
+        "value": "( {viewport.min} * {scale.s.max} - {viewport.max} * {scale.s.min}) / ({viewport.min}-{viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.f0.v} + {scale.f0.r})",
+        "value": "round(({viewport.width}/100) * {scale.s.v} + {scale.s.r})",
         "type": "fontSizes",
         "description": "The preferred value or ideal size for the property."
       },
       "clamp": {
-        "value": "min( max( {scale.f0.min},  {scale.f0.fluid}) ,{scale.f0.max})",
+        "value": "min( max( {scale.s.min},  {scale.s.fluid}) ,{scale.s.max})",
         "type": "fontSizes"
       },
       "clamp-css": {
@@ -950,7 +950,7 @@
         "description": "Intended for development."
       }
     },
-    "f1": {
+    "md": {
       "min": {
         "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(1/{scale.const.min.n})/5),1)",
         "type": "fontSizes",
@@ -962,20 +962,20 @@
         "description": "The maximum value the property can take."
       },
       "v": {
-        "value": "100 * ({scale.f1.max}-{scale.f1.min}) / ({viewport.max}-{viewport.min})",
+        "value": "100 * ({scale.md.max}-{scale.md.min}) / ({viewport.max}-{viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {viewport.min} * {scale.f1.max} - {viewport.max} * {scale.f1.min}) / ({viewport.min}-{viewport.max})",
+        "value": "( {viewport.min} * {scale.md.max} - {viewport.max} * {scale.md.min}) / ({viewport.min}-{viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.f1.v} + {scale.f1.r})",
+        "value": "round(({viewport.width}/100) * {scale.md.v} + {scale.md.r})",
         "type": "fontSizes",
         "description": "The preferred value or ideal size for the property."
       },
       "clamp": {
-        "value": "min( max( {scale.f1.min},  {scale.f1.fluid}) ,{scale.f1.max})",
+        "value": "min( max( {scale.md.min},  {scale.md.fluid}) ,{scale.md.max})",
         "type": "fontSizes"
       },
       "clamp-css": {
@@ -984,7 +984,7 @@
         "description": "Intended for development."
       }
     },
-    "f2": {
+    "lg": {
       "min": {
         "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(2/{scale.const.min.n})/5),1)",
         "type": "fontSizes",
@@ -996,20 +996,20 @@
         "description": "The maximum value the property can take."
       },
       "v": {
-        "value": "100 * ({scale.f2.max}-{scale.f2.min}) / ({viewport.max}-{viewport.min})",
+        "value": "100 * ({scale.lg.max}-{scale.lg.min}) / ({viewport.max}-{viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {viewport.min} * {scale.f2.max} - {viewport.max} * {scale.f2.min}) / ({viewport.min}-{viewport.max})",
+        "value": "( {viewport.min} * {scale.lg.max} - {viewport.max} * {scale.lg.min}) / ({viewport.min}-{viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.f2.v} + {scale.f2.r})",
+        "value": "round(({viewport.width}/100) * {scale.lg.v} + {scale.lg.r})",
         "type": "fontSizes",
         "description": "The preferred value or ideal size for the property."
       },
       "clamp": {
-        "value": "min( max( {scale.f2.min},  {scale.f2.fluid}) ,{scale.f2.max})",
+        "value": "min( max( {scale.lg.min},  {scale.lg.fluid}) ,{scale.lg.max})",
         "type": "fontSizes"
       },
       "clamp-css": {
@@ -1018,7 +1018,7 @@
         "description": "Intended for development."
       }
     },
-    "f3": {
+    "xl": {
       "min": {
         "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(3/{scale.const.min.n})/5),1)",
         "type": "fontSizes",
@@ -1030,20 +1030,20 @@
         "description": "The maximum value the property can take."
       },
       "v": {
-        "value": "100 * ({scale.f3.max}-{scale.f3.min}) / ({viewport.max}-{viewport.min})",
+        "value": "100 * ({scale.xl.max}-{scale.xl.min}) / ({viewport.max}-{viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {viewport.min} * {scale.f3.max} - {viewport.max} * {scale.f3.min}) / ({viewport.min}-{viewport.max})",
+        "value": "( {viewport.min} * {scale.xl.max} - {viewport.max} * {scale.xl.min}) / ({viewport.min}-{viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.f3.v} + {scale.f3.r})",
+        "value": "round(({viewport.width}/100) * {scale.xl.v} + {scale.xl.r})",
         "type": "fontSizes",
         "description": "The preferred value or ideal size for the property."
       },
       "clamp": {
-        "value": "min( max( {scale.f3.min},  {scale.f3.fluid}) ,{scale.f3.max})",
+        "value": "min( max( {scale.xl.min},  {scale.xl.fluid}) ,{scale.xl.max})",
         "type": "fontSizes"
       },
       "clamp-css": {
@@ -1052,7 +1052,7 @@
         "description": "Intended for development."
       }
     },
-    "f4": {
+    "xxl": {
       "min": {
         "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(4/{scale.const.min.n})/5),1)",
         "type": "fontSizes",
@@ -1064,20 +1064,20 @@
         "description": "The maximum value the property can take."
       },
       "v": {
-        "value": "100 * ({scale.f4.max}-{scale.f4.min}) / ({viewport.max}-{viewport.min})",
+        "value": "100 * ({scale.xxl.max}-{scale.xxl.min}) / ({viewport.max}-{viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {viewport.min} * {scale.f4.max} - {viewport.max} * {scale.f4.min}) / ({viewport.min}-{viewport.max})",
+        "value": "( {viewport.min} * {scale.xxl.max} - {viewport.max} * {scale.xxl.min}) / ({viewport.min}-{viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.f4.v} + {scale.f4.r})",
+        "value": "round(({viewport.width}/100) * {scale.xxl.v} + {scale.xxl.r})",
         "type": "fontSizes",
         "description": "The preferred value or ideal size for the property."
       },
       "clamp": {
-        "value": "min( max( {scale.f4.min},  {scale.f4.fluid}) ,{scale.f4.max})",
+        "value": "min( max( {scale.xxl.min},  {scale.xxl.fluid}) ,{scale.xxl.max})",
         "type": "fontSizes"
       },
       "clamp-css": {
@@ -1088,28 +1088,28 @@
     }
   },
   "font-size": {
-    "0": {
-      "value": "{scale.f0.clamp}",
+    "xs": {
+      "value": "{scale.xs.clamp}",
       "type": "fontSizes"
     },
-    "1": {
-      "value": "{scale.f1.clamp}",
+    "s": {
+      "value": "{scale.s.clamp}",
       "type": "fontSizes"
     },
-    "2": {
-      "value": "{scale.f2.clamp}",
+    "md": {
+      "value": "{scale.md.clamp}",
       "type": "fontSizes"
     },
-    "3": {
-      "value": "{scale.f3.clamp}",
+    "lg": {
+      "value": "{scale.lg.clamp}",
       "type": "fontSizes"
     },
-    "4": {
-      "value": "{scale.f4.clamp}",
+    "xl": {
+      "value": "{scale.xl.clamp}",
       "type": "fontSizes"
     },
-    "-1": {
-      "value": "{scale.f-1.clamp}",
+    "xxl": {
+      "value": "{scale.xxl.clamp}",
       "type": "fontSizes"
     }
   },

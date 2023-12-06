@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 06 Dec 2023 10:06:50 GMT
+// Generated on Wed, 06 Dec 2023 19:13:29 GMT
 
 $dark-core-font-familiy-tertiary: Inter;
 $dark-core-font-familiy-secondary: 'Open Sans';
@@ -11,12 +11,12 @@ $dark-keyword-values-font-weight-normal: 400; // CSS syntax: <font-weight-absolu
 $dark-viewport-max: 192rem;
 $dark-viewport-min: 32rem;
 $dark-viewport-width: 144rem;
-$dark-scale-f4-clamp-css: clamp(1.38rem, calc(0.64vw + 1.23rem), 2.00rem); // Intended for development.
-$dark-scale-f3-clamp-css: clamp(1.25rem, calc(0.38vw + 1.16rem), 1.63rem); // Intended for development.
-$dark-scale-f2-clamp-css: clamp(1.19rem, calc(0.13vw + 1.16rem), 1.31rem); // Intended for development.
-$dark-scale-f1-clamp-css: clamp(1.06rem, calc(0.00vw + 1.06rem), 1.06rem); // Intended for development.
-$dark-scale-f0-clamp-css: clamp(1.00rem, calc(-0.13vw + 1.03rem), 0.88rem); // Intended for development.
-$dark-scale-f-1-clamp-css: clamp(0.94rem, calc(-0.26vw + 1.00rem), 0.69rem); // Intended for development.
+$dark-scale-xxl-clamp-css: clamp(1.38rem, calc(0.64vw + 1.23rem), 2.00rem); // Intended for development.
+$dark-scale-xl-clamp-css: clamp(1.25rem, calc(0.38vw + 1.16rem), 1.63rem); // Intended for development.
+$dark-scale-lg-clamp-css: clamp(1.19rem, calc(0.13vw + 1.16rem), 1.31rem); // Intended for development.
+$dark-scale-md-clamp-css: clamp(1.06rem, calc(0.00vw + 1.06rem), 1.06rem); // Intended for development.
+$dark-scale-s-clamp-css: clamp(1.00rem, calc(-0.13vw + 1.03rem), 0.88rem); // Intended for development.
+$dark-scale-xs-clamp-css: clamp(0.94rem, calc(-0.26vw + 1.00rem), 0.69rem); // Intended for development.
 $dark-scale-const-max-n: 0.5rem;
 $dark-scale-const-max-r: 0.27999999999999997rem;
 $dark-scale-const-max-f0: 1.4rem; // This base font-size is expressed in pixels (px) for max. viewport.   A base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%).
@@ -132,34 +132,34 @@ $dark-ref-shadow-default-elevation-0: 0 0 0 0 rgba(0, 0, 0, $dark-opacity-8);
 $dark-ref-properties-shade-moderate: rgba( $dark-vud-neutral-dark-90,$dark-opacity-12);
 $dark-ref-properties-shade-weak: rgba( $dark-vud-neutral-dark-90,$dark-opacity-8);
 $dark-ref-properties-fill-on-mark-default: $dark-vud-orange-10; // Suitable for highlighting text.
-$dark-ref-tabular-semibold-td-4: $dark-numeric-values-font-weight-semi-bold $dark-font-size-4/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-semibold-td-3: $dark-numeric-values-font-weight-semi-bold $dark-font-size-3/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-semibold-td-2: $dark-numeric-values-font-weight-semi-bold $dark-font-size-2/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-semibold-td-1: $dark-numeric-values-font-weight-semi-bold $dark-font-size-1/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-semibold-td-0: $dark-numeric-values-font-weight-semi-bold $dark-font-size-0/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-semibold-td-1: $dark-numeric-values-font-weight-semi-bold $dark-font-size-1/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-medium-td-4: $dark-numeric-values-font-weight-medium $dark-font-size-4/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-medium-td-3: $dark-numeric-values-font-weight-medium $dark-font-size-3/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-medium-td-2: $dark-numeric-values-font-weight-medium $dark-font-size-2/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-medium-td-1: $dark-numeric-values-font-weight-medium $dark-font-size-1/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-medium-td-0: $dark-numeric-values-font-weight-medium $dark-font-size-0/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-medium-td-1: $dark-numeric-values-font-weight-medium $dark-font-size-1/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-regular-td-4: $dark-numeric-values-font-weight-normal $dark-font-size-4/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-regular-td-3: $dark-numeric-values-font-weight-normal $dark-font-size-3/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-regular-td-2: $dark-numeric-values-font-weight-normal $dark-font-size-2/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-regular-td-1: $dark-numeric-values-font-weight-normal $dark-font-size-1/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-regular-td-0: $dark-numeric-values-font-weight-normal $dark-font-size-0/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-regular-td-1: $dark-numeric-values-font-weight-normal $dark-font-size-1/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-contextual-bold-body: $dark-numeric-values-font-weight-bold $dark-font-size-0/1 $dark-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
-$dark-ref-contextual-medium-body: $dark-numeric-values-font-weight-semi-bold $dark-font-size-0/1 $dark-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
-$dark-ref-contextual-medium-h4: $dark-numeric-values-font-weight-medium $dark-font-size-0/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied.
-$dark-ref-contextual-medium-h3: $dark-numeric-values-font-weight-medium $dark-font-size-1/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.  Type scaling applied.
-$dark-ref-contextual-medium-h1: $dark-numeric-values-font-weight-medium $dark-font-size-4/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h1 tag is commonly used to display the main title on a webpage. Type scaling applied.
-$dark-ref-contextual-regular-link: $dark-numeric-values-font-weight-normal $dark-font-size-0/1 $dark-core-font-familiy-secondary; // Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph.
-$dark-ref-contextual-regular-body: $dark-numeric-values-font-weight-normal $dark-font-size-0/1 $dark-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
-$dark-ref-contextual-regular-h4: $dark-numeric-values-font-weight-normal $dark-font-size-0/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied.
-$dark-ref-contextual-regular-h2: $dark-numeric-values-font-weight-normal $dark-font-size-2/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus.  The h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section. Type scaling applied.
-$dark-ref-contextual-regular-callout: $dark-numeric-values-font-weight-normal $dark-font-size-1/1 $dark-core-font-familiy-secondary; // Suitable for highlighting important details or provide additional context.   Type scaling applied.
+$dark-ref-tabular-semibold-td-4: $dark-numeric-values-font-weight-semi-bold $dark-font-size-xxl/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-semibold-td-3: $dark-numeric-values-font-weight-semi-bold $dark-font-size-xl/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-semibold-td-2: $dark-numeric-values-font-weight-semi-bold $dark-font-size-lg/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-semibold-td-1: $dark-numeric-values-font-weight-semi-bold $dark-font-size-md/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-semibold-td-0: $dark-numeric-values-font-weight-semi-bold $dark-font-size-s/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-semibold-td-1: $dark-numeric-values-font-weight-semi-bold $dark-font-size-xs/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-medium-td-4: $dark-numeric-values-font-weight-medium $dark-font-size-xxl/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-medium-td-3: $dark-numeric-values-font-weight-medium $dark-font-size-xl/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-medium-td-2: $dark-numeric-values-font-weight-medium $dark-font-size-lg/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-medium-td-1: $dark-numeric-values-font-weight-medium $dark-font-size-md/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-medium-td-0: $dark-numeric-values-font-weight-medium $dark-font-size-s/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-medium-td-1: $dark-numeric-values-font-weight-medium $dark-font-size-xs/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-regular-td-4: $dark-numeric-values-font-weight-normal $dark-font-size-xxl/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-regular-td-3: $dark-numeric-values-font-weight-normal $dark-font-size-xl/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-regular-td-2: $dark-numeric-values-font-weight-normal $dark-font-size-lg/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-regular-td-1: $dark-numeric-values-font-weight-normal $dark-font-size-md/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-regular-td-0: $dark-numeric-values-font-weight-normal $dark-font-size-s/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-tabular-regular-td-1: $dark-numeric-values-font-weight-normal $dark-font-size-xs/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$dark-ref-contextual-bold-body: $dark-numeric-values-font-weight-bold $dark-font-size-s/1 $dark-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
+$dark-ref-contextual-medium-body: $dark-numeric-values-font-weight-semi-bold $dark-font-size-s/1 $dark-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
+$dark-ref-contextual-medium-h4: $dark-numeric-values-font-weight-medium $dark-font-size-s/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied.
+$dark-ref-contextual-medium-h3: $dark-numeric-values-font-weight-medium $dark-font-size-md/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.  Type scaling applied.
+$dark-ref-contextual-medium-h1: $dark-numeric-values-font-weight-medium $dark-font-size-xxl/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h1 tag is commonly used to display the main title on a webpage. Type scaling applied.
+$dark-ref-contextual-regular-link: $dark-numeric-values-font-weight-normal $dark-font-size-s/1 $dark-core-font-familiy-secondary; // Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph.
+$dark-ref-contextual-regular-body: $dark-numeric-values-font-weight-normal $dark-font-size-s/1 $dark-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
+$dark-ref-contextual-regular-h4: $dark-numeric-values-font-weight-normal $dark-font-size-s/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied.
+$dark-ref-contextual-regular-h2: $dark-numeric-values-font-weight-normal $dark-font-size-lg/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus.  The h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section. Type scaling applied.
+$dark-ref-contextual-regular-callout: $dark-numeric-values-font-weight-normal $dark-font-size-xs/1 $dark-core-font-familiy-secondary; // Suitable for highlighting important details or provide additional context.   Type scaling applied.
 $dark-core-font-style-body-secondary-s-bold: $dark-numeric-values-font-weight-bold 13px/Auto $dark-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
 $dark-core-font-style-body-secondary-s-semibold: $dark-numeric-values-font-weight-medium 13px/Auto $dark-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
 $dark-core-font-style-body-secondary-s-regular: $dark-numeric-values-font-weight-normal 13px/Auto $dark-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
@@ -284,30 +284,30 @@ $dark-vud-brand-primary-30: $dark-vud-green-30;
 $dark-vud-brand-primary-20: $dark-vud-green-20;
 $dark-vud-brand-primary-10: $dark-vud-green-10;
 $dark-vud-brand-primary-05: $dark-vud-green-05;
-$dark-scale-f4-fluid: round(($dark-viewport-width/100) * $dark-scale-f4-v + $dark-scale-f4-r); // The preferred value or ideal size for the property.
-$dark-scale-f4-r: ( $dark-viewport-min * $dark-scale-f4-max - $dark-viewport-max * $dark-scale-f4-min) / ($dark-viewport-min-$dark-viewport-max);
-$dark-scale-f4-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(4/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
-$dark-scale-f4-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(4/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
-$dark-scale-f3-fluid: round(($dark-viewport-width/100) * $dark-scale-f3-v + $dark-scale-f3-r); // The preferred value or ideal size for the property.
-$dark-scale-f3-r: ( $dark-viewport-min * $dark-scale-f3-max - $dark-viewport-max * $dark-scale-f3-min) / ($dark-viewport-min-$dark-viewport-max);
-$dark-scale-f3-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(3/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
-$dark-scale-f3-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(3/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
-$dark-scale-f2-fluid: round(($dark-viewport-width/100) * $dark-scale-f2-v + $dark-scale-f2-r); // The preferred value or ideal size for the property.
-$dark-scale-f2-r: ( $dark-viewport-min * $dark-scale-f2-max - $dark-viewport-max * $dark-scale-f2-min) / ($dark-viewport-min-$dark-viewport-max);
-$dark-scale-f2-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(2/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
-$dark-scale-f2-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(2/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
-$dark-scale-f1-fluid: round(($dark-viewport-width/100) * $dark-scale-f1-v + $dark-scale-f1-r); // The preferred value or ideal size for the property.
-$dark-scale-f1-r: ( $dark-viewport-min * $dark-scale-f1-max - $dark-viewport-max * $dark-scale-f1-min) / ($dark-viewport-min-$dark-viewport-max);
-$dark-scale-f1-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(1/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
-$dark-scale-f1-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(1/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
-$dark-scale-f0-fluid: round(($dark-viewport-width/100) * $dark-scale-f0-v + $dark-scale-f0-r); // The preferred value or ideal size for the property.
-$dark-scale-f0-r: ( $dark-viewport-min * $dark-scale-f0-max - $dark-viewport-max * $dark-scale-f0-min) / ($dark-viewport-min-$dark-viewport-max);
-$dark-scale-f0-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(0/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
-$dark-scale-f0-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(0/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
-$dark-scale-f-1-fluid: round(($dark-viewport-width/100) * $dark-scale-f-1-v + $dark-scale-f-1-r); // The preferred value or ideal size for the property.
-$dark-scale-f-1-r: ( $dark-viewport-min * $dark-scale-f-1-max - $dark-viewport-max * $dark-scale-f-1-min) / ($dark-viewport-min-$dark-viewport-max);
-$dark-scale-f-1-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(-1/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
-$dark-scale-f-1-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(-1/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
+$dark-scale-xxl-fluid: round(($dark-viewport-width/100) * $dark-scale-xxl-v + $dark-scale-xxl-r); // The preferred value or ideal size for the property.
+$dark-scale-xxl-r: ( $dark-viewport-min * $dark-scale-xxl-max - $dark-viewport-max * $dark-scale-xxl-min) / ($dark-viewport-min-$dark-viewport-max);
+$dark-scale-xxl-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(4/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
+$dark-scale-xxl-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(4/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
+$dark-scale-xl-fluid: round(($dark-viewport-width/100) * $dark-scale-xl-v + $dark-scale-xl-r); // The preferred value or ideal size for the property.
+$dark-scale-xl-r: ( $dark-viewport-min * $dark-scale-xl-max - $dark-viewport-max * $dark-scale-xl-min) / ($dark-viewport-min-$dark-viewport-max);
+$dark-scale-xl-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(3/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
+$dark-scale-xl-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(3/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
+$dark-scale-lg-fluid: round(($dark-viewport-width/100) * $dark-scale-lg-v + $dark-scale-lg-r); // The preferred value or ideal size for the property.
+$dark-scale-lg-r: ( $dark-viewport-min * $dark-scale-lg-max - $dark-viewport-max * $dark-scale-lg-min) / ($dark-viewport-min-$dark-viewport-max);
+$dark-scale-lg-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(2/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
+$dark-scale-lg-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(2/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
+$dark-scale-md-fluid: round(($dark-viewport-width/100) * $dark-scale-md-v + $dark-scale-md-r); // The preferred value or ideal size for the property.
+$dark-scale-md-r: ( $dark-viewport-min * $dark-scale-md-max - $dark-viewport-max * $dark-scale-md-min) / ($dark-viewport-min-$dark-viewport-max);
+$dark-scale-md-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(1/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
+$dark-scale-md-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(1/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
+$dark-scale-s-fluid: round(($dark-viewport-width/100) * $dark-scale-s-v + $dark-scale-s-r); // The preferred value or ideal size for the property.
+$dark-scale-s-r: ( $dark-viewport-min * $dark-scale-s-max - $dark-viewport-max * $dark-scale-s-min) / ($dark-viewport-min-$dark-viewport-max);
+$dark-scale-s-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(0/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
+$dark-scale-s-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(0/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
+$dark-scale-xs-fluid: round(($dark-viewport-width/100) * $dark-scale-xs-v + $dark-scale-xs-r); // The preferred value or ideal size for the property.
+$dark-scale-xs-r: ( $dark-viewport-min * $dark-scale-xs-max - $dark-viewport-max * $dark-scale-xs-min) / ($dark-viewport-min-$dark-viewport-max);
+$dark-scale-xs-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(-1/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
+$dark-scale-xs-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(-1/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
 $dark-spacing-2: $dark-base;
 $dark-sizing-2: $dark-base;
 $dark-vud-funct-default-dark-90: $dark-vud-neutral-dark-90;
@@ -653,18 +653,18 @@ $dark-vud-brand-neutral-dark-gradient: $dark-vud-brand-neutral-dark-70;
 $dark-vud-brand-neutral-light-gradient: $dark-vud-brand-neutral-light-90;
 $dark-vud-brand-secondary-gradient: $dark-vud-brand-secondary-70;
 $dark-vud-brand-primary-gradient: $dark-vud-brand-primary-70;
-$dark-scale-f4-clamp: min( max( $dark-scale-f4-min,  $dark-scale-f4-fluid) ,$dark-scale-f4-max);
-$dark-scale-f4-v: 100 * ($dark-scale-f4-max-$dark-scale-f4-min) / ($dark-viewport-max-$dark-viewport-min);
-$dark-scale-f3-clamp: min( max( $dark-scale-f3-min,  $dark-scale-f3-fluid) ,$dark-scale-f3-max);
-$dark-scale-f3-v: 100 * ($dark-scale-f3-max-$dark-scale-f3-min) / ($dark-viewport-max-$dark-viewport-min);
-$dark-scale-f2-clamp: min( max( $dark-scale-f2-min,  $dark-scale-f2-fluid) ,$dark-scale-f2-max);
-$dark-scale-f2-v: 100 * ($dark-scale-f2-max-$dark-scale-f2-min) / ($dark-viewport-max-$dark-viewport-min);
-$dark-scale-f1-clamp: min( max( $dark-scale-f1-min,  $dark-scale-f1-fluid) ,$dark-scale-f1-max);
-$dark-scale-f1-v: 100 * ($dark-scale-f1-max-$dark-scale-f1-min) / ($dark-viewport-max-$dark-viewport-min);
-$dark-scale-f0-clamp: min( max( $dark-scale-f0-min,  $dark-scale-f0-fluid) ,$dark-scale-f0-max);
-$dark-scale-f0-v: 100 * ($dark-scale-f0-max-$dark-scale-f0-min) / ($dark-viewport-max-$dark-viewport-min);
-$dark-scale-f-1-clamp: min( max( $dark-scale-f-1-min,  $dark-scale-f-1-fluid) ,$dark-scale-f-1-max);
-$dark-scale-f-1-v: 100 * ($dark-scale-f-1-max-$dark-scale-f-1-min) / ($dark-viewport-max-$dark-viewport-min);
+$dark-scale-xxl-clamp: min( max( $dark-scale-xxl-min,  $dark-scale-xxl-fluid) ,$dark-scale-xxl-max);
+$dark-scale-xxl-v: 100 * ($dark-scale-xxl-max-$dark-scale-xxl-min) / ($dark-viewport-max-$dark-viewport-min);
+$dark-scale-xl-clamp: min( max( $dark-scale-xl-min,  $dark-scale-xl-fluid) ,$dark-scale-xl-max);
+$dark-scale-xl-v: 100 * ($dark-scale-xl-max-$dark-scale-xl-min) / ($dark-viewport-max-$dark-viewport-min);
+$dark-scale-lg-clamp: min( max( $dark-scale-lg-min,  $dark-scale-lg-fluid) ,$dark-scale-lg-max);
+$dark-scale-lg-v: 100 * ($dark-scale-lg-max-$dark-scale-lg-min) / ($dark-viewport-max-$dark-viewport-min);
+$dark-scale-md-clamp: min( max( $dark-scale-md-min,  $dark-scale-md-fluid) ,$dark-scale-md-max);
+$dark-scale-md-v: 100 * ($dark-scale-md-max-$dark-scale-md-min) / ($dark-viewport-max-$dark-viewport-min);
+$dark-scale-s-clamp: min( max( $dark-scale-s-min,  $dark-scale-s-fluid) ,$dark-scale-s-max);
+$dark-scale-s-v: 100 * ($dark-scale-s-max-$dark-scale-s-min) / ($dark-viewport-max-$dark-viewport-min);
+$dark-scale-xs-clamp: min( max( $dark-scale-xs-min,  $dark-scale-xs-fluid) ,$dark-scale-xs-max);
+$dark-scale-xs-v: 100 * ($dark-scale-xs-max-$dark-scale-xs-min) / ($dark-viewport-max-$dark-viewport-min);
 $dark-spacing-256: $dark-spacing-2*128;
 $dark-spacing-128: $dark-spacing-2*64;
 $dark-spacing-96: $dark-spacing-2*48;
@@ -1283,12 +1283,12 @@ $dark-ref-properties-border-on-destructive-primary-focused: $dark-ref-properties
 $dark-ref-properties-border-on-destructive-default-disabled: $dark-ref-properties-border-on-default-disabled; // Border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $dark-ref-properties-border-on-secondary-disabled: $dark-ref-properties-border-on-default-disabled; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $dark-ref-properties-border-on-primary-disabled: $dark-ref-properties-border-on-default-disabled; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$dark-font-size-1: $dark-scale-f-1-clamp;
-$dark-font-size-4: $dark-scale-f4-clamp;
-$dark-font-size-3: $dark-scale-f3-clamp;
-$dark-font-size-2: $dark-scale-f2-clamp;
-$dark-font-size-1: $dark-scale-f1-clamp;
-$dark-font-size-0: $dark-scale-f0-clamp;
+$dark-font-size-xxl: $dark-scale-xxl-clamp;
+$dark-font-size-xl: $dark-scale-xl-clamp;
+$dark-font-size-lg: $dark-scale-lg-clamp;
+$dark-font-size-md: $dark-scale-md-clamp;
+$dark-font-size-s: $dark-scale-s-clamp;
+$dark-font-size-xs: $dark-scale-xs-clamp;
 $dark-comp-table-border-error: $dark-comp-btn-default-on-destructive-border-enabled; // Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
 $dark-comp-table-surface-error: $dark-comp-btn-default-on-destructive-surface-transparent; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-comp-situation-funct-border-muted: $dark-ref-properties-border-on-funct-muted; // Muted border refers to a subtle border style. 

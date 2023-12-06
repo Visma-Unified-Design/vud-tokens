@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 06 Dec 2023 10:06:49 GMT
+// Generated on Wed, 06 Dec 2023 19:13:28 GMT
 
 $light-core-font-familiy-tertiary: Inter;
 $light-core-font-familiy-secondary: 'Open Sans';
@@ -11,12 +11,12 @@ $light-keyword-values-font-weight-normal: 400; // CSS syntax: <font-weight-absol
 $light-viewport-max: 192rem;
 $light-viewport-min: 32rem;
 $light-viewport-width: 144rem;
-$light-scale-f4-clamp-css: clamp(1.38rem, calc(0.64vw + 1.23rem), 2.00rem); // Intended for development.
-$light-scale-f3-clamp-css: clamp(1.25rem, calc(0.38vw + 1.16rem), 1.63rem); // Intended for development.
-$light-scale-f2-clamp-css: clamp(1.19rem, calc(0.13vw + 1.16rem), 1.31rem); // Intended for development.
-$light-scale-f1-clamp-css: clamp(1.06rem, calc(0.00vw + 1.06rem), 1.06rem); // Intended for development.
-$light-scale-f0-clamp-css: clamp(1.00rem, calc(-0.13vw + 1.03rem), 0.88rem); // Intended for development.
-$light-scale-f-1-clamp-css: clamp(0.94rem, calc(-0.26vw + 1.00rem), 0.69rem); // Intended for development.
+$light-scale-xxl-clamp-css: clamp(1.38rem, calc(0.64vw + 1.23rem), 2.00rem); // Intended for development.
+$light-scale-xl-clamp-css: clamp(1.25rem, calc(0.38vw + 1.16rem), 1.63rem); // Intended for development.
+$light-scale-lg-clamp-css: clamp(1.19rem, calc(0.13vw + 1.16rem), 1.31rem); // Intended for development.
+$light-scale-md-clamp-css: clamp(1.06rem, calc(0.00vw + 1.06rem), 1.06rem); // Intended for development.
+$light-scale-s-clamp-css: clamp(1.00rem, calc(-0.13vw + 1.03rem), 0.88rem); // Intended for development.
+$light-scale-xs-clamp-css: clamp(0.94rem, calc(-0.26vw + 1.00rem), 0.69rem); // Intended for development.
 $light-scale-const-max-n: 0.5rem;
 $light-scale-const-max-r: 0.27999999999999997rem;
 $light-scale-const-max-f0: 1.4rem; // This base font-size is expressed in pixels (px) for max. viewport.   A base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%).
@@ -132,34 +132,34 @@ $light-ref-shadow-default-elevation-0: 0 0 0 0 rgba(37, 38, 38, $light-opacity-8
 $light-ref-properties-shade-moderate: rgba( $light-vud-neutral-dark-90,$light-opacity-12);
 $light-ref-properties-shade-weak: rgba( $light-vud-neutral-dark-90,$light-opacity-8);
 $light-ref-properties-fill-on-mark-default: $light-vud-orange-10; // Suitable for highligting text.
-$light-ref-tabular-semibold-td-4: $light-numeric-values-font-weight-semi-bold $light-font-size-4/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-semibold-td-3: $light-numeric-values-font-weight-semi-bold $light-font-size-3/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-semibold-td-2: $light-numeric-values-font-weight-semi-bold $light-font-size-2/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-semibold-td-1: $light-numeric-values-font-weight-semi-bold $light-font-size-1/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-semibold-td-0: $light-numeric-values-font-weight-semi-bold $light-font-size-0/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-semibold-td-1: $light-numeric-values-font-weight-semi-bold $light-font-size-1/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-medium-td-4: $light-numeric-values-font-weight-medium $light-font-size-4/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-medium-td-3: $light-numeric-values-font-weight-medium $light-font-size-3/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-medium-td-2: $light-numeric-values-font-weight-medium $light-font-size-2/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-medium-td-1: $light-numeric-values-font-weight-medium $light-font-size-1/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-medium-td-0: $light-numeric-values-font-weight-medium $light-font-size-0/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-medium-td-1: $light-numeric-values-font-weight-medium $light-font-size-1/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-regular-td-4: $light-numeric-values-font-weight-normal $light-font-size-4/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-regular-td-3: $light-numeric-values-font-weight-normal $light-font-size-3/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-regular-td-2: $light-numeric-values-font-weight-normal $light-font-size-2/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-regular-td-1: $light-numeric-values-font-weight-normal $light-font-size-1/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-regular-td-0: $light-numeric-values-font-weight-normal $light-font-size-0/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-regular-td-1: $light-numeric-values-font-weight-normal $light-font-size-1/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-contextual-bold-body: $light-numeric-values-font-weight-bold $light-font-size-0/1 $light-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
-$light-ref-contextual-medium-body: $light-numeric-values-font-weight-semi-bold $light-font-size-0/1 $light-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
-$light-ref-contextual-medium-h4: $light-numeric-values-font-weight-medium $light-font-size-0/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied.
-$light-ref-contextual-medium-h3: $light-numeric-values-font-weight-medium $light-font-size-1/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.  Type scaling applied.
-$light-ref-contextual-medium-h1: $light-numeric-values-font-weight-medium $light-font-size-4/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h1 tag is commonly used to display the main title on a webpage. Type scaling applied.
-$light-ref-contextual-regular-link: $light-numeric-values-font-weight-normal $light-font-size-0/1 $light-core-font-familiy-secondary; // Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph.
-$light-ref-contextual-regular-body: $light-numeric-values-font-weight-normal $light-font-size-0/1 $light-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
-$light-ref-contextual-regular-h4: $light-numeric-values-font-weight-normal $light-font-size-0/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied.
-$light-ref-contextual-regular-h2: $light-numeric-values-font-weight-normal $light-font-size-2/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus.  The h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section. Type scaling applied.
-$light-ref-contextual-regular-callout: $light-numeric-values-font-weight-normal $light-font-size-1/1 $light-core-font-familiy-secondary; // Suitable for highlighting important details or provide additional context.   Type scaling applied.
+$light-ref-tabular-semibold-td-4: $light-numeric-values-font-weight-semi-bold $light-font-size-xxl/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-semibold-td-3: $light-numeric-values-font-weight-semi-bold $light-font-size-xl/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-semibold-td-2: $light-numeric-values-font-weight-semi-bold $light-font-size-lg/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-semibold-td-1: $light-numeric-values-font-weight-semi-bold $light-font-size-md/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-semibold-td-0: $light-numeric-values-font-weight-semi-bold $light-font-size-s/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-semibold-td-1: $light-numeric-values-font-weight-semi-bold $light-font-size-xs/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-medium-td-4: $light-numeric-values-font-weight-medium $light-font-size-xxl/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-medium-td-3: $light-numeric-values-font-weight-medium $light-font-size-xl/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-medium-td-2: $light-numeric-values-font-weight-medium $light-font-size-lg/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-medium-td-1: $light-numeric-values-font-weight-medium $light-font-size-md/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-medium-td-0: $light-numeric-values-font-weight-medium $light-font-size-s/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-medium-td-1: $light-numeric-values-font-weight-medium $light-font-size-xs/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-regular-td-4: $light-numeric-values-font-weight-normal $light-font-size-xxl/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-regular-td-3: $light-numeric-values-font-weight-normal $light-font-size-xl/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-regular-td-2: $light-numeric-values-font-weight-normal $light-font-size-lg/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-regular-td-1: $light-numeric-values-font-weight-normal $light-font-size-md/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-regular-td-0: $light-numeric-values-font-weight-normal $light-font-size-s/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-tabular-regular-td-1: $light-numeric-values-font-weight-normal $light-font-size-xs/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
+$light-ref-contextual-bold-body: $light-numeric-values-font-weight-bold $light-font-size-s/1 $light-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
+$light-ref-contextual-medium-body: $light-numeric-values-font-weight-semi-bold $light-font-size-s/1 $light-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
+$light-ref-contextual-medium-h4: $light-numeric-values-font-weight-medium $light-font-size-s/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied.
+$light-ref-contextual-medium-h3: $light-numeric-values-font-weight-medium $light-font-size-md/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.  Type scaling applied.
+$light-ref-contextual-medium-h1: $light-numeric-values-font-weight-medium $light-font-size-xxl/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h1 tag is commonly used to display the main title on a webpage. Type scaling applied.
+$light-ref-contextual-regular-link: $light-numeric-values-font-weight-normal $light-font-size-s/1 $light-core-font-familiy-secondary; // Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph.
+$light-ref-contextual-regular-body: $light-numeric-values-font-weight-normal $light-font-size-s/1 $light-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
+$light-ref-contextual-regular-h4: $light-numeric-values-font-weight-normal $light-font-size-s/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied.
+$light-ref-contextual-regular-h2: $light-numeric-values-font-weight-normal $light-font-size-lg/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus.  The h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section. Type scaling applied.
+$light-ref-contextual-regular-callout: $light-numeric-values-font-weight-normal $light-font-size-xs/1 $light-core-font-familiy-secondary; // Suitable for highlighting important details or provide additional context.   Type scaling applied.
 $light-core-font-style-body-secondary-s-bold: $light-numeric-values-font-weight-bold 13px/Auto $light-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
 $light-core-font-style-body-secondary-s-semibold: $light-numeric-values-font-weight-medium 13px/Auto $light-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
 $light-core-font-style-body-secondary-s-regular: $light-numeric-values-font-weight-normal 13px/Auto $light-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
@@ -284,30 +284,30 @@ $light-vud-brand-primary-30: $light-vud-green-30;
 $light-vud-brand-primary-20: $light-vud-green-20;
 $light-vud-brand-primary-10: $light-vud-green-10;
 $light-vud-brand-primary-05: $light-vud-green-05;
-$light-scale-f4-fluid: round(($light-viewport-width/100) * $light-scale-f4-v + $light-scale-f4-r); // The preferred value or ideal size for the property.
-$light-scale-f4-r: ( $light-viewport-min * $light-scale-f4-max - $light-viewport-max * $light-scale-f4-min) / ($light-viewport-min-$light-viewport-max);
-$light-scale-f4-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(4/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
-$light-scale-f4-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(4/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
-$light-scale-f3-fluid: round(($light-viewport-width/100) * $light-scale-f3-v + $light-scale-f3-r); // The preferred value or ideal size for the property.
-$light-scale-f3-r: ( $light-viewport-min * $light-scale-f3-max - $light-viewport-max * $light-scale-f3-min) / ($light-viewport-min-$light-viewport-max);
-$light-scale-f3-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(3/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
-$light-scale-f3-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(3/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
-$light-scale-f2-fluid: round(($light-viewport-width/100) * $light-scale-f2-v + $light-scale-f2-r); // The preferred value or ideal size for the property.
-$light-scale-f2-r: ( $light-viewport-min * $light-scale-f2-max - $light-viewport-max * $light-scale-f2-min) / ($light-viewport-min-$light-viewport-max);
-$light-scale-f2-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(2/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
-$light-scale-f2-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(2/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
-$light-scale-f1-fluid: round(($light-viewport-width/100) * $light-scale-f1-v + $light-scale-f1-r); // The preferred value or ideal size for the property.
-$light-scale-f1-r: ( $light-viewport-min * $light-scale-f1-max - $light-viewport-max * $light-scale-f1-min) / ($light-viewport-min-$light-viewport-max);
-$light-scale-f1-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(1/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
-$light-scale-f1-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(1/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
-$light-scale-f0-fluid: round(($light-viewport-width/100) * $light-scale-f0-v + $light-scale-f0-r); // The preferred value or ideal size for the property.
-$light-scale-f0-r: ( $light-viewport-min * $light-scale-f0-max - $light-viewport-max * $light-scale-f0-min) / ($light-viewport-min-$light-viewport-max);
-$light-scale-f0-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(0/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
-$light-scale-f0-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(0/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
-$light-scale-f-1-fluid: round(($light-viewport-width/100) * $light-scale-f-1-v + $light-scale-f-1-r); // The preferred value or ideal size for the property.
-$light-scale-f-1-r: ( $light-viewport-min * $light-scale-f-1-max - $light-viewport-max * $light-scale-f-1-min) / ($light-viewport-min-$light-viewport-max);
-$light-scale-f-1-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(-1/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
-$light-scale-f-1-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(-1/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
+$light-scale-xxl-fluid: round(($light-viewport-width/100) * $light-scale-xxl-v + $light-scale-xxl-r); // The preferred value or ideal size for the property.
+$light-scale-xxl-r: ( $light-viewport-min * $light-scale-xxl-max - $light-viewport-max * $light-scale-xxl-min) / ($light-viewport-min-$light-viewport-max);
+$light-scale-xxl-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(4/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
+$light-scale-xxl-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(4/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
+$light-scale-xl-fluid: round(($light-viewport-width/100) * $light-scale-xl-v + $light-scale-xl-r); // The preferred value or ideal size for the property.
+$light-scale-xl-r: ( $light-viewport-min * $light-scale-xl-max - $light-viewport-max * $light-scale-xl-min) / ($light-viewport-min-$light-viewport-max);
+$light-scale-xl-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(3/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
+$light-scale-xl-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(3/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
+$light-scale-lg-fluid: round(($light-viewport-width/100) * $light-scale-lg-v + $light-scale-lg-r); // The preferred value or ideal size for the property.
+$light-scale-lg-r: ( $light-viewport-min * $light-scale-lg-max - $light-viewport-max * $light-scale-lg-min) / ($light-viewport-min-$light-viewport-max);
+$light-scale-lg-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(2/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
+$light-scale-lg-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(2/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
+$light-scale-md-fluid: round(($light-viewport-width/100) * $light-scale-md-v + $light-scale-md-r); // The preferred value or ideal size for the property.
+$light-scale-md-r: ( $light-viewport-min * $light-scale-md-max - $light-viewport-max * $light-scale-md-min) / ($light-viewport-min-$light-viewport-max);
+$light-scale-md-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(1/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
+$light-scale-md-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(1/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
+$light-scale-s-fluid: round(($light-viewport-width/100) * $light-scale-s-v + $light-scale-s-r); // The preferred value or ideal size for the property.
+$light-scale-s-r: ( $light-viewport-min * $light-scale-s-max - $light-viewport-max * $light-scale-s-min) / ($light-viewport-min-$light-viewport-max);
+$light-scale-s-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(0/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
+$light-scale-s-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(0/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
+$light-scale-xs-fluid: round(($light-viewport-width/100) * $light-scale-xs-v + $light-scale-xs-r); // The preferred value or ideal size for the property.
+$light-scale-xs-r: ( $light-viewport-min * $light-scale-xs-max - $light-viewport-max * $light-scale-xs-min) / ($light-viewport-min-$light-viewport-max);
+$light-scale-xs-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(-1/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
+$light-scale-xs-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(-1/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
 $light-spacing-2: $light-base;
 $light-sizing-2: $light-base;
 $light-vud-funct-default-dark-90: $light-vud-neutral-dark-90;
@@ -642,18 +642,18 @@ $light-vud-brand-neutral-dark-gradient: $light-vud-brand-neutral-dark-70;
 $light-vud-brand-neutral-light-gradient: $light-vud-brand-neutral-light-90;
 $light-vud-brand-secondary-gradient: $light-vud-brand-secondary-70;
 $light-vud-brand-primary-gradient: $light-vud-brand-primary-70;
-$light-scale-f4-clamp: min( max( $light-scale-f4-min,  $light-scale-f4-fluid) ,$light-scale-f4-max);
-$light-scale-f4-v: 100 * ($light-scale-f4-max-$light-scale-f4-min) / ($light-viewport-max-$light-viewport-min);
-$light-scale-f3-clamp: min( max( $light-scale-f3-min,  $light-scale-f3-fluid) ,$light-scale-f3-max);
-$light-scale-f3-v: 100 * ($light-scale-f3-max-$light-scale-f3-min) / ($light-viewport-max-$light-viewport-min);
-$light-scale-f2-clamp: min( max( $light-scale-f2-min,  $light-scale-f2-fluid) ,$light-scale-f2-max);
-$light-scale-f2-v: 100 * ($light-scale-f2-max-$light-scale-f2-min) / ($light-viewport-max-$light-viewport-min);
-$light-scale-f1-clamp: min( max( $light-scale-f1-min,  $light-scale-f1-fluid) ,$light-scale-f1-max);
-$light-scale-f1-v: 100 * ($light-scale-f1-max-$light-scale-f1-min) / ($light-viewport-max-$light-viewport-min);
-$light-scale-f0-clamp: min( max( $light-scale-f0-min,  $light-scale-f0-fluid) ,$light-scale-f0-max);
-$light-scale-f0-v: 100 * ($light-scale-f0-max-$light-scale-f0-min) / ($light-viewport-max-$light-viewport-min);
-$light-scale-f-1-clamp: min( max( $light-scale-f-1-min,  $light-scale-f-1-fluid) ,$light-scale-f-1-max);
-$light-scale-f-1-v: 100 * ($light-scale-f-1-max-$light-scale-f-1-min) / ($light-viewport-max-$light-viewport-min);
+$light-scale-xxl-clamp: min( max( $light-scale-xxl-min,  $light-scale-xxl-fluid) ,$light-scale-xxl-max);
+$light-scale-xxl-v: 100 * ($light-scale-xxl-max-$light-scale-xxl-min) / ($light-viewport-max-$light-viewport-min);
+$light-scale-xl-clamp: min( max( $light-scale-xl-min,  $light-scale-xl-fluid) ,$light-scale-xl-max);
+$light-scale-xl-v: 100 * ($light-scale-xl-max-$light-scale-xl-min) / ($light-viewport-max-$light-viewport-min);
+$light-scale-lg-clamp: min( max( $light-scale-lg-min,  $light-scale-lg-fluid) ,$light-scale-lg-max);
+$light-scale-lg-v: 100 * ($light-scale-lg-max-$light-scale-lg-min) / ($light-viewport-max-$light-viewport-min);
+$light-scale-md-clamp: min( max( $light-scale-md-min,  $light-scale-md-fluid) ,$light-scale-md-max);
+$light-scale-md-v: 100 * ($light-scale-md-max-$light-scale-md-min) / ($light-viewport-max-$light-viewport-min);
+$light-scale-s-clamp: min( max( $light-scale-s-min,  $light-scale-s-fluid) ,$light-scale-s-max);
+$light-scale-s-v: 100 * ($light-scale-s-max-$light-scale-s-min) / ($light-viewport-max-$light-viewport-min);
+$light-scale-xs-clamp: min( max( $light-scale-xs-min,  $light-scale-xs-fluid) ,$light-scale-xs-max);
+$light-scale-xs-v: 100 * ($light-scale-xs-max-$light-scale-xs-min) / ($light-viewport-max-$light-viewport-min);
 $light-spacing-256: $light-spacing-2*128;
 $light-spacing-128: $light-spacing-2*64;
 $light-spacing-96: $light-spacing-2*48;
@@ -1278,12 +1278,12 @@ $light-ref-properties-border-on-destructive-default-disabled: $light-ref-propert
 $light-ref-properties-border-on-destructive-default-focused: $light-ref-properties-border-on-default-focused; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
 $light-ref-properties-border-on-secondary-disabled: $light-ref-properties-border-on-default-disabled; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-ref-properties-border-on-primary-disabled: $light-ref-properties-border-on-default-disabled; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-font-size-1: $light-scale-f-1-clamp;
-$light-font-size-4: $light-scale-f4-clamp;
-$light-font-size-3: $light-scale-f3-clamp;
-$light-font-size-2: $light-scale-f2-clamp;
-$light-font-size-1: $light-scale-f1-clamp;
-$light-font-size-0: $light-scale-f0-clamp;
+$light-font-size-xxl: $light-scale-xxl-clamp;
+$light-font-size-xl: $light-scale-xl-clamp;
+$light-font-size-lg: $light-scale-lg-clamp;
+$light-font-size-md: $light-scale-md-clamp;
+$light-font-size-s: $light-scale-s-clamp;
+$light-font-size-xs: $light-scale-xs-clamp;
 $light-comp-table-border-error: $light-comp-btn-default-on-destructive-border-enabled; // Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
 $light-comp-table-surface-error: $light-comp-btn-default-on-destructive-surface-transparent; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-comp-situation-funct-border-muted: $light-ref-properties-border-on-funct-muted; // Muted border refers to a subtle border style. 
