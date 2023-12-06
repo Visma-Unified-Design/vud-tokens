@@ -7,8 +7,7 @@
           "Themes/light",
           "Extends/density",
           "Extends/dimension",
-          "Extends/pictogram",
-          "Extends/radius"
+          "Extends/pictogram"
         ],
         "supernovaBrand": "VUD",
         "supernovaTheme": null
@@ -19,8 +18,7 @@
           "Themes/dark",
           "Extends/density",
           "Extends/dimension",
-          "Extends/pictogram",
-          "Extends/radius"
+          "Extends/pictogram"
         ],
         "supernovaBrand": "VUD",
         "supernovaTheme": "Dark"
