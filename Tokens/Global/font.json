@@ -1,0 +1,776 @@
+{
+  "scale": {
+    "const": {
+      "min": {
+        "f0": {
+          "value": "16",
+          "type": "fontSizes",
+          "description": "This base font-size is expressed in pixels (px) for min. viewport.\n\n\nA base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%)."
+        },
+        "r": {
+          "value": "1.5",
+          "type": "fontSizes"
+        },
+        "n": {
+          "value": "5",
+          "type": "fontSizes"
+        }
+      },
+      "max": {
+        "f0": {
+          "value": "14",
+          "type": "fontSizes",
+          "description": "This base font-size is expressed in pixels (px) for max. viewport.\n\n\nA base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%)."
+        },
+        "r": {
+          "value": "2.8",
+          "type": "fontSizes"
+        },
+        "n": {
+          "value": "5",
+          "type": "fontSizes"
+        }
+      }
+    },
+    "xs": {
+      "min": {
+        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(-1/{scale.const.min.n})/5),1)",
+        "type": "fontSizes",
+        "description": "The minimum value the property can take."
+      },
+      "max": {
+        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(-1/{scale.const.max.n})/5),1)",
+        "type": "fontSizes",
+        "description": "The maximum value the property can take."
+      },
+      "v": {
+        "value": "100 * ({scale.xs.max}-{scale.xs.min}) / ({viewport.max}-{viewport.min})",
+        "type": "fontSizes"
+      },
+      "r": {
+        "value": "( {viewport.min} * {scale.xs.max} - {viewport.max} * {scale.xs.min}) / ({viewport.min}-{viewport.max})",
+        "type": "fontSizes"
+      },
+      "fluid": {
+        "value": "round(({viewport.width}/100) * {scale.xs.v} + {scale.xs.r})",
+        "type": "fontSizes",
+        "description": "The preferred value or ideal size for the property."
+      },
+      "clamp": {
+        "value": "min( max( {scale.xs.min},  {scale.xs.fluid}) ,{scale.xs.max})",
+        "type": "fontSizes"
+      },
+      "clamp-css": {
+        "value": "clamp(0.94rem, calc(-0.26vw + 1.00rem), 0.69rem)",
+        "type": "fontSizes",
+        "description": "Intended for development."
+      }
+    },
+    "s": {
+      "min": {
+        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(0/{scale.const.min.n})/5),1)",
+        "type": "fontSizes",
+        "description": "The minimum value the property can take."
+      },
+      "max": {
+        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(0/{scale.const.max.n})/5),1)",
+        "type": "fontSizes",
+        "description": "The maximum value the property can take."
+      },
+      "v": {
+        "value": "100 * ({scale.s.max}-{scale.s.min}) / ({viewport.max}-{viewport.min})",
+        "type": "fontSizes"
+      },
+      "r": {
+        "value": "( {viewport.min} * {scale.s.max} - {viewport.max} * {scale.s.min}) / ({viewport.min}-{viewport.max})",
+        "type": "fontSizes"
+      },
+      "fluid": {
+        "value": "round(({viewport.width}/100) * {scale.s.v} + {scale.s.r})",
+        "type": "fontSizes",
+        "description": "The preferred value or ideal size for the property."
+      },
+      "clamp": {
+        "value": "min( max( {scale.s.min},  {scale.s.fluid}) ,{scale.s.max})",
+        "type": "fontSizes"
+      },
+      "clamp-css": {
+        "value": "clamp(1.00rem, calc(-0.13vw + 1.03rem), 0.88rem)",
+        "type": "fontSizes",
+        "description": "Intended for development."
+      }
+    },
+    "md": {
+      "min": {
+        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(1/{scale.const.min.n})/5),1)",
+        "type": "fontSizes",
+        "description": "The minimum value the property can take."
+      },
+      "max": {
+        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(1/{scale.const.max.n})/5),1)",
+        "type": "fontSizes",
+        "description": "The maximum value the property can take."
+      },
+      "v": {
+        "value": "100 * ({scale.md.max}-{scale.md.min}) / ({viewport.max}-{viewport.min})",
+        "type": "fontSizes"
+      },
+      "r": {
+        "value": "( {viewport.min} * {scale.md.max} - {viewport.max} * {scale.md.min}) / ({viewport.min}-{viewport.max})",
+        "type": "fontSizes"
+      },
+      "fluid": {
+        "value": "round(({viewport.width}/100) * {scale.md.v} + {scale.md.r})",
+        "type": "fontSizes",
+        "description": "The preferred value or ideal size for the property."
+      },
+      "clamp": {
+        "value": "min( max( {scale.md.min},  {scale.md.fluid}) ,{scale.md.max})",
+        "type": "fontSizes"
+      },
+      "clamp-css": {
+        "value": "clamp(1.06rem, calc(0.00vw + 1.06rem), 1.06rem)",
+        "type": "fontSizes",
+        "description": "Intended for development."
+      }
+    },
+    "lg": {
+      "min": {
+        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(2/{scale.const.min.n})/5),1)",
+        "type": "fontSizes",
+        "description": "The minimum value the property can take."
+      },
+      "max": {
+        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(2/{scale.const.max.n})/5),1)",
+        "type": "fontSizes",
+        "description": "The maximum value the property can take."
+      },
+      "v": {
+        "value": "100 * ({scale.lg.max}-{scale.lg.min}) / ({viewport.max}-{viewport.min})",
+        "type": "fontSizes"
+      },
+      "r": {
+        "value": "( {viewport.min} * {scale.lg.max} - {viewport.max} * {scale.lg.min}) / ({viewport.min}-{viewport.max})",
+        "type": "fontSizes"
+      },
+      "fluid": {
+        "value": "round(({viewport.width}/100) * {scale.lg.v} + {scale.lg.r})",
+        "type": "fontSizes",
+        "description": "The preferred value or ideal size for the property."
+      },
+      "clamp": {
+        "value": "min( max( {scale.lg.min},  {scale.lg.fluid}) ,{scale.lg.max})",
+        "type": "fontSizes"
+      },
+      "clamp-css": {
+        "value": "clamp(1.19rem, calc(0.13vw + 1.16rem), 1.31rem)",
+        "type": "fontSizes",
+        "description": "Intended for development."
+      }
+    },
+    "xl": {
+      "min": {
+        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(3/{scale.const.min.n})/5),1)",
+        "type": "fontSizes",
+        "description": "The minimum value the property can take."
+      },
+      "max": {
+        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(3/{scale.const.max.n})/5),1)",
+        "type": "fontSizes",
+        "description": "The maximum value the property can take."
+      },
+      "v": {
+        "value": "100 * ({scale.xl.max}-{scale.xl.min}) / ({viewport.max}-{viewport.min})",
+        "type": "fontSizes"
+      },
+      "r": {
+        "value": "( {viewport.min} * {scale.xl.max} - {viewport.max} * {scale.xl.min}) / ({viewport.min}-{viewport.max})",
+        "type": "fontSizes"
+      },
+      "fluid": {
+        "value": "round(({viewport.width}/100) * {scale.xl.v} + {scale.xl.r})",
+        "type": "fontSizes",
+        "description": "The preferred value or ideal size for the property."
+      },
+      "clamp": {
+        "value": "min( max( {scale.xl.min},  {scale.xl.fluid}) ,{scale.xl.max})",
+        "type": "fontSizes"
+      },
+      "clamp-css": {
+        "value": "clamp(1.25rem, calc(0.38vw + 1.16rem), 1.63rem)",
+        "type": "fontSizes",
+        "description": "Intended for development."
+      }
+    },
+    "xxl": {
+      "min": {
+        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(4/{scale.const.min.n})/5),1)",
+        "type": "fontSizes",
+        "description": "The minimum value the property can take."
+      },
+      "max": {
+        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(4/{scale.const.max.n})/5),1)",
+        "type": "fontSizes",
+        "description": "The maximum value the property can take."
+      },
+      "v": {
+        "value": "100 * ({scale.xxl.max}-{scale.xxl.min}) / ({viewport.max}-{viewport.min})",
+        "type": "fontSizes"
+      },
+      "r": {
+        "value": "( {viewport.min} * {scale.xxl.max} - {viewport.max} * {scale.xxl.min}) / ({viewport.min}-{viewport.max})",
+        "type": "fontSizes"
+      },
+      "fluid": {
+        "value": "round(({viewport.width}/100) * {scale.xxl.v} + {scale.xxl.r})",
+        "type": "fontSizes",
+        "description": "The preferred value or ideal size for the property."
+      },
+      "clamp": {
+        "value": "min( max( {scale.xxl.min},  {scale.xxl.fluid}) ,{scale.xxl.max})",
+        "type": "fontSizes"
+      },
+      "clamp-css": {
+        "value": "clamp(1.38rem, calc(0.64vw + 1.23rem), 2.00rem)",
+        "type": "fontSizes",
+        "description": "Intended for development."
+      }
+    }
+  },
+  "font-size": {
+    "xs": {
+      "value": "{scale.xs.clamp}",
+      "type": "fontSizes"
+    },
+    "s": {
+      "value": "{scale.s.clamp}",
+      "type": "fontSizes"
+    },
+    "md": {
+      "value": "{scale.md.clamp}",
+      "type": "fontSizes"
+    },
+    "lg": {
+      "value": "{scale.lg.clamp}",
+      "type": "fontSizes"
+    },
+    "xl": {
+      "value": "{scale.xl.clamp}",
+      "type": "fontSizes"
+    },
+    "xxl": {
+      "value": "{scale.xxl.clamp}",
+      "type": "fontSizes"
+    }
+  },
+  "viewport": {
+    "width": {
+      "value": "1920",
+      "type": "sizing"
+    },
+    "min": {
+      "value": "320",
+      "type": "sizing"
+    },
+    "max": {
+      "value": "1920",
+      "type": "sizing"
+    }
+  },
+  "core-font-style-title": {
+    "lg-regular": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.normal}",
+        "lineHeight": "Auto",
+        "fontSize": "48px"
+      },
+      "type": "typography",
+      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
+    },
+    "lg-bold": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.bold}",
+        "lineHeight": "Auto",
+        "fontSize": "48px"
+      },
+      "type": "typography",
+      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
+    },
+    "md-regular": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.normal}",
+        "lineHeight": "Auto",
+        "fontSize": "32px"
+      },
+      "type": "typography",
+      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
+    },
+    "md-bold": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.bold}",
+        "lineHeight": "Auto",
+        "fontSize": "32px"
+      },
+      "type": "typography",
+      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
+    },
+    "s-regular": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.normal}",
+        "lineHeight": "Auto",
+        "fontSize": "24px"
+      },
+      "type": "typography",
+      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
+    },
+    "s-semibold": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.medium}",
+        "lineHeight": "Auto",
+        "fontSize": "24px"
+      },
+      "type": "typography",
+      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
+    },
+    "s-bold": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.bold}",
+        "lineHeight": "Auto",
+        "fontSize": "24px"
+      },
+      "type": "typography",
+      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
+    },
+    "xs-regular": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.normal}",
+        "fontSize": "20px",
+        "lineHeight": "Auto"
+      },
+      "type": "typography",
+      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
+    },
+    "xs-semibold": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.medium}",
+        "fontSize": "20px",
+        "lineHeight": "Auto"
+      },
+      "type": "typography",
+      "description": "Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts"
+    },
+    "xs-bold": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.bold}",
+        "lineHeight": "Auto",
+        "fontSize": "20px"
+      },
+      "type": "typography",
+      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
+    }
+  },
+  "core-font-style-body": {
+    "primary-lg-regular": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.normal}",
+        "lineHeight": "Auto",
+        "fontSize": "20px"
+      },
+      "type": "typography",
+      "description": "Body text establishes the fundamental font size used throughout an application.\n"
+    },
+    "primary-lg-semibold": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.medium}",
+        "lineHeight": "Auto",
+        "fontSize": "20px"
+      },
+      "type": "typography",
+      "description": "Body text establishes the fundamental font size used throughout an application.\n"
+    },
+    "primary-lg-bold": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.bold}",
+        "lineHeight": "Auto",
+        "fontSize": "48px"
+      },
+      "type": "typography",
+      "description": "Body text establishes the fundamental font size used throughout an application.\n"
+    },
+    "primary-s-regular": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.normal}",
+        "lineHeight": "Auto",
+        "fontSize": "16px"
+      },
+      "type": "typography",
+      "description": "Body text establishes the fundamental font size used throughout an application.\n"
+    },
+    "primary-s-bold": {
+      "value": {
+        "fontFamily": "{core-font-familiy-primary}",
+        "fontWeight": "{numeric-values-font-weight.bold}",
+        "lineHeight": "Auto",
+        "fontSize": "24px"
+      },
+      "type": "typography",
+      "description": "Body text establishes the fundamental font size used throughout an application.\n"
+    },
+    "secondary-md-regular": {
+      "value": {
+        "fontFamily": "{core-font-familiy-secondary}",
+        "fontWeight": "{numeric-values-font-weight.normal}",
+        "lineHeight": "Auto",
+        "fontSize": "14px"
+      },
+      "type": "typography",
+      "description": "Body text establishes the fundamental font size used throughout an application.\n"
+    },
+    "secondary-md-semibold": {
+      "value": {
+        "fontFamily": "{core-font-familiy-secondary}",
+        "fontWeight": "{numeric-values-font-weight.medium}",
+        "lineHeight": "Auto",
+        "fontSize": "14px"
+      },
+      "type": "typography",
+      "description": "Body text establishes the fundamental font size used throughout an application.\n"
+    },
+    "secondary-md-bold": {
+      "value": {
+        "fontFamily": "{core-font-familiy-secondary}",
+        "fontWeight": "{numeric-values-font-weight.bold}",
+        "lineHeight": "Auto",
+        "fontSize": "14px"
+      },
+      "type": "typography",
+      "description": "Body text establishes the fundamental font size used throughout an application.\n"
+    },
+    "secondary-s-regular": {
+      "value": {
+        "fontFamily": "{core-font-familiy-secondary}",
+        "fontWeight": "{numeric-values-font-weight.normal}",
+        "lineHeight": "Auto",
+        "fontSize": "13px"
+      },
+      "type": "typography",
+      "description": "Body text establishes the fundamental font size used throughout an application.\n"
+    },
+    "secondary-s-semibold": {
+      "value": {
+        "fontFamily": "{core-font-familiy-secondary}",
+        "fontWeight": "{numeric-values-font-weight.medium}",
+        "lineHeight": "Auto",
+        "fontSize": "13px"
+      },
+      "type": "typography",
+      "description": "Body text establishes the fundamental font size used throughout an application.\n"
+    },
+    "secondary-s-bold": {
+      "value": {
+        "fontFamily": "{core-font-familiy-secondary}",
+        "fontWeight": "{numeric-values-font-weight.bold}",
+        "lineHeight": "Auto",
+        "fontSize": "13px"
+      },
+      "type": "typography",
+      "description": "Body text establishes the fundamental font size used throughout an application.\n"
+    }
+  },
+  "ref-contextual": {
+    "regular": {
+      "callout": {
+        "value": {
+          "fontFamily": "{core-font-familiy-secondary}",
+          "fontSize": "{font-size.xs}",
+          "fontWeight": "{numeric-values-font-weight.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for highlighting important details or provide additional context. \n\nType scaling applied."
+      },
+      "h2": {
+        "value": {
+          "fontFamily": "{core-font-familiy-primary}",
+          "fontSize": "{font-size.lg}",
+          "fontWeight": "{numeric-values-font-weight.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for product-based UI designs such as panels, cards, and menus. \nThe h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section.\nType scaling applied."
+      },
+      "h4": {
+        "value": {
+          "fontFamily": "{core-font-familiy-primary}",
+          "fontWeight": "{numeric-values-font-weight.normal}",
+          "fontSize": "{font-size.s}"
+        },
+        "type": "typography",
+        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
+      },
+      "body": {
+        "value": {
+          "fontFamily": "{core-font-familiy-secondary}",
+          "fontWeight": "{numeric-values-font-weight.normal}",
+          "fontSize": "{font-size.s}"
+        },
+        "type": "typography",
+        "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
+      },
+      "link": {
+        "value": {
+          "fontFamily": "{core-font-familiy-secondary}",
+          "fontWeight": "{numeric-values-font-weight.normal}",
+          "fontSize": "{font-size.s}",
+          "textDecoration": "{underline}"
+        },
+        "type": "typography",
+        "description": "Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph."
+      }
+    },
+    "medium": {
+      "h1": {
+        "value": {
+          "fontFamily": "{core-font-familiy-primary}",
+          "fontSize": "{font-size.xxl}",
+          "fontWeight": "{numeric-values-font-weight.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h1 tag is commonly used to display the main title on a webpage.\nType scaling applied."
+      },
+      "h3": {
+        "value": {
+          "fontFamily": "{core-font-familiy-primary}",
+          "lineHeight": "",
+          "fontSize": "{font-size.md}",
+          "fontWeight": "{numeric-values-font-weight.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.\n\nType scaling applied."
+      },
+      "h4": {
+        "value": {
+          "fontFamily": "{core-font-familiy-primary}",
+          "fontWeight": "{numeric-values-font-weight.medium}",
+          "fontSize": "{font-size.s}"
+        },
+        "type": "typography",
+        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
+      },
+      "body": {
+        "value": {
+          "fontFamily": "{core-font-familiy-secondary}",
+          "fontWeight": "{numeric-values-font-weight.semi-bold}",
+          "fontSize": "{font-size.s}"
+        },
+        "type": "typography",
+        "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
+      }
+    },
+    "bold": {
+      "body": {
+        "value": {
+          "fontFamily": "{core-font-familiy-secondary}",
+          "fontWeight": "{numeric-values-font-weight.bold}",
+          "fontSize": "{font-size.s}"
+        },
+        "type": "typography",
+        "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
+      }
+    }
+  },
+  "ref-tabular": {
+    "regular": {
+      "td-xs": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.xs}",
+          "fontWeight": "{numeric-values-font-weight.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-s": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.s}",
+          "fontWeight": "{numeric-values-font-weight.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-md": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.md}",
+          "fontWeight": "{numeric-values-font-weight.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-lg": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.lg}",
+          "fontWeight": "{numeric-values-font-weight.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-xl": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.xl}",
+          "fontWeight": "{numeric-values-font-weight.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-xxl": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.xxl}",
+          "fontWeight": "{numeric-values-font-weight.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      }
+    },
+    "medium": {
+      "td-xs": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.xs}",
+          "fontWeight": "{numeric-values-font-weight.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-s": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.s}",
+          "fontWeight": "{numeric-values-font-weight.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-md": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.md}",
+          "fontWeight": "{numeric-values-font-weight.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-lg": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.lg}",
+          "fontWeight": "{numeric-values-font-weight.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-xl": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.xl}",
+          "fontWeight": "{numeric-values-font-weight.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-xxl": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.xxl}",
+          "fontWeight": "{numeric-values-font-weight.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      }
+    },
+    "semibold": {
+      "td-xs": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.xs}",
+          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-s": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.s}",
+          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-md": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.md}",
+          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-lg": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.lg}",
+          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-xl": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.xl}",
+          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      },
+      "td-xxl": {
+        "value": {
+          "fontFamily": "{core-font-familiy-tertiary}",
+          "fontSize": "{font-size.xxl}",
+          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\nType scaling applied."
+      }
+    }
+  },
+  "core-font-familiy-primary": {
+    "value": "Ubuntu",
+    "type": "fontFamilies"
+  },
+  "core-font-familiy-secondary": {
+    "value": "Open Sans",
+    "type": "fontFamilies"
+  },
+  "core-font-familiy-tertiary": {
+    "value": "Inter",
+    "type": "fontFamilies"
+  }
+}
