@@ -579,7 +579,7 @@
   },
   "ref-tabular": {
     "regular": {
-      "td--1": {
+      "td-xs": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.xs}",
@@ -588,7 +588,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-0": {
+      "td-s": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.s}",
@@ -597,7 +597,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-1": {
+      "td-md": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.md}",
@@ -606,7 +606,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-2": {
+      "td-lg": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.lg}",
@@ -615,7 +615,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-3": {
+      "td-xl": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.xl}",
@@ -624,7 +624,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-4": {
+      "td-xxl": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.xxl}",
@@ -635,7 +635,7 @@
       }
     },
     "medium": {
-      "td--1": {
+      "td-xs": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.xs}",
@@ -644,7 +644,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-0": {
+      "td-s": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.s}",
@@ -653,7 +653,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-1": {
+      "td-md": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.md}",
@@ -662,7 +662,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-2": {
+      "td-lg": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.lg}",
@@ -671,7 +671,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-3": {
+      "td-xl": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.xl}",
@@ -680,7 +680,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-4": {
+      "td-xxl": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.xxl}",
@@ -691,7 +691,7 @@
       }
     },
     "semibold": {
-      "td--1": {
+      "td-xs": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.xs}",
@@ -700,7 +700,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-0": {
+      "td-s": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.s}",
@@ -709,7 +709,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-1": {
+      "td-md": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.md}",
@@ -718,7 +718,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-2": {
+      "td-lg": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.lg}",
@@ -727,7 +727,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-3": {
+      "td-xl": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.xl}",
@@ -736,7 +736,7 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
       },
-      "td-4": {
+      "td-xxl": {
         "value": {
           "fontFamily": "{core-font-familiy-tertiary}",
           "fontSize": "{font-size.xxl}",
@@ -757,7 +757,7 @@
   },
   "viewport": {
     "width": {
-      "value": "1440",
+      "value": "1920",
       "type": "sizing"
     },
     "min": {
