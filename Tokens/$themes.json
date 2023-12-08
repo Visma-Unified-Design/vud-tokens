@@ -2093,7 +2093,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Density/condensed": "enabled",
-      "Extends/density": "source",
+      "Extends/density": "enabled",
       "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
@@ -2111,7 +2111,7 @@
     "selectedTokenSets": {
       "Density/default": "enabled",
       "Global/core": "source",
-      "Extends/density": "source"
+      "Extends/density": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:22",
@@ -2128,7 +2128,7 @@
     "selectedTokenSets": {
       "Density/regular": "enabled",
       "Global/core": "source",
-      "Extends/density": "source"
+      "Extends/density": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:23",
@@ -2145,7 +2145,7 @@
     "selectedTokenSets": {
       "Density/relaxed": "enabled",
       "Global/core": "source",
-      "Extends/density": "source"
+      "Extends/density": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:24",
@@ -2160,7 +2160,7 @@
     "name": "Small",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Extends/dimension": "source",
+      "Extends/dimension": "enabled",
       "Dimension/small": "enabled",
       "Global/core": "source"
     },
@@ -2176,7 +2176,7 @@
     "name": "Medium",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Extends/dimension": "source",
+      "Extends/dimension": "enabled",
       "Dimension/medium": "enabled",
       "Global/core": "source"
     },
@@ -2192,7 +2192,7 @@
     "name": "Large",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Extends/dimension": "source",
+      "Extends/dimension": "enabled",
       "Dimension/large": "enabled",
       "Global/core": "source"
     },
@@ -2209,7 +2209,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Pictogram/primary": "enabled",
-      "Extends/pictogram": "source",
+      "Extends/pictogram": "enabled",
       "Global/core": "source",
       "Themes/light": "source"
     },
@@ -2319,7 +2319,7 @@
     "name": "Secondary",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Extends/pictogram": "source",
+      "Extends/pictogram": "enabled",
       "Pictogram/secondary": "enabled",
       "Global/core": "source",
       "Themes/light": "source"
@@ -2339,7 +2339,7 @@
     "name": "Tertiary",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Extends/pictogram": "source",
+      "Extends/pictogram": "enabled",
       "Pictogram/tertiary": "enabled",
       "Global/core": "source",
       "Themes/light": "source"
