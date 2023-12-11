@@ -9,27 +9,27 @@
       "type": "borderRadius"
     },
     "xs": {
-      "value": "{vud-radii.xs}*2",
+      "value": "{vud-radii.xs}",
       "type": "borderRadius"
     },
     "s": {
-      "value": "{vud-radii.xxs}*4",
+      "value": "{vud-radii.xxs}",
       "type": "borderRadius"
     },
     "md": {
-      "value": "{vud-radii.md}*6",
+      "value": "{vud-radii.md}",
       "type": "borderRadius"
     },
     "lg": {
-      "value": "{vud-radii.lg}*8",
+      "value": "{vud-radii.lg}",
       "type": "borderRadius"
     },
     "xl": {
-      "value": "{vud-radii.xl}*12",
+      "value": "{vud-radii.xl}",
       "type": "borderRadius"
     },
     "xxl": {
-      "value": "{vud-radii.xxl}*16",
+      "value": "{vud-radii.xxl}",
       "type": "borderRadius"
     },
     "xxxl": {
