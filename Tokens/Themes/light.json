@@ -735,7 +735,6 @@
         "hover": {
           "value": "{brand.primary-70}",
           "type": "color",
-          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -745,7 +744,8 @@
                 "color": "{ref-brand.primary-70} "
               }
             }
-          }
+          },
+          "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "pressed": {
           "value": "{brand.primary-90}",
