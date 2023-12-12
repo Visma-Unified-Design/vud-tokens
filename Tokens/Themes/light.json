@@ -742,7 +742,7 @@
                 "type": "darken",
                 "value": "0.12",
                 "space": "hsl",
-                "color": "{ref-brand.primary-70} "
+                "color": "{brand.primary-70} "
               }
             }
           }
