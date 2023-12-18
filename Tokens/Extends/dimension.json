@@ -1,6 +1,14 @@
 {
   "dimension": {
-    "size": {
+    "size-small": {
+      "value": "{sizing.32}",
+      "type": "sizing"
+    },
+    "size-medium": {
+      "value": "{sizing.40}",
+      "type": "sizing"
+    },
+    "size-large": {
       "value": "{sizing.48}",
       "type": "sizing"
     }

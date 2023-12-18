@@ -9,27 +9,27 @@
       "type": "borderRadius"
     },
     "xs": {
-      "value": "{vud-radii.xs}*2",
+      "value": "{vud-radii.xs}",
       "type": "borderRadius"
     },
     "s": {
-      "value": "{vud-radii.xxs}*4",
+      "value": "{vud-radii.xxs}",
       "type": "borderRadius"
     },
     "md": {
-      "value": "{vud-radii.md}*6",
+      "value": "{vud-radii.md}",
       "type": "borderRadius"
     },
     "lg": {
-      "value": "{vud-radii.lg}*8",
+      "value": "{vud-radii.lg}",
       "type": "borderRadius"
     },
     "xl": {
-      "value": "{vud-radii.xl}*12",
+      "value": "{vud-radii.xl}",
       "type": "borderRadius"
     },
     "xxl": {
-      "value": "{vud-radii.xxl}*16",
+      "value": "{vud-radii.xxl}",
       "type": "borderRadius"
     },
     "xxxl": {
@@ -79,7 +79,7 @@
       "type": "color"
     },
     "primary-gradient": {
-      "value": "{vud-brand.primary-70}",
+      "value": "{brand.primary-70}",
       "type": "color"
     },
     "secondary-05": {
@@ -123,7 +123,7 @@
       "type": "color"
     },
     "secondary-gradient": {
-      "value": "{vud-brand.secondary-70}",
+      "value": "{brand.secondary-70}",
       "type": "color"
     },
     "tertiary-05": {
@@ -211,7 +211,7 @@
       "type": "color"
     },
     "neutral-light-gradient": {
-      "value": "{vud-brand.neutral-light-90}",
+      "value": "{brand.neutral-light-90}",
       "type": "color"
     },
     "neutral-dark-05": {
@@ -255,518 +255,8 @@
       "type": "color"
     },
     "neutral-dark-gradient": {
-      "value": "{vud-brand.neutral-dark-70}",
+      "value": "{brand.neutral-dark-70}",
       "type": "color"
-    }
-  },
-  "core-font-style-title": {
-    "lg-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "lineHeight": "Auto",
-        "fontSize": "48px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "lg-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "48px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "md-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "lineHeight": "Auto",
-        "fontSize": "32px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "md-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "32px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "s-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "lineHeight": "Auto",
-        "fontSize": "24px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "s-semibold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.medium}",
-        "lineHeight": "Auto",
-        "fontSize": "24px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "s-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "24px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "xs-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "fontSize": "20px",
-        "lineHeight": "Auto"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "xs-semibold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.medium}",
-        "fontSize": "20px",
-        "lineHeight": "Auto"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts"
-    },
-    "xs-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "20px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    }
-  },
-  "core-font-style-body": {
-    "primary-lg-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "lineHeight": "Auto",
-        "fontSize": "20px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "primary-lg-semibold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.medium}",
-        "lineHeight": "Auto",
-        "fontSize": "20px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "primary-lg-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "48px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "primary-s-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "lineHeight": "Auto",
-        "fontSize": "16px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "primary-s-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "24px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-md-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "lineHeight": "Auto",
-        "fontSize": "14px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-md-semibold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.medium}",
-        "lineHeight": "Auto",
-        "fontSize": "14px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-md-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "14px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-s-regular": {
-      "value": {
-        "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "lineHeight": "Auto",
-        "fontSize": "13px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-s-semibold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.medium}",
-        "lineHeight": "Auto",
-        "fontSize": "13px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-s-bold": {
-      "value": {
-        "fontFamily": "{core-font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "13px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    }
-  },
-  "core-font-familiy-primary": {
-    "value": "Ubuntu",
-    "type": "fontFamilies"
-  },
-  "ref-contextual": {
-    "regular": {
-      "callout": {
-        "value": {
-          "fontFamily": "{core-font-familiy-secondary}",
-          "fontSize": "{font-size.xs}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
-        },
-        "type": "typography",
-        "description": "Suitable for highlighting important details or provide additional context. \n\nType scaling applied."
-      },
-      "h2": {
-        "value": {
-          "fontFamily": "{core-font-familiy-primary}",
-          "fontSize": "{font-size.lg}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
-        },
-        "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus. \nThe h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section.\nType scaling applied."
-      },
-      "h4": {
-        "value": {
-          "fontFamily": "{core-font-familiy-primary}",
-          "fontWeight": "{numeric-values-font-weight.normal}",
-          "fontSize": "{font-size.s}"
-        },
-        "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
-      },
-      "body": {
-        "value": {
-          "fontFamily": "{core-font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.normal}",
-          "fontSize": "{font-size.s}"
-        },
-        "type": "typography",
-        "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
-      },
-      "link": {
-        "value": {
-          "fontFamily": "{core-font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.normal}",
-          "fontSize": "{font-size.s}",
-          "textDecoration": "{underline}"
-        },
-        "type": "typography",
-        "description": "Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph."
-      }
-    },
-    "medium": {
-      "h1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-primary}",
-          "fontSize": "{font-size.xxl}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
-        },
-        "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h1 tag is commonly used to display the main title on a webpage.\nType scaling applied."
-      },
-      "h3": {
-        "value": {
-          "fontFamily": "{core-font-familiy-primary}",
-          "lineHeight": "",
-          "fontSize": "{font-size.md}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
-        },
-        "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.\n\nType scaling applied."
-      },
-      "h4": {
-        "value": {
-          "fontFamily": "{core-font-familiy-primary}",
-          "fontWeight": "{numeric-values-font-weight.medium}",
-          "fontSize": "{font-size.s}"
-        },
-        "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
-      },
-      "body": {
-        "value": {
-          "fontFamily": "{core-font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}",
-          "fontSize": "{font-size.s}"
-        },
-        "type": "typography",
-        "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
-      }
-    },
-    "bold": {
-      "body": {
-        "value": {
-          "fontFamily": "{core-font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.bold}",
-          "fontSize": "{font-size.s}"
-        },
-        "type": "typography",
-        "description": "Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface. \n\nType scaling applied."
-      }
-    }
-  },
-  "ref-tabular": {
-    "regular": {
-      "td--1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.xs}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-0": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.s}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.md}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-2": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.lg}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-3": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.xl}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-4": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.xxl}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      }
-    },
-    "medium": {
-      "td--1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.xs}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-0": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.s}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.md}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-2": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.lg}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-3": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.xl}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-4": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.xxl}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      }
-    },
-    "semibold": {
-      "td--1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.xs}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-0": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.s}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-1": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.md}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-2": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.lg}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-3": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.xl}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      },
-      "td-4": {
-        "value": {
-          "fontFamily": "{core-font-familiy-tertiary}",
-          "fontSize": "{font-size.xxl}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\nType scaling applied."
-      }
-    }
-  },
-  "core-font-familiy-secondary": {
-    "value": "Open Sans",
-    "type": "fontFamilies"
-  },
-  "core-font-familiy-tertiary": {
-    "value": "Inter",
-    "type": "fontFamilies"
-  },
-  "viewport": {
-    "width": {
-      "value": "1440",
-      "type": "sizing"
-    },
-    "min": {
-      "value": "320",
-      "type": "sizing"
-    },
-    "max": {
-      "value": "1920",
-      "type": "sizing"
     }
   }
 }

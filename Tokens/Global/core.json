@@ -850,66 +850,7 @@
     "type": "textDecoration"
   },
   "scale": {
-    "const": {
-      "min": {
-        "f0": {
-          "value": "16",
-          "type": "fontSizes",
-          "description": "This base font-size is expressed in pixels (px) for min. viewport.\n\n\nA base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%)."
-        },
-        "r": {
-          "value": "1.5",
-          "type": "fontSizes"
-        },
-        "n": {
-          "value": "5",
-          "type": "fontSizes"
-        }
-      },
-      "max": {
-        "f0": {
-          "value": "14",
-          "type": "fontSizes",
-          "description": "This base font-size is expressed in pixels (px) for max. viewport.\n\n\nA base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%)."
-        },
-        "r": {
-          "value": "2.8",
-          "type": "fontSizes"
-        },
-        "n": {
-          "value": "5",
-          "type": "fontSizes"
-        }
-      }
-    },
     "xs": {
-      "min": {
-        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(-1/{scale.const.min.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The minimum value the property can take."
-      },
-      "max": {
-        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(-1/{scale.const.max.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The maximum value the property can take."
-      },
-      "v": {
-        "value": "100 * ({scale.xs.max}-{scale.xs.min}) / ({viewport.max}-{viewport.min})",
-        "type": "fontSizes"
-      },
-      "r": {
-        "value": "( {viewport.min} * {scale.xs.max} - {viewport.max} * {scale.xs.min}) / ({viewport.min}-{viewport.max})",
-        "type": "fontSizes"
-      },
-      "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.xs.v} + {scale.xs.r})",
-        "type": "fontSizes",
-        "description": "The preferred value or ideal size for the property."
-      },
-      "clamp": {
-        "value": "min( max( {scale.xs.min},  {scale.xs.fluid}) ,{scale.xs.max})",
-        "type": "fontSizes"
-      },
       "clamp-css": {
         "value": "clamp(0.94rem, calc(-0.26vw + 1.00rem), 0.69rem)",
         "type": "fontSizes",
@@ -917,33 +858,6 @@
       }
     },
     "s": {
-      "min": {
-        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(0/{scale.const.min.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The minimum value the property can take."
-      },
-      "max": {
-        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(0/{scale.const.max.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The maximum value the property can take."
-      },
-      "v": {
-        "value": "100 * ({scale.s.max}-{scale.s.min}) / ({viewport.max}-{viewport.min})",
-        "type": "fontSizes"
-      },
-      "r": {
-        "value": "( {viewport.min} * {scale.s.max} - {viewport.max} * {scale.s.min}) / ({viewport.min}-{viewport.max})",
-        "type": "fontSizes"
-      },
-      "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.s.v} + {scale.s.r})",
-        "type": "fontSizes",
-        "description": "The preferred value or ideal size for the property."
-      },
-      "clamp": {
-        "value": "min( max( {scale.s.min},  {scale.s.fluid}) ,{scale.s.max})",
-        "type": "fontSizes"
-      },
       "clamp-css": {
         "value": "clamp(1.00rem, calc(-0.13vw + 1.03rem), 0.88rem)",
         "type": "fontSizes",
@@ -951,33 +865,6 @@
       }
     },
     "md": {
-      "min": {
-        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(1/{scale.const.min.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The minimum value the property can take."
-      },
-      "max": {
-        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(1/{scale.const.max.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The maximum value the property can take."
-      },
-      "v": {
-        "value": "100 * ({scale.md.max}-{scale.md.min}) / ({viewport.max}-{viewport.min})",
-        "type": "fontSizes"
-      },
-      "r": {
-        "value": "( {viewport.min} * {scale.md.max} - {viewport.max} * {scale.md.min}) / ({viewport.min}-{viewport.max})",
-        "type": "fontSizes"
-      },
-      "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.md.v} + {scale.md.r})",
-        "type": "fontSizes",
-        "description": "The preferred value or ideal size for the property."
-      },
-      "clamp": {
-        "value": "min( max( {scale.md.min},  {scale.md.fluid}) ,{scale.md.max})",
-        "type": "fontSizes"
-      },
       "clamp-css": {
         "value": "clamp(1.06rem, calc(0.00vw + 1.06rem), 1.06rem)",
         "type": "fontSizes",
@@ -985,33 +872,6 @@
       }
     },
     "lg": {
-      "min": {
-        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(2/{scale.const.min.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The minimum value the property can take."
-      },
-      "max": {
-        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(2/{scale.const.max.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The maximum value the property can take."
-      },
-      "v": {
-        "value": "100 * ({scale.lg.max}-{scale.lg.min}) / ({viewport.max}-{viewport.min})",
-        "type": "fontSizes"
-      },
-      "r": {
-        "value": "( {viewport.min} * {scale.lg.max} - {viewport.max} * {scale.lg.min}) / ({viewport.min}-{viewport.max})",
-        "type": "fontSizes"
-      },
-      "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.lg.v} + {scale.lg.r})",
-        "type": "fontSizes",
-        "description": "The preferred value or ideal size for the property."
-      },
-      "clamp": {
-        "value": "min( max( {scale.lg.min},  {scale.lg.fluid}) ,{scale.lg.max})",
-        "type": "fontSizes"
-      },
       "clamp-css": {
         "value": "clamp(1.19rem, calc(0.13vw + 1.16rem), 1.31rem)",
         "type": "fontSizes",
@@ -1019,33 +879,6 @@
       }
     },
     "xl": {
-      "min": {
-        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(3/{scale.const.min.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The minimum value the property can take."
-      },
-      "max": {
-        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(3/{scale.const.max.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The maximum value the property can take."
-      },
-      "v": {
-        "value": "100 * ({scale.xl.max}-{scale.xl.min}) / ({viewport.max}-{viewport.min})",
-        "type": "fontSizes"
-      },
-      "r": {
-        "value": "( {viewport.min} * {scale.xl.max} - {viewport.max} * {scale.xl.min}) / ({viewport.min}-{viewport.max})",
-        "type": "fontSizes"
-      },
-      "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.xl.v} + {scale.xl.r})",
-        "type": "fontSizes",
-        "description": "The preferred value or ideal size for the property."
-      },
-      "clamp": {
-        "value": "min( max( {scale.xl.min},  {scale.xl.fluid}) ,{scale.xl.max})",
-        "type": "fontSizes"
-      },
       "clamp-css": {
         "value": "clamp(1.25rem, calc(0.38vw + 1.16rem), 1.63rem)",
         "type": "fontSizes",
@@ -1053,78 +886,11 @@
       }
     },
     "xxl": {
-      "min": {
-        "value": "5*roundTo(({scale.const.min.f0}*{scale.const.min.r}^(4/{scale.const.min.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The minimum value the property can take."
-      },
-      "max": {
-        "value": "5*roundTo(({scale.const.max.f0}*{scale.const.max.r}^(4/{scale.const.max.n})/5),1)",
-        "type": "fontSizes",
-        "description": "The maximum value the property can take."
-      },
-      "v": {
-        "value": "100 * ({scale.xxl.max}-{scale.xxl.min}) / ({viewport.max}-{viewport.min})",
-        "type": "fontSizes"
-      },
-      "r": {
-        "value": "( {viewport.min} * {scale.xxl.max} - {viewport.max} * {scale.xxl.min}) / ({viewport.min}-{viewport.max})",
-        "type": "fontSizes"
-      },
-      "fluid": {
-        "value": "round(({viewport.width}/100) * {scale.xxl.v} + {scale.xxl.r})",
-        "type": "fontSizes",
-        "description": "The preferred value or ideal size for the property."
-      },
-      "clamp": {
-        "value": "min( max( {scale.xxl.min},  {scale.xxl.fluid}) ,{scale.xxl.max})",
-        "type": "fontSizes"
-      },
       "clamp-css": {
         "value": "clamp(1.38rem, calc(0.64vw + 1.23rem), 2.00rem)",
         "type": "fontSizes",
         "description": "Intended for development."
       }
-    }
-  },
-  "font-size": {
-    "xs": {
-      "value": "{scale.xs.clamp}",
-      "type": "fontSizes"
-    },
-    "s": {
-      "value": "{scale.s.clamp}",
-      "type": "fontSizes"
-    },
-    "md": {
-      "value": "{scale.md.clamp}",
-      "type": "fontSizes"
-    },
-    "lg": {
-      "value": "{scale.lg.clamp}",
-      "type": "fontSizes"
-    },
-    "xl": {
-      "value": "{scale.xl.clamp}",
-      "type": "fontSizes"
-    },
-    "xxl": {
-      "value": "{scale.xxl.clamp}",
-      "type": "fontSizes"
-    }
-  },
-  "viewport": {
-    "width": {
-      "value": "1440",
-      "type": "sizing"
-    },
-    "min": {
-      "value": "320",
-      "type": "sizing"
-    },
-    "max": {
-      "value": "1920",
-      "type": "sizing"
     }
   },
   "keyword-values-font-weight": {
@@ -1137,228 +903,6 @@
       "value": "Bold",
       "type": "fontWeights",
       "description": "CSS syntax: font-weight-absolute> numeric values [1,1000]"
-    }
-  },
-  "vud-brand": {
-    "primary-05": {
-      "value": "{vud.green-05}",
-      "type": "color"
-    },
-    "primary-10": {
-      "value": "{vud.green-10}",
-      "type": "color"
-    },
-    "primary-20": {
-      "value": "{vud.green-20}",
-      "type": "color"
-    },
-    "primary-30": {
-      "value": "{vud.green-30}",
-      "type": "color"
-    },
-    "primary-40": {
-      "value": "{vud.green-40}",
-      "type": "color"
-    },
-    "primary-50": {
-      "value": "{vud.green-50}",
-      "type": "color"
-    },
-    "primary-60": {
-      "value": "{vud.green-60}",
-      "type": "color"
-    },
-    "primary-70": {
-      "value": "{vud.green-70}",
-      "type": "color"
-    },
-    "primary-80": {
-      "value": "{vud.green-80}",
-      "type": "color"
-    },
-    "primary-90": {
-      "value": "{vud.green-90}",
-      "type": "color"
-    },
-    "primary-gradient": {
-      "value": "{vud-brand.primary-70}",
-      "type": "color"
-    },
-    "secondary-05": {
-      "value": "{vud.blue-05}",
-      "type": "color"
-    },
-    "secondary-10": {
-      "value": "{vud.blue-10}",
-      "type": "color"
-    },
-    "secondary-20": {
-      "value": "{vud.blue-20}",
-      "type": "color"
-    },
-    "secondary-30": {
-      "value": "{vud.blue-30}",
-      "type": "color"
-    },
-    "secondary-40": {
-      "value": "{vud.blue-40}",
-      "type": "color"
-    },
-    "secondary-50": {
-      "value": "{vud.blue-50}",
-      "type": "color"
-    },
-    "secondary-60": {
-      "value": "{vud.blue-60}",
-      "type": "color"
-    },
-    "secondary-70": {
-      "value": "{vud.blue-70}",
-      "type": "color"
-    },
-    "secondary-80": {
-      "value": "{vud.blue-80}",
-      "type": "color"
-    },
-    "secondary-90": {
-      "value": "{vud.blue-90}",
-      "type": "color"
-    },
-    "secondary-gradient": {
-      "value": "{vud-brand.secondary-70}",
-      "type": "color"
-    },
-    "tertiary-05": {
-      "value": "{vud.purple-05}",
-      "type": "color"
-    },
-    "tertiary-10": {
-      "value": "{vud.purple-10}",
-      "type": "color"
-    },
-    "tertiary-20": {
-      "value": "{vud.purple-20}",
-      "type": "color"
-    },
-    "tertiary-30": {
-      "value": "{vud.purple-30}",
-      "type": "color"
-    },
-    "tertiary-40": {
-      "value": "{vud.purple-40}",
-      "type": "color"
-    },
-    "tertiary-50": {
-      "value": "{vud.purple-50}",
-      "type": "color"
-    },
-    "tertiary-60": {
-      "value": "{vud.purple-60}",
-      "type": "color"
-    },
-    "tertiary-70": {
-      "value": "{vud.purple-70}",
-      "type": "color"
-    },
-    "tertiary-80": {
-      "value": "{vud.purple-80}",
-      "type": "color"
-    },
-    "tertiary-90": {
-      "value": "{vud.purple-90}",
-      "type": "color"
-    },
-    "tertiary-gradient": {
-      "value": "{vud.purple-90}",
-      "type": "color"
-    },
-    "neutral-light-05": {
-      "value": "{vud.neutral-light-05}",
-      "type": "color"
-    },
-    "neutral-light-10": {
-      "value": "{vud.neutral-light-10}",
-      "type": "color"
-    },
-    "neutral-light-20": {
-      "value": "{vud.neutral-light-20}",
-      "type": "color"
-    },
-    "neutral-light-30": {
-      "value": "{vud.neutral-light-30}",
-      "type": "color"
-    },
-    "neutral-light-40": {
-      "value": "{vud.neutral-light-40}",
-      "type": "color"
-    },
-    "neutral-light-50": {
-      "value": "{vud.neutral-light-50}",
-      "type": "color"
-    },
-    "neutral-light-60": {
-      "value": "{vud.neutral-light-60}",
-      "type": "color"
-    },
-    "neutral-light-70": {
-      "value": "{vud.neutral-light-70}",
-      "type": "color"
-    },
-    "neutral-light-80": {
-      "value": "{vud.neutral-light-80}",
-      "type": "color"
-    },
-    "neutral-light-90": {
-      "value": "{vud.neutral-light-90}",
-      "type": "color"
-    },
-    "neutral-light-gradient": {
-      "value": "{vud-brand.neutral-light-90}",
-      "type": "color"
-    },
-    "neutral-dark-05": {
-      "value": "{vud.neutral-dark-05}",
-      "type": "color"
-    },
-    "neutral-dark-10": {
-      "value": "{vud.neutral-dark-10}",
-      "type": "color"
-    },
-    "neutral-dark-20": {
-      "value": "{vud.neutral-dark-20}",
-      "type": "color"
-    },
-    "neutral-dark-30": {
-      "value": "{vud.neutral-dark-30}",
-      "type": "color"
-    },
-    "neutral-dark-40": {
-      "value": "{vud.neutral-dark-40}",
-      "type": "color"
-    },
-    "neutral-dark-50": {
-      "value": "{vud.neutral-dark-50}",
-      "type": "color"
-    },
-    "neutral-dark-60": {
-      "value": "{vud.neutral-dark-60}",
-      "type": "color"
-    },
-    "neutral-dark-70": {
-      "value": "{vud.neutral-dark-70}",
-      "type": "color"
-    },
-    "neutral-dark-80": {
-      "value": "{vud.neutral-dark-80}",
-      "type": "color"
-    },
-    "neutral-dark-90": {
-      "value": "{vud.neutral-dark-90}",
-      "type": "color"
-    },
-    "neutral-dark-gradient": {
-      "value": "{vud-brand.neutral-dark-70}",
-      "type": "color"
     }
   }
 }
