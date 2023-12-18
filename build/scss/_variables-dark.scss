@@ -1,28 +1,16 @@
 
 // Do not edit directly
-// Generated on Wed, 06 Dec 2023 19:13:29 GMT
+// Generated on Mon, 18 Dec 2023 09:48:51 GMT
 
-$dark-core-font-familiy-tertiary: Inter;
-$dark-core-font-familiy-secondary: 'Open Sans';
-$dark-core-font-familiy-primary: Ubuntu;
 $dark-radii-xxxl: 9.9rem;
 $dark-keyword-values-font-weight-bold: 700; // CSS syntax: font-weight-absolute> numeric values [1,1000]
 $dark-keyword-values-font-weight-normal: 400; // CSS syntax: <font-weight-absolute> keyword values
-$dark-viewport-max: 192rem;
-$dark-viewport-min: 32rem;
-$dark-viewport-width: 144rem;
 $dark-scale-xxl-clamp-css: clamp(1.38rem, calc(0.64vw + 1.23rem), 2.00rem); // Intended for development.
 $dark-scale-xl-clamp-css: clamp(1.25rem, calc(0.38vw + 1.16rem), 1.63rem); // Intended for development.
 $dark-scale-lg-clamp-css: clamp(1.19rem, calc(0.13vw + 1.16rem), 1.31rem); // Intended for development.
 $dark-scale-md-clamp-css: clamp(1.06rem, calc(0.00vw + 1.06rem), 1.06rem); // Intended for development.
 $dark-scale-s-clamp-css: clamp(1.00rem, calc(-0.13vw + 1.03rem), 0.88rem); // Intended for development.
 $dark-scale-xs-clamp-css: clamp(0.94rem, calc(-0.26vw + 1.00rem), 0.69rem); // Intended for development.
-$dark-scale-const-max-n: 0.5rem;
-$dark-scale-const-max-r: 0.27999999999999997rem;
-$dark-scale-const-max-f0: 1.4rem; // This base font-size is expressed in pixels (px) for max. viewport.   A base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%).
-$dark-scale-const-min-n: 0.5rem;
-$dark-scale-const-min-r: 0.15rem;
-$dark-scale-const-min-f0: 1.6rem; // This base font-size is expressed in pixels (px) for min. viewport.   A base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%).
 $dark-underline: underline;
 $dark-numeric-values-font-weight-black: 900; // Black: <font-weight-absolute> numeric values [1,1000] 
 $dark-numeric-values-font-weight-extra-bold: 800; // Extra Bold: <font-weight-absolute> numeric values [1,1000] 
@@ -132,182 +120,58 @@ $dark-ref-shadow-default-elevation-0: 0 0 0 0 rgba(0, 0, 0, $dark-opacity-8);
 $dark-ref-properties-shade-moderate: rgba( $dark-vud-neutral-dark-90,$dark-opacity-12);
 $dark-ref-properties-shade-weak: rgba( $dark-vud-neutral-dark-90,$dark-opacity-8);
 $dark-ref-properties-fill-on-mark-default: $dark-vud-orange-10; // Suitable for highlighting text.
-$dark-ref-tabular-semibold-td-4: $dark-numeric-values-font-weight-semi-bold $dark-font-size-xxl/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-semibold-td-3: $dark-numeric-values-font-weight-semi-bold $dark-font-size-xl/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-semibold-td-2: $dark-numeric-values-font-weight-semi-bold $dark-font-size-lg/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-semibold-td-1: $dark-numeric-values-font-weight-semi-bold $dark-font-size-md/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-semibold-td-0: $dark-numeric-values-font-weight-semi-bold $dark-font-size-s/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-semibold-td-1: $dark-numeric-values-font-weight-semi-bold $dark-font-size-xs/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-medium-td-4: $dark-numeric-values-font-weight-medium $dark-font-size-xxl/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-medium-td-3: $dark-numeric-values-font-weight-medium $dark-font-size-xl/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-medium-td-2: $dark-numeric-values-font-weight-medium $dark-font-size-lg/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-medium-td-1: $dark-numeric-values-font-weight-medium $dark-font-size-md/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-medium-td-0: $dark-numeric-values-font-weight-medium $dark-font-size-s/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-medium-td-1: $dark-numeric-values-font-weight-medium $dark-font-size-xs/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-regular-td-4: $dark-numeric-values-font-weight-normal $dark-font-size-xxl/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-regular-td-3: $dark-numeric-values-font-weight-normal $dark-font-size-xl/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-regular-td-2: $dark-numeric-values-font-weight-normal $dark-font-size-lg/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-regular-td-1: $dark-numeric-values-font-weight-normal $dark-font-size-md/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-regular-td-0: $dark-numeric-values-font-weight-normal $dark-font-size-s/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-tabular-regular-td-1: $dark-numeric-values-font-weight-normal $dark-font-size-xs/1 $dark-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$dark-ref-contextual-bold-body: $dark-numeric-values-font-weight-bold $dark-font-size-s/1 $dark-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
-$dark-ref-contextual-medium-body: $dark-numeric-values-font-weight-semi-bold $dark-font-size-s/1 $dark-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
-$dark-ref-contextual-medium-h4: $dark-numeric-values-font-weight-medium $dark-font-size-s/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied.
-$dark-ref-contextual-medium-h3: $dark-numeric-values-font-weight-medium $dark-font-size-md/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.  Type scaling applied.
-$dark-ref-contextual-medium-h1: $dark-numeric-values-font-weight-medium $dark-font-size-xxl/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h1 tag is commonly used to display the main title on a webpage. Type scaling applied.
-$dark-ref-contextual-regular-link: $dark-numeric-values-font-weight-normal $dark-font-size-s/1 $dark-core-font-familiy-secondary; // Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph.
-$dark-ref-contextual-regular-body: $dark-numeric-values-font-weight-normal $dark-font-size-s/1 $dark-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
-$dark-ref-contextual-regular-h4: $dark-numeric-values-font-weight-normal $dark-font-size-s/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied.
-$dark-ref-contextual-regular-h2: $dark-numeric-values-font-weight-normal $dark-font-size-lg/1 $dark-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus.  The h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section. Type scaling applied.
-$dark-ref-contextual-regular-callout: $dark-numeric-values-font-weight-normal $dark-font-size-xs/1 $dark-core-font-familiy-secondary; // Suitable for highlighting important details or provide additional context.   Type scaling applied.
-$dark-core-font-style-body-secondary-s-bold: $dark-numeric-values-font-weight-bold 13px/Auto $dark-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
-$dark-core-font-style-body-secondary-s-semibold: $dark-numeric-values-font-weight-medium 13px/Auto $dark-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
-$dark-core-font-style-body-secondary-s-regular: $dark-numeric-values-font-weight-normal 13px/Auto $dark-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
-$dark-core-font-style-body-secondary-md-bold: $dark-numeric-values-font-weight-bold 14px/Auto $dark-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
-$dark-core-font-style-body-secondary-md-semibold: $dark-numeric-values-font-weight-medium 14px/Auto $dark-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
-$dark-core-font-style-body-secondary-md-regular: $dark-numeric-values-font-weight-normal 14px/Auto $dark-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
-$dark-core-font-style-body-primary-s-bold: $dark-numeric-values-font-weight-bold 24px/Auto $dark-core-font-familiy-primary; // Body text establishes the fundamental font size used throughout an application. 
-$dark-core-font-style-body-primary-s-regular: $dark-numeric-values-font-weight-normal 16px/Auto $dark-core-font-familiy-primary; // Body text establishes the fundamental font size used throughout an application. 
-$dark-core-font-style-body-primary-lg-bold: $dark-numeric-values-font-weight-bold 48px/Auto $dark-core-font-familiy-primary; // Body text establishes the fundamental font size used throughout an application. 
-$dark-core-font-style-body-primary-lg-semibold: $dark-numeric-values-font-weight-medium 20px/Auto $dark-core-font-familiy-primary; // Body text establishes the fundamental font size used throughout an application. 
-$dark-core-font-style-body-primary-lg-regular: $dark-numeric-values-font-weight-normal 20px/Auto $dark-core-font-familiy-primary; // Body text establishes the fundamental font size used throughout an application. 
-$dark-core-font-style-title-xs-bold: $dark-numeric-values-font-weight-bold 20px/Auto $dark-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$dark-core-font-style-title-xs-semibold: $dark-numeric-values-font-weight-medium 20px/Auto $dark-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts
-$dark-core-font-style-title-xs-regular: $dark-numeric-values-font-weight-normal 20px/Auto $dark-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$dark-core-font-style-title-s-bold: $dark-numeric-values-font-weight-bold 24px/Auto $dark-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$dark-core-font-style-title-s-semibold: $dark-numeric-values-font-weight-medium 24px/Auto $dark-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$dark-core-font-style-title-s-regular: $dark-numeric-values-font-weight-normal 24px/Auto $dark-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$dark-core-font-style-title-md-bold: $dark-numeric-values-font-weight-bold 32px/Auto $dark-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$dark-core-font-style-title-md-regular: $dark-numeric-values-font-weight-normal 32px/Auto $dark-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$dark-core-font-style-title-lg-bold: $dark-numeric-values-font-weight-bold 48px/Auto $dark-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$dark-core-font-style-title-lg-regular: $dark-numeric-values-font-weight-normal 48px/Auto $dark-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$dark-ref-brand-neutral-dark-90: $dark-vud-neutral-dark-90;
-$dark-ref-brand-neutral-dark-80: $dark-vud-neutral-dark-80;
-$dark-ref-brand-neutral-dark-70: $dark-vud-neutral-dark-70;
-$dark-ref-brand-neutral-dark-60: $dark-vud-neutral-dark-60;
-$dark-ref-brand-neutral-dark-50: $dark-vud-neutral-dark-50;
-$dark-ref-brand-neutral-dark-40: $dark-vud-neutral-dark-40;
-$dark-ref-brand-neutral-dark-30: $dark-vud-neutral-dark-30;
-$dark-ref-brand-neutral-dark-20: $dark-vud-neutral-dark-20;
-$dark-ref-brand-neutral-dark-10: $dark-vud-neutral-dark-10;
-$dark-ref-brand-neutral-dark-05: $dark-vud-neutral-dark-05;
-$dark-ref-brand-neutral-light-90: $dark-vud-neutral-light-90;
-$dark-ref-brand-neutral-light-80: $dark-vud-neutral-light-80;
-$dark-ref-brand-neutral-light-70: $dark-vud-neutral-light-70;
-$dark-ref-brand-neutral-light-60: $dark-vud-neutral-light-60;
-$dark-ref-brand-neutral-light-50: $dark-vud-neutral-light-50;
-$dark-ref-brand-neutral-light-40: $dark-vud-neutral-light-40;
-$dark-ref-brand-neutral-light-30: $dark-vud-neutral-light-30;
-$dark-ref-brand-neutral-light-20: $dark-vud-neutral-light-20;
-$dark-ref-brand-neutral-light-10: $dark-vud-neutral-light-10;
-$dark-ref-brand-neutral-light-05: $dark-vud-neutral-light-05;
-$dark-ref-brand-tertiary-gradient: $dark-vud-purple-90;
-$dark-ref-brand-tertiary-90: $dark-vud-purple-90;
-$dark-ref-brand-tertiary-80: $dark-vud-purple-80;
-$dark-ref-brand-tertiary-70: $dark-vud-purple-70;
-$dark-ref-brand-tertiary-60: $dark-vud-purple-60;
-$dark-ref-brand-tertiary-50: $dark-vud-purple-50;
-$dark-ref-brand-tertiary-40: $dark-vud-purple-40;
-$dark-ref-brand-tertiary-30: $dark-vud-purple-30;
-$dark-ref-brand-tertiary-20: $dark-vud-purple-20;
-$dark-ref-brand-tertiary-10: $dark-vud-purple-10;
-$dark-ref-brand-tertiary-05: $dark-vud-purple-05;
-$dark-ref-brand-secondary-90: $dark-vud-blue-90;
-$dark-ref-brand-secondary-80: $dark-vud-blue-80;
-$dark-ref-brand-secondary-70: $dark-vud-blue-70;
-$dark-ref-brand-secondary-60: $dark-vud-blue-60;
-$dark-ref-brand-secondary-50: $dark-vud-blue-50;
-$dark-ref-brand-secondary-40: $dark-vud-blue-40;
-$dark-ref-brand-secondary-30: $dark-vud-blue-30;
-$dark-ref-brand-secondary-20: $dark-vud-blue-20;
-$dark-ref-brand-secondary-10: $dark-vud-blue-10;
-$dark-ref-brand-secondary-05: $dark-vud-blue-05;
-$dark-ref-brand-primary-90: $dark-vud-green-90;
-$dark-ref-brand-primary-80: $dark-vud-green-80;
-$dark-ref-brand-primary-70: $dark-vud-green-70;
-$dark-ref-brand-primary-60: $dark-vud-green-60;
-$dark-ref-brand-primary-50: $dark-vud-green-50;
-$dark-ref-brand-primary-40: $dark-vud-green-40;
-$dark-ref-brand-primary-30: $dark-vud-green-30;
-$dark-ref-brand-primary-20: $dark-vud-green-20;
-$dark-ref-brand-primary-10: $dark-vud-green-10;
-$dark-ref-brand-primary-05: $dark-vud-green-05;
+$dark-brand-neutral-dark-90: $dark-vud-neutral-dark-90;
+$dark-brand-neutral-dark-80: $dark-vud-neutral-dark-80;
+$dark-brand-neutral-dark-70: $dark-vud-neutral-dark-70;
+$dark-brand-neutral-dark-60: $dark-vud-neutral-dark-60;
+$dark-brand-neutral-dark-50: $dark-vud-neutral-dark-50;
+$dark-brand-neutral-dark-40: $dark-vud-neutral-dark-40;
+$dark-brand-neutral-dark-30: $dark-vud-neutral-dark-30;
+$dark-brand-neutral-dark-20: $dark-vud-neutral-dark-20;
+$dark-brand-neutral-dark-10: $dark-vud-neutral-dark-10;
+$dark-brand-neutral-dark-05: $dark-vud-neutral-dark-05;
+$dark-brand-neutral-light-90: $dark-vud-neutral-light-90;
+$dark-brand-neutral-light-80: $dark-vud-neutral-light-80;
+$dark-brand-neutral-light-70: $dark-vud-neutral-light-70;
+$dark-brand-neutral-light-60: $dark-vud-neutral-light-60;
+$dark-brand-neutral-light-50: $dark-vud-neutral-light-50;
+$dark-brand-neutral-light-40: $dark-vud-neutral-light-40;
+$dark-brand-neutral-light-30: $dark-vud-neutral-light-30;
+$dark-brand-neutral-light-20: $dark-vud-neutral-light-20;
+$dark-brand-neutral-light-10: $dark-vud-neutral-light-10;
+$dark-brand-neutral-light-05: $dark-vud-neutral-light-05;
+$dark-brand-tertiary-gradient: $dark-vud-purple-90;
+$dark-brand-tertiary-90: $dark-vud-purple-90;
+$dark-brand-tertiary-80: $dark-vud-purple-80;
+$dark-brand-tertiary-70: $dark-vud-purple-70;
+$dark-brand-tertiary-60: $dark-vud-purple-60;
+$dark-brand-tertiary-50: $dark-vud-purple-50;
+$dark-brand-tertiary-40: $dark-vud-purple-40;
+$dark-brand-tertiary-30: $dark-vud-purple-30;
+$dark-brand-tertiary-20: $dark-vud-purple-20;
+$dark-brand-tertiary-10: $dark-vud-purple-10;
+$dark-brand-tertiary-05: $dark-vud-purple-05;
+$dark-brand-secondary-90: $dark-vud-blue-90;
+$dark-brand-secondary-80: $dark-vud-blue-80;
+$dark-brand-secondary-70: $dark-vud-blue-70;
+$dark-brand-secondary-60: $dark-vud-blue-60;
+$dark-brand-secondary-50: $dark-vud-blue-50;
+$dark-brand-secondary-40: $dark-vud-blue-40;
+$dark-brand-secondary-30: $dark-vud-blue-30;
+$dark-brand-secondary-20: $dark-vud-blue-20;
+$dark-brand-secondary-10: $dark-vud-blue-10;
+$dark-brand-secondary-05: $dark-vud-blue-05;
+$dark-brand-primary-90: $dark-vud-green-90;
+$dark-brand-primary-80: $dark-vud-green-80;
+$dark-brand-primary-70: $dark-vud-green-70;
+$dark-brand-primary-60: $dark-vud-green-60;
+$dark-brand-primary-50: $dark-vud-green-50;
+$dark-brand-primary-40: $dark-vud-green-40;
+$dark-brand-primary-30: $dark-vud-green-30;
+$dark-brand-primary-20: $dark-vud-green-20;
+$dark-brand-primary-10: $dark-vud-green-10;
+$dark-brand-primary-05: $dark-vud-green-05;
 $dark-radii-none: $dark-vud-radii-none;
-$dark-vud-brand-neutral-dark-90: $dark-vud-neutral-dark-90;
-$dark-vud-brand-neutral-dark-80: $dark-vud-neutral-dark-80;
-$dark-vud-brand-neutral-dark-70: $dark-vud-neutral-dark-70;
-$dark-vud-brand-neutral-dark-60: $dark-vud-neutral-dark-60;
-$dark-vud-brand-neutral-dark-50: $dark-vud-neutral-dark-50;
-$dark-vud-brand-neutral-dark-40: $dark-vud-neutral-dark-40;
-$dark-vud-brand-neutral-dark-30: $dark-vud-neutral-dark-30;
-$dark-vud-brand-neutral-dark-20: $dark-vud-neutral-dark-20;
-$dark-vud-brand-neutral-dark-10: $dark-vud-neutral-dark-10;
-$dark-vud-brand-neutral-dark-05: $dark-vud-neutral-dark-05;
-$dark-vud-brand-neutral-light-90: $dark-vud-neutral-light-90;
-$dark-vud-brand-neutral-light-80: $dark-vud-neutral-light-80;
-$dark-vud-brand-neutral-light-70: $dark-vud-neutral-light-70;
-$dark-vud-brand-neutral-light-60: $dark-vud-neutral-light-60;
-$dark-vud-brand-neutral-light-50: $dark-vud-neutral-light-50;
-$dark-vud-brand-neutral-light-40: $dark-vud-neutral-light-40;
-$dark-vud-brand-neutral-light-30: $dark-vud-neutral-light-30;
-$dark-vud-brand-neutral-light-20: $dark-vud-neutral-light-20;
-$dark-vud-brand-neutral-light-10: $dark-vud-neutral-light-10;
-$dark-vud-brand-neutral-light-05: $dark-vud-neutral-light-05;
-$dark-vud-brand-tertiary-gradient: $dark-vud-purple-90;
-$dark-vud-brand-tertiary-90: $dark-vud-purple-90;
-$dark-vud-brand-tertiary-80: $dark-vud-purple-80;
-$dark-vud-brand-tertiary-70: $dark-vud-purple-70;
-$dark-vud-brand-tertiary-60: $dark-vud-purple-60;
-$dark-vud-brand-tertiary-50: $dark-vud-purple-50;
-$dark-vud-brand-tertiary-40: $dark-vud-purple-40;
-$dark-vud-brand-tertiary-30: $dark-vud-purple-30;
-$dark-vud-brand-tertiary-20: $dark-vud-purple-20;
-$dark-vud-brand-tertiary-10: $dark-vud-purple-10;
-$dark-vud-brand-tertiary-05: $dark-vud-purple-05;
-$dark-vud-brand-secondary-90: $dark-vud-blue-90;
-$dark-vud-brand-secondary-80: $dark-vud-blue-80;
-$dark-vud-brand-secondary-70: $dark-vud-blue-70;
-$dark-vud-brand-secondary-60: $dark-vud-blue-60;
-$dark-vud-brand-secondary-50: $dark-vud-blue-50;
-$dark-vud-brand-secondary-40: $dark-vud-blue-40;
-$dark-vud-brand-secondary-30: $dark-vud-blue-30;
-$dark-vud-brand-secondary-20: $dark-vud-blue-20;
-$dark-vud-brand-secondary-10: $dark-vud-blue-10;
-$dark-vud-brand-secondary-05: $dark-vud-blue-05;
-$dark-vud-brand-primary-90: $dark-vud-green-90;
-$dark-vud-brand-primary-80: $dark-vud-green-80;
-$dark-vud-brand-primary-70: $dark-vud-green-70;
-$dark-vud-brand-primary-60: $dark-vud-green-60;
-$dark-vud-brand-primary-50: $dark-vud-green-50;
-$dark-vud-brand-primary-40: $dark-vud-green-40;
-$dark-vud-brand-primary-30: $dark-vud-green-30;
-$dark-vud-brand-primary-20: $dark-vud-green-20;
-$dark-vud-brand-primary-10: $dark-vud-green-10;
-$dark-vud-brand-primary-05: $dark-vud-green-05;
-$dark-scale-xxl-fluid: round(($dark-viewport-width/100) * $dark-scale-xxl-v + $dark-scale-xxl-r); // The preferred value or ideal size for the property.
-$dark-scale-xxl-r: ( $dark-viewport-min * $dark-scale-xxl-max - $dark-viewport-max * $dark-scale-xxl-min) / ($dark-viewport-min-$dark-viewport-max);
-$dark-scale-xxl-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(4/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
-$dark-scale-xxl-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(4/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
-$dark-scale-xl-fluid: round(($dark-viewport-width/100) * $dark-scale-xl-v + $dark-scale-xl-r); // The preferred value or ideal size for the property.
-$dark-scale-xl-r: ( $dark-viewport-min * $dark-scale-xl-max - $dark-viewport-max * $dark-scale-xl-min) / ($dark-viewport-min-$dark-viewport-max);
-$dark-scale-xl-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(3/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
-$dark-scale-xl-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(3/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
-$dark-scale-lg-fluid: round(($dark-viewport-width/100) * $dark-scale-lg-v + $dark-scale-lg-r); // The preferred value or ideal size for the property.
-$dark-scale-lg-r: ( $dark-viewport-min * $dark-scale-lg-max - $dark-viewport-max * $dark-scale-lg-min) / ($dark-viewport-min-$dark-viewport-max);
-$dark-scale-lg-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(2/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
-$dark-scale-lg-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(2/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
-$dark-scale-md-fluid: round(($dark-viewport-width/100) * $dark-scale-md-v + $dark-scale-md-r); // The preferred value or ideal size for the property.
-$dark-scale-md-r: ( $dark-viewport-min * $dark-scale-md-max - $dark-viewport-max * $dark-scale-md-min) / ($dark-viewport-min-$dark-viewport-max);
-$dark-scale-md-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(1/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
-$dark-scale-md-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(1/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
-$dark-scale-s-fluid: round(($dark-viewport-width/100) * $dark-scale-s-v + $dark-scale-s-r); // The preferred value or ideal size for the property.
-$dark-scale-s-r: ( $dark-viewport-min * $dark-scale-s-max - $dark-viewport-max * $dark-scale-s-min) / ($dark-viewport-min-$dark-viewport-max);
-$dark-scale-s-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(0/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
-$dark-scale-s-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(0/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
-$dark-scale-xs-fluid: round(($dark-viewport-width/100) * $dark-scale-xs-v + $dark-scale-xs-r); // The preferred value or ideal size for the property.
-$dark-scale-xs-r: ( $dark-viewport-min * $dark-scale-xs-max - $dark-viewport-max * $dark-scale-xs-min) / ($dark-viewport-min-$dark-viewport-max);
-$dark-scale-xs-max: 5*roundTo(($dark-scale-const-max-f0*$dark-scale-const-max-r^(-1/$dark-scale-const-max-n)/5),1); // The maximum value the property can take.
-$dark-scale-xs-min: 5*roundTo(($dark-scale-const-min-f0*$dark-scale-const-min-r^(-1/$dark-scale-const-min-n)/5),1); // The minimum value the property can take.
 $dark-spacing-2: $dark-base;
 $dark-sizing-2: $dark-base;
 $dark-vud-funct-default-dark-90: $dark-vud-neutral-dark-90;
@@ -387,73 +251,73 @@ $dark-vud-radii-md: $dark-base*6;
 $dark-vud-radii-s: $dark-base*4;
 $dark-vud-radii-xs: $dark-base*2;
 $dark-vud-radii-xxs: $dark-base;
-$dark-comp-toggle-border-emphasis: $dark-vud-brand-secondary-50; // Border with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$dark-comp-toggle-border-emphasis: $dark-brand-secondary-50; // Border with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $dark-comp-toggle-border-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$dark-comp-toggle-surface-emphasis: $dark-vud-brand-secondary-50; // Surface with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$dark-comp-toggle-surface-emphasis: $dark-brand-secondary-50; // Surface with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $dark-comp-toggle-surface-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $dark-comp-table-border-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $dark-comp-table-surface-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $dark-comp-switch-border-transparent: rgba($dark-vud-funct-default-light-05, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $dark-comp-situation-funct-surface-overlay-inverse: $dark-ref-properties-shade-weak; // Default alerts. Lower prio statuses such as pairing 
-$dark-comp-search-brand-border-hover: $dark-vud-brand-primary-70; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-comp-search-brand-border-enabled: $dark-vud-brand-primary-60; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$dark-comp-progress-secondary-border-strong: $dark-vud-brand-secondary-50; // Medium intensity.
-$dark-comp-progress-secondary-border-moderate: linear-gradient(180deg, $dark-vud-brand-secondary-05 0%, $dark-vud-brand-secondary-60 100%); // Normal intensity.
-$dark-comp-progress-secondary-border-weak: $dark-vud-brand-secondary-20; // Low intensity.
-$dark-comp-progress-primary-border-strong: $dark-vud-brand-primary-70; // Medium intensity.
-$dark-comp-progress-primary-border-moderate: linear-gradient(180deg, $dark-vud-brand-primary-05 0%, $dark-vud-brand-primary-70 100%); // Normal intensity.
-$dark-comp-progress-primary-border-weak: $dark-vud-brand-primary-20; // Low intensity.
-$dark-comp-progress-default-border-strong: $dark-vud-brand-neutral-dark-80; // Medium intensity.
-$dark-comp-progress-default-border-moderate: linear-gradient(180deg, $dark-vud-brand-neutral-dark-20 0%, $dark-vud-brand-neutral-dark-80 100%); // Normal intensity.
-$dark-comp-progress-text-secondary: $dark-vud-brand-neutral-dark-80; // Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.  
-$dark-comp-nav-stepper-surface-strong: $dark-vud-brand-secondary-60; // Medium intensity.
-$dark-comp-nav-stepper-surface-moderate: linear-gradient(90deg, $dark-vud-brand-primary-60 0%, $dark-vud-brand-secondary-60 100%); // Normal intensity.
-$dark-comp-nav-stepper-surface-weak: $dark-vud-brand-neutral-dark-40; // Low intensity.
+$dark-comp-search-brand-border-hover: $dark-brand-primary-70; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-comp-search-brand-border-enabled: $dark-brand-primary-60; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$dark-comp-progress-secondary-border-strong: $dark-brand-secondary-50; // Medium intensity.
+$dark-comp-progress-secondary-border-moderate: linear-gradient(180deg, $dark-brand-secondary-05 0%, $dark-brand-secondary-60 100%); // Normal intensity.
+$dark-comp-progress-secondary-border-weak: $dark-brand-secondary-20; // Low intensity.
+$dark-comp-progress-primary-border-strong: $dark-brand-primary-70; // Medium intensity.
+$dark-comp-progress-primary-border-moderate: linear-gradient(180deg, $dark-brand-primary-05 0%, $dark-brand-primary-70 100%); // Normal intensity.
+$dark-comp-progress-primary-border-weak: $dark-brand-primary-20; // Low intensity.
+$dark-comp-progress-default-border-strong: $dark-brand-neutral-dark-80; // Medium intensity.
+$dark-comp-progress-default-border-moderate: linear-gradient(180deg, $dark-brand-neutral-dark-20 0%, $dark-brand-neutral-dark-80 100%); // Normal intensity.
+$dark-comp-progress-text-secondary: $dark-brand-neutral-dark-80; // Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.  
+$dark-comp-nav-stepper-surface-strong: $dark-brand-secondary-60; // Medium intensity.
+$dark-comp-nav-stepper-surface-moderate: linear-gradient(90deg, $dark-brand-primary-60 0%, $dark-brand-secondary-60 100%); // Normal intensity.
+$dark-comp-nav-stepper-surface-weak: $dark-brand-neutral-dark-40; // Low intensity.
 $dark-comp-nav-vert-inverted-separator: $dark-ref-properties-shade-moderate;
-$dark-comp-nav-vert-inverted-border-selected-weak-hover: $dark-vud-brand-neutral-dark-60; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-comp-nav-vert-inverted-border-selected-weak: rgba( $dark-vud-brand-neutral-dark-60 , $dark-opacity-0); // Border with a selected state refers to an interaction that occurs when the ui element is active.
-$dark-comp-nav-vert-inverted-border-hover: $dark-vud-brand-neutral-dark-60; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-comp-nav-vert-inverted-border-selected-weak-hover: $dark-brand-neutral-dark-60; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-comp-nav-vert-inverted-border-selected-weak: rgba( $dark-brand-neutral-dark-60 , $dark-opacity-0); // Border with a selected state refers to an interaction that occurs when the ui element is active.
+$dark-comp-nav-vert-inverted-border-hover: $dark-brand-neutral-dark-60; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-comp-nav-vert-inverted-border-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $dark-comp-nav-vert-inverted-surface-selected-strong-hover: $dark-ref-properties-shade-weak; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-comp-nav-vert-inverted-surface-selected-weak-hover: $dark-ref-properties-shade-weak; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-comp-nav-vert-inverted-surface-selected-weak: $dark-ref-properties-shade-weak; // Surface with selected state refers to an interaction that occurs when the ui element is active. 
-$dark-comp-nav-vert-inverted-surface-default: $dark-vud-brand-neutral-dark-05; // Surface on container.
-$dark-comp-nav-vert-brand-border-selected-strong-hover: $dark-vud-brand-secondary-10; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-comp-nav-vert-brand-border-selected-strong: $dark-vud-brand-secondary-10; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-comp-nav-vert-brand-border-selected-weak-hover: $dark-vud-brand-secondary-10; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-comp-nav-vert-inverted-surface-default: $dark-brand-neutral-dark-05; // Surface on container.
+$dark-comp-nav-vert-brand-border-selected-strong-hover: $dark-brand-secondary-10; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-comp-nav-vert-brand-border-selected-strong: $dark-brand-secondary-10; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-comp-nav-vert-brand-border-selected-weak-hover: $dark-brand-secondary-10; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-comp-nav-vert-brand-border-selected-weak: $dark-ref-properties-shade-weak; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-comp-nav-vert-brand-border-hover: $dark-vud-brand-secondary-10; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-comp-nav-vert-brand-border-hover: $dark-brand-secondary-10; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-comp-nav-vert-brand-border-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $dark-comp-nav-vert-brand-surface-selected-strong-hover: $dark-ref-properties-shade-weak; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-comp-nav-vert-brand-surface-selected-weak-hover: $dark-ref-properties-shade-weak; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-comp-nav-vert-brand-surface-selected-weak: $dark-ref-properties-shade-weak; // Surface with selected state refers to an interaction that occurs when the ui element is active. 
-$dark-comp-nav-vert-brand-surface-default: $dark-vud-brand-secondary-60; // Surface on container.
-$dark-comp-nav-vert-default-border-selected-strong-hover: $dark-vud-brand-secondary-40; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-comp-nav-vert-default-border-selected-strong: $dark-vud-brand-secondary-50; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements.
+$dark-comp-nav-vert-brand-surface-default: $dark-brand-secondary-60; // Surface on container.
+$dark-comp-nav-vert-default-border-selected-strong-hover: $dark-brand-secondary-40; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-comp-nav-vert-default-border-selected-strong: $dark-brand-secondary-50; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements.
 $dark-comp-nav-vert-default-border-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$dark-comp-nav-vert-default-surface-selected-strong-hover: $dark-vud-brand-secondary-70; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-comp-nav-vert-default-surface-selected-strong: $dark-vud-brand-secondary-60; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements.
+$dark-comp-nav-vert-default-surface-selected-strong-hover: $dark-brand-secondary-70; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-comp-nav-vert-default-surface-selected-strong: $dark-brand-secondary-60; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements.
 $dark-comp-nav-vert-default-surface-selected-weak-hover: $dark-ref-properties-shade-weak; // Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-comp-nav-vert-default-surface-selected-weak: $dark-ref-properties-shade-weak; // Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $dark-comp-nav-vert-default-surface-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$dark-comp-nav-hor-inverted-border-selected: $dark-vud-brand-neutral-dark-60; // Border with a selected state refers to an interaction that occurs when the ui element is active.
-$dark-comp-nav-hor-inverted-border-hover: $dark-vud-brand-neutral-dark-60; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-comp-nav-hor-inverted-border-selected: $dark-brand-neutral-dark-60; // Border with a selected state refers to an interaction that occurs when the ui element is active.
+$dark-comp-nav-hor-inverted-border-hover: $dark-brand-neutral-dark-60; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-comp-nav-hor-inverted-border-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$dark-comp-nav-hor-inverted-surface-selected-strong: $dark-vud-brand-secondary-60; // Surface with strong selected state refers to an interaction that occurs when the ui element is active.
-$dark-comp-nav-hor-inverted-surface-selected-moderate: $dark-vud-brand-neutral-dark-05; // Surface with selected state refers to an interaction that occurs when the ui element is active. 
-$dark-comp-nav-hor-inverted-surface-default: $dark-vud-brand-neutral-dark-05; // Surface on container.
-$dark-comp-nav-hor-brand-border-selected: $dark-vud-brand-secondary-10; // Border with a moderate selected state refers to an interaction that occurs when the ui element is active.
-$dark-comp-nav-hor-brand-border-hover: $dark-vud-brand-secondary-10; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-comp-nav-hor-inverted-surface-selected-strong: $dark-brand-secondary-60; // Surface with strong selected state refers to an interaction that occurs when the ui element is active.
+$dark-comp-nav-hor-inverted-surface-selected-moderate: $dark-brand-neutral-dark-05; // Surface with selected state refers to an interaction that occurs when the ui element is active. 
+$dark-comp-nav-hor-inverted-surface-default: $dark-brand-neutral-dark-05; // Surface on container.
+$dark-comp-nav-hor-brand-border-selected: $dark-brand-secondary-10; // Border with a moderate selected state refers to an interaction that occurs when the ui element is active.
+$dark-comp-nav-hor-brand-border-hover: $dark-brand-secondary-10; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-comp-nav-hor-brand-border-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$dark-comp-nav-hor-brand-border-enabled: $dark-vud-brand-secondary-10; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$dark-comp-nav-hor-brand-surface-selected-strong: $dark-vud-brand-neutral-light-05; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. 
-$dark-comp-nav-hor-brand-surface-selected-moderate: $dark-vud-brand-secondary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. 
-$dark-comp-nav-hor-brand-surface-enabled: $dark-vud-brand-secondary-70; // Surface on container.
+$dark-comp-nav-hor-brand-border-enabled: $dark-brand-secondary-10; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$dark-comp-nav-hor-brand-surface-selected-strong: $dark-brand-neutral-light-05; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. 
+$dark-comp-nav-hor-brand-surface-selected-moderate: $dark-brand-secondary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. 
+$dark-comp-nav-hor-brand-surface-enabled: $dark-brand-secondary-70; // Surface on container.
 $dark-comp-nav-hor-default-border-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$dark-comp-nav-hor-default-surface-selected-strong: $dark-vud-brand-secondary-60; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. 
+$dark-comp-nav-hor-default-surface-selected-strong: $dark-brand-secondary-60; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. 
 $dark-comp-nav-hor-default-surface-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $dark-comp-messaging-border-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$dark-comp-messaging-surface-strong: $dark-vud-brand-secondary-60;
+$dark-comp-messaging-surface-strong: $dark-brand-secondary-60;
 $dark-comp-list-border-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $dark-comp-inputs-border-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $dark-comp-inputs-surface-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
@@ -464,33 +328,33 @@ $dark-comp-calendar-border-transparent: rgba($dark-vud-funct-default-dark-05, $d
 $dark-comp-calendar-surface-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $dark-comp-calendar-slot-surface-event3: $dark-vud-funct-success-05; // Optimal for scheduling work hours in a calendar.
 $dark-comp-calendar-slot-surface-event2: $dark-vud-funct-warning-05; // Optimal for scheduling sick leave in a calendar.
-$dark-comp-button-border-inner-shadow: inset 0 0 0 3px $dark-vud-brand-neutral-dark-90, 0 2px 4px 0 rgba(0, 0, 0, $dark-opacity-12);
+$dark-comp-button-border-inner-shadow: inset 0 0 0 3px $dark-brand-neutral-dark-90, 0 2px 4px 0 rgba(0, 0, 0, $dark-opacity-12);
 $dark-ref-shadow-brand-elevation-1: 0 2px 4px 0 rgba(49, 98, 69, $dark-opacity-12);
-$dark-comp-btn-secondary-on-tint-icon-inverse: $dark-vud-brand-secondary-10; // Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background.
-$dark-comp-btn-secondary-on-tint-icon-default: $dark-vud-brand-secondary-10; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
+$dark-comp-btn-secondary-on-tint-icon-inverse: $dark-brand-secondary-10; // Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background.
+$dark-comp-btn-secondary-on-tint-icon-default: $dark-brand-secondary-10; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
 $dark-comp-btn-secondary-on-tint-text-inverse: $dark-vud-funct-info-05; // Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.
 $dark-comp-btn-secondary-on-tint-text-default: $dark-vud-funct-info-05; // Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention.
-$dark-comp-btn-primary-on-tint-icon-inverse: $dark-vud-brand-primary-10; // Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background.
-$dark-comp-btn-primary-on-tint-icon-default: $dark-vud-brand-primary-10; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
+$dark-comp-btn-primary-on-tint-icon-inverse: $dark-brand-primary-10; // Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background.
+$dark-comp-btn-primary-on-tint-icon-default: $dark-brand-primary-10; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
 $dark-comp-btn-primary-on-tint-text-inverse: $dark-vud-funct-success-05; // Inverse text refers to the opposite color that contrasts with the background. 
 $dark-comp-btn-primary-on-tint-text-default: $dark-vud-funct-success-05; // Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention.
 $dark-comp-btn-default-on-destructive-text-default: $dark-vud-funct-error-40; // Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
 $dark-comp-btn-default-on-confimatory-border-transparent: rgba($dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$dark-ref-properties-tint-moderate: rgba( $dark-vud-brand-neutral-dark-05, $dark-opacity-12);
-$dark-ref-properties-tint-weak: rgba( $dark-vud-brand-neutral-dark-05, $dark-opacity-8);
-$dark-ref-properties-fill-on-surface-default: $dark-vud-brand-neutral-dark-70; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$dark-ref-properties-fill-on-secondary-tint-selected-hover: $dark-vud-brand-secondary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-fill-on-secondary-tint-selected: $dark-vud-brand-secondary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$dark-ref-properties-fill-on-secondary-tint-focused: $dark-vud-brand-secondary-90; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$dark-ref-properties-fill-on-secondary-tint-pressed: $dark-vud-brand-secondary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$dark-ref-properties-fill-on-secondary-tint-hover: $dark-vud-brand-secondary-70; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-fill-on-secondary-tint-enabled: $dark-vud-brand-secondary-90; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$dark-ref-properties-fill-on-primary-tint-selected-hover: $dark-vud-brand-primary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-fill-on-primary-tint-selected: $dark-vud-brand-primary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$dark-ref-properties-fill-on-primary-tint-focused: $dark-vud-brand-primary-90; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$dark-ref-properties-fill-on-primary-tint-pressed: $dark-vud-brand-primary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$dark-ref-properties-fill-on-primary-tint-hover: $dark-vud-brand-primary-70; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-fill-on-primary-tint-enabled: $dark-vud-brand-primary-90; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$dark-ref-properties-tint-moderate: rgba( $dark-brand-neutral-dark-05, $dark-opacity-12);
+$dark-ref-properties-tint-weak: rgba( $dark-brand-neutral-dark-05, $dark-opacity-8);
+$dark-ref-properties-fill-on-surface-default: $dark-brand-neutral-dark-70; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$dark-ref-properties-fill-on-secondary-tint-selected-hover: $dark-brand-secondary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-fill-on-secondary-tint-selected: $dark-brand-secondary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$dark-ref-properties-fill-on-secondary-tint-focused: $dark-brand-secondary-90; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$dark-ref-properties-fill-on-secondary-tint-pressed: $dark-brand-secondary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$dark-ref-properties-fill-on-secondary-tint-hover: $dark-brand-secondary-70; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-fill-on-secondary-tint-enabled: $dark-brand-secondary-90; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$dark-ref-properties-fill-on-primary-tint-selected-hover: $dark-brand-primary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-fill-on-primary-tint-selected: $dark-brand-primary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$dark-ref-properties-fill-on-primary-tint-focused: $dark-brand-primary-90; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$dark-ref-properties-fill-on-primary-tint-pressed: $dark-brand-primary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$dark-ref-properties-fill-on-primary-tint-hover: $dark-brand-primary-70; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-fill-on-primary-tint-enabled: $dark-brand-primary-90; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $dark-ref-properties-fill-on-funct-error-moderate: $dark-vud-funct-error-70; // Suitable for badges. Errors and failure statuses such as rejected, not sent, overdue, not delivered
 $dark-ref-properties-fill-on-funct-warning-moderate: $dark-vud-funct-warning-70; // Suitable for badges. Warnings and potential problem statuses such as partially paid, losses 
 $dark-ref-properties-fill-on-funct-draft-moderate: $dark-vud-funct-draft-70; // Suitable for badges. Temporary statuses such as drafts.
@@ -513,44 +377,44 @@ $dark-ref-properties-fill-on-destructive-default-focused: $dark-vud-funct-defaul
 $dark-ref-properties-fill-on-destructive-default-hover: $dark-vud-funct-error-70; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-ref-properties-fill-on-destructive-default-transparent: rgba($dark-vud-funct-error-05, $dark-opacity-0); // Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences.
 $dark-ref-properties-fill-on-destructive-default-enabled: $dark-vud-funct-default-dark-70; // Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
-$dark-ref-properties-fill-on-secondary-selected-hover: $dark-vud-brand-secondary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-fill-on-secondary-selected: $dark-vud-brand-secondary-70; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$dark-ref-properties-fill-on-secondary-focused: $dark-vud-brand-secondary-70; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$dark-ref-properties-fill-on-secondary-pressed: $dark-vud-brand-secondary-80; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$dark-ref-properties-fill-on-secondary-hover: $dark-vud-brand-secondary-70; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-fill-on-secondary-enabled: $dark-vud-brand-secondary-70; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$dark-ref-properties-fill-on-primary-selected-hover: $dark-vud-brand-primary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-fill-on-primary-selected: $dark-vud-brand-primary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$dark-ref-properties-fill-on-primary-focused: $dark-vud-brand-primary-70; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$dark-ref-properties-fill-on-primary-pressed: $dark-vud-brand-primary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$dark-ref-properties-fill-on-primary-hover: $dark-vud-brand-primary-70; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-fill-on-primary-enabled: $dark-vud-brand-primary-70; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$dark-ref-properties-fill-on-default-disabled: $dark-vud-brand-neutral-dark-70; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$dark-ref-properties-fill-on-default-selected-strong-hover: $dark-vud-brand-primary-80; // Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-fill-on-default-selected-strong: $dark-vud-brand-primary-80; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
-$dark-ref-properties-fill-on-default-selected-moderate-hover: $dark-vud-brand-neutral-dark-60; // Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-fill-on-default-selected-moderate: $dark-vud-brand-neutral-dark-80; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$dark-ref-properties-fill-on-default-selected-weak-hover: $dark-vud-brand-neutral-dark-60; // Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-fill-on-default-selected-weak: $dark-vud-brand-neutral-dark-80; // Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$dark-ref-properties-fill-on-default-focused: $dark-vud-brand-neutral-dark-60; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$dark-ref-properties-fill-on-default-pressed: $dark-vud-brand-neutral-dark-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$dark-ref-properties-fill-on-default-hover: $dark-vud-brand-neutral-dark-60; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-fill-on-default-transparent: rgba($dark-vud-brand-neutral-dark-60, $dark-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$dark-ref-properties-fill-on-default-muted: $dark-vud-brand-neutral-dark-80; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
-$dark-ref-properties-fill-on-default-inverse: $dark-vud-brand-neutral-dark-05; // Inverse surface contrast with the background.
-$dark-ref-properties-fill-on-default-enabled: $dark-vud-brand-neutral-dark-70; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$dark-ref-properties-border-on-secondary-tint-selected-hover: $dark-vud-brand-secondary-40; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-border-on-secondary-tint-selected: $dark-vud-brand-secondary-40; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
-$dark-ref-properties-border-on-secondary-tint-focused: $dark-vud-brand-neutral-dark-05; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$dark-ref-properties-border-on-secondary-tint-pressed: $dark-vud-brand-secondary-50; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$dark-ref-properties-border-on-secondary-tint-hover: $dark-vud-brand-secondary-50; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-border-on-secondary-tint-enabled: $dark-vud-brand-secondary-60; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$dark-ref-properties-border-on-primary-tint-selected-hover: $dark-vud-brand-primary-40; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-border-on-primary-tint-selected: $dark-vud-brand-primary-40; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$dark-ref-properties-border-on-primary-tint-focused: $dark-vud-brand-neutral-dark-05; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$dark-ref-properties-border-on-primary-tint-pressed: $dark-vud-brand-primary-60; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$dark-ref-properties-border-on-primary-tint-hover: $dark-vud-brand-primary-50; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-border-on-primary-tint-enabled: $dark-vud-brand-primary-60; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$dark-ref-properties-fill-on-secondary-selected-hover: $dark-brand-secondary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-fill-on-secondary-selected: $dark-brand-secondary-70; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$dark-ref-properties-fill-on-secondary-focused: $dark-brand-secondary-70; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$dark-ref-properties-fill-on-secondary-pressed: $dark-brand-secondary-80; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$dark-ref-properties-fill-on-secondary-hover: $dark-brand-secondary-70; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-fill-on-secondary-enabled: $dark-brand-secondary-70; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$dark-ref-properties-fill-on-primary-selected-hover: $dark-brand-primary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-fill-on-primary-selected: $dark-brand-primary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$dark-ref-properties-fill-on-primary-focused: $dark-brand-primary-70; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$dark-ref-properties-fill-on-primary-pressed: $dark-brand-primary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$dark-ref-properties-fill-on-primary-hover: $dark-brand-primary-70; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-fill-on-primary-enabled: $dark-brand-primary-70; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$dark-ref-properties-fill-on-default-disabled: $dark-brand-neutral-dark-70; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
+$dark-ref-properties-fill-on-default-selected-strong-hover: $dark-brand-primary-80; // Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-fill-on-default-selected-strong: $dark-brand-primary-80; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
+$dark-ref-properties-fill-on-default-selected-moderate-hover: $dark-brand-neutral-dark-60; // Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-fill-on-default-selected-moderate: $dark-brand-neutral-dark-80; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$dark-ref-properties-fill-on-default-selected-weak-hover: $dark-brand-neutral-dark-60; // Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-fill-on-default-selected-weak: $dark-brand-neutral-dark-80; // Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$dark-ref-properties-fill-on-default-focused: $dark-brand-neutral-dark-60; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$dark-ref-properties-fill-on-default-pressed: $dark-brand-neutral-dark-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$dark-ref-properties-fill-on-default-hover: $dark-brand-neutral-dark-60; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-fill-on-default-transparent: rgba($dark-brand-neutral-dark-60, $dark-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$dark-ref-properties-fill-on-default-muted: $dark-brand-neutral-dark-80; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
+$dark-ref-properties-fill-on-default-inverse: $dark-brand-neutral-dark-05; // Inverse surface contrast with the background.
+$dark-ref-properties-fill-on-default-enabled: $dark-brand-neutral-dark-70; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$dark-ref-properties-border-on-secondary-tint-selected-hover: $dark-brand-secondary-40; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-border-on-secondary-tint-selected: $dark-brand-secondary-40; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
+$dark-ref-properties-border-on-secondary-tint-focused: $dark-brand-neutral-dark-05; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$dark-ref-properties-border-on-secondary-tint-pressed: $dark-brand-secondary-50; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$dark-ref-properties-border-on-secondary-tint-hover: $dark-brand-secondary-50; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-border-on-secondary-tint-enabled: $dark-brand-secondary-60; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$dark-ref-properties-border-on-primary-tint-selected-hover: $dark-brand-primary-40; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-border-on-primary-tint-selected: $dark-brand-primary-40; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$dark-ref-properties-border-on-primary-tint-focused: $dark-brand-neutral-dark-05; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$dark-ref-properties-border-on-primary-tint-pressed: $dark-brand-primary-60; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$dark-ref-properties-border-on-primary-tint-hover: $dark-brand-primary-50; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-border-on-primary-tint-enabled: $dark-brand-primary-60; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $dark-ref-properties-border-on-funct-error-moderate: $dark-vud-funct-error-50; // Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered
 $dark-ref-properties-border-on-funct-warning-moderate: $dark-vud-funct-warning-50; // Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses 
 $dark-ref-properties-border-on-funct-draft-moderate: $dark-vud-funct-draft-50; // Alerts. Temporary statuses such as drafts
@@ -568,59 +432,59 @@ $dark-ref-properties-border-on-destructive-primary-hover: $dark-vud-funct-error-
 $dark-ref-properties-border-on-destructive-primary-transparent: rgba($dark-vud-funct-error-50, $dark-opacity-0); // Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences.
 $dark-ref-properties-border-on-destructive-primary-enabled: $dark-vud-funct-error-50; // Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
 $dark-ref-properties-border-on-destructive-default-pressed: $dark-vud-funct-error-50; // Border with pressed state refers to an interaction that occurs when the ui element is pressed.
-$dark-ref-properties-border-on-destructive-default-focused: $dark-vud-brand-neutral-dark-05; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$dark-ref-properties-border-on-destructive-default-focused: $dark-brand-neutral-dark-05; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
 $dark-ref-properties-border-on-destructive-default-hover: $dark-vud-funct-error-50; // Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-ref-properties-border-on-destructive-default-transparent: rgba( $dark-vud-funct-default-dark-05, $dark-opacity-0); // Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences.
 $dark-ref-properties-border-on-destructive-default-enabled: $dark-vud-funct-error-50; // Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
-$dark-ref-properties-border-on-secondary-selected-hover: $dark-vud-brand-secondary-40; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-border-on-secondary-selected: $dark-vud-brand-secondary-40; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
-$dark-ref-properties-border-on-secondary-focused: $dark-vud-brand-neutral-dark-05; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$dark-ref-properties-border-on-secondary-pressed: $dark-vud-brand-secondary-50; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$dark-ref-properties-border-on-secondary-hover: $dark-vud-brand-secondary-40; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-border-on-secondary-enabled: $dark-vud-brand-secondary-50; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$dark-ref-properties-border-on-primary-selected-hover: $dark-vud-brand-primary-40; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-border-on-primary-selected: $dark-vud-brand-primary-40; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
-$dark-ref-properties-border-on-primary-focused: $dark-vud-brand-neutral-dark-05; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$dark-ref-properties-border-on-primary-pressed: $dark-vud-brand-primary-50; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$dark-ref-properties-border-on-primary-hover: $dark-vud-brand-primary-40; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-border-on-primary-enabled: $dark-vud-brand-primary-50; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$dark-ref-properties-border-on-default-disabled: $dark-vud-brand-neutral-dark-60; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$dark-ref-properties-border-on-default-selected-strong-hover: $dark-vud-brand-primary-40; // Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-border-on-default-selected-strong: $dark-vud-brand-primary-40; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
-$dark-ref-properties-border-on-default-selected-moderate-hover: $dark-vud-brand-neutral-dark-30; // Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-border-on-default-selected-moderate: $dark-vud-brand-neutral-dark-50; // Border with a moderate selected state refers to an interaction that occurs when the ui element is active.
-$dark-ref-properties-border-on-default-selected-weak-hover: $dark-vud-brand-neutral-dark-50; // Border hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection.
-$dark-ref-properties-border-on-default-selected-weak: $dark-vud-brand-neutral-light-10; // Border with a selected state refers to an interaction that occurs when the ui element is active.
-$dark-ref-properties-border-on-default-focused: $dark-vud-brand-neutral-dark-05; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$dark-ref-properties-border-on-default-pressed: $dark-vud-brand-neutral-dark-50; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$dark-ref-properties-border-on-default-hover: $dark-vud-brand-neutral-dark-30; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$dark-ref-properties-border-on-default-transparent: rgba($dark-vud-brand-neutral-dark-50, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$dark-ref-properties-border-on-default-muted: $dark-vud-brand-neutral-dark-80; // Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
-$dark-ref-properties-border-on-default-inverse: $dark-vud-brand-neutral-dark-60; // Inverse border refers to the opposite color that contrasts with the background. 
-$dark-ref-properties-border-on-default-enabled: $dark-vud-brand-neutral-dark-50; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$dark-ref-properties-border-extreme: $dark-vud-brand-primary-60; // Extreme default border refers to a standard border style that is branded.
-$dark-ref-properties-border-strong: $dark-vud-brand-neutral-dark-30; // Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted separators.
-$dark-ref-properties-border-moderate: $dark-vud-brand-neutral-dark-50; // The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator. 
-$dark-ref-properties-border-weak: $dark-vud-brand-neutral-dark-70; // Weak border refers to a subtle border style.
-$dark-ref-properties-pictogram-on-tertiary-fill-emphasis: rgba( $dark-vud-brand-tertiary-60, $dark-opacity-24);
-$dark-ref-properties-pictogram-on-tertiary-fill-default: rgba($dark-vud-brand-neutral-dark-05, $dark-opacity-8);
-$dark-ref-properties-pictogram-on-tertiary-stroke-emphasis: $dark-vud-brand-tertiary-60;
-$dark-ref-properties-pictogram-on-tertiary-stroke-default: $dark-vud-brand-neutral-dark-50;
-$dark-ref-properties-pictogram-on-secondary-fill-emphasis: rgba( $dark-vud-brand-primary-60, $dark-opacity-24);
-$dark-ref-properties-pictogram-on-secondary-fill-default: rgba($dark-vud-brand-neutral-dark-05, $dark-opacity-8);
-$dark-ref-properties-pictogram-on-secondary-stroke-emphasis: $dark-vud-brand-primary-60;
-$dark-ref-properties-pictogram-on-secondary-stroke-default: $dark-vud-brand-neutral-dark-50;
-$dark-ref-properties-pictogram-on-primary-fill-emphasis: rgba( $dark-vud-brand-secondary-60, $dark-opacity-24);
-$dark-ref-properties-pictogram-on-primary-fill-default: rgba($dark-vud-brand-neutral-dark-05, $dark-opacity-8);
-$dark-ref-properties-pictogram-on-primary-stroke-emphasis: $dark-vud-brand-secondary-60;
-$dark-ref-properties-pictogram-on-primary-stroke-default: $dark-vud-brand-neutral-dark-50;
-$dark-ref-properties-icon-disabled: $dark-vud-brand-neutral-dark-30; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
+$dark-ref-properties-border-on-secondary-selected-hover: $dark-brand-secondary-40; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-border-on-secondary-selected: $dark-brand-secondary-40; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
+$dark-ref-properties-border-on-secondary-focused: $dark-brand-neutral-dark-05; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$dark-ref-properties-border-on-secondary-pressed: $dark-brand-secondary-50; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$dark-ref-properties-border-on-secondary-hover: $dark-brand-secondary-40; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-border-on-secondary-enabled: $dark-brand-secondary-50; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$dark-ref-properties-border-on-primary-selected-hover: $dark-brand-primary-40; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-border-on-primary-selected: $dark-brand-primary-40; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
+$dark-ref-properties-border-on-primary-focused: $dark-brand-neutral-dark-05; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$dark-ref-properties-border-on-primary-pressed: $dark-brand-primary-50; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$dark-ref-properties-border-on-primary-hover: $dark-brand-primary-40; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-border-on-primary-enabled: $dark-brand-primary-50; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$dark-ref-properties-border-on-default-disabled: $dark-brand-neutral-dark-60; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
+$dark-ref-properties-border-on-default-selected-strong-hover: $dark-brand-primary-40; // Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-border-on-default-selected-strong: $dark-brand-primary-40; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
+$dark-ref-properties-border-on-default-selected-moderate-hover: $dark-brand-neutral-dark-30; // Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-border-on-default-selected-moderate: $dark-brand-neutral-dark-50; // Border with a moderate selected state refers to an interaction that occurs when the ui element is active.
+$dark-ref-properties-border-on-default-selected-weak-hover: $dark-brand-neutral-dark-50; // Border hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection.
+$dark-ref-properties-border-on-default-selected-weak: $dark-brand-neutral-light-10; // Border with a selected state refers to an interaction that occurs when the ui element is active.
+$dark-ref-properties-border-on-default-focused: $dark-brand-neutral-dark-05; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$dark-ref-properties-border-on-default-pressed: $dark-brand-neutral-dark-50; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$dark-ref-properties-border-on-default-hover: $dark-brand-neutral-dark-30; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$dark-ref-properties-border-on-default-transparent: rgba($dark-brand-neutral-dark-50, $dark-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$dark-ref-properties-border-on-default-muted: $dark-brand-neutral-dark-80; // Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
+$dark-ref-properties-border-on-default-inverse: $dark-brand-neutral-dark-60; // Inverse border refers to the opposite color that contrasts with the background. 
+$dark-ref-properties-border-on-default-enabled: $dark-brand-neutral-dark-50; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$dark-ref-properties-border-extreme: $dark-brand-primary-60; // Extreme default border refers to a standard border style that is branded.
+$dark-ref-properties-border-strong: $dark-brand-neutral-dark-30; // Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted separators.
+$dark-ref-properties-border-moderate: $dark-brand-neutral-dark-50; // The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator. 
+$dark-ref-properties-border-weak: $dark-brand-neutral-dark-70; // Weak border refers to a subtle border style.
+$dark-ref-properties-pictogram-on-tertiary-fill-emphasis: rgba( $dark-brand-tertiary-60, $dark-opacity-24);
+$dark-ref-properties-pictogram-on-tertiary-fill-default: rgba($dark-brand-neutral-dark-05, $dark-opacity-8);
+$dark-ref-properties-pictogram-on-tertiary-stroke-emphasis: $dark-brand-tertiary-60;
+$dark-ref-properties-pictogram-on-tertiary-stroke-default: $dark-brand-neutral-dark-50;
+$dark-ref-properties-pictogram-on-secondary-fill-emphasis: rgba( $dark-brand-primary-60, $dark-opacity-24);
+$dark-ref-properties-pictogram-on-secondary-fill-default: rgba($dark-brand-neutral-dark-05, $dark-opacity-8);
+$dark-ref-properties-pictogram-on-secondary-stroke-emphasis: $dark-brand-primary-60;
+$dark-ref-properties-pictogram-on-secondary-stroke-default: $dark-brand-neutral-dark-50;
+$dark-ref-properties-pictogram-on-primary-fill-emphasis: rgba( $dark-brand-secondary-60, $dark-opacity-24);
+$dark-ref-properties-pictogram-on-primary-fill-default: rgba($dark-brand-neutral-dark-05, $dark-opacity-8);
+$dark-ref-properties-pictogram-on-primary-stroke-emphasis: $dark-brand-secondary-60;
+$dark-ref-properties-pictogram-on-primary-stroke-default: $dark-brand-neutral-dark-50;
+$dark-ref-properties-icon-disabled: $dark-brand-neutral-dark-30; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
 $dark-ref-properties-icon-success: $dark-vud-funct-success-40; // Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully.
 $dark-ref-properties-icon-warning: $dark-vud-funct-warning-40; // Warning icon serves as a visual cue to alert about potential issues, risks, or important information that requires attention.
 $dark-ref-properties-icon-error: $dark-vud-funct-error-40; // The error indicates the occurrence of an error or problem. Suitable for destructive icons.
-$dark-ref-properties-icon-emphasis: $dark-vud-brand-secondary-40; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
-$dark-ref-properties-icon-inverse: $dark-vud-brand-neutral-dark-90; // Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background.
-$dark-ref-properties-icon-default: $dark-vud-brand-neutral-dark-05; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
+$dark-ref-properties-icon-emphasis: $dark-brand-secondary-40; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
+$dark-ref-properties-icon-inverse: $dark-brand-neutral-dark-90; // Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background.
+$dark-ref-properties-icon-default: $dark-brand-neutral-dark-05; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
 $dark-ref-properties-text-error-weak: $dark-vud-funct-error-20; // Error text refers to incorrect or invalid information on a form or during a data entry process. 
 $dark-ref-properties-text-warning-weak: $dark-vud-funct-default-dark-20; // Warning text refers to content that conveys a warning, caution, or alert.
 $dark-ref-properties-text-draft-weak: $dark-vud-funct-draft-20; // Draft refers to temporary statuses.
@@ -629,42 +493,26 @@ $dark-ref-properties-text-success-weak: $dark-vud-funct-success-20; // Success t
 $dark-ref-properties-text-error-moderate: $dark-vud-funct-error-40; // Error text refers to incorrect or invalid information on a form or during a data entry process. 
 $dark-ref-properties-text-warning-moderate: $dark-vud-funct-warning-50; // Warning text refers to content that conveys a warning, caution, or alert.
 $dark-ref-properties-text-draft-moderate: $dark-vud-funct-draft-10; // Draft refers to temporary statuses.
-$dark-ref-properties-text-info-moderate: $dark-vud-brand-secondary-40; // Info text gives a clear summary of the information.
+$dark-ref-properties-text-info-moderate: $dark-brand-secondary-40; // Info text gives a clear summary of the information.
 $dark-ref-properties-text-success-moderate: $dark-vud-funct-success-50; // Success text refers to content that signifies a positive or affirmative message.
-$dark-ref-properties-text-disabled: $dark-vud-brand-neutral-dark-30; // Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with.
-$dark-ref-properties-text-links: $dark-vud-brand-neutral-dark-05; // Links refers to emphasis clickable elements.
+$dark-ref-properties-text-disabled: $dark-brand-neutral-dark-30; // Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with.
+$dark-ref-properties-text-links: $dark-brand-neutral-dark-05; // Links refers to emphasis clickable elements.
 $dark-ref-properties-text-visited: $dark-vud-funct-draft-10; // Visited link" refers to a hyperlink that has been previously clicked or accessed.
-$dark-ref-properties-text-emphasis: $dark-vud-brand-secondary-40; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
-$dark-ref-properties-text-secondary: $dark-vud-brand-neutral-dark-10; // Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.  
-$dark-ref-properties-text-inverse: $dark-vud-brand-neutral-dark-90; // Inverse text refers to the opposite color that contrasts with the background. 
-$dark-ref-properties-text-default: $dark-vud-brand-neutral-dark-10; // Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention.
-$dark-ref-brand-neutral-dark-gradient: $dark-vud-brand-neutral-dark-70;
-$dark-ref-brand-neutral-light-gradient: $dark-vud-brand-neutral-light-90;
-$dark-ref-brand-secondary-gradient: $dark-vud-brand-secondary-70;
-$dark-ref-brand-primary-gradient: $dark-vud-brand-primary-70;
-$dark-radii-xxl: $dark-vud-radii-xxl*16;
-$dark-radii-xl: $dark-vud-radii-xl*12;
-$dark-radii-lg: $dark-vud-radii-lg*8;
-$dark-radii-md: $dark-vud-radii-md*6;
-$dark-radii-s: $dark-vud-radii-xxs*4;
-$dark-radii-xs: $dark-vud-radii-xs*2;
+$dark-ref-properties-text-emphasis: $dark-brand-secondary-40; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
+$dark-ref-properties-text-secondary: $dark-brand-neutral-dark-10; // Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.  
+$dark-ref-properties-text-inverse: $dark-brand-neutral-dark-90; // Inverse text refers to the opposite color that contrasts with the background. 
+$dark-ref-properties-text-default: $dark-brand-neutral-dark-10; // Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention.
+$dark-brand-neutral-dark-gradient: $dark-brand-neutral-dark-70;
+$dark-brand-neutral-light-gradient: $dark-brand-neutral-light-90;
+$dark-brand-secondary-gradient: $dark-brand-secondary-70;
+$dark-brand-primary-gradient: $dark-brand-primary-70;
+$dark-radii-xxl: $dark-vud-radii-xxl;
+$dark-radii-xl: $dark-vud-radii-xl;
+$dark-radii-lg: $dark-vud-radii-lg;
+$dark-radii-md: $dark-vud-radii-md;
+$dark-radii-s: $dark-vud-radii-xxs;
+$dark-radii-xs: $dark-vud-radii-xs;
 $dark-radii-xxs: $dark-vud-radii-xxs;
-$dark-vud-brand-neutral-dark-gradient: $dark-vud-brand-neutral-dark-70;
-$dark-vud-brand-neutral-light-gradient: $dark-vud-brand-neutral-light-90;
-$dark-vud-brand-secondary-gradient: $dark-vud-brand-secondary-70;
-$dark-vud-brand-primary-gradient: $dark-vud-brand-primary-70;
-$dark-scale-xxl-clamp: min( max( $dark-scale-xxl-min,  $dark-scale-xxl-fluid) ,$dark-scale-xxl-max);
-$dark-scale-xxl-v: 100 * ($dark-scale-xxl-max-$dark-scale-xxl-min) / ($dark-viewport-max-$dark-viewport-min);
-$dark-scale-xl-clamp: min( max( $dark-scale-xl-min,  $dark-scale-xl-fluid) ,$dark-scale-xl-max);
-$dark-scale-xl-v: 100 * ($dark-scale-xl-max-$dark-scale-xl-min) / ($dark-viewport-max-$dark-viewport-min);
-$dark-scale-lg-clamp: min( max( $dark-scale-lg-min,  $dark-scale-lg-fluid) ,$dark-scale-lg-max);
-$dark-scale-lg-v: 100 * ($dark-scale-lg-max-$dark-scale-lg-min) / ($dark-viewport-max-$dark-viewport-min);
-$dark-scale-md-clamp: min( max( $dark-scale-md-min,  $dark-scale-md-fluid) ,$dark-scale-md-max);
-$dark-scale-md-v: 100 * ($dark-scale-md-max-$dark-scale-md-min) / ($dark-viewport-max-$dark-viewport-min);
-$dark-scale-s-clamp: min( max( $dark-scale-s-min,  $dark-scale-s-fluid) ,$dark-scale-s-max);
-$dark-scale-s-v: 100 * ($dark-scale-s-max-$dark-scale-s-min) / ($dark-viewport-max-$dark-viewport-min);
-$dark-scale-xs-clamp: min( max( $dark-scale-xs-min,  $dark-scale-xs-fluid) ,$dark-scale-xs-max);
-$dark-scale-xs-v: 100 * ($dark-scale-xs-max-$dark-scale-xs-min) / ($dark-viewport-max-$dark-viewport-min);
 $dark-spacing-256: $dark-spacing-2*128;
 $dark-spacing-128: $dark-spacing-2*64;
 $dark-spacing-96: $dark-spacing-2*48;
@@ -691,13 +539,29 @@ $dark-sizing-16: $dark-sizing-2*8;
 $dark-sizing-12: $dark-sizing-2*6;
 $dark-sizing-8: $dark-sizing-2*4;
 $dark-sizing-4: $dark-sizing-2*2;
-$dark-pictogram-fill-emphasis: $dark-ref-properties-pictogram-on-primary-fill-emphasis;
-$dark-pictogram-fill-default: $dark-ref-properties-pictogram-on-primary-fill-default;
-$dark-pictogram-stroke-emphasis: $dark-ref-properties-pictogram-on-primary-stroke-emphasis;
-$dark-pictogram-stroke-default: $dark-ref-properties-pictogram-on-primary-stroke-default; //  
-$dark-dimension-size: $dark-sizing-48;
-$dark-density-height: $dark-sizing-32;
-$dark-density-padding-height: $dark-spacing-8;
+$dark-pictogram-tertiary-fill-emphasis: $dark-ref-properties-pictogram-on-tertiary-fill-emphasis;
+$dark-pictogram-tertiary-fill-default: $dark-ref-properties-pictogram-on-tertiary-fill-default;
+$dark-pictogram-tertiary-stroke-emphasis: $dark-ref-properties-pictogram-on-tertiary-stroke-emphasis;
+$dark-pictogram-tertiary-stroke-default: $dark-ref-properties-pictogram-on-tertiary-stroke-default; //  
+$dark-pictogram-secondary-fill-emphasis: $dark-ref-properties-pictogram-on-secondary-fill-emphasis;
+$dark-pictogram-secondary-fill-default: $dark-ref-properties-pictogram-on-secondary-fill-default;
+$dark-pictogram-secondary-stroke-emphasis: $dark-ref-properties-pictogram-on-secondary-stroke-emphasis;
+$dark-pictogram-secondary-stroke-default: $dark-ref-properties-pictogram-on-secondary-stroke-default; //  
+$dark-pictogram-primary-fill-emphasis: $dark-ref-properties-pictogram-on-primary-fill-emphasis;
+$dark-pictogram-primary-fill-default: $dark-ref-properties-pictogram-on-primary-fill-default;
+$dark-pictogram-primary-stroke-emphasis: $dark-ref-properties-pictogram-on-primary-stroke-emphasis;
+$dark-pictogram-primary-stroke-default: $dark-ref-properties-pictogram-on-primary-stroke-default; //  
+$dark-dimension-size-large: $dark-sizing-48;
+$dark-dimension-size-medium: $dark-sizing-40;
+$dark-dimension-size-small: $dark-sizing-32;
+$dark-density-height-relaxed: $dark-sizing-56;
+$dark-density-padding-height-relaxed: $dark-spacing-16;
+$dark-density-padding-height-regular: $dark-spacing-16;
+$dark-density-height-regular: $dark-sizing-48;
+$dark-density-padding-height-default: $dark-spacing-12;
+$dark-density-height-default: $dark-sizing-40;
+$dark-density-height-condensed: $dark-sizing-32;
+$dark-density-padding-height-condensed: $dark-spacing-8;
 $dark-comp-toggle-border-disabled: $dark-ref-properties-border-on-default-disabled; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $dark-comp-toggle-border-error: $dark-ref-properties-border-on-destructive-default-enabled; // Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
 $dark-comp-toggle-border-focused: $dark-ref-properties-border-on-default-focused; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
@@ -959,7 +823,7 @@ $dark-comp-nav-hor-brand-surface-disabled: $dark-ref-properties-fill-on-default-
 $dark-comp-nav-hor-brand-surface-focused: $dark-ref-properties-fill-on-default-focused; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
 $dark-comp-nav-hor-brand-surface-hover: rgba($dark-ref-properties-fill-on-default-enabled, $dark-opacity-8); // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-comp-nav-hor-brand-surface-transparent: rgba( $dark-ref-properties-fill-on-default-enabled, $dark-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$dark-comp-nav-hor-brand-surface-default: $dark-vud-brand-secondary-gradient; // Surface on container.
+$dark-comp-nav-hor-brand-surface-default: $dark-brand-secondary-gradient; // Surface on container.
 $dark-comp-nav-hor-brand-icon-disabled: $dark-ref-properties-icon-disabled; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
 $dark-comp-nav-hor-brand-icon-emphasis: $dark-ref-properties-icon-emphasis; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
 $dark-comp-nav-hor-brand-icon-inverse: $dark-ref-properties-icon-default; // Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background.
@@ -1283,12 +1147,6 @@ $dark-ref-properties-border-on-destructive-primary-focused: $dark-ref-properties
 $dark-ref-properties-border-on-destructive-default-disabled: $dark-ref-properties-border-on-default-disabled; // Border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $dark-ref-properties-border-on-secondary-disabled: $dark-ref-properties-border-on-default-disabled; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $dark-ref-properties-border-on-primary-disabled: $dark-ref-properties-border-on-default-disabled; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$dark-font-size-xxl: $dark-scale-xxl-clamp;
-$dark-font-size-xl: $dark-scale-xl-clamp;
-$dark-font-size-lg: $dark-scale-lg-clamp;
-$dark-font-size-md: $dark-scale-md-clamp;
-$dark-font-size-s: $dark-scale-s-clamp;
-$dark-font-size-xs: $dark-scale-xs-clamp;
 $dark-comp-table-border-error: $dark-comp-btn-default-on-destructive-border-enabled; // Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
 $dark-comp-table-surface-error: $dark-comp-btn-default-on-destructive-surface-transparent; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $dark-comp-situation-funct-border-muted: $dark-ref-properties-border-on-funct-muted; // Muted border refers to a subtle border style. 

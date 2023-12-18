@@ -1,28 +1,16 @@
 
 // Do not edit directly
-// Generated on Wed, 06 Dec 2023 19:13:28 GMT
+// Generated on Mon, 18 Dec 2023 09:48:51 GMT
 
-$light-core-font-familiy-tertiary: Inter;
-$light-core-font-familiy-secondary: 'Open Sans';
-$light-core-font-familiy-primary: Ubuntu;
 $light-radii-xxxl: 9.9rem;
 $light-keyword-values-font-weight-bold: 700; // CSS syntax: font-weight-absolute> numeric values [1,1000]
 $light-keyword-values-font-weight-normal: 400; // CSS syntax: <font-weight-absolute> keyword values
-$light-viewport-max: 192rem;
-$light-viewport-min: 32rem;
-$light-viewport-width: 144rem;
 $light-scale-xxl-clamp-css: clamp(1.38rem, calc(0.64vw + 1.23rem), 2.00rem); // Intended for development.
 $light-scale-xl-clamp-css: clamp(1.25rem, calc(0.38vw + 1.16rem), 1.63rem); // Intended for development.
 $light-scale-lg-clamp-css: clamp(1.19rem, calc(0.13vw + 1.16rem), 1.31rem); // Intended for development.
 $light-scale-md-clamp-css: clamp(1.06rem, calc(0.00vw + 1.06rem), 1.06rem); // Intended for development.
 $light-scale-s-clamp-css: clamp(1.00rem, calc(-0.13vw + 1.03rem), 0.88rem); // Intended for development.
 $light-scale-xs-clamp-css: clamp(0.94rem, calc(-0.26vw + 1.00rem), 0.69rem); // Intended for development.
-$light-scale-const-max-n: 0.5rem;
-$light-scale-const-max-r: 0.27999999999999997rem;
-$light-scale-const-max-f0: 1.4rem; // This base font-size is expressed in pixels (px) for max. viewport.   A base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%).
-$light-scale-const-min-n: 0.5rem;
-$light-scale-const-min-r: 0.15rem;
-$light-scale-const-min-f0: 1.6rem; // This base font-size is expressed in pixels (px) for min. viewport.   A base font-size is the starting point for the text content on a web page. It acts as a reference for determining the sizes of all other fonts. It is commonly expressed in pixels (px) or relative units such as percentages (%).
 $light-underline: underline;
 $light-numeric-values-font-weight-black: 900; // Black: <font-weight-absolute> numeric values [1,1000] 
 $light-numeric-values-font-weight-extra-bold: 800; // Extra Bold: <font-weight-absolute> numeric values [1,1000] 
@@ -132,182 +120,58 @@ $light-ref-shadow-default-elevation-0: 0 0 0 0 rgba(37, 38, 38, $light-opacity-8
 $light-ref-properties-shade-moderate: rgba( $light-vud-neutral-dark-90,$light-opacity-12);
 $light-ref-properties-shade-weak: rgba( $light-vud-neutral-dark-90,$light-opacity-8);
 $light-ref-properties-fill-on-mark-default: $light-vud-orange-10; // Suitable for highligting text.
-$light-ref-tabular-semibold-td-4: $light-numeric-values-font-weight-semi-bold $light-font-size-xxl/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-semibold-td-3: $light-numeric-values-font-weight-semi-bold $light-font-size-xl/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-semibold-td-2: $light-numeric-values-font-weight-semi-bold $light-font-size-lg/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-semibold-td-1: $light-numeric-values-font-weight-semi-bold $light-font-size-md/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-semibold-td-0: $light-numeric-values-font-weight-semi-bold $light-font-size-s/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-semibold-td-1: $light-numeric-values-font-weight-semi-bold $light-font-size-xs/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-medium-td-4: $light-numeric-values-font-weight-medium $light-font-size-xxl/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-medium-td-3: $light-numeric-values-font-weight-medium $light-font-size-xl/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-medium-td-2: $light-numeric-values-font-weight-medium $light-font-size-lg/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-medium-td-1: $light-numeric-values-font-weight-medium $light-font-size-md/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-medium-td-0: $light-numeric-values-font-weight-medium $light-font-size-s/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-medium-td-1: $light-numeric-values-font-weight-medium $light-font-size-xs/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-regular-td-4: $light-numeric-values-font-weight-normal $light-font-size-xxl/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-regular-td-3: $light-numeric-values-font-weight-normal $light-font-size-xl/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-regular-td-2: $light-numeric-values-font-weight-normal $light-font-size-lg/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-regular-td-1: $light-numeric-values-font-weight-normal $light-font-size-md/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-regular-td-0: $light-numeric-values-font-weight-normal $light-font-size-s/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-tabular-regular-td-1: $light-numeric-values-font-weight-normal $light-font-size-xs/1 $light-core-font-familiy-tertiary; // Suitable for tabular data.  Type scaling applied.
-$light-ref-contextual-bold-body: $light-numeric-values-font-weight-bold $light-font-size-s/1 $light-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
-$light-ref-contextual-medium-body: $light-numeric-values-font-weight-semi-bold $light-font-size-s/1 $light-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
-$light-ref-contextual-medium-h4: $light-numeric-values-font-weight-medium $light-font-size-s/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied.
-$light-ref-contextual-medium-h3: $light-numeric-values-font-weight-medium $light-font-size-md/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.  Type scaling applied.
-$light-ref-contextual-medium-h1: $light-numeric-values-font-weight-medium $light-font-size-xxl/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h1 tag is commonly used to display the main title on a webpage. Type scaling applied.
-$light-ref-contextual-regular-link: $light-numeric-values-font-weight-normal $light-font-size-s/1 $light-core-font-familiy-secondary; // Suitable for navigating to another section or page. And also displaying as standalone items or inline within a sentence or paragraph.
-$light-ref-contextual-regular-body: $light-numeric-values-font-weight-normal $light-font-size-s/1 $light-core-font-familiy-secondary; // Base styles define the foundational type size within an application. Suitable for the main content area or body of a user interface.   Type scaling applied.
-$light-ref-contextual-regular-h4: $light-numeric-values-font-weight-normal $light-font-size-s/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus. The h4 tag is an HTML element used to define a fourth-level heading on a webpage or within a section of content. Type scaling applied.
-$light-ref-contextual-regular-h2: $light-numeric-values-font-weight-normal $light-font-size-lg/1 $light-core-font-familiy-primary; // Suitable for product-based UI designs such as panels, cards, and menus.  The h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section. Type scaling applied.
-$light-ref-contextual-regular-callout: $light-numeric-values-font-weight-normal $light-font-size-xs/1 $light-core-font-familiy-secondary; // Suitable for highlighting important details or provide additional context.   Type scaling applied.
-$light-core-font-style-body-secondary-s-bold: $light-numeric-values-font-weight-bold 13px/Auto $light-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
-$light-core-font-style-body-secondary-s-semibold: $light-numeric-values-font-weight-medium 13px/Auto $light-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
-$light-core-font-style-body-secondary-s-regular: $light-numeric-values-font-weight-normal 13px/Auto $light-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
-$light-core-font-style-body-secondary-md-bold: $light-numeric-values-font-weight-bold 14px/Auto $light-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
-$light-core-font-style-body-secondary-md-semibold: $light-numeric-values-font-weight-medium 14px/Auto $light-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
-$light-core-font-style-body-secondary-md-regular: $light-numeric-values-font-weight-normal 14px/Auto $light-core-font-familiy-secondary; // Body text establishes the fundamental font size used throughout an application. 
-$light-core-font-style-body-primary-s-bold: $light-numeric-values-font-weight-bold 24px/Auto $light-core-font-familiy-primary; // Body text establishes the fundamental font size used throughout an application. 
-$light-core-font-style-body-primary-s-regular: $light-numeric-values-font-weight-normal 16px/Auto $light-core-font-familiy-primary; // Body text establishes the fundamental font size used throughout an application. 
-$light-core-font-style-body-primary-lg-bold: $light-numeric-values-font-weight-bold 48px/Auto $light-core-font-familiy-primary; // Body text establishes the fundamental font size used throughout an application. 
-$light-core-font-style-body-primary-lg-semibold: $light-numeric-values-font-weight-medium 20px/Auto $light-core-font-familiy-primary; // Body text establishes the fundamental font size used throughout an application. 
-$light-core-font-style-body-primary-lg-regular: $light-numeric-values-font-weight-normal 20px/Auto $light-core-font-familiy-primary; // Body text establishes the fundamental font size used throughout an application. 
-$light-core-font-style-title-xs-bold: $light-numeric-values-font-weight-bold 20px/Auto $light-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$light-core-font-style-title-xs-semibold: $light-numeric-values-font-weight-medium 20px/Auto $light-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts
-$light-core-font-style-title-xs-regular: $light-numeric-values-font-weight-normal 20px/Auto $light-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$light-core-font-style-title-s-bold: $light-numeric-values-font-weight-bold 24px/Auto $light-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$light-core-font-style-title-s-semibold: $light-numeric-values-font-weight-medium 24px/Auto $light-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$light-core-font-style-title-s-regular: $light-numeric-values-font-weight-normal 24px/Auto $light-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$light-core-font-style-title-md-bold: $light-numeric-values-font-weight-bold 32px/Auto $light-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$light-core-font-style-title-md-regular: $light-numeric-values-font-weight-normal 32px/Auto $light-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$light-core-font-style-title-lg-bold: $light-numeric-values-font-weight-bold 48px/Auto $light-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$light-core-font-style-title-lg-regular: $light-numeric-values-font-weight-normal 48px/Auto $light-core-font-familiy-primary; // Suitable for content-based layouts like news articles or content-heavy pages.
-$light-ref-brand-neutral-dark-90: $light-vud-neutral-dark-90;
-$light-ref-brand-neutral-dark-80: $light-vud-neutral-dark-80;
-$light-ref-brand-neutral-dark-70: $light-vud-neutral-dark-70;
-$light-ref-brand-neutral-dark-60: $light-vud-neutral-dark-60;
-$light-ref-brand-neutral-dark-50: $light-vud-neutral-dark-50;
-$light-ref-brand-neutral-dark-40: $light-vud-neutral-dark-40;
-$light-ref-brand-neutral-dark-30: $light-vud-neutral-dark-30;
-$light-ref-brand-neutral-dark-20: $light-vud-neutral-dark-20;
-$light-ref-brand-neutral-dark-10: $light-vud-neutral-dark-10;
-$light-ref-brand-neutral-dark-05: $light-vud-neutral-dark-05;
-$light-ref-brand-neutral-light-90: $light-vud-neutral-light-90;
-$light-ref-brand-neutral-light-80: $light-vud-neutral-light-80;
-$light-ref-brand-neutral-light-70: $light-vud-neutral-light-70;
-$light-ref-brand-neutral-light-60: $light-vud-neutral-light-60;
-$light-ref-brand-neutral-light-50: $light-vud-neutral-light-50;
-$light-ref-brand-neutral-light-40: $light-vud-neutral-light-40;
-$light-ref-brand-neutral-light-30: $light-vud-neutral-light-30;
-$light-ref-brand-neutral-light-20: $light-vud-neutral-light-20;
-$light-ref-brand-neutral-light-10: $light-vud-neutral-light-10;
-$light-ref-brand-neutral-light-05: $light-vud-neutral-light-05;
-$light-ref-brand-tertiary-gradient: $light-vud-purple-90;
-$light-ref-brand-tertiary-90: $light-vud-purple-90;
-$light-ref-brand-tertiary-80: $light-vud-purple-80;
-$light-ref-brand-tertiary-70: $light-vud-purple-70;
-$light-ref-brand-tertiary-60: $light-vud-purple-60;
-$light-ref-brand-tertiary-50: $light-vud-purple-50;
-$light-ref-brand-tertiary-40: $light-vud-purple-40;
-$light-ref-brand-tertiary-30: $light-vud-purple-30;
-$light-ref-brand-tertiary-20: $light-vud-purple-20;
-$light-ref-brand-tertiary-10: $light-vud-purple-10;
-$light-ref-brand-tertiary-05: $light-vud-purple-05;
-$light-ref-brand-secondary-90: $light-vud-blue-90;
-$light-ref-brand-secondary-80: $light-vud-blue-80;
-$light-ref-brand-secondary-70: $light-vud-blue-70;
-$light-ref-brand-secondary-60: $light-vud-blue-60;
-$light-ref-brand-secondary-50: $light-vud-blue-50;
-$light-ref-brand-secondary-40: $light-vud-blue-40;
-$light-ref-brand-secondary-30: $light-vud-blue-30;
-$light-ref-brand-secondary-20: $light-vud-blue-20;
-$light-ref-brand-secondary-10: $light-vud-blue-10;
-$light-ref-brand-secondary-05: $light-vud-blue-05;
-$light-ref-brand-primary-90: $light-vud-green-90;
-$light-ref-brand-primary-80: $light-vud-green-80;
-$light-ref-brand-primary-70: $light-vud-green-70;
-$light-ref-brand-primary-60: $light-vud-green-60;
-$light-ref-brand-primary-50: $light-vud-green-50;
-$light-ref-brand-primary-40: $light-vud-green-40;
-$light-ref-brand-primary-30: $light-vud-green-30;
-$light-ref-brand-primary-20: $light-vud-green-20;
-$light-ref-brand-primary-10: $light-vud-green-10;
-$light-ref-brand-primary-05: $light-vud-green-05;
+$light-brand-neutral-dark-90: $light-vud-neutral-dark-90;
+$light-brand-neutral-dark-80: $light-vud-neutral-dark-80;
+$light-brand-neutral-dark-70: $light-vud-neutral-dark-70;
+$light-brand-neutral-dark-60: $light-vud-neutral-dark-60;
+$light-brand-neutral-dark-50: $light-vud-neutral-dark-50;
+$light-brand-neutral-dark-40: $light-vud-neutral-dark-40;
+$light-brand-neutral-dark-30: $light-vud-neutral-dark-30;
+$light-brand-neutral-dark-20: $light-vud-neutral-dark-20;
+$light-brand-neutral-dark-10: $light-vud-neutral-dark-10;
+$light-brand-neutral-dark-05: $light-vud-neutral-dark-05;
+$light-brand-neutral-light-90: $light-vud-neutral-light-90;
+$light-brand-neutral-light-80: $light-vud-neutral-light-80;
+$light-brand-neutral-light-70: $light-vud-neutral-light-70;
+$light-brand-neutral-light-60: $light-vud-neutral-light-60;
+$light-brand-neutral-light-50: $light-vud-neutral-light-50;
+$light-brand-neutral-light-40: $light-vud-neutral-light-40;
+$light-brand-neutral-light-30: $light-vud-neutral-light-30;
+$light-brand-neutral-light-20: $light-vud-neutral-light-20;
+$light-brand-neutral-light-10: $light-vud-neutral-light-10;
+$light-brand-neutral-light-05: $light-vud-neutral-light-05;
+$light-brand-tertiary-gradient: $light-vud-purple-90;
+$light-brand-tertiary-90: $light-vud-purple-90;
+$light-brand-tertiary-80: $light-vud-purple-80;
+$light-brand-tertiary-70: $light-vud-purple-70;
+$light-brand-tertiary-60: $light-vud-purple-60;
+$light-brand-tertiary-50: $light-vud-purple-50;
+$light-brand-tertiary-40: $light-vud-purple-40;
+$light-brand-tertiary-30: $light-vud-purple-30;
+$light-brand-tertiary-20: $light-vud-purple-20;
+$light-brand-tertiary-10: $light-vud-purple-10;
+$light-brand-tertiary-05: $light-vud-purple-05;
+$light-brand-secondary-90: $light-vud-blue-90;
+$light-brand-secondary-80: $light-vud-blue-80;
+$light-brand-secondary-70: $light-vud-blue-70;
+$light-brand-secondary-60: $light-vud-blue-60;
+$light-brand-secondary-50: $light-vud-blue-50;
+$light-brand-secondary-40: $light-vud-blue-40;
+$light-brand-secondary-30: $light-vud-blue-30;
+$light-brand-secondary-20: $light-vud-blue-20;
+$light-brand-secondary-10: $light-vud-blue-10;
+$light-brand-secondary-05: $light-vud-blue-05;
+$light-brand-primary-90: $light-vud-green-90;
+$light-brand-primary-80: $light-vud-green-80;
+$light-brand-primary-70: $light-vud-green-70;
+$light-brand-primary-60: $light-vud-green-60;
+$light-brand-primary-50: $light-vud-green-50;
+$light-brand-primary-40: $light-vud-green-40;
+$light-brand-primary-30: $light-vud-green-30;
+$light-brand-primary-20: $light-vud-green-20;
+$light-brand-primary-10: $light-vud-green-10;
+$light-brand-primary-05: $light-vud-green-05;
 $light-radii-none: $light-vud-radii-none;
-$light-vud-brand-neutral-dark-90: $light-vud-neutral-dark-90;
-$light-vud-brand-neutral-dark-80: $light-vud-neutral-dark-80;
-$light-vud-brand-neutral-dark-70: $light-vud-neutral-dark-70;
-$light-vud-brand-neutral-dark-60: $light-vud-neutral-dark-60;
-$light-vud-brand-neutral-dark-50: $light-vud-neutral-dark-50;
-$light-vud-brand-neutral-dark-40: $light-vud-neutral-dark-40;
-$light-vud-brand-neutral-dark-30: $light-vud-neutral-dark-30;
-$light-vud-brand-neutral-dark-20: $light-vud-neutral-dark-20;
-$light-vud-brand-neutral-dark-10: $light-vud-neutral-dark-10;
-$light-vud-brand-neutral-dark-05: $light-vud-neutral-dark-05;
-$light-vud-brand-neutral-light-90: $light-vud-neutral-light-90;
-$light-vud-brand-neutral-light-80: $light-vud-neutral-light-80;
-$light-vud-brand-neutral-light-70: $light-vud-neutral-light-70;
-$light-vud-brand-neutral-light-60: $light-vud-neutral-light-60;
-$light-vud-brand-neutral-light-50: $light-vud-neutral-light-50;
-$light-vud-brand-neutral-light-40: $light-vud-neutral-light-40;
-$light-vud-brand-neutral-light-30: $light-vud-neutral-light-30;
-$light-vud-brand-neutral-light-20: $light-vud-neutral-light-20;
-$light-vud-brand-neutral-light-10: $light-vud-neutral-light-10;
-$light-vud-brand-neutral-light-05: $light-vud-neutral-light-05;
-$light-vud-brand-tertiary-gradient: $light-vud-purple-90;
-$light-vud-brand-tertiary-90: $light-vud-purple-90;
-$light-vud-brand-tertiary-80: $light-vud-purple-80;
-$light-vud-brand-tertiary-70: $light-vud-purple-70;
-$light-vud-brand-tertiary-60: $light-vud-purple-60;
-$light-vud-brand-tertiary-50: $light-vud-purple-50;
-$light-vud-brand-tertiary-40: $light-vud-purple-40;
-$light-vud-brand-tertiary-30: $light-vud-purple-30;
-$light-vud-brand-tertiary-20: $light-vud-purple-20;
-$light-vud-brand-tertiary-10: $light-vud-purple-10;
-$light-vud-brand-tertiary-05: $light-vud-purple-05;
-$light-vud-brand-secondary-90: $light-vud-blue-90;
-$light-vud-brand-secondary-80: $light-vud-blue-80;
-$light-vud-brand-secondary-70: $light-vud-blue-70;
-$light-vud-brand-secondary-60: $light-vud-blue-60;
-$light-vud-brand-secondary-50: $light-vud-blue-50;
-$light-vud-brand-secondary-40: $light-vud-blue-40;
-$light-vud-brand-secondary-30: $light-vud-blue-30;
-$light-vud-brand-secondary-20: $light-vud-blue-20;
-$light-vud-brand-secondary-10: $light-vud-blue-10;
-$light-vud-brand-secondary-05: $light-vud-blue-05;
-$light-vud-brand-primary-90: $light-vud-green-90;
-$light-vud-brand-primary-80: $light-vud-green-80;
-$light-vud-brand-primary-70: $light-vud-green-70;
-$light-vud-brand-primary-60: $light-vud-green-60;
-$light-vud-brand-primary-50: $light-vud-green-50;
-$light-vud-brand-primary-40: $light-vud-green-40;
-$light-vud-brand-primary-30: $light-vud-green-30;
-$light-vud-brand-primary-20: $light-vud-green-20;
-$light-vud-brand-primary-10: $light-vud-green-10;
-$light-vud-brand-primary-05: $light-vud-green-05;
-$light-scale-xxl-fluid: round(($light-viewport-width/100) * $light-scale-xxl-v + $light-scale-xxl-r); // The preferred value or ideal size for the property.
-$light-scale-xxl-r: ( $light-viewport-min * $light-scale-xxl-max - $light-viewport-max * $light-scale-xxl-min) / ($light-viewport-min-$light-viewport-max);
-$light-scale-xxl-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(4/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
-$light-scale-xxl-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(4/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
-$light-scale-xl-fluid: round(($light-viewport-width/100) * $light-scale-xl-v + $light-scale-xl-r); // The preferred value or ideal size for the property.
-$light-scale-xl-r: ( $light-viewport-min * $light-scale-xl-max - $light-viewport-max * $light-scale-xl-min) / ($light-viewport-min-$light-viewport-max);
-$light-scale-xl-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(3/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
-$light-scale-xl-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(3/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
-$light-scale-lg-fluid: round(($light-viewport-width/100) * $light-scale-lg-v + $light-scale-lg-r); // The preferred value or ideal size for the property.
-$light-scale-lg-r: ( $light-viewport-min * $light-scale-lg-max - $light-viewport-max * $light-scale-lg-min) / ($light-viewport-min-$light-viewport-max);
-$light-scale-lg-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(2/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
-$light-scale-lg-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(2/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
-$light-scale-md-fluid: round(($light-viewport-width/100) * $light-scale-md-v + $light-scale-md-r); // The preferred value or ideal size for the property.
-$light-scale-md-r: ( $light-viewport-min * $light-scale-md-max - $light-viewport-max * $light-scale-md-min) / ($light-viewport-min-$light-viewport-max);
-$light-scale-md-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(1/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
-$light-scale-md-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(1/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
-$light-scale-s-fluid: round(($light-viewport-width/100) * $light-scale-s-v + $light-scale-s-r); // The preferred value or ideal size for the property.
-$light-scale-s-r: ( $light-viewport-min * $light-scale-s-max - $light-viewport-max * $light-scale-s-min) / ($light-viewport-min-$light-viewport-max);
-$light-scale-s-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(0/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
-$light-scale-s-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(0/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
-$light-scale-xs-fluid: round(($light-viewport-width/100) * $light-scale-xs-v + $light-scale-xs-r); // The preferred value or ideal size for the property.
-$light-scale-xs-r: ( $light-viewport-min * $light-scale-xs-max - $light-viewport-max * $light-scale-xs-min) / ($light-viewport-min-$light-viewport-max);
-$light-scale-xs-max: 5*roundTo(($light-scale-const-max-f0*$light-scale-const-max-r^(-1/$light-scale-const-max-n)/5),1); // The maximum value the property can take.
-$light-scale-xs-min: 5*roundTo(($light-scale-const-min-f0*$light-scale-const-min-r^(-1/$light-scale-const-min-n)/5),1); // The minimum value the property can take.
 $light-spacing-2: $light-base;
 $light-sizing-2: $light-base;
 $light-vud-funct-default-dark-90: $light-vud-neutral-dark-90;
@@ -387,68 +251,68 @@ $light-vud-radii-md: $light-base*6;
 $light-vud-radii-s: $light-base*4;
 $light-vud-radii-xs: $light-base*2;
 $light-vud-radii-xxs: $light-base;
-$light-comp-toggle-border-emphasis: $light-vud-brand-secondary-50; // Border with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$light-comp-toggle-border-emphasis: $light-brand-secondary-50; // Border with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-comp-toggle-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-comp-toggle-surface-emphasis: $light-vud-brand-secondary-50; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$light-comp-toggle-surface-emphasis: $light-brand-secondary-50; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-comp-toggle-surface-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-comp-table-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-comp-table-surface-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-comp-switch-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-comp-situation-funct-surface-overlay-default: $light-ref-properties-shade-weak; // Default alerts. Lower prio statuses such as pairing 
-$light-comp-search-brand-border-hover: $light-vud-brand-primary-70; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-comp-search-brand-border-enabled: $light-vud-brand-primary-60; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$light-comp-progress-secondary-border-strong: $light-vud-brand-secondary-50; // Medium intensity.
-$light-comp-progress-secondary-border-moderate: linear-gradient(180deg, $light-vud-brand-secondary-05 0%, $light-vud-brand-secondary-60 100%); // Normal intensity.
-$light-comp-progress-secondary-border-weak: $light-vud-brand-secondary-20; // Low intensity.
-$light-comp-progress-primary-border-strong: $light-vud-brand-primary-70; // Medium intensity.
-$light-comp-progress-primary-border-moderate: linear-gradient(180deg, $light-vud-brand-primary-05 0%, $light-vud-brand-primary-70 100%); // Normal intensity.
-$light-comp-progress-primary-border-weak: $light-vud-brand-primary-20; // Low intensity.
-$light-comp-progress-default-border-strong: $light-vud-brand-neutral-light-80; // Medium intensity.
-$light-comp-progress-default-border-moderate: linear-gradient(180deg, $light-vud-brand-neutral-light-20 0%, $light-vud-brand-neutral-light-80 100%); // Normal intensity.
+$light-comp-search-brand-border-hover: $light-brand-primary-70; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-comp-search-brand-border-enabled: $light-brand-primary-60; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-comp-progress-secondary-border-strong: $light-brand-secondary-50; // Medium intensity.
+$light-comp-progress-secondary-border-moderate: linear-gradient(180deg, $light-brand-secondary-05 0%, $light-brand-secondary-60 100%); // Normal intensity.
+$light-comp-progress-secondary-border-weak: $light-brand-secondary-20; // Low intensity.
+$light-comp-progress-primary-border-strong: $light-brand-primary-70; // Medium intensity.
+$light-comp-progress-primary-border-moderate: linear-gradient(180deg, $light-brand-primary-05 0%, $light-brand-primary-70 100%); // Normal intensity.
+$light-comp-progress-primary-border-weak: $light-brand-primary-20; // Low intensity.
+$light-comp-progress-default-border-strong: $light-brand-neutral-light-80; // Medium intensity.
+$light-comp-progress-default-border-moderate: linear-gradient(180deg, $light-brand-neutral-light-20 0%, $light-brand-neutral-light-80 100%); // Normal intensity.
 $light-comp-progress-default-border-weak: $light-ref-properties-shade-weak; // Low intensity.
-$light-comp-progress-text-secondary: $light-vud-brand-neutral-light-80; // Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.  
-$light-comp-nav-stepper-surface-strong: $light-vud-brand-secondary-60; // Medium intensity.
-$light-comp-nav-stepper-surface-moderate: linear-gradient(90deg, $light-vud-brand-primary-60 0%, $light-vud-brand-secondary-60 100%); // Normal intensity.
-$light-comp-nav-stepper-surface-weak: $light-vud-brand-neutral-light-40; // Low intensity.
-$light-comp-nav-vert-inverted-border-selected-strong-hover: $light-vud-brand-neutral-light-60; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-comp-nav-vert-inverted-border-selected-weak-hover: $light-vud-brand-neutral-light-60; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-comp-nav-vert-inverted-border-hover: $light-vud-brand-neutral-light-60; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-comp-progress-text-secondary: $light-brand-neutral-light-80; // Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.  
+$light-comp-nav-stepper-surface-strong: $light-brand-secondary-60; // Medium intensity.
+$light-comp-nav-stepper-surface-moderate: linear-gradient(90deg, $light-brand-primary-60 0%, $light-brand-secondary-60 100%); // Normal intensity.
+$light-comp-nav-stepper-surface-weak: $light-brand-neutral-light-40; // Low intensity.
+$light-comp-nav-vert-inverted-border-selected-strong-hover: $light-brand-neutral-light-60; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-comp-nav-vert-inverted-border-selected-weak-hover: $light-brand-neutral-light-60; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-comp-nav-vert-inverted-border-hover: $light-brand-neutral-light-60; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-comp-nav-vert-inverted-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-comp-nav-vert-inverted-surface-default: $light-vud-brand-neutral-light-90; // Surface on container.
-$light-comp-nav-vert-brand-border-selected-strong-hover: $light-vud-brand-secondary-10; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-comp-nav-vert-brand-border-selected-strong: $light-vud-brand-secondary-10; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-comp-nav-vert-brand-border-selected-weak-hover: $light-vud-brand-secondary-10; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-comp-nav-vert-brand-border-selected-weak: $light-vud-brand-secondary-10; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-comp-nav-vert-brand-border-hover: $light-vud-brand-secondary-10; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-comp-nav-vert-inverted-surface-default: $light-brand-neutral-light-90; // Surface on container.
+$light-comp-nav-vert-brand-border-selected-strong-hover: $light-brand-secondary-10; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-comp-nav-vert-brand-border-selected-strong: $light-brand-secondary-10; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-comp-nav-vert-brand-border-selected-weak-hover: $light-brand-secondary-10; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-comp-nav-vert-brand-border-selected-weak: $light-brand-secondary-10; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-comp-nav-vert-brand-border-hover: $light-brand-secondary-10; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-comp-nav-vert-brand-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-comp-nav-vert-brand-surface-selected-weak-hover: $light-ref-properties-shade-weak; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-comp-nav-vert-brand-surface-selected-weak: $light-ref-properties-shade-weak; // Surface with selected state refers to an interaction that occurs when the ui element is active. 
-$light-comp-nav-vert-brand-surface-default: $light-vud-brand-secondary-60; // Surface on container.
+$light-comp-nav-vert-brand-surface-default: $light-brand-secondary-60; // Surface on container.
 $light-comp-nav-vert-default-separator: $light-ref-properties-shade-moderate; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-comp-nav-vert-default-border-selected-strong-hover: $light-vud-brand-secondary-60; // Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-comp-nav-vert-default-border-selected-strong: $light-vud-brand-secondary-60; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements.
+$light-comp-nav-vert-default-border-selected-strong-hover: $light-brand-secondary-60; // Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-comp-nav-vert-default-border-selected-strong: $light-brand-secondary-60; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements.
 $light-comp-nav-vert-default-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-comp-nav-vert-default-surface-selected-strong-hover: $light-vud-brand-secondary-60; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-comp-nav-vert-default-surface-selected-strong: $light-vud-brand-secondary-60; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements.
+$light-comp-nav-vert-default-surface-selected-strong-hover: $light-brand-secondary-60; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-comp-nav-vert-default-surface-selected-strong: $light-brand-secondary-60; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent ui elements.
 $light-comp-nav-vert-default-surface-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-comp-nav-hor-inverted-border-selected: $light-vud-brand-neutral-light-60; // Border with a selected state refers to an interaction that occurs when the ui element is active.
-$light-comp-nav-hor-inverted-border-hover: $light-vud-brand-neutral-light-60; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-comp-nav-hor-inverted-border-selected: $light-brand-neutral-light-60; // Border with a selected state refers to an interaction that occurs when the ui element is active.
+$light-comp-nav-hor-inverted-border-hover: $light-brand-neutral-light-60; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-comp-nav-hor-inverted-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-comp-nav-hor-inverted-surface-selected-strong: $light-vud-brand-neutral-light-05; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. 
-$light-comp-nav-hor-inverted-surface-selected-moderate: $light-vud-brand-neutral-light-90; // Surface with selected state refers to an interaction that occurs when the ui element is active. 
-$light-comp-nav-hor-inverted-surface-enabled: $light-vud-brand-neutral-light-90; // Surface on container.
-$light-comp-nav-hor-brand-border-selected: $light-vud-brand-secondary-10; // Border with a moderate selected state refers to an interaction that occurs when the ui element is active.
-$light-comp-nav-hor-brand-border-hover: $light-vud-brand-secondary-10; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-comp-nav-hor-inverted-surface-selected-strong: $light-brand-neutral-light-05; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. 
+$light-comp-nav-hor-inverted-surface-selected-moderate: $light-brand-neutral-light-90; // Surface with selected state refers to an interaction that occurs when the ui element is active. 
+$light-comp-nav-hor-inverted-surface-enabled: $light-brand-neutral-light-90; // Surface on container.
+$light-comp-nav-hor-brand-border-selected: $light-brand-secondary-10; // Border with a moderate selected state refers to an interaction that occurs when the ui element is active.
+$light-comp-nav-hor-brand-border-hover: $light-brand-secondary-10; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-comp-nav-hor-brand-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-comp-nav-hor-brand-border-enabled: $light-vud-brand-secondary-10; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$light-comp-nav-hor-brand-surface-selected-strong: $light-vud-brand-neutral-light-05; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. 
-$light-comp-nav-hor-brand-surface-selected-moderate: $light-vud-brand-secondary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. 
-$light-comp-nav-hor-brand-surface-enabled: $light-vud-brand-secondary-70; // Surface on container.
+$light-comp-nav-hor-brand-border-enabled: $light-brand-secondary-10; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-comp-nav-hor-brand-surface-selected-strong: $light-brand-neutral-light-05; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. 
+$light-comp-nav-hor-brand-surface-selected-moderate: $light-brand-secondary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. 
+$light-comp-nav-hor-brand-surface-enabled: $light-brand-secondary-70; // Surface on container.
 $light-comp-nav-hor-default-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-comp-nav-hor-default-surface-selected-strong: $light-vud-brand-secondary-60; // Surface with strong selected state refers to an interaction that occurs when the ui element is active.
+$light-comp-nav-hor-default-surface-selected-strong: $light-brand-secondary-60; // Surface with strong selected state refers to an interaction that occurs when the ui element is active.
 $light-comp-nav-hor-default-surface-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-comp-messaging-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-comp-messaging-surface-strong: $light-vud-brand-secondary-60;
+$light-comp-messaging-surface-strong: $light-brand-secondary-60;
 $light-comp-list-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-comp-inputs-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-comp-inputs-surface-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
@@ -459,28 +323,28 @@ $light-comp-calendar-border-transparent: rgba($light-vud-funct-default-light-05,
 $light-comp-calendar-surface-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-comp-calendar-slot-surface-event3: $light-vud-funct-success-05; // Optimal for scheduling work hours in a calendar.
 $light-comp-calendar-slot-surface-event2: $light-vud-funct-warning-10; // Optimal for scheduling sick leave in a calendar.
-$light-comp-button-border-inner-shadow: inset 0 0 0 3px $light-vud-brand-neutral-light-05, 0 2px 4px 0 rgba(27, 56, 76, $light-opacity-12);
+$light-comp-button-border-inner-shadow: inset 0 0 0 3px $light-brand-neutral-light-05, 0 2px 4px 0 rgba(27, 56, 76, $light-opacity-12);
 $light-ref-shadow-brand-elevation-1: 0 2px 4px 0 rgba(49, 98, 69, $light-opacity-16);
-$light-comp-btn-secondary-on-tint-icon-default: $light-vud-brand-secondary-70; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
-$light-comp-btn-secondary-on-tint-text-default: $light-vud-brand-secondary-90; // Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention.
-$light-comp-btn-primary-on-tint-icon-default: $light-vud-brand-primary-80; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
-$light-comp-btn-primary-on-tint-text-default: $light-vud-brand-primary-90; // Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention.
+$light-comp-btn-secondary-on-tint-icon-default: $light-brand-secondary-70; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
+$light-comp-btn-secondary-on-tint-text-default: $light-brand-secondary-90; // Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention.
+$light-comp-btn-primary-on-tint-icon-default: $light-brand-primary-80; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
+$light-comp-btn-primary-on-tint-text-default: $light-brand-primary-90; // Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention.
 $light-comp-btn-default-on-confimatory-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-ref-properties-data-visualization-1: $light-vud-funct-warning-30;
-$light-ref-properties-tint-moderate: rgba( $light-vud-brand-neutral-dark-05, $light-opacity-12);
-$light-ref-properties-tint-weak: rgba($light-vud-brand-neutral-light-05, $light-opacity-8);
-$light-ref-properties-fill-on-secondary-tint-selected-hover: $light-vud-brand-secondary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-fill-on-secondary-tint-selected: $light-vud-brand-secondary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$light-ref-properties-fill-on-secondary-tint-focused: $light-vud-brand-secondary-05; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$light-ref-properties-fill-on-secondary-tint-pressed: $light-vud-brand-secondary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$light-ref-properties-fill-on-secondary-tint-hover: $light-vud-brand-secondary-20; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-fill-on-secondary-tint-enabled: $light-vud-brand-secondary-05; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$light-ref-properties-fill-on-primary-tint-selected-hover: $light-vud-brand-primary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-fill-on-primary-tint-selected: $light-vud-brand-primary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$light-ref-properties-fill-on-primary-tint-focused: $light-vud-brand-primary-05; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$light-ref-properties-fill-on-primary-tint-pressed: $light-vud-brand-primary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$light-ref-properties-fill-on-primary-tint-hover: $light-vud-brand-primary-20; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-fill-on-primary-tint-enabled: $light-vud-brand-primary-05; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-ref-properties-tint-moderate: rgba( $light-brand-neutral-dark-05, $light-opacity-12);
+$light-ref-properties-tint-weak: rgba($light-brand-neutral-light-05, $light-opacity-8);
+$light-ref-properties-fill-on-secondary-tint-selected-hover: $light-brand-secondary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-fill-on-secondary-tint-selected: $light-brand-secondary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$light-ref-properties-fill-on-secondary-tint-focused: $light-brand-secondary-05; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$light-ref-properties-fill-on-secondary-tint-pressed: $light-brand-secondary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$light-ref-properties-fill-on-secondary-tint-hover: $light-brand-secondary-20; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-fill-on-secondary-tint-enabled: $light-brand-secondary-05; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-ref-properties-fill-on-primary-tint-selected-hover: $light-brand-primary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-fill-on-primary-tint-selected: $light-brand-primary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$light-ref-properties-fill-on-primary-tint-focused: $light-brand-primary-05; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$light-ref-properties-fill-on-primary-tint-pressed: $light-brand-primary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$light-ref-properties-fill-on-primary-tint-hover: $light-brand-primary-20; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-fill-on-primary-tint-enabled: $light-brand-primary-05; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-ref-properties-fill-on-funct-error-moderate: $light-vud-funct-error-70; // Suitable for badges. Errors and failure statuses such as rejected, not sent, overdue, not delivered.
 $light-ref-properties-fill-on-funct-warning-moderate: $light-vud-funct-warning-70; // Suitable for badges. Warnings and potential problem statuses such as partially paid, losses.
 $light-ref-properties-fill-on-funct-draft-moderate: $light-vud-funct-draft-70; // Suitable for badges. Temporary statuses such as drafts.
@@ -503,44 +367,44 @@ $light-ref-properties-fill-on-destructive-default-focused: $light-vud-funct-defa
 $light-ref-properties-fill-on-destructive-default-hover: $light-vud-funct-error-70; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-ref-properties-fill-on-destructive-default-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences.
 $light-ref-properties-fill-on-destructive-default-enabled: $light-vud-funct-default-light-05; // Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
-$light-ref-properties-fill-on-secondary-selected-hover: $light-vud-brand-secondary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-fill-on-secondary-selected: $light-vud-brand-secondary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$light-ref-properties-fill-on-secondary-focused: $light-vud-brand-secondary-70; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$light-ref-properties-fill-on-secondary-pressed: $light-vud-brand-secondary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$light-ref-properties-fill-on-secondary-hover: $light-vud-brand-secondary-70; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-fill-on-secondary-enabled: $light-vud-brand-secondary-70; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$light-ref-properties-fill-on-primary-selected-hover: $light-vud-brand-primary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-fill-on-primary-selected: $light-vud-brand-primary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$light-ref-properties-fill-on-primary-focused: $light-vud-brand-primary-70; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$light-ref-properties-fill-on-primary-pressed: $light-vud-brand-primary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$light-ref-properties-fill-on-primary-hover: $light-vud-brand-primary-70; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-fill-on-primary-enabled: $light-vud-brand-primary-70; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$light-ref-properties-fill-on-default-disabled: $light-vud-brand-neutral-light-05; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-ref-properties-fill-on-default-selected-strong-hover: $light-vud-brand-primary-80; // Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-fill-on-default-selected-strong: $light-vud-brand-primary-80; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
-$light-ref-properties-fill-on-default-selected-moderate-hover: $light-vud-brand-secondary-10; // Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-fill-on-default-selected-moderate: $light-vud-brand-neutral-light-20; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$light-ref-properties-fill-on-default-selected-weak-hover: $light-vud-brand-secondary-05; // Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-fill-on-default-selected-weak: $light-vud-brand-neutral-light-10; // Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$light-ref-properties-fill-on-default-focused: $light-vud-brand-neutral-light-05; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$light-ref-properties-fill-on-default-pressed: $light-vud-brand-neutral-light-30; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$light-ref-properties-fill-on-default-hover: $light-vud-brand-secondary-10; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-fill-on-default-transparent: rgba($light-vud-brand-neutral-light-05, $light-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-ref-properties-fill-on-default-muted: $light-vud-brand-neutral-light-20; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
-$light-ref-properties-fill-on-default-inverse: $light-vud-brand-neutral-light-05; // Inverse surface contrast with the background.
-$light-ref-properties-fill-on-default-enabled: $light-vud-brand-neutral-light-05; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$light-ref-properties-border-on-secondary-tint-selected-hover: $light-vud-brand-secondary-80; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-border-on-secondary-tint-selected: $light-vud-brand-secondary-80; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
-$light-ref-properties-border-on-secondary-tint-focused: $light-vud-brand-secondary-50; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$light-ref-properties-border-on-secondary-tint-pressed: $light-vud-brand-secondary-90; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$light-ref-properties-border-on-secondary-tint-hover: $light-vud-brand-secondary-60; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-border-on-secondary-tint-enabled: $light-vud-brand-secondary-60; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$light-ref-properties-border-on-primary-tint-selected-hover: $light-vud-brand-primary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-border-on-primary-tint-selected: $light-vud-brand-primary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$light-ref-properties-border-on-primary-tint-focused: $light-vud-brand-secondary-50; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$light-ref-properties-border-on-primary-tint-pressed: $light-vud-brand-primary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$light-ref-properties-border-on-primary-tint-hover: $light-vud-brand-primary-60; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-border-on-primary-tint-enabled: $light-vud-brand-primary-60; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-ref-properties-fill-on-secondary-selected-hover: $light-brand-secondary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-fill-on-secondary-selected: $light-brand-secondary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$light-ref-properties-fill-on-secondary-focused: $light-brand-secondary-70; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$light-ref-properties-fill-on-secondary-pressed: $light-brand-secondary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$light-ref-properties-fill-on-secondary-hover: $light-brand-secondary-70; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-fill-on-secondary-enabled: $light-brand-secondary-70; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-ref-properties-fill-on-primary-selected-hover: $light-brand-primary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-fill-on-primary-selected: $light-brand-primary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$light-ref-properties-fill-on-primary-focused: $light-brand-primary-70; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$light-ref-properties-fill-on-primary-pressed: $light-brand-primary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$light-ref-properties-fill-on-primary-hover: $light-brand-primary-70; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-fill-on-primary-enabled: $light-brand-primary-70; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-ref-properties-fill-on-default-disabled: $light-brand-neutral-light-05; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
+$light-ref-properties-fill-on-default-selected-strong-hover: $light-brand-primary-80; // Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-fill-on-default-selected-strong: $light-brand-primary-80; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
+$light-ref-properties-fill-on-default-selected-moderate-hover: $light-brand-secondary-10; // Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-fill-on-default-selected-moderate: $light-brand-neutral-light-20; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$light-ref-properties-fill-on-default-selected-weak-hover: $light-brand-secondary-05; // Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-fill-on-default-selected-weak: $light-brand-neutral-light-10; // Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$light-ref-properties-fill-on-default-focused: $light-brand-neutral-light-05; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$light-ref-properties-fill-on-default-pressed: $light-brand-neutral-light-30; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$light-ref-properties-fill-on-default-hover: $light-brand-secondary-10; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-fill-on-default-transparent: rgba($light-brand-neutral-light-05, $light-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$light-ref-properties-fill-on-default-muted: $light-brand-neutral-light-20; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
+$light-ref-properties-fill-on-default-inverse: $light-brand-neutral-light-05; // Inverse surface contrast with the background.
+$light-ref-properties-fill-on-default-enabled: $light-brand-neutral-light-05; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-ref-properties-border-on-secondary-tint-selected-hover: $light-brand-secondary-80; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-border-on-secondary-tint-selected: $light-brand-secondary-80; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
+$light-ref-properties-border-on-secondary-tint-focused: $light-brand-secondary-50; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$light-ref-properties-border-on-secondary-tint-pressed: $light-brand-secondary-90; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$light-ref-properties-border-on-secondary-tint-hover: $light-brand-secondary-60; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-border-on-secondary-tint-enabled: $light-brand-secondary-60; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-ref-properties-border-on-primary-tint-selected-hover: $light-brand-primary-80; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-border-on-primary-tint-selected: $light-brand-primary-80; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
+$light-ref-properties-border-on-primary-tint-focused: $light-brand-secondary-50; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$light-ref-properties-border-on-primary-tint-pressed: $light-brand-primary-90; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$light-ref-properties-border-on-primary-tint-hover: $light-brand-primary-60; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-border-on-primary-tint-enabled: $light-brand-primary-60; // Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-ref-properties-border-on-funct-error-moderate: $light-vud-funct-error-70; // Suitable for badges. Errors and failure statuses such as rejected, not sent, overdue, not delivered.
 $light-ref-properties-border-on-funct-warning-moderate: $light-vud-funct-warning-70; // Suitable for badges. Warnings and potential problem statuses such as partially paid, losses.
 $light-ref-properties-border-on-funct-draft-moderate: $light-vud-funct-draft-70; // Suitable for badges. Temporary statuses such as drafts.
@@ -561,55 +425,55 @@ $light-ref-properties-border-on-destructive-default-pressed: $light-vud-funct-er
 $light-ref-properties-border-on-destructive-default-hover: $light-vud-funct-error-70; // Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-ref-properties-border-on-destructive-default-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0); // Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences.
 $light-ref-properties-border-on-destructive-default-enabled: $light-vud-funct-error-70; // Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
-$light-ref-properties-border-on-secondary-selected-hover: $light-vud-brand-secondary-80; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-border-on-secondary-selected: $light-vud-brand-secondary-80; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
-$light-ref-properties-border-on-secondary-focused: $light-vud-brand-secondary-50; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$light-ref-properties-border-on-secondary-pressed: $light-vud-brand-secondary-90; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$light-ref-properties-border-on-secondary-hover: $light-vud-brand-secondary-70; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-border-on-secondary-enabled: $light-vud-brand-secondary-70; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$light-ref-properties-border-on-primary-selected-hover: $light-vud-brand-primary-80; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-border-on-primary-selected: $light-vud-brand-primary-80; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
-$light-ref-properties-border-on-primary-focused: $light-vud-brand-secondary-50; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$light-ref-properties-border-on-primary-pressed: $light-vud-brand-primary-90; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$light-ref-properties-border-on-primary-hover: $light-vud-brand-primary-70; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-border-on-primary-enabled: $light-vud-brand-primary-70; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$light-ref-properties-border-on-default-disabled: $light-vud-brand-neutral-light-40; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-ref-properties-border-on-default-selected-strong-hover: $light-vud-brand-primary-80; // Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-border-on-default-selected-strong: $light-vud-brand-primary-80; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
-$light-ref-properties-border-on-default-selected-moderate-hover: $light-vud-brand-secondary-50; // Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-border-on-default-selected-moderate: $light-vud-brand-neutral-light-60; // Border with a moderate selected state refers to an interaction that occurs when the ui element is active.
-$light-ref-properties-border-on-default-selected-weak-hover: $light-vud-brand-secondary-50; // Border hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection.
-$light-ref-properties-border-on-default-selected-weak: $light-vud-brand-neutral-light-10; // Border with a selected state refers to an interaction that occurs when the ui element is active.
-$light-ref-properties-border-on-default-focused: $light-vud-brand-secondary-50; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
-$light-ref-properties-border-on-default-pressed: $light-vud-brand-neutral-light-60; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$light-ref-properties-border-on-default-hover: $light-vud-brand-secondary-50; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-ref-properties-border-on-default-transparent: rgba($light-vud-brand-neutral-light-60, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-ref-properties-border-on-default-muted: $light-vud-brand-neutral-light-20; // Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
-$light-ref-properties-border-on-default-inverse: $light-vud-brand-neutral-light-60; // Inverse border refers to the opposite color that contrasts with the background. 
-$light-ref-properties-border-on-default-enabled: $light-vud-brand-neutral-light-60; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$light-ref-properties-border-extreme: $light-vud-brand-primary-60; // Extreme default border refers to a standard border style that is branded.
-$light-ref-properties-border-strong: $light-vud-brand-neutral-light-60; // Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted separators.
-$light-ref-properties-border-moderate: $light-vud-brand-neutral-light-30; // The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator. 
-$light-ref-properties-border-weak: $light-vud-brand-neutral-light-20; // Weak border refers to a subtle border style.
-$light-ref-properties-pictogram-on-tertiary-fill-emphasis: rgba( $light-vud-brand-tertiary-60, $light-opacity-24);
-$light-ref-properties-pictogram-on-tertiary-fill-default: rgba( $light-vud-brand-neutral-light-80, $light-opacity-8);
-$light-ref-properties-pictogram-on-tertiary-stroke-emphasis: $light-vud-brand-tertiary-60;
-$light-ref-properties-pictogram-on-tertiary-stroke-default: $light-vud-brand-neutral-light-80;
-$light-ref-properties-pictogram-on-secondary-fill-emphasis: rgba( $light-vud-brand-primary-60, $light-opacity-24);
-$light-ref-properties-pictogram-on-secondary-fill-default: rgba( $light-vud-brand-neutral-light-80, $light-opacity-8);
-$light-ref-properties-pictogram-on-secondary-stroke-emphasis: $light-vud-brand-primary-60;
-$light-ref-properties-pictogram-on-secondary-stroke-default: $light-vud-brand-neutral-light-80;
-$light-ref-properties-pictogram-on-primary-fill-emphasis: rgba( $light-vud-brand-secondary-60, $light-opacity-24);
-$light-ref-properties-pictogram-on-primary-fill-default: rgba( $light-vud-brand-neutral-light-80, $light-opacity-8);
-$light-ref-properties-pictogram-on-primary-stroke-emphasis: $light-vud-brand-secondary-60;
-$light-ref-properties-pictogram-on-primary-stroke-default: $light-vud-brand-neutral-light-80; //  
-$light-ref-properties-icon-disabled: $light-vud-brand-neutral-light-60; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
+$light-ref-properties-border-on-secondary-selected-hover: $light-brand-secondary-80; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-border-on-secondary-selected: $light-brand-secondary-80; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
+$light-ref-properties-border-on-secondary-focused: $light-brand-secondary-50; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$light-ref-properties-border-on-secondary-pressed: $light-brand-secondary-90; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$light-ref-properties-border-on-secondary-hover: $light-brand-secondary-70; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-border-on-secondary-enabled: $light-brand-secondary-70; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-ref-properties-border-on-primary-selected-hover: $light-brand-primary-80; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-border-on-primary-selected: $light-brand-primary-80; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
+$light-ref-properties-border-on-primary-focused: $light-brand-secondary-50; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$light-ref-properties-border-on-primary-pressed: $light-brand-primary-90; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$light-ref-properties-border-on-primary-hover: $light-brand-primary-70; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-border-on-primary-enabled: $light-brand-primary-70; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-ref-properties-border-on-default-disabled: $light-brand-neutral-light-40; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
+$light-ref-properties-border-on-default-selected-strong-hover: $light-brand-primary-80; // Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-border-on-default-selected-strong: $light-brand-primary-80; // Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
+$light-ref-properties-border-on-default-selected-moderate-hover: $light-brand-secondary-50; // Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-border-on-default-selected-moderate: $light-brand-neutral-light-60; // Border with a moderate selected state refers to an interaction that occurs when the ui element is active.
+$light-ref-properties-border-on-default-selected-weak-hover: $light-brand-secondary-50; // Border hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection.
+$light-ref-properties-border-on-default-selected-weak: $light-brand-neutral-light-10; // Border with a selected state refers to an interaction that occurs when the ui element is active.
+$light-ref-properties-border-on-default-focused: $light-brand-secondary-50; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
+$light-ref-properties-border-on-default-pressed: $light-brand-neutral-light-60; // Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
+$light-ref-properties-border-on-default-hover: $light-brand-secondary-50; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-properties-border-on-default-transparent: rgba($light-brand-neutral-light-60, $light-opacity-0); // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$light-ref-properties-border-on-default-muted: $light-brand-neutral-light-20; // Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
+$light-ref-properties-border-on-default-inverse: $light-brand-neutral-light-60; // Inverse border refers to the opposite color that contrasts with the background. 
+$light-ref-properties-border-on-default-enabled: $light-brand-neutral-light-60; // Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-ref-properties-border-extreme: $light-brand-primary-60; // Extreme default border refers to a standard border style that is branded.
+$light-ref-properties-border-strong: $light-brand-neutral-light-60; // Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted separators.
+$light-ref-properties-border-moderate: $light-brand-neutral-light-30; // The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator. 
+$light-ref-properties-border-weak: $light-brand-neutral-light-20; // Weak border refers to a subtle border style.
+$light-ref-properties-pictogram-on-tertiary-fill-emphasis: rgba( $light-brand-tertiary-60, $light-opacity-24);
+$light-ref-properties-pictogram-on-tertiary-fill-default: rgba( $light-brand-neutral-light-80, $light-opacity-8);
+$light-ref-properties-pictogram-on-tertiary-stroke-emphasis: $light-brand-tertiary-60;
+$light-ref-properties-pictogram-on-tertiary-stroke-default: $light-brand-neutral-light-80;
+$light-ref-properties-pictogram-on-secondary-fill-emphasis: rgba( $light-brand-primary-60, $light-opacity-24);
+$light-ref-properties-pictogram-on-secondary-fill-default: rgba( $light-brand-neutral-light-80, $light-opacity-8);
+$light-ref-properties-pictogram-on-secondary-stroke-emphasis: $light-brand-primary-60;
+$light-ref-properties-pictogram-on-secondary-stroke-default: $light-brand-neutral-light-80;
+$light-ref-properties-pictogram-on-primary-fill-emphasis: rgba( $light-brand-secondary-60, $light-opacity-24);
+$light-ref-properties-pictogram-on-primary-fill-default: rgba( $light-brand-neutral-light-80, $light-opacity-8);
+$light-ref-properties-pictogram-on-primary-stroke-emphasis: $light-brand-secondary-60;
+$light-ref-properties-pictogram-on-primary-stroke-default: $light-brand-neutral-light-80; //  
+$light-ref-properties-icon-disabled: $light-brand-neutral-light-60; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-ref-properties-icon-success: $light-vud-funct-success-60; // Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully.
 $light-ref-properties-icon-warning: $light-vud-funct-warning-60; // Warning icon serves as a visual cue to alert about potential issues, risks, or important information that requires attention.
 $light-ref-properties-icon-error: $light-vud-funct-error-60; // The error indicates the occurrence of an error or problem. Suitable for destructive icons.
-$light-ref-properties-icon-emphasis: $light-vud-brand-secondary-50; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
-$light-ref-properties-icon-inverse: $light-vud-brand-neutral-light-05; // Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background.
-$light-ref-properties-icon-default: $light-vud-brand-neutral-light-80; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
+$light-ref-properties-icon-emphasis: $light-brand-secondary-50; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
+$light-ref-properties-icon-inverse: $light-brand-neutral-light-05; // Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background.
+$light-ref-properties-icon-default: $light-brand-neutral-light-80; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
 $light-ref-properties-text-error-weak: $light-vud-funct-default-light-05; // Error text refers to incorrect or invalid information on a form or during a data entry process. 
 $light-ref-properties-text-warning-weak: $light-vud-funct-default-light-05; // Warning text refers to content that conveys a warning, caution, or alert.
 $light-ref-properties-text-draft-weak: $light-vud-funct-default-light-05; // Draft refers to temporary statuses.
@@ -618,42 +482,26 @@ $light-ref-properties-text-success-weak: $light-vud-funct-default-light-05; // S
 $light-ref-properties-text-error-moderate: $light-vud-funct-error-80; // Error text refers to incorrect or invalid information on a form or during a data entry process. 
 $light-ref-properties-text-warning-moderate: $light-vud-funct-warning-90; // Warning text refers to content that conveys a warning, caution, or alert.
 $light-ref-properties-text-draft-moderate: $light-vud-funct-draft-80; // Draft refers to temporary statuses.
-$light-ref-properties-text-info-moderate: $light-vud-brand-secondary-60; // Info text gives a clear summary of the information.
+$light-ref-properties-text-info-moderate: $light-brand-secondary-60; // Info text gives a clear summary of the information.
 $light-ref-properties-text-success-moderate: $light-vud-funct-success-70; // Success text refers to content that signifies a positive or affirmative message.
-$light-ref-properties-text-disabled: $light-vud-brand-neutral-light-60; // Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with.
+$light-ref-properties-text-disabled: $light-brand-neutral-light-60; // Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with.
 $light-ref-properties-text-visited: $light-vud-funct-draft-60; // Visited link" refers to a hyperlink that has been previously clicked or accessed.
-$light-ref-properties-text-links: $light-vud-brand-secondary-60; // Links refers to emphasis clickable elements.
-$light-ref-properties-text-emphasis: $light-vud-brand-secondary-60; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
-$light-ref-properties-text-secondary: $light-vud-brand-neutral-light-80; // Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.  
-$light-ref-properties-text-inverse: $light-vud-brand-neutral-light-05; // Inverse text refers to the opposite color that contrasts with the background. 
-$light-ref-properties-text-default: $light-vud-brand-neutral-light-90; // Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention.
-$light-ref-brand-neutral-dark-gradient: $light-vud-brand-neutral-dark-70;
-$light-ref-brand-neutral-light-gradient: $light-vud-brand-neutral-light-90;
-$light-ref-brand-secondary-gradient: $light-vud-brand-secondary-70;
-$light-ref-brand-primary-gradient: $light-vud-brand-primary-70;
-$light-radii-xxl: $light-vud-radii-xxl*16;
-$light-radii-xl: $light-vud-radii-xl*12;
-$light-radii-lg: $light-vud-radii-lg*8;
-$light-radii-md: $light-vud-radii-md*6;
-$light-radii-s: $light-vud-radii-xxs*4;
-$light-radii-xs: $light-vud-radii-xs*2;
+$light-ref-properties-text-links: $light-brand-secondary-60; // Links refers to emphasis clickable elements.
+$light-ref-properties-text-emphasis: $light-brand-secondary-60; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
+$light-ref-properties-text-secondary: $light-brand-neutral-light-80; // Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.  
+$light-ref-properties-text-inverse: $light-brand-neutral-light-05; // Inverse text refers to the opposite color that contrasts with the background. 
+$light-ref-properties-text-default: $light-brand-neutral-light-90; // Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention.
+$light-brand-neutral-dark-gradient: $light-brand-neutral-dark-70;
+$light-brand-neutral-light-gradient: $light-brand-neutral-light-90;
+$light-brand-secondary-gradient: $light-brand-secondary-70;
+$light-brand-primary-gradient: $light-brand-primary-70;
+$light-radii-xxl: $light-vud-radii-xxl;
+$light-radii-xl: $light-vud-radii-xl;
+$light-radii-lg: $light-vud-radii-lg;
+$light-radii-md: $light-vud-radii-md;
+$light-radii-s: $light-vud-radii-xxs;
+$light-radii-xs: $light-vud-radii-xs;
 $light-radii-xxs: $light-vud-radii-xxs;
-$light-vud-brand-neutral-dark-gradient: $light-vud-brand-neutral-dark-70;
-$light-vud-brand-neutral-light-gradient: $light-vud-brand-neutral-light-90;
-$light-vud-brand-secondary-gradient: $light-vud-brand-secondary-70;
-$light-vud-brand-primary-gradient: $light-vud-brand-primary-70;
-$light-scale-xxl-clamp: min( max( $light-scale-xxl-min,  $light-scale-xxl-fluid) ,$light-scale-xxl-max);
-$light-scale-xxl-v: 100 * ($light-scale-xxl-max-$light-scale-xxl-min) / ($light-viewport-max-$light-viewport-min);
-$light-scale-xl-clamp: min( max( $light-scale-xl-min,  $light-scale-xl-fluid) ,$light-scale-xl-max);
-$light-scale-xl-v: 100 * ($light-scale-xl-max-$light-scale-xl-min) / ($light-viewport-max-$light-viewport-min);
-$light-scale-lg-clamp: min( max( $light-scale-lg-min,  $light-scale-lg-fluid) ,$light-scale-lg-max);
-$light-scale-lg-v: 100 * ($light-scale-lg-max-$light-scale-lg-min) / ($light-viewport-max-$light-viewport-min);
-$light-scale-md-clamp: min( max( $light-scale-md-min,  $light-scale-md-fluid) ,$light-scale-md-max);
-$light-scale-md-v: 100 * ($light-scale-md-max-$light-scale-md-min) / ($light-viewport-max-$light-viewport-min);
-$light-scale-s-clamp: min( max( $light-scale-s-min,  $light-scale-s-fluid) ,$light-scale-s-max);
-$light-scale-s-v: 100 * ($light-scale-s-max-$light-scale-s-min) / ($light-viewport-max-$light-viewport-min);
-$light-scale-xs-clamp: min( max( $light-scale-xs-min,  $light-scale-xs-fluid) ,$light-scale-xs-max);
-$light-scale-xs-v: 100 * ($light-scale-xs-max-$light-scale-xs-min) / ($light-viewport-max-$light-viewport-min);
 $light-spacing-256: $light-spacing-2*128;
 $light-spacing-128: $light-spacing-2*64;
 $light-spacing-96: $light-spacing-2*48;
@@ -680,13 +528,29 @@ $light-sizing-16: $light-sizing-2*8;
 $light-sizing-12: $light-sizing-2*6;
 $light-sizing-8: $light-sizing-2*4;
 $light-sizing-4: $light-sizing-2*2;
-$light-pictogram-fill-emphasis: $light-ref-properties-pictogram-on-primary-fill-emphasis;
-$light-pictogram-fill-default: $light-ref-properties-pictogram-on-primary-fill-default;
-$light-pictogram-stroke-emphasis: $light-ref-properties-pictogram-on-primary-stroke-emphasis;
-$light-pictogram-stroke-default: $light-ref-properties-pictogram-on-primary-stroke-default; //  
-$light-dimension-size: $light-sizing-48;
-$light-density-height: $light-sizing-32;
-$light-density-padding-height: $light-spacing-8;
+$light-pictogram-tertiary-fill-emphasis: $light-ref-properties-pictogram-on-tertiary-fill-emphasis;
+$light-pictogram-tertiary-fill-default: $light-ref-properties-pictogram-on-tertiary-fill-default;
+$light-pictogram-tertiary-stroke-emphasis: $light-ref-properties-pictogram-on-tertiary-stroke-emphasis;
+$light-pictogram-tertiary-stroke-default: $light-ref-properties-pictogram-on-tertiary-stroke-default; //  
+$light-pictogram-secondary-fill-emphasis: $light-ref-properties-pictogram-on-secondary-fill-emphasis;
+$light-pictogram-secondary-fill-default: $light-ref-properties-pictogram-on-secondary-fill-default;
+$light-pictogram-secondary-stroke-emphasis: $light-ref-properties-pictogram-on-secondary-stroke-emphasis;
+$light-pictogram-secondary-stroke-default: $light-ref-properties-pictogram-on-secondary-stroke-default; //  
+$light-pictogram-primary-fill-emphasis: $light-ref-properties-pictogram-on-primary-fill-emphasis;
+$light-pictogram-primary-fill-default: $light-ref-properties-pictogram-on-primary-fill-default;
+$light-pictogram-primary-stroke-emphasis: $light-ref-properties-pictogram-on-primary-stroke-emphasis;
+$light-pictogram-primary-stroke-default: $light-ref-properties-pictogram-on-primary-stroke-default; //  
+$light-dimension-size-large: $light-sizing-48;
+$light-dimension-size-medium: $light-sizing-40;
+$light-dimension-size-small: $light-sizing-32;
+$light-density-height-relaxed: $light-sizing-56;
+$light-density-padding-height-relaxed: $light-spacing-16;
+$light-density-padding-height-regular: $light-spacing-16;
+$light-density-height-regular: $light-sizing-48;
+$light-density-padding-height-default: $light-spacing-12;
+$light-density-height-default: $light-sizing-40;
+$light-density-height-condensed: $light-sizing-32;
+$light-density-padding-height-condensed: $light-spacing-8;
 $light-comp-toggle-border-disabled: $light-ref-properties-border-on-default-disabled; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-comp-toggle-border-error: $light-ref-properties-border-on-destructive-default-enabled; // Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
 $light-comp-toggle-border-focused: $light-ref-properties-border-on-default-focused; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
@@ -934,7 +798,7 @@ $light-comp-nav-hor-inverted-surface-disabled: $light-ref-properties-fill-on-def
 $light-comp-nav-hor-inverted-surface-focused: $light-ref-properties-fill-on-default-focused; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
 $light-comp-nav-hor-inverted-surface-hover: rgba($light-ref-properties-fill-on-default-enabled, $light-opacity-8); // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-comp-nav-hor-inverted-surface-transparent: rgba( $light-ref-properties-fill-on-default-enabled, $light-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-comp-nav-hor-inverted-surface-default: $light-vud-brand-neutral-light-gradient; // Surface on container.
+$light-comp-nav-hor-inverted-surface-default: $light-brand-neutral-light-gradient; // Surface on container.
 $light-comp-nav-hor-inverted-icon-disabled: $light-ref-properties-icon-disabled; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-comp-nav-hor-inverted-icon-emphasis: $light-ref-properties-icon-emphasis; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
 $light-comp-nav-hor-inverted-icon-inverse: $light-ref-properties-icon-default; // Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background.
@@ -950,7 +814,7 @@ $light-comp-nav-hor-brand-surface-disabled: $light-ref-properties-fill-on-defaul
 $light-comp-nav-hor-brand-surface-focused: $light-ref-properties-fill-on-default-focused; // Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
 $light-comp-nav-hor-brand-surface-hover: rgba($light-ref-properties-fill-on-default-enabled, $light-opacity-8); // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-comp-nav-hor-brand-surface-transparent: rgba( $light-ref-properties-fill-on-default-enabled, $light-opacity-0); // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-comp-nav-hor-brand-surface-default: $light-vud-brand-secondary-gradient; // Surface on container.
+$light-comp-nav-hor-brand-surface-default: $light-brand-secondary-gradient; // Surface on container.
 $light-comp-nav-hor-brand-icon-disabled: $light-ref-properties-icon-disabled; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-comp-nav-hor-brand-icon-emphasis: $light-ref-properties-icon-emphasis; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
 $light-comp-nav-hor-brand-icon-inverse: $light-ref-properties-icon-default; // Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background.
@@ -1278,12 +1142,6 @@ $light-ref-properties-border-on-destructive-default-disabled: $light-ref-propert
 $light-ref-properties-border-on-destructive-default-focused: $light-ref-properties-border-on-default-focused; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
 $light-ref-properties-border-on-secondary-disabled: $light-ref-properties-border-on-default-disabled; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-ref-properties-border-on-primary-disabled: $light-ref-properties-border-on-default-disabled; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-font-size-xxl: $light-scale-xxl-clamp;
-$light-font-size-xl: $light-scale-xl-clamp;
-$light-font-size-lg: $light-scale-lg-clamp;
-$light-font-size-md: $light-scale-md-clamp;
-$light-font-size-s: $light-scale-s-clamp;
-$light-font-size-xs: $light-scale-xs-clamp;
 $light-comp-table-border-error: $light-comp-btn-default-on-destructive-border-enabled; // Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
 $light-comp-table-surface-error: $light-comp-btn-default-on-destructive-surface-transparent; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-comp-situation-funct-border-muted: $light-ref-properties-border-on-funct-muted; // Muted border refers to a subtle border style. 
