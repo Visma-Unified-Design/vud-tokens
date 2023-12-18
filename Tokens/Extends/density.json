@@ -1,11 +1,35 @@
 {
   "density": {
-    "paddingHeight": {
+    "paddingHeight-condensed": {
       "value": "{spacing.8}",
       "type": "spacing"
     },
-    "height": {
+    "height-condensed": {
       "value": "{sizing.32}",
+      "type": "sizing"
+    },
+    "height-default": {
+      "value": "{sizing.40}",
+      "type": "sizing"
+    },
+    "paddingHeight-default": {
+      "value": "{spacing.12}",
+      "type": "spacing"
+    },
+    "height-regular": {
+      "value": "{sizing.48}",
+      "type": "sizing"
+    },
+    "paddingHeight-regular": {
+      "value": "{spacing.16}",
+      "type": "spacing"
+    },
+    "paddingHeight-relaxed": {
+      "value": "{spacing.16}",
+      "type": "spacing"
+    },
+    "height-relaxed": {
+      "value": "{sizing.56}",
       "type": "sizing"
     }
   }
