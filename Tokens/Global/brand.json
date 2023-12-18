@@ -37,7 +37,7 @@
       "type": "borderRadius"
     }
   },
-  "ref-brand": {
+  "brand": {
     "primary-05": {
       "value": "{vud.green-05}",
       "type": "color"
