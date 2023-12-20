@@ -4770,5 +4770,261 @@
       "type": "color",
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     }
+  },
+  "scheme": {
+    "chart-text-default": {
+      "value": "{ref-properties.text.default}",
+      "type": "color",
+      "description": "Default title"
+    },
+    "chart-text-secondary": {
+      "value": "{ref-properties.text.secondary}",
+      "type": "color",
+      "description": "Secondary text "
+    },
+    "chart-border": {
+      "value": "{ref-properties.border.moderate}",
+      "type": "color",
+      "description": "Use for gridlines"
+    },
+    "chart-brand": {
+      "value": "{brand.secondary-60}",
+      "type": "color",
+      "description": "Primary color for data visualization. Use when only one color is required."
+    },
+    "chart-neutral": {
+      "value": "{ref-properties.border.strong}",
+      "type": "color",
+      "description": "Secondary color for data visualization. Use for the less important data points."
+    },
+    "categorical-6": {
+      "value": "{brand.neutral-light-60}",
+      "type": "color",
+      "description": "For data visualization only. Follow the numbered sequence."
+    },
+    "a": {
+      "chart-1": {
+        "value": "{chart.brown-05}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-2": {
+        "value": "{chart.brown-10}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-3": {
+        "value": "{chart.brown-20}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-4": {
+        "value": "{chart.brown-30}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-5": {
+        "value": "{chart.brown-40}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-6": {
+        "value": "{chart.brown-50}",
+        "type": "color",
+        "description": "For data visualization only. "
+      }
+    },
+    "b": {
+      "chart-1": {
+        "value": "{chart.orange-05}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-2": {
+        "value": "{chart.orange-10}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-3": {
+        "value": "{chart.orange-20}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-4": {
+        "value": "{chart.orange-30}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-5": {
+        "value": "{chart.orange-40}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-6": {
+        "value": "{chart.orange-50}",
+        "type": "color",
+        "description": "For data visualization only. "
+      }
+    },
+    "c": {
+      "chart-1": {
+        "value": "{chart.pink-05}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-2": {
+        "value": "{chart.pink-10}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-3": {
+        "value": "{chart.pink-20}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-4": {
+        "value": "{chart.pink-30}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-5": {
+        "value": "{chart.pink-40}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-6": {
+        "value": "{chart.pink-50}",
+        "type": "color",
+        "description": "For data visualization only. "
+      }
+    },
+    "d": {
+      "chart-1": {
+        "value": "{chart.purple-05}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-2": {
+        "value": "{chart.purple-10}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-3": {
+        "value": "{chart.purple-20}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-4": {
+        "value": "{chart.purple-30}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-5": {
+        "value": "{chart.purple-40}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-6": {
+        "value": "{chart.purple-50}",
+        "type": "color",
+        "description": "For data visualization only. "
+      }
+    },
+    "e": {
+      "chart-1": {
+        "value": "{chart.teal-05}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-2": {
+        "value": "{chart.teal-10}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-3": {
+        "value": "{chart.teal-20}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-4": {
+        "value": "{chart.teal-30}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-5": {
+        "value": "{chart.teal-40}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-6": {
+        "value": "{chart.teal-50}",
+        "type": "color",
+        "description": "For data visualization only. "
+      }
+    },
+    "f": {
+      "chart-1": {
+        "value": "{chart.green-05}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-2": {
+        "value": "{chart.green-10}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-3": {
+        "value": "{chart.green-20}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-4": {
+        "value": "{chart.green-30}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-5": {
+        "value": "{chart.green-40}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-6": {
+        "value": "{chart.green-50}",
+        "type": "color",
+        "description": "For data visualization only. "
+      }
+    },
+    "g": {
+      "chart-1": {
+        "value": "{chart.blue-05}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-2": {
+        "value": "{chart.blue-10}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-3": {
+        "value": "{chart.blue-20}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-4": {
+        "value": "{chart.blue-30}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-5": {
+        "value": "{chart.blue-40}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-6": {
+        "value": "{chart.blue-50}",
+        "type": "color",
+        "description": "For data visualization only. "
+      }
+    }
   }
 }

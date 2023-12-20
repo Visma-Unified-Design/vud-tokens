@@ -1,0 +1,49 @@
+{
+  "scheme": {
+    "charts-diverging-surface-1": {
+      "value": "{scheme.a.chart-6}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "charts-diverging-surface-2": {
+      "value": "{scheme.a.chart-4}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "charts-diverging-surface-3": {
+      "value": "{scheme.a.chart-1}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "charts-diverging-surface-4": {
+      "value": "{scheme.e.chart-1}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "charts-diverging-surface-5": {
+      "value": "{scheme.e.chart-3}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "charts-diverging-surface-6": {
+      "value": "{scheme.e.chart-6}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "charts-diverging-border-start": {
+      "value": "{scheme.charts-diverging-surface-1}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "charts-diverging-border-end": {
+      "value": "{scheme.charts-diverging-surface-6}",
+      "type": "color",
+      "description": "For data visualization only. "
+    }
+  },
+  "categorical": {
+    "value": "{brand.neutral-light-60}",
+    "type": "color",
+    "description": "For data visualization only. Follow the numbered sequence."
+  }
+}

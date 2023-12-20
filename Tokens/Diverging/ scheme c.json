@@ -1,0 +1,44 @@
+{
+  "scheme": {
+    "charts-diverging-surface-1": {
+      "value": "{scheme.b.chart-6}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "charts-diverging-surface-2": {
+      "value": "{scheme.b.chart-4}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "charts-diverging-surface-3": {
+      "value": "{scheme.b.chart-1}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "charts-diverging-surface-4": {
+      "value": "{scheme.g.chart-1}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "charts-diverging-surface-5": {
+      "value": "{scheme.g.chart-3}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "charts-diverging-surface-6": {
+      "value": "{scheme.g.chart-6}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "charts-diverging-border-start": {
+      "value": "{scheme.charts-diverging-surface-1}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "charts-diverging-border-end": {
+      "value": "{scheme.charts-diverging-surface-6}",
+      "type": "color",
+      "description": "For data visualization only. "
+    }
+  }
+}
