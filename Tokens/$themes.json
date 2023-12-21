@@ -2261,8 +2261,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
-      "Diverging/ scheme a": "enabled",
-      "Global/visualization": "source"
+      "Global/visualization": "source",
+      "Visualization/ scheme a": "enabled"
     },
     "group": "Data visualization"
   },
@@ -2317,8 +2317,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
-      "Diverging/ scheme b": "enabled",
-      "Global/visualization": "source"
+      "Global/visualization": "source",
+      "Visualization/ scheme b": "enabled"
     },
     "group": "Data visualization"
   },
@@ -2328,8 +2328,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
-      "Diverging/ scheme c": "enabled",
-      "Global/visualization": "source"
+      "Global/visualization": "source",
+      "Visualization/ scheme c": "enabled"
     },
     "group": "Data visualization"
   },
@@ -2339,8 +2339,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
-      "Diverging/ scheme d": "enabled",
-      "Global/visualization": "source"
+      "Global/visualization": "source",
+      "Visualization/ scheme d": "enabled"
     },
     "group": "Data visualization"
   }
