@@ -68,12 +68,12 @@
       "description": "For data visualization only. "
     },
     "chart-border-start": {
-      "value": "{diverging.chart-surface-1}",
+      "value": "{scheme.c.chart-border}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-border-end": {
-      "value": "{diverging.chart-surface-6}",
+      "value": "{scheme.f.chart-border}",
       "type": "color",
       "description": "For data visualization only. "
     }
