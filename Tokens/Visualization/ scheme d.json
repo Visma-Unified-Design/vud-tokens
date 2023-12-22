@@ -1,32 +1,32 @@
 {
   "sequential": {
     "chart-1": {
-      "value": "{chart.purple-05}",
+      "value": "{scheme.d.chart-1}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-2": {
-      "value": "{chart.purple-10}",
+      "value": "{scheme.d.chart-2}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-3": {
-      "value": "{chart.purple-20}",
+      "value": "{scheme.d.chart-3}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-4": {
-      "value": "{chart.purple-30}",
+      "value": "{scheme.d.chart-4}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-5": {
-      "value": "{chart.purple-40}",
+      "value": "{scheme.d.chart-5}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-6": {
-      "value": "{chart.purple-50}",
+      "value": "{scheme.d.chart-6}",
       "type": "color",
       "description": "For data visualization only. "
     }
@@ -74,7 +74,7 @@
     }
   },
   "categorical": {
-    "charts-surface": {
+    "chart": {
       "value": "{scheme.e.chart-5}",
       "type": "color",
       "description": "For data visualization only. Follow the numbered sequence."

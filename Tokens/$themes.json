@@ -5,7 +5,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "enabled",
-      "Global/brand": "enabled"
+      "Global/brand": "enabled",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:1269",
     "$figmaModeId": "48:18",
@@ -291,7 +294,10 @@
       "Themes/light": "enabled",
       "Global/core": "source",
       "Global/brand": "source",
-      "Global/visualization": "source"
+      "Global/visualization": "source",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:1575",
     "$figmaModeId": "48:19",
@@ -1165,7 +1171,10 @@
       "Themes/dark": "enabled",
       "Global/core": "source",
       "Global/brand": "source",
-      "Global/visualization": "source"
+      "Global/visualization": "source",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:1575",
     "$figmaModeId": "48:20",
@@ -2040,7 +2049,10 @@
     "selectedTokenSets": {
       "Density/condensed": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled"
+      "Extends/density": "enabled",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:21",
@@ -2057,7 +2069,10 @@
     "selectedTokenSets": {
       "Density/default": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled"
+      "Extends/density": "enabled",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:22",
@@ -2074,7 +2089,10 @@
     "selectedTokenSets": {
       "Density/regular": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled"
+      "Extends/density": "enabled",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:23",
@@ -2091,7 +2109,10 @@
     "selectedTokenSets": {
       "Density/relaxed": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled"
+      "Extends/density": "enabled",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:24",
@@ -2108,7 +2129,10 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/small": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2440",
     "$figmaModeId": "48:25",
@@ -2124,7 +2148,10 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/medium": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2440",
     "$figmaModeId": "48:26",
@@ -2140,7 +2167,10 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/large": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2440",
     "$figmaModeId": "48:27",
@@ -2157,7 +2187,10 @@
       "Pictogram/primary": "enabled",
       "Extends/pictogram": "enabled",
       "Global/core": "source",
-      "Themes/light": "source"
+      "Themes/light": "source",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2441",
     "$figmaModeId": "48:28",
@@ -2177,7 +2210,10 @@
       "Extends/pictogram": "enabled",
       "Pictogram/secondary": "enabled",
       "Global/core": "source",
-      "Themes/light": "source"
+      "Themes/light": "source",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2441",
     "$figmaModeId": "48:34",
@@ -2197,7 +2233,10 @@
       "Extends/pictogram": "enabled",
       "Pictogram/tertiary": "enabled",
       "Global/core": "source",
-      "Themes/light": "source"
+      "Themes/light": "source",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2441",
     "$figmaModeId": "48:35",
@@ -2215,7 +2254,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/round": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2446",
     "$figmaModeId": "48:29",
@@ -2238,7 +2280,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/sharp": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2446",
     "$figmaModeId": "48:30",
@@ -2262,7 +2307,87 @@
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/visualization": "source",
-      "Visualization/ scheme a": "enabled"
+      "Visualization/ scheme a": "enabled",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
+    },
+    "group": "Data visualization"
+  },
+  {
+    "id": "12124f844103df64bd5f9fed993d19a4fdcd8784",
+    "name": "scheme b",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Themes/light": "source",
+      "Global/visualization": "source",
+      "Visualization/ scheme b": "enabled",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
+    },
+    "group": "Data visualization"
+  },
+  {
+    "id": "4ac53a68157cb94eaf1b425fec8966bd1f722859",
+    "name": "scheme c",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Themes/light": "source",
+      "Global/visualization": "source",
+      "Visualization/ scheme c": "enabled",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
+    },
+    "group": "Data visualization"
+  },
+  {
+    "id": "1710e6c24c2fd5f5697d14af2f8265266e1659fb",
+    "name": "scheme d",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Themes/light": "source",
+      "Global/visualization": "source",
+      "Visualization/ scheme d": "enabled",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
+    },
+    "group": "Data visualization"
+  },
+  {
+    "id": "db95c925b411eb24d4ae7979763503184fe2d133",
+    "name": "scheme e",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Global/visualization": "source",
+      "Themes/light": "source",
+      "Visualization/ scheme e": "enabled"
+    },
+    "group": "Data visualization"
+  },
+  {
+    "id": "cb441728a404847b8c23f0b08757f69787af7684",
+    "name": "scheme f",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Global/visualization": "source",
+      "Themes/light": "source",
+      "Visualization/ scheme f": "enabled"
+    },
+    "group": "Data visualization"
+  },
+  {
+    "id": "c84e177029ad37ff855f73cbc95876d0ed204418",
+    "name": "scheme g",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Global/visualization": "source",
+      "Themes/light": "source",
+      "Visualization/ scheme g": "enabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "group": "Data visualization"
   },
@@ -2272,7 +2397,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/desktop": "enabled",
-      "Global/font": "source"
+      "Global/font": "source",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2456",
     "$figmaModeId": "48:31",
@@ -2287,7 +2415,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/tablet": "enabled",
-      "Global/font": "source"
+      "Global/font": "source",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2456",
     "$figmaModeId": "48:32",
@@ -2302,7 +2433,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/mobile": "enabled",
-      "Global/font": "source"
+      "Global/font": "source",
+      "Visualization/ scheme g": "disabled",
+      "Visualization/ scheme e": "disabled",
+      "Visualization/ scheme f": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2456",
     "$figmaModeId": "48:33",
@@ -2310,38 +2444,5 @@
       "viewport.width": "ebab74e69c703af6b9bebafa783e9ecc591f4d72"
     },
     "group": "Viewport"
-  },
-  {
-    "id": "12124f844103df64bd5f9fed993d19a4fdcd8784",
-    "name": "scheme b",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Themes/light": "source",
-      "Global/visualization": "source",
-      "Visualization/ scheme b": "enabled"
-    },
-    "group": "Data visualization"
-  },
-  {
-    "id": "4ac53a68157cb94eaf1b425fec8966bd1f722859",
-    "name": "scheme c",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Themes/light": "source",
-      "Global/visualization": "source",
-      "Visualization/ scheme c": "enabled"
-    },
-    "group": "Data visualization"
-  },
-  {
-    "id": "1710e6c24c2fd5f5697d14af2f8265266e1659fb",
-    "name": "scheme d",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Themes/light": "source",
-      "Global/visualization": "source",
-      "Visualization/ scheme d": "enabled"
-    },
-    "group": "Data visualization"
   }
 ]

@@ -1,49 +1,49 @@
 {
   "sequential": {
     "chart-1": {
-      "value": "{chart.brown-05}",
+      "value": "{scheme.a.chart-1}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-2": {
-      "value": "{chart.brown-10}",
+      "value": "{scheme.a.chart-2}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-3": {
-      "value": "{chart.brown-20}",
+      "value": "{scheme.a.chart-3}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-4": {
-      "value": "{chart.brown-30}",
+      "value": "{scheme.a.chart-4}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-5": {
-      "value": "{chart.brown-40}",
+      "value": "{scheme.a.chart-5}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-6": {
-      "value": "{chart.brown-50}",
+      "value": "{scheme.a.chart-6}",
       "type": "color",
       "description": "For data visualization only. "
     }
   },
   "diverging": {
     "charts-surface-1": {
-      "value": "{sequential.chart-6}",
+      "value": "{scheme.a.chart-6}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "charts-surface-2": {
-      "value": "{sequential.chart-4}",
+      "value": "{scheme.a.chart-4}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "charts-surface-3": {
-      "value": "{sequential.chart-1}",
+      "value": "{scheme.a.chart-1}",
       "type": "color",
       "description": "For data visualization only. "
     },
@@ -74,8 +74,8 @@
     }
   },
   "categorical": {
-    "charts-surface": {
-      "value": "{sequential.chart-6}",
+    "chart": {
+      "value": "{scheme.a.chart-6}",
       "type": "color",
       "description": "For data visualization only. Follow the numbered sequence."
     }

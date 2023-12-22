@@ -1,0 +1,34 @@
+{
+  "sequential": {
+    "chart-1": {
+      "value": "{scheme.g.chart-1}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-2": {
+      "value": "{scheme.g.chart-2}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-3": {
+      "value": "{scheme.g.chart-3}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-4": {
+      "value": "{scheme.g.chart-4}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-5": {
+      "value": "{scheme.g.chart-5}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-6": {
+      "value": "{scheme.g.chart-6}",
+      "type": "color",
+      "description": "For data visualization only. "
+    }
+  }
+}
