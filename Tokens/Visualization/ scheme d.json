@@ -1,4 +1,36 @@
 {
+  "sequential": {
+    "chart-1": {
+      "value": "{chart.purple-05}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-2": {
+      "value": "{chart.purple-10}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-3": {
+      "value": "{chart.purple-20}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-4": {
+      "value": "{chart.purple-30}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-5": {
+      "value": "{chart.purple-40}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-6": {
+      "value": "{chart.purple-50}",
+      "type": "color",
+      "description": "For data visualization only. "
+    }
+  },
   "diverging": {
     "charts-surface-1": {
       "value": "{scheme.d.chart-6}",
@@ -43,9 +75,9 @@
   },
   "categorical": {
     "charts-surface": {
-      "value": "{scheme.a.chart-6}",
+      "value": "{scheme.e.chart-5}",
       "type": "color",
-      "description": "For data visualization only. "
+      "description": "For data visualization only. Follow the numbered sequence."
     }
   }
 }
