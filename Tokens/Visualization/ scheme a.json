@@ -1,74 +1,79 @@
 {
   "sequential": {
-    "chart-1": {
+    "chart-surface-1": {
       "value": "{scheme.a.chart-1}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "chart-2": {
+    "chart-surface-2": {
       "value": "{scheme.a.chart-2}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "chart-3": {
+    "chart-surface-3": {
       "value": "{scheme.a.chart-3}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "chart-4": {
+    "chart-surface-4": {
       "value": "{scheme.a.chart-4}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "chart-5": {
+    "chart-surface-5": {
       "value": "{scheme.a.chart-5}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "chart-6": {
+    "chart-surface-6": {
+      "value": "{scheme.a.chart-6}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-border": {
       "value": "{scheme.a.chart-6}",
       "type": "color",
       "description": "For data visualization only. "
     }
   },
   "diverging": {
-    "charts-surface-1": {
+    "chart-surface-1": {
       "value": "{scheme.a.chart-6}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "charts-surface-2": {
+    "chart-surface-2": {
       "value": "{scheme.a.chart-4}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "charts-surface-3": {
+    "chart-surface-3": {
       "value": "{scheme.a.chart-1}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "charts-surface-4": {
+    "chart-surface-4": {
       "value": "{scheme.e.chart-1}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "charts-surface-5": {
+    "chart-surface-5": {
       "value": "{scheme.e.chart-3}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "charts-surface-6": {
+    "chart-surface-6": {
       "value": "{scheme.e.chart-6}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "charts-border-start": {
-      "value": "{diverging.charts-surface-1}",
+    "chart-border-start": {
+      "value": "{diverging.chart-surface-1}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "charts-border-end": {
-      "value": "{diverging.charts-surface-6}",
+    "chart-border-end": {
+      "value": "{diverging.chart-surface-6}",
       "type": "color",
       "description": "For data visualization only. "
     }
