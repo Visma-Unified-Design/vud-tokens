@@ -4832,6 +4832,11 @@
         "value": "{chart.brown-05}",
         "type": "color",
         "description": "For data visualization only. "
+      },
+      "chart-border": {
+        "value": "{chart.brown-40}",
+        "type": "color",
+        "description": "For data visualization only. "
       }
     },
     "b": {
@@ -4862,6 +4867,11 @@
       },
       "chart-6": {
         "value": "{chart.orange-05}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-border": {
+        "value": "{chart.orange-40}",
         "type": "color",
         "description": "For data visualization only. "
       }
@@ -4896,6 +4906,11 @@
         "value": "{chart.pink-05}",
         "type": "color",
         "description": "For data visualization only. "
+      },
+      "chart-border": {
+        "value": "{chart.pink-40}",
+        "type": "color",
+        "description": "For data visualization only. "
       }
     },
     "d": {
@@ -4926,6 +4941,11 @@
       },
       "chart-6": {
         "value": "{chart.purple-05}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-border": {
+        "value": "{chart.purple-30}",
         "type": "color",
         "description": "For data visualization only. "
       }
@@ -4960,6 +4980,11 @@
         "value": "{chart.teal-05}",
         "type": "color",
         "description": "For data visualization only. "
+      },
+      "chart-border": {
+        "value": "{chart.teal-30}",
+        "type": "color",
+        "description": "For data visualization only. "
       }
     },
     "f": {
@@ -4992,6 +5017,11 @@
         "value": "{chart.green-05}",
         "type": "color",
         "description": "For data visualization only. "
+      },
+      "chart-border": {
+        "value": "{chart.green-50}",
+        "type": "color",
+        "description": "For data visualization only. "
       }
     },
     "g": {
@@ -5022,6 +5052,11 @@
       },
       "chart-6": {
         "value": "{chart.blue-05}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-border": {
+        "value": "{chart.blue-40}",
         "type": "color",
         "description": "For data visualization only. "
       }

@@ -4833,6 +4833,11 @@
         "value": "{chart.brown-50}",
         "type": "color",
         "description": "For data visualization only. "
+      },
+      "chart-border": {
+        "value": "{chart.brown-40}",
+        "type": "color",
+        "description": "For data visualization only. "
       }
     },
     "b": {
@@ -4862,6 +4867,11 @@
         "description": "For data visualization only. "
       },
       "chart-6": {
+        "value": "{chart.orange-50}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-border": {
         "value": "{chart.orange-50}",
         "type": "color",
         "description": "For data visualization only. "
@@ -4897,6 +4907,11 @@
         "value": "{chart.pink-50}",
         "type": "color",
         "description": "For data visualization only. "
+      },
+      "chart-border": {
+        "value": "{chart.pink-40}",
+        "type": "color",
+        "description": "For data visualization only. "
       }
     },
     "d": {
@@ -4927,6 +4942,11 @@
       },
       "chart-6": {
         "value": "{chart.purple-50}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-border": {
+        "value": "{chart.purple-30}",
         "type": "color",
         "description": "For data visualization only. "
       }
@@ -4961,6 +4981,11 @@
         "value": "{chart.teal-50}",
         "type": "color",
         "description": "For data visualization only. "
+      },
+      "chart-border": {
+        "value": "{chart.teal-40}",
+        "type": "color",
+        "description": "For data visualization only. "
       }
     },
     "f": {
@@ -4990,6 +5015,11 @@
         "description": "For data visualization only. "
       },
       "chart-6": {
+        "value": "{chart.green-50}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-border": {
         "value": "{chart.green-50}",
         "type": "color",
         "description": "For data visualization only. "
@@ -5023,6 +5053,11 @@
       },
       "chart-6": {
         "value": "{chart.blue-50}",
+        "type": "color",
+        "description": "For data visualization only. "
+      },
+      "chart-border": {
+        "value": "{chart.blue-40}",
         "type": "color",
         "description": "For data visualization only. "
       }

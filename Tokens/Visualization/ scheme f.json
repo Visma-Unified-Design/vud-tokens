@@ -31,7 +31,7 @@
       "description": "For data visualization only. "
     },
     "chart-border": {
-      "value": "{scheme.a.chart-6}",
+      "value": "{scheme.f.chart-border}",
       "type": "color",
       "description": "For data visualization only. "
     }
