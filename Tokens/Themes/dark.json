@@ -4775,12 +4775,12 @@
     "chart-text-default": {
       "value": "{ref-properties.text.default}",
       "type": "color",
-      "description": "Default title"
+      "description": "Default title for data visualization."
     },
     "chart-text-secondary": {
       "value": "{ref-properties.text.secondary}",
       "type": "color",
-      "description": "Secondary text "
+      "description": "Secondary text for data visualization."
     },
     "chart-border": {
       "value": "{ref-properties.border.moderate}",
@@ -5060,6 +5060,11 @@
         "type": "color",
         "description": "For data visualization only. "
       }
+    },
+    "chart-text-inverse": {
+      "value": "{ref-properties.text.inverse}",
+      "type": "color",
+      "description": "Inverse text for data visualization."
     }
   }
 }

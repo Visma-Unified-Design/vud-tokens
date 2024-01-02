@@ -34,6 +34,16 @@
       "value": "{scheme.b.chart-border}",
       "type": "color",
       "description": "For data visualization only. "
+    },
+    "chart-text-default": {
+      "value": "{sequential.chart-surface-6}",
+      "type": "color",
+      "description": "Default text for data visualization only. "
+    },
+    "chart-text-inverse": {
+      "value": "{scheme.chart-text-inverse}",
+      "type": "color",
+      "description": "Inverse text for data visualization only. "
     }
   },
   "diverging": {
