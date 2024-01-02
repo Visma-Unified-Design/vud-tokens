@@ -4797,11 +4797,6 @@
       "type": "color",
       "description": "Secondary color for data visualization. Use for the less important data points."
     },
-    "categorical-6": {
-      "value": "{brand.neutral-light-60}",
-      "type": "color",
-      "description": "For data visualization only. Follow the numbered sequence."
-    },
     "a": {
       "chart-1": {
         "value": "{chart.brown-50}",

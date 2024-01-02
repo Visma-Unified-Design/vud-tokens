@@ -5,7 +5,15 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "enabled",
-      "Global/brand": "enabled"
+      "Global/brand": "enabled",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:1269",
     "$figmaModeId": "48:18",
@@ -291,7 +299,14 @@
       "Themes/light": "enabled",
       "Global/core": "source",
       "Global/brand": "source",
-      "Global/visualization": "source"
+      "Global/data-viz": "source",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:1575",
     "$figmaModeId": "48:19",
@@ -1165,7 +1180,14 @@
       "Themes/dark": "enabled",
       "Global/core": "source",
       "Global/brand": "source",
-      "Global/visualization": "source"
+      "Global/data-viz": "source",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:1575",
     "$figmaModeId": "48:20",
@@ -2040,7 +2062,15 @@
     "selectedTokenSets": {
       "Density/condensed": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled"
+      "Extends/density": "enabled",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:21",
@@ -2057,7 +2087,15 @@
     "selectedTokenSets": {
       "Density/default": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled"
+      "Extends/density": "enabled",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:22",
@@ -2074,7 +2112,15 @@
     "selectedTokenSets": {
       "Density/regular": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled"
+      "Extends/density": "enabled",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:23",
@@ -2091,7 +2137,15 @@
     "selectedTokenSets": {
       "Density/relaxed": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled"
+      "Extends/density": "enabled",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:24",
@@ -2108,7 +2162,15 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/small": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2440",
     "$figmaModeId": "48:25",
@@ -2124,7 +2186,15 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/medium": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2440",
     "$figmaModeId": "48:26",
@@ -2140,7 +2210,15 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/large": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2440",
     "$figmaModeId": "48:27",
@@ -2157,7 +2235,15 @@
       "Pictogram/primary": "enabled",
       "Extends/pictogram": "enabled",
       "Global/core": "source",
-      "Themes/light": "source"
+      "Themes/light": "source",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2441",
     "$figmaModeId": "48:28",
@@ -2177,7 +2263,15 @@
       "Extends/pictogram": "enabled",
       "Pictogram/secondary": "enabled",
       "Global/core": "source",
-      "Themes/light": "source"
+      "Themes/light": "source",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2441",
     "$figmaModeId": "48:34",
@@ -2197,7 +2291,15 @@
       "Extends/pictogram": "enabled",
       "Pictogram/tertiary": "enabled",
       "Global/core": "source",
-      "Themes/light": "source"
+      "Themes/light": "source",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2441",
     "$figmaModeId": "48:35",
@@ -2215,7 +2317,15 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/round": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2446",
     "$figmaModeId": "48:29",
@@ -2238,7 +2348,15 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/sharp": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2446",
     "$figmaModeId": "48:30",
@@ -2261,8 +2379,14 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
-      "Global/visualization": "source",
-      "Visualization/ scheme a": "enabled"
+      "Global/data-viz": "source",
+      "Data-viz/ scheme a": "enabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "group": "Data visualization"
   },
@@ -2272,8 +2396,14 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
-      "Global/visualization": "source",
-      "Visualization/ scheme b": "enabled"
+      "Global/data-viz": "source",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "enabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "group": "Data visualization"
   },
@@ -2283,8 +2413,14 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
-      "Global/visualization": "source",
-      "Visualization/ scheme c": "enabled"
+      "Global/data-viz": "source",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "enabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "group": "Data visualization"
   },
@@ -2294,8 +2430,14 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
-      "Global/visualization": "source",
-      "Visualization/ scheme d": "enabled"
+      "Global/data-viz": "source",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "enabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "group": "Data visualization"
   },
@@ -2304,9 +2446,15 @@
     "name": "scheme e",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/visualization": "source",
       "Themes/light": "source",
-      "Visualization/ scheme e": "enabled"
+      "Global/data-viz": "source",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "enabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "group": "Data visualization"
   },
@@ -2315,9 +2463,15 @@
     "name": "scheme f",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/visualization": "source",
       "Themes/light": "source",
-      "Visualization/ scheme f": "enabled"
+      "Global/data-viz": "source",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "enabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "group": "Data visualization"
   },
@@ -2326,9 +2480,15 @@
     "name": "scheme g",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/visualization": "source",
       "Themes/light": "source",
-      "Visualization/ scheme g": "enabled"
+      "Global/data-viz": "source",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "enabled"
     },
     "group": "Data visualization"
   },
@@ -2338,7 +2498,15 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/desktop": "enabled",
-      "Global/font": "source"
+      "Global/font": "source",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2456",
     "$figmaModeId": "48:31",
@@ -2353,7 +2521,15 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/tablet": "enabled",
-      "Global/font": "source"
+      "Global/font": "source",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2456",
     "$figmaModeId": "48:32",
@@ -2368,7 +2544,15 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/mobile": "enabled",
-      "Global/font": "source"
+      "Global/font": "source",
+      "Global/data-viz": "disabled",
+      "Data-viz/ scheme a": "disabled",
+      "Data-viz/ scheme b": "disabled",
+      "Data-viz/ scheme c": "disabled",
+      "Data-viz/ scheme d": "disabled",
+      "Data-viz/ scheme e": "disabled",
+      "Data-viz/ scheme f": "disabled",
+      "Data-viz/ scheme g": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2456",
     "$figmaModeId": "48:33",
