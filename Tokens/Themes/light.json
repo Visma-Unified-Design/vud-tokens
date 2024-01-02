@@ -4798,6 +4798,11 @@
       "type": "color",
       "description": "Secondary color for data visualization. Use for the less important data points."
     },
+    "chart": {
+      "value": "{comp-content.surface-enabled}",
+      "type": "color",
+      "description": "Secondary color for data visualization. Use for the less important data points."
+    },
     "a": {
       "chart-1": {
         "value": "{chart.brown-05}",
