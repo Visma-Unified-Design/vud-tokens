@@ -1,0 +1,46 @@
+{
+  "sequential": {
+    "chart-surface-1": {
+      "value": "{scheme.e.chart-1}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-surface-2": {
+      "value": "{scheme.e.chart-2}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-surface-3": {
+      "value": "{scheme.e.chart-3}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-surface-4": {
+      "value": "{scheme.e.chart-4}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-surface-5": {
+      "value": "{scheme.e.chart-5}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-surface-6": {
+      "value": "{scheme.e.chart-6}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-border": {
+      "value": "{scheme.e.chart-border}",
+      "type": "color",
+      "description": "For data visualization only. "
+    }
+  },
+  "categorical": {
+    "chart": {
+      "value": "{scheme.g.chart-5}",
+      "type": "color",
+      "description": "For data visualization only. Follow the numbered sequence."
+    }
+  }
+}
