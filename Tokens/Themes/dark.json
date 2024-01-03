@@ -4775,7 +4775,7 @@
     "chart-text-default": {
       "value": "{ref-properties.text.default}",
       "type": "color",
-      "description": "Default title for headlines."
+      "description": "Default text for labels. Use on chart colors if needed."
     },
     "chart-text-secondary": {
       "value": "{ref-properties.text.secondary}",
@@ -4785,7 +4785,7 @@
     "chart-text-inverse": {
       "value": "{ref-properties.text.inverse}",
       "type": "color",
-      "description": "Inverse text on chart colors."
+      "description": "Inverse text on chart colors. Use only if needed."
     },
     "chart-border": {
       "value": "{ref-properties.border.strong}",
