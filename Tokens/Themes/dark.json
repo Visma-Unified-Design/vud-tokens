@@ -4783,7 +4783,7 @@
       "description": "Secondary text for data visualization."
     },
     "chart-border": {
-      "value": "{ref-properties.border.moderate}",
+      "value": "{ref-properties.border.strong}",
       "type": "color",
       "description": "Use for gridlines"
     },
@@ -4793,7 +4793,7 @@
       "description": "Primary color for data visualization. Use when only one color is required."
     },
     "chart-neutral": {
-      "value": "{ref-properties.border.strong}",
+      "value": "{ref-properties.border.moderate}",
       "type": "color",
       "description": "Secondary color for data visualization. Use for the less important data points."
     },
