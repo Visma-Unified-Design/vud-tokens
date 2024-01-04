@@ -4,6 +4,8 @@
         "tokenSets": [
           "Global/core",
           "Global/brand",
+          "Global/font",
+          "Global/data-viz",
           "Themes/light",
           "Extends/density",
           "Extends/dimension",
@@ -15,6 +17,8 @@
         "tokenSets": [
           "Global/core",
           "Global/brand",
+          "Global/font",
+          "Global/data-viz",
           "Themes/dark",
           "Extends/density",
           "Extends/dimension",
