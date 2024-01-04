@@ -5,7 +5,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "enabled",
-      "Global/brand": "enabled"
+      "Global/brand": "enabled",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:1269",
     "$figmaModeId": "48:18",
@@ -291,7 +292,8 @@
       "Themes/light": "enabled",
       "Global/core": "source",
       "Global/brand": "source",
-      "Global/data-viz": "source"
+      "Global/data-viz": "source",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:1575",
     "$figmaModeId": "48:19",
@@ -587,36 +589,6 @@
       "comp-list.border-disabled": "e1c7052adcbd21f29ba4320a52ec3d20f345c297",
       "comp-list.border-transparent": "4a19551b8cea0ad3a9c739515eca91bfb2ac6702",
       "comp-list.border-muted": "00244f924ff4c2d2506ec750f001310a70c50f98",
-      "comp-messaging.text-default": "fed927f256f683908fd1cf66884998f48a37b1f3",
-      "comp-messaging.text-inverse": "fe36fdd19cdc7f25d295952d710d8f4776abc6f5",
-      "comp-messaging.text-secondary": "8178910f2fc9fcfa1e72e09d2624aee2ea4ceefe",
-      "comp-messaging.text-disabled": "88b32464857abf65893d0c2f32d34a55cecb518e",
-      "comp-messaging.text-error": "974bbb366156588eb60d5cdb8d532e5d047d2505",
-      "comp-messaging.icon-default": "5735204948bc30ef1cb6b49cefa44be4df905f91",
-      "comp-messaging.icon-emphasis": "e447f924a3c9fb39f4e878d872f286b8499aa8f6",
-      "comp-messaging.icon-disabled": "f07437371a6d33897d46bd539f0fd05576ec5bb9",
-      "comp-messaging.surface-enabled": "210a2219e0a2a8adda98d39a1e2c6713f319e7d8",
-      "comp-messaging.surface-muted": "53c3745568d970b5b1bf696377ed480318f4ffe6",
-      "comp-messaging.surface-strong": "0aa03a32f2191c536e8470d3df0631dd5bd05fde",
-      "comp-messaging.surface-enabled:hover": "0bd8e8377ad316f0deeeb0673da71da5f2fdfee8",
-      "comp-messaging.surface-muted:hover": "e97d4cda051ef90abb3c092b2481ab9d10ac7be8",
-      "comp-messaging.surface-focused": "c9e0291372293762c3576a3ee0482edfb1d834d2",
-      "comp-messaging.surface-pressed": "7393e969994c878b1f29ad6d9a9a520d9a0c1d2e",
-      "comp-messaging.surface-selected": "e3837623cf9853d0fff90facec2452048bdd7b25",
-      "comp-messaging.surface-selected:hover": "a340da7223cb0d5d3c83fa5ba3fda028a2e4d10e",
-      "comp-messaging.surface-disabled": "4c3aef7bba2b04086a7f74a53c36046687cceff7",
-      "comp-messaging.surface-error": "074eb4ece9e0c2986d05e909b95e057f9cd1ebb2",
-      "comp-messaging.surface-error:hover": "c396159c3a1b11448367c266615c1d923b304fdf",
-      "comp-messaging.border-enabled": "ec171f745cb15105ff7e3e805e7adb4b2c5646ef",
-      "comp-messaging.border-muted": "b9c5cbed78723dfcb9de0ea0ab165fa112b0521d",
-      "comp-messaging.border-transparent": "e7314c9176f9e39ac64c2e42a0a42655c6fff6f2",
-      "comp-messaging.border-hover": "a2372e4e880b4593fee5b049ef3c0927f643de97",
-      "comp-messaging.border-focused": "a3b9d600020fd64a9f78a3d169ad40351ea1654d",
-      "comp-messaging.border-pressed": "ac47cd3674a04a2d79e6cf176f6421e94d6726db",
-      "comp-messaging.border-selected": "a20aaee1d17ecaa3c879fcb0e7f843efeff6f083",
-      "comp-messaging.border-selected:hover": "bb1d9db3cbb5912b8aae54c680608792d34204ad",
-      "comp-messaging.border-disabled": "0ad117236460e32ee894360b59a5d244f6bd6f18",
-      "comp-messaging.border-error": "e2cc3ee2af3adf6135ee105d20c2cec898d3d3f3",
       "comp-nav-hor-default.text-default": "eb43ff3185294f9c5ba2ff313a99219a6b0c3ced",
       "comp-nav-hor-default.text-inverse": "de16f76e80c7749b8029e7d5948a154fb4943781",
       "comp-nav-hor-default.text-secondary": "b4227301e5732a32fed5336e4f8b6ecceaebebc4",
@@ -1153,7 +1125,37 @@
       "ref-properties.shade.weak": "b6a75ded601732d78ab1ebb496ea6dcdc518dde4",
       "ref-properties.shade.moderate": "123e2f14f07a65602062979ae71d51976c93ff4a",
       "ref-properties.tint.weak": "a007d3cce97b10ef385714737633c05bcdf909b3",
-      "ref-properties.tint.moderate": "46c682938142643f189f47cddf999358fc39b9b9"
+      "ref-properties.tint.moderate": "46c682938142643f189f47cddf999358fc39b9b9",
+      "comp-message.text-default": "fed927f256f683908fd1cf66884998f48a37b1f3",
+      "comp-message.text-inverse": "fe36fdd19cdc7f25d295952d710d8f4776abc6f5",
+      "comp-message.text-secondary": "8178910f2fc9fcfa1e72e09d2624aee2ea4ceefe",
+      "comp-message.text-disabled": "88b32464857abf65893d0c2f32d34a55cecb518e",
+      "comp-message.text-error": "974bbb366156588eb60d5cdb8d532e5d047d2505",
+      "comp-message.icon-default": "5735204948bc30ef1cb6b49cefa44be4df905f91",
+      "comp-message.icon-emphasis": "e447f924a3c9fb39f4e878d872f286b8499aa8f6",
+      "comp-message.icon-disabled": "f07437371a6d33897d46bd539f0fd05576ec5bb9",
+      "comp-message.surface-enabled": "210a2219e0a2a8adda98d39a1e2c6713f319e7d8",
+      "comp-message.surface-muted": "53c3745568d970b5b1bf696377ed480318f4ffe6",
+      "comp-message.surface-strong": "0aa03a32f2191c536e8470d3df0631dd5bd05fde",
+      "comp-message.surface-enabled:hover": "0bd8e8377ad316f0deeeb0673da71da5f2fdfee8",
+      "comp-message.surface-muted:hover": "e97d4cda051ef90abb3c092b2481ab9d10ac7be8",
+      "comp-message.surface-focused": "c9e0291372293762c3576a3ee0482edfb1d834d2",
+      "comp-message.surface-pressed": "7393e969994c878b1f29ad6d9a9a520d9a0c1d2e",
+      "comp-message.surface-selected": "e3837623cf9853d0fff90facec2452048bdd7b25",
+      "comp-message.surface-selected:hover": "a340da7223cb0d5d3c83fa5ba3fda028a2e4d10e",
+      "comp-message.surface-disabled": "4c3aef7bba2b04086a7f74a53c36046687cceff7",
+      "comp-message.surface-error": "074eb4ece9e0c2986d05e909b95e057f9cd1ebb2",
+      "comp-message.surface-error:hover": "c396159c3a1b11448367c266615c1d923b304fdf",
+      "comp-message.border-enabled": "ec171f745cb15105ff7e3e805e7adb4b2c5646ef",
+      "comp-message.border-muted": "b9c5cbed78723dfcb9de0ea0ab165fa112b0521d",
+      "comp-message.border-transparent": "e7314c9176f9e39ac64c2e42a0a42655c6fff6f2",
+      "comp-message.border-hover": "a2372e4e880b4593fee5b049ef3c0927f643de97",
+      "comp-message.border-focused": "a3b9d600020fd64a9f78a3d169ad40351ea1654d",
+      "comp-message.border-pressed": "ac47cd3674a04a2d79e6cf176f6421e94d6726db",
+      "comp-message.border-selected": "a20aaee1d17ecaa3c879fcb0e7f843efeff6f083",
+      "comp-message.border-selected:hover": "bb1d9db3cbb5912b8aae54c680608792d34204ad",
+      "comp-message.border-disabled": "0ad117236460e32ee894360b59a5d244f6bd6f18",
+      "comp-message.border-error": "e2cc3ee2af3adf6135ee105d20c2cec898d3d3f3"
     },
     "group": "Themes"
   },
@@ -1165,7 +1167,8 @@
       "Themes/dark": "enabled",
       "Global/core": "source",
       "Global/brand": "source",
-      "Global/data-viz": "source"
+      "Global/data-viz": "source",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:1575",
     "$figmaModeId": "48:20",
@@ -1462,36 +1465,6 @@
       "comp-list.border-disabled": "e1c7052adcbd21f29ba4320a52ec3d20f345c297",
       "comp-list.border-transparent": "4a19551b8cea0ad3a9c739515eca91bfb2ac6702",
       "comp-list.border-muted": "00244f924ff4c2d2506ec750f001310a70c50f98",
-      "comp-messaging.text-default": "fed927f256f683908fd1cf66884998f48a37b1f3",
-      "comp-messaging.text-inverse": "fe36fdd19cdc7f25d295952d710d8f4776abc6f5",
-      "comp-messaging.text-secondary": "8178910f2fc9fcfa1e72e09d2624aee2ea4ceefe",
-      "comp-messaging.text-disabled": "88b32464857abf65893d0c2f32d34a55cecb518e",
-      "comp-messaging.text-error": "974bbb366156588eb60d5cdb8d532e5d047d2505",
-      "comp-messaging.icon-default": "5735204948bc30ef1cb6b49cefa44be4df905f91",
-      "comp-messaging.icon-emphasis": "e447f924a3c9fb39f4e878d872f286b8499aa8f6",
-      "comp-messaging.icon-disabled": "f07437371a6d33897d46bd539f0fd05576ec5bb9",
-      "comp-messaging.surface-enabled": "210a2219e0a2a8adda98d39a1e2c6713f319e7d8",
-      "comp-messaging.surface-muted": "53c3745568d970b5b1bf696377ed480318f4ffe6",
-      "comp-messaging.surface-strong": "0aa03a32f2191c536e8470d3df0631dd5bd05fde",
-      "comp-messaging.surface-enabled:hover": "0bd8e8377ad316f0deeeb0673da71da5f2fdfee8",
-      "comp-messaging.surface-muted:hover": "e97d4cda051ef90abb3c092b2481ab9d10ac7be8",
-      "comp-messaging.surface-focused": "c9e0291372293762c3576a3ee0482edfb1d834d2",
-      "comp-messaging.surface-pressed": "7393e969994c878b1f29ad6d9a9a520d9a0c1d2e",
-      "comp-messaging.surface-selected": "e3837623cf9853d0fff90facec2452048bdd7b25",
-      "comp-messaging.surface-selected:hover": "a340da7223cb0d5d3c83fa5ba3fda028a2e4d10e",
-      "comp-messaging.surface-disabled": "4c3aef7bba2b04086a7f74a53c36046687cceff7",
-      "comp-messaging.surface-error": "074eb4ece9e0c2986d05e909b95e057f9cd1ebb2",
-      "comp-messaging.surface-error:hover": "c396159c3a1b11448367c266615c1d923b304fdf",
-      "comp-messaging.border-enabled": "ec171f745cb15105ff7e3e805e7adb4b2c5646ef",
-      "comp-messaging.border-muted": "b9c5cbed78723dfcb9de0ea0ab165fa112b0521d",
-      "comp-messaging.border-transparent": "e7314c9176f9e39ac64c2e42a0a42655c6fff6f2",
-      "comp-messaging.border-hover": "a2372e4e880b4593fee5b049ef3c0927f643de97",
-      "comp-messaging.border-focused": "a3b9d600020fd64a9f78a3d169ad40351ea1654d",
-      "comp-messaging.border-pressed": "ac47cd3674a04a2d79e6cf176f6421e94d6726db",
-      "comp-messaging.border-selected": "a20aaee1d17ecaa3c879fcb0e7f843efeff6f083",
-      "comp-messaging.border-selected:hover": "bb1d9db3cbb5912b8aae54c680608792d34204ad",
-      "comp-messaging.border-disabled": "0ad117236460e32ee894360b59a5d244f6bd6f18",
-      "comp-messaging.border-error": "e2cc3ee2af3adf6135ee105d20c2cec898d3d3f3",
       "comp-nav-hor-default.text-default": "eb43ff3185294f9c5ba2ff313a99219a6b0c3ced",
       "comp-nav-hor-default.text-inverse": "de16f76e80c7749b8029e7d5948a154fb4943781",
       "comp-nav-hor-default.text-secondary": "b4227301e5732a32fed5336e4f8b6ecceaebebc4",
@@ -2029,7 +2002,37 @@
       "ref-properties.shade.weak": "b6a75ded601732d78ab1ebb496ea6dcdc518dde4",
       "ref-properties.shade.moderate": "123e2f14f07a65602062979ae71d51976c93ff4a",
       "ref-properties.tint.weak": "a007d3cce97b10ef385714737633c05bcdf909b3",
-      "ref-properties.tint.moderate": "46c682938142643f189f47cddf999358fc39b9b9"
+      "ref-properties.tint.moderate": "46c682938142643f189f47cddf999358fc39b9b9",
+      "comp-message.text-default": "fed927f256f683908fd1cf66884998f48a37b1f3",
+      "comp-message.text-inverse": "fe36fdd19cdc7f25d295952d710d8f4776abc6f5",
+      "comp-message.text-secondary": "8178910f2fc9fcfa1e72e09d2624aee2ea4ceefe",
+      "comp-message.text-disabled": "88b32464857abf65893d0c2f32d34a55cecb518e",
+      "comp-message.text-error": "974bbb366156588eb60d5cdb8d532e5d047d2505",
+      "comp-message.icon-default": "5735204948bc30ef1cb6b49cefa44be4df905f91",
+      "comp-message.icon-emphasis": "e447f924a3c9fb39f4e878d872f286b8499aa8f6",
+      "comp-message.icon-disabled": "f07437371a6d33897d46bd539f0fd05576ec5bb9",
+      "comp-message.surface-enabled": "210a2219e0a2a8adda98d39a1e2c6713f319e7d8",
+      "comp-message.surface-muted": "53c3745568d970b5b1bf696377ed480318f4ffe6",
+      "comp-message.surface-strong": "0aa03a32f2191c536e8470d3df0631dd5bd05fde",
+      "comp-message.surface-enabled:hover": "0bd8e8377ad316f0deeeb0673da71da5f2fdfee8",
+      "comp-message.surface-muted:hover": "e97d4cda051ef90abb3c092b2481ab9d10ac7be8",
+      "comp-message.surface-focused": "c9e0291372293762c3576a3ee0482edfb1d834d2",
+      "comp-message.surface-pressed": "7393e969994c878b1f29ad6d9a9a520d9a0c1d2e",
+      "comp-message.surface-selected": "e3837623cf9853d0fff90facec2452048bdd7b25",
+      "comp-message.surface-selected:hover": "a340da7223cb0d5d3c83fa5ba3fda028a2e4d10e",
+      "comp-message.surface-disabled": "4c3aef7bba2b04086a7f74a53c36046687cceff7",
+      "comp-message.surface-error": "074eb4ece9e0c2986d05e909b95e057f9cd1ebb2",
+      "comp-message.surface-error:hover": "c396159c3a1b11448367c266615c1d923b304fdf",
+      "comp-message.border-enabled": "ec171f745cb15105ff7e3e805e7adb4b2c5646ef",
+      "comp-message.border-muted": "b9c5cbed78723dfcb9de0ea0ab165fa112b0521d",
+      "comp-message.border-transparent": "e7314c9176f9e39ac64c2e42a0a42655c6fff6f2",
+      "comp-message.border-hover": "a2372e4e880b4593fee5b049ef3c0927f643de97",
+      "comp-message.border-focused": "a3b9d600020fd64a9f78a3d169ad40351ea1654d",
+      "comp-message.border-pressed": "ac47cd3674a04a2d79e6cf176f6421e94d6726db",
+      "comp-message.border-selected": "a20aaee1d17ecaa3c879fcb0e7f843efeff6f083",
+      "comp-message.border-selected:hover": "bb1d9db3cbb5912b8aae54c680608792d34204ad",
+      "comp-message.border-disabled": "0ad117236460e32ee894360b59a5d244f6bd6f18",
+      "comp-message.border-error": "e2cc3ee2af3adf6135ee105d20c2cec898d3d3f3"
     },
     "group": "Themes"
   },
@@ -2040,7 +2043,8 @@
     "selectedTokenSets": {
       "Density/condensed": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled"
+      "Extends/density": "enabled",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:21",
@@ -2057,7 +2061,8 @@
     "selectedTokenSets": {
       "Density/default": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled"
+      "Extends/density": "enabled",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:22",
@@ -2074,7 +2079,8 @@
     "selectedTokenSets": {
       "Density/regular": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled"
+      "Extends/density": "enabled",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:23",
@@ -2091,7 +2097,8 @@
     "selectedTokenSets": {
       "Density/relaxed": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled"
+      "Extends/density": "enabled",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:24",
@@ -2108,7 +2115,8 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/small": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2440",
     "$figmaModeId": "48:25",
@@ -2124,7 +2132,8 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/medium": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2440",
     "$figmaModeId": "48:26",
@@ -2140,7 +2149,8 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/large": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2440",
     "$figmaModeId": "48:27",
@@ -2157,7 +2167,8 @@
       "Pictogram/primary": "enabled",
       "Extends/pictogram": "enabled",
       "Global/core": "source",
-      "Themes/light": "source"
+      "Themes/light": "source",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2441",
     "$figmaModeId": "48:28",
@@ -2177,7 +2188,8 @@
       "Extends/pictogram": "enabled",
       "Pictogram/secondary": "enabled",
       "Global/core": "source",
-      "Themes/light": "source"
+      "Themes/light": "source",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2441",
     "$figmaModeId": "48:34",
@@ -2197,7 +2209,8 @@
       "Extends/pictogram": "enabled",
       "Pictogram/tertiary": "enabled",
       "Global/core": "source",
-      "Themes/light": "source"
+      "Themes/light": "source",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2441",
     "$figmaModeId": "48:35",
@@ -2215,7 +2228,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/round": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2446",
     "$figmaModeId": "48:29",
@@ -2238,7 +2252,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/sharp": "enabled",
-      "Global/core": "source"
+      "Global/core": "source",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2446",
     "$figmaModeId": "48:30",
@@ -2262,7 +2277,8 @@
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/data-viz": "source",
-      "Data-viz/ scheme a": "enabled"
+      "Data-viz/ scheme a": "enabled",
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -2273,7 +2289,8 @@
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/data-viz": "source",
-      "Data-viz/ scheme b": "enabled"
+      "Data-viz/ scheme b": "enabled",
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -2284,7 +2301,8 @@
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/data-viz": "source",
-      "Data-viz/ scheme c": "enabled"
+      "Data-viz/ scheme c": "enabled",
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -2295,7 +2313,8 @@
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/data-viz": "source",
-      "Data-viz/ scheme d": "enabled"
+      "Data-viz/ scheme d": "enabled",
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -2306,7 +2325,8 @@
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/data-viz": "source",
-      "Data-viz/ scheme e": "enabled"
+      "Data-viz/ scheme e": "enabled",
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -2317,7 +2337,8 @@
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/data-viz": "source",
-      "Data-viz/ scheme f": "enabled"
+      "Data-viz/ scheme f": "enabled",
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -2328,7 +2349,8 @@
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/data-viz": "source",
-      "Data-viz/ scheme g": "enabled"
+      "Data-viz/ scheme g": "enabled",
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -2338,7 +2360,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/desktop": "enabled",
-      "Global/font": "source"
+      "Global/font": "source",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2456",
     "$figmaModeId": "48:31",
@@ -2353,7 +2376,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/tablet": "enabled",
-      "Global/font": "source"
+      "Global/font": "source",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2456",
     "$figmaModeId": "48:32",
@@ -2368,7 +2392,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/mobile": "enabled",
-      "Global/font": "source"
+      "Global/font": "source",
+      "Extends/data-viz": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2456",
     "$figmaModeId": "48:33",
