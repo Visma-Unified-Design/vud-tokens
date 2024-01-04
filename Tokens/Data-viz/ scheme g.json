@@ -35,5 +35,12 @@
       "type": "color",
       "description": "For data visualization only. "
     }
+  },
+  "opacity": {
+    "disabled": {
+      "value": "{opacity.64}",
+      "type": "opacity",
+      "description": "Opacity for hover state on charts."
+    }
   }
 }
