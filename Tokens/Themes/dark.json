@@ -4775,17 +4775,22 @@
     "chart-text-default": {
       "value": "{ref-properties.text.default}",
       "type": "color",
-      "description": "Default title for data visualization."
+      "description": "Default text for labels. Use on chart colors if needed."
     },
     "chart-text-secondary": {
       "value": "{ref-properties.text.secondary}",
       "type": "color",
-      "description": "Secondary text for data visualization."
+      "description": "Secondary text for legends."
+    },
+    "chart-text-inverse": {
+      "value": "{ref-properties.text.inverse}",
+      "type": "color",
+      "description": "Inverse text on chart colors. Use only if needed."
     },
     "chart-border": {
       "value": "{ref-properties.border.strong}",
       "type": "color",
-      "description": "Use for gridlines"
+      "description": "Gridlines"
     },
     "chart-brand": {
       "value": "{brand.secondary-60}",
@@ -4800,7 +4805,7 @@
     "chart": {
       "value": "{comp-content.surface-enabled}",
       "type": "color",
-      "description": "Chart surface and border for data visualization. "
+      "description": "Surface and border on chart UI."
     },
     "a": {
       "chart-1": {
@@ -5060,11 +5065,6 @@
         "type": "color",
         "description": "For data visualization only. "
       }
-    },
-    "chart-text-inverse": {
-      "value": "{ref-properties.text.inverse}",
-      "type": "color",
-      "description": "Inverse text for data visualization."
     }
   }
 }

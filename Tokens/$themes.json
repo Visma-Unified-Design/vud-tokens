@@ -2257,80 +2257,80 @@
   },
   {
     "id": "c73f9bd897eb0f05c80963508490d1ca0af73123",
-    "name": "scheme a",
+    "name": "a",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme a": "enabled"
     },
-    "group": "Data visualization"
+    "group": "Scheme"
   },
   {
     "id": "12124f844103df64bd5f9fed993d19a4fdcd8784",
-    "name": "scheme b",
+    "name": "b",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme b": "enabled"
     },
-    "group": "Data visualization"
+    "group": "Scheme"
   },
   {
     "id": "4ac53a68157cb94eaf1b425fec8966bd1f722859",
-    "name": "scheme c",
+    "name": "c",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme c": "enabled"
     },
-    "group": "Data visualization"
+    "group": "Scheme"
   },
   {
     "id": "1710e6c24c2fd5f5697d14af2f8265266e1659fb",
-    "name": "scheme d",
+    "name": "d",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme d": "enabled"
     },
-    "group": "Data visualization"
+    "group": "Scheme"
   },
   {
     "id": "db95c925b411eb24d4ae7979763503184fe2d133",
-    "name": "scheme e",
+    "name": "e",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme e": "enabled"
     },
-    "group": "Data visualization"
+    "group": "Scheme"
   },
   {
     "id": "cb441728a404847b8c23f0b08757f69787af7684",
-    "name": "scheme f",
+    "name": "f",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme f": "enabled"
     },
-    "group": "Data visualization"
+    "group": "Scheme"
   },
   {
     "id": "c84e177029ad37ff855f73cbc95876d0ed204418",
-    "name": "scheme g",
+    "name": "g",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme g": "enabled"
     },
-    "group": "Data visualization"
+    "group": "Scheme"
   },
   {
     "id": "188a73c1b170c663e90429b3dd81d1da2449531e",

@@ -37,32 +37,32 @@
     }
   },
   "diverging": {
-    "chart-surface-1": {
+    "chart-surface-start-1": {
       "value": "{scheme.c.chart-6}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "chart-surface-2": {
+    "chart-surface-start-2": {
       "value": "{scheme.c.chart-4}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "chart-surface-3": {
+    "chart-surface-start-3": {
       "value": "{scheme.c.chart-1}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "chart-surface-4": {
+    "chart-surface-end-4": {
       "value": "{scheme.f.chart-1}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "chart-surface-5": {
+    "chart-surface-end-5": {
       "value": "{scheme.f.chart-3}",
       "type": "color",
       "description": "For data visualization only. "
     },
-    "chart-surface-6": {
+    "chart-surface-end-6": {
       "value": "{scheme.f.chart-6}",
       "type": "color",
       "description": "For data visualization only. "
