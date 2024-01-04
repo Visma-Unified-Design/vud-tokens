@@ -30,6 +30,7 @@
     "Viewport/mobile",
     "Extends/density",
     "Extends/dimension",
-    "Extends/pictogram"
+    "Extends/pictogram",
+    "Extends/data-viz"
   ]
 }
