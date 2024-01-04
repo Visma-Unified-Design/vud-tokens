@@ -627,6 +627,10 @@
       "value": "8px",
       "type": "borderWidth"
     },
+    "0,5": {
+      "value": "0.5",
+      "type": "borderWidth"
+    },
     "1,5": {
       "value": "1.5px",
       "type": "borderWidth"

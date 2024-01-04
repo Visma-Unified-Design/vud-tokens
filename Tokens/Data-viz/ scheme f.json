@@ -1,0 +1,46 @@
+{
+  "sequential": {
+    "chart-surface-1": {
+      "value": "{scheme.f.chart-1}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-surface-2": {
+      "value": "{scheme.f.chart-2}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-surface-3": {
+      "value": "{scheme.f.chart-3}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-surface-4": {
+      "value": "{scheme.f.chart-4}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-surface-5": {
+      "value": "{scheme.f.chart-5}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-surface-6": {
+      "value": "{scheme.f.chart-6}",
+      "type": "color",
+      "description": "For data visualization only. "
+    },
+    "chart-border": {
+      "value": "{scheme.f.chart-border}",
+      "type": "color",
+      "description": "For data visualization only. "
+    }
+  },
+  "opacity": {
+    "disabled": {
+      "value": "{opacity.64}",
+      "type": "opacity",
+      "description": "Opacity for hover state on charts."
+    }
+  }
+}
