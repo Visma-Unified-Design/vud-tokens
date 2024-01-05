@@ -1,20 +1,20 @@
 {
   "pictogram": {
     "stroke-default": {
-      "value": "{ref-properties.pictogram.on-primary.stroke-default}",
+      "value": "{ref.pictogram.on-primary.stroke-default}",
       "type": "color",
       "description": "\n"
     },
     "stroke-emphasis": {
-      "value": "{ref-properties.pictogram.on-primary.stroke-emphasis}",
+      "value": "{ref.pictogram.on-primary.stroke-emphasis}",
       "type": "color"
     },
     "fill-default": {
-      "value": "{ref-properties.pictogram.on-primary.fill-default}",
+      "value": "{ref.pictogram.on-primary.fill-default}",
       "type": "color"
     },
     "fill-emphasis": {
-      "value": "{ref-properties.pictogram.on-primary.fill-emphasis}",
+      "value": "{ref.pictogram.on-primary.fill-emphasis}",
       "type": "color"
     }
   }
