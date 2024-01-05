@@ -55,7 +55,8 @@ const sdLight = StyleDictionary.extend({
     "Tokens/Themes/light.json",
     "Tokens/Extends/density.json",
     "Tokens/Extends/dimension.json",
-    "Tokens/Extends/pictogram.json"
+    "Tokens/Extends/pictogram.json",
+    "Tokens/Extends/data-viz.json"
   ],
   platforms: {
     css: {
@@ -99,7 +100,8 @@ const sdDark = StyleDictionary.extend({
     "Tokens/Themes/dark.json",
     "Tokens/Extends/density.json",
     "Tokens/Extends/dimension.json",
-    "Tokens/Extends/pictogram.json"
+    "Tokens/Extends/pictogram.json",
+    "Tokens/Extends/data-viz.json"
   ],
   platforms: {
     css: {
