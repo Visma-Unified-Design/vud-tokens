@@ -206,7 +206,7 @@
         "enabled": {
           "value": "{brand.neutral-light-60}",
           "type": "color",
-          "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+          "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "inverse": {
           "value": "{brand.neutral-light-60}",
@@ -287,7 +287,7 @@
         "enabled": {
           "value": "{brand.primary-70}",
           "type": "color",
-          "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+          "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
           "value": "{brand.primary-70}",
@@ -342,7 +342,7 @@
         "enabled": {
           "value": "{brand.secondary-70}",
           "type": "color",
-          "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+          "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
           "value": "{brand.secondary-70}",
@@ -397,7 +397,7 @@
         "enabled": {
           "value": "{vud-funct.error-70}",
           "type": "color",
-          "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
+          "description": "Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "transparent": {
           "value": "rgba({vud-funct.default-light-05}, {opacity.0})",
@@ -429,7 +429,7 @@
         "enabled": {
           "value": "{vud-funct.error-70}",
           "type": "color",
-          "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
+          "description": "Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "transparent": {
           "value": "rgba({vud-funct.default-light-05}, {opacity.0})",
@@ -537,7 +537,7 @@
         "enabled": {
           "value": "{brand.primary-60}",
           "type": "color",
-          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+          "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
           "value": "{brand.primary-60}",
@@ -592,7 +592,7 @@
         "enabled": {
           "value": "{brand.secondary-60}",
           "type": "color",
-          "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+          "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
           "value": "{brand.secondary-60}",
@@ -649,7 +649,7 @@
         "enabled": {
           "value": "{brand.neutral-light-05}",
           "type": "color",
-          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+          "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "inverse": {
           "value": "{brand.neutral-light-05}",
@@ -730,7 +730,7 @@
         "enabled": {
           "value": "{brand.primary-70}",
           "type": "color",
-          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+          "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
           "value": "{brand.primary-70}",
@@ -786,7 +786,7 @@
         "enabled": {
           "value": "{brand.secondary-70}",
           "type": "color",
-          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+          "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
           "value": "{brand.secondary-70}",
@@ -882,7 +882,7 @@
         "enabled": {
           "value": "{vud-funct.error-70}",
           "type": "color",
-          "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
+          "description": "Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
         },
         "transparent": {
           "value": "rgba({vud-funct.default-light-05}, {opacity.0})",
@@ -995,7 +995,7 @@
         "enabled": {
           "value": "{brand.primary-05}",
           "type": "color",
-          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+          "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
           "value": "{brand.primary-20}",
@@ -1041,7 +1041,7 @@
         "enabled": {
           "value": "{brand.secondary-05}",
           "type": "color",
-          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+          "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
           "value": "{brand.secondary-20}",
@@ -1087,7 +1087,7 @@
         "default": {
           "value": "{ref.fill.on-default.enabled}",
           "type": "color",
-          "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+          "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         }
       },
       "on-screen": {
@@ -1462,7 +1462,7 @@
       "surface-enabled": {
         "value": "{ref.fill.on-default.enabled}",
         "type": "color",
-        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "surface-muted": {
         "value": "{ref.fill.on-default.muted}",
@@ -1517,7 +1517,7 @@
       "border-enabled": {
         "value": "{ref.border.on-default.enabled}",
         "type": "color",
-        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "border-muted": {
         "value": "{ref.border.on-default.muted}",
@@ -1634,7 +1634,7 @@
       "border-enabled": {
         "value": "{ref.border.on-destructive-default.enabled}",
         "type": "color",
-        "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
+        "description": "Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       },
       "border-transparent": {
         "value": "rgba({ref.border.on-destructive-default.enabled}, {opacity.0})",
@@ -1698,12 +1698,12 @@
       "surface-enabled": {
         "value": "{ref.fill.on-primary.enabled}",
         "type": "color",
-        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "surface-transparent": {
         "value": "rgba( {ref.fill.on-primary.enabled}, {opacity.0})",
         "type": "color",
-        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "surface-hover": {
         "value": "{ref.fill.on-primary.hover}",
@@ -1738,12 +1738,12 @@
       "border-transparent": {
         "value": "rgba( {ref.border.on-primary.enabled}, {opacity.0})",
         "type": "color",
-        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "border-enabled": {
         "value": "{ref.border.on-primary.enabled}",
         "type": "color",
-        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "border-hover": {
         "value": "{ref.border.on-primary.hover}",
@@ -1830,7 +1830,7 @@
       "border-enabled": {
         "value": "{ref.border.on-destructive-primary.enabled}",
         "type": "color",
-        "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
+        "description": "Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       },
       "border-transparent": {
         "value": "rgba({ref.border.on-destructive-default.enabled}, {opacity.0})",
@@ -1892,7 +1892,7 @@
       "surface-enabled": {
         "value": "{ref.fill.on-primary-tint.enabled}",
         "type": "color",
-        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "surface-focused": {
         "value": "{ref.fill.on-primary-tint.focused}",
@@ -1927,7 +1927,7 @@
       "border-enabled": {
         "value": "{ref.border.on-primary-tint.enabled}",
         "type": "color",
-        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "border-hover": {
         "value": "{ref.border.on-primary-tint.hover}",
@@ -1991,7 +1991,7 @@
       "surface-enabled": {
         "value": "{ref.fill.on-secondary.enabled}",
         "type": "color",
-        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "surface-hover": {
         "value": "{ref.fill.on-secondary.hover}",
@@ -2026,7 +2026,7 @@
       "border-enabled": {
         "value": "{ref.border.on-secondary.enabled}",
         "type": "color",
-        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "border-hover": {
         "value": "{ref.border.on-secondary.hover}",
@@ -2113,7 +2113,7 @@
       "border-enabled": {
         "value": "{ref.border.on-destructive-primary.enabled}",
         "type": "color",
-        "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
+        "description": "Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
       },
       "border-transparent": {
         "value": "rgba({ref.border.on-destructive-default.enabled}, {opacity.0})",
@@ -2175,7 +2175,7 @@
       "surface-enabled": {
         "value": "{ref.fill.on-secondary-tint.enabled}",
         "type": "color",
-        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "surface-hover": {
         "value": "{ref.fill.on-secondary-tint.hover}",
@@ -2210,7 +2210,7 @@
       "border-enabled": {
         "value": "{ref.border.on-secondary-tint.enabled}",
         "type": "color",
-        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "border-hover": {
         "value": "{ref.border.on-secondary-tint.hover}",
@@ -2421,7 +2421,7 @@
     "surface-enabled": {
       "value": "{ref.fill.on-default.enabled}",
       "type": "color",
-      "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-muted": {
       "value": "{ref.fill.on-default.muted}",
@@ -2476,7 +2476,7 @@
     "border-enabled": {
       "value": "{ref.border.on-default.enabled}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-hover": {
       "value": "{ref.border.on-default.hover}",
@@ -2568,7 +2568,7 @@
     "surface-enabled": {
       "value": "{ref.fill.on-default.enabled}",
       "type": "color",
-      "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-muted": {
       "value": "{ref.fill.on-default.muted}",
@@ -2583,7 +2583,7 @@
     "border-enabled": {
       "value": "{ref.border.on-default.enabled}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
       "value": "rgba({vud-funct.default-light-05}, {opacity.0})",
@@ -2630,7 +2630,7 @@
     "surface-enabled": {
       "value": "{ref.fill.on-default.enabled}",
       "type": "color",
-      "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-muted": {
       "value": "{ref.fill.on-default.muted}",
@@ -2680,7 +2680,7 @@
     "border-enabled": {
       "value": "{ref.border.on-default.enabled}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-muted": {
       "value": "{ref.border.on-default.muted}",
@@ -2772,7 +2772,7 @@
     "surface-enabled": {
       "value": "{ref.fill.on-default.enabled}",
       "type": "color",
-      "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-muted": {
       "value": "{ref.fill.on-default.muted}",
@@ -2822,7 +2822,7 @@
     "border-enabled": {
       "value": "{ref.border.on-default.enabled}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-muted": {
       "value": "{ref.border.on-default.muted}",
@@ -2867,7 +2867,7 @@
     "border-error": {
       "value": "{comp-btn-default.on-destructive.border-enabled}",
       "type": "color",
-      "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
+      "description": "Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
     }
   },
   "comp-list": {
@@ -2914,7 +2914,7 @@
     "surface-enabled": {
       "value": "{ref.fill.on-default.enabled}",
       "type": "color",
-      "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-hover": {
       "value": "{ref.fill.on-default.hover}",
@@ -2959,7 +2959,7 @@
     "border-enabled": {
       "value": "{ref.border.on-default.enabled}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-hover": {
       "value": "{ref.border.on-default.hover}",
@@ -3046,7 +3046,7 @@
     "surface-enabled": {
       "value": "{ref.fill.on-default.enabled}",
       "type": "color",
-      "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-muted": {
       "value": "{ref.fill.on-default.muted}",
@@ -3105,7 +3105,7 @@
     "border-enabled": {
       "value": "{ref.border.on-default.enabled}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-muted": {
       "value": "{ref.border.on-default.muted}",
@@ -3150,7 +3150,7 @@
     "border-error": {
       "value": "{comp-btn-default.on-destructive.border-enabled}",
       "type": "color",
-      "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
+      "description": "Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
     }
   },
   "comp-nav-hor-default": {
@@ -3212,7 +3212,7 @@
     "surface-enabled": {
       "value": "{ref.fill.on-default.enabled}",
       "type": "color",
-      "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-hover": {
       "value": "{ref.fill.on-default.hover}",
@@ -3247,7 +3247,7 @@
     "border-enabled": {
       "value": "{ref.border.on-default.enabled}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
       "value": "rgba({vud-funct.default-light-05}, {opacity.0})",
@@ -3379,7 +3379,7 @@
     "border-enabled": {
       "value": "{brand.secondary-10}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
       "value": "rgba({vud-funct.default-light-05}, {opacity.0})",
@@ -3501,7 +3501,7 @@
     "border-enabled": {
       "value": "{ref.border.on-default.enabled}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
       "value": "rgba({vud-funct.default-light-05}, {opacity.0})",
@@ -3578,7 +3578,7 @@
     "surface-default": {
       "value": "{ref.fill.on-default.enabled}",
       "type": "color",
-      "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-transparent": {
       "value": "rgba({vud-funct.default-light-05}, {opacity.0})",
@@ -3632,7 +3632,7 @@
     "border-enabled": {
       "value": "{ref.border.on-default.enabled}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
       "value": "rgba({vud-funct.default-light-05}, {opacity.0})",
@@ -3778,7 +3778,7 @@
     "border-enabled": {
       "value": "rgba({ref.border.on-default.enabled},{opacity.8})",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
       "value": "rgba({vud-funct.default-light-05}, {opacity.0})",
@@ -3915,7 +3915,7 @@
     "border-enabled": {
       "value": "{ref.border.on-default.enabled}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
       "value": "rgba({vud-funct.default-light-05}, {opacity.0})",
@@ -4016,7 +4016,7 @@
     "surface-enabled": {
       "value": "{ref.fill.on-default.enabled}",
       "type": "color",
-      "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-muted": {
       "value": "{ref.fill.on-default.muted}",
@@ -4066,7 +4066,7 @@
     "border-enabled": {
       "value": "{ref.border.on-default.enabled}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-muted": {
       "value": "{ref.border.on-default.muted}",
@@ -4308,7 +4308,7 @@
       "surface-enabled": {
         "value": "{ref.fill.on-default.enabled}",
         "type": "color",
-        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "surface-hover": {
         "value": "{ref.fill.on-default.hover}",
@@ -4328,7 +4328,7 @@
       "border-enabled": {
         "value": "{ref.border.on-default.enabled}",
         "type": "color",
-        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "border-hover": {
         "value": "{ref.border.on-default.hover}",
@@ -4380,7 +4380,7 @@
       "surface-enabled": {
         "value": "{ref.fill.on-default.enabled}",
         "type": "color",
-        "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "surface-hover": {
         "value": "{ref.fill.on-default.enabled}",
@@ -4400,7 +4400,7 @@
       "border-enabled": {
         "value": "{brand.primary-60}",
         "type": "color",
-        "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
       "border-hover": {
         "value": "{brand.primary-70}",
@@ -4731,7 +4731,7 @@
     "surface-enabled": {
       "value": "{ref.fill.on-default.enabled}",
       "type": "color",
-      "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-hover": {
       "value": "{ref.fill.on-default.hover}",
@@ -4786,7 +4786,7 @@
     "border-enabled": {
       "value": "{ref.border.on-default.enabled}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-hover": {
       "value": "{ref.border.on-default.hover}",
@@ -4831,7 +4831,7 @@
     "border-error": {
       "value": "{ref.border.on-destructive-default.enabled}",
       "type": "color",
-      "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
+      "description": "Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
     }
   },
   "comp-table": {
@@ -4878,7 +4878,7 @@
     "surface-enabled": {
       "value": "{ref.fill.on-default.enabled}",
       "type": "color",
-      "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-muted": {
       "value": "{ref.fill.on-default.muted}",
@@ -4933,7 +4933,7 @@
     "border-enabled": {
       "value": "{ref.border.on-default.enabled}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-muted": {
       "value": "{ref.border.on-default.muted}",
@@ -4978,7 +4978,7 @@
     "border-error": {
       "value": "{comp-btn-default.on-destructive.border-enabled}",
       "type": "color",
-      "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
+      "description": "Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
     }
   },
   "comp-toggle": {
@@ -5020,7 +5020,7 @@
     "surface-enabled": {
       "value": "{ref.fill.on-default.enabled}",
       "type": "color",
-      "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-transparent": {
       "value": "rgba({vud-funct.default-light-05}, {opacity.0})",
@@ -5040,7 +5040,7 @@
     "border-enabled": {
       "value": "{ref.border.on-default.enabled}",
       "type": "color",
-      "description": "Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+      "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "border-transparent": {
       "value": "rgba({vud-funct.default-light-05}, {opacity.0})",
@@ -5060,7 +5060,7 @@
     "border-error": {
       "value": "{ref.border.on-destructive-default.enabled}",
       "type": "color",
-      "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
+      "description": "Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
     },
     "border-disabled": {
       "value": "{ref.border.on-default.disabled}",
