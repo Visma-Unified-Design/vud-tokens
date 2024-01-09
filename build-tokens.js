@@ -69,7 +69,7 @@ const sdLight = StyleDictionary.extend({
           excludeParentKeys: true,
           options: {
               "outputReferences": true,
-              "selector": [":host", " :root", " :host html[data-theme='light'], :host html.light-theme", " :root html[data-theme='light'] , :root html.light-theme"],
+              "selector": [":host", " :root", " html[data-theme='light'], html.light-theme"],
           },
         },
       ],
@@ -114,7 +114,7 @@ const sdDark = StyleDictionary.extend({
           excludeParentKeys: true,
           options: {
               "outputReferences": true,
-              "selector": [":host html[data-theme='dark'], :host html.dark-theme", " :root html[data-theme='dark'], :root html.dark-theme"],
+              "selector": ["html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme)"],
           },
         },
       ],
