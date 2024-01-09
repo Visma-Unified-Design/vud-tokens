@@ -1,37 +1,37 @@
 {
   "sequential": {
     "chart-surface-1": {
-      "value": "{scheme.g.chart-1}",
+      "value": "{ref.scheme.g.chart-1}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-2": {
-      "value": "{scheme.g.chart-2}",
+      "value": "{ref.scheme.g.chart-2}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-3": {
-      "value": "{scheme.g.chart-3}",
+      "value": "{ref.scheme.g.chart-3}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-4": {
-      "value": "{scheme.g.chart-4}",
+      "value": "{ref.scheme.g.chart-4}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-5": {
-      "value": "{scheme.g.chart-5}",
+      "value": "{ref.scheme.g.chart-5}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-6": {
-      "value": "{scheme.g.chart-6}",
+      "value": "{ref.scheme.g.chart-6}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-border": {
-      "value": "{scheme.g.chart-border}",
+      "value": "{ref.scheme.g.chart-border}",
       "type": "color",
       "description": "For data visualization only. "
     }

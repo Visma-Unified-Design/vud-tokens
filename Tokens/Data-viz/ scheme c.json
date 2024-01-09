@@ -1,86 +1,86 @@
 {
   "sequential": {
     "chart-surface-1": {
-      "value": "{scheme.c.chart-1}",
+      "value": "{ref.scheme.c.chart-1}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-2": {
-      "value": "{scheme.c.chart-2}",
+      "value": "{ref.scheme.c.chart-2}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-3": {
-      "value": "{scheme.c.chart-3}",
+      "value": "{ref.scheme.c.chart-3}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-4": {
-      "value": "{scheme.c.chart-4}",
+      "value": "{ref.scheme.c.chart-4}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-5": {
-      "value": "{scheme.c.chart-5}",
+      "value": "{ref.scheme.c.chart-5}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-6": {
-      "value": "{scheme.c.chart-6}",
+      "value": "{ref.scheme.c.chart-6}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-border": {
-      "value": "{scheme.c.chart-border}",
+      "value": "{ref.scheme.c.chart-border}",
       "type": "color",
       "description": "For data visualization only. "
     }
   },
   "diverging": {
     "chart-surface-start-1": {
-      "value": "{scheme.b.chart-6}",
+      "value": "{ref.scheme.b.chart-6}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-start-2": {
-      "value": "{scheme.b.chart-4}",
+      "value": "{ref.scheme.b.chart-4}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-start-3": {
-      "value": "{scheme.b.chart-1}",
+      "value": "{ref.scheme.b.chart-1}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-end-4": {
-      "value": "{scheme.g.chart-1}",
+      "value": "{ref.scheme.g.chart-1}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-end-5": {
-      "value": "{scheme.g.chart-3}",
+      "value": "{ref.scheme.g.chart-3}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-end-6": {
-      "value": "{scheme.g.chart-6}",
+      "value": "{ref.scheme.g.chart-6}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-border-start": {
-      "value": "{scheme.b.chart-border}",
+      "value": "{ref.scheme.b.chart-border}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-border-end": {
-      "value": "{scheme.g.chart-border}",
+      "value": "{ref.scheme.g.chart-border}",
       "type": "color",
       "description": "For data visualization only. "
     }
   },
   "categorical": {
     "chart": {
-      "value": "{scheme.d.chart-4}",
+      "value": "{ref.scheme.d.chart-4}",
       "type": "color",
       "description": "For data visualization only. Follow the numbered sequence."
     }
