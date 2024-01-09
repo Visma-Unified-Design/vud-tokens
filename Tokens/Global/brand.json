@@ -13,7 +13,7 @@
       "type": "borderRadius"
     },
     "s": {
-      "value": "{vud-radii.xxs}",
+      "value": "{vud-radii.s}",
       "type": "borderRadius"
     },
     "md": {
