@@ -4,10 +4,13 @@
         "tokenSets": [
           "Global/core",
           "Global/brand",
+          "Global/font",
+          "Global/data-viz",
           "Themes/light",
-          "Extends/radius",
           "Extends/density",
-          "Extends/dimension"
+          "Extends/dimension",
+          "Extends/pictogram",
+          "Extends/data-viz"
         ],
         "supernovaBrand": "VUD",
         "supernovaTheme": null
@@ -15,10 +18,13 @@
         "tokenSets": [
           "Global/core",
           "Global/brand",
+          "Global/font",
+          "Global/data-viz",
           "Themes/dark",
-          "Extends/radius",
           "Extends/density",
-          "Extends/dimension"
+          "Extends/dimension",
+          "Extends/pictogram",
+          "Extends/data-viz"
         ],
         "supernovaBrand": "VUD",
         "supernovaTheme": "Dark"
