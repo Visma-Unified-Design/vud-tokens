@@ -35,4 +35,3 @@ jobs:
             commit-message: 'Update figma tokens compiled to code tokens'
             target-branch: tokens
             target-directory: src/tokens/
-
