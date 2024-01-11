@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Jan 2024 07:15:58 GMT
+ * Generated on Thu, 11 Jan 2024 06:24:15 GMT
  */
 
 html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
@@ -692,7 +692,7 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --radii-xl: var(--vud-radii-xl);
   --radii-lg: var(--vud-radii-lg);
   --radii-md: var(--vud-radii-md);
-  --radii-s: var(--vud-radii-xxs);
+  --radii-s: var(--vud-radii-s);
   --radii-xs: var(--vud-radii-xs);
   --radii-xxs: var(--vud-radii-xxs);
   --spacing-256: var(--spacing-2)*128;
