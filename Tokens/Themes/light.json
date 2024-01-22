@@ -2245,7 +2245,7 @@
     }
   },
   "ref-shadow": {
-    "default-elevation-0": {
+    "none": {
       "value": {
         "x": "0",
         "y": "0",
