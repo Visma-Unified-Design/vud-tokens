@@ -37,228 +37,6 @@
       "type": "borderRadius"
     }
   },
-  "brand": {
-    "primary-05": {
-      "value": "{vud.green-05}",
-      "type": "color"
-    },
-    "primary-10": {
-      "value": "{vud.green-10}",
-      "type": "color"
-    },
-    "primary-20": {
-      "value": "{vud.green-20}",
-      "type": "color"
-    },
-    "primary-30": {
-      "value": "{vud.green-30}",
-      "type": "color"
-    },
-    "primary-40": {
-      "value": "{vud.green-40}",
-      "type": "color"
-    },
-    "primary-50": {
-      "value": "{vud.green-50}",
-      "type": "color"
-    },
-    "primary-60": {
-      "value": "{vud.green-60}",
-      "type": "color"
-    },
-    "primary-70": {
-      "value": "{vud.green-70}",
-      "type": "color"
-    },
-    "primary-80": {
-      "value": "{vud.green-80}",
-      "type": "color"
-    },
-    "primary-90": {
-      "value": "{vud.green-90}",
-      "type": "color"
-    },
-    "primary-gradient": {
-      "value": "{brand.primary-70}",
-      "type": "color"
-    },
-    "secondary-05": {
-      "value": "{vud.blue-05}",
-      "type": "color"
-    },
-    "secondary-10": {
-      "value": "{vud.blue-10}",
-      "type": "color"
-    },
-    "secondary-20": {
-      "value": "{vud.blue-20}",
-      "type": "color"
-    },
-    "secondary-30": {
-      "value": "{vud.blue-30}",
-      "type": "color"
-    },
-    "secondary-40": {
-      "value": "{vud.blue-40}",
-      "type": "color"
-    },
-    "secondary-50": {
-      "value": "{vud.blue-50}",
-      "type": "color"
-    },
-    "secondary-60": {
-      "value": "{vud.blue-60}",
-      "type": "color"
-    },
-    "secondary-70": {
-      "value": "{vud.blue-70}",
-      "type": "color"
-    },
-    "secondary-80": {
-      "value": "{vud.blue-80}",
-      "type": "color"
-    },
-    "secondary-90": {
-      "value": "{vud.blue-90}",
-      "type": "color"
-    },
-    "secondary-gradient": {
-      "value": "{brand.secondary-70}",
-      "type": "color"
-    },
-    "tertiary-05": {
-      "value": "{vud.purple-05}",
-      "type": "color"
-    },
-    "tertiary-10": {
-      "value": "{vud.purple-10}",
-      "type": "color"
-    },
-    "tertiary-20": {
-      "value": "{vud.purple-20}",
-      "type": "color"
-    },
-    "tertiary-30": {
-      "value": "{vud.purple-30}",
-      "type": "color"
-    },
-    "tertiary-40": {
-      "value": "{vud.purple-40}",
-      "type": "color"
-    },
-    "tertiary-50": {
-      "value": "{vud.purple-50}",
-      "type": "color"
-    },
-    "tertiary-60": {
-      "value": "{vud.purple-60}",
-      "type": "color"
-    },
-    "tertiary-70": {
-      "value": "{vud.purple-70}",
-      "type": "color"
-    },
-    "tertiary-80": {
-      "value": "{vud.purple-80}",
-      "type": "color"
-    },
-    "tertiary-90": {
-      "value": "{vud.purple-90}",
-      "type": "color"
-    },
-    "tertiary-gradient": {
-      "value": "{vud.purple-90}",
-      "type": "color"
-    },
-    "neutral-light-05": {
-      "value": "{vud.neutral-light-05}",
-      "type": "color"
-    },
-    "neutral-light-10": {
-      "value": "{vud.neutral-light-10}",
-      "type": "color"
-    },
-    "neutral-light-20": {
-      "value": "{vud.neutral-light-20}",
-      "type": "color"
-    },
-    "neutral-light-30": {
-      "value": "{vud.neutral-light-30}",
-      "type": "color"
-    },
-    "neutral-light-40": {
-      "value": "{vud.neutral-light-40}",
-      "type": "color"
-    },
-    "neutral-light-50": {
-      "value": "{vud.neutral-light-50}",
-      "type": "color"
-    },
-    "neutral-light-60": {
-      "value": "{vud.neutral-light-60}",
-      "type": "color"
-    },
-    "neutral-light-70": {
-      "value": "{vud.neutral-light-70}",
-      "type": "color"
-    },
-    "neutral-light-80": {
-      "value": "{vud.neutral-light-80}",
-      "type": "color"
-    },
-    "neutral-light-90": {
-      "value": "{vud.neutral-light-90}",
-      "type": "color"
-    },
-    "neutral-light-gradient": {
-      "value": "{brand.neutral-light-90}",
-      "type": "color"
-    },
-    "neutral-dark-05": {
-      "value": "{vud.neutral-dark-05}",
-      "type": "color"
-    },
-    "neutral-dark-10": {
-      "value": "{vud.neutral-dark-10}",
-      "type": "color"
-    },
-    "neutral-dark-20": {
-      "value": "{vud.neutral-dark-20}",
-      "type": "color"
-    },
-    "neutral-dark-30": {
-      "value": "{vud.neutral-dark-30}",
-      "type": "color"
-    },
-    "neutral-dark-40": {
-      "value": "{vud.neutral-dark-40}",
-      "type": "color"
-    },
-    "neutral-dark-50": {
-      "value": "{vud.neutral-dark-50}",
-      "type": "color"
-    },
-    "neutral-dark-60": {
-      "value": "{vud.neutral-dark-60}",
-      "type": "color"
-    },
-    "neutral-dark-70": {
-      "value": "{vud.neutral-dark-70}",
-      "type": "color"
-    },
-    "neutral-dark-80": {
-      "value": "{vud.neutral-dark-80}",
-      "type": "color"
-    },
-    "neutral-dark-90": {
-      "value": "{vud.neutral-dark-90}",
-      "type": "color"
-    },
-    "neutral-dark-gradient": {
-      "value": "{brand.neutral-dark-70}",
-      "type": "color"
-    }
-  },
   "spcs-base": {
     "purple-05": {
       "value": "#EEE7F9",
@@ -578,6 +356,228 @@
     },
     "neutral-dark-90": {
       "value": "#000000",
+      "type": "color"
+    }
+  },
+  "brand": {
+    "primary-05": {
+      "value": "{vud.green-05}",
+      "type": "color"
+    },
+    "primary-10": {
+      "value": "{vud.green-10}",
+      "type": "color"
+    },
+    "primary-20": {
+      "value": "{vud.green-20}",
+      "type": "color"
+    },
+    "primary-30": {
+      "value": "{vud.green-30}",
+      "type": "color"
+    },
+    "primary-40": {
+      "value": "{vud.green-40}",
+      "type": "color"
+    },
+    "primary-50": {
+      "value": "{vud.green-50}",
+      "type": "color"
+    },
+    "primary-60": {
+      "value": "{vud.green-60}",
+      "type": "color"
+    },
+    "primary-70": {
+      "value": "{vud.green-70}",
+      "type": "color"
+    },
+    "primary-80": {
+      "value": "{vud.green-80}",
+      "type": "color"
+    },
+    "primary-90": {
+      "value": "{vud.green-90}",
+      "type": "color"
+    },
+    "primary-gradient": {
+      "value": "{brand.primary-70}",
+      "type": "color"
+    },
+    "secondary-05": {
+      "value": "{vud.blue-05}",
+      "type": "color"
+    },
+    "secondary-10": {
+      "value": "{vud.blue-10}",
+      "type": "color"
+    },
+    "secondary-20": {
+      "value": "{vud.blue-20}",
+      "type": "color"
+    },
+    "secondary-30": {
+      "value": "{vud.blue-30}",
+      "type": "color"
+    },
+    "secondary-40": {
+      "value": "{vud.blue-40}",
+      "type": "color"
+    },
+    "secondary-50": {
+      "value": "{vud.blue-50}",
+      "type": "color"
+    },
+    "secondary-60": {
+      "value": "{vud.blue-60}",
+      "type": "color"
+    },
+    "secondary-70": {
+      "value": "{vud.blue-70}",
+      "type": "color"
+    },
+    "secondary-80": {
+      "value": "{vud.blue-80}",
+      "type": "color"
+    },
+    "secondary-90": {
+      "value": "{vud.blue-90}",
+      "type": "color"
+    },
+    "secondary-gradient": {
+      "value": "{brand.secondary-70}",
+      "type": "color"
+    },
+    "tertiary-05": {
+      "value": "{vud.purple-05}",
+      "type": "color"
+    },
+    "tertiary-10": {
+      "value": "{vud.purple-10}",
+      "type": "color"
+    },
+    "tertiary-20": {
+      "value": "{vud.purple-20}",
+      "type": "color"
+    },
+    "tertiary-30": {
+      "value": "{vud.purple-30}",
+      "type": "color"
+    },
+    "tertiary-40": {
+      "value": "{vud.purple-40}",
+      "type": "color"
+    },
+    "tertiary-50": {
+      "value": "{vud.purple-50}",
+      "type": "color"
+    },
+    "tertiary-60": {
+      "value": "{vud.purple-60}",
+      "type": "color"
+    },
+    "tertiary-70": {
+      "value": "{vud.purple-70}",
+      "type": "color"
+    },
+    "tertiary-80": {
+      "value": "{vud.purple-80}",
+      "type": "color"
+    },
+    "tertiary-90": {
+      "value": "{vud.purple-90}",
+      "type": "color"
+    },
+    "tertiary-gradient": {
+      "value": "{vud.purple-90}",
+      "type": "color"
+    },
+    "neutral-light-05": {
+      "value": "{vud.neutral-light-05}",
+      "type": "color"
+    },
+    "neutral-light-10": {
+      "value": "{vud.neutral-light-10}",
+      "type": "color"
+    },
+    "neutral-light-20": {
+      "value": "{vud.neutral-light-20}",
+      "type": "color"
+    },
+    "neutral-light-30": {
+      "value": "{vud.neutral-light-30}",
+      "type": "color"
+    },
+    "neutral-light-40": {
+      "value": "{vud.neutral-light-40}",
+      "type": "color"
+    },
+    "neutral-light-50": {
+      "value": "{vud.neutral-light-50}",
+      "type": "color"
+    },
+    "neutral-light-60": {
+      "value": "{vud.neutral-light-60}",
+      "type": "color"
+    },
+    "neutral-light-70": {
+      "value": "{vud.neutral-light-70}",
+      "type": "color"
+    },
+    "neutral-light-80": {
+      "value": "{vud.neutral-light-80}",
+      "type": "color"
+    },
+    "neutral-light-90": {
+      "value": "{vud.neutral-light-90}",
+      "type": "color"
+    },
+    "neutral-light-gradient": {
+      "value": "{brand.neutral-light-90}",
+      "type": "color"
+    },
+    "neutral-dark-05": {
+      "value": "{vud.neutral-dark-05}",
+      "type": "color"
+    },
+    "neutral-dark-10": {
+      "value": "{vud.neutral-dark-10}",
+      "type": "color"
+    },
+    "neutral-dark-20": {
+      "value": "{vud.neutral-dark-20}",
+      "type": "color"
+    },
+    "neutral-dark-30": {
+      "value": "{vud.neutral-dark-30}",
+      "type": "color"
+    },
+    "neutral-dark-40": {
+      "value": "{vud.neutral-dark-40}",
+      "type": "color"
+    },
+    "neutral-dark-50": {
+      "value": "{vud.neutral-dark-50}",
+      "type": "color"
+    },
+    "neutral-dark-60": {
+      "value": "{vud.neutral-dark-60}",
+      "type": "color"
+    },
+    "neutral-dark-70": {
+      "value": "{vud.neutral-dark-70}",
+      "type": "color"
+    },
+    "neutral-dark-80": {
+      "value": "{vud.neutral-dark-80}",
+      "type": "color"
+    },
+    "neutral-dark-90": {
+      "value": "{vud.neutral-dark-90}",
+      "type": "color"
+    },
+    "neutral-dark-gradient": {
+      "value": "{brand.neutral-dark-70}",
       "type": "color"
     }
   }
