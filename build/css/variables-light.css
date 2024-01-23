@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 11 Jan 2024 06:24:15 GMT
+ * Generated on Tue, 23 Jan 2024 09:58:00 GMT
  */
 
 :host, :root, html[data-theme='light'], html.light-theme {
@@ -77,6 +77,8 @@
   --opacity-8: 0.08;
   --opacity-4: 0.04;
   --opacity-0: 0;
+  --spacing-0: 0;
+  --sizing-0: 0;
   --border-1-5: 0.15rem;
   --border-0-5: 0.05rem;
   --border-8: 0.8rem;
@@ -161,7 +163,7 @@
   --ref-shadow-default-elevation-3: 0 10px 15px 0 rgba(37, 38, 38, var(--opacity-16));
   --ref-shadow-default-elevation-2: 0 5px 10px 0 rgba(37, 38, 38, var(--opacity-12));
   --ref-shadow-default-elevation-1: 0 2px 4px 0 rgba(37, 38, 38, var(--opacity-8));
-  --ref-shadow-default-elevation-0: 0 0 0 0 rgba(37, 38, 38, var(--opacity-8));
+  --ref-shadow-none: 0 0 0 0 rgba(37, 38, 38, var(--opacity-8));
   --ref-scheme-g-chart-border: var(--chart-blue-40); /* For data visualization only.  */
   --ref-scheme-g-chart-6: var(--chart-blue-50); /* For data visualization only.  */
   --ref-scheme-g-chart-5: var(--chart-blue-40); /* For data visualization only.  */
