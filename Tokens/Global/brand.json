@@ -258,5 +258,327 @@
       "value": "{brand.neutral-dark-70}",
       "type": "color"
     }
+  },
+  "spcs-base": {
+    "purple-05": {
+      "value": "#EEE7F9",
+      "type": "color"
+    },
+    "purple-10": {
+      "value": "#E3D2FA",
+      "type": "color"
+    },
+    "purple-20": {
+      "value": "#CEAFFA",
+      "type": "color"
+    },
+    "purple-30": {
+      "value": "#BA95F0",
+      "type": "color"
+    },
+    "purple-40": {
+      "value": "#A57FDB",
+      "type": "color"
+    },
+    "purple-50": {
+      "value": "#9263D6",
+      "type": "color"
+    },
+    "purple-60": {
+      "value": "#8049CC",
+      "type": "color"
+    },
+    "purple-70": {
+      "value": "#6431AC",
+      "type": "color"
+    },
+    "purple-80": {
+      "value": "#48237D",
+      "type": "color"
+    },
+    "purple-90": {
+      "value": "#2F1B4C",
+      "type": "color"
+    },
+    "coral-05": {
+      "value": "#F7ECEB",
+      "type": "color"
+    },
+    "coral-10": {
+      "value": "#F7E0DE",
+      "type": "color"
+    },
+    "coral-20": {
+      "value": "#F5CECA",
+      "type": "color"
+    },
+    "coral-30": {
+      "value": "#FEABA3",
+      "type": "color"
+    },
+    "coral-40": {
+      "value": "#FE9489",
+      "type": "color"
+    },
+    "coral-50": {
+      "value": "#FE796B",
+      "type": "color"
+    },
+    "coral-60": {
+      "value": "#F56262",
+      "type": "color"
+    },
+    "coral-70": {
+      "value": "#CC4B3D",
+      "type": "color"
+    },
+    "coral-80": {
+      "value": "#B23124",
+      "type": "color"
+    },
+    "coral-90": {
+      "value": "#66251F",
+      "type": "color"
+    },
+    "vanilla-05": {
+      "value": "#F5F4F0",
+      "type": "color"
+    },
+    "vanilla-10": {
+      "value": "#F0EEE1",
+      "type": "color"
+    },
+    "vanilla-20": {
+      "value": "#F0E49B",
+      "type": "color"
+    },
+    "vanilla-30": {
+      "value": "#FDE753",
+      "type": "color"
+    },
+    "vanilla-40": {
+      "value": "#E5CE37",
+      "type": "color"
+    },
+    "vanilla-50": {
+      "value": "#CCB414",
+      "type": "color"
+    },
+    "vanilla-60": {
+      "value": "#A38D00",
+      "type": "color"
+    },
+    "vanilla-70": {
+      "value": "#827100",
+      "type": "color"
+    },
+    "vanilla-80": {
+      "value": "#665800",
+      "type": "color"
+    },
+    "vanilla-90": {
+      "value": "#4D4200",
+      "type": "color"
+    },
+    "green-05": {
+      "value": "#EBF7EB",
+      "type": "color"
+    },
+    "green-10": {
+      "value": "#CFE7CF",
+      "type": "color"
+    },
+    "green-20": {
+      "value": "#AFD4AF",
+      "type": "color"
+    },
+    "green-30": {
+      "value": "#9BC29B",
+      "type": "color"
+    },
+    "green-40": {
+      "value": "#7FAF7F",
+      "type": "color"
+    },
+    "green-50": {
+      "value": "#67A870",
+      "type": "color"
+    },
+    "green-60": {
+      "value": "#4E9C54",
+      "type": "color"
+    },
+    "green-70": {
+      "value": "#2D7048",
+      "type": "color"
+    },
+    "green-80": {
+      "value": "#316245",
+      "type": "color"
+    },
+    "green-90": {
+      "value": "#254934",
+      "type": "color"
+    },
+    "red-05": {
+      "value": "#FFEDEF",
+      "type": "color"
+    },
+    "red-10": {
+      "value": "#FAD9DE",
+      "type": "color"
+    },
+    "red-20": {
+      "value": "#F1BDC4",
+      "type": "color"
+    },
+    "red-30": {
+      "value": "#EAA1AC",
+      "type": "color"
+    },
+    "red-40": {
+      "value": "#E28594",
+      "type": "color"
+    },
+    "red-50": {
+      "value": "#DB6B7D",
+      "type": "color"
+    },
+    "red-60": {
+      "value": "#D44F64",
+      "type": "color"
+    },
+    "red-70": {
+      "value": "#CC334C",
+      "type": "color"
+    },
+    "red-80": {
+      "value": "#A12036",
+      "type": "color"
+    },
+    "red-90": {
+      "value": "#801F30",
+      "type": "color"
+    },
+    "orange-05": {
+      "value": "#FCF2DC",
+      "type": "color"
+    },
+    "orange-10": {
+      "value": "#FCDFB1",
+      "type": "color"
+    },
+    "orange-20": {
+      "value": "#FAD7A2",
+      "type": "color"
+    },
+    "orange-30": {
+      "value": "#F2C480",
+      "type": "color"
+    },
+    "orange-40": {
+      "value": "#EDB45F",
+      "type": "color"
+    },
+    "orange-50": {
+      "value": "#E5A23E",
+      "type": "color"
+    },
+    "orange-60": {
+      "value": "#CA7900",
+      "type": "color"
+    },
+    "orange-70": {
+      "value": "#C26800",
+      "type": "color"
+    },
+    "orange-80": {
+      "value": "#B35300",
+      "type": "color"
+    },
+    "orange-90": {
+      "value": "#803B00",
+      "type": "color"
+    },
+    "neutral-light-05": {
+      "value": "#FFFFFF",
+      "type": "color"
+    },
+    "neutral-light-10": {
+      "value": "#F7F7F7",
+      "type": "color"
+    },
+    "neutral-light-20": {
+      "value": "#F2F2F2",
+      "type": "color"
+    },
+    "neutral-light-30": {
+      "value": "#DADADA",
+      "type": "color"
+    },
+    "neutral-light-40": {
+      "value": "#C0C0C0",
+      "type": "color"
+    },
+    "neutral-light-50": {
+      "value": "#A5A5A5",
+      "type": "color"
+    },
+    "neutral-light-60": {
+      "value": "#8A8A8A",
+      "type": "color"
+    },
+    "neutral-light-70": {
+      "value": "#6B6B6B",
+      "type": "color"
+    },
+    "neutral-light-80": {
+      "value": "#494A4A",
+      "type": "color"
+    },
+    "neutral-light-90": {
+      "value": "#252626",
+      "type": "color"
+    },
+    "neutral-dark-05": {
+      "value": "#E4EBF0",
+      "type": "color"
+    },
+    "neutral-dark-10": {
+      "value": "#C3D0D9",
+      "type": "color"
+    },
+    "neutral-dark-20": {
+      "value": "#AFBCC4",
+      "type": "color"
+    },
+    "neutral-dark-30": {
+      "value": "#9AA5AE",
+      "type": "color"
+    },
+    "neutral-dark-40": {
+      "value": "#86929B",
+      "type": "color"
+    },
+    "neutral-dark-50": {
+      "value": "#6F7A82",
+      "type": "color"
+    },
+    "neutral-dark-60": {
+      "value": "#4C545B",
+      "type": "color"
+    },
+    "neutral-dark-70": {
+      "value": "#2B3033",
+      "type": "color"
+    },
+    "neutral-dark-80": {
+      "value": "#15181A",
+      "type": "color"
+    },
+    "neutral-dark-90": {
+      "value": "#000000",
+      "type": "color"
+    }
   }
 }
