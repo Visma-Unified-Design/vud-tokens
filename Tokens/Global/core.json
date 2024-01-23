@@ -637,6 +637,10 @@
     }
   },
   "sizing": {
+    "0": {
+      "value": "0",
+      "type": "sizing"
+    },
     "2": {
       "value": "{base}",
       "type": "sizing"
@@ -695,6 +699,10 @@
     }
   },
   "spacing": {
+    "0": {
+      "value": "0",
+      "type": "spacing"
+    },
     "2": {
       "value": "{base}",
       "type": "spacing"
