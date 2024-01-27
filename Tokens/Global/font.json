@@ -511,6 +511,16 @@
         "type": "typography",
         "description": "Suitable for product-based UI designs such as panels, cards, and menus. \nThe h2 tag is commonly used as subheadings to organize and structure the content within a webpage or section.\nType scaling applied."
       },
+      "h3": {
+        "value": {
+          "fontFamily": "{core-font-familiy-primary}",
+          "lineHeight": "",
+          "fontSize": "{font-size.md}",
+          "fontWeight": "{numeric-values-font-weight.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h3 tag is an HTML element used to define a third-level heading on a webpage or within a section of content.\n\nType scaling applied."
+      },
       "h4": {
         "value": {
           "fontFamily": "{core-font-familiy-primary}",
