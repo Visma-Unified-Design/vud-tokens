@@ -413,12 +413,12 @@
       },
       "on-funct": {
         "default": {
-          "value": "{vud-funct.default-dark-05}",
+          "value": "{vud-funct.default-dark-90}",
           "type": "color",
           "description": "Default alerts. Specially lower prio statuses such as pairing."
         },
         "inverse": {
-          "value": "{vud-funct.default-light-90}",
+          "value": "{vud-funct.default-dark-10}",
           "type": "color",
           "description": "Inverse border contrast with the background.\n"
         },
@@ -852,7 +852,7 @@
           "description": "Default alerts. Lower prio statuses such as pairing"
         },
         "inverse": {
-          "value": "{vud-funct.default-light-90}",
+          "value": "{vud-funct.default-dark-90}",
           "type": "color",
           "description": "Inverse surface contrast with the background."
         },
@@ -4442,12 +4442,12 @@
   },
   "comp-situation": {
     "funct-text-default": {
-      "value": "{ref.text.inverse}",
+      "value": "{ref.text.default}",
       "type": "color",
       "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
     },
     "funct-text-inverse": {
-      "value": "{ref.text.default}",
+      "value": "{ref.text.inverse}",
       "type": "color",
       "description": "Inverse text refers to the opposite color that contrasts with the background. "
     },
@@ -4532,7 +4532,7 @@
       "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
     },
     "funct-surface-default": {
-      "value": "{ref.fill.on-funct.default}",
+      "value": "{ref.fill.on-funct.inverse}",
       "type": "color",
       "description": "Suitable for default alerts, lower prio statuses such as pairing."
     },
@@ -4542,7 +4542,7 @@
       "description": "Default alerts. Lower prio statuses such as pairing\n"
     },
     "funct-surface-inverse": {
-      "value": "{ref.fill.on-funct.inverse}",
+      "value": "{ref.fill.on-funct.default}",
       "type": "color",
       "description": "Inverse surface refers to the opposite color that contrasts with the background. "
     },
@@ -4612,7 +4612,7 @@
       "description": "Suitable for alerts, toasts, tooltips. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered."
     },
     "funct-border-default": {
-      "value": "{ref.border.on-funct.default}",
+      "value": "{ref.border.on-funct.inverse}",
       "type": "color",
       "description": "Suitable for default alerts. Specially lower prio statuses such as pairing."
     },
@@ -4622,7 +4622,7 @@
       "description": "Muted border refers to a subtle border style.\n"
     },
     "funct-border-inverse": {
-      "value": "{ref.border.moderate}",
+      "value": "{ref.border.on-funct.default}",
       "type": "color",
       "description": "Inverse border refers to the opposite color that contrasts with the background. "
     },
