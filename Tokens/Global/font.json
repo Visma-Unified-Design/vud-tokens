@@ -528,7 +528,7 @@
           "fontSize": "{font-size.s}"
         },
         "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 formatted style is used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
+        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 style is used to format a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
       },
       "body": {
         "value": {
@@ -577,7 +577,7 @@
           "fontSize": "{font-size.s}"
         },
         "type": "typography",
-        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4 formatted style is used to define a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
+        "description": "Suitable for product-based UI designs such as panels, cards, and menus.\nThe h4  style is used to format a fourth-level heading on a webpage or within a section of content.\nType scaling applied."
       },
       "body": {
         "value": {
