@@ -916,5 +916,162 @@
       "type": "fontWeights",
       "description": "CSS syntax: font-weight-absolute> numeric values [1,1000]"
     }
+  },
+  "font-size-fixed": {
+    "xs": {
+      "value": "13",
+      "type": "fontSizes"
+    },
+    "sm": {
+      "value": "14",
+      "type": "fontSizes"
+    },
+    "md": {
+      "value": "16",
+      "type": "fontSizes"
+    },
+    "lg": {
+      "value": "20",
+      "type": "fontSizes"
+    },
+    "xl": {
+      "value": "29",
+      "type": "fontSizes"
+    },
+    "xxl": {
+      "value": "32",
+      "type": "fontSizes"
+    }
+  },
+  "familiy-primary": {
+    "value": "Ubuntu",
+    "type": "fontFamilies"
+  },
+  "font-familiy-secondary": {
+    "value": "Open Sans",
+    "type": "fontFamilies"
+  },
+  "font-familiy-tertiary": {
+    "value": "Inter",
+    "type": "fontFamilies"
+  },
+  "ref-contextual": {
+    "regular": {
+      "body-xs": {
+        "value": {
+          "fontFamily": "{font-familiy-secondary}",
+          "fontSize": "{font-size-fixed.xs}",
+          "fontWeight": "{numeric-values-font-weight.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for small description. Type scaling applied."
+      },
+      "body-sm": {
+        "value": {
+          "fontFamily": "{font-familiy-secondary}",
+          "fontWeight": "{numeric-values-font-weight.normal}",
+          "fontSize": "{font-size-fixed.sm}"
+        },
+        "type": "typography",
+        "description": "Suitable for small body text. Type scaling applied."
+      },
+      "body-sm-link": {
+        "value": {
+          "fontFamily": "{font-familiy-secondary}",
+          "fontWeight": "{numeric-values-font-weight.normal}",
+          "fontSize": "{font-size-fixed.sm}",
+          "textDecoration": "{underline}"
+        },
+        "type": "typography",
+        "description": "Suitable for small links. Type scaling applied."
+      },
+      "heading-sm": {
+        "value": {
+          "fontFamily": "{familiy-primary}",
+          "fontWeight": "{numeric-values-font-weight.normal}",
+          "fontSize": "{font-size-fixed.sm}"
+        },
+        "type": "typography",
+        "description": "Suitable for small headlines. Type scaling applied."
+      },
+      "heading-md": {
+        "value": {
+          "fontFamily": "{familiy-primary}",
+          "lineHeight": "",
+          "fontSize": "{font-size-fixed.md}",
+          "fontWeight": "{numeric-values-font-weight.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for medium headlines. Type scaling applied."
+      },
+      "heading-lg": {
+        "value": {
+          "fontFamily": "{familiy-primary}",
+          "fontSize": "{font-size-fixed.lg}",
+          "fontWeight": "{numeric-values-font-weight.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for large headlines in panels, cards, and menus. Type scaling applied."
+      }
+    },
+    "medium": {
+      "body-sm": {
+        "value": {
+          "fontFamily": "{font-familiy-secondary}",
+          "fontWeight": "{numeric-values-font-weight.semi-bold}",
+          "fontSize": "{font-size-fixed.sm}"
+        },
+        "type": "typography",
+        "description": "Suitable for small body text. Type scaling applied."
+      },
+      "heading-sm": {
+        "value": {
+          "fontFamily": "{familiy-primary}",
+          "fontWeight": "{numeric-values-font-weight.medium}",
+          "fontSize": "{font-size-fixed.sm}"
+        },
+        "type": "typography",
+        "description": "Suitable for small headlines. Type scaling applied."
+      },
+      "heading-md": {
+        "value": {
+          "fontFamily": "{familiy-primary}",
+          "lineHeight": "",
+          "fontSize": "{font-size-fixed.md}",
+          "fontWeight": "{numeric-values-font-weight.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for medium headlines. Type scaling applied."
+      },
+      "heading-xl": {
+        "value": {
+          "fontFamily": "{familiy-primary}",
+          "fontSize": "{font-size-fixed.xl}",
+          "fontWeight": "{numeric-values-font-weight.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for extra large headlines. Type scaling applied."
+      }
+    },
+    "bold": {
+      "body-xs": {
+        "value": {
+          "fontFamily": "{font-familiy-secondary}",
+          "fontSize": "{font-size-fixed.xs}",
+          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for small description. Type scaling applied."
+      },
+      "body-sm": {
+        "value": {
+          "fontFamily": "{font-familiy-secondary}",
+          "fontWeight": "{numeric-values-font-weight.bold}",
+          "fontSize": "{font-size-fixed.sm}"
+        },
+        "type": "typography",
+        "description": "Suitable for small body text. Type scaling applied."
+      }
+    }
   }
 }
