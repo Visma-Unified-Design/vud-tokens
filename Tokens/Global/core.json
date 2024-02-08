@@ -1054,6 +1054,15 @@
       }
     },
     "bold": {
+      "body-xs": {
+        "value": {
+          "fontFamily": "{font-familiy-secondary}",
+          "fontSize": "{font-size-fixed.xs}",
+          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for small description. Type scaling applied."
+      },
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",

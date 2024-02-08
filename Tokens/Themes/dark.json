@@ -4457,7 +4457,7 @@
       "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
     },
     "funct-text-disabled": {
-      "value": "{ref.text.disabled}",
+      "value": "{ref.text.secondary}",
       "type": "color",
       "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
     },

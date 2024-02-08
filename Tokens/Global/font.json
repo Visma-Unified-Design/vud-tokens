@@ -550,6 +550,26 @@
         "description": "Suitable for large headlines in panels, cards, and menus. Type scaling applied."
       }
     },
+    "bold": {
+      "body-xs": {
+        "value": {
+          "fontFamily": "{font-familiy-secondary}",
+          "fontSize": "{font-size-fluid.xs}",
+          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for small description. Type scaling applied."
+      },
+      "body-sm": {
+        "value": {
+          "fontFamily": "{font-familiy-secondary}",
+          "fontWeight": "{numeric-values-font-weight.bold}",
+          "fontSize": "{font-size-fluid.sm}"
+        },
+        "type": "typography",
+        "description": "Suitable for small body text. Type scaling applied."
+      }
+    },
     "medium": {
       "body-sm": {
         "value": {
@@ -587,17 +607,6 @@
         },
         "type": "typography",
         "description": "Suitable for extra large headlines. Type scaling applied."
-      }
-    },
-    "bold": {
-      "body-sm": {
-        "value": {
-          "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.bold}",
-          "fontSize": "{font-size-fluid.sm}"
-        },
-        "type": "typography",
-        "description": "Suitable for small body text. Type scaling applied."
       }
     }
   },
