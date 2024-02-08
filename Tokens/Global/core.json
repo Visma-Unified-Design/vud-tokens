@@ -1051,6 +1051,15 @@
         },
         "type": "typography",
         "description": "Suitable for small body text. "
+      },
+      "body-xs": {
+        "value": {
+          "fontFamily": "{font-familiy-secondary}",
+          "fontSize": "{font-size-fixed.xs}",
+          "fontWeight": "{font-weight-numeric.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for small description. "
       }
     },
     "bold": {
@@ -1062,15 +1071,6 @@
         },
         "type": "typography",
         "description": "Suitable for small body text. "
-      },
-      "body-xs": {
-        "value": {
-          "fontFamily": "{font-familiy-secondary}",
-          "fontSize": "{font-size-fixed.xs}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
-        },
-        "type": "typography",
-        "description": "Suitable for small description. "
       }
     }
   }
