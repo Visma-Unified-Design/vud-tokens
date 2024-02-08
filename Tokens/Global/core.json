@@ -943,7 +943,7 @@
       "type": "fontSizes"
     }
   },
-  "familiy-primary": {
+  "font-familiy-primary": {
     "value": "Ubuntu",
     "type": "fontFamilies"
   },
@@ -987,7 +987,7 @@
       },
       "heading-sm": {
         "value": {
-          "fontFamily": "{familiy-primary}",
+          "fontFamily": "{font-familiy-primary}",
           "fontWeight": "{font-weight-numeric.normal}",
           "fontSize": "{font-size-fixed.sm}"
         },
@@ -996,7 +996,7 @@
       },
       "heading-md": {
         "value": {
-          "fontFamily": "{familiy-primary}",
+          "fontFamily": "{font-familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fixed.md}",
           "fontWeight": "{font-weight-numeric.normal}"
@@ -1006,7 +1006,7 @@
       },
       "heading-lg": {
         "value": {
-          "fontFamily": "{familiy-primary}",
+          "fontFamily": "{font-familiy-primary}",
           "fontSize": "{font-size-fixed.lg}",
           "fontWeight": "{font-weight-numeric.normal}"
         },
@@ -1026,7 +1026,7 @@
       },
       "heading-sm": {
         "value": {
-          "fontFamily": "{familiy-primary}",
+          "fontFamily": "{font-familiy-primary}",
           "fontWeight": "{font-weight-numeric.medium}",
           "fontSize": "{font-size-fixed.sm}"
         },
@@ -1035,7 +1035,7 @@
       },
       "heading-md": {
         "value": {
-          "fontFamily": "{familiy-primary}",
+          "fontFamily": "{font-familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fixed.md}",
           "fontWeight": "{font-weight-numeric.medium}"
@@ -1045,7 +1045,7 @@
       },
       "heading-xl": {
         "value": {
-          "fontFamily": "{familiy-primary}",
+          "fontFamily": "{font-familiy-primary}",
           "fontSize": "{font-size-fixed.xl}",
           "fontWeight": "{font-weight-numeric.medium}"
         },
