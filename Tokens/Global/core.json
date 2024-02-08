@@ -810,7 +810,7 @@
       "type": "opacity"
     }
   },
-  "numeric-values-font-weight": {
+  "font-weight-numeric": {
     "thin": {
       "value": "100",
       "type": "fontWeights",
@@ -905,7 +905,7 @@
       }
     }
   },
-  "keyword-values-font-weight": {
+  "font-weight-keyword": {
     "normal": {
       "value": "Normal",
       "type": "fontWeights",
@@ -955,13 +955,13 @@
     "value": "Inter",
     "type": "fontFamilies"
   },
-  "ref-contextual": {
+  "contextual": {
     "regular": {
       "body-xs": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
           "fontSize": "{font-size-fixed.xs}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
+          "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
         "description": "Suitable for small description. Type scaling applied."
@@ -969,7 +969,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.normal}",
+          "fontWeight": "{font-weight-numeric.normal}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -978,7 +978,7 @@
       "body-sm-link": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.normal}",
+          "fontWeight": "{font-weight-numeric.normal}",
           "fontSize": "{font-size-fixed.sm}",
           "textDecoration": "{underline}"
         },
@@ -988,7 +988,7 @@
       "heading-sm": {
         "value": {
           "fontFamily": "{familiy-primary}",
-          "fontWeight": "{numeric-values-font-weight.normal}",
+          "fontWeight": "{font-weight-numeric.normal}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -999,7 +999,7 @@
           "fontFamily": "{familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fixed.md}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
+          "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
         "description": "Suitable for medium headlines. Type scaling applied."
@@ -1008,7 +1008,7 @@
         "value": {
           "fontFamily": "{familiy-primary}",
           "fontSize": "{font-size-fixed.lg}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
+          "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
         "description": "Suitable for large headlines in panels, cards, and menus. Type scaling applied."
@@ -1018,7 +1018,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}",
+          "fontWeight": "{font-weight-numeric.semi-bold}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -1027,7 +1027,7 @@
       "heading-sm": {
         "value": {
           "fontFamily": "{familiy-primary}",
-          "fontWeight": "{numeric-values-font-weight.medium}",
+          "fontWeight": "{font-weight-numeric.medium}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -1038,7 +1038,7 @@
           "fontFamily": "{familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fixed.md}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
+          "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
         "description": "Suitable for medium headlines. Type scaling applied."
@@ -1047,7 +1047,7 @@
         "value": {
           "fontFamily": "{familiy-primary}",
           "fontSize": "{font-size-fixed.xl}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
+          "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
         "description": "Suitable for extra large headlines. Type scaling applied."
@@ -1058,7 +1058,7 @@
         "value": {
           "fontFamily": "{font-familiy-secondary}",
           "fontSize": "{font-size-fixed.xs}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+          "fontWeight": "{font-weight-numeric.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for small description. Type scaling applied."
@@ -1066,7 +1066,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.bold}",
+          "fontWeight": "{font-weight-numeric.bold}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
