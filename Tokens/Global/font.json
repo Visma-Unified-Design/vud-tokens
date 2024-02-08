@@ -277,227 +277,13 @@
       "type": "sizing"
     }
   },
-  "core-font-style-title": {
-    "lg-regular": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "lineHeight": "Auto",
-        "fontSize": "48px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "lg-bold": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "48px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "md-regular": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "lineHeight": "Auto",
-        "fontSize": "32px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "md-bold": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "32px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "s-regular": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "lineHeight": "Auto",
-        "fontSize": "24px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "s-semibold": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.medium}",
-        "lineHeight": "Auto",
-        "fontSize": "24px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "s-bold": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "24px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "xs-regular": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "fontSize": "20px",
-        "lineHeight": "Auto"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    },
-    "xs-semibold": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.medium}",
-        "fontSize": "20px",
-        "lineHeight": "Auto"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages, as well as larger marketing page layouts that require the use of larger fonts"
-    },
-    "xs-bold": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "20px"
-      },
-      "type": "typography",
-      "description": "Suitable for content-based layouts like news articles or content-heavy pages."
-    }
-  },
-  "core-font-style-body": {
-    "primary-lg-regular": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "lineHeight": "Auto",
-        "fontSize": "20px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "primary-lg-semibold": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.medium}",
-        "lineHeight": "Auto",
-        "fontSize": "20px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "primary-lg-bold": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "48px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "primary-s-regular": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "lineHeight": "Auto",
-        "fontSize": "16px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "primary-s-bold": {
-      "value": {
-        "fontFamily": "{familiy-primary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "24px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-md-regular": {
-      "value": {
-        "fontFamily": "{font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "lineHeight": "Auto",
-        "fontSize": "14px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-md-semibold": {
-      "value": {
-        "fontFamily": "{font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.medium}",
-        "lineHeight": "Auto",
-        "fontSize": "14px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-md-bold": {
-      "value": {
-        "fontFamily": "{font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "14px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-s-regular": {
-      "value": {
-        "fontFamily": "{font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.normal}",
-        "lineHeight": "Auto",
-        "fontSize": "13px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-s-semibold": {
-      "value": {
-        "fontFamily": "{font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.medium}",
-        "lineHeight": "Auto",
-        "fontSize": "13px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    },
-    "secondary-s-bold": {
-      "value": {
-        "fontFamily": "{font-familiy-secondary}",
-        "fontWeight": "{numeric-values-font-weight.bold}",
-        "lineHeight": "Auto",
-        "fontSize": "13px"
-      },
-      "type": "typography",
-      "description": "Body text establishes the fundamental font size used throughout an application.\n"
-    }
-  },
-  "ref-contextual": {
+  "contextual": {
     "regular": {
       "body-xs": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
           "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
+          "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
         "description": "Suitable for small description. Type scaling applied."
@@ -505,7 +291,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.normal}",
+          "fontWeight": "{font-weight-numeric.normal}",
           "fontSize": "{font-size-fluid.sm}"
         },
         "type": "typography",
@@ -514,7 +300,7 @@
       "body-sm-link": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.normal}",
+          "fontWeight": "{font-weight-numeric.normal}",
           "fontSize": "{font-size-fluid.sm}",
           "textDecoration": "{underline}"
         },
@@ -524,7 +310,7 @@
       "heading-sm": {
         "value": {
           "fontFamily": "{familiy-primary}",
-          "fontWeight": "{numeric-values-font-weight.normal}",
+          "fontWeight": "{font-weight-numeric.normal}",
           "fontSize": "{font-size-fluid.sm}"
         },
         "type": "typography",
@@ -535,7 +321,7 @@
           "fontFamily": "{familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
+          "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
         "description": "Suitable for medium headlines. Type scaling applied."
@@ -544,7 +330,7 @@
         "value": {
           "fontFamily": "{familiy-primary}",
           "fontSize": "{font-size-fluid.lg}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
+          "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
         "description": "Suitable for large headlines in panels, cards, and menus. Type scaling applied."
@@ -555,7 +341,7 @@
         "value": {
           "fontFamily": "{font-familiy-secondary}",
           "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+          "fontWeight": "{font-weight-numeric.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for small description. Type scaling applied."
@@ -563,7 +349,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.bold}",
+          "fontWeight": "{font-weight-numeric.bold}",
           "fontSize": "{font-size-fluid.sm}"
         },
         "type": "typography",
@@ -574,7 +360,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}",
+          "fontWeight": "{font-weight-numeric.semi-bold}",
           "fontSize": "{font-size-fluid.sm}"
         },
         "type": "typography",
@@ -583,7 +369,7 @@
       "heading-sm": {
         "value": {
           "fontFamily": "{familiy-primary}",
-          "fontWeight": "{numeric-values-font-weight.medium}",
+          "fontWeight": "{font-weight-numeric.medium}",
           "fontSize": "{font-size-fluid.sm}"
         },
         "type": "typography",
@@ -594,7 +380,7 @@
           "fontFamily": "{familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
+          "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
         "description": "Suitable for medium headlines. Type scaling applied."
@@ -603,20 +389,20 @@
         "value": {
           "fontFamily": "{familiy-primary}",
           "fontSize": "{font-size-fluid.xl}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
+          "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
         "description": "Suitable for extra large headlines. Type scaling applied."
       }
     }
   },
-  "ref-tabular": {
+  "tabular": {
     "regular": {
       "td-xs": {
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
+          "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -625,7 +411,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.sm}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
+          "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -634,7 +420,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
+          "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -643,7 +429,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.lg}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
+          "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -652,7 +438,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xl}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
+          "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -661,7 +447,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xxl}",
-          "fontWeight": "{numeric-values-font-weight.normal}"
+          "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -672,7 +458,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
+          "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -681,7 +467,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.sm}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
+          "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -690,7 +476,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
+          "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -699,7 +485,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.lg}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
+          "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -708,7 +494,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xl}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
+          "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -717,7 +503,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xxl}",
-          "fontWeight": "{numeric-values-font-weight.medium}"
+          "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -728,7 +514,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+          "fontWeight": "{font-weight-numeric.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -737,7 +523,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.sm}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+          "fontWeight": "{font-weight-numeric.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -746,7 +532,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+          "fontWeight": "{font-weight-numeric.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -755,7 +541,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.lg}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+          "fontWeight": "{font-weight-numeric.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -764,7 +550,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xl}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+          "fontWeight": "{font-weight-numeric.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
@@ -773,7 +559,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xxl}",
-          "fontWeight": "{numeric-values-font-weight.semi-bold}"
+          "fontWeight": "{font-weight-numeric.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\nType scaling applied."
