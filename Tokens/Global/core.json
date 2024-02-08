@@ -1011,7 +1011,7 @@
           "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
-        "description": "Suitable for large headlines in panels, cards, and menus. "
+        "description": "Suitable for large headlines."
       }
     },
     "medium": {
