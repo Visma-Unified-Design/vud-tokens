@@ -918,28 +918,28 @@
     }
   },
   "font-size-fixed": {
-    "xs": {
-      "value": "13",
-      "type": "fontSizes"
-    },
-    "sm": {
-      "value": "14",
-      "type": "fontSizes"
-    },
-    "md": {
-      "value": "16",
-      "type": "fontSizes"
-    },
-    "lg": {
-      "value": "20",
+    "xxl": {
+      "value": "32",
       "type": "fontSizes"
     },
     "xl": {
       "value": "29",
       "type": "fontSizes"
     },
-    "xxl": {
-      "value": "32",
+    "lg": {
+      "value": "20",
+      "type": "fontSizes"
+    },
+    "md": {
+      "value": "16",
+      "type": "fontSizes"
+    },
+    "sm": {
+      "value": "14",
+      "type": "fontSizes"
+    },
+    "xs": {
+      "value": "13",
       "type": "fontSizes"
     }
   },
@@ -957,14 +957,33 @@
   },
   "contextual": {
     "regular": {
-      "body-xs": {
+      "heading-lg": {
         "value": {
-          "fontFamily": "{font-familiy-secondary}",
-          "fontSize": "{font-size-fixed.xs}",
+          "fontFamily": "{font-familiy-primary}",
+          "fontSize": "{font-size-fixed.lg}",
           "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
-        "description": "Suitable for small description. "
+        "description": "Suitable for large headlines."
+      },
+      "heading-md": {
+        "value": {
+          "fontFamily": "{font-familiy-primary}",
+          "lineHeight": "",
+          "fontSize": "{font-size-fixed.md}",
+          "fontWeight": "{font-weight-numeric.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for medium headlines. "
+      },
+      "heading-sm": {
+        "value": {
+          "fontFamily": "{font-familiy-primary}",
+          "fontWeight": "{font-weight-numeric.normal}",
+          "fontSize": "{font-size-fixed.sm}"
+        },
+        "type": "typography",
+        "description": "Suitable for small headlines. "
       },
       "body-sm": {
         "value": {
@@ -985,44 +1004,35 @@
         "type": "typography",
         "description": "Suitable for small links. "
       },
-      "heading-sm": {
+      "body-xs": {
         "value": {
-          "fontFamily": "{font-familiy-primary}",
-          "fontWeight": "{font-weight-numeric.normal}",
-          "fontSize": "{font-size-fixed.sm}"
+          "fontFamily": "{font-familiy-secondary}",
+          "fontSize": "{font-size-fixed.xs}",
+          "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
-        "description": "Suitable for small headlines. "
+        "description": "Suitable for small description. "
+      }
+    },
+    "medium": {
+      "heading-xl": {
+        "value": {
+          "fontFamily": "{font-familiy-primary}",
+          "fontSize": "{font-size-fixed.xl}",
+          "fontWeight": "{font-weight-numeric.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for extra large headlines. "
       },
       "heading-md": {
         "value": {
           "fontFamily": "{font-familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fixed.md}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
         "description": "Suitable for medium headlines. "
-      },
-      "heading-lg": {
-        "value": {
-          "fontFamily": "{font-familiy-primary}",
-          "fontSize": "{font-size-fixed.lg}",
-          "fontWeight": "{font-weight-numeric.normal}"
-        },
-        "type": "typography",
-        "description": "Suitable for large headlines."
-      }
-    },
-    "medium": {
-      "body-sm": {
-        "value": {
-          "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.semi-bold}",
-          "fontSize": "{font-size-fixed.sm}"
-        },
-        "type": "typography",
-        "description": "Suitable for small body text. "
       },
       "heading-sm": {
         "value": {
@@ -1033,36 +1043,17 @@
         "type": "typography",
         "description": "Suitable for small headlines. "
       },
-      "heading-md": {
+      "body-sm": {
         "value": {
-          "fontFamily": "{font-familiy-primary}",
-          "lineHeight": "",
-          "fontSize": "{font-size-fixed.md}",
-          "fontWeight": "{font-weight-numeric.medium}"
+          "fontFamily": "{font-familiy-secondary}",
+          "fontWeight": "{font-weight-numeric.semi-bold}",
+          "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
-        "description": "Suitable for medium headlines. "
-      },
-      "heading-xl": {
-        "value": {
-          "fontFamily": "{font-familiy-primary}",
-          "fontSize": "{font-size-fixed.xl}",
-          "fontWeight": "{font-weight-numeric.medium}"
-        },
-        "type": "typography",
-        "description": "Suitable for extra large headlines. "
+        "description": "Suitable for small body text. "
       }
     },
     "bold": {
-      "body-xs": {
-        "value": {
-          "fontFamily": "{font-familiy-secondary}",
-          "fontSize": "{font-size-fixed.xs}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
-        },
-        "type": "typography",
-        "description": "Suitable for small description. "
-      },
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
@@ -1071,6 +1062,15 @@
         },
         "type": "typography",
         "description": "Suitable for small body text. "
+      },
+      "body-xs": {
+        "value": {
+          "fontFamily": "{font-familiy-secondary}",
+          "fontSize": "{font-size-fixed.xs}",
+          "fontWeight": "{font-weight-numeric.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for small description. "
       }
     }
   }

@@ -238,28 +238,28 @@
     }
   },
   "font-size-fluid": {
-    "xs": {
-      "value": "{scale.xs.clamp}",
-      "type": "fontSizes"
-    },
-    "sm": {
-      "value": "{scale.s.clamp}",
-      "type": "fontSizes"
-    },
-    "md": {
-      "value": "{scale.md.clamp}",
-      "type": "fontSizes"
-    },
-    "lg": {
-      "value": "{scale.lg.clamp}",
+    "xxl": {
+      "value": "{scale.xxl.clamp}",
       "type": "fontSizes"
     },
     "xl": {
       "value": "{scale.xl.clamp}",
       "type": "fontSizes"
     },
-    "xxl": {
-      "value": "{scale.xxl.clamp}",
+    "lg": {
+      "value": "{scale.lg.clamp}",
+      "type": "fontSizes"
+    },
+    "md": {
+      "value": "{scale.md.clamp}",
+      "type": "fontSizes"
+    },
+    "sm": {
+      "value": "{scale.s.clamp}",
+      "type": "fontSizes"
+    },
+    "xs": {
+      "value": "{scale.xs.clamp}",
       "type": "fontSizes"
     }
   },
@@ -279,14 +279,33 @@
   },
   "contextual": {
     "regular": {
-      "body-xs": {
+      "heading-lg": {
         "value": {
-          "fontFamily": "{font-familiy-secondary}",
-          "fontSize": "{font-size-fluid.xs}",
+          "fontFamily": "{font-familiy-primary}",
+          "fontSize": "{font-size-fluid.lg}",
           "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
-        "description": "Suitable for small description. "
+        "description": "Suitable for large headlines."
+      },
+      "heading-md": {
+        "value": {
+          "fontFamily": "{font-familiy-primary}",
+          "lineHeight": "",
+          "fontSize": "{font-size-fluid.md}",
+          "fontWeight": "{font-weight-numeric.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for medium headlines. "
+      },
+      "heading-sm": {
+        "value": {
+          "fontFamily": "{font-familiy-primary}",
+          "fontWeight": "{font-weight-numeric.normal}",
+          "fontSize": "{font-size-fluid.sm}"
+        },
+        "type": "typography",
+        "description": "Suitable for small headlines. "
       },
       "body-sm": {
         "value": {
@@ -307,45 +326,17 @@
         "type": "typography",
         "description": "Suitable for small links. "
       },
-      "heading-sm": {
-        "value": {
-          "fontFamily": "{font-familiy-primary}",
-          "fontWeight": "{font-weight-numeric.normal}",
-          "fontSize": "{font-size-fluid.sm}"
-        },
-        "type": "typography",
-        "description": "Suitable for small headlines. "
-      },
-      "heading-md": {
-        "value": {
-          "fontFamily": "{font-familiy-primary}",
-          "lineHeight": "",
-          "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{font-weight-numeric.normal}"
-        },
-        "type": "typography",
-        "description": "Suitable for medium headlines. "
-      },
-      "heading-lg": {
-        "value": {
-          "fontFamily": "{font-familiy-primary}",
-          "fontSize": "{font-size-fluid.lg}",
-          "fontWeight": "{font-weight-numeric.normal}"
-        },
-        "type": "typography",
-        "description": "Suitable for large headlines."
-      }
-    },
-    "bold": {
       "body-xs": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
           "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
+          "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
         "description": "Suitable for small description. "
-      },
+      }
+    },
+    "bold": {
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
@@ -354,17 +345,36 @@
         },
         "type": "typography",
         "description": "Suitable for small body text. "
+      },
+      "body-xs": {
+        "value": {
+          "fontFamily": "{font-familiy-secondary}",
+          "fontSize": "{font-size-fluid.xs}",
+          "fontWeight": "{font-weight-numeric.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for small description. "
       }
     },
     "medium": {
-      "body-sm": {
+      "heading-xl": {
         "value": {
-          "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.semi-bold}",
-          "fontSize": "{font-size-fluid.sm}"
+          "fontFamily": "{font-familiy-primary}",
+          "fontSize": "{font-size-fluid.xl}",
+          "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
-        "description": "Suitable for small body text. "
+        "description": "Suitable for extra large headlines. "
+      },
+      "heading-md": {
+        "value": {
+          "fontFamily": "{font-familiy-primary}",
+          "lineHeight": "",
+          "fontSize": "{font-size-fluid.md}",
+          "fontWeight": "{font-weight-numeric.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for medium headlines. "
       },
       "heading-sm": {
         "value": {
@@ -375,60 +385,23 @@
         "type": "typography",
         "description": "Suitable for small headlines. "
       },
-      "heading-md": {
+      "body-sm": {
         "value": {
-          "fontFamily": "{font-familiy-primary}",
-          "lineHeight": "",
-          "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{font-weight-numeric.medium}"
+          "fontFamily": "{font-familiy-secondary}",
+          "fontWeight": "{font-weight-numeric.semi-bold}",
+          "fontSize": "{font-size-fluid.sm}"
         },
         "type": "typography",
-        "description": "Suitable for medium headlines. "
-      },
-      "heading-xl": {
-        "value": {
-          "fontFamily": "{font-familiy-primary}",
-          "fontSize": "{font-size-fluid.xl}",
-          "fontWeight": "{font-weight-numeric.medium}"
-        },
-        "type": "typography",
-        "description": "Suitable for extra large headlines. "
+        "description": "Suitable for small body text. "
       }
     }
   },
   "tabular": {
     "regular": {
-      "td-xs": {
+      "td-xxl": {
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{font-weight-numeric.normal}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\n"
-      },
-      "td-sm": {
-        "value": {
-          "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.sm}",
-          "fontWeight": "{font-weight-numeric.normal}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\n"
-      },
-      "td-md": {
-        "value": {
-          "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{font-weight-numeric.normal}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\n"
-      },
-      "td-lg": {
-        "value": {
-          "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.lg}",
+          "fontSize": "{font-size-fluid.xxl}",
           "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
@@ -443,10 +416,37 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
       },
-      "td-xxl": {
+      "td-lg": {
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.xxl}",
+          "fontSize": "{font-size-fluid.lg}",
+          "fontWeight": "{font-weight-numeric.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\n"
+      },
+      "td-md": {
+        "value": {
+          "fontFamily": "{font-familiy-tertiary}",
+          "fontSize": "{font-size-fluid.md}",
+          "fontWeight": "{font-weight-numeric.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\n"
+      },
+      "td-sm": {
+        "value": {
+          "fontFamily": "{font-familiy-tertiary}",
+          "fontSize": "{font-size-fluid.sm}",
+          "fontWeight": "{font-weight-numeric.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\n"
+      },
+      "td-xs": {
+        "value": {
+          "fontFamily": "{font-familiy-tertiary}",
+          "fontSize": "{font-size-fluid.xs}",
           "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
@@ -454,37 +454,10 @@
       }
     },
     "medium": {
-      "td-xs": {
+      "td-xxl": {
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{font-weight-numeric.medium}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\n"
-      },
-      "td-sm": {
-        "value": {
-          "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.sm}",
-          "fontWeight": "{font-weight-numeric.medium}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\n"
-      },
-      "td-md": {
-        "value": {
-          "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{font-weight-numeric.medium}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\n"
-      },
-      "td-lg": {
-        "value": {
-          "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.lg}",
+          "fontSize": "{font-size-fluid.xxl}",
           "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
@@ -499,10 +472,37 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
       },
-      "td-xxl": {
+      "td-lg": {
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.xxl}",
+          "fontSize": "{font-size-fluid.lg}",
+          "fontWeight": "{font-weight-numeric.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\n"
+      },
+      "td-md": {
+        "value": {
+          "fontFamily": "{font-familiy-tertiary}",
+          "fontSize": "{font-size-fluid.md}",
+          "fontWeight": "{font-weight-numeric.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\n"
+      },
+      "td-sm": {
+        "value": {
+          "fontFamily": "{font-familiy-tertiary}",
+          "fontSize": "{font-size-fluid.sm}",
+          "fontWeight": "{font-weight-numeric.medium}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\n"
+      },
+      "td-xs": {
+        "value": {
+          "fontFamily": "{font-familiy-tertiary}",
+          "fontSize": "{font-size-fluid.xs}",
           "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
@@ -510,37 +510,10 @@
       }
     },
     "semibold": {
-      "td-xs": {
+      "td-xxl": {
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\n"
-      },
-      "td-sm": {
-        "value": {
-          "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.sm}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\n"
-      },
-      "td-md": {
-        "value": {
-          "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
-        },
-        "type": "typography",
-        "description": "Suitable for tabular data.\n\n"
-      },
-      "td-lg": {
-        "value": {
-          "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.lg}",
+          "fontSize": "{font-size-fluid.xxl}",
           "fontWeight": "{font-weight-numeric.semi-bold}"
         },
         "type": "typography",
@@ -555,10 +528,37 @@
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
       },
-      "td-xxl": {
+      "td-lg": {
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
-          "fontSize": "{font-size-fluid.xxl}",
+          "fontSize": "{font-size-fluid.lg}",
+          "fontWeight": "{font-weight-numeric.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\n"
+      },
+      "td-md": {
+        "value": {
+          "fontFamily": "{font-familiy-tertiary}",
+          "fontSize": "{font-size-fluid.md}",
+          "fontWeight": "{font-weight-numeric.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\n"
+      },
+      "td-sm": {
+        "value": {
+          "fontFamily": "{font-familiy-tertiary}",
+          "fontSize": "{font-size-fluid.sm}",
+          "fontWeight": "{font-weight-numeric.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for tabular data.\n\n"
+      },
+      "td-xs": {
+        "value": {
+          "fontFamily": "{font-familiy-tertiary}",
+          "fontSize": "{font-size-fluid.xs}",
           "fontWeight": "{font-weight-numeric.semi-bold}"
         },
         "type": "typography",
