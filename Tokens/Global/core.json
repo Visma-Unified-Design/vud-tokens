@@ -964,7 +964,7 @@
           "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
-        "description": "Suitable for small description. Type scaling applied."
+        "description": "Suitable for small description. "
       },
       "body-sm": {
         "value": {
@@ -973,7 +973,7 @@
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
-        "description": "Suitable for small body text. Type scaling applied."
+        "description": "Suitable for small body text. "
       },
       "body-sm-link": {
         "value": {
@@ -983,7 +983,7 @@
           "textDecoration": "{underline}"
         },
         "type": "typography",
-        "description": "Suitable for small links. Type scaling applied."
+        "description": "Suitable for small links. "
       },
       "heading-sm": {
         "value": {
@@ -992,7 +992,7 @@
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
-        "description": "Suitable for small headlines. Type scaling applied."
+        "description": "Suitable for small headlines. "
       },
       "heading-md": {
         "value": {
@@ -1002,7 +1002,7 @@
           "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
-        "description": "Suitable for medium headlines. Type scaling applied."
+        "description": "Suitable for medium headlines. "
       },
       "heading-lg": {
         "value": {
@@ -1011,7 +1011,7 @@
           "fontWeight": "{font-weight-numeric.normal}"
         },
         "type": "typography",
-        "description": "Suitable for large headlines in panels, cards, and menus. Type scaling applied."
+        "description": "Suitable for large headlines in panels, cards, and menus. "
       }
     },
     "medium": {
@@ -1022,7 +1022,7 @@
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
-        "description": "Suitable for small body text. Type scaling applied."
+        "description": "Suitable for small body text. "
       },
       "heading-sm": {
         "value": {
@@ -1031,7 +1031,7 @@
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
-        "description": "Suitable for small headlines. Type scaling applied."
+        "description": "Suitable for small headlines. "
       },
       "heading-md": {
         "value": {
@@ -1041,7 +1041,7 @@
           "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
-        "description": "Suitable for medium headlines. Type scaling applied."
+        "description": "Suitable for medium headlines. "
       },
       "heading-xl": {
         "value": {
@@ -1050,7 +1050,7 @@
           "fontWeight": "{font-weight-numeric.medium}"
         },
         "type": "typography",
-        "description": "Suitable for extra large headlines. Type scaling applied."
+        "description": "Suitable for extra large headlines. "
       }
     },
     "bold": {
@@ -1061,7 +1061,7 @@
           "fontWeight": "{font-weight-numeric.semi-bold}"
         },
         "type": "typography",
-        "description": "Suitable for small description. Type scaling applied."
+        "description": "Suitable for small description. "
       },
       "body-sm": {
         "value": {
@@ -1070,7 +1070,7 @@
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
-        "description": "Suitable for small body text. Type scaling applied."
+        "description": "Suitable for small body text. "
       }
     }
   }
