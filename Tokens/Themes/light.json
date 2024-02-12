@@ -2333,6 +2333,20 @@
       "type": "boxShadow",
       "description": "The shadows for buttons on focused state."
     },
+    "inner-border": {
+      "value": [
+        {
+          "x": "1",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{ref.border.primary.enabled}",
+          "type": "innerShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "The inner border for split button."
+    },
     "focus-indicator": {
       "value": {
         "x": "4",
