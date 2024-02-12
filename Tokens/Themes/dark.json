@@ -609,7 +609,7 @@
           "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected-weak": {
-          "value": "{brand.neutral-dark-80}",
+          "value": "{ref.fill.default.muted}",
           "type": "color",
           "description": "Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
@@ -619,7 +619,7 @@
           "description": "Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "selected-moderate": {
-          "value": "{brand.neutral-dark-80}",
+          "value": "{ref.fill.default.muted}",
           "type": "color",
           "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
         },
@@ -5028,6 +5028,20 @@
       },
       "type": "boxShadow",
       "description": "Focus-indicator refers to the thick line along a side of the bounding box."
+    }
+  },
+  "comp-scrollbar": {
+    "surface-muted": {
+      "value": "{ref.fill.default.muted}",
+      "type": "color"
+    },
+    "surface-default": {
+      "value": "{ref.icon.disabled}",
+      "type": "color"
+    },
+    "surface-enabled": {
+      "value": "{ref.icon.default}",
+      "type": "color"
     }
   }
 }

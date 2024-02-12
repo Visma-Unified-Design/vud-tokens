@@ -5030,5 +5030,19 @@
       "type": "color",
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     }
+  },
+  "comp-scrollbar": {
+    "surface-muted": {
+      "value": "{ref.fill.default.muted}",
+      "type": "color"
+    },
+    "surface-default": {
+      "value": "{ref.icon.disabled}",
+      "type": "color"
+    },
+    "surface-enabled": {
+      "value": "{ref.icon.default}",
+      "type": "color"
+    }
   }
 }
