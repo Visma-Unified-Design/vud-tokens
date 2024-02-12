@@ -1063,7 +1063,7 @@
       },
       "screen": {
         "default": {
-          "value": "{ref.fill.default.muted}",
+          "value": "{brand.neutral-dark-80}",
           "type": "color",
           "description": "Suitable for product-based UI screens."
         }
