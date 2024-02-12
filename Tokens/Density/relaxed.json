@@ -5,7 +5,7 @@
       "type": "spacing"
     },
     "height": {
-      "value": "{sizing.56}",
+      "value": "{size-10}",
       "type": "sizing"
     }
   }

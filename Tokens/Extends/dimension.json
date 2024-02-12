@@ -1,15 +1,15 @@
 {
   "dimension": {
     "size-small": {
-      "value": "{sizing.32}",
+      "value": "{size-7}",
       "type": "sizing"
     },
     "size-medium": {
-      "value": "{sizing.40}",
+      "value": "{size-8}",
       "type": "sizing"
     },
     "size-large": {
-      "value": "{sizing.48}",
+      "value": "{size-9}",
       "type": "sizing"
     }
   }

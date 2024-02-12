@@ -45,7 +45,7 @@
   },
   "opacity": {
     "disabled": {
-      "value": "{opacity.64}",
+      "value": "{opacity.10}",
       "type": "opacity",
       "description": "Opacity for hover state on charts."
     }
