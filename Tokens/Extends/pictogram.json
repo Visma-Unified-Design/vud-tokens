@@ -2,58 +2,58 @@
   "pictogram": {
     "primary": {
       "stroke-default": {
-        "value": "{ref.pictogram.on-primary.stroke-default}",
+        "value": "{ref.pictogram.primary.stroke-default}",
         "type": "color",
         "description": "\n"
       },
       "stroke-emphasis": {
-        "value": "{ref.pictogram.on-primary.stroke-emphasis}",
+        "value": "{ref.pictogram.primary.stroke-emphasis}",
         "type": "color"
       },
       "fill-default": {
-        "value": "{ref.pictogram.on-primary.fill-default}",
+        "value": "{ref.pictogram.primary.fill-default}",
         "type": "color"
       },
       "fill-emphasis": {
-        "value": "{ref.pictogram.on-primary.fill-emphasis}",
+        "value": "{ref.pictogram.primary.fill-emphasis}",
         "type": "color"
       }
     },
     "secondary": {
       "stroke-default": {
-        "value": "{ref.pictogram.on-secondary.stroke-default}",
+        "value": "{ref.pictogram.secondary.stroke-default}",
         "type": "color",
         "description": "\n"
       },
       "stroke-emphasis": {
-        "value": "{ref.pictogram.on-secondary.stroke-emphasis}",
+        "value": "{ref.pictogram.secondary.stroke-emphasis}",
         "type": "color"
       },
       "fill-default": {
-        "value": "{ref.pictogram.on-secondary.fill-default}",
+        "value": "{ref.pictogram.secondary.fill-default}",
         "type": "color"
       },
       "fill-emphasis": {
-        "value": "{ref.pictogram.on-secondary.fill-emphasis}",
+        "value": "{ref.pictogram.secondary.fill-emphasis}",
         "type": "color"
       }
     },
     "tertiary": {
       "stroke-default": {
-        "value": "{ref.pictogram.on-tertiary.stroke-default}",
+        "value": "{ref.pictogram.tertiary.stroke-default}",
         "type": "color",
         "description": "\n"
       },
       "stroke-emphasis": {
-        "value": "{ref.pictogram.on-tertiary.stroke-emphasis}",
+        "value": "{ref.pictogram.tertiary.stroke-emphasis}",
         "type": "color"
       },
       "fill-default": {
-        "value": "{ref.pictogram.on-tertiary.fill-default}",
+        "value": "{ref.pictogram.tertiary.fill-default}",
         "type": "color"
       },
       "fill-emphasis": {
-        "value": "{ref.pictogram.on-tertiary.fill-emphasis}",
+        "value": "{ref.pictogram.tertiary.fill-emphasis}",
         "type": "color"
       }
     }
