@@ -2445,9 +2445,8 @@
       "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
     },
     "border-selected-moderate:hover": {
-      "value": "{ref.border.on-default.selected-moderate:hover}",
+      "value": "{ref.border.default.selected-moderate:hover}",
       "type": "color",
-      "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
       "$extensions": {
         "studio.tokens": {
           "modify": {
@@ -2456,7 +2455,8 @@
             "space": "hsl"
           }
         }
-      }
+      },
+      "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "border-selected-strong": {
       "value": "{ref.border.secondary.selected}",
@@ -3916,7 +3916,7 @@
         "description": "Border with a selected state refers to an interaction that occurs when the ui element is active."
       },
       "border-selected-strong:hover": {
-        "value": "{ref.border.on-default.selected-moderate}",
+        "value": "{ref.border.default.selected-moderate}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
