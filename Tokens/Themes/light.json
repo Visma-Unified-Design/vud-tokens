@@ -733,7 +733,7 @@
           "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{brand.primary-60}",
+          "value": "{brand.primary-70}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -741,7 +741,7 @@
                 "type": "darken",
                 "value": "0.12",
                 "space": "hsl",
-                "color": "{brand.color.primary-70} "
+                "color": ""
               }
             }
           },
