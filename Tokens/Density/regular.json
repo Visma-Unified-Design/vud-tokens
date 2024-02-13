@@ -1,11 +1,11 @@
 {
   "density": {
     "paddingHeight": {
-      "value": "{spacing.16}",
+      "value": "{space.gap-5}",
       "type": "spacing"
     },
     "height": {
-      "value": "{sizing.48}",
+      "value": "{size.wh-9}",
       "type": "sizing"
     }
   }

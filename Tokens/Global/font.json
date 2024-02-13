@@ -336,26 +336,6 @@
         "description": "Suitable for small description. "
       }
     },
-    "bold": {
-      "body-sm": {
-        "value": {
-          "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.bold}",
-          "fontSize": "{font-size-fluid.sm}"
-        },
-        "type": "typography",
-        "description": "Suitable for small body text. "
-      },
-      "body-xs": {
-        "value": {
-          "fontFamily": "{font-familiy-secondary}",
-          "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
-        },
-        "type": "typography",
-        "description": "Suitable for small description. "
-      }
-    },
     "medium": {
       "heading-xl": {
         "value": {
@@ -389,6 +369,26 @@
         "value": {
           "fontFamily": "{font-familiy-secondary}",
           "fontWeight": "{font-weight-numeric.semi-bold}",
+          "fontSize": "{font-size-fluid.sm}"
+        },
+        "type": "typography",
+        "description": "Suitable for small body text. "
+      },
+      "body-xs": {
+        "value": {
+          "fontFamily": "{font-familiy-secondary}",
+          "fontSize": "{font-size-fluid.xs}",
+          "fontWeight": "{font-weight-numeric.semi-bold}"
+        },
+        "type": "typography",
+        "description": "Suitable for small description. "
+      }
+    },
+    "bold": {
+      "body-sm": {
+        "value": {
+          "fontFamily": "{font-familiy-secondary}",
+          "fontWeight": "{font-weight-numeric.bold}",
           "fontSize": "{font-size-fluid.sm}"
         },
         "type": "typography",

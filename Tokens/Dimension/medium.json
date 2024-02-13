@@ -1,7 +1,7 @@
 {
   "dimension": {
     "size": {
-      "value": "{sizing.40}",
+      "value": "{size.wh-8}",
       "type": "sizing"
     }
   }
