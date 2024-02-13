@@ -327,10 +327,6 @@
     "neutral-dark-90": {
       "value": "#000000",
       "type": "color"
-    },
-    "test": {
-      "value": "#e60000",
-      "type": "color"
     }
   },
   "vud-funct": {
