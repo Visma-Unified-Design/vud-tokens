@@ -1,35 +1,35 @@
 {
   "density": {
     "paddingHeight-condensed": {
-      "value": "{space..3}",
+      "value": "{space.gap-3}",
       "type": "spacing"
     },
     "height-condensed": {
-      "value": "{size-7}",
+      "value": "{size.wh-7}",
       "type": "sizing"
     },
     "height-default": {
-      "value": "{size-8}",
+      "value": "{size.wh-8}",
       "type": "sizing"
     },
     "paddingHeight-default": {
-      "value": "{space..4}",
+      "value": "{space.gap-4}",
       "type": "spacing"
     },
     "height-regular": {
-      "value": "{size-9}",
+      "value": "{size.wh-9}",
       "type": "sizing"
     },
     "paddingHeight-regular": {
-      "value": "{space..5}",
+      "value": "{space.gap-5}",
       "type": "spacing"
     },
     "paddingHeight-relaxed": {
-      "value": "{space..5}",
+      "value": "{space.gap-5}",
       "type": "spacing"
     },
     "height-relaxed": {
-      "value": "{size-10}",
+      "value": "{size.wh-10}",
       "type": "sizing"
     }
   }
