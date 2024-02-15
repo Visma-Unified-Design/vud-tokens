@@ -13,7 +13,7 @@
       "type": "borderRadius"
     },
     "s": {
-      "value": "{radii.s}",
+      "value": "{radii.sm}",
       "type": "borderRadius"
     },
     "md": {
