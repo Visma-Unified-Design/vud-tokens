@@ -1798,12 +1798,12 @@
       "radius.none": "1adf77de47725077749837f2bf31b8c7d53e986f",
       "radius.xxs": "8744c906d96b68d5f30fd62b0c5de44a83ea0e9e",
       "radius.xs": "fe2550995e1a01b33db5f4ee8845b02867f1660a",
-      "radius.s": "88ea7f61de7a1c787c0af4d1abf882ac36ff7ce3",
       "radius.md": "059bcb83029db14d889d88878cb1c6067e4bdb41",
       "radius.lg": "24182490ea78a7d3d072ac0a7715f97a4dae04e9",
       "radius.xl": "65be2adc467aab795624f2c81570cea9bad29fa4",
       "radius.xxl": "6949acd5d79f2cc13a4a739879b35a6a3d5824d3",
-      "radius.xxxl": "0545b04631eb78a0955bfbb8085dcd53906e14f7"
+      "radius.xxxl": "0545b04631eb78a0955bfbb8085dcd53906e14f7",
+      "radius.sm": "88ea7f61de7a1c787c0af4d1abf882ac36ff7ce3"
     },
     "group": "Radius"
   },
@@ -1821,12 +1821,12 @@
       "radius.none": "1adf77de47725077749837f2bf31b8c7d53e986f",
       "radius.xxs": "8744c906d96b68d5f30fd62b0c5de44a83ea0e9e",
       "radius.xs": "fe2550995e1a01b33db5f4ee8845b02867f1660a",
-      "radius.s": "88ea7f61de7a1c787c0af4d1abf882ac36ff7ce3",
       "radius.md": "059bcb83029db14d889d88878cb1c6067e4bdb41",
       "radius.lg": "24182490ea78a7d3d072ac0a7715f97a4dae04e9",
       "radius.xl": "65be2adc467aab795624f2c81570cea9bad29fa4",
       "radius.xxl": "6949acd5d79f2cc13a4a739879b35a6a3d5824d3",
-      "radius.xxxl": "0545b04631eb78a0955bfbb8085dcd53906e14f7"
+      "radius.xxxl": "0545b04631eb78a0955bfbb8085dcd53906e14f7",
+      "radius.sm": "88ea7f61de7a1c787c0af4d1abf882ac36ff7ce3"
     },
     "group": "Radius"
   },

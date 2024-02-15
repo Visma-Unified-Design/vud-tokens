@@ -3,6 +3,7 @@
     "Global/core",
     "Global/brand",
     "Global/font",
+    "Global/composition",
     "Global/data-viz",
     "Themes/light",
     "Themes/dark",

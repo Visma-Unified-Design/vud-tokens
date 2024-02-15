@@ -12,7 +12,7 @@
       "value": "{radii.xs}",
       "type": "borderRadius"
     },
-    "s": {
+    "sm": {
       "value": "{radii.sm}",
       "type": "borderRadius"
     },
