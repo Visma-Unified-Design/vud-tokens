@@ -5,8 +5,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "enabled",
-      "Global/brand": "enabled",
-      "Themes/composition": "disabled"
+      "Global/brand": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1039:134",
     "$figmaModeId": "1039:0",
@@ -301,8 +300,7 @@
       "Themes/light": "enabled",
       "Global/core": "source",
       "Global/brand": "source",
-      "Global/data-viz": "source",
-      "Themes/composition": "disabled"
+      "Global/data-viz": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:152:5558",
     "$figmaModeId": "152:12",
@@ -507,7 +505,6 @@
       "button-confirmatory.default.surface-selected-strong": "8b88d5149a601d74cd4018241c86ea909576ca7d",
       "button-confirmatory.default.surface-selected-strong:hover": "d57b4f57a6f6e4205b23527ce86c4e5dd325f7f3",
       "button-confirmatory.default.surface-disabled": "153ca3b3727f30eda9767cc12b07f51470a51767",
-      "button-confirmatory.default.border-enabled": "da6c3961c0e2d10326dc891ec47fa7678f34d02e",
       "button-confirmatory.default.border-muted": "71ba1dd0f301879d7e5893d791f20babfe21724e",
       "button-confirmatory.default.border-transparent": "9d1722e064b55e9796908b66fa650e623b3982a4",
       "button-confirmatory.default.border-hover": "c21043e0f7bdbda347671f05a92f6357020a6b26",
@@ -1164,7 +1161,8 @@
       "toggle.border-emphasis": "aeeaa0dbcdf4c2ca88eacd9f563ef559d91c5b1a",
       "toggle.border-focused": "8f0a8f5f10b256b5843860ea7b62d6ddff3b5705",
       "toggle.border-error": "dc21948c03020fe530f4f79709c05bfba7a61c08",
-      "toggle.border-disabled": "57d8954f933cbb9f40a99ed95291e41dfcfedcee"
+      "toggle.border-disabled": "57d8954f933cbb9f40a99ed95291e41dfcfedcee",
+      "default": "da6c3961c0e2d10326dc891ec47fa7678f34d02e"
     },
     "group": "Themes"
   },
@@ -1176,8 +1174,7 @@
       "Themes/dark": "enabled",
       "Global/core": "source",
       "Global/brand": "source",
-      "Global/data-viz": "source",
-      "Themes/composition": "disabled"
+      "Global/data-viz": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:152:5558",
     "$figmaModeId": "152:13",
@@ -1382,7 +1379,6 @@
       "button-confirmatory.default.surface-selected-strong": "8b88d5149a601d74cd4018241c86ea909576ca7d",
       "button-confirmatory.default.surface-selected-strong:hover": "d57b4f57a6f6e4205b23527ce86c4e5dd325f7f3",
       "button-confirmatory.default.surface-disabled": "153ca3b3727f30eda9767cc12b07f51470a51767",
-      "button-confirmatory.default.border-enabled": "da6c3961c0e2d10326dc891ec47fa7678f34d02e",
       "button-confirmatory.default.border-muted": "71ba1dd0f301879d7e5893d791f20babfe21724e",
       "button-confirmatory.default.border-transparent": "9d1722e064b55e9796908b66fa650e623b3982a4",
       "button-confirmatory.default.border-hover": "c21043e0f7bdbda347671f05a92f6357020a6b26",
@@ -1607,7 +1603,8 @@
       "nav-vert.inverted.border-disabled-none": "71cfedced8f642bd3bcc576a70c0f1fea2543277",
       "nav-vert.inverted.border-disabled-low": "2389d0e2bff4dcf2ce284a38bfeb4fb713a906bb",
       "nav-vert.inverted.separator": "90deb69f5056402e4d35512cf75506e6ddac1c29",
-      "content.border-muted": "b75ac5407361d3bae7fb0540a3df7d2d6e1f41b3"
+      "content.border-muted": "b75ac5407361d3bae7fb0540a3df7d2d6e1f41b3",
+      "default": "da6c3961c0e2d10326dc891ec47fa7678f34d02e"
     },
     "group": "Themes"
   },
@@ -1618,8 +1615,7 @@
     "selectedTokenSets": {
       "Density/condensed": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled",
-      "Themes/composition": "disabled"
+      "Extends/density": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:21",
@@ -1636,8 +1632,7 @@
     "selectedTokenSets": {
       "Density/default": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled",
-      "Themes/composition": "disabled"
+      "Extends/density": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:22",
@@ -1654,8 +1649,7 @@
     "selectedTokenSets": {
       "Density/regular": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled",
-      "Themes/composition": "disabled"
+      "Extends/density": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:23",
@@ -1672,8 +1666,7 @@
     "selectedTokenSets": {
       "Density/relaxed": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled",
-      "Themes/composition": "disabled"
+      "Extends/density": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2437",
     "$figmaModeId": "48:24",
@@ -1690,8 +1683,7 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/small": "enabled",
-      "Global/core": "source",
-      "Themes/composition": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2440",
     "$figmaModeId": "48:25",
@@ -1707,8 +1699,7 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/medium": "enabled",
-      "Global/core": "source",
-      "Themes/composition": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2440",
     "$figmaModeId": "48:26",
@@ -1724,8 +1715,7 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/large": "enabled",
-      "Global/core": "source",
-      "Themes/composition": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2440",
     "$figmaModeId": "48:27",
@@ -1742,8 +1732,7 @@
       "Pictogram/primary": "enabled",
       "Extends/pictogram": "enabled",
       "Global/core": "source",
-      "Themes/light": "source",
-      "Themes/composition": "disabled"
+      "Themes/light": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2441",
     "$figmaModeId": "48:28",
@@ -1763,8 +1752,7 @@
       "Extends/pictogram": "enabled",
       "Pictogram/secondary": "enabled",
       "Global/core": "source",
-      "Themes/light": "source",
-      "Themes/composition": "disabled"
+      "Themes/light": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2441",
     "$figmaModeId": "48:34",
@@ -1784,8 +1772,7 @@
       "Extends/pictogram": "enabled",
       "Pictogram/tertiary": "enabled",
       "Global/core": "source",
-      "Themes/light": "source",
-      "Themes/composition": "disabled"
+      "Themes/light": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2441",
     "$figmaModeId": "48:35",
@@ -1803,8 +1790,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/round": "enabled",
-      "Global/core": "source",
-      "Themes/composition": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2446",
     "$figmaModeId": "48:29",
@@ -1827,8 +1813,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/sharp": "enabled",
-      "Global/core": "source",
-      "Themes/composition": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2446",
     "$figmaModeId": "48:30",
@@ -1853,8 +1838,7 @@
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme a": "enabled",
-      "Extends/data-viz": "enabled",
-      "Themes/composition": "disabled"
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -1866,8 +1850,7 @@
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme b": "enabled",
-      "Extends/data-viz": "enabled",
-      "Themes/composition": "disabled"
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -1879,8 +1862,7 @@
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme c": "enabled",
-      "Extends/data-viz": "enabled",
-      "Themes/composition": "disabled"
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -1892,8 +1874,7 @@
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme d": "enabled",
-      "Extends/data-viz": "enabled",
-      "Themes/composition": "disabled"
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -1905,8 +1886,7 @@
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme e": "enabled",
-      "Extends/data-viz": "enabled",
-      "Themes/composition": "disabled"
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -1918,8 +1898,7 @@
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme f": "enabled",
-      "Extends/data-viz": "enabled",
-      "Themes/composition": "disabled"
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -1931,8 +1910,7 @@
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme g": "enabled",
-      "Extends/data-viz": "enabled",
-      "Themes/composition": "disabled"
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -1942,8 +1920,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/desktop": "enabled",
-      "Global/font": "source",
-      "Themes/composition": "disabled"
+      "Global/font": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2456",
     "$figmaModeId": "48:31",
@@ -1958,8 +1935,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/tablet": "enabled",
-      "Global/font": "source",
-      "Themes/composition": "disabled"
+      "Global/font": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2456",
     "$figmaModeId": "48:32",
@@ -1974,8 +1950,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/mobile": "enabled",
-      "Global/font": "source",
-      "Themes/composition": "disabled"
+      "Global/font": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:48:2456",
     "$figmaModeId": "48:33",
