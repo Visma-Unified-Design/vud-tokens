@@ -1,0 +1,38 @@
+{
+  "panel": {
+    "value": {
+      "borderRadiusTopLeft": "{radii.xl}",
+      "borderRadiusTopRight": "{radii.xl}",
+      "borderRadiusBottomRight": "{radii.xl}",
+      "borderRadiusBottomLeft": "{radii.xl}",
+      "verticalPadding": "{space.gap-7}",
+      "horizontalPadding": "{space.gap-7}",
+      "border": "{default}"
+    },
+    "type": "composition"
+  },
+  "default": {
+    "value": {
+      "style": "solid",
+      "width": "{border.sm}",
+      "color": "{ref.border.default.enabled}"
+    },
+    "type": "border"
+  },
+  "dotted": {
+    "value": {
+      "style": "dashed",
+      "width": "{border.sm}",
+      "color": "{separator.strong}"
+    },
+    "type": "border"
+  },
+  "solid": {
+    "value": {
+      "style": "solid",
+      "width": "{border.sm}",
+      "color": "{separator.moderate}"
+    },
+    "type": "border"
+  }
+}
