@@ -1,0 +1,182 @@
+{
+  "button": {
+    "value": {
+      "borderRadius": "{radii.sm}",
+      "paddingTop": "{space.gap-5}",
+      "paddingRight": "{space.gap-5}",
+      "paddingBottom": "{space.gap-5}",
+      "paddingLeft": "{space.gap-5}",
+      "itemSpacing": "{space.gap-3}"
+    },
+    "type": "composition"
+  },
+  "card": {
+    "value": {
+      "borderRadiusTopLeft": "{radii.xl}",
+      "borderRadiusTopRight": "{radii.xl}",
+      "borderRadiusBottomRight": "{radii.xl}",
+      "borderRadiusBottomLeft": "{radii.xl}",
+      "verticalPadding": "{space.gap-7}",
+      "horizontalPadding": "{space.gap-7}",
+      "border": "{default}"
+    },
+    "type": "composition"
+  },
+  "inputs": {
+    "value": {
+      "borderRadiusTopLeft": "{radii.xxs}",
+      "borderRadiusTopRight": "{radii.xxs}",
+      "borderRadiusBottomRight": "{radii.xxs}",
+      "borderRadiusBottomLeft": "{radii.xxs}",
+      "paddingTop": "{space.gap-3}",
+      "paddingRight": "{space.gap-3}",
+      "paddingLeft": "{space.gap-3}",
+      "paddingBottom": "{space.gap-3}",
+      "border": "{default}"
+    },
+    "type": "composition"
+  },
+  "modal": {
+    "value": {
+      "borderRadiusTopLeft": "{radii.xl}",
+      "borderRadiusTopRight": "{radii.xl}",
+      "borderRadiusBottomRight": "{radii.xl}",
+      "borderRadiusBottomLeft": "{radii.xl}",
+      "verticalPadding": "{space.gap-9}",
+      "horizontalPadding": "{space.gap-9}",
+      "itemSpacing": "{space.gap-6}",
+      "border": "{default}"
+    },
+    "type": "composition"
+  },
+  "panel": {
+    "value": {
+      "borderRadiusTopLeft": "{radii.xl}",
+      "borderRadiusTopRight": "{radii.xl}",
+      "borderRadiusBottomRight": "{radii.xl}",
+      "borderRadiusBottomLeft": "{radii.xl}",
+      "verticalPadding": "{space.gap-7}",
+      "horizontalPadding": "{space.gap-7}",
+      "border": "{default}"
+    },
+    "type": "composition"
+  },
+  "drawer": {
+    "right": {
+      "value": {
+        "borderRadiusTopLeft": "{radii.xl}",
+        "borderRadiusTopRight": "{radii.none}",
+        "borderRadiusBottomRight": "{radii.none}",
+        "borderRadiusBottomLeft": "{radii.xl}",
+        "verticalPadding": "{space.gap-7}",
+        "horizontalPadding": "{space.gap-9}",
+        "border": "{default}"
+      },
+      "type": "composition"
+    },
+    "left": {
+      "value": {
+        "borderRadiusTopLeft": "{radii.none}",
+        "borderRadiusTopRight": "{radii.xl}",
+        "borderRadiusBottomRight": "{radii.xl}",
+        "borderRadiusBottomLeft": "{radii.none}",
+        "verticalPadding": "{space.gap-7}",
+        "horizontalPadding": "{space.gap-9}",
+        "border": "{default}"
+      },
+      "type": "composition"
+    }
+  },
+  "list-select": {
+    "avatar-lines": {
+      "value": {
+        "borderRadiusTopLeft": "{radii.xxs}",
+        "borderRadiusTopRight": "{radii.xxs}",
+        "borderRadiusBottomRight": "{radii.xxs}",
+        "borderRadiusBottomLeft": "{radii.xxs}",
+        "paddingLeft": "{space.gap-5}",
+        "paddingRight": "{space.gap-5}",
+        "paddingTop": "{space.gap-6}",
+        "paddingBottom": "{space.gap-6}",
+        "border": "{solid}",
+        "itemSpacing": "{space.gap-3}"
+      },
+      "type": "composition"
+    },
+    "basic": {
+      "value": {
+        "borderRadiusTopLeft": "{radii.xxs}",
+        "borderRadiusTopRight": "{radii.xxs}",
+        "borderRadiusBottomRight": "{radii.xxs}",
+        "borderRadiusBottomLeft": "{radii.xxs}",
+        "paddingLeft": "{space.gap-0}",
+        "paddingRight": "{space.gap-1}",
+        "paddingTop": "{space.gap-5}",
+        "paddingBottom": "{space.gap-5}",
+        "border": "{solid}",
+        "itemSpacing": "{space.gap-0}"
+      },
+      "type": "composition"
+    }
+  },
+  "content": {
+    "list-select": {
+      "basic": {
+        "value": {
+          "paddingLeft": "{space.gap-4}",
+          "paddingRight": "{space.gap-4}",
+          "paddingTop": "{space.gap-0}",
+          "paddingBottom": "{space.gap-0}",
+          "itemSpacing": "{space.gap-2}"
+        },
+        "type": "composition"
+      },
+      "avatar-lines": {
+        "value": {
+          "paddingLeft": "{space.gap-0}",
+          "paddingRight": "{space.gap-0}",
+          "paddingTop": "{space.gap-0}",
+          "paddingBottom": "{space.gap-0}",
+          "itemSpacing": "{space.gap-4}"
+        },
+        "type": "composition"
+      }
+    },
+    "list-group": {
+      "notification": {
+        "value": {
+          "paddingLeft": "{space.gap-0}",
+          "paddingRight": "{space.gap-0}",
+          "paddingTop": "{space.gap-0}",
+          "paddingBottom": "{space.gap-0}",
+          "itemSpacing": "{space.gap-4}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "default": {
+    "value": {
+      "style": "solid",
+      "width": "{border.sm}",
+      "color": "{ref.border.default.enabled}"
+    },
+    "type": "border"
+  },
+  "dotted": {
+    "value": {
+      "style": "dashed",
+      "width": "{border.sm}",
+      "color": "{separator.strong}"
+    },
+    "type": "border"
+  },
+  "solid": {
+    "value": {
+      "style": "solid",
+      "width": "{border.sm}",
+      "color": "{separator.moderate}"
+    },
+    "type": "border"
+  }
+}
