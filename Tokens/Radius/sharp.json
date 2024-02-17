@@ -35,6 +35,26 @@
     "xxxl": {
       "value": "{radii.xxs}",
       "type": "borderRadius"
+    },
+    "button": {
+      "value": "{radii.none}",
+      "type": "borderRadius"
+    },
+    "modal": {
+      "value": "{radii.none}",
+      "type": "borderRadius"
+    },
+    "inputs": {
+      "value": "{radii.none}",
+      "type": "borderRadius"
+    },
+    "panel": {
+      "value": "{radii.none}",
+      "type": "borderRadius"
+    },
+    "list": {
+      "value": "{radii.none}",
+      "type": "borderRadius"
     }
   }
 }
