@@ -2,7 +2,7 @@
   "field": {
     "value": {
       "typography": "{contextual.regular.body-sm}",
-      "borderRadius": "{radii.xs}",
+      "borderRadius": "{vud-radii.xs}",
       "paddingLeft": "{space.gap-5}",
       "paddingRight": "{space.gap-3}",
       "verticalPadding": "{space.gap-3}",
