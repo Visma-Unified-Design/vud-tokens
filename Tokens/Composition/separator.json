@@ -1,16 +1,4 @@
 {
-  "panel": {
-    "value": {
-      "borderRadiusTopLeft": "{radii.xl}",
-      "borderRadiusTopRight": "{radii.xl}",
-      "borderRadiusBottomRight": "{radii.xl}",
-      "borderRadiusBottomLeft": "{radii.xl}",
-      "verticalPadding": "{space.gap-7}",
-      "horizontalPadding": "{space.gap-7}",
-      "border": "{default}"
-    },
-    "type": "composition"
-  },
   "default": {
     "value": {
       "style": "solid",

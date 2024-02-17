@@ -1,0 +1,43 @@
+{
+  "drawer": {
+    "aside": {
+      "value": {
+        "borderRadiusTopLeft": "{radii.xl}",
+        "borderRadiusTopRight": "{radii.none}",
+        "borderRadiusBottomRight": "{radii.none}",
+        "borderRadiusBottomLeft": "{radii.none}",
+        "verticalPadding": "{space.gap-7}",
+        "horizontalPadding": "{space.gap-9}",
+        "itemSpacing": "{space.gap-7}",
+        "borderTop": "{separator.moderate}",
+        "borderLeft": "{separator.moderate}",
+        "borderBottom": "{separator.moderate}",
+        "borderWidthTop": "{border.sm}",
+        "borderWidthLeft": "{border.sm}",
+        "borderWidthBottom": "{border.none}",
+        "borderWidthRight": "{border.none}",
+        "boxShadow": "{shadow.default-elevation-3}"
+      },
+      "type": "composition"
+    },
+    "footer": {
+      "value": {
+        "borderRadiusTopLeft": "{radii.none}",
+        "borderRadiusTopRight": "{radii.none}",
+        "borderRadiusBottomRight": "{radii.none}",
+        "borderRadiusBottomLeft": "{radii.xl}",
+        "verticalPadding": "{space.gap-7}",
+        "horizontalPadding": "{space.gap-9}",
+        "itemSpacing": "{space.gap-7}",
+        "borderTop": "{separator.moderate}",
+        "borderLeft": "{separator.moderate}",
+        "borderBottom": "{separator.moderate}",
+        "borderWidthTop": "{border.sm}",
+        "borderWidthLeft": "{border.sm}",
+        "borderWidthBottom": "{border.sm}",
+        "borderWidthRight": "{border.none}"
+      },
+      "type": "composition"
+    }
+  }
+}
