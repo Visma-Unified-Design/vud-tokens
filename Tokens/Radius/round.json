@@ -35,25 +35,27 @@
     "xxxl": {
       "value": "{radii.xxxl}",
       "type": "borderRadius"
-    },
+    }
+  },
+  "component": {
     "button": {
       "value": "{radii.sm}",
-      "type": "borderRadius"
-    },
-    "modal": {
-      "value": "{radii.xl}",
       "type": "borderRadius"
     },
     "inputs": {
       "value": "{radii.xs}",
       "type": "borderRadius"
     },
+    "list": {
+      "value": "{radii.sm}",
+      "type": "borderRadius"
+    },
     "panel": {
       "value": "{radii.xl}",
       "type": "borderRadius"
     },
-    "list": {
-      "value": "{radii.sm}",
+    "modal": {
+      "value": "{radii.xl}",
       "type": "borderRadius"
     }
   }
