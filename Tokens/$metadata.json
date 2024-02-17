@@ -10,7 +10,7 @@
     "Composition/inputs",
     "Composition/modal",
     "Composition/non-modal",
-    "Composition/list",
+    "Composition/listbox",
     "Composition/separator",
     "Composition/content",
     "Radius/round",

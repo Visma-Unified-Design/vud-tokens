@@ -54,6 +54,10 @@
       "value": "{radii.sm}",
       "type": "borderRadius"
     },
+    "listbox": {
+      "value": "{radii.xxs}",
+      "type": "borderRadius"
+    },
     "modal": {
       "value": "{radii.xl}",
       "type": "borderRadius"

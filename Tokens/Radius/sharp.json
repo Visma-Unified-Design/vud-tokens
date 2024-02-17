@@ -54,6 +54,10 @@
       "value": "{radii.none}",
       "type": "borderRadius"
     },
+    "listbox": {
+      "value": "{radii.none}",
+      "type": "borderRadius"
+    },
     "modal": {
       "value": "{radii.none}",
       "type": "borderRadius"
