@@ -8,7 +8,8 @@
       "verticalPadding": "{space.gap-9}",
       "horizontalPadding": "{space.gap-9}",
       "itemSpacing": "{space.gap-6}",
-      "border": "{default}"
+      "borderColor": "{separator.moderate}",
+      "borderWidth": "{border.sm}"
     },
     "type": "composition"
   },
