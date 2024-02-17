@@ -42,6 +42,10 @@
       "value": "{radii.none}",
       "type": "borderRadius"
     },
+    "card": {
+      "value": "{radii.none}",
+      "type": "borderRadius"
+    },
     "inputs": {
       "value": "{radii.none}",
       "type": "borderRadius"
@@ -50,11 +54,11 @@
       "value": "{radii.none}",
       "type": "borderRadius"
     },
-    "panel": {
+    "modal": {
       "value": "{radii.none}",
       "type": "borderRadius"
     },
-    "modal": {
+    "panel": {
       "value": "{radii.none}",
       "type": "borderRadius"
     }
