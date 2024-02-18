@@ -2434,11 +2434,11 @@
       "radius.xl": "6a36814da1bb7167bc34de51324e68d97bcd9900",
       "radius.xxl": "673e234f8fbdfb627a64ec8a488ef3c9a3f464b8",
       "radius.xxxl": "19778ef3a6191c0e7f71d278edf7617448f6ba1a",
-      "component.button": "b8532fcce73d8602c477ec834b0a1ac5ba9b6a1e",
-      "component.modal": "a570654c46ab15c12502bfb4b0a539fe30ab05b2",
-      "component.inputs": "9cb05797bada1b4ec6e6e5cf92b1834897451919",
-      "component.panel": "f382ba860bd60e66b5313f3cad76797f1c347f2e",
-      "component.list": "a78dc7196bf82dc0752dfdb22185d96f8ed6b2bc"
+      "radii.button": "b8532fcce73d8602c477ec834b0a1ac5ba9b6a1e",
+      "radii.modal": "a570654c46ab15c12502bfb4b0a539fe30ab05b2",
+      "radii.inputs": "9cb05797bada1b4ec6e6e5cf92b1834897451919",
+      "radii.panel": "f382ba860bd60e66b5313f3cad76797f1c347f2e",
+      "radii.list": "a78dc7196bf82dc0752dfdb22185d96f8ed6b2bc"
     },
     "group": "Radius"
   },
@@ -2462,11 +2462,11 @@
       "radius.xl": "6a36814da1bb7167bc34de51324e68d97bcd9900",
       "radius.xxl": "673e234f8fbdfb627a64ec8a488ef3c9a3f464b8",
       "radius.xxxl": "19778ef3a6191c0e7f71d278edf7617448f6ba1a",
-      "component.button": "b8532fcce73d8602c477ec834b0a1ac5ba9b6a1e",
-      "component.modal": "a570654c46ab15c12502bfb4b0a539fe30ab05b2",
-      "component.inputs": "9cb05797bada1b4ec6e6e5cf92b1834897451919",
-      "component.panel": "f382ba860bd60e66b5313f3cad76797f1c347f2e",
-      "component.list": "a78dc7196bf82dc0752dfdb22185d96f8ed6b2bc"
+      "radii.button": "b8532fcce73d8602c477ec834b0a1ac5ba9b6a1e",
+      "radii.modal": "a570654c46ab15c12502bfb4b0a539fe30ab05b2",
+      "radii.inputs": "9cb05797bada1b4ec6e6e5cf92b1834897451919",
+      "radii.panel": "f382ba860bd60e66b5313f3cad76797f1c347f2e",
+      "radii.list": "a78dc7196bf82dc0752dfdb22185d96f8ed6b2bc"
     },
     "group": "Radius"
   },

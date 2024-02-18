@@ -37,7 +37,7 @@
       "type": "borderRadius"
     }
   },
-  "component": {
+  "radii": {
     "button": {
       "value": "{radii.sm}",
       "type": "borderRadius"
