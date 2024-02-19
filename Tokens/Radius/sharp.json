@@ -5,35 +5,65 @@
       "type": "borderRadius"
     },
     "xxs": {
-      "value": "{radii.xxs}",
+      "value": "{radii.none}",
       "type": "borderRadius"
     },
     "xs": {
-      "value": "{radii.xxs}",
+      "value": "{radii.none}",
       "type": "borderRadius"
     },
-    "s": {
-      "value": "{radii.xxs}",
+    "sm": {
+      "value": "{radii.none}",
       "type": "borderRadius"
     },
     "md": {
-      "value": "{radii.xxs}",
+      "value": "{radii.none}",
       "type": "borderRadius"
     },
     "lg": {
-      "value": "{radii.xxs}",
+      "value": "{radii.none}",
       "type": "borderRadius"
     },
     "xl": {
-      "value": "{radii.xxs}",
+      "value": "{radii.none}",
       "type": "borderRadius"
     },
     "xxl": {
-      "value": "{radii.xxs}",
+      "value": "{radii.none}",
       "type": "borderRadius"
     },
     "xxxl": {
-      "value": "{radii.xxs}",
+      "value": "{radii.none}",
+      "type": "borderRadius"
+    }
+  },
+  "radii": {
+    "button": {
+      "value": "{radii.none}",
+      "type": "borderRadius"
+    },
+    "card": {
+      "value": "{radii.none}",
+      "type": "borderRadius"
+    },
+    "inputs": {
+      "value": "{radii.none}",
+      "type": "borderRadius"
+    },
+    "list": {
+      "value": "{radii.none}",
+      "type": "borderRadius"
+    },
+    "listbox": {
+      "value": "{radii.none}",
+      "type": "borderRadius"
+    },
+    "modal": {
+      "value": "{radii.none}",
+      "type": "borderRadius"
+    },
+    "panel": {
+      "value": "{radii.none}",
       "type": "borderRadius"
     }
   }

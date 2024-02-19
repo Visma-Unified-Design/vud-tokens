@@ -1,0 +1,14 @@
+{
+  "modal": {
+    "value": {
+      "borderRadiusTopLeft": "{radii.xl}",
+      "borderRadiusTopRight": "{radii.xl}",
+      "borderRadiusBottomRight": "{radii.xl}",
+      "borderRadiusBottomLeft": "{radii.xl}",
+      "verticalPadding": "{space.gap-7}",
+      "horizontalPadding": "{space.gap-7}",
+      "borderColor": "{separator.moderate}"
+    },
+    "type": "composition"
+  }
+}

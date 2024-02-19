@@ -2340,7 +2340,7 @@
           "y": "0",
           "blur": "0",
           "spread": "0",
-          "color": "{ref.border.primary.enabled}",
+          "color": "{brand.primary-80}",
           "type": "innerShadow"
         }
       ],

@@ -12,7 +12,7 @@
       "value": "{base}*2",
       "type": "borderRadius"
     },
-    "s": {
+    "sm": {
       "value": "{base}*4",
       "type": "borderRadius"
     },

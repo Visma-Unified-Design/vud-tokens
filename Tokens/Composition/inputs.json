@@ -1,0 +1,153 @@
+{
+  "field": {
+    "value": {
+      "typography": "{contextual.regular.body-sm}",
+      "borderRadius": "{vud-radii.xs}",
+      "paddingLeft": "{space.gap-5}",
+      "paddingRight": "{space.gap-3}",
+      "verticalPadding": "{space.gap-3}",
+      "itemSpacing": "{space.gap-3}"
+    },
+    "type": "composition"
+  },
+  "inputs": {
+    "enabled": {
+      "value": {
+        "fill": "{inputs.surface-enabled}",
+        "borderColor": "{inputs.border-enabled}",
+        "borderWidth": "{border.sm}",
+        "boxShadow": "{shadow.default-elevation-1}"
+      },
+      "type": "composition"
+    },
+    "read-only": {
+      "value": {
+        "fill": "{inputs.surface-enabled}",
+        "borderColor": "{inputs.border-transparent}",
+        "borderWidth": "{border.sm}",
+        "boxShadow": "{shadow.none}"
+      },
+      "type": "composition"
+    },
+    "read-only-muted": {
+      "value": {
+        "fill": "{inputs.surface-muted}",
+        "borderColor": "{inputs.border-transparent}",
+        "borderWidth": "{border.sm}",
+        "boxShadow": "{shadow.none}"
+      },
+      "type": "composition"
+    },
+    "hover": {
+      "value": {
+        "fill": "{inputs.surface-hover}",
+        "borderColor": "{inputs.border-hover}",
+        "borderWidth": "{border.sm}",
+        "boxShadow": "{shadow.default-elevation-1}"
+      },
+      "type": "composition"
+    },
+    "pressed": {
+      "value": {
+        "fill": "{inputs.surface-pressed}",
+        "borderColor": "{inputs.border-pressed}",
+        "borderWidth": "{border.sm}",
+        "boxShadow": "{shadow.default-elevation-1}"
+      },
+      "type": "composition"
+    },
+    "focused": {
+      "value": {
+        "fill": "{inputs.surface-focused}",
+        "borderColor": "{inputs.border-focused}",
+        "borderWidth": "{border.lg}",
+        "boxShadow": "{shadow.default-elevation-1}"
+      },
+      "type": "composition"
+    },
+    "error": {
+      "value": {
+        "fill": "{inputs.surface-error}",
+        "borderColor": "{inputs.border-error}",
+        "borderWidth": "{border.sm}",
+        "boxShadow": "{shadow.default-elevation-1}"
+      },
+      "type": "composition"
+    },
+    "error-focused": {
+      "value": {
+        "fill": "{inputs.surface-error}",
+        "borderColor": "{inputs.border-error}",
+        "borderWidth": "{border.lg}",
+        "boxShadow": "{shadow.default-elevation-1}"
+      },
+      "type": "composition"
+    },
+    "disabled": {
+      "value": {
+        "fill": "{inputs.surface-disabled}",
+        "borderColor": "{inputs.border-disabled}",
+        "borderWidth": "{border.sm}",
+        "boxShadow": "{shadow.none}"
+      },
+      "type": "composition"
+    },
+    "text": {
+      "default": {
+        "value": {
+          "typography": "{contextual.regular.body-sm}",
+          "fill": "{inputs.text-default}"
+        },
+        "type": "composition"
+      },
+      "secondary": {
+        "value": {
+          "typography": "{contextual.regular.body-sm}",
+          "fill": "{inputs.text-secondary}"
+        },
+        "type": "composition"
+      },
+      "error": {
+        "value": {
+          "typography": "{contextual.regular.body-sm}",
+          "fill": "{inputs.text-error}"
+        },
+        "type": "composition"
+      },
+      "mandatory": {
+        "value": {
+          "typography": "{contextual.regular.body-sm}",
+          "fill": "{inputs.text-mandatory}"
+        },
+        "type": "composition"
+      },
+      "disabled": {
+        "value": {
+          "typography": "{contextual.regular.body-sm}",
+          "fill": "{inputs.text-disabled}"
+        },
+        "type": "composition"
+      }
+    },
+    "icons": {
+      "default": {
+        "value": {
+          "border": "{inputs.icon-default}"
+        },
+        "type": "composition"
+      },
+      "emphasis": {
+        "value": {
+          "border": "{inputs.icon-emphasis}"
+        },
+        "type": "composition"
+      },
+      "disabled": {
+        "value": {
+          "border": "{inputs.icon-disabled}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

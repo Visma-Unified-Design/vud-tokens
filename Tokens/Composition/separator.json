@@ -1,0 +1,26 @@
+{
+  "default": {
+    "value": {
+      "style": "solid",
+      "width": "{border.sm}",
+      "color": "{ref.border.default.enabled}"
+    },
+    "type": "border"
+  },
+  "dotted": {
+    "value": {
+      "style": "dashed",
+      "width": "{border.sm}",
+      "color": "{separator.strong}"
+    },
+    "type": "border"
+  },
+  "solid": {
+    "value": {
+      "style": "solid",
+      "width": "{border.sm}",
+      "color": "{separator.moderate}"
+    },
+    "type": "border"
+  }
+}

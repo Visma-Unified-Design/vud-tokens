@@ -1,0 +1,38 @@
+{
+  "content": {
+    "list-select": {
+      "basic": {
+        "value": {
+          "paddingLeft": "{space.gap-4}",
+          "paddingRight": "{space.gap-4}",
+          "paddingTop": "{space.gap-0}",
+          "paddingBottom": "{space.gap-0}",
+          "itemSpacing": "{space.gap-2}"
+        },
+        "type": "composition"
+      },
+      "avatar-lines": {
+        "value": {
+          "paddingLeft": "{space.gap-0}",
+          "paddingRight": "{space.gap-0}",
+          "paddingTop": "{space.gap-0}",
+          "paddingBottom": "{space.gap-0}",
+          "itemSpacing": "{space.gap-4}"
+        },
+        "type": "composition"
+      }
+    },
+    "list-group": {
+      "notification": {
+        "value": {
+          "paddingLeft": "{space.gap-0}",
+          "paddingRight": "{space.gap-0}",
+          "paddingTop": "{space.gap-0}",
+          "paddingBottom": "{space.gap-0}",
+          "itemSpacing": "{space.gap-4}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}
