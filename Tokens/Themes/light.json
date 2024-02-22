@@ -1898,7 +1898,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "icon-default": {
-        "value": "{brand.secondary-70}",
+        "value": "{brand.secondary-60}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
