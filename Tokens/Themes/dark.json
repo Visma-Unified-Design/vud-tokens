@@ -4676,7 +4676,7 @@
       "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "surface-disabled": {
-      "value": "{ref.fill.default.disabled}",
+      "value": "{ref.fill.default.muted}",
       "type": "color",
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
@@ -4945,7 +4945,7 @@
       "description": "Surface with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
     },
     "surface-disabled": {
-      "value": "{ref.fill.default.disabled}",
+      "value": "{ref.fill.default.muted}",
       "type": "color",
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
