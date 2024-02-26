@@ -4675,9 +4675,23 @@
       "type": "color",
       "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
-    "surface-disabled": {
+    "surface-disabled-moderate": {
       "value": "{ref.fill.default.muted}",
       "type": "color",
+      "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+    },
+    "surface-disabled-strong": {
+      "value": "{ref.fill.default.muted}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "darken",
+            "value": "0.64",
+            "space": "hsl"
+          }
+        }
+      },
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "border-strong": {
@@ -4944,9 +4958,15 @@
       "type": "color",
       "description": "Surface with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
     },
-    "surface-disabled": {
+    "surface-disabled-moderate": {
       "value": "{ref.fill.default.muted}",
       "type": "color",
+      "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+    },
+    "surface-disabled-strong": {
+      "value": "{ref.fill.default.muted}",
+      "type": "color",
+      "$extensions": {},
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "border-enabled": {
@@ -4974,9 +4994,15 @@
       "type": "color",
       "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
     },
-    "border-disabled": {
+    "border-disabled-moderate": {
       "value": "{ref.border.default.disabled}",
       "type": "color",
+      "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+    },
+    "border-disabled-strong": {
+      "value": "{ref.border.default.disabled}",
+      "type": "color",
+      "$extensions": {},
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     }
   },
