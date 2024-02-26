@@ -85,6 +85,7 @@ const sdLight = StyleDictionary.extend({
           excludeParentKeys: true,
           options: {
               "outputReferences": true,
+              "themeable": true,
           },
         },
       ],
@@ -114,6 +115,7 @@ const sdDark = StyleDictionary.extend({
           excludeParentKeys: true,
           options: {
               "outputReferences": true,
+              "themeable": true,
               "selector": ["html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme)"],
           },
         },
@@ -130,6 +132,7 @@ const sdDark = StyleDictionary.extend({
           excludeParentKeys: true,
           options: {
               "outputReferences": true,
+              "themeable": true,
           },
         },
       ],
