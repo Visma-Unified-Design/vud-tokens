@@ -4966,7 +4966,6 @@
     "surface-disabled-strong": {
       "value": "{ref.fill.default.muted}",
       "type": "color",
-      "$extensions": {},
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "border-enabled": {
@@ -5002,7 +5001,6 @@
     "border-disabled-strong": {
       "value": "{ref.border.default.disabled}",
       "type": "color",
-      "$extensions": {},
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     }
   },
