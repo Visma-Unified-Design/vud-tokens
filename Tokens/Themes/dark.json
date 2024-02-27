@@ -77,7 +77,7 @@
         "description": "Draft refers to temporary statuses."
       },
       "warning-weak": {
-        "value": "{vud-funct.default-dark-20}",
+        "value": "{vud-funct.warning-20}",
         "type": "color",
         "description": "Warning text refers to content that conveys a warning, caution, or alert."
       },
