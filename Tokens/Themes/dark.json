@@ -428,12 +428,21 @@
           "description": "Muted border refers to a subtle border style."
         },
         "success-weak": {
-          "value": "{vud-funct.success-70}",
+          "value": "{vud-funct.success-60}",
           "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.64",
+                "space": "hsl"
+              }
+            }
+          },
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         },
         "info-weak": {
-          "value": "{vud-funct.info-70}",
+          "value": "{vud-funct.info-60}",
           "type": "color",
           "description": "Normal alerts. Ccommon statuses such as created, sent, printed, processing."
         },
@@ -445,11 +454,29 @@
         "warning-weak": {
           "value": "{vud-funct.warning-70}",
           "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.64",
+                "space": "lch"
+              }
+            }
+          },
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "error-weak": {
           "value": "{vud-funct.error-70}",
           "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.64",
+                "space": "lch"
+              }
+            }
+          },
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "success-moderate": {
@@ -872,7 +899,7 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "darken",
+                "type": "alpha",
                 "value": "0.12",
                 "space": "hsl"
               }
@@ -900,7 +927,7 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "darken",
+                "type": "alpha",
                 "value": "0.12",
                 "space": "hsl"
               }
@@ -914,8 +941,8 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "darken",
-                "value": "0.32",
+                "type": "alpha",
+                "value": "0.12",
                 "space": "hsl"
               }
             }
@@ -928,8 +955,8 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "darken",
-                "value": "0.32",
+                "type": "alpha",
+                "value": "0.12",
                 "space": "hsl"
               }
             }
@@ -4804,13 +4831,11 @@
     "surface-enabled": {
       "value": "{ref.fill.default.enabled}",
       "type": "color",
-      "$extensions": {},
       "description": "Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-muted": {
       "value": "{ref.fill.default.muted}",
       "type": "color",
-      "$extensions": {},
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-transparent": {
