@@ -4889,8 +4889,17 @@
       "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "surface-error:hover": {
-      "value": "{ref.fill.funct.error-weak}",
+      "value": "{vud-funct.error-90}",
       "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "alpha",
+            "value": "0.12",
+            "space": "hsl"
+          }
+        }
+      },
       "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "border-enabled": {
