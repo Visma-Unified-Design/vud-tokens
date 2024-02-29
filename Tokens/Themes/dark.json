@@ -459,7 +459,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.64",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
@@ -473,7 +473,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.64",
-                "space": "lch"
+                "space": "hsl"
               }
             }
           },
