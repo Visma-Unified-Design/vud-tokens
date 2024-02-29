@@ -899,7 +899,7 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "alpha",
+                "type": "darken",
                 "value": "0.12",
                 "space": "hsl"
               }
@@ -927,7 +927,7 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "alpha",
+                "type": "darken",
                 "value": "0.12",
                 "space": "hsl"
               }
@@ -941,8 +941,8 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "alpha",
-                "value": "0.12",
+                "type": "darken",
+                "value": "0.48",
                 "space": "hsl"
               }
             }
@@ -955,9 +955,10 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "alpha",
-                "value": "0.12",
-                "space": "hsl"
+                "type": "darken",
+                "value": "0.48",
+                "space": "hsl",
+                "color": "{"
               }
             }
           },
