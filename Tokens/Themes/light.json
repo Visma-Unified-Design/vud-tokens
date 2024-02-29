@@ -4860,6 +4860,15 @@
     "surface-muted": {
       "value": "{ref.fill.default.muted}",
       "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "alpha",
+            "value": "48",
+            "space": "hsl"
+          }
+        }
+      },
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-transparent": {
@@ -4940,6 +4949,15 @@
     "border-selected": {
       "value": "{ref.border.default.selected-moderate}",
       "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "alpha",
+            "value": "0.16",
+            "space": "hsl"
+          }
+        }
+      },
       "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
     },
     "border-selected:hover": {
