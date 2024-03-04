@@ -77,7 +77,7 @@
         "description": "Draft refers to temporary statuses."
       },
       "warning-weak": {
-        "value": "{vud-funct.default-dark-20}",
+        "value": "{vud-funct.warning-20}",
         "type": "color",
         "description": "Warning text refers to content that conveys a warning, caution, or alert."
       },
@@ -428,12 +428,21 @@
           "description": "Muted border refers to a subtle border style."
         },
         "success-weak": {
-          "value": "{vud-funct.success-70}",
+          "value": "{vud-funct.success-60}",
           "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.64",
+                "space": "hsl"
+              }
+            }
+          },
           "description": "Alerts, toasts. Success and positive statuses such as accepted, paid, delivered "
         },
         "info-weak": {
-          "value": "{vud-funct.info-70}",
+          "value": "{vud-funct.info-60}",
           "type": "color",
           "description": "Normal alerts. Ccommon statuses such as created, sent, printed, processing."
         },
@@ -445,11 +454,29 @@
         "warning-weak": {
           "value": "{vud-funct.warning-70}",
           "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.64",
+                "space": "hsl"
+              }
+            }
+          },
           "description": "Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses "
         },
         "error-weak": {
           "value": "{vud-funct.error-70}",
           "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.64",
+                "space": "hsl"
+              }
+            }
+          },
           "description": "Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered"
         },
         "success-moderate": {
@@ -915,7 +942,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "darken",
-                "value": "0.32",
+                "value": "0.48",
                 "space": "hsl"
               }
             }
@@ -929,8 +956,9 @@
             "studio.tokens": {
               "modify": {
                 "type": "darken",
-                "value": "0.32",
-                "space": "hsl"
+                "value": "0.48",
+                "space": "hsl",
+                "color": "{"
               }
             }
           },
@@ -4675,9 +4703,23 @@
       "type": "color",
       "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
-    "surface-disabled": {
-      "value": "{ref.fill.default.disabled}",
+    "surface-disabled-moderate": {
+      "value": "{ref.fill.default.muted}",
       "type": "color",
+      "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+    },
+    "surface-disabled-strong": {
+      "value": "{ref.fill.default.muted}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "darken",
+            "value": "0.64",
+            "space": "hsl"
+          }
+        }
+      },
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "border-strong": {
@@ -4818,8 +4860,17 @@
       "description": "Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
     },
     "surface-selected": {
-      "value": "{ref.fill.default.selected-moderate}",
+      "value": "{ref.fill.default.muted}",
       "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "lighten",
+            "value": "0.48",
+            "space": "hsl"
+          }
+        }
+      },
       "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
     },
     "surface-selected:hover": {
@@ -4838,8 +4889,17 @@
       "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "surface-error:hover": {
-      "value": "{ref.fill.funct.error-weak}",
+      "value": "{vud-funct.error-90}",
       "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "alpha",
+            "value": "0.12",
+            "space": "hsl"
+          }
+        }
+      },
       "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "border-enabled": {
@@ -4944,8 +5004,13 @@
       "type": "color",
       "description": "Surface with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
     },
-    "surface-disabled": {
-      "value": "{ref.fill.default.disabled}",
+    "surface-disabled-moderate": {
+      "value": "{ref.fill.default.muted}",
+      "type": "color",
+      "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+    },
+    "surface-disabled-strong": {
+      "value": "{ref.fill.default.muted}",
       "type": "color",
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
@@ -4974,7 +5039,12 @@
       "type": "color",
       "description": "Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
     },
-    "border-disabled": {
+    "border-disabled-moderate": {
+      "value": "{ref.border.default.disabled}",
+      "type": "color",
+      "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+    },
+    "border-disabled-strong": {
       "value": "{ref.border.default.disabled}",
       "type": "color",
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
