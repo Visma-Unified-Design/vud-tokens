@@ -955,10 +955,10 @@
           "$extensions": {
             "studio.tokens": {
               "modify": {
-                "type": "darken",
+                "type": "lighten",
                 "value": "0.48",
                 "space": "hsl",
-                "color": "{"
+                "color": ""
               }
             }
           },
