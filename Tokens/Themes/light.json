@@ -1898,7 +1898,7 @@
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
       "icon-default": {
-        "value": "{brand.secondary-70}",
+        "value": "{brand.secondary-60}",
         "type": "color",
         "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
       },
@@ -4726,9 +4726,23 @@
       "type": "color",
       "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
-    "surface-disabled": {
-      "value": "{ref.fill.default.disabled}",
+    "surface-disabled-moderate": {
+      "value": "{ref.fill.default.muted}",
       "type": "color",
+      "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+    },
+    "surface-disabled-strong": {
+      "value": "{ref.fill.default.muted}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "darken",
+            "value": "0.12",
+            "space": "hsl"
+          }
+        }
+      },
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "border-strong": {
@@ -4846,6 +4860,15 @@
     "surface-muted": {
       "value": "{ref.fill.default.muted}",
       "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "alpha",
+            "value": "48",
+            "space": "hsl"
+          }
+        }
+      },
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-transparent": {
@@ -4926,6 +4949,15 @@
     "border-selected": {
       "value": "{ref.border.default.selected-moderate}",
       "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "alpha",
+            "value": "0.16",
+            "space": "hsl"
+          }
+        }
+      },
       "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
     },
     "border-selected:hover": {
@@ -4976,7 +5008,7 @@
       "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
     },
     "icon-disabled": {
-      "value": "{ref.icon.disabled}",
+      "value": "{ref.icon.inverse}",
       "type": "color",
       "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
@@ -4995,9 +5027,23 @@
       "type": "color",
       "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
     },
-    "surface-disabled": {
-      "value": "{ref.fill.default.disabled}",
+    "surface-disabled-moderate": {
+      "value": "{ref.fill.default.muted}",
       "type": "color",
+      "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+    },
+    "surface-disabled-strong": {
+      "value": "{ref.fill.default.muted}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "darken",
+            "value": "0.24",
+            "space": "hsl"
+          }
+        }
+      },
       "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "border-enabled": {
@@ -5025,9 +5071,23 @@
       "type": "color",
       "description": "Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications."
     },
-    "border-disabled": {
+    "border-disabled-moderate": {
       "value": "{ref.border.default.disabled}",
       "type": "color",
+      "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
+    },
+    "border-disabled-strong": {
+      "value": "{ref.border.default.disabled}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "darken",
+            "value": "0.12",
+            "space": "hsl"
+          }
+        }
+      },
       "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
     }
   },
