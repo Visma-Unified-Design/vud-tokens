@@ -28,7 +28,8 @@ jobs:
           uses: actions/setup-node@v4
           with:
             node-version: '14'
-        - run: npm ci
+        - run: npm -v
+        - run: node -v
         - run: build-tokens.js
 
         - name: Pushes to another repository
