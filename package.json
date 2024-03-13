@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "node build-tokens.js"
+  },
   "devDependencies": {
     "@tokens-studio/sd-transforms": "^0.12.1",
     "style-dictionary": "^3.9.0"
