@@ -27,8 +27,8 @@ jobs:
         - name: Translate tokens
           uses: actions/setup-node@v4
           with:
-            node-version: '20.x'
-        - run: npm install
+            node-version: '14'
+        - run: npm ci
         - run: node build-tokens.js
 
         - name: Pushes to another repository
