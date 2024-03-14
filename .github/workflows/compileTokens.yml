@@ -19,7 +19,7 @@ jobs:
     # "ubuntu" is a more generic container
     # using "pandoc/latex" because of dependencies
     # used in the specific "build.sh"
-    # container: pandoc/latex
+    container: pandoc/latex
 
     steps:
         - uses: actions/checkout@v2
@@ -31,7 +31,6 @@ jobs:
     
         - name: Install dependencies
           run: npm install -g @tokens-studio/sd-transforms style-dictionary
-
 
         - name: Run buid tokens
           run: |
