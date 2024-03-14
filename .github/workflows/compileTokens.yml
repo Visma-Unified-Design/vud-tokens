@@ -28,12 +28,8 @@ jobs:
           uses: actions/setup-node@v4
           with:
             node-version: '20.x'
-        - name: Install Dependencies
-          run: npm install
-        - name: Verson npm
-          run: npm -v
         - name: Run buid tokens
-          run: npm run build
+          run: ./build-tokens.js
 
         - name: Pushes to another repository
           uses: cpina/github-action-push-to-another-repository@main
