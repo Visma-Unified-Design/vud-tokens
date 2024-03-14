@@ -19,7 +19,7 @@ jobs:
     # "ubuntu" is a more generic container
     # using "pandoc/latex" because of dependencies
     # used in the specific "build.sh"
-    container: pandoc/latex
+    # container: pandoc/latex
 
     steps:
         - uses: actions/checkout@v2
