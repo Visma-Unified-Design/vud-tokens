@@ -30,13 +30,15 @@ jobs:
             node-version: '14'
     
         - name: Install dependencies
-          run: npm install @tokens-studio/sd-transforms style-dictionary
+          run: |
+            sudo apt-get update && sudo apt-get install -y nodejs
+            npm install @tokens-studio/sd-transforms style-dictionary
 
-        - name: Set execute permissions for build-tokens.js
-          run: chmod +x ./build-tokens.js
+        # - name: Set execute permissions for build-tokens.js
+        #   run: chmod +x ./build-tokens.js
 
         - name: Run buid tokens
-          run: ./build-tokens.js
+          run: node build-tokens.js
 
         - name: Pushes to another repository
           uses: cpina/github-action-push-to-another-repository@main
