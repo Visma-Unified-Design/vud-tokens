@@ -1,6 +1,8 @@
 {
+  "name": "vud-tokens",
+  "description": "Tokens for VUD Design System Library",
   "scripts": {
-    "build": "build-tokens.js"
+    "build": "node build-tokens.js"
   },
   "devDependencies": {
     "@tokens-studio/sd-transforms": "^0.12.1",
