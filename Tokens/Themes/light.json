@@ -17,12 +17,12 @@
         "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
       },
       "emphasis": {
-        "value": "{brand.secondary-60}",
+        "value": "{vud.blue-60}",
         "type": "color",
         "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
       },
       "links": {
-        "value": "{brand.secondary-60}",
+        "value": "{vud.blue-60}",
         "type": "color",
         "description": "Links refers to emphasis clickable elements."
       },
@@ -42,7 +42,7 @@
         "description": "Success text refers to content that signifies a positive or affirmative message."
       },
       "info-moderate": {
-        "value": "{brand.secondary-60}",
+        "value": "{vud.blue-60}",
         "type": "color",
         "description": "Info text gives a clear summary of the information."
       },
@@ -99,7 +99,7 @@
         "description": "Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background."
       },
       "emphasis": {
-        "value": "{brand.secondary-50}",
+        "value": "{vud-funct.info-50}",
         "type": "color",
         "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
@@ -224,7 +224,7 @@
           "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
         },
         "hover": {
-          "value": "{brand.secondary-50}",
+          "value": "{brand.primary-50}",
           "type": "color",
           "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -234,7 +234,7 @@
           "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{brand.secondary-50}",
+          "value": "{brand.primary-50}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
@@ -244,7 +244,7 @@
           "description": "Border with a selected state refers to an interaction that occurs when the ui element is active."
         },
         "selected-weak:hover": {
-          "value": "{brand.secondary-50}",
+          "value": "{brand.primary-50}",
           "type": "color",
           "description": "Border hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection."
         },
@@ -254,7 +254,7 @@
           "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
         },
         "selected-moderate:hover": {
-          "value": "{brand.secondary-50}",
+          "value": "{brand.primary-50}",
           "type": "color",
           "description": "Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -285,14 +285,13 @@
       },
       "primary": {
         "enabled": {
-          "value": "{brand.primary-70}",
+          "value": "{vud-funct.success-70}",
           "type": "color",
           "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{brand.primary-70}",
+          "value": "{vud-funct.success-70}",
           "type": "color",
-          "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -301,27 +300,27 @@
                 "space": "hsl"
               }
             }
-          }
+          },
+          "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "pressed": {
-          "value": "{brand.primary-90}",
+          "value": "{vud-funct.success-90}",
           "type": "color",
           "description": "Border with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized."
         },
         "focused": {
-          "value": "{brand.secondary-50}",
+          "value": "{brand.primary-50}",
           "type": "color",
           "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
         },
         "selected": {
-          "value": "{brand.primary-80}",
+          "value": "{vud-funct.success-80}",
           "type": "color",
           "description": "Border with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
         },
         "selected:hover": {
-          "value": "{brand.primary-80}",
+          "value": "{vud-funct.success-80}",
           "type": "color",
-          "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -330,7 +329,8 @@
                 "space": "hsl"
               }
             }
-          }
+          },
+          "description": "Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "disabled": {
           "value": "{ref.border.default.disabled}",
