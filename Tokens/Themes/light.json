@@ -127,20 +127,20 @@
     "pictogram": {
       "primary": {
         "stroke-default": {
-          "value": "{brand.neutral-light-80}",
+          "value": "{brand.secondary-60}",
           "type": "color",
           "description": "\n"
         },
         "stroke-emphasis": {
-          "value": "{brand.secondary-60}",
+          "value": "{brand.primary-60}",
           "type": "color"
         },
         "fill-default": {
-          "value": "rgba( {brand.neutral-light-80}, {opacity.2})",
+          "value": "rgba( {brand.secondary-60} , {opacity.2})",
           "type": "color"
         },
         "fill-emphasis": {
-          "value": "rgba( {brand.secondary-60}, {opacity.5})",
+          "value": "rgba( {brand.primary-60}, {opacity.5})",
           "type": "color"
         }
       },

@@ -13,7 +13,6 @@
       "radii.none": "1d249f4fa54e9cc16357e76644dce143f4053694",
       "radii.xxs": "600759962f260951ab89e83f07e76e58d40fc1eb",
       "radii.xs": "9ec850347b0fafc3ea12bf4fb3f77bab96604e61",
-      "radii.sm": "dca536bc8965f333b2e19819418a586d3b51605d",
       "radii.md": "7128370aec641c8c1fb6af157f872eafb94eb9c5",
       "radii.lg": "28fc9c853a06d2e6bdc622f3f7f7336ba0432f48",
       "radii.xl": "cebe37ffd573b4d13be3b3668b4e329e53e60f92",
@@ -259,7 +258,8 @@
       "space.gap-11": "2d8837db037f1a11920c66060920a3c3e6a40b2f",
       "space.gap-12": "dc585254306a28a8812ff9325778062160c2ff39",
       "space.gap-13": "9d64458c9542659e128bcc08818b01a22b130e80",
-      "space.gap-14": "ab9e0eac3fbd3bfae9b94261c45cffd3858c247c"
+      "space.gap-14": "ab9e0eac3fbd3bfae9b94261c45cffd3858c247c",
+      "radii.sm": "dca536bc8965f333b2e19819418a586d3b51605d"
     },
     "group": "Global"
   },
