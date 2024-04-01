@@ -1088,6 +1088,11 @@
           "value": "{ref.fill.default.enabled}",
           "type": "color",
           "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
+        },
+        "emphasis": {
+          "value": "{brand.secondary-gradient}",
+          "type": "color",
+          "description": "Branded surface."
         }
       },
       "screen": {
