@@ -197,10 +197,10 @@
         "type": "color",
         "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted separators."
       },
-      "extreme": {
+      "emphasis": {
         "value": "{brand.primary-60}",
         "type": "color",
-        "description": "Extreme default border refers to a standard border style that is branded."
+        "description": "Emphasis border refers to a branded border style."
       },
       "default": {
         "enabled": {
@@ -2353,7 +2353,7 @@
         "y": "0",
         "blur": "0",
         "spread": "0",
-        "color": "{ref.border.extreme}",
+        "color": "{ref.border.emphasis}",
         "type": "innerShadow"
       },
       "type": "boxShadow",
@@ -4398,8 +4398,8 @@
       "type": "color",
       "description": "Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted separators."
     },
-    "extreme": {
-      "value": "{ref.border.extreme}",
+    "emphasis": {
+      "value": "{ref.border.emphasis}",
       "type": "color",
       "description": "Extreme default border refers to a standard border style that is branded."
     }
