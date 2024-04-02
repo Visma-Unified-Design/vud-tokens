@@ -5007,7 +5007,7 @@
     "surface-emphasis": {
       "value": "{brand.secondary-50}",
       "type": "color",
-      "description": "Surface with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+      "description": "Branded surface."
     },
     "surface-disabled-moderate": {
       "value": "{ref.fill.default.muted}",

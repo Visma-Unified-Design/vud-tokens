@@ -3368,7 +3368,7 @@
         "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "surface-default": {
-        "value": "{brand.secondary-gradient}",
+        "value": "{ref.fill.surface.emphasis}",
         "type": "color",
         "description": "Surface on container."
       },
@@ -3378,7 +3378,7 @@
         "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
       "surface-enabled": {
-        "value": "{brand.secondary-70}",
+        "value": "{ref.fill.surface.emphasis}",
         "type": "color",
         "description": "Surface on container."
       },
@@ -3393,7 +3393,7 @@
         "description": "Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
       },
       "surface-selected-moderate": {
-        "value": "{brand.secondary-80}",
+        "value": "{ref.fill.secondary.selected}",
         "type": "color",
         "description": "Surface with selected state refers to an interaction that occurs when the ui element is active. "
       },
@@ -5030,7 +5030,7 @@
     "surface-emphasis": {
       "value": "{brand.secondary-50}",
       "type": "color",
-      "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
+      "description": "Branded surface."
     },
     "surface-disabled-moderate": {
       "value": "{ref.fill.default.muted}",
