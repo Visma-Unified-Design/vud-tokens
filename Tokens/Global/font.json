@@ -279,6 +279,15 @@
   },
   "contextual": {
     "regular": {
+      "heading-xl": {
+        "value": {
+          "fontFamily": "{font-familiy-primary}",
+          "fontSize": "{font-size-fluid.xl}",
+          "fontWeight": "{font-weight-numeric.normal}"
+        },
+        "type": "typography",
+        "description": "Suitable for extra large headlines. "
+      },
       "heading-lg": {
         "value": {
           "fontFamily": "{font-familiy-primary}",
