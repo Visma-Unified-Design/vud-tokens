@@ -4406,7 +4406,7 @@
     "emphasis": {
       "value": "{ref.border.emphasis}",
       "type": "color",
-      "description": "Extreme default border refers to a standard border style that is branded."
+      "description": "Emphasis border refers to a branded border style."
     }
   },
   "situation": {
