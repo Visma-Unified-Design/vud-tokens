@@ -1161,6 +1161,11 @@
         "type": "color",
         "description": "Secondary color on charts. Use for the less important data points."
       },
+      "chart-icon": {
+        "value": "{content.icon-default}",
+        "type": "color",
+        "description": "Elements on chart UI."
+      },
       "chart": {
         "value": "{content.surface-enabled}",
         "type": "color",
