@@ -37,8 +37,13 @@
     }
   },
   "categorical": {
-    "chart": {
-      "value": "{ref.scheme.g.chart-5}",
+    "chart-surface": {
+      "value": "{ref.scheme.e.chart-3}",
+      "type": "color",
+      "description": "For data visualization only. Follow the numbered sequence."
+    },
+    "chart-border": {
+      "value": "{ref.scheme.e.chart-border}",
       "type": "color",
       "description": "For data visualization only. Follow the numbered sequence."
     }
