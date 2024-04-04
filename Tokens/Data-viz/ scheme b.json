@@ -80,7 +80,7 @@
   },
   "categorical": {
     "chart-surface": {
-      "value": "{ref.scheme.b.chart-1}",
+      "value": "{ref.scheme.b.chart-3}",
       "type": "color",
       "description": "For data visualization only. Follow the numbered sequence."
     },
