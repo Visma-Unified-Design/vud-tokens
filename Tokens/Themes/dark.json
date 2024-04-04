@@ -1165,6 +1165,11 @@
         "type": "color",
         "description": "Elements on chart UI."
       },
+      "chart-hover": {
+        "value": "{list.surface-hover}",
+        "type": "color",
+        "description": "Surface on hover state."
+      },
       "chart": {
         "value": "{content.surface-enabled}",
         "type": "color",
