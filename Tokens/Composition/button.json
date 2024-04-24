@@ -37,15 +37,6 @@
       },
       "type": "composition"
     },
-    "focused": {
-      "value": {
-        "fill": "{button-confirmatory.default.surface-focused}",
-        "borderColor": "{button-confirmatory.default.border-focused}",
-        "borderWidth": "{border.lg}",
-        "boxShadow": "{shadow.default-elevation-1}"
-      },
-      "type": "composition"
-    },
     "disabled": {
       "value": {
         "fill": "{button-confirmatory.default.surface-disabled}",
@@ -113,15 +104,6 @@
       },
       "type": "composition"
     },
-    "focused": {
-      "value": {
-        "fill": "{button-confirmatory.primary.surface-focused}",
-        "borderColor": "{button-confirmatory.primary.border-focused}",
-        "borderWidth": "{border.lg}",
-        "boxShadow": "{border.inner-shadow}"
-      },
-      "type": "composition"
-    },
     "disabled": {
       "value": {
         "fill": "{button-confirmatory.primary.surface-disabled}",
@@ -185,15 +167,6 @@
         "fill": "{button-destructive.default.surface-pressed}",
         "borderColor": "{button-destructive.default.border-pressed}",
         "borderWidth": "{border.sm}",
-        "boxShadow": "{shadow.default-elevation-1}"
-      },
-      "type": "composition"
-    },
-    "focused": {
-      "value": {
-        "fill": "{button-destructive.default.surface-focused}",
-        "borderColor": "{button-destructive.default.border-focused}",
-        "borderWidth": "{border.lg}",
         "boxShadow": "{shadow.default-elevation-1}"
       },
       "type": "composition"
@@ -274,15 +247,6 @@
         "fill": "{button-destructive.primary.surface-pressed}",
         "borderColor": "{button-destructive.primary.border-pressed}",
         "borderWidth": "{border.sm}",
-        "boxShadow": "{shadow.default-elevation-1}"
-      },
-      "type": "composition"
-    },
-    "focused": {
-      "value": {
-        "fill": "{button-destructive.primary.surface-focused}",
-        "borderColor": "{button-destructive.primary.border-focused}",
-        "borderWidth": "{border.lg}",
         "boxShadow": "{shadow.default-elevation-1}"
       },
       "type": "composition"
