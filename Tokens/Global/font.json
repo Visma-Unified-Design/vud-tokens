@@ -283,7 +283,7 @@
         "value": {
           "fontFamily": "{font-familiy-primary}",
           "fontSize": "{font-size-fluid.xl}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font.normal}"
         },
         "type": "typography",
         "description": "Suitable for extra large headlines. "
@@ -292,7 +292,7 @@
         "value": {
           "fontFamily": "{font-familiy-primary}",
           "fontSize": "{font-size-fluid.lg}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font.normal}"
         },
         "type": "typography",
         "description": "Suitable for large headlines."
@@ -302,7 +302,7 @@
           "fontFamily": "{font-familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font.normal}"
         },
         "type": "typography",
         "description": "Suitable for medium headlines. "
@@ -310,7 +310,7 @@
       "heading-sm": {
         "value": {
           "fontFamily": "{font-familiy-primary}",
-          "fontWeight": "{font-weight-numeric.normal}",
+          "fontWeight": "{font.normal}",
           "fontSize": "{font-size-fluid.sm}"
         },
         "type": "typography",
@@ -319,7 +319,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.normal}",
+          "fontWeight": "{font.normal}",
           "fontSize": "{font-size-fluid.sm}"
         },
         "type": "typography",
@@ -328,7 +328,7 @@
       "body-sm-link": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.normal}",
+          "fontWeight": "{font.normal}",
           "fontSize": "{font-size-fluid.sm}",
           "textDecoration": "{underline}"
         },
@@ -339,7 +339,7 @@
         "value": {
           "fontFamily": "{font-familiy-secondary}",
           "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font.normal}"
         },
         "type": "typography",
         "description": "Suitable for small description. "
@@ -350,7 +350,7 @@
         "value": {
           "fontFamily": "{font-familiy-primary}",
           "fontSize": "{font-size-fluid.xl}",
-          "fontWeight": "{font-weight-numeric.medium}"
+          "fontWeight": "{font.medium}"
         },
         "type": "typography",
         "description": "Suitable for extra large headlines. "
@@ -360,7 +360,7 @@
           "fontFamily": "{font-familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{font-weight-numeric.medium}"
+          "fontWeight": "{font.medium}"
         },
         "type": "typography",
         "description": "Suitable for medium headlines. "
@@ -368,7 +368,7 @@
       "heading-sm": {
         "value": {
           "fontFamily": "{font-familiy-primary}",
-          "fontWeight": "{font-weight-numeric.medium}",
+          "fontWeight": "{font.medium}",
           "fontSize": "{font-size-fluid.sm}"
         },
         "type": "typography",
@@ -377,7 +377,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.semi-bold}",
+          "fontWeight": "{font.semi-bold}",
           "fontSize": "{font-size-fluid.sm}"
         },
         "type": "typography",
@@ -387,7 +387,7 @@
         "value": {
           "fontFamily": "{font-familiy-secondary}",
           "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
+          "fontWeight": "{font.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for small description. "
@@ -397,7 +397,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.bold}",
+          "fontWeight": "{font.bold}",
           "fontSize": "{font-size-fluid.sm}"
         },
         "type": "typography",
@@ -411,7 +411,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xxl}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font.normal}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -420,7 +420,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xl}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font.normal}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -429,7 +429,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.lg}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font.normal}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -438,7 +438,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font.normal}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -447,7 +447,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.sm}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font.normal}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -456,7 +456,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font.normal}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -467,7 +467,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xxl}",
-          "fontWeight": "{font-weight-numeric.medium}"
+          "fontWeight": "{font.medium}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -476,7 +476,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xl}",
-          "fontWeight": "{font-weight-numeric.medium}"
+          "fontWeight": "{font.medium}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -485,7 +485,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.lg}",
-          "fontWeight": "{font-weight-numeric.medium}"
+          "fontWeight": "{font.medium}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -494,7 +494,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{font-weight-numeric.medium}"
+          "fontWeight": "{font.medium}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -503,7 +503,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.sm}",
-          "fontWeight": "{font-weight-numeric.medium}"
+          "fontWeight": "{font.medium}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -512,7 +512,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{font-weight-numeric.medium}"
+          "fontWeight": "{font.medium}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -523,7 +523,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xxl}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
+          "fontWeight": "{font.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -532,7 +532,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xl}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
+          "fontWeight": "{font.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -541,7 +541,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.lg}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
+          "fontWeight": "{font.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -550,7 +550,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.md}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
+          "fontWeight": "{font.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -559,7 +559,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.sm}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
+          "fontWeight": "{font.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"
@@ -568,7 +568,7 @@
         "value": {
           "fontFamily": "{font-familiy-tertiary}",
           "fontSize": "{font-size-fluid.xs}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
+          "fontWeight": "{font.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for tabular data.\n\n"

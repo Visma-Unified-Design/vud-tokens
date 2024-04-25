@@ -820,51 +820,51 @@
       "type": "opacity"
     }
   },
-  "font-weight-numeric": {
+  "font": {
     "thin": {
       "value": "100",
       "type": "fontWeights",
-      "description": "Thin: <font-weight-absolute> numeric values [1,1000]\n\n"
+      "description": "Thin\n"
     },
     "extra-light": {
       "value": "200",
       "type": "fontWeights",
-      "description": "Extra Light: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Extra Light"
     },
     "light": {
       "value": "300",
       "type": "fontWeights",
-      "description": "Light: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Light"
     },
     "normal": {
       "value": "400",
       "type": "fontWeights",
-      "description": "Normal: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Normal"
     },
     "medium": {
       "value": "500",
       "type": "fontWeights",
-      "description": "Medium: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Medium"
     },
     "semi-bold": {
       "value": "600",
       "type": "fontWeights",
-      "description": "Semi Bold: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Semi Bold"
     },
     "bold": {
       "value": "700",
       "type": "fontWeights",
-      "description": "Bold: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Bold"
     },
     "extra-bold": {
       "value": "800",
       "type": "fontWeights",
-      "description": "Extra Bold: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Extra Bold"
     },
     "black": {
       "value": "900",
       "type": "fontWeights",
-      "description": "Black: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Black"
     }
   },
   "underline": {
@@ -915,18 +915,6 @@
       }
     }
   },
-  "font-weight-keyword": {
-    "normal": {
-      "value": "Normal",
-      "type": "fontWeights",
-      "description": "CSS syntax: <font-weight-absolute> keyword values"
-    },
-    "bold": {
-      "value": "Bold",
-      "type": "fontWeights",
-      "description": "CSS syntax: font-weight-absolute> numeric values [1,1000]"
-    }
-  },
   "font-size-fixed": {
     "xxl": {
       "value": "32",
@@ -971,7 +959,7 @@
         "value": {
           "fontFamily": "{font-familiy-primary}",
           "fontSize": "{font-size-fixed.lg}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font.normal}"
         },
         "type": "typography",
         "description": "Suitable for large headlines."
@@ -981,7 +969,7 @@
           "fontFamily": "{font-familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fixed.md}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font.normal}"
         },
         "type": "typography",
         "description": "Suitable for medium headlines. "
@@ -989,7 +977,7 @@
       "heading-sm": {
         "value": {
           "fontFamily": "{font-familiy-primary}",
-          "fontWeight": "{font-weight-numeric.normal}",
+          "fontWeight": "{font.normal}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -998,7 +986,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.normal}",
+          "fontWeight": "{font.normal}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -1007,7 +995,7 @@
       "body-sm-link": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.normal}",
+          "fontWeight": "{font.normal}",
           "fontSize": "{font-size-fixed.sm}",
           "textDecoration": "{underline}"
         },
@@ -1018,7 +1006,7 @@
         "value": {
           "fontFamily": "{font-familiy-secondary}",
           "fontSize": "{font-size-fixed.xs}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font.normal}"
         },
         "type": "typography",
         "description": "Suitable for small description. "
@@ -1029,7 +1017,7 @@
         "value": {
           "fontFamily": "{font-familiy-primary}",
           "fontSize": "{font-size-fixed.xl}",
-          "fontWeight": "{font-weight-numeric.medium}"
+          "fontWeight": "{font.medium}"
         },
         "type": "typography",
         "description": "Suitable for extra large headlines. "
@@ -1039,7 +1027,7 @@
           "fontFamily": "{font-familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fixed.md}",
-          "fontWeight": "{font-weight-numeric.medium}"
+          "fontWeight": "{font.medium}"
         },
         "type": "typography",
         "description": "Suitable for medium headlines. "
@@ -1047,7 +1035,7 @@
       "heading-sm": {
         "value": {
           "fontFamily": "{font-familiy-primary}",
-          "fontWeight": "{font-weight-numeric.medium}",
+          "fontWeight": "{font.medium}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -1056,7 +1044,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.semi-bold}",
+          "fontWeight": "{font.semi-bold}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -1066,7 +1054,7 @@
         "value": {
           "fontFamily": "{font-familiy-secondary}",
           "fontSize": "{font-size-fixed.xs}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
+          "fontWeight": "{font.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for small description. "
@@ -1076,7 +1064,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.bold}",
+          "fontWeight": "{font.bold}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
