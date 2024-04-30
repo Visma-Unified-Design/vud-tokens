@@ -820,7 +820,7 @@
       "type": "opacity"
     }
   },
-  "font": {
+  "font-weight": {
     "thin": {
       "value": "100",
       "type": "fontWeights",
@@ -959,7 +959,7 @@
         "value": {
           "fontFamily": "{font-familiy-primary}",
           "fontSize": "{font-size-fixed.lg}",
-          "fontWeight": "{font.normal}"
+          "fontWeight": "{font-weight.normal}"
         },
         "type": "typography",
         "description": "Suitable for large headlines."
@@ -969,7 +969,7 @@
           "fontFamily": "{font-familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fixed.md}",
-          "fontWeight": "{font.normal}"
+          "fontWeight": "{font-weight.normal}"
         },
         "type": "typography",
         "description": "Suitable for medium headlines. "
@@ -977,7 +977,7 @@
       "heading-sm": {
         "value": {
           "fontFamily": "{font-familiy-primary}",
-          "fontWeight": "{font.normal}",
+          "fontWeight": "{font-weight.normal}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -986,7 +986,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font.normal}",
+          "fontWeight": "{font-weight.normal}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -995,7 +995,7 @@
       "body-sm-link": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font.normal}",
+          "fontWeight": "{font-weight.normal}",
           "fontSize": "{font-size-fixed.sm}",
           "textDecoration": "{underline}"
         },
@@ -1006,7 +1006,7 @@
         "value": {
           "fontFamily": "{font-familiy-secondary}",
           "fontSize": "{font-size-fixed.xs}",
-          "fontWeight": "{font.normal}"
+          "fontWeight": "{font-weight.normal}"
         },
         "type": "typography",
         "description": "Suitable for small description. "
@@ -1017,7 +1017,7 @@
         "value": {
           "fontFamily": "{font-familiy-primary}",
           "fontSize": "{font-size-fixed.xl}",
-          "fontWeight": "{font.medium}"
+          "fontWeight": "{font-weight.medium}"
         },
         "type": "typography",
         "description": "Suitable for extra large headlines. "
@@ -1027,7 +1027,7 @@
           "fontFamily": "{font-familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fixed.md}",
-          "fontWeight": "{font.medium}"
+          "fontWeight": "{font-weight.medium}"
         },
         "type": "typography",
         "description": "Suitable for medium headlines. "
@@ -1035,7 +1035,7 @@
       "heading-sm": {
         "value": {
           "fontFamily": "{font-familiy-primary}",
-          "fontWeight": "{font.medium}",
+          "fontWeight": "{font-weight.medium}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -1044,7 +1044,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font.semi-bold}",
+          "fontWeight": "{font-weight.semi-bold}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -1054,7 +1054,7 @@
         "value": {
           "fontFamily": "{font-familiy-secondary}",
           "fontSize": "{font-size-fixed.xs}",
-          "fontWeight": "{font.semi-bold}"
+          "fontWeight": "{font-weight.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for small description. "
@@ -1064,7 +1064,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font.bold}",
+          "fontWeight": "{font-weight.bold}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
