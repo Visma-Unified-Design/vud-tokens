@@ -65,6 +65,10 @@
     "panel": {
       "value": "{radii.md}",
       "type": "borderRadius"
+    },
+    "table": {
+      "value": "{radii.xxs}",
+      "type": "borderRadius"
     }
   }
 }
