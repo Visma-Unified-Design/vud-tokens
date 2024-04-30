@@ -54,7 +54,7 @@
       "value": "{radii.none}",
       "type": "borderRadius"
     },
-    "listbox": {
+    "dropdown": {
       "value": "{radii.none}",
       "type": "borderRadius"
     },
