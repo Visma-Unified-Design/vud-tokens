@@ -59,11 +59,11 @@
       "type": "borderRadius"
     },
     "modal": {
-      "value": "{radii.xl}",
+      "value": "{radii.md}",
       "type": "borderRadius"
     },
     "panel": {
-      "value": "{radii.xl}",
+      "value": "{radii.md}",
       "type": "borderRadius"
     }
   }
