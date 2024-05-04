@@ -5,8 +5,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/core": "enabled",
-      "Global/brand": "enabled",
-      "Density/tight": "disabled"
+      "Global/brand": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:4:3",
     "$figmaModeId": "4:1",
@@ -302,8 +301,7 @@
       "Themes/light": "enabled",
       "Global/core": "source",
       "Global/brand": "source",
-      "Global/data-viz": "source",
-      "Density/tight": "disabled"
+      "Global/data-viz": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:4:254",
     "$figmaModeId": "4:2",
@@ -1205,8 +1203,7 @@
       "Themes/dark": "enabled",
       "Global/core": "source",
       "Global/brand": "source",
-      "Global/data-viz": "source",
-      "Density/tight": "disabled"
+      "Global/data-viz": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:4:254",
     "$figmaModeId": "4:3",
@@ -2103,14 +2100,24 @@
     "group": "Themes"
   },
   {
+    "id": "d6b4c851bf245dc29cebad1b95c27c91aa6223e6",
+    "name": "Tight",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Global/core": "source",
+      "Density/tight": "source",
+      "Extends/density": "enabled"
+    },
+    "group": "Density"
+  },
+  {
     "id": "3ee57dfa4748d6f290df6a3d88a77d8666b4248d",
     "name": "Condensed",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Density/condensed": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled",
-      "Density/tight": "disabled"
+      "Extends/density": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1174",
     "$figmaModeId": "4:4",
@@ -2135,8 +2142,7 @@
     "selectedTokenSets": {
       "Density/default": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled",
-      "Density/tight": "disabled"
+      "Extends/density": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1174",
     "$figmaModeId": "4:5",
@@ -2161,8 +2167,7 @@
     "selectedTokenSets": {
       "Density/regular": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled",
-      "Density/tight": "disabled"
+      "Extends/density": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1174",
     "$figmaModeId": "4:6",
@@ -2187,8 +2192,7 @@
     "selectedTokenSets": {
       "Density/relaxed": "enabled",
       "Global/core": "source",
-      "Extends/density": "enabled",
-      "Density/tight": "disabled"
+      "Extends/density": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1174",
     "$figmaModeId": "4:7",
@@ -2213,8 +2217,7 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/small": "enabled",
-      "Global/core": "source",
-      "Density/tight": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1185",
     "$figmaModeId": "4:8",
@@ -2233,8 +2236,7 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/medium": "enabled",
-      "Global/core": "source",
-      "Density/tight": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1185",
     "$figmaModeId": "4:9",
@@ -2253,8 +2255,7 @@
     "selectedTokenSets": {
       "Extends/dimension": "enabled",
       "Dimension/large": "enabled",
-      "Global/core": "source",
-      "Density/tight": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1185",
     "$figmaModeId": "4:10",
@@ -2274,8 +2275,7 @@
       "Pictogram/primary": "enabled",
       "Extends/pictogram": "enabled",
       "Global/core": "source",
-      "Themes/light": "source",
-      "Density/tight": "disabled"
+      "Themes/light": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1190",
     "$figmaModeId": "4:11",
@@ -2307,8 +2307,7 @@
       "Extends/pictogram": "enabled",
       "Pictogram/secondary": "enabled",
       "Global/core": "source",
-      "Themes/light": "source",
-      "Density/tight": "disabled"
+      "Themes/light": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1190",
     "$figmaModeId": "4:12",
@@ -2340,8 +2339,7 @@
       "Extends/pictogram": "enabled",
       "Pictogram/tertiary": "enabled",
       "Global/core": "source",
-      "Themes/light": "source",
-      "Density/tight": "disabled"
+      "Themes/light": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1190",
     "$figmaModeId": "4:13",
@@ -2371,8 +2369,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/round": "enabled",
-      "Global/core": "source",
-      "Density/tight": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1207",
     "$figmaModeId": "4:14",
@@ -2400,8 +2397,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Radius/sharp": "enabled",
-      "Global/core": "source",
-      "Density/tight": "disabled"
+      "Global/core": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1207",
     "$figmaModeId": "4:15",
@@ -2431,10 +2427,8 @@
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme a": "enabled",
-      "Extends/data-viz": "enabled",
-      "Density/tight": "disabled"
+      "Extends/data-viz": "enabled"
     },
-    "group": "Scheme",
     "$figmaCollectionId": "VariableCollectionId:4:1222",
     "$figmaModeId": "4:16",
     "$figmaVariableReferences": {
@@ -2540,7 +2534,8 @@
       "diverging.chart-border-start": "8357a6925805da9de1b46a6a89f844a611ee9a21",
       "diverging.chart-border-end": "fb527a0b404736ee36c8780a6037df59691e5723",
       "categorical.chart-border": "2ca49e62879ef5355a8aeb4a1852effc86b0245a"
-    }
+    },
+    "group": "Scheme"
   },
   {
     "id": "12124f844103df64bd5f9fed993d19a4fdcd8784",
@@ -2550,10 +2545,8 @@
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme b": "enabled",
-      "Extends/data-viz": "enabled",
-      "Density/tight": "disabled"
+      "Extends/data-viz": "enabled"
     },
-    "group": "Scheme",
     "$figmaCollectionId": "VariableCollectionId:4:1222",
     "$figmaModeId": "4:17",
     "$figmaVariableReferences": {
@@ -2659,7 +2652,8 @@
       "diverging.chart-border-start": "8357a6925805da9de1b46a6a89f844a611ee9a21",
       "diverging.chart-border-end": "fb527a0b404736ee36c8780a6037df59691e5723",
       "categorical.chart-border": "2ca49e62879ef5355a8aeb4a1852effc86b0245a"
-    }
+    },
+    "group": "Scheme"
   },
   {
     "id": "4ac53a68157cb94eaf1b425fec8966bd1f722859",
@@ -2669,10 +2663,8 @@
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme c": "enabled",
-      "Extends/data-viz": "enabled",
-      "Density/tight": "disabled"
+      "Extends/data-viz": "enabled"
     },
-    "group": "Scheme",
     "$figmaCollectionId": "VariableCollectionId:4:1222",
     "$figmaModeId": "4:18",
     "$figmaVariableReferences": {
@@ -2778,7 +2770,8 @@
       "diverging.chart-border-start": "8357a6925805da9de1b46a6a89f844a611ee9a21",
       "diverging.chart-border-end": "fb527a0b404736ee36c8780a6037df59691e5723",
       "categorical.chart-border": "2ca49e62879ef5355a8aeb4a1852effc86b0245a"
-    }
+    },
+    "group": "Scheme"
   },
   {
     "id": "1710e6c24c2fd5f5697d14af2f8265266e1659fb",
@@ -2788,10 +2781,8 @@
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme d": "enabled",
-      "Extends/data-viz": "enabled",
-      "Density/tight": "disabled"
+      "Extends/data-viz": "enabled"
     },
-    "group": "Scheme",
     "$figmaCollectionId": "VariableCollectionId:4:1222",
     "$figmaModeId": "4:19",
     "$figmaVariableReferences": {
@@ -2897,7 +2888,8 @@
       "diverging.chart-border-start": "8357a6925805da9de1b46a6a89f844a611ee9a21",
       "diverging.chart-border-end": "fb527a0b404736ee36c8780a6037df59691e5723",
       "categorical.chart-border": "2ca49e62879ef5355a8aeb4a1852effc86b0245a"
-    }
+    },
+    "group": "Scheme"
   },
   {
     "id": "db95c925b411eb24d4ae7979763503184fe2d133",
@@ -2907,8 +2899,7 @@
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme e": "enabled",
-      "Extends/data-viz": "enabled",
-      "Density/tight": "disabled"
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -2920,8 +2911,7 @@
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme f": "enabled",
-      "Extends/data-viz": "enabled",
-      "Density/tight": "disabled"
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -2933,8 +2923,7 @@
       "Themes/light": "source",
       "Global/data-viz": "source",
       "Data-viz/ scheme g": "enabled",
-      "Extends/data-viz": "enabled",
-      "Density/tight": "disabled"
+      "Extends/data-viz": "enabled"
     },
     "group": "Scheme"
   },
@@ -2944,8 +2933,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/desktop": "enabled",
-      "Global/font": "source",
-      "Density/tight": "disabled"
+      "Global/font": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1325",
     "$figmaModeId": "4:20",
@@ -2960,8 +2948,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/tablet": "enabled",
-      "Global/font": "source",
-      "Density/tight": "disabled"
+      "Global/font": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1325",
     "$figmaModeId": "4:21",
@@ -2976,8 +2963,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Viewport/mobile": "enabled",
-      "Global/font": "source",
-      "Density/tight": "disabled"
+      "Global/font": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:4:1325",
     "$figmaModeId": "4:22",
