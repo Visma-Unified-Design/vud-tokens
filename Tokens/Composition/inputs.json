@@ -56,15 +56,6 @@
       },
       "type": "composition"
     },
-    "focused": {
-      "value": {
-        "fill": "{inputs.surface-focused}",
-        "borderColor": "{inputs.border-focused}",
-        "borderWidth": "{border.lg}",
-        "boxShadow": "{shadow.default-elevation-1}"
-      },
-      "type": "composition"
-    },
     "error": {
       "value": {
         "fill": "{inputs.surface-error}",

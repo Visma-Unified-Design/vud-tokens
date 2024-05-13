@@ -168,46 +168,6 @@
       "value": "#801F30",
       "type": "color"
     },
-    "coral-05": {
-      "value": "#F7ECEB",
-      "type": "color"
-    },
-    "coral-10": {
-      "value": "#F7E0DE",
-      "type": "color"
-    },
-    "coral-20": {
-      "value": "#F5CECA",
-      "type": "color"
-    },
-    "coral-30": {
-      "value": "#FEABA3",
-      "type": "color"
-    },
-    "coral-40": {
-      "value": "#FE9489",
-      "type": "color"
-    },
-    "coral-50": {
-      "value": "#FE796B",
-      "type": "color"
-    },
-    "coral-60": {
-      "value": "#F56262",
-      "type": "color"
-    },
-    "coral-70": {
-      "value": "#CC4B3D",
-      "type": "color"
-    },
-    "coral-80": {
-      "value": "#B23124",
-      "type": "color"
-    },
-    "coral-90": {
-      "value": "#66251F",
-      "type": "color"
-    },
     "orange-05": {
       "value": "#FCF2DC",
       "type": "color"
@@ -248,84 +208,44 @@
       "value": "#803B00",
       "type": "color"
     },
-    "vanilla-05": {
-      "value": "#F5F4F0",
-      "type": "color"
-    },
-    "vanilla-10": {
-      "value": "#F0EEE1",
-      "type": "color"
-    },
-    "vanilla-20": {
-      "value": "#F0E49B",
-      "type": "color"
-    },
-    "vanilla-30": {
-      "value": "#FDE753",
-      "type": "color"
-    },
-    "vanilla-40": {
-      "value": "#E5CE37",
-      "type": "color"
-    },
-    "vanilla-50": {
-      "value": "#CCB414",
-      "type": "color"
-    },
-    "vanilla-60": {
-      "value": "#A38D00",
-      "type": "color"
-    },
-    "vanilla-70": {
-      "value": "#827100",
-      "type": "color"
-    },
-    "vanilla-80": {
-      "value": "#665800",
-      "type": "color"
-    },
-    "vanilla-90": {
-      "value": "#4D4200",
-      "type": "color"
-    },
     "purple-05": {
-      "value": "#EEE7F9",
+      "value": "#EDECF5",
       "type": "color"
     },
     "purple-10": {
-      "value": "#E3D2FA",
+      "value": "#DAD7EA",
       "type": "color"
     },
     "purple-20": {
-      "value": "#CEAFFA",
+      "value": "#C6C1DF",
       "type": "color"
     },
     "purple-30": {
-      "value": "#BA95F0",
+      "value": "#B2ABD3",
       "type": "color"
     },
     "purple-40": {
-      "value": "#A57FDB",
+      "value": "#9E96C8",
       "type": "color"
     },
     "purple-50": {
-      "value": "#9263D6",
+      "value": "#8A80BD",
       "type": "color"
     },
     "purple-60": {
-      "value": "#8049CC",
+      "value": "#7365B8",
       "type": "color"
     },
     "purple-70": {
-      "value": "#6431AC",
+      "value": "#6154A5",
       "type": "color"
     },
     "purple-80": {
-      "value": "#48237D",
+      "value": "#4D3D99",
       "type": "color"
     },
     "purple-90": {
-      "value": "#2F1B4C",
+      "value": "#403380",
       "type": "color"
     },
     "neutral-light-05": {
@@ -900,51 +820,51 @@
       "type": "opacity"
     }
   },
-  "font-weight-numeric": {
+  "font-weight": {
     "thin": {
       "value": "100",
       "type": "fontWeights",
-      "description": "Thin: <font-weight-absolute> numeric values [1,1000]\n\n"
+      "description": "Thin\n"
     },
     "extra-light": {
       "value": "200",
       "type": "fontWeights",
-      "description": "Extra Light: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Extra Light"
     },
     "light": {
       "value": "300",
       "type": "fontWeights",
-      "description": "Light: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Light"
     },
     "normal": {
       "value": "400",
       "type": "fontWeights",
-      "description": "Normal: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Normal"
     },
     "medium": {
       "value": "500",
       "type": "fontWeights",
-      "description": "Medium: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Medium"
     },
     "semi-bold": {
       "value": "600",
       "type": "fontWeights",
-      "description": "Semi Bold: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Semi Bold"
     },
     "bold": {
       "value": "700",
       "type": "fontWeights",
-      "description": "Bold: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Bold"
     },
     "extra-bold": {
       "value": "800",
       "type": "fontWeights",
-      "description": "Extra Bold: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Extra Bold"
     },
     "black": {
       "value": "900",
       "type": "fontWeights",
-      "description": "Black: <font-weight-absolute> numeric values [1,1000]\n"
+      "description": "Black"
     }
   },
   "underline": {
@@ -995,18 +915,6 @@
       }
     }
   },
-  "font-weight-keyword": {
-    "normal": {
-      "value": "Normal",
-      "type": "fontWeights",
-      "description": "CSS syntax: <font-weight-absolute> keyword values"
-    },
-    "bold": {
-      "value": "Bold",
-      "type": "fontWeights",
-      "description": "CSS syntax: font-weight-absolute> numeric values [1,1000]"
-    }
-  },
   "font-size-fixed": {
     "xxl": {
       "value": "32",
@@ -1051,7 +959,7 @@
         "value": {
           "fontFamily": "{font-familiy-primary}",
           "fontSize": "{font-size-fixed.lg}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font-weight.normal}"
         },
         "type": "typography",
         "description": "Suitable for large headlines."
@@ -1061,7 +969,7 @@
           "fontFamily": "{font-familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fixed.md}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font-weight.normal}"
         },
         "type": "typography",
         "description": "Suitable for medium headlines. "
@@ -1069,7 +977,7 @@
       "heading-sm": {
         "value": {
           "fontFamily": "{font-familiy-primary}",
-          "fontWeight": "{font-weight-numeric.normal}",
+          "fontWeight": "{font-weight.normal}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -1078,7 +986,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.normal}",
+          "fontWeight": "{font-weight.normal}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -1087,7 +995,7 @@
       "body-sm-link": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.normal}",
+          "fontWeight": "{font-weight.normal}",
           "fontSize": "{font-size-fixed.sm}",
           "textDecoration": "{underline}"
         },
@@ -1098,7 +1006,7 @@
         "value": {
           "fontFamily": "{font-familiy-secondary}",
           "fontSize": "{font-size-fixed.xs}",
-          "fontWeight": "{font-weight-numeric.normal}"
+          "fontWeight": "{font-weight.normal}"
         },
         "type": "typography",
         "description": "Suitable for small description. "
@@ -1109,7 +1017,7 @@
         "value": {
           "fontFamily": "{font-familiy-primary}",
           "fontSize": "{font-size-fixed.xl}",
-          "fontWeight": "{font-weight-numeric.medium}"
+          "fontWeight": "{font-weight.medium}"
         },
         "type": "typography",
         "description": "Suitable for extra large headlines. "
@@ -1119,7 +1027,7 @@
           "fontFamily": "{font-familiy-primary}",
           "lineHeight": "",
           "fontSize": "{font-size-fixed.md}",
-          "fontWeight": "{font-weight-numeric.medium}"
+          "fontWeight": "{font-weight.medium}"
         },
         "type": "typography",
         "description": "Suitable for medium headlines. "
@@ -1127,7 +1035,7 @@
       "heading-sm": {
         "value": {
           "fontFamily": "{font-familiy-primary}",
-          "fontWeight": "{font-weight-numeric.medium}",
+          "fontWeight": "{font-weight.medium}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -1136,7 +1044,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.semi-bold}",
+          "fontWeight": "{font-weight.semi-bold}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
@@ -1146,7 +1054,7 @@
         "value": {
           "fontFamily": "{font-familiy-secondary}",
           "fontSize": "{font-size-fixed.xs}",
-          "fontWeight": "{font-weight-numeric.semi-bold}"
+          "fontWeight": "{font-weight.semi-bold}"
         },
         "type": "typography",
         "description": "Suitable for small description. "
@@ -1156,7 +1064,7 @@
       "body-sm": {
         "value": {
           "fontFamily": "{font-familiy-secondary}",
-          "fontWeight": "{font-weight-numeric.bold}",
+          "fontWeight": "{font-weight.bold}",
           "fontSize": "{font-size-fixed.sm}"
         },
         "type": "typography",
