@@ -168,7 +168,7 @@
           "type": "color"
         },
         "stroke-emphasis": {
-          "value": "{brand.tertiary-60}",
+          "value": "{brand.primary-60}",
           "type": "color"
         },
         "fill-default": {
@@ -176,7 +176,7 @@
           "type": "color"
         },
         "fill-emphasis": {
-          "value": "rgba( {brand.tertiary-60}, {opacity.5})",
+          "value": "rgba( {brand.primary-60}, {opacity.5})",
           "type": "color"
         }
       }
