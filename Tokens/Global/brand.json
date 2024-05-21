@@ -79,7 +79,7 @@
       "type": "color"
     },
     "primary-gradient": {
-      "value": "{brand.primary-70}",
+      "value": "linear-gradient(0deg, {brand.primary-80} 0%, {brand.primary-60} 100%)",
       "type": "color"
     },
     "secondary-05": {
