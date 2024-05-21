@@ -32,7 +32,7 @@
         "description": "Visited link\" refers to a hyperlink that has been previously clicked or accessed."
       },
       "disabled": {
-        "value": "{brand.neutral-light-60}",
+        "value": "{brand.neutral-light-90}",
         "type": "color",
         "description": "Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with."
       },
@@ -104,22 +104,22 @@
         "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
       },
       "error": {
-        "value": "{vud-funct.error-60}",
+        "value": "{vud-funct.error-70}",
         "type": "color",
         "description": "The error indicates the occurrence of an error or problem. Suitable for destructive icons."
       },
       "warning": {
-        "value": "{vud-funct.warning-60}",
+        "value": "{vud-funct.warning-70}",
         "type": "color",
         "description": "Warning icon serves as a visual cue to alert about potential issues, risks, or important information that requires attention."
       },
       "success": {
-        "value": "{vud-funct.success-60}",
+        "value": "{vud-funct.success-70}",
         "type": "color",
         "description": "Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully."
       },
       "disabled": {
-        "value": "{brand.neutral-light-60}",
+        "value": "{brand.neutral-light-70}",
         "type": "color",
         "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
       }
@@ -278,7 +278,7 @@
           "description": "Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "disabled": {
-          "value": "{brand.neutral-light-40}",
+          "value": "{brand.neutral-light-50}",
           "type": "color",
           "description": "A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
@@ -667,7 +667,7 @@
           "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
         },
         "hover": {
-          "value": "{brand.primary-10}",
+          "value": "{brand.primary-05}",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
@@ -716,7 +716,7 @@
           "description": "Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
         "disabled": {
-          "value": "{brand.neutral-light-05}",
+          "value": "{brand.neutral-light-20}",
           "type": "color",
           "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
         }
@@ -779,7 +779,7 @@
           "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
         },
         "hover": {
-          "value": "{brand.primary-70}",
+          "value": "{brand.primary-60}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -3151,7 +3151,7 @@
         "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
       "surface-enabled": {
-        "value": "{ref.fill.default.enabled}",
+        "value": "{brand.primary-gradient}",
         "type": "color",
         "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
@@ -3273,7 +3273,7 @@
         "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "surface-default": {
-        "value": "{ref.fill.surface.emphasis}",
+        "value": "linear-gradient {brand.primary-80 0%, brand.primary-60 100%}",
         "type": "color",
         "description": "Surface on container."
       },
@@ -3659,7 +3659,7 @@
         "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
       "surface-default": {
-        "value": "{brand.primary-60}",
+        "value": "{brand.primary-70}",
         "type": "color",
         "description": "Surface on container."
       },
@@ -4562,12 +4562,12 @@
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-enabled": {
-      "value": "{ref.fill.default.enabled}",
+      "value": "{brand.neutral-light-50}",
       "type": "color",
       "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
     "surface-hover": {
-      "value": "{ref.fill.default.hover}",
+      "value": "{brand.neutral-light-40}",
       "type": "color",
       "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
@@ -4626,7 +4626,7 @@
       "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
     },
     "border-enabled": {
-      "value": "{ref.border.default.enabled}",
+      "value": "{brand.neutral-light-40}",
       "type": "color",
       "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
