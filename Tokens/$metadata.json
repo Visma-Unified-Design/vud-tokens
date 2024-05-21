@@ -15,6 +15,7 @@
     "Composition/content",
     "Radius/round",
     "Radius/sharp",
+    "Density/tight",
     "Density/condensed",
     "Density/default",
     "Density/regular",
