@@ -3273,7 +3273,7 @@
         "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "surface-default": {
-        "value": "linear-gradient {brand.primary-80 0%, brand.primary-60 100%}",
+        "value": "linear-gradient(to right, {brand.primary-80} 0%, {brand.primary-60} 100%)",
         "type": "color",
         "$extensions": {},
         "description": "Surface on container."

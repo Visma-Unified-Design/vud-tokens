@@ -1,4 +1,11 @@
 {
+  "name": "vud-tokens",
+  "description": "Tokens for VUD Design System Library",
+  "scripts": {
+    "build": "node build-tokens.js",
+    "build_fix": "node build-tokens.js && node tools/rearrange-scss-rows.js",
+    "build_fix_sync_vsbp": "node build-tokens.js && node tools/rearrange-scss-rows.js && node tools/sync_vsbp.js"
+  },
   "devDependencies": {
     "@tokens-studio/sd-transforms": "^0.12.1",
     "style-dictionary": "^3.9.0"
