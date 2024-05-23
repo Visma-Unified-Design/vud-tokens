@@ -3159,7 +3159,7 @@
         "description": "A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "border-enabled": {
-        "value": "{brand.secondary-10}",
+        "value": "{brand.primary-10}",
         "type": "color",
         "description": "Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
       },
@@ -3169,7 +3169,7 @@
         "description": "Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control."
       },
       "border-hover": {
-        "value": "{brand.secondary-10}",
+        "value": "{brand.primary-10}",
         "type": "color",
         "description": "Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
       },
@@ -3179,7 +3179,7 @@
         "description": "Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies."
       },
       "border-selected": {
-        "value": "{brand.secondary-10}",
+        "value": "{brand.primary-10}",
         "type": "color",
         "description": "Border with a moderate selected state refers to an interaction that occurs when the ui element is active."
       },
