@@ -1,51 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 19 Feb 2024 08:29:09 GMT
+ * Generated on Thu, 23 May 2024 13:36:19 GMT
  */
 
 html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
-  --chart-blue-50: #4575B4;
-  --chart-blue-40: #638EC2;
-  --chart-blue-30: #80A7CF;
-  --chart-blue-20: #9DC0DD;
-  --chart-blue-10: #BDDAEA;
-  --chart-blue-05: #E0F3F8;
-  --chart-green-50: #4D9221;
-  --chart-green-40: #68A73A;
-  --chart-green-30: #84BB56;
-  --chart-green-20: #A2D077;
-  --chart-green-10: #C3E39E;
-  --chart-green-05: #E6F5D0;
-  --chart-teal-50: #01665E;
-  --chart-teal-40: #2B8078;
-  --chart-teal-30: #4D9B93;
-  --chart-teal-20: #72B6AE;
-  --chart-teal-10: #9AD0CA;
-  --chart-teal-05: #C7EAE5;
-  --chart-purple-50: #762A83;
-  --chart-purple-40: #8B4E99;
-  --chart-purple-30: #A06FAE;
-  --chart-purple-20: #B791C2;
-  --chart-purple-10: #CEB2D6;
-  --chart-purple-05: #E7D4E8;
-  --chart-pink-50: #C51B7D;
-  --chart-pink-40: #D25294;
-  --chart-pink-30: #DE78AB;
-  --chart-pink-20: #E99CC2;
-  --chart-pink-10: #F3BED9;
-  --chart-pink-05: #FDE0EF;
-  --chart-orange-50: #D73027;
-  --chart-orange-40: #E5593A;
-  --chart-orange-30: #F17C4D;
-  --chart-orange-20: #F99E63;
-  --chart-orange-10: #FEBF79;
-  --chart-orange-05: #FEE090;
-  --chart-brown-50: #8C510A;
-  --chart-brown-40: #A36E29;
-  --chart-brown-30: #BA8B47;
-  --chart-brown-20: #D0A969;
-  --chart-brown-10: #E5C891;
-  --chart-brown-05: #F6E8C3;
   --radii-xxxl: 9.9rem;
   --font-familiy-tertiary: Inter;
   --font-familiy-secondary: 'Open Sans';
@@ -56,8 +14,6 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --font-size-fixed-lg: 2rem;
   --font-size-fixed-xl: 2.9rem;
   --font-size-fixed-xxl: 3.2rem;
-  --font-weight-keyword-bold: 700; /* CSS syntax: font-weight-absolute> numeric values [1,1000] */
-  --font-weight-keyword-normal: 400; /* CSS syntax: <font-weight-absolute> keyword values */
   --scale-xxl-clamp-css: clamp(1.38rem, calc(0.64vw + 1.23rem), 2.00rem); /* Intended for development. */
   --scale-xl-clamp-css: clamp(1.25rem, calc(0.38vw + 1.16rem), 1.63rem); /* Intended for development. */
   --scale-lg-clamp-css: clamp(1.19rem, calc(0.13vw + 1.16rem), 1.31rem); /* Intended for development. */
@@ -65,15 +21,15 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --scale-s-clamp-css: clamp(1.00rem, calc(-0.13vw + 1.03rem), 0.88rem); /* Intended for development. */
   --scale-xs-clamp-css: clamp(0.94rem, calc(-0.26vw + 1.00rem), 0.69rem); /* Intended for development. */
   --underline: underline;
-  --font-weight-numeric-black: 900; /* Black: <font-weight-absolute> numeric values [1,1000]  */
-  --font-weight-numeric-extra-bold: 800; /* Extra Bold: <font-weight-absolute> numeric values [1,1000]  */
-  --font-weight-numeric-bold: 700; /* Bold: <font-weight-absolute> numeric values [1,1000]  */
-  --font-weight-numeric-semi-bold: 600; /* Semi Bold: <font-weight-absolute> numeric values [1,1000]  */
-  --font-weight-numeric-medium: 500; /* Medium: <font-weight-absolute> numeric values [1,1000]  */
-  --font-weight-numeric-normal: 400; /* Normal: <font-weight-absolute> numeric values [1,1000]  */
-  --font-weight-numeric-light: 300; /* Light: <font-weight-absolute> numeric values [1,1000]  */
-  --font-weight-numeric-extra-light: 200; /* Extra Light: <font-weight-absolute> numeric values [1,1000]  */
-  --font-weight-numeric-thin: 100; /* Thin: <font-weight-absolute> numeric values [1,1000]   */
+  --font-weight-black: 900; /* Black */
+  --font-weight-extra-bold: 800; /* Extra Bold */
+  --font-weight-bold: 700; /* Bold */
+  --font-weight-semi-bold: 600; /* Semi Bold */
+  --font-weight-medium: 500; /* Medium */
+  --font-weight-normal: 400; /* Normal */
+  --font-weight-light: 300; /* Light */
+  --font-weight-extra-light: 200; /* Extra Light */
+  --font-weight-thin: 100; /* Thin  */
   --opacity-1: 0.04;
   --opacity-0: 0;
   --space-gap-0: 0;
@@ -106,16 +62,26 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --vud-neutral-light-20: #F2F2F2;
   --vud-neutral-light-10: #F7F7F7;
   --vud-neutral-light-05: #FFFFFF;
-  --vud-purple-90: #403380;
-  --vud-purple-80: #4D3D99;
-  --vud-purple-70: #6154A5;
-  --vud-purple-60: #7365B8;
-  --vud-purple-50: #8A80BD;
-  --vud-purple-40: #9E96C8;
-  --vud-purple-30: #B2ABD3;
-  --vud-purple-20: #C6C1DF;
-  --vud-purple-10: #DAD7EA;
-  --vud-purple-05: #EDECF5;
+  --vud-vanilla-90: #4D4200;
+  --vud-vanilla-80: #665800;
+  --vud-vanilla-70: #827100;
+  --vud-vanilla-60: #A38D00;
+  --vud-vanilla-50: #CCB414;
+  --vud-vanilla-40: #E5CE37;
+  --vud-vanilla-30: #FDE753;
+  --vud-vanilla-20: #F0E49B;
+  --vud-vanilla-10: #F0EEE1;
+  --vud-vanilla-05: #F5F4F0;
+  --vud-purple-90: #2F1B4C;
+  --vud-purple-80: #48237D;
+  --vud-purple-70: #6431AC;
+  --vud-purple-60: #8049CC;
+  --vud-purple-50: #9263D6;
+  --vud-purple-40: #A57FDB;
+  --vud-purple-30: #BA95F0;
+  --vud-purple-20: #CEAFFA;
+  --vud-purple-10: #E3D2FA;
+  --vud-purple-05: #EEE7F9;
   --vud-orange-90: #803B00;
   --vud-orange-80: #B35300;
   --vud-orange-70: #C26800;
@@ -126,6 +92,16 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --vud-orange-20: #FAD7A2;
   --vud-orange-10: #FCDFB1;
   --vud-orange-05: #FCF2DC;
+  --vud-coral-90: #66251F;
+  --vud-coral-80: #B23124;
+  --vud-coral-70: #CC4B3D;
+  --vud-coral-60: #F56262;
+  --vud-coral-50: #FE796B;
+  --vud-coral-40: #FE9489;
+  --vud-coral-30: #FEABA3;
+  --vud-coral-20: #F7E0DE;
+  --vud-coral-10: #F7E0DE;
+  --vud-coral-05: #F7ECEB;
   --vud-red-90: #801F30;
   --vud-red-80: #A12036;
   --vud-red-70: #CC334C;
@@ -158,63 +134,29 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --vud-green-05: hsl(120 42.9% 94.5%);
   --vud-radii-xxxl: 9.9rem;
   --vud-radii-none: 0;
-  --shadow-default-elevation-4: 0 15px 40px 0 rgba(var(--vud-neutral-dark-90), var(--opacity-5));
-  --shadow-default-elevation-3: 0 10px 15px 0 rgba(var(--vud-neutral-dark-90), var(--opacity-4));
-  --shadow-default-elevation-2: 0 5px 10px 0 rgba( var(--vud-neutral-dark-90), var(--opacity-4));
-  --shadow-default-elevation-1: 0 2px 4px 0 rgba(var(--vud-neutral-dark-90), var(--opacity-3));
-  --shadow-none: 0 0 0 0 rgba( var(--vud-neutral-dark-90), var(--opacity-2));
-  --ref-scheme-g-chart-border: var(--chart-blue-40); /* For data visualization only.  */
-  --ref-scheme-g-chart-6: var(--chart-blue-05); /* For data visualization only.  */
-  --ref-scheme-g-chart-5: var(--chart-blue-10); /* For data visualization only.  */
-  --ref-scheme-g-chart-4: var(--chart-blue-20); /* For data visualization only.  */
-  --ref-scheme-g-chart-3: var(--chart-blue-30); /* For data visualization only.  */
-  --ref-scheme-g-chart-2: var(--chart-blue-40); /* For data visualization only.  */
-  --ref-scheme-g-chart-1: var(--chart-blue-50); /* For data visualization only.  */
-  --ref-scheme-f-chart-border: var(--chart-green-50); /* For data visualization only.  */
-  --ref-scheme-f-chart-6: var(--chart-green-05); /* For data visualization only.  */
-  --ref-scheme-f-chart-5: var(--chart-green-10); /* For data visualization only.  */
-  --ref-scheme-f-chart-4: var(--chart-green-20); /* For data visualization only.  */
-  --ref-scheme-f-chart-3: var(--chart-green-30); /* For data visualization only.  */
-  --ref-scheme-f-chart-2: var(--chart-green-40); /* For data visualization only.  */
-  --ref-scheme-f-chart-1: var(--chart-green-50); /* For data visualization only.  */
-  --ref-scheme-e-chart-border: var(--chart-teal-30); /* For data visualization only.  */
-  --ref-scheme-e-chart-6: var(--chart-teal-05); /* For data visualization only.  */
-  --ref-scheme-e-chart-5: var(--chart-teal-10); /* For data visualization only.  */
-  --ref-scheme-e-chart-4: var(--chart-teal-20); /* For data visualization only.  */
-  --ref-scheme-e-chart-3: var(--chart-teal-30); /* For data visualization only.  */
-  --ref-scheme-e-chart-2: var(--chart-teal-40); /* For data visualization only.  */
-  --ref-scheme-e-chart-1: var(--chart-teal-50); /* For data visualization only.  */
-  --ref-scheme-d-chart-border: var(--chart-purple-30); /* For data visualization only.  */
-  --ref-scheme-d-chart-6: var(--chart-purple-05); /* For data visualization only.  */
-  --ref-scheme-d-chart-5: var(--chart-purple-10); /* For data visualization only.  */
-  --ref-scheme-d-chart-4: var(--chart-purple-20); /* For data visualization only.  */
-  --ref-scheme-d-chart-3: var(--chart-purple-30); /* For data visualization only.  */
-  --ref-scheme-d-chart-2: var(--chart-purple-40); /* For data visualization only.  */
-  --ref-scheme-d-chart-1: var(--chart-purple-50); /* For data visualization only.  */
-  --ref-scheme-c-chart-border: var(--chart-pink-40); /* For data visualization only.  */
-  --ref-scheme-c-chart-6: var(--chart-pink-05); /* For data visualization only.  */
-  --ref-scheme-c-chart-5: var(--chart-pink-10); /* For data visualization only.  */
-  --ref-scheme-c-chart-4: var(--chart-pink-20); /* For data visualization only.  */
-  --ref-scheme-c-chart-3: var(--chart-pink-30); /* For data visualization only.  */
-  --ref-scheme-c-chart-2: var(--chart-pink-40); /* For data visualization only.  */
-  --ref-scheme-c-chart-1: var(--chart-pink-50); /* For data visualization only.  */
-  --ref-scheme-b-chart-border: var(--chart-orange-40); /* For data visualization only.  */
-  --ref-scheme-b-chart-6: var(--chart-orange-05); /* For data visualization only.  */
-  --ref-scheme-b-chart-5: var(--chart-orange-10); /* For data visualization only.  */
-  --ref-scheme-b-chart-4: var(--chart-orange-20); /* For data visualization only.  */
-  --ref-scheme-b-chart-3: var(--chart-orange-30); /* For data visualization only.  */
-  --ref-scheme-b-chart-2: var(--chart-orange-40); /* For data visualization only.  */
-  --ref-scheme-b-chart-1: var(--chart-orange-50); /* For data visualization only.  */
-  --ref-scheme-a-chart-border: var(--chart-brown-40); /* For data visualization only.  */
-  --ref-scheme-a-chart-6: var(--chart-brown-05); /* For data visualization only.  */
-  --ref-scheme-a-chart-5: var(--chart-brown-10); /* For data visualization only.  */
-  --ref-scheme-a-chart-4: var(--chart-brown-20); /* For data visualization only.  */
-  --ref-scheme-a-chart-3: var(--chart-brown-30); /* For data visualization only.  */
-  --ref-scheme-a-chart-2: var(--chart-brown-40); /* For data visualization only.  */
-  --ref-scheme-a-chart-1: var(--chart-brown-50); /* For data visualization only.  */
+  --shadow-default-elevation-4: 0 15px 40px 0 rgba(0, 0, 0, var(--opacity-5));
+  --shadow-default-elevation-3: 0 10px 15px 0 rgba(0, 0, 0, var(--opacity-4));
+  --shadow-default-elevation-2: 0 5px 10px 0 rgba(0, 0, 0, var(--opacity-4));
+  --shadow-default-elevation-1: 0 2px 4px 0 rgba(0, 0, 0, var(--opacity-3));
+  --shadow-none: 0 0 0 0 rgba(0, 0, 0, var(--opacity-2));
+  --ref-scheme-chart-brand: var(--vud-green-60); /* Primary color on charts. Use when only one color is required. */
   --ref-shade-moderate: rgba( var(--vud-neutral-dark-90),var(--opacity-3));
   --ref-shade-weak: rgba( var(--vud-neutral-dark-90),var(--opacity-2));
   --ref-fill-mark-default: var(--vud-orange-10); /* Suitable for highlighting text. */
+  --chart-septenary-light-fill: var(--vud-neutral-light-10);
+  --chart-septenary-default: var(--vud-neutral-light-60); /* For data visualization only */
+  --chart-senary-light-fill: var(--vud-vanilla-10);
+  --chart-senary-default: var(--vud-vanilla-60); /* For data visualization only */
+  --chart-quinary-light-fill: var(--vud-blue-10);
+  --chart-quinary-default: var(--vud-blue-60); /* For data visualization only */
+  --chart-quanternary-light-fill: var(--vud-purple-10);
+  --chart-quanternary-default: var(--vud-purple-60); /* For data visualization only */
+  --chart-tertiary-light-fill: var(--vud-orange-10);
+  --chart-tertiary-default: var(--vud-orange-60); /* For data visualization only */
+  --chart-secondary-light-fill: var(--vud-red-10);
+  --chart-secondary-default: var(--vud-red-60); /* For data visualization only */
+  --chart-primary-light-fill: var(--vud-green-10);
+  --chart-primary-default: var(--vud-green-60); /* For data visualization only */
   --brand-neutral-dark-90: var(--vud-neutral-dark-90);
   --brand-neutral-dark-80: var(--vud-neutral-dark-80);
   --brand-neutral-dark-70: var(--vud-neutral-dark-70);
@@ -235,60 +177,59 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --brand-neutral-light-20: var(--vud-neutral-light-20);
   --brand-neutral-light-10: var(--vud-neutral-light-10);
   --brand-neutral-light-05: var(--vud-neutral-light-05);
-  --brand-tertiary-gradient: var(--vud-purple-90);
-  --brand-tertiary-90: var(--vud-purple-90);
-  --brand-tertiary-80: var(--vud-purple-80);
-  --brand-tertiary-70: var(--vud-purple-70);
-  --brand-tertiary-60: var(--vud-purple-60);
-  --brand-tertiary-50: var(--vud-purple-50);
-  --brand-tertiary-40: var(--vud-purple-40);
-  --brand-tertiary-30: var(--vud-purple-30);
-  --brand-tertiary-20: var(--vud-purple-20);
-  --brand-tertiary-10: var(--vud-purple-10);
-  --brand-tertiary-05: var(--vud-purple-05);
-  --brand-secondary-90: var(--vud-blue-90);
-  --brand-secondary-80: var(--vud-blue-80);
-  --brand-secondary-70: var(--vud-blue-70);
-  --brand-secondary-60: var(--vud-blue-60);
-  --brand-secondary-50: var(--vud-blue-50);
-  --brand-secondary-40: var(--vud-blue-40);
-  --brand-secondary-30: var(--vud-blue-30);
-  --brand-secondary-20: var(--vud-blue-20);
-  --brand-secondary-10: var(--vud-blue-10);
-  --brand-secondary-05: var(--vud-blue-05);
-  --brand-primary-90: var(--vud-green-90);
-  --brand-primary-80: var(--vud-green-80);
-  --brand-primary-70: var(--vud-green-70);
-  --brand-primary-60: var(--vud-green-60);
-  --brand-primary-50: var(--vud-green-50);
-  --brand-primary-40: var(--vud-green-40);
-  --brand-primary-30: var(--vud-green-30);
-  --brand-primary-20: var(--vud-green-20);
-  --brand-primary-10: var(--vud-green-10);
-  --brand-primary-05: var(--vud-green-05);
+  --brand-tertiary-90: var(--vud-vanilla-90);
+  --brand-tertiary-80: var(--vud-vanilla-80);
+  --brand-tertiary-70: var(--vud-vanilla-70);
+  --brand-tertiary-60: var(--vud-vanilla-60);
+  --brand-tertiary-50: var(--vud-vanilla-50);
+  --brand-tertiary-40: var(--vud-vanilla-40);
+  --brand-tertiary-30: var(--vud-vanilla-30);
+  --brand-tertiary-20: var(--vud-vanilla-20);
+  --brand-tertiary-10: var(--vud-vanilla-10);
+  --brand-tertiary-05: var(--vud-vanilla-05);
+  --brand-secondary-90: var(--vud-coral-90);
+  --brand-secondary-80: var(--vud-coral-80);
+  --brand-secondary-70: var(--vud-coral-70);
+  --brand-secondary-60: var(--vud-coral-60);
+  --brand-secondary-50: var(--vud-coral-50);
+  --brand-secondary-40: var(--vud-coral-40);
+  --brand-secondary-30: var(--vud-coral-30);
+  --brand-secondary-20: var(--vud-coral-20);
+  --brand-secondary-10: var(--vud-coral-10);
+  --brand-secondary-05: var(--vud-coral-05);
+  --brand-primary-90: var(--vud-purple-90);
+  --brand-primary-80: var(--vud-purple-80);
+  --brand-primary-70: var(--vud-purple-70);
+  --brand-primary-60: var(--vud-purple-60);
+  --brand-primary-50: var(--vud-purple-50);
+  --brand-primary-40: var(--vud-purple-40);
+  --brand-primary-30: var(--vud-purple-30);
+  --brand-primary-20: var(--vud-purple-20);
+  --brand-primary-10: var(--vud-purple-10);
+  --brand-primary-05: var(--vud-purple-05);
   --radii-none: var(--vud-radii-none);
-  --contextual-bold-body-sm: var(--font-weight-numeric-bold) var(--font-size-fixed-sm)/1 var(--font-familiy-secondary); /* Suitable for small body text.  */
-  --contextual-medium-body-xs: var(--font-weight-numeric-semi-bold) var(--font-size-fixed-xs)/1 var(--font-familiy-secondary); /* Suitable for small description.  */
-  --contextual-medium-body-sm: var(--font-weight-numeric-semi-bold) var(--font-size-fixed-sm)/1 var(--font-familiy-secondary); /* Suitable for small body text.  */
-  --contextual-medium-heading-sm: var(--font-weight-numeric-medium) var(--font-size-fixed-sm)/1 var(--font-familiy-primary); /* Suitable for small headlines.  */
-  --contextual-medium-heading-md: var(--font-weight-numeric-medium) var(--font-size-fixed-md)/1 var(--font-familiy-primary); /* Suitable for medium headlines.  */
-  --contextual-medium-heading-xl: var(--font-weight-numeric-medium) var(--font-size-fixed-xl)/1 var(--font-familiy-primary); /* Suitable for extra large headlines.  */
-  --contextual-regular-body-xs: var(--font-weight-numeric-normal) var(--font-size-fixed-xs)/1 var(--font-familiy-secondary); /* Suitable for small description.  */
-  --contextual-regular-body-sm-link: var(--font-weight-numeric-normal) var(--font-size-fixed-sm)/1 var(--font-familiy-secondary); /* Suitable for small links.  */
-  --contextual-regular-body-sm: var(--font-weight-numeric-normal) var(--font-size-fixed-sm)/1 var(--font-familiy-secondary); /* Suitable for small body text.  */
-  --contextual-regular-heading-sm: var(--font-weight-numeric-normal) var(--font-size-fixed-sm)/1 var(--font-familiy-primary); /* Suitable for small headlines.  */
-  --contextual-regular-heading-md: var(--font-weight-numeric-normal) var(--font-size-fixed-md)/1 var(--font-familiy-primary); /* Suitable for medium headlines.  */
-  --contextual-regular-heading-lg: var(--font-weight-numeric-normal) var(--font-size-fixed-lg)/1 var(--font-familiy-primary); /* Suitable for large headlines. */
-  --opacity-11: var(--opacity-1) *25;
-  --opacity-10: var(--opacity-1) *16;
-  --opacity-9: var(--opacity-1) *14;
-  --opacity-8: var(--opacity-1) *12;
-  --opacity-7: var(--opacity-1) *10;
+  --contextual-bold-body-sm: var(--font-weight-bold) var(--font-size-fixed-sm)/1 var(--font-familiy-secondary); /* Suitable for small body text.  */
+  --contextual-medium-body-xs: var(--font-weight-semi-bold) var(--font-size-fixed-xs)/1 var(--font-familiy-secondary); /* Suitable for small description.  */
+  --contextual-medium-body-sm: var(--font-weight-semi-bold) var(--font-size-fixed-sm)/1 var(--font-familiy-secondary); /* Suitable for small body text.  */
+  --contextual-medium-heading-sm: var(--font-weight-medium) var(--font-size-fixed-sm)/1 var(--font-familiy-primary); /* Suitable for small headlines.  */
+  --contextual-medium-heading-md: var(--font-weight-medium) var(--font-size-fixed-md)/1 var(--font-familiy-primary); /* Suitable for medium headlines.  */
+  --contextual-medium-heading-xl: var(--font-weight-medium) var(--font-size-fixed-xl)/1 var(--font-familiy-primary); /* Suitable for extra large headlines.  */
+  --contextual-regular-body-xs: var(--font-weight-normal) var(--font-size-fixed-xs)/1 var(--font-familiy-secondary); /* Suitable for small description.  */
+  --contextual-regular-body-sm-link: var(--font-weight-normal) var(--font-size-fixed-sm)/1 var(--font-familiy-secondary); /* Suitable for small links.  */
+  --contextual-regular-body-sm: var(--font-weight-normal) var(--font-size-fixed-sm)/1 var(--font-familiy-secondary); /* Suitable for small body text.  */
+  --contextual-regular-heading-sm: var(--font-weight-normal) var(--font-size-fixed-sm)/1 var(--font-familiy-primary); /* Suitable for small headlines.  */
+  --contextual-regular-heading-md: var(--font-weight-normal) var(--font-size-fixed-md)/1 var(--font-familiy-primary); /* Suitable for medium headlines.  */
+  --contextual-regular-heading-lg: var(--font-weight-normal) var(--font-size-fixed-lg)/1 var(--font-familiy-primary); /* Suitable for large headlines. */
+  --opacity-11: var(--opacity-1) * 25;
+  --opacity-10: var(--opacity-1) * 16;
+  --opacity-9: var(--opacity-1) * 14;
+  --opacity-8: var(--opacity-1) * 12;
+  --opacity-7: var(--opacity-1) * 10;
   --opacity-6: var(--opacity-1) *8;
-  --opacity-5: var(--opacity-1) *6;
-  --opacity-4: var(--opacity-1) *4;
-  --opacity-3: var(--opacity-1) *3;
-  --opacity-2: var(--opacity-1) *2;
+  --opacity-5: var(--opacity-1) * 6;
+  --opacity-4: var(--opacity-1) * 4;
+  --opacity-3: var(--opacity-1) * 3;
+  --opacity-2: var(--opacity-1) * 2;
   --space-gap-1: var(--base);
   --size-wh-1: var(--base);
   --vud-funct-default-dark-90: var(--vud-neutral-dark-90);
@@ -368,97 +309,12 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --vud-radii-sm: var(--base)*4;
   --vud-radii-xs: var(--base)*2;
   --vud-radii-xxs: var(--base);
-  --scheme-g-sequential-chart-border: var(--ref-scheme-g-chart-border); /* For data visualization only.  */
-  --scheme-g-sequential-chart-surface-6: var(--ref-scheme-g-chart-6); /* For data visualization only.  */
-  --scheme-g-sequential-chart-surface-5: var(--ref-scheme-g-chart-5); /* For data visualization only.  */
-  --scheme-g-sequential-chart-surface-4: var(--ref-scheme-g-chart-4); /* For data visualization only.  */
-  --scheme-g-sequential-chart-surface-3: var(--ref-scheme-g-chart-3); /* For data visualization only.  */
-  --scheme-g-sequential-chart-surface-2: var(--ref-scheme-g-chart-2); /* For data visualization only.  */
-  --scheme-g-sequential-chart-surface-1: var(--ref-scheme-g-chart-1); /* For data visualization only.  */
-  --scheme-f-sequential-chart-border: var(--ref-scheme-f-chart-border); /* For data visualization only.  */
-  --scheme-f-sequential-chart-surface-6: var(--ref-scheme-f-chart-6); /* For data visualization only.  */
-  --scheme-f-sequential-chart-surface-5: var(--ref-scheme-f-chart-5); /* For data visualization only.  */
-  --scheme-f-sequential-chart-surface-4: var(--ref-scheme-f-chart-4); /* For data visualization only.  */
-  --scheme-f-sequential-chart-surface-3: var(--ref-scheme-f-chart-3); /* For data visualization only.  */
-  --scheme-f-sequential-chart-surface-2: var(--ref-scheme-f-chart-2); /* For data visualization only.  */
-  --scheme-f-sequential-chart-surface-1: var(--ref-scheme-f-chart-1); /* For data visualization only.  */
-  --scheme-e-categorical-chart: var(--ref-scheme-g-chart-5); /* For data visualization only. Follow the numbered sequence. */
-  --scheme-e-sequential-chart-border: var(--ref-scheme-e-chart-border); /* For data visualization only.  */
-  --scheme-e-sequential-chart-surface-6: var(--ref-scheme-e-chart-6); /* For data visualization only.  */
-  --scheme-e-sequential-chart-surface-5: var(--ref-scheme-e-chart-5); /* For data visualization only.  */
-  --scheme-e-sequential-chart-surface-4: var(--ref-scheme-e-chart-4); /* For data visualization only.  */
-  --scheme-e-sequential-chart-surface-3: var(--ref-scheme-e-chart-3); /* For data visualization only.  */
-  --scheme-e-sequential-chart-surface-2: var(--ref-scheme-e-chart-2); /* For data visualization only.  */
-  --scheme-e-sequential-chart-surface-1: var(--ref-scheme-e-chart-1); /* For data visualization only.  */
-  --scheme-d-categorical-chart: var(--ref-scheme-e-chart-5); /* For data visualization only. Follow the numbered sequence. */
-  --scheme-d-diverging-chart-border-end: var(--ref-scheme-f-chart-border); /* For data visualization only.  */
-  --scheme-d-diverging-chart-border-start: var(--ref-scheme-d-chart-border); /* For data visualization only.  */
-  --scheme-d-diverging-chart-surface-end-6: var(--ref-scheme-f-chart-6); /* For data visualization only.  */
-  --scheme-d-diverging-chart-surface-end-5: var(--ref-scheme-f-chart-3); /* For data visualization only.  */
-  --scheme-d-diverging-chart-surface-end-4: var(--ref-scheme-f-chart-1); /* For data visualization only.  */
-  --scheme-d-diverging-chart-surface-start-3: var(--ref-scheme-d-chart-1); /* For data visualization only.  */
-  --scheme-d-diverging-chart-surface-start-2: var(--ref-scheme-d-chart-4); /* For data visualization only.  */
-  --scheme-d-diverging-chart-surface-start-1: var(--ref-scheme-d-chart-6); /* For data visualization only.  */
-  --scheme-d-sequential-chart-border: var(--ref-scheme-d-chart-border); /* For data visualization only.  */
-  --scheme-d-sequential-chart-surface-6: var(--ref-scheme-d-chart-6); /* For data visualization only.  */
-  --scheme-d-sequential-chart-surface-5: var(--ref-scheme-d-chart-5); /* For data visualization only.  */
-  --scheme-d-sequential-chart-surface-4: var(--ref-scheme-d-chart-4); /* For data visualization only.  */
-  --scheme-d-sequential-chart-surface-3: var(--ref-scheme-d-chart-3); /* For data visualization only.  */
-  --scheme-d-sequential-chart-surface-2: var(--ref-scheme-d-chart-2); /* For data visualization only.  */
-  --scheme-d-sequential-chart-surface-1: var(--ref-scheme-d-chart-1); /* For data visualization only.  */
-  --scheme-c-categorical-chart: var(--ref-scheme-d-chart-4); /* For data visualization only. Follow the numbered sequence. */
-  --scheme-c-diverging-chart-border-end: var(--ref-scheme-g-chart-border); /* For data visualization only.  */
-  --scheme-c-diverging-chart-border-start: var(--ref-scheme-b-chart-border); /* For data visualization only.  */
-  --scheme-c-diverging-chart-surface-end-6: var(--ref-scheme-g-chart-6); /* For data visualization only.  */
-  --scheme-c-diverging-chart-surface-end-5: var(--ref-scheme-g-chart-3); /* For data visualization only.  */
-  --scheme-c-diverging-chart-surface-end-4: var(--ref-scheme-g-chart-1); /* For data visualization only.  */
-  --scheme-c-diverging-chart-surface-start-3: var(--ref-scheme-b-chart-1); /* For data visualization only.  */
-  --scheme-c-diverging-chart-surface-start-2: var(--ref-scheme-b-chart-4); /* For data visualization only.  */
-  --scheme-c-diverging-chart-surface-start-1: var(--ref-scheme-b-chart-6); /* For data visualization only.  */
-  --scheme-c-sequential-chart-border: var(--ref-scheme-c-chart-border); /* For data visualization only.  */
-  --scheme-c-sequential-chart-surface-6: var(--ref-scheme-c-chart-6); /* For data visualization only.  */
-  --scheme-c-sequential-chart-surface-5: var(--ref-scheme-c-chart-5); /* For data visualization only.  */
-  --scheme-c-sequential-chart-surface-4: var(--ref-scheme-c-chart-4); /* For data visualization only.  */
-  --scheme-c-sequential-chart-surface-3: var(--ref-scheme-c-chart-3); /* For data visualization only.  */
-  --scheme-c-sequential-chart-surface-2: var(--ref-scheme-c-chart-2); /* For data visualization only.  */
-  --scheme-c-sequential-chart-surface-1: var(--ref-scheme-c-chart-1); /* For data visualization only.  */
-  --scheme-b-categorical-chart: var(--ref-scheme-b-chart-6); /* For data visualization only. Follow the numbered sequence. */
-  --scheme-b-diverging-chart-border-end: var(--ref-scheme-f-chart-border); /* For data visualization only.  */
-  --scheme-b-diverging-chart-border-start: var(--ref-scheme-c-chart-border); /* For data visualization only.  */
-  --scheme-b-diverging-chart-surface-end-6: var(--ref-scheme-f-chart-6); /* For data visualization only.  */
-  --scheme-b-diverging-chart-surface-end-5: var(--ref-scheme-f-chart-3); /* For data visualization only.  */
-  --scheme-b-diverging-chart-surface-end-4: var(--ref-scheme-f-chart-1); /* For data visualization only.  */
-  --scheme-b-diverging-chart-surface-start-3: var(--ref-scheme-c-chart-1); /* For data visualization only.  */
-  --scheme-b-diverging-chart-surface-start-2: var(--ref-scheme-c-chart-4); /* For data visualization only.  */
-  --scheme-b-diverging-chart-surface-start-1: var(--ref-scheme-c-chart-6); /* For data visualization only.  */
-  --scheme-b-sequential-chart-border: var(--ref-scheme-b-chart-border); /* For data visualization only.  */
-  --scheme-b-sequential-chart-surface-6: var(--ref-scheme-b-chart-6); /* For data visualization only.  */
-  --scheme-b-sequential-chart-surface-5: var(--ref-scheme-b-chart-5); /* For data visualization only.  */
-  --scheme-b-sequential-chart-surface-4: var(--ref-scheme-b-chart-4); /* For data visualization only.  */
-  --scheme-b-sequential-chart-surface-3: var(--ref-scheme-b-chart-3); /* For data visualization only.  */
-  --scheme-b-sequential-chart-surface-2: var(--ref-scheme-b-chart-2); /* For data visualization only.  */
-  --scheme-b-sequential-chart-surface-1: var(--ref-scheme-b-chart-1); /* For data visualization only.  */
-  --scheme-a-categorical-chart: var(--ref-scheme-a-chart-6); /* For data visualization only. Follow the numbered sequence. */
-  --scheme-a-diverging-chart-border-end: var(--ref-scheme-e-chart-border); /* For data visualization only.  */
-  --scheme-a-diverging-chart-border-start: var(--ref-scheme-a-chart-border); /* For data visualization only.  */
-  --scheme-a-diverging-chart-surface-end-6: var(--ref-scheme-e-chart-6); /* For data visualization only.  */
-  --scheme-a-diverging-chart-surface-end-5: var(--ref-scheme-e-chart-3); /* For data visualization only.  */
-  --scheme-a-diverging-chart-surface-end-4: var(--ref-scheme-e-chart-1); /* For data visualization only.  */
-  --scheme-a-diverging-chart-surface-start-3: var(--ref-scheme-a-chart-1); /* For data visualization only.  */
-  --scheme-a-diverging-chart-surface-start-2: var(--ref-scheme-a-chart-4); /* For data visualization only.  */
-  --scheme-a-diverging-chart-surface-start-1: var(--ref-scheme-a-chart-6); /* For data visualization only.  */
-  --scheme-a-sequential-chart-border: var(--ref-scheme-a-chart-border); /* For data visualization only.  */
-  --scheme-a-sequential-chart-surface-6: var(--ref-scheme-a-chart-6); /* For data visualization only.  */
-  --scheme-a-sequential-chart-surface-5: var(--ref-scheme-a-chart-5); /* For data visualization only.  */
-  --scheme-a-sequential-chart-surface-4: var(--ref-scheme-a-chart-4); /* For data visualization only.  */
-  --scheme-a-sequential-chart-surface-3: var(--ref-scheme-a-chart-3); /* For data visualization only.  */
-  --scheme-a-sequential-chart-surface-2: var(--ref-scheme-a-chart-2); /* For data visualization only.  */
-  --scheme-a-sequential-chart-surface-1: var(--ref-scheme-a-chart-1); /* For data visualization only.  */
   --toggle-border-emphasis: var(--brand-secondary-50); /* Border with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --toggle-border-transparent: rgba(var(--vud-funct-default-dark-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
-  --toggle-surface-emphasis: var(--brand-secondary-50); /* Surface with a prominent selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
+  --toggle-surface-emphasis: var(--brand-secondary-50); /* Branded surface. */
   --toggle-surface-transparent: rgba(var(--vud-funct-default-dark-05), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --table-border-transparent: rgba(var(--vud-funct-default-dark-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
+  --table-surface-error-hover: var(--vud-funct-error-90); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --table-surface-transparent: rgba(var(--vud-funct-default-dark-05), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --switch-border-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --situation-funct-surface-overlay-inverse: var(--ref-shade-weak); /* Default alerts. Lower prio statuses such as pairing  */
@@ -472,7 +328,6 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --progress-primary-border-weak: var(--brand-primary-20); /* Low intensity. */
   --progress-default-border-strong: var(--brand-neutral-dark-80); /* Medium intensity. */
   --progress-default-border-moderate: linear-gradient(180deg, var(--brand-neutral-dark-20) 0%, var(--brand-neutral-dark-80) 100%); /* Normal intensity. */
-  --progress-text-secondary: var(--brand-neutral-dark-80); /* Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.   */
   --nav-stepper-surface-strong: var(--brand-secondary-60); /* Medium intensity. */
   --nav-stepper-surface-moderate: linear-gradient(90deg, var(--brand-primary-60) 0%, var(--brand-secondary-60) 100%); /* Normal intensity. */
   --nav-stepper-surface-weak: var(--brand-neutral-dark-40); /* Low intensity. */
@@ -514,8 +369,6 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --nav-hor-brand-border-transparent: rgba(var(--vud-funct-default-dark-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --nav-hor-brand-border-enabled: var(--brand-secondary-10); /* Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --nav-hor-brand-surface-selected-strong: var(--brand-neutral-light-05); /* Surface with strong selected state refers to an interaction that occurs when the ui element is active.  */
-  --nav-hor-brand-surface-selected-moderate: var(--brand-secondary-80); /* Surface with selected state refers to an interaction that occurs when the ui element is active.  */
-  --nav-hor-brand-surface-enabled: var(--brand-secondary-70); /* Surface on container. */
   --nav-hor-default-border-transparent: rgba(var(--vud-funct-default-dark-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --nav-hor-default-surface-selected-strong: var(--brand-secondary-60); /* Surface with strong selected state refers to an interaction that occurs when the ui element is active.  */
   --nav-hor-default-surface-transparent: rgba(var(--vud-funct-default-dark-05), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
@@ -531,7 +384,7 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --calendar-surface-transparent: rgba(var(--vud-funct-default-dark-05), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --calendar-slot-surface-event3: var(--vud-funct-success-05); /* Optimal for scheduling work hours in a calendar. */
   --calendar-slot-surface-event2: var(--vud-funct-warning-05); /* Optimal for scheduling sick leave in a calendar. */
-  --shadow-brand-elevation-1: 0 2px 4px 0 rgba(var(--brand-primary-80), var(--opacity-3));
+  --shadow-brand-elevation-1: 0 2px 4px 0 rgba(72, 35, 125, var(--opacity-3));
   --button-destructive-default-text-default: var(--vud-funct-error-40); /* Destructive default text serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
   --button-confirmatory-secondary-tint-icon-inverse: var(--brand-secondary-10); /* Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background. */
   --button-confirmatory-secondary-tint-icon-default: var(--brand-secondary-10); /* Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder. */
@@ -542,20 +395,31 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --button-confirmatory-primary-tint-text-inverse: var(--vud-funct-success-05); /* Inverse text refers to the opposite color that contrasts with the background.  */
   --button-confirmatory-primary-tint-text-default: var(--vud-funct-success-05); /* Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention. */
   --button-confirmatory-default-border-transparent: rgba(var(--vud-funct-default-dark-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
-  --ref-scheme-chart-brand: var(--brand-secondary-60); /* Primary color for data visualization. Use when only one color is required. */
+  --ref-scheme-nofill-chart-septenary-light-fill: var(--chart-septenary-light-fill);
+  --ref-scheme-nofill-chart-senary-light-fill: var(--chart-senary-light-fill); /* For data visualization only.  */
+  --ref-scheme-nofill-chart-quinary-light-fill: var(--chart-quinary-light-fill); /* For data visualization only.  */
+  --ref-scheme-nofill-chart-quanternary-light-fill: var(--chart-quanternary-light-fill); /* For data visualization only.  */
+  --ref-scheme-nofill-chart-tertiary-light-fill: var(--chart-tertiary-light-fill); /* For data visualization only.  */
+  --ref-scheme-nofill-chart-secondary-light-fill: var(--chart-secondary-light-fill); /* For data visualization only.  */
+  --ref-scheme-nofill-chart-primary-light-fill: var(--chart-primary-light-fill);
+  --ref-scheme-fill-chart-septenary: var(--chart-septenary-default);
+  --ref-scheme-fill-chart-senary: var(--chart-senary-default); /* For data visualization only.  */
+  --ref-scheme-fill-chart-quinary: var(--chart-quinary-default); /* For data visualization only.  */
+  --ref-scheme-fill-chart-quanternary: var(--chart-quanternary-default); /* For data visualization only.  */
+  --ref-scheme-fill-chart-tertiary: var(--chart-tertiary-default); /* For data visualization only.  */
+  --ref-scheme-fill-chart-secondary: var(--chart-secondary-default); /* For data visualization only.  */
+  --ref-scheme-fill-chart-primary: var(--chart-primary-default); /* For data visualization only.  */
   --ref-tint-moderate: rgba( var(--brand-neutral-dark-05), var(--opacity-3));
   --ref-tint-weak: rgba( var(--brand-neutral-dark-05), var(--opacity-2));
   --ref-fill-screen-default: var(--brand-neutral-dark-80); /* Suitable for product-based UI screens. */
   --ref-fill-surface-default: var(--brand-neutral-dark-70); /* Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --ref-fill-secondary-tint-selected-hover: var(--brand-secondary-80); /* Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-fill-secondary-tint-selected: var(--brand-secondary-80); /* Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --ref-fill-secondary-tint-focused: var(--brand-secondary-90); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --ref-fill-secondary-tint-pressed: var(--brand-secondary-90); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
   --ref-fill-secondary-tint-hover: var(--brand-secondary-70); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-fill-secondary-tint-enabled: var(--brand-secondary-90); /* Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --ref-fill-primary-tint-selected-hover: var(--brand-primary-80); /* Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-fill-primary-tint-selected: var(--brand-primary-80); /* Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --ref-fill-primary-tint-focused: var(--brand-primary-90); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --ref-fill-primary-tint-pressed: var(--brand-primary-90); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
   --ref-fill-primary-tint-hover: var(--brand-primary-70); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-fill-primary-tint-enabled: var(--brand-primary-90); /* Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
@@ -572,24 +436,20 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --ref-fill-funct-inverse: var(--vud-funct-default-dark-90); /* Inverse surface contrast with the background. */
   --ref-fill-funct-default: var(--vud-funct-default-dark-05); /* Default alerts. Lower prio statuses such as pairing */
   --ref-fill-destructive-primary-pressed: var(--vud-funct-error-90); /* Border with pressed state refers to an interaction that occurs when the ui element is pressed. */
-  --ref-fill-destructive-primary-focused: var(--vud-funct-error-80); /* Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --ref-fill-destructive-primary-hover: var(--vud-funct-error-70); /* Border on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-fill-destructive-primary-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences. */
   --ref-fill-destructive-primary-enabled: var(--vud-funct-error-70); /* Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
   --ref-fill-destructive-default-pressed: var(--vud-funct-error-90); /* Surface with pressed state refers to an interaction that occurs when the ui element is pressed. */
-  --ref-fill-destructive-default-focused: var(--vud-funct-default-dark-70); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --ref-fill-destructive-default-hover: var(--vud-funct-error-70); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-fill-destructive-default-transparent: rgba(var(--vud-funct-error-05), var(--opacity-0)); /* Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences. */
   --ref-fill-destructive-default-enabled: var(--vud-funct-default-dark-70); /* Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
   --ref-fill-secondary-selected-hover: var(--brand-secondary-80); /* Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-fill-secondary-selected: var(--brand-secondary-70); /* Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --ref-fill-secondary-focused: var(--brand-secondary-70); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --ref-fill-secondary-pressed: var(--brand-secondary-80); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
   --ref-fill-secondary-hover: var(--brand-secondary-70); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-fill-secondary-enabled: var(--brand-secondary-70); /* Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --ref-fill-primary-selected-hover: var(--brand-primary-80); /* Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-fill-primary-selected: var(--brand-primary-80); /* Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --ref-fill-primary-focused: var(--brand-primary-70); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --ref-fill-primary-pressed: var(--brand-primary-90); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
   --ref-fill-primary-hover: var(--brand-primary-70); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-fill-primary-enabled: var(--brand-primary-70); /* Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
@@ -624,8 +484,8 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --ref-border-funct-error-weak: var(--vud-funct-error-70); /* Alerts, toasts, tooltips. Errors and failure statuses such as rejected, not sent, overdue, not delivered */
   --ref-border-funct-warning-weak: var(--vud-funct-warning-70); /* Alerts, toasts, tooltips. Warnings and potential problem statuses such as partially paid, losses  */
   --ref-border-funct-draft-weak: var(--vud-funct-draft-70); /* Alerts. Temporary statuses such as drafts */
-  --ref-border-funct-info-weak: var(--vud-funct-info-70); /* Normal alerts. Ccommon statuses such as created, sent, printed, processing. */
-  --ref-border-funct-success-weak: var(--vud-funct-success-70); /* Alerts, toasts. Success and positive statuses such as accepted, paid, delivered  */
+  --ref-border-funct-info-weak: var(--vud-funct-info-60); /* Normal alerts. Ccommon statuses such as created, sent, printed, processing. */
+  --ref-border-funct-success-weak: var(--vud-funct-success-60); /* Alerts, toasts. Success and positive statuses such as accepted, paid, delivered  */
   --ref-border-funct-inverse: var(--vud-funct-default-dark-10); /* Inverse border contrast with the background.  */
   --ref-border-funct-default: var(--vud-funct-default-dark-90); /* Default alerts. Specially lower prio statuses such as pairing. */
   --ref-border-destructive-primary-pressed: var(--vud-funct-error-50); /* Border with pressed state refers to an interaction that occurs when the ui element is pressed. */
@@ -663,7 +523,7 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --ref-border-default-muted: var(--brand-neutral-dark-60); /* Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --ref-border-default-inverse: var(--brand-neutral-dark-60); /* Inverse border refers to the opposite color that contrasts with the background.  */
   --ref-border-default-enabled: var(--brand-neutral-dark-50); /* Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
-  --ref-border-extreme: var(--brand-primary-60); /* Extreme default border refers to a standard border style that is branded. */
+  --ref-border-emphasis: var(--brand-primary-60); /* Emphasis border refers to a branded border style. */
   --ref-border-strong: var(--brand-neutral-dark-30); /* Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted separators. */
   --ref-border-moderate: var(--brand-neutral-dark-50); /* The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator.  */
   --ref-border-weak: var(--brand-neutral-dark-70); /* Weak border refers to a subtle border style. */
@@ -687,7 +547,7 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --ref-icon-inverse: var(--brand-neutral-dark-90); /* Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background. */
   --ref-icon-default: var(--brand-neutral-dark-05); /* Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder. */
   --ref-text-error-weak: var(--vud-funct-error-20); /* Error text refers to incorrect or invalid information on a form or during a data entry process.  */
-  --ref-text-warning-weak: var(--vud-funct-default-dark-20); /* Warning text refers to content that conveys a warning, caution, or alert. */
+  --ref-text-warning-weak: var(--vud-funct-warning-20); /* Warning text refers to content that conveys a warning, caution, or alert. */
   --ref-text-draft-weak: var(--vud-funct-draft-20); /* Draft refers to temporary statuses. */
   --ref-text-info-weak: var(--vud-funct-info-20); /* Info text gives a clear summary of the information. */
   --ref-text-success-weak: var(--vud-funct-success-20); /* Success text refers to content that signifies a positive or affirmative message. */
@@ -703,10 +563,18 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --ref-text-secondary: var(--brand-neutral-dark-10); /* Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.   */
   --ref-text-inverse: var(--brand-neutral-dark-90); /* Inverse text refers to the opposite color that contrasts with the background.  */
   --ref-text-default: var(--brand-neutral-dark-10); /* Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention. */
-  --brand-neutral-dark-gradient: var(--brand-neutral-dark-70);
-  --brand-neutral-light-gradient: var(--brand-neutral-light-90);
-  --brand-secondary-gradient: var(--brand-secondary-70);
-  --brand-primary-gradient: var(--brand-primary-70);
+  --chart-septenary-light-border: var(--chart-septenary-default);
+  --chart-senary-light-border: var(--chart-senary-default);
+  --chart-quinary-light-border: var(--chart-quinary-default);
+  --chart-quanternary-light-border: var(--chart-quanternary-default);
+  --chart-tertiary-light-border: var(--chart-tertiary-default);
+  --chart-secondary-light-border: var(--chart-secondary-default);
+  --chart-primary-light-border: var(--chart-primary-default);
+  --brand-neutral-dark-gradient: linear-gradient(to right, var(--brand-neutral-dark-80) 0%, var(--brand-neutral-dark-60) 100%);
+  --brand-neutral-light-gradient: linear-gradient(to right, var(--brand-neutral-light-80) 0%, var(--brand-neutral-light-60) 100%);
+  --brand-tertiary-gradient: linear-gradient(to right, var(--brand-tertiary-80) 0%, var(--brand-tertiary-60) 100%);
+  --brand-secondary-gradient: linear-gradient(to right, var(--brand-secondary-80) 0%, var(--brand-secondary-60) 100%);
+  --brand-primary-gradient: linear-gradient(to right, var(--brand-primary-80) 0%, var(--brand-primary-60) 100%);
   --radii-xxl: var(--vud-radii-xxl);
   --radii-xl: var(--vud-radii-xl);
   --radii-lg: var(--vud-radii-lg);
@@ -741,7 +609,17 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --size-wh-4: var(--size-wh-1)*6;
   --size-wh-3: var(--size-wh-1)*4;
   --size-wh-2: var(--size-wh-1)*2;
-  --border-inner-shadow: inset 0 0 0 3px var(--brand-neutral-light-05), 0 2px 4px 0 rgba(var(--brand-secondary-90), var(--opacity-3)); /* The shadows for buttons on focused state. */
+  --border-inner-shadow: inset 0 0 0 3px var(--brand-neutral-light-05), 0 2px 4px 0 rgba(102, 37, 31, var(--opacity-3)); /* The shadows for buttons on focused state. */
+  --scheme-a-categorical-chart: var(--ref-scheme-fill-chart-senary); /* For data visualization only. Follow the numbered sequence. */
+  --scheme-a-diverging-chart-surface-start-3: var(--ref-scheme-fill-chart-primary); /* For data visualization only.  */
+  --scheme-a-diverging-chart-surface-start-2: var(--ref-scheme-fill-chart-quanternary); /* For data visualization only.  */
+  --scheme-a-diverging-chart-surface-start-1: var(--ref-scheme-fill-chart-senary); /* For data visualization only.  */
+  --scheme-a-sequential-chart-surface-6: var(--ref-scheme-fill-chart-senary); /* For data visualization only.  */
+  --scheme-a-sequential-chart-surface-5: var(--ref-scheme-fill-chart-quinary); /* For data visualization only.  */
+  --scheme-a-sequential-chart-surface-4: var(--ref-scheme-fill-chart-quanternary); /* For data visualization only.  */
+  --scheme-a-sequential-chart-surface-3: var(--ref-scheme-fill-chart-tertiary); /* For data visualization only.  */
+  --scheme-a-sequential-chart-surface-2: var(--ref-scheme-fill-chart-secondary); /* For data visualization only.  */
+  --scheme-a-sequential-chart-surface-1: var(--ref-scheme-fill-chart-primary); /* For data visualization only.  */
   --pictogram-tertiary-fill-emphasis: var(--ref-pictogram-tertiary-fill-emphasis);
   --pictogram-tertiary-fill-default: var(--ref-pictogram-tertiary-fill-default);
   --pictogram-tertiary-stroke-emphasis: var(--ref-pictogram-tertiary-stroke-emphasis);
@@ -768,11 +646,13 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --scrollbar-surface-enabled: var(--ref-icon-default);
   --scrollbar-surface-default: var(--ref-icon-disabled);
   --scrollbar-surface-muted: var(--ref-fill-default-muted);
-  --toggle-border-disabled: var(--ref-border-default-disabled); /* A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
+  --toggle-border-disabled-strong: var(--ref-border-default-disabled); /* A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
+  --toggle-border-disabled-moderate: var(--ref-border-default-disabled); /* A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --toggle-border-error: var(--ref-border-destructive-default-enabled); /* Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
   --toggle-border-focused: var(--ref-border-default-focused); /* Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --toggle-border-enabled: var(--ref-border-default-enabled); /* Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
-  --toggle-surface-disabled: var(--ref-fill-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
+  --toggle-surface-disabled-strong: var(--ref-fill-default-muted); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
+  --toggle-surface-disabled-moderate: var(--ref-fill-default-muted); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --toggle-surface-enabled: var(--ref-fill-default-enabled); /* Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --toggle-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --toggle-icon-emphasis: var(--ref-icon-emphasis); /* emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature. */
@@ -789,9 +669,9 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --table-border-hover: var(--ref-border-default-hover); /* Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --table-border-muted: var(--ref-border-default-muted); /* Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --table-border-enabled: var(--ref-border-default-enabled); /* Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
-  --table-surface-error-hover: var(--ref-fill-funct-error-weak); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --table-surface-disabled: var(--ref-fill-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --table-surface-selected-hover: var(--ref-fill-default-selected-moderate-hover); /* Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
+  --table-surface-selected: var(--ref-fill-default-muted); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --table-surface-pressed: var(--ref-fill-default-pressed); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
   --table-surface-hover: var(--ref-fill-default-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --table-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
@@ -816,7 +696,8 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --switch-border-enabled: var(--ref-border-default-enabled); /* Border on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --switch-border-muted: var(--ref-border-default-muted); /* Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --switch-border-strong: var(--ref-border-strong); /* Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. */
-  --switch-surface-disabled: var(--ref-fill-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
+  --switch-surface-disabled-strong: var(--ref-fill-default-muted); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
+  --switch-surface-disabled-moderate: var(--ref-fill-default-muted); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --switch-surface-selected-strong-hover: var(--ref-fill-primary-hover); /* Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --switch-surface-selected-strong: var(--ref-fill-primary-enabled); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --switch-surface-selected-moderate-hover: var(--ref-fill-default-selected-moderate-hover); /* Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
@@ -875,7 +756,7 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --situation-funct-text-secondary: var(--ref-text-secondary); /* Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.   */
   --situation-funct-text-inverse: var(--ref-text-inverse); /* Inverse text refers to the opposite color that contrasts with the background.  */
   --situation-funct-text-default: var(--ref-text-default); /* Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention. */
-  --separator-extreme: var(--ref-border-extreme); /* Extreme default border refers to a standard border style that is branded. */
+  --separator-emphasis: var(--ref-border-emphasis); /* Emphasis border refers to a branded border style. */
   --separator-strong: var(--ref-border-strong); /* Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted separators. */
   --separator-moderate: var(--ref-border-moderate); /* The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator.  */
   --separator-weak: var(--ref-border-weak); /* Weak border refers to a subtle border style. */
@@ -904,6 +785,7 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --search-default-text-secondary: var(--ref-text-secondary); /* Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience. */
   --search-default-text-default: var(--ref-text-default); /* Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention. */
   --progress-default-border-weak: var(--ref-tint-weak); /* Low intensity. */
+  --progress-text-secondary: var(--ref-text-secondary); /* Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.   */
   --progress-text-default: var(--ref-text-default); /* Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention. */
   --nav-stepper-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --nav-stepper-icon-success: var(--ref-icon-success); /* Success text refers to content that signifies a positive or affirmative message. */
@@ -1007,9 +889,9 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --nav-hor-brand-border-disabled-none: rgba(var(--ref-border-default-disabled),var(--opacity-0)); /* A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --nav-hor-brand-border-focused: var(--ref-border-default-focused); /* Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --nav-hor-brand-surface-disabled: var(--ref-fill-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
+  --nav-hor-brand-surface-selected-moderate: var(--ref-fill-secondary-selected); /* Surface with selected state refers to an interaction that occurs when the ui element is active.  */
   --nav-hor-brand-surface-hover: rgba(var(--ref-fill-default-enabled), var(--opacity-2)); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --nav-hor-brand-surface-transparent: rgba( var(--ref-fill-default-enabled), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
-  --nav-hor-brand-surface-default: var(--brand-secondary-gradient); /* Surface on container. */
   --nav-hor-brand-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --nav-hor-brand-icon-emphasis: var(--ref-icon-emphasis); /* emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature. */
   --nav-hor-brand-icon-inverse: var(--ref-icon-default); /* Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background. */
@@ -1176,7 +1058,6 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --button-destructive-secondary-border-transparent: rgba(var(--ref-border-destructive-default-enabled), var(--opacity-0)); /* Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences. */
   --button-destructive-secondary-border-enabled: var(--ref-border-destructive-primary-enabled); /* Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
   --button-destructive-secondary-surface-pressed: var(--ref-fill-destructive-primary-pressed); /* Surface with pressed state refers to an interaction that occurs when the ui element is pressed. */
-  --button-destructive-secondary-surface-focused: var(--ref-fill-destructive-primary-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --button-destructive-secondary-surface-hover: var(--ref-fill-destructive-primary-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --button-destructive-secondary-surface-transparent: rgba(var(--ref-fill-destructive-default-enabled), var(--opacity-0)); /* Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences. */
   --button-destructive-secondary-surface-enabled: var(--ref-fill-destructive-primary-enabled); /* Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
@@ -1189,7 +1070,6 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --button-destructive-primary-border-transparent: rgba(var(--ref-border-destructive-default-enabled), var(--opacity-0)); /* Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences. */
   --button-destructive-primary-border-enabled: var(--ref-border-destructive-primary-enabled); /* Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
   --button-destructive-primary-surface-pressed: var(--ref-fill-destructive-primary-pressed); /* Surface with pressed state refers to an interaction that occurs when the ui element is pressed. */
-  --button-destructive-primary-surface-focused: var(--ref-fill-destructive-primary-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --button-destructive-primary-surface-hover: var(--ref-fill-destructive-primary-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --button-destructive-primary-surface-transparent: rgba(var(--ref-fill-destructive-default-enabled), var(--opacity-0)); /* Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences. */
   --button-destructive-primary-surface-enabled: var(--ref-fill-destructive-primary-enabled); /* Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
@@ -1203,7 +1083,6 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --button-destructive-default-border-transparent: rgba(var(--ref-border-destructive-default-enabled), var(--opacity-0)); /* Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences. */
   --button-destructive-default-border-enabled: var(--ref-border-destructive-default-enabled); /* Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
   --button-destructive-default-surface-pressed: var(--ref-fill-destructive-default-pressed); /* Surface with pressed state refers to an interaction that occurs when the ui element is pressed. */
-  --button-destructive-default-surface-focused: var(--ref-fill-destructive-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --button-destructive-default-surface-hover: var(--ref-fill-destructive-default-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --button-destructive-default-surface-transparent: rgba(var(--ref-fill-destructive-default-enabled), var(--opacity-0)); /* Transparent destructive surface provides a subtle yet noticeable warning or reminder, preventing accidental or unintended actions that could lead to negative consequences. */
   --button-destructive-default-surface-enabled: var(--ref-fill-destructive-default-enabled); /* Destructive default surface serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
@@ -1221,7 +1100,6 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --button-confirmatory-secondary-tint-surface-selected-hover: var(--ref-fill-secondary-tint-selected-hover); /* Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --button-confirmatory-secondary-tint-surface-selected: var(--ref-fill-secondary-tint-selected); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --button-confirmatory-secondary-tint-surface-pressed: var(--ref-fill-secondary-tint-pressed); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
-  --button-confirmatory-secondary-tint-surface-focused: var(--ref-fill-secondary-tint-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --button-confirmatory-secondary-tint-surface-hover: var(--ref-fill-secondary-tint-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --button-confirmatory-secondary-tint-surface-enabled: var(--ref-fill-secondary-tint-enabled); /* Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --button-confirmatory-secondary-tint-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
@@ -1235,7 +1113,6 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --button-confirmatory-secondary-surface-selected-hover: var(--ref-fill-secondary-selected-hover); /* Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --button-confirmatory-secondary-surface-selected: var(--ref-fill-secondary-selected); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --button-confirmatory-secondary-surface-pressed: var(--ref-fill-secondary-pressed); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
-  --button-confirmatory-secondary-surface-focused: var(--ref-fill-secondary-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --button-confirmatory-secondary-surface-hover: var(--ref-fill-secondary-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --button-confirmatory-secondary-surface-enabled: var(--ref-fill-secondary-enabled); /* Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --button-confirmatory-secondary-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
@@ -1252,7 +1129,6 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --button-confirmatory-primary-tint-surface-selected-hover: var(--ref-fill-primary-tint-selected-hover); /* Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --button-confirmatory-primary-tint-surface-selected: var(--ref-fill-primary-tint-selected); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --button-confirmatory-primary-tint-surface-pressed: var(--ref-fill-primary-tint-pressed); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
-  --button-confirmatory-primary-tint-surface-focused: var(--ref-fill-primary-tint-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --button-confirmatory-primary-tint-surface-hover: var(--ref-fill-primary-tint-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --button-confirmatory-primary-tint-surface-enabled: var(--ref-fill-primary-tint-enabled); /* Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --button-confirmatory-primary-tint-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
@@ -1267,7 +1143,6 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --button-confirmatory-primary-surface-selected-hover: var(--ref-fill-primary-selected-hover); /* Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --button-confirmatory-primary-surface-selected: var(--ref-fill-primary-selected); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --button-confirmatory-primary-surface-pressed: var(--ref-fill-primary-pressed); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
-  --button-confirmatory-primary-surface-focused: var(--ref-fill-primary-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --button-confirmatory-primary-surface-hover: var(--ref-fill-primary-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --button-confirmatory-primary-surface-enabled: var(--ref-fill-primary-enabled); /* Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --button-confirmatory-primary-surface-transparent: rgba( var(--ref-fill-primary-enabled), var(--opacity-0)); /* Surface on normal state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
@@ -1303,11 +1178,20 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --button-confirmatory-default-text-secondary: var(--ref-text-secondary); /* Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience. */
   --button-confirmatory-default-text-inverse: var(--ref-text-default); /* Inverse text refers to the opposite color that contrasts with the background.  */
   --button-confirmatory-default-text-default: var(--ref-text-default); /* Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention. */
+  --ref-scheme-nofill-chart-septenary-light-border: var(--chart-septenary-light-border);
+  --ref-scheme-nofill-chart-senary-light-border: var(--chart-senary-light-border); /* For data visualization only.  */
+  --ref-scheme-nofill-chart-quinary-light-border: var(--chart-quinary-light-border); /* For data visualization only.  */
+  --ref-scheme-nofill-chart-quanternary-light-border: var(--chart-quanternary-light-border); /* For data visualization only.  */
+  --ref-scheme-nofill-chart-tertiary-light-border: var(--chart-tertiary-light-border); /* For data visualization only.  */
+  --ref-scheme-nofill-chart-secondary-light-border: var(--chart-secondary-light-border); /* For data visualization only.  */
+  --ref-scheme-nofill-chart-primary-light-border: var(--chart-primary-light-border); /* For data visualization only.  */
+  --ref-scheme-fill-chart-border: var(--ref-border-strong); /* For data visualization only.  */
   --ref-scheme-chart-neutral: var(--ref-border-moderate); /* Secondary color for data visualization. Use for the less important data points. */
   --ref-scheme-chart-border: var(--ref-border-strong); /* Gridlines */
   --ref-scheme-chart-text-inverse: var(--ref-text-inverse); /* Inverse text on chart colors. Use only if needed. */
   --ref-scheme-chart-text-secondary: var(--ref-text-secondary); /* Secondary text for legends. */
   --ref-scheme-chart-text-default: var(--ref-text-default); /* Default text for labels. Use on chart colors if needed. */
+  --ref-fill-surface-emphasis: var(--brand-secondary-gradient); /* Branded surface. */
   --ref-fill-secondary-tint-disabled: var(--ref-fill-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --ref-fill-primary-tint-disabled: var(--ref-fill-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --ref-fill-funct-disabled: var(--ref-fill-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
@@ -1318,7 +1202,6 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --ref-fill-primary-disabled: var(--ref-fill-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --ref-fill-default-selected-moderate: var(--ref-fill-default-enabled); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --ref-fill-default-selected-weak: var(--ref-fill-default-muted); /* Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --ref-fill-default-focused: var(--ref-fill-default-muted); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --ref-border-secondary-tint-disabled: var(--ref-border-default-disabled); /* A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --ref-border-primary-tint-disabled: var(--ref-border-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --ref-border-funct-muted: var(--ref-border-weak); /* Muted border refers to a subtle border style. */
@@ -1327,46 +1210,33 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --ref-border-destructive-default-disabled: var(--ref-border-default-disabled); /* Border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --ref-border-secondary-disabled: var(--ref-border-default-disabled); /* A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --ref-border-primary-disabled: var(--ref-border-default-disabled); /* A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
-  --border-focus-indicator: inset 4px 0 0 0 var(--ref-border-extreme); /* Focus-indicator refers to the thick line along a side of the bounding box. */
+  --border-focus-indicator: inset 4px 0 0 0 var(--ref-border-emphasis); /* Focus-indicator refers to the thick line along a side of the bounding box. */
+  --scheme-a-diverging-chart-border-start: var(--ref-scheme-fill-chart-border); /* For data visualization only.  */
+  --scheme-a-sequential-chart-border: var(--ref-scheme-fill-chart-border); /* For data visualization only.  */
   --table-border-error: var(--button-destructive-default-border-enabled); /* Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
   --table-surface-error: var(--button-destructive-default-surface-transparent); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
-  --table-surface-selected: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --table-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --switch-surface-selected-moderate: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --switch-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --situation-funct-border-muted: var(--ref-border-funct-muted); /* Muted border refers to a subtle border style.  */
   --situation-funct-surface-disabled: var(--ref-fill-funct-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --situation-funct-surface-muted: var(--ref-fill-funct-muted); /* Default alerts. Lower prio statuses such as pairing  */
-  --search-brand-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
-  --search-default-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --nav-stepper-surface-selected-moderate: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --nav-stepper-surface-selected-weak: var(--ref-fill-default-selected-weak); /* Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --nav-stepper-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --nav-vert-inverted-surface-selected-strong: var(--ref-fill-default-selected-moderate); /* Surface with selected state refers to an interaction that occurs when the ui element is active.  */
-  --nav-vert-inverted-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
-  --nav-vert-brand-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
-  --nav-vert-default-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
-  --nav-hor-inverted-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
-  --nav-hor-brand-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
-  --nav-hor-default-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
+  --nav-hor-brand-surface-enabled: var(--ref-fill-surface-emphasis); /* Surface on container. */
+  --nav-hor-brand-surface-default: var(--ref-fill-surface-emphasis); /* Surface on container. */
   --message-border-error: var(--button-destructive-default-border-enabled); /* Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
   --message-surface-error-hover: var(--button-destructive-default-surface-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --message-surface-error: var(--button-destructive-default-surface-transparent); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --message-surface-selected: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --message-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --message-surface-muted-hover: var(--message-surface-muted); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --message-surface-enabled-hover: var(--message-surface-enabled); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --list-surface-selected-moderate: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --list-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --inputs-border-error: var(--button-destructive-default-border-enabled); /* Destructive border on normal state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
   --inputs-surface-error: var(--button-destructive-default-surface-enabled); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --inputs-surface-selected: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --inputs-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --drag-drop-surface-error: var(--button-destructive-default-surface-enabled); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --drag-drop-surface-selected: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --drag-drop-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --calendar-surface-selected-moderate: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --calendar-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --calendar-slot-border-event3: var(--situation-funct-border-success-weak); /* Optimal for scheduling work hours in a calendar. */
   --calendar-slot-border-event2: var(--situation-funct-border-warning-weak); /* Optimal for scheduling project tasks in a calendar. */
   --calendar-slot-border-event1: var(--situation-funct-border-info-weak); /* Optimal for scheduling project tasks in a calendar. */
@@ -1387,7 +1257,7 @@ html[data-theme='dark']:not(.light-theme), html.dark-theme:not(.light-theme) {
   --button-confirmatory-primary-border-disabled: var(--ref-border-primary-disabled); /* A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --button-confirmatory-primary-surface-disabled: var(--ref-fill-primary-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --button-confirmatory-default-surface-selected-moderate: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --button-confirmatory-default-surface-focused: var(--ref-fill-default-focused); /* Surface on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
-  --ref-scheme-chart: var(--content-surface-enabled); /* Surface and border on chart UI. */
+  --ref-scheme-chart-hover: var(--list-surface-hover); /* Surface on hover state. */
+  --ref-scheme-chart-icon: var(--content-icon-default); /* Elements on chart UI. */
   --border-inner-border: inset 1px 0 0 0 var(--button-confirmatory-primary-border-enabled); /* The inner border for split button. */
 }
