@@ -1,54 +1,54 @@
 {
   "sequential": {
     "chart-surface-1": {
-      "value": "{ref.scheme.a.chart-1}",
+      "value": "{ref.scheme.fill.chart-primary}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-2": {
-      "value": "{ref.scheme.a.chart-2}",
+      "value": "{ref.scheme.fill.chart-secondary}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-3": {
-      "value": "{ref.scheme.a.chart-3}",
+      "value": "{ref.scheme.fill.chart-tertiary}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-4": {
-      "value": "{ref.scheme.a.chart-4}",
+      "value": "{ref.scheme.fill.chart-quanternary}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-5": {
-      "value": "{ref.scheme.a.chart-5}",
+      "value": "{ref.scheme.fill.chart-quinary}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-6": {
-      "value": "{ref.scheme.a.chart-6}",
+      "value": "{ref.scheme.fill.chart-senary}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-border": {
-      "value": "{ref.scheme.a.chart-border}",
+      "value": "{ref.scheme.fill.chart-border}",
       "type": "color",
       "description": "For data visualization only. "
     }
   },
   "diverging": {
     "chart-surface-start-1": {
-      "value": "{ref.scheme.a.chart-6}",
+      "value": "{ref.scheme.fill.chart-senary}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-start-2": {
-      "value": "{ref.scheme.a.chart-4}",
+      "value": "{ref.scheme.fill.chart-quanternary}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-start-3": {
-      "value": "{ref.scheme.a.chart-1}",
+      "value": "{ref.scheme.fill.chart-primary}",
       "type": "color",
       "description": "For data visualization only. "
     },
@@ -68,7 +68,7 @@
       "description": "For data visualization only. "
     },
     "chart-border-start": {
-      "value": "{ref.scheme.a.chart-border}",
+      "value": "{ref.scheme.fill.chart-border}",
       "type": "color",
       "description": "For data visualization only. "
     },
@@ -80,17 +80,17 @@
   },
   "categorical": {
     "chart-surface-1": {
-      "value": "{ref.scheme.a.chart-6}",
+      "value": "{ref.scheme.fill.chart-senary}",
       "type": "color",
       "description": "For data visualization only. Follow the numbered sequence."
     },
     "chart-surface-2": {
-      "value": "{ref.scheme.f.chart-3}",
+      "value": "{ref.scheme.nofill.chart-3}",
       "type": "color",
       "description": "For data visualization only. Follow the numbered sequence."
     },
     "chart-border": {
-      "value": "{ref.scheme.f.chart-border}",
+      "value": "{ref.scheme.nofill.chart-border}",
       "type": "color",
       "description": "For data visualization only. Follow the numbered sequence."
     }

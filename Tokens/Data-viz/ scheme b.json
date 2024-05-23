@@ -53,17 +53,17 @@
       "description": "For data visualization only. "
     },
     "chart-surface-end-4": {
-      "value": "{ref.scheme.f.chart-1}",
+      "value": "{ref.scheme.nofill.chart-1}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-end-5": {
-      "value": "{ref.scheme.f.chart-3}",
+      "value": "{ref.scheme.nofill.chart-3}",
       "type": "color",
       "description": "For data visualization only. "
     },
     "chart-surface-end-6": {
-      "value": "{ref.scheme.f.chart-6}",
+      "value": "{ref.scheme.nofill.chart-6}",
       "type": "color",
       "description": "For data visualization only. "
     },
@@ -73,7 +73,7 @@
       "description": "For data visualization only. "
     },
     "chart-border-end": {
-      "value": "{ref.scheme.f.chart-border}",
+      "value": "{ref.scheme.nofill.chart-border}",
       "type": "color",
       "description": "For data visualization only. "
     }
