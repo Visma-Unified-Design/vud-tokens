@@ -3,11 +3,13 @@
   "description": "Tokens for VUD Design System Library",
   "scripts": {
     "build": "node build-tokens.js",
-    "build_fix": "node build-tokens.js && node tools/rearrange-scss-rows.js",
-    "build_fix_sync_vsbp": "node build-tokens.js && node tools/rearrange-scss-rows.js && node tools/sync_vsbp.js"
+    "build_fix": "node build-tokens.js && npm run migrate_sass_division && node tools/rearrange-scss-rows.js",
+    "build_fix_sync_vsbp": "npm run build_fix && node tools/sync_vsbp.js",
+    "migrate_sass_division": "npx sass-migrator division **/*.scss"
   },
   "devDependencies": {
     "@tokens-studio/sd-transforms": "^0.12.1",
-    "style-dictionary": "^3.9.0"
+    "style-dictionary": "^3.9.0",
+    "sass-migrator": "2.0.3"
   }
 }
