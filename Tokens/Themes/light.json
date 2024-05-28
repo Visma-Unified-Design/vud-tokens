@@ -2992,7 +2992,7 @@
         "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
       },
       "surface-default": {
-        "value": "{brand.primary-gradient}",
+        "value": "{ref.fill.default.enabled}",
         "type": "color",
         "description": "Surface on container."
       },
