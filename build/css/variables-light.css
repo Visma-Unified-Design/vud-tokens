@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 23 May 2024 14:03:27 GMT
+ * Generated on Tue, 28 May 2024 12:50:06 GMT
  */
 
 :host, :root, html[data-theme='light'], html.light-theme {
@@ -508,7 +508,7 @@
   --ref-fill-default-selected-weak-hover: var(--brand-primary-05); /* Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-fill-default-selected-weak: var(--brand-neutral-light-10); /* Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --ref-fill-default-pressed: var(--brand-neutral-light-30); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
-  --ref-fill-default-hover: var(--brand-primary-10); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
+  --ref-fill-default-hover: var(--brand-primary-05); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-fill-default-transparent: rgba(var(--brand-neutral-light-05), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --ref-fill-default-muted: var(--brand-neutral-light-20); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --ref-fill-default-inverse: var(--brand-neutral-light-05); /* Inverse surface contrast with the background. */
@@ -941,7 +941,7 @@
   --nav-hor-default-surface-selected-moderate: var(--ref-fill-default-enabled); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --nav-hor-default-surface-hover: var(--ref-fill-default-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --nav-hor-default-surface-enabled: var(--ref-fill-default-enabled); /* Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
-  --nav-hor-default-surface-default: var(--brand-primary-gradient); /* Surface on container. */
+  --nav-hor-default-surface-default: var(--ref-fill-default-enabled); /* Surface on container. */
   --nav-hor-default-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --nav-hor-default-icon-emphasis: var(--ref-icon-emphasis); /* emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature. */
   --nav-hor-default-icon-inverse: var(--ref-icon-inverse); /* Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background. */

@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 23 May 2024 14:03:27 GMT
+// Generated on Tue, 28 May 2024 12:50:06 GMT
 
 @use "sass:math";
 
@@ -508,7 +508,7 @@ $light-ref-fill-default-selected-moderate: $light-brand-neutral-light-20 !defaul
 $light-ref-fill-default-selected-weak-hover: $light-brand-primary-05 !default; // Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-ref-fill-default-selected-weak: $light-brand-neutral-light-10 !default; // Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-ref-fill-default-pressed: $light-brand-neutral-light-30 !default; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$light-ref-fill-default-hover: $light-brand-primary-10 !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-fill-default-hover: $light-brand-primary-05 !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-ref-fill-default-transparent: rgba($light-brand-neutral-light-05, $light-opacity-0) !default; // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-ref-fill-default-muted: $light-brand-neutral-light-20 !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-ref-fill-default-inverse: $light-brand-neutral-light-05 !default; // Inverse surface contrast with the background.
@@ -941,7 +941,7 @@ $light-nav-hor-default-surface-selected-hover: $light-ref-fill-default-selected-
 $light-nav-hor-default-surface-selected-moderate: $light-ref-fill-default-enabled !default; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-nav-hor-default-surface-hover: $light-ref-fill-default-hover !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-nav-hor-default-surface-enabled: $light-ref-fill-default-enabled !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$light-nav-hor-default-surface-default: $light-brand-primary-gradient !default; // Surface on container.
+$light-nav-hor-default-surface-default: $light-ref-fill-default-enabled !default; // Surface on container.
 $light-nav-hor-default-icon-disabled: $light-ref-icon-disabled !default; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-nav-hor-default-icon-emphasis: $light-ref-icon-emphasis !default; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
 $light-nav-hor-default-icon-inverse: $light-ref-icon-inverse !default; // Inverse icon serves as the opposite of the default icon, specifically designed to contrast with the background.
