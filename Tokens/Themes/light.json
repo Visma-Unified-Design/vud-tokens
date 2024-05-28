@@ -667,7 +667,7 @@
           "description": "Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control."
         },
         "hover": {
-          "value": "{brand.primary-10}",
+          "value": "{brand.primary-05}",
           "type": "color",
           "description": "Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
         },
