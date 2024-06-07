@@ -1062,7 +1062,7 @@
       },
       "screen": {
         "default": {
-          "value": "{ref.fill.default.muted}",
+          "value": "{brand.tertiary-05}",
           "type": "color",
           "description": "Suitable for product-based UI screens."
         }
@@ -2367,7 +2367,7 @@
       "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
     },
     "icon-emphasis": {
-      "value": "{ref.icon.emphasis}",
+      "value": "{ref.icon.success}",
       "type": "color",
       "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.\n"
     },
@@ -2830,7 +2830,7 @@
       "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
     },
     "icon-emphasis": {
-      "value": "{ref.icon.emphasis}",
+      "value": "{ref.icon.default}",
       "type": "color",
       "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature."
     },
@@ -2850,7 +2850,7 @@
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-strong": {
-      "value": "{vud.blue-60}",
+      "value": "{brand.primary-60}",
       "type": "color"
     },
     "surface-enabled:hover": {
@@ -3749,12 +3749,12 @@
       "description": "Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.\n\n"
     },
     "text-emphasis": {
-      "value": "{ref.text.emphasis}",
+      "value": "{ref.text.default}",
       "type": "color",
       "description": "Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. "
     },
     "text-success": {
-      "value": "{ref.text.success-moderate}",
+      "value": "{ref.text.default}",
       "type": "color",
       "description": "Success text refers to content that signifies a positive or affirmative message."
     },
@@ -3769,12 +3769,12 @@
       "description": "Low intensity."
     },
     "surface-moderate": {
-      "value": "linear-gradient(90deg, {brand.primary-60} 0%, {brand.secondary-60} 100%)",
+      "value": "linear-gradient(90deg, {vud.green-60} 0%, {vud.neutral-light-60} 100%)",
       "type": "color",
       "description": "Normal intensity."
     },
     "surface-strong": {
-      "value": "{brand.secondary-60}",
+      "value": "{brand.primary-60}",
       "type": "color",
       "description": "Medium intensity."
     },
@@ -3951,17 +3951,17 @@
     },
     "secondary": {
       "border-weak": {
-        "value": "{brand.secondary-20}",
+        "value": "{vud.green-20}",
         "type": "color",
         "description": "Low intensity."
       },
       "border-moderate": {
-        "value": "linear-gradient(180deg, {brand.secondary-05} 0%, {brand.secondary-60} 100%)",
+        "value": "linear-gradient(180deg, {vud.green-05} 0%, {vud.green-60} 100%)",
         "type": "color",
         "description": "Normal intensity."
       },
       "border-strong": {
-        "value": "{brand.secondary-50}",
+        "value": "{vud.green-60}",
         "type": "color",
         "description": "Medium intensity."
       }
@@ -4413,7 +4413,7 @@
       "description": "Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls."
     },
     "surface-enabled": {
-      "value": "{brand.neutral-light-50}",
+      "value": "{brand.neutral-light-40}",
       "type": "color",
       "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
