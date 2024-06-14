@@ -4132,7 +4132,7 @@
       "description": "Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention."
     },
     "funct-text-inverse": {
-      "value": "{ref.text.inverse}",
+      "value": "{ref.text.draft-moderate}",
       "type": "color",
       "description": "Inverse text refers to the opposite color that contrasts with the background. "
     },
@@ -4227,7 +4227,7 @@
       "description": "Default alerts. Lower prio statuses such as pairing\n"
     },
     "funct-surface-inverse": {
-      "value": "{ref.fill.funct.inverse}",
+      "value": "{brand.primary-10}",
       "type": "color",
       "description": "Inverse surface refers to the opposite color that contrasts with the background. "
     },
@@ -4307,7 +4307,7 @@
       "description": "Muted border refers to a subtle border style.\n"
     },
     "funct-border-inverse": {
-      "value": "{ref.border.funct.inverse}",
+      "value": "{brand.primary-60}",
       "type": "color",
       "description": "Inverse border refers to the opposite color that contrasts with the background. "
     },
