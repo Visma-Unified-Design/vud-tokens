@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 28 May 2024 12:50:06 GMT
+// Generated on Mon, 01 Jul 2024 13:10:07 GMT
 
 @use "sass:math";
 
@@ -146,11 +146,15 @@ $light-vud-radii-xxxl: 9.9rem !default;
 $light-vud-radii-none: 0 !default;
 $light-toggle-border-emphasis: $light-vud-green-70 !default; // Border with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-toggle-surface-emphasis: $light-vud-green-70 !default; // Branded surface.
-$light-message-surface-strong: $light-vud-blue-60 !default;
+$light-progress-secondary-border-strong: $light-vud-green-60 !default; // Medium intensity.
+$light-progress-secondary-border-moderate: linear-gradient(180deg, $light-vud-green-05 0%, $light-vud-green-60 100%) !default; // Normal intensity.
+$light-progress-secondary-border-weak: $light-vud-green-20 !default; // Low intensity.
+$light-nav-stepper-surface-moderate: linear-gradient(90deg, $light-vud-green-60 0%, $light-vud-neutral-light-60 100%) !default; // Normal intensity.
 $light-shadow-default-elevation-4: 0 15px 40px 0 rgba(37, 38, 38, $light-opacity-5) !default;
 $light-shadow-default-elevation-3: 0 10px 15px 0 rgba(37, 38, 38, $light-opacity-4) !default;
 $light-shadow-default-elevation-2: 0 5px 10px 0 rgba(37, 38, 38, $light-opacity-3) !default;
 $light-shadow-default-elevation-1: 0 2px 4px 0 rgba(37, 38, 38, $light-opacity-2) !default;
+$light-shadow-default-elevation-0: 0 0 0 0 rgba(37, 38, 38, $light-opacity-2) !default;
 $light-shadow-none: 0 0 0 0 rgba(37, 38, 38, $light-opacity-2) !default;
 $light-button-confirmatory-primary-tint-icon-default: $light-vud-green-80 !default; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
 $light-button-confirmatory-primary-tint-text-default: $light-vud-green-90 !default; // Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention.
@@ -353,17 +357,16 @@ $light-switch-border-transparent: rgba($light-vud-funct-default-light-05, $light
 $light-switch-surface-selected-strong-hover: $light-ref-fill-primary-hover !default; // Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-switch-surface-selected-strong: $light-ref-fill-primary-selected !default; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-switch-surface-hover: $light-brand-neutral-light-40 !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-switch-surface-enabled: $light-brand-neutral-light-50 !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-switch-surface-enabled: $light-brand-neutral-light-40 !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-situation-funct-border-inverse: $light-brand-primary-60 !default; // Inverse border refers to the opposite color that contrasts with the background. 
 $light-situation-funct-surface-overlay-default: $light-ref-shade-weak !default; // Default alerts. Lower prio statuses such as pairing 
+$light-situation-funct-surface-inverse: $light-brand-primary-10 !default; // Inverse surface refers to the opposite color that contrasts with the background. 
 $light-situation-funct-text-info-moderate: $light-ref-text-info-moderate !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
 $light-separator-emphasis: $light-ref-border-emphasis !default; // Emphasis border refers to a branded border style.
 $light-search-brand-border-hover: $light-brand-primary-70 !default; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-search-brand-border-enabled: $light-brand-primary-60 !default; // Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-search-brand-text-emphasis: $light-ref-text-emphasis !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
 $light-search-default-text-emphasis: $light-ref-text-emphasis !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
-$light-progress-secondary-border-strong: $light-brand-secondary-50 !default; // Medium intensity.
-$light-progress-secondary-border-moderate: linear-gradient(180deg, $light-brand-secondary-05 0%, $light-brand-secondary-60 100%) !default; // Normal intensity.
-$light-progress-secondary-border-weak: $light-brand-secondary-20 !default; // Low intensity.
 $light-progress-primary-border-strong: $light-brand-primary-70 !default; // Medium intensity.
 $light-progress-primary-border-moderate: linear-gradient(180deg, $light-brand-primary-05 0%, $light-brand-primary-70 100%) !default; // Normal intensity.
 $light-progress-primary-border-weak: $light-brand-primary-20 !default; // Low intensity.
@@ -372,10 +375,8 @@ $light-progress-default-border-moderate: linear-gradient(180deg, $light-brand-ne
 $light-progress-default-border-weak: $light-ref-shade-weak !default; // Low intensity.
 $light-nav-stepper-border-selected-strong-hover: $light-ref-border-default-selected-strong-hover !default; // Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-nav-stepper-surface-selected-strong: $light-ref-fill-default-selected-strong !default; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
-$light-nav-stepper-surface-strong: $light-brand-secondary-60 !default; // Medium intensity.
-$light-nav-stepper-surface-moderate: linear-gradient(90deg, $light-brand-primary-60 0%, $light-brand-secondary-60 100%) !default; // Normal intensity.
+$light-nav-stepper-surface-strong: $light-brand-primary-60 !default; // Medium intensity.
 $light-nav-stepper-surface-weak: $light-brand-neutral-light-40 !default; // Low intensity.
-$light-nav-stepper-text-emphasis: $light-ref-text-emphasis !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
 $light-nav-vert-inverted-border-selected-strong-hover: $light-brand-neutral-light-60 !default; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-nav-vert-inverted-border-selected-weak-hover: $light-brand-neutral-light-60 !default; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-nav-vert-inverted-border-hover: $light-brand-neutral-light-60 !default; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
@@ -414,6 +415,7 @@ $light-nav-hor-default-surface-selected-strong: $light-brand-primary-60 !default
 $light-nav-hor-default-surface-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-nav-hor-default-text-emphasis: $light-ref-text-emphasis !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
 $light-message-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$light-message-surface-strong: $light-brand-primary-60 !default;
 $light-list-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-list-text-emphasis: $light-ref-text-emphasis !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
 $light-inputs-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
@@ -423,6 +425,8 @@ $light-drag-drop-surface-transparent: rgba($light-vud-funct-default-light-05, $l
 $light-content-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-content-text-emphasis: $light-ref-text-emphasis !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
 $light-calendar-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$light-calendar-surface-selected-strong-hover: $light-ref-fill-primary-selected-hover !default; // Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-calendar-surface-selected-strong: $light-ref-fill-primary-selected !default; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
 $light-calendar-surface-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-calendar-slot-surface-event3: $light-vud-funct-success-05 !default; // Optimal for scheduling work hours in a calendar.
 $light-calendar-slot-surface-event2: $light-vud-funct-warning-10 !default; // Optimal for scheduling sick leave in a calendar.
@@ -472,6 +476,7 @@ $light-ref-scheme-fill-chart-secondary: $light-chart-secondary-default !default;
 $light-ref-scheme-fill-chart-primary: $light-chart-primary-default !default; // For data visualization only. 
 $light-ref-tint-moderate: rgba( $light-brand-neutral-dark-05, $light-opacity-3) !default;
 $light-ref-tint-weak: rgba($light-brand-neutral-light-05, $light-opacity-2) !default;
+$light-ref-fill-screen-default: $light-brand-tertiary-05 !default; // Suitable for product-based UI screens.
 $light-ref-fill-secondary-tint-selected-hover: $light-brand-primary-80 !default; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-ref-fill-secondary-tint-selected: $light-brand-primary-80 !default; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-ref-fill-secondary-tint-pressed: $light-brand-primary-90 !default; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
@@ -503,7 +508,7 @@ $light-ref-fill-secondary-pressed: $light-brand-primary-90 !default; // Surface 
 $light-ref-fill-secondary-hover: $light-brand-primary-70 !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-ref-fill-secondary-enabled: $light-brand-primary-70 !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-ref-fill-default-disabled: $light-brand-neutral-light-20 !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-ref-fill-default-selected-moderate-hover: $light-brand-primary-10 !default; // Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
+$light-ref-fill-default-selected-moderate-hover: $light-brand-primary-05 !default; // Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-ref-fill-default-selected-moderate: $light-brand-neutral-light-20 !default; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-ref-fill-default-selected-weak-hover: $light-brand-primary-05 !default; // Surface hovering over a weak selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-ref-fill-default-selected-weak: $light-brand-neutral-light-10 !default; // Surface with weak selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
@@ -752,7 +757,6 @@ $light-situation-funct-border-warning-weak: $light-ref-border-funct-warning-weak
 $light-situation-funct-border-draft-weak: $light-ref-border-funct-draft-weak !default; // Suitable for alerts and temporary statuses such as drafts.
 $light-situation-funct-border-info-weak: $light-ref-border-funct-info-weak !default; // Suitable for normal alerts and common statuses such as created, sent, printed, processing.
 $light-situation-funct-border-success-weak: $light-ref-border-funct-success-weak !default; // Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered.
-$light-situation-funct-border-inverse: $light-ref-border-funct-inverse !default; // Inverse border refers to the opposite color that contrasts with the background. 
 $light-situation-funct-border-default: $light-ref-border-funct-default !default; // Suitable for default alerts. Specially lower prio statuses such as pairing.
 $light-situation-funct-surface-error-moderate: $light-ref-fill-funct-error-moderate !default; // Suitable for badges. Specially errors and failure statuses such as rejected, not sent, overdue, not delivered.
 $light-situation-funct-surface-warning-moderate: $light-ref-fill-funct-warning-moderate !default; // Suitable for badges. Warnings and potential problem statuses such as partially paid, losses 
@@ -765,7 +769,6 @@ $light-situation-funct-surface-draft-weak: $light-ref-fill-funct-draft-weak !def
 $light-situation-funct-surface-info-weak: $light-ref-fill-funct-info-weak !default; // Suitable for normal alerts, common statuses such as created, sent, printed, processing.
 $light-situation-funct-surface-success-weak: $light-ref-fill-funct-success-weak !default; // Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered.
 $light-situation-funct-surface-overlay-inverse: $light-ref-tint-weak !default; // Default alerts. Lower prio statuses such as pairing 
-$light-situation-funct-surface-inverse: $light-ref-fill-funct-inverse !default; // Inverse surface refers to the opposite color that contrasts with the background. 
 $light-situation-funct-surface-default: $light-ref-fill-funct-default !default; // Suitable for default alerts, lower prio statuses such as pairing.
 $light-situation-funct-icon-emphasis: $light-ref-icon-emphasis !default; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
 $light-situation-funct-icon-success: $light-ref-icon-success !default; // Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully.
@@ -782,7 +785,7 @@ $light-situation-funct-text-info-weak: $light-ref-text-info-weak !default; // Em
 $light-situation-funct-text-success-weak: $light-ref-text-success-weak !default; // Success text refers to content that signifies a positive or affirmative message.
 $light-situation-funct-text-disabled: $light-ref-text-secondary !default; // Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with.
 $light-situation-funct-text-secondary: $light-ref-text-secondary !default; // Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.  
-$light-situation-funct-text-inverse: $light-ref-text-inverse !default; // Inverse text refers to the opposite color that contrasts with the background. 
+$light-situation-funct-text-inverse: $light-ref-text-draft-moderate !default; // Inverse text refers to the opposite color that contrasts with the background. 
 $light-situation-funct-text-default: $light-ref-text-default !default; // Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention.
 $light-separator-strong: $light-ref-border-strong !default; // Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. Suitable for dotted separators.
 $light-separator-moderate: $light-ref-border-moderate !default; // The default border is the standard border style. It strikes a balance between visibility and subtlety, providing a noticeable border around the element without overpowering the overall design. Suitable for solid separator. 
@@ -835,7 +838,8 @@ $light-nav-stepper-surface-transparent: rgba( $light-ref-fill-default-enabled, $
 $light-nav-stepper-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-nav-stepper-surface-enabled: $light-ref-fill-default-enabled !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-nav-stepper-text-disabled: $light-ref-text-disabled !default; // Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with.
-$light-nav-stepper-text-success: $light-ref-text-success-moderate !default; // Success text refers to content that signifies a positive or affirmative message.
+$light-nav-stepper-text-success: $light-ref-text-default !default; // Success text refers to content that signifies a positive or affirmative message.
+$light-nav-stepper-text-emphasis: $light-ref-text-default !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
 $light-nav-stepper-text-secondary: $light-ref-text-secondary !default; // Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.  
 $light-nav-stepper-text-inverse: $light-ref-text-inverse !default; // Inverse text refers to the opposite color that contrasts with the background.  
 $light-nav-stepper-text-default: $light-ref-text-default !default; // Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention.
@@ -965,7 +969,7 @@ $light-message-surface-pressed: $light-ref-fill-default-pressed !default; // Sur
 $light-message-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-message-surface-enabled: $light-ref-fill-default-enabled !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-message-icon-disabled: $light-ref-icon-disabled !default; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-message-icon-emphasis: $light-ref-icon-emphasis !default; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
+$light-message-icon-emphasis: $light-ref-icon-default !default; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
 $light-message-icon-default: $light-ref-icon-default !default; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
 $light-message-text-error: $light-ref-text-error-weak !default; // Mandatory text refers to text or information that is required in a particular context. 
 $light-message-text-disabled: $light-ref-text-disabled !default; // Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with.
@@ -1046,7 +1050,7 @@ $light-content-surface-transparent: rgba( $light-ref-fill-default-enabled, $ligh
 $light-content-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-content-surface-enabled: $light-ref-fill-default-enabled !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-content-icon-disabled: $light-ref-icon-disabled !default; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-content-icon-emphasis: $light-ref-icon-emphasis !default; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature. 
+$light-content-icon-emphasis: $light-ref-icon-success !default; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature. 
 $light-content-icon-default: $light-ref-icon-default !default; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
 $light-content-text-disabled: $light-ref-text-disabled !default; // Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with.
 $light-content-text-secondary: $light-ref-text-secondary !default; // Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.
@@ -1062,8 +1066,6 @@ $light-calendar-border-focused: $light-ref-border-default-focused !default; // B
 $light-calendar-border-hover: $light-ref-border-default-hover !default; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-calendar-border-enabled: $light-ref-border-default-enabled !default; // Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-calendar-surface-disabled: $light-ref-fill-default-muted !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-calendar-surface-selected-strong-hover: $light-ref-fill-secondary-selected-hover !default; // Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-calendar-surface-selected-strong: $light-ref-fill-secondary-selected !default; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
 $light-calendar-surface-selected-moderate-hover: $light-ref-fill-default-selected-moderate-hover !default; // Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-calendar-surface-selected-moderate: $light-ref-fill-default-selected-moderate !default; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-calendar-surface-pressed: $light-ref-fill-default-pressed !default; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
@@ -1197,7 +1199,6 @@ $light-ref-scheme-chart-border: $light-ref-border-strong !default; // Gridlines
 $light-ref-scheme-chart-text-inverse: $light-ref-text-inverse !default; // Inverse text on chart colors. Use only if needed.
 $light-ref-scheme-chart-text-secondary: $light-ref-text-secondary !default; // Secondary text for legends.
 $light-ref-scheme-chart-text-default: $light-ref-text-default !default; // Default text for labels. Use on chart colors if needed.
-$light-ref-fill-screen-default: $light-ref-fill-default-muted !default; // Suitable for product-based UI screens.
 $light-ref-fill-surface-emphasis: $light-brand-primary-gradient !default; // Branded surface.
 $light-ref-fill-surface-default: $light-ref-fill-default-enabled !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-ref-fill-secondary-tint-disabled: $light-ref-fill-default-disabled !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
