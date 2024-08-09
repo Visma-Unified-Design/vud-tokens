@@ -2378,7 +2378,7 @@
       "description": "Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder."
     },
     "icon-emphasis": {
-      "value": "{ref.icon.success}",
+      "value": "{ref.icon.emphasis}",
       "type": "color",
       "description": "emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.\n"
     },

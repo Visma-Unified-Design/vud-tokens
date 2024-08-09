@@ -2454,7 +2454,7 @@
       "Extends/data-viz": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:12385:123766",
-    "$figmaModeId": "12385:19",
+    "$figmaModeId": "12510:0",
     "$figmaVariableReferences": {
       "scheme-a.sequential.chart-surface-1": "05a8c4fe69eb79fa97c0aff33bcd098e814d6e83",
       "scheme-a.sequential.chart-surface-2": "c5a27686880431ffc865940f32ca1c7c1059acba",
@@ -2481,7 +2481,7 @@
       "Extends/data-viz": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:12385:123766",
-    "$figmaModeId": "12385:20",
+    "$figmaModeId": "12510:1",
     "$figmaVariableReferences": {
       "scheme-a.sequential.chart-surface-1": "05a8c4fe69eb79fa97c0aff33bcd098e814d6e83",
       "scheme-a.sequential.chart-surface-2": "c5a27686880431ffc865940f32ca1c7c1059acba",
