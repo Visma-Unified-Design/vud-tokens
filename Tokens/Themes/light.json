@@ -2450,7 +2450,7 @@
       "description": "Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable."
     },
     "surface-enabled": {
-      "value": "{ref.fill.default.enabled}",
+      "value": "{ref.fill.funct.info-weak}",
       "type": "color",
       "description": "Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred."
     },
