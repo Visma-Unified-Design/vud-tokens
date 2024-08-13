@@ -2275,15 +2275,15 @@
       "type": "color",
       "description": "Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active."
     },
-    "surface-selected-moderate:hover": {
-      "value": "{ref.fill.default.selected-moderate:hover}",
-      "type": "color",
-      "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
-    },
     "surface-selected-strong": {
       "value": "{ref.fill.primary.selected}",
       "type": "color",
       "description": "Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions."
+    },
+    "surface-selected-moderate:hover": {
+      "value": "{ref.fill.default.selected-moderate:hover}",
+      "type": "color",
+      "description": "Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent."
     },
     "surface-selected-strong:hover": {
       "value": "{ref.fill.primary.selected:hover}",
