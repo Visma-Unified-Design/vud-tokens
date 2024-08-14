@@ -274,7 +274,43 @@
       "space.gap-11": "9c3b85ef80d9be3d54c3fe583d689cd264c8c54b",
       "space.gap-12": "21362eee4391ebfada5b68fa8d68f7105e3aa47a",
       "space.gap-13": "507bdb46176ab15adc229e9091f9556ebeb4f287",
-      "space.gap-14": "8aeeddeb6dd765b51f3a50561c85a8543a177fcc"
+      "space.gap-14": "8aeeddeb6dd765b51f3a50561c85a8543a177fcc",
+      "opacity.0": "9d19b17b00e3e836b3199fda92a046363fac3d6b",
+      "opacity.1": "4375141af223b8aab67345a5f9621e5eb9e079fe",
+      "opacity.2": "63919f238f9d8ec86684b1285384f6f982094599",
+      "opacity.3": "ff0e167142b85cd571d51cfb13139cbfb398570f",
+      "opacity.4": "492189b19717397088447d6290774176cb872d4a",
+      "opacity.5": "bf072a5c291d97d80f42084d6850215d280340b4",
+      "opacity.6": "7112850882aba1b9649d8c4bf4740ea14b60b24e",
+      "opacity.7": "38773b0ad7ce2d674157dc436bec361709dbde84",
+      "opacity.8": "487f30847d4cc2f93bf57553e90d7f68fda3ca90",
+      "opacity.9": "066d27f339fb66dc918a49d34cf4d642f20d9a28",
+      "opacity.10": "0bf6501635bd5a94c4e7c6a00789fe77ae2fb220",
+      "opacity.11": "ff5e98656d7f9d1c7306575d9cc6929373a9c921",
+      "font-weight.thin": "4edc156552e67a0b45f87af3485d980b6a2d94b4",
+      "font-weight.extra-light": "3ef7bdce222e3dae387072418b6b5eefc7789728",
+      "font-weight.light": "8c0bf1d4dc5dc3cbd08bcf753330ebe52d7f4609",
+      "font-weight.normal": "323c1e267938d6e922bc5e1b1c9a803c0b7d7708",
+      "font-weight.medium": "5837cfaa4717543638f904fb50ad896546d08ed7",
+      "font-weight.semi-bold": "9e19c295f9185ca5cfe2101fc18b35a07c4305e5",
+      "font-weight.bold": "38dbef4c148ada9e2d935d060c51bb786430a9aa",
+      "font-weight.extra-bold": "e56eb4cc1675719670ec1d5420d784f7ef342a85",
+      "font-weight.black": "9e89e7a3e3344abbe45d5d002ca2f4471dbea7eb",
+      "scale.xs.clamp-css": "2f7769cbcfa8f83719cc9b5503e5de4691b48515",
+      "scale.s.clamp-css": "d3c861282c3d8242cd9f83712146039d5d046cd2",
+      "scale.md.clamp-css": "8a1bf094aa657097a3221af90082718a7cb1ffcf",
+      "scale.lg.clamp-css": "ad0e228b196764ba5a98ead3f17667df6a1db802",
+      "scale.xl.clamp-css": "959f20a61af27c933835a616b7723fd0a865131b",
+      "scale.xxl.clamp-css": "2aefbb06921c03ca028e57c90b84bab99ad18450",
+      "font-size-fixed.xxl": "1893219e93d6f8b7677fee72fe081111693c1ff4",
+      "font-size-fixed.xl": "0f080676cd9944d2f3002517564e1f4fdbdec8a2",
+      "font-size-fixed.lg": "2d9dda89b507b93f97f26297c9f6030dda52b587",
+      "font-size-fixed.md": "8330cea7709259cbd426acfffe5da059d151e2d7",
+      "font-size-fixed.sm": "274f6b5b1134826617b60490ceb043f4ce4fd341",
+      "font-size-fixed.xs": "147efb2f5e216e85c046d0034dac5a4371433ace",
+      "font-familiy-primary": "26c5eda9e124270fd25c099e86f6ffbf18361f03",
+      "font-familiy-secondary": "66d3c7b0f80c4cbaf39a4e8190a7e2df0d72a0d4",
+      "font-familiy-tertiary": "c2e72bf9467243ca5d0f9143c0fe293e86465d73"
     },
     "group": "Global"
   },
@@ -2427,6 +2463,7 @@
       "scheme-a.diverging.chart-surface-start-3": "5fdfa547208bdae23f46f9e1e0b9cd5dc77080be",
       "scheme-a.diverging.chart-border-start": "030c3b221c25dca32753d83e414c60fd6a5989c2",
       "scheme-a.categorical.chart": "97b7faee1949fefab1de4fb4c4232ce66807d5ab",
+      "opacity.disabled": "f2e3f22123777eab793174e0e3a3ca93136c513e",
       "sequential.chart-surface-1": "382d5ed8848f7cd058b8a14d600dbbc5bc0f3bc8",
       "sequential.chart-surface-2": "ba7942e078f753f53e21c3577107b1782d84531a",
       "sequential.chart-surface-3": "eac045709a06ea191243f10daf92591c9e75729e",
@@ -2467,7 +2504,8 @@
       "scheme-a.diverging.chart-surface-start-2": "5fe6dd434506897580a8bab674e69705eac3311f",
       "scheme-a.diverging.chart-surface-start-3": "5fdfa547208bdae23f46f9e1e0b9cd5dc77080be",
       "scheme-a.diverging.chart-border-start": "030c3b221c25dca32753d83e414c60fd6a5989c2",
-      "scheme-a.categorical.chart": "97b7faee1949fefab1de4fb4c4232ce66807d5ab"
+      "scheme-a.categorical.chart": "97b7faee1949fefab1de4fb4c4232ce66807d5ab",
+      "opacity.disabled": "f2e3f22123777eab793174e0e3a3ca93136c513e"
     },
     "group": "Scheme"
   },
@@ -2494,7 +2532,8 @@
       "scheme-a.diverging.chart-surface-start-2": "5fe6dd434506897580a8bab674e69705eac3311f",
       "scheme-a.diverging.chart-surface-start-3": "5fdfa547208bdae23f46f9e1e0b9cd5dc77080be",
       "scheme-a.diverging.chart-border-start": "030c3b221c25dca32753d83e414c60fd6a5989c2",
-      "scheme-a.categorical.chart": "97b7faee1949fefab1de4fb4c4232ce66807d5ab"
+      "scheme-a.categorical.chart": "97b7faee1949fefab1de4fb4c4232ce66807d5ab",
+      "opacity.disabled": "f2e3f22123777eab793174e0e3a3ca93136c513e"
     },
     "group": "Scheme"
   },
@@ -2521,7 +2560,8 @@
       "scheme-a.diverging.chart-surface-start-2": "5fe6dd434506897580a8bab674e69705eac3311f",
       "scheme-a.diverging.chart-surface-start-3": "5fdfa547208bdae23f46f9e1e0b9cd5dc77080be",
       "scheme-a.diverging.chart-border-start": "030c3b221c25dca32753d83e414c60fd6a5989c2",
-      "scheme-a.categorical.chart": "97b7faee1949fefab1de4fb4c4232ce66807d5ab"
+      "scheme-a.categorical.chart": "97b7faee1949fefab1de4fb4c4232ce66807d5ab",
+      "opacity.disabled": "f2e3f22123777eab793174e0e3a3ca93136c513e"
     },
     "group": "Scheme"
   },
