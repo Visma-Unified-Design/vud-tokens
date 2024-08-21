@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 01 Jul 2024 13:10:07 GMT
+// Generated on Wed, 21 Aug 2024 08:55:58 GMT
 
 @use "sass:math";
 
@@ -105,7 +105,7 @@ $light-vud-orange-05: #FCF2DC !default;
 $light-vud-coral-90: #66251F !default;
 $light-vud-coral-80: #B23124 !default;
 $light-vud-coral-70: #CC4B3D !default;
-$light-vud-coral-60: #F56262 !default;
+$light-vud-coral-60: #F56868 !default;
 $light-vud-coral-50: #FE796B !default;
 $light-vud-coral-40: #FE9489 !default;
 $light-vud-coral-30: #FEABA3 !default;
@@ -174,6 +174,7 @@ $light-ref-fill-primary-hover: $light-vud-green-70 !default; // Surface on hover
 $light-ref-fill-primary-enabled: $light-vud-green-70 !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-ref-fill-default-selected-strong-hover: $light-vud-green-80 !default; // Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-ref-fill-default-selected-strong: $light-vud-green-80 !default; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
+$light-ref-fill-default-muted: $light-vud-vanilla-05 !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-ref-border-primary-tint-selected-hover: $light-vud-green-80 !default; // Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-ref-border-primary-tint-selected: $light-vud-green-80 !default; // Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-ref-border-primary-tint-pressed: $light-vud-green-90 !default; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
@@ -345,19 +346,26 @@ $light-vud-radii-md: $light-base*6 !default;
 $light-vud-radii-sm: $light-base*4 !default;
 $light-vud-radii-xs: $light-base*2 !default;
 $light-vud-radii-xxs: $light-base !default;
+$light-scrollbar-surface-muted: $light-ref-fill-default-muted !default;
 $light-toggle-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$light-toggle-surface-disabled-strong: $light-ref-fill-default-muted !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
+$light-toggle-surface-disabled-moderate: $light-ref-fill-default-muted !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-toggle-surface-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-table-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-table-surface-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$light-table-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-table-text-emphasis: $light-ref-text-emphasis !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
 $light-switch-border-selected-strong-hover: $light-ref-border-primary-hover !default; // Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-switch-border-selected-strong: $light-ref-border-primary-enabled !default; // Border with a moderate selected state refers to an interaction that occurs when the ui element is active.
 $light-switch-border-enabled: $light-brand-neutral-light-40 !default; // Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-switch-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$light-switch-surface-disabled-strong: $light-ref-fill-default-muted !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
+$light-switch-surface-disabled-moderate: $light-ref-fill-default-muted !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-switch-surface-selected-strong-hover: $light-ref-fill-primary-hover !default; // Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-switch-surface-selected-strong: $light-ref-fill-primary-selected !default; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-switch-surface-hover: $light-brand-neutral-light-40 !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-switch-surface-enabled: $light-brand-neutral-light-40 !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-switch-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-situation-funct-border-inverse: $light-brand-primary-60 !default; // Inverse border refers to the opposite color that contrasts with the background. 
 $light-situation-funct-surface-overlay-default: $light-ref-shade-weak !default; // Default alerts. Lower prio statuses such as pairing 
 $light-situation-funct-surface-inverse: $light-brand-primary-10 !default; // Inverse surface refers to the opposite color that contrasts with the background. 
@@ -375,6 +383,7 @@ $light-progress-default-border-moderate: linear-gradient(180deg, $light-brand-ne
 $light-progress-default-border-weak: $light-ref-shade-weak !default; // Low intensity.
 $light-nav-stepper-border-selected-strong-hover: $light-ref-border-default-selected-strong-hover !default; // Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-nav-stepper-surface-selected-strong: $light-ref-fill-default-selected-strong !default; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
+$light-nav-stepper-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-nav-stepper-surface-strong: $light-brand-primary-60 !default; // Medium intensity.
 $light-nav-stepper-surface-weak: $light-brand-neutral-light-40 !default; // Low intensity.
 $light-nav-vert-inverted-border-selected-strong-hover: $light-brand-neutral-light-60 !default; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
@@ -416,18 +425,26 @@ $light-nav-hor-default-surface-transparent: rgba($light-vud-funct-default-light-
 $light-nav-hor-default-text-emphasis: $light-ref-text-emphasis !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
 $light-message-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-message-surface-strong: $light-brand-primary-60 !default;
+$light-message-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-list-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$light-list-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-list-text-emphasis: $light-ref-text-emphasis !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
 $light-inputs-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-inputs-surface-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$light-inputs-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-drag-drop-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-drag-drop-surface-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$light-drag-drop-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
+$light-drag-drop-text-emphasis: $light-ref-text-emphasis !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
 $light-content-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$light-content-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-content-text-emphasis: $light-ref-text-emphasis !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
 $light-calendar-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$light-calendar-surface-disabled: $light-ref-fill-default-muted !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-calendar-surface-selected-strong-hover: $light-ref-fill-primary-selected-hover !default; // Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-calendar-surface-selected-strong: $light-ref-fill-primary-selected !default; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
 $light-calendar-surface-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
+$light-calendar-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-calendar-slot-surface-event3: $light-vud-funct-success-05 !default; // Optimal for scheduling work hours in a calendar.
 $light-calendar-slot-surface-event2: $light-vud-funct-warning-10 !default; // Optimal for scheduling sick leave in a calendar.
 $light-calendar-slot-text-event1: $light-ref-text-info-moderate !default; // Optimal for scheduling project tasks in a calendar.
@@ -460,6 +477,7 @@ $light-button-confirmatory-default-border-selected-strong-hover: $light-ref-bord
 $light-button-confirmatory-default-border-transparent: rgba($light-vud-funct-default-light-05, $light-opacity-0) !default; // Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-button-confirmatory-default-surface-selected-strong-hover: $light-ref-border-default-selected-strong-hover !default; // Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-button-confirmatory-default-surface-selected-strong: $light-ref-fill-default-selected-strong !default; // Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions.
+$light-button-confirmatory-default-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-ref-scheme-nofill-chart-septenary-light-fill: $light-chart-septenary-light-fill !default;
 $light-ref-scheme-nofill-chart-senary-light-fill: $light-chart-senary-light-fill !default; // For data visualization only. 
 $light-ref-scheme-nofill-chart-quinary-light-fill: $light-chart-quinary-light-fill !default; // For data visualization only. 
@@ -492,6 +510,7 @@ $light-ref-fill-funct-warning-weak: $light-vud-funct-warning-05 !default; // Ale
 $light-ref-fill-funct-draft-weak: $light-vud-funct-draft-05 !default; // Alerts. Temporary statuses such as drafts
 $light-ref-fill-funct-info-weak: $light-vud-funct-info-05 !default; // Normal alerts. Common statuses such as created, sent, printed, processing
 $light-ref-fill-funct-success-weak: $light-vud-funct-success-05 !default; // Alerts, toasts. Success and positive statuses such as accepted, paid, delivered 
+$light-ref-fill-funct-muted: $light-ref-fill-default-muted !default; // Default alerts. Lower prio statuses such as pairing
 $light-ref-fill-funct-inverse: $light-vud-funct-default-light-90 !default; // Inverse surface contrast with the background.
 $light-ref-fill-funct-default: $light-vud-funct-default-light-05 !default; // Default alerts. Lower prio statuses such as pairing
 $light-ref-fill-destructive-primary-pressed: $light-vud-funct-error-90 !default; // Border with pressed state refers to an interaction that occurs when the ui element is pressed.
@@ -515,7 +534,6 @@ $light-ref-fill-default-selected-weak: $light-brand-neutral-light-10 !default; /
 $light-ref-fill-default-pressed: $light-brand-neutral-light-30 !default; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
 $light-ref-fill-default-hover: $light-brand-primary-05 !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-ref-fill-default-transparent: rgba($light-brand-neutral-light-05, $light-opacity-0) !default; // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-ref-fill-default-muted: $light-brand-neutral-light-20 !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-ref-fill-default-inverse: $light-brand-neutral-light-05 !default; // Inverse surface contrast with the background.
 $light-ref-fill-default-enabled: $light-brand-neutral-light-05 !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-ref-border-secondary-tint-selected-hover: $light-brand-primary-80 !default; // Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
@@ -685,14 +703,11 @@ $light-density-height-condensed: $light-size-wh-7 !default;
 $light-density-padding-height-condensed: $light-space-gap-3 !default;
 $light-scrollbar-surface-enabled: $light-ref-icon-default !default;
 $light-scrollbar-surface-default: $light-ref-icon-disabled !default;
-$light-scrollbar-surface-muted: $light-ref-fill-default-muted !default;
 $light-toggle-border-disabled-strong: $light-ref-border-default-disabled !default; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-toggle-border-disabled-moderate: $light-ref-border-default-disabled !default; // A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-toggle-border-error: $light-ref-border-destructive-default-enabled !default; // Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
 $light-toggle-border-focused: $light-ref-border-default-focused !default; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
 $light-toggle-border-enabled: $light-ref-border-default-enabled !default; // Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$light-toggle-surface-disabled-strong: $light-ref-fill-default-muted !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-toggle-surface-disabled-moderate: $light-ref-fill-default-muted !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-toggle-surface-enabled: $light-ref-fill-default-enabled !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-toggle-icon-disabled: $light-ref-icon-inverse !default; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-toggle-icon-emphasis: $light-ref-icon-emphasis !default; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
@@ -715,7 +730,6 @@ $light-table-surface-selected-hover: $light-ref-fill-default-selected-moderate-h
 $light-table-surface-selected: $light-ref-fill-default-selected-moderate !default; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-table-surface-pressed: $light-ref-fill-default-pressed !default; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
 $light-table-surface-hover: $light-ref-fill-default-hover !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-table-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-table-surface-enabled: $light-ref-fill-default-enabled !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-table-icon-disabled: $light-ref-icon-disabled !default; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-table-icon-emphasis: $light-ref-icon-emphasis !default; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
@@ -733,11 +747,8 @@ $light-switch-border-focused: $light-ref-border-default-focused !default; // Bor
 $light-switch-border-hover: $light-ref-border-default-hover !default; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-switch-border-muted: $light-ref-border-default-muted !default; // Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-switch-border-strong: $light-ref-border-strong !default; // Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border.
-$light-switch-surface-disabled-strong: $light-ref-fill-default-muted !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-switch-surface-disabled-moderate: $light-ref-fill-default-muted !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-switch-surface-selected-moderate-hover: $light-ref-fill-default-selected-moderate-hover !default; // Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-switch-surface-selected-moderate: $light-ref-fill-default-selected-moderate !default; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
-$light-switch-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-switch-surface-strong: $light-ref-fill-default-enabled !default;
 $light-switch-icon-disabled: $light-ref-icon-disabled !default; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-switch-icon-inverse: $light-ref-icon-inverse !default; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
@@ -769,6 +780,7 @@ $light-situation-funct-surface-draft-weak: $light-ref-fill-funct-draft-weak !def
 $light-situation-funct-surface-info-weak: $light-ref-fill-funct-info-weak !default; // Suitable for normal alerts, common statuses such as created, sent, printed, processing.
 $light-situation-funct-surface-success-weak: $light-ref-fill-funct-success-weak !default; // Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered.
 $light-situation-funct-surface-overlay-inverse: $light-ref-tint-weak !default; // Default alerts. Lower prio statuses such as pairing 
+$light-situation-funct-surface-muted: $light-ref-fill-funct-muted !default; // Default alerts. Lower prio statuses such as pairing 
 $light-situation-funct-surface-default: $light-ref-fill-funct-default !default; // Suitable for default alerts, lower prio statuses such as pairing.
 $light-situation-funct-icon-emphasis: $light-ref-icon-emphasis !default; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
 $light-situation-funct-icon-success: $light-ref-icon-success !default; // Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully.
@@ -835,7 +847,6 @@ $light-nav-stepper-surface-selected-weak: $light-ref-fill-default-selected-weak 
 $light-nav-stepper-surface-pressed: $light-ref-fill-default-pressed !default; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
 $light-nav-stepper-surface-hover: $light-ref-fill-default-hover !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-nav-stepper-surface-transparent: rgba( $light-ref-fill-default-enabled, $light-opacity-0) !default; // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-nav-stepper-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-nav-stepper-surface-enabled: $light-ref-fill-default-enabled !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-nav-stepper-text-disabled: $light-ref-text-disabled !default; // Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with.
 $light-nav-stepper-text-success: $light-ref-text-default !default; // Success text refers to content that signifies a positive or affirmative message.
@@ -966,7 +977,7 @@ $light-message-surface-disabled: $light-ref-fill-default-disabled !default; // A
 $light-message-surface-selected-hover: $light-ref-fill-default-selected-moderate-hover !default; // Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-message-surface-selected: $light-ref-fill-default-selected-moderate !default; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-message-surface-pressed: $light-ref-fill-default-pressed !default; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
-$light-message-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
+$light-message-surface-muted-hover: $light-message-surface-muted !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-message-surface-enabled: $light-ref-fill-default-enabled !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-message-icon-disabled: $light-ref-icon-disabled !default; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-message-icon-emphasis: $light-ref-icon-default !default; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
@@ -985,7 +996,6 @@ $light-list-border-focused: $light-ref-border-default-focused !default; // Borde
 $light-list-border-hover: $light-ref-border-default-hover !default; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-list-border-enabled: $light-ref-border-default-enabled !default; // Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-list-surface-disabled: $light-ref-fill-default-disabled !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-list-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-list-surface-transparent: rgba( $light-ref-fill-default-enabled, $light-opacity-0) !default; // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-list-surface-selected-moderate-hover: $light-ref-fill-default-selected-moderate-hover !default; // Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-list-surface-selected-moderate: $light-ref-fill-default-selected-moderate !default; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
@@ -1012,7 +1022,6 @@ $light-inputs-surface-selected-hover: $light-ref-fill-default-selected-moderate-
 $light-inputs-surface-selected: $light-ref-fill-default-selected-moderate !default; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-inputs-surface-pressed: $light-ref-fill-default-pressed !default; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
 $light-inputs-surface-hover: $light-ref-fill-default-enabled !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-inputs-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-inputs-surface-enabled: $light-ref-fill-default-enabled !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-inputs-icon-disabled: $light-ref-icon-disabled !default; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-inputs-icon-success: $light-ref-icon-success !default; // Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully.
@@ -1030,27 +1039,24 @@ $light-drag-drop-border-pressed: $light-ref-border-default-pressed !default; // 
 $light-drag-drop-border-focused: $light-ref-border-default-focused !default; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
 $light-drag-drop-border-hover: $light-ref-border-default-hover !default; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-drag-drop-border-muted: $light-ref-border-default-muted !default; // Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
-$light-drag-drop-border-enabled: $light-ref-border-default-enabled !default; // Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-drag-drop-border-enabled: $light-ref-border-funct-info-moderate !default; // Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-drag-drop-surface-disabled: $light-ref-fill-default-disabled !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-drag-drop-surface-selected-hover: $light-ref-fill-default-selected-moderate-hover !default; // Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-drag-drop-surface-selected: $light-ref-fill-default-selected-moderate !default; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-drag-drop-surface-pressed: $light-ref-fill-default-pressed !default; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
 $light-drag-drop-surface-hover: $light-ref-fill-default-hover !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-drag-drop-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
-$light-drag-drop-surface-enabled: $light-ref-fill-default-enabled !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
+$light-drag-drop-surface-enabled: $light-ref-fill-funct-info-weak !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-drag-drop-icon-disabled: $light-ref-icon-disabled !default; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-drag-drop-icon-emphasis: $light-ref-icon-default !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
+$light-drag-drop-icon-emphasis: $light-ref-icon-emphasis !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
 $light-drag-drop-icon-default: $light-ref-icon-default !default; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
 $light-drag-drop-text-disabled: $light-ref-text-disabled !default; // Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with.
 $light-drag-drop-text-secondary: $light-ref-text-secondary !default; // Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.
-$light-drag-drop-text-emphasis: $light-ref-text-default !default; // Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text. 
 $light-drag-drop-text-default: $light-ref-text-default !default; // Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention.
 $light-content-border-enabled: $light-ref-border-default-enabled !default; // Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-content-surface-transparent: rgba( $light-ref-fill-default-enabled, $light-opacity-0) !default; // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
-$light-content-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-content-surface-enabled: $light-ref-fill-default-enabled !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-content-icon-disabled: $light-ref-icon-disabled !default; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-content-icon-emphasis: $light-ref-icon-success !default; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature. 
+$light-content-icon-emphasis: $light-ref-icon-emphasis !default; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature. 
 $light-content-icon-default: $light-ref-icon-default !default; // Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder.
 $light-content-text-disabled: $light-ref-text-disabled !default; // Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with.
 $light-content-text-secondary: $light-ref-text-secondary !default; // Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience.
@@ -1065,12 +1071,10 @@ $light-calendar-border-pressed: $light-ref-border-default-pressed !default; // B
 $light-calendar-border-focused: $light-ref-border-default-focused !default; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
 $light-calendar-border-hover: $light-ref-border-default-hover !default; // Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-calendar-border-enabled: $light-ref-border-default-enabled !default; // Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
-$light-calendar-surface-disabled: $light-ref-fill-default-muted !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-calendar-surface-selected-moderate-hover: $light-ref-fill-default-selected-moderate-hover !default; // Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-calendar-surface-selected-moderate: $light-ref-fill-default-selected-moderate !default; // Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active.
 $light-calendar-surface-pressed: $light-ref-fill-default-pressed !default; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
 $light-calendar-surface-hover: $light-ref-fill-default-hover !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-calendar-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-calendar-surface-enabled: $light-ref-fill-default-enabled !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-calendar-icon-disabled: $light-ref-icon-disabled !default; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-calendar-icon-emphasis: $light-ref-icon-emphasis !default; // emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.
@@ -1177,7 +1181,6 @@ $light-button-confirmatory-default-surface-selected-moderate: $light-ref-fill-de
 $light-button-confirmatory-default-surface-pressed: $light-ref-fill-default-pressed !default; // Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized.
 $light-button-confirmatory-default-surface-transparent: rgba( $light-ref-fill-default-enabled, $light-opacity-0) !default; // Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control.
 $light-button-confirmatory-default-surface-hover: $light-ref-fill-default-hover !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-button-confirmatory-default-surface-muted: $light-ref-fill-default-muted !default; // Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls.
 $light-button-confirmatory-default-surface-enabled: $light-ref-fill-default-enabled !default; // Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred.
 $light-button-confirmatory-default-icon-disabled: $light-ref-icon-disabled !default; // Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-button-confirmatory-default-icon-inverse: $light-ref-icon-inverse !default; // Inverse icon refers to the opposite color that contrasts with the background. 
@@ -1204,7 +1207,6 @@ $light-ref-fill-surface-default: $light-ref-fill-default-enabled !default; // Su
 $light-ref-fill-secondary-tint-disabled: $light-ref-fill-default-disabled !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-ref-fill-primary-tint-disabled: $light-ref-fill-default-disabled !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-ref-fill-funct-disabled: $light-ref-fill-default-disabled !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-ref-fill-funct-muted: $light-ref-fill-default-muted !default; // Default alerts. Lower prio statuses such as pairing
 $light-ref-fill-destructive-primary-disabled: $light-ref-fill-default-disabled !default; // Border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-ref-fill-destructive-default-disabled: $light-ref-fill-default-disabled !default; // Surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
 $light-ref-fill-secondary-disabled: $light-ref-fill-default-disabled !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
@@ -1224,14 +1226,12 @@ $light-table-border-error: $light-button-destructive-default-border-enabled !def
 $light-table-surface-error: $light-button-destructive-default-surface-transparent !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-situation-funct-border-muted: $light-ref-border-funct-muted !default; // Muted border refers to a subtle border style. 
 $light-situation-funct-surface-disabled: $light-ref-fill-funct-disabled !default; // A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable.
-$light-situation-funct-surface-muted: $light-ref-fill-funct-muted !default; // Default alerts. Lower prio statuses such as pairing 
 $light-nav-hor-inverted-border-focused: $light-ref-border-funct-muted !default; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
 $light-nav-hor-brand-border-focused: $light-ref-border-funct-muted !default; // Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies.
 $light-nav-hor-brand-surface-enabled: $light-ref-fill-surface-emphasis !default; // Surface on container.
 $light-message-border-error: $light-button-destructive-default-border-enabled !default; // Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
 $light-message-surface-error-hover: $light-button-destructive-default-surface-hover !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-message-surface-error: $light-button-destructive-default-surface-transparent !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
-$light-message-surface-muted-hover: $light-message-surface-muted !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-message-surface-enabled-hover: $light-message-surface-enabled !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.
 $light-inputs-border-error: $light-button-destructive-default-border-enabled !default; // Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications.
 $light-inputs-surface-error: $light-button-destructive-default-surface-enabled !default; // Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent.

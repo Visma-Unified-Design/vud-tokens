@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 01 Jul 2024 13:10:06 GMT
+ * Generated on Wed, 21 Aug 2024 08:55:58 GMT
  */
 
 :host, :root, html[data-theme='light'], html.light-theme {
@@ -95,7 +95,7 @@
   --vud-coral-90: #66251F;
   --vud-coral-80: #B23124;
   --vud-coral-70: #CC4B3D;
-  --vud-coral-60: #F56262;
+  --vud-coral-60: #F56868;
   --vud-coral-50: #FE796B;
   --vud-coral-40: #FE9489;
   --vud-coral-30: #FEABA3;
@@ -164,6 +164,7 @@
   --ref-fill-primary-enabled: var(--vud-green-70); /* Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --ref-fill-default-selected-strong-hover: var(--vud-green-80); /* Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-fill-default-selected-strong: var(--vud-green-80); /* Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions. */
+  --ref-fill-default-muted: var(--vud-vanilla-05); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --ref-border-primary-tint-selected-hover: var(--vud-green-80); /* Surface hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-border-primary-tint-selected: var(--vud-green-80); /* Surface with selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --ref-border-primary-tint-pressed: var(--vud-green-90); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
@@ -345,19 +346,26 @@
   --vud-radii-sm: var(--base)*4;
   --vud-radii-xs: var(--base)*2;
   --vud-radii-xxs: var(--base);
+  --scrollbar-surface-muted: var(--ref-fill-default-muted);
   --toggle-border-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
+  --toggle-surface-disabled-strong: var(--ref-fill-default-muted); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
+  --toggle-surface-disabled-moderate: var(--ref-fill-default-muted); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --toggle-surface-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --table-border-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --table-surface-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
+  --table-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --table-text-emphasis: var(--ref-text-emphasis); /* Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text.  */
   --switch-border-selected-strong-hover: var(--ref-border-primary-hover); /* Border hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --switch-border-selected-strong: var(--ref-border-primary-enabled); /* Border with a moderate selected state refers to an interaction that occurs when the ui element is active. */
   --switch-border-enabled: var(--brand-neutral-light-40); /* Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --switch-border-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
+  --switch-surface-disabled-strong: var(--ref-fill-default-muted); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
+  --switch-surface-disabled-moderate: var(--ref-fill-default-muted); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --switch-surface-selected-strong-hover: var(--ref-fill-primary-hover); /* Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --switch-surface-selected-strong: var(--ref-fill-primary-selected); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --switch-surface-hover: var(--brand-neutral-light-40); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --switch-surface-enabled: var(--brand-neutral-light-40); /* Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
+  --switch-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --situation-funct-border-inverse: var(--brand-primary-60); /* Inverse border refers to the opposite color that contrasts with the background.  */
   --situation-funct-surface-overlay-default: var(--ref-shade-weak); /* Default alerts. Lower prio statuses such as pairing  */
   --situation-funct-surface-inverse: var(--brand-primary-10); /* Inverse surface refers to the opposite color that contrasts with the background.  */
@@ -375,6 +383,7 @@
   --progress-default-border-weak: var(--ref-shade-weak); /* Low intensity. */
   --nav-stepper-border-selected-strong-hover: var(--ref-border-default-selected-strong-hover); /* Border hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --nav-stepper-surface-selected-strong: var(--ref-fill-default-selected-strong); /* Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions. */
+  --nav-stepper-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --nav-stepper-surface-strong: var(--brand-primary-60); /* Medium intensity. */
   --nav-stepper-surface-weak: var(--brand-neutral-light-40); /* Low intensity. */
   --nav-vert-inverted-border-selected-strong-hover: var(--brand-neutral-light-60); /* Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
@@ -416,18 +425,26 @@
   --nav-hor-default-text-emphasis: var(--ref-text-emphasis); /* Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text.  */
   --message-border-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --message-surface-strong: var(--brand-primary-60);
+  --message-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --list-border-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
+  --list-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --list-text-emphasis: var(--ref-text-emphasis); /* Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text.  */
   --inputs-border-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --inputs-surface-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
+  --inputs-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --drag-drop-border-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --drag-drop-surface-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
+  --drag-drop-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
+  --drag-drop-text-emphasis: var(--ref-text-emphasis); /* Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text.  */
   --content-border-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
+  --content-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --content-text-emphasis: var(--ref-text-emphasis); /* Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text.  */
   --calendar-border-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
+  --calendar-surface-disabled: var(--ref-fill-default-muted); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --calendar-surface-selected-strong-hover: var(--ref-fill-primary-selected-hover); /* Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --calendar-surface-selected-strong: var(--ref-fill-primary-selected); /* Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions. */
   --calendar-surface-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
+  --calendar-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --calendar-slot-surface-event3: var(--vud-funct-success-05); /* Optimal for scheduling work hours in a calendar. */
   --calendar-slot-surface-event2: var(--vud-funct-warning-10); /* Optimal for scheduling sick leave in a calendar. */
   --calendar-slot-text-event1: var(--ref-text-info-moderate); /* Optimal for scheduling project tasks in a calendar. */
@@ -460,6 +477,7 @@
   --button-confirmatory-default-border-transparent: rgba(var(--vud-funct-default-light-05), var(--opacity-0)); /* Transparent border is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --button-confirmatory-default-surface-selected-strong-hover: var(--ref-border-default-selected-strong-hover); /* Surface hovering over a strong selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --button-confirmatory-default-surface-selected-strong: var(--ref-fill-default-selected-strong); /* Surface with strong selected state refers to an interaction that occurs when the ui element is active. Suitable for prominent call-to-actions. */
+  --button-confirmatory-default-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --ref-scheme-nofill-chart-septenary-light-fill: var(--chart-septenary-light-fill);
   --ref-scheme-nofill-chart-senary-light-fill: var(--chart-senary-light-fill); /* For data visualization only.  */
   --ref-scheme-nofill-chart-quinary-light-fill: var(--chart-quinary-light-fill); /* For data visualization only.  */
@@ -492,6 +510,7 @@
   --ref-fill-funct-draft-weak: var(--vud-funct-draft-05); /* Alerts. Temporary statuses such as drafts */
   --ref-fill-funct-info-weak: var(--vud-funct-info-05); /* Normal alerts. Common statuses such as created, sent, printed, processing */
   --ref-fill-funct-success-weak: var(--vud-funct-success-05); /* Alerts, toasts. Success and positive statuses such as accepted, paid, delivered  */
+  --ref-fill-funct-muted: var(--ref-fill-default-muted); /* Default alerts. Lower prio statuses such as pairing */
   --ref-fill-funct-inverse: var(--vud-funct-default-light-90); /* Inverse surface contrast with the background. */
   --ref-fill-funct-default: var(--vud-funct-default-light-05); /* Default alerts. Lower prio statuses such as pairing */
   --ref-fill-destructive-primary-pressed: var(--vud-funct-error-90); /* Border with pressed state refers to an interaction that occurs when the ui element is pressed. */
@@ -515,7 +534,6 @@
   --ref-fill-default-pressed: var(--brand-neutral-light-30); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
   --ref-fill-default-hover: var(--brand-primary-05); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --ref-fill-default-transparent: rgba(var(--brand-neutral-light-05), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
-  --ref-fill-default-muted: var(--brand-neutral-light-20); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --ref-fill-default-inverse: var(--brand-neutral-light-05); /* Inverse surface contrast with the background. */
   --ref-fill-default-enabled: var(--brand-neutral-light-05); /* Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --ref-border-secondary-tint-selected-hover: var(--brand-primary-80); /* Border hovering over a selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
@@ -685,14 +703,11 @@
   --density-padding-height-condensed: var(--space-gap-3);
   --scrollbar-surface-enabled: var(--ref-icon-default);
   --scrollbar-surface-default: var(--ref-icon-disabled);
-  --scrollbar-surface-muted: var(--ref-fill-default-muted);
   --toggle-border-disabled-strong: var(--ref-border-default-disabled); /* A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --toggle-border-disabled-moderate: var(--ref-border-default-disabled); /* A border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --toggle-border-error: var(--ref-border-destructive-default-enabled); /* Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
   --toggle-border-focused: var(--ref-border-default-focused); /* Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --toggle-border-enabled: var(--ref-border-default-enabled); /* Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
-  --toggle-surface-disabled-strong: var(--ref-fill-default-muted); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
-  --toggle-surface-disabled-moderate: var(--ref-fill-default-muted); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --toggle-surface-enabled: var(--ref-fill-default-enabled); /* Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --toggle-icon-disabled: var(--ref-icon-inverse); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --toggle-icon-emphasis: var(--ref-icon-emphasis); /* emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature. */
@@ -715,7 +730,6 @@
   --table-surface-selected: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --table-surface-pressed: var(--ref-fill-default-pressed); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
   --table-surface-hover: var(--ref-fill-default-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
-  --table-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --table-surface-enabled: var(--ref-fill-default-enabled); /* Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --table-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --table-icon-emphasis: var(--ref-icon-emphasis); /* emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature. */
@@ -733,11 +747,8 @@
   --switch-border-hover: var(--ref-border-default-hover); /* Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --switch-border-muted: var(--ref-border-default-muted); /* Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --switch-border-strong: var(--ref-border-strong); /* Strong default border refers to a standard border style that is more pronounced and visually prominent than a moderate border. */
-  --switch-surface-disabled-strong: var(--ref-fill-default-muted); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
-  --switch-surface-disabled-moderate: var(--ref-fill-default-muted); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --switch-surface-selected-moderate-hover: var(--ref-fill-default-selected-moderate-hover); /* Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --switch-surface-selected-moderate: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
-  --switch-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --switch-surface-strong: var(--ref-fill-default-enabled);
   --switch-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --switch-icon-inverse: var(--ref-icon-inverse); /* Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder. */
@@ -769,6 +780,7 @@
   --situation-funct-surface-info-weak: var(--ref-fill-funct-info-weak); /* Suitable for normal alerts, common statuses such as created, sent, printed, processing. */
   --situation-funct-surface-success-weak: var(--ref-fill-funct-success-weak); /* Suitable for alerts, toasts. Specially success and positive statuses such as accepted, paid, delivered. */
   --situation-funct-surface-overlay-inverse: var(--ref-tint-weak); /* Default alerts. Lower prio statuses such as pairing  */
+  --situation-funct-surface-muted: var(--ref-fill-funct-muted); /* Default alerts. Lower prio statuses such as pairing  */
   --situation-funct-surface-default: var(--ref-fill-funct-default); /* Suitable for default alerts, lower prio statuses such as pairing. */
   --situation-funct-icon-emphasis: var(--ref-icon-emphasis); /* emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature. */
   --situation-funct-icon-success: var(--ref-icon-success); /* Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully. */
@@ -835,7 +847,6 @@
   --nav-stepper-surface-pressed: var(--ref-fill-default-pressed); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
   --nav-stepper-surface-hover: var(--ref-fill-default-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --nav-stepper-surface-transparent: rgba( var(--ref-fill-default-enabled), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
-  --nav-stepper-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --nav-stepper-surface-enabled: var(--ref-fill-default-enabled); /* Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --nav-stepper-text-disabled: var(--ref-text-disabled); /* Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with. */
   --nav-stepper-text-success: var(--ref-text-default); /* Success text refers to content that signifies a positive or affirmative message. */
@@ -966,7 +977,7 @@
   --message-surface-selected-hover: var(--ref-fill-default-selected-moderate-hover); /* Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --message-surface-selected: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --message-surface-pressed: var(--ref-fill-default-pressed); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
-  --message-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
+  --message-surface-muted-hover: var(--message-surface-muted); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --message-surface-enabled: var(--ref-fill-default-enabled); /* Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --message-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --message-icon-emphasis: var(--ref-icon-default); /* emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature. */
@@ -985,7 +996,6 @@
   --list-border-hover: var(--ref-border-default-hover); /* Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --list-border-enabled: var(--ref-border-default-enabled); /* Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --list-surface-disabled: var(--ref-fill-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
-  --list-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --list-surface-transparent: rgba( var(--ref-fill-default-enabled), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --list-surface-selected-moderate-hover: var(--ref-fill-default-selected-moderate-hover); /* Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --list-surface-selected-moderate: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
@@ -1012,7 +1022,6 @@
   --inputs-surface-selected: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --inputs-surface-pressed: var(--ref-fill-default-pressed); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
   --inputs-surface-hover: var(--ref-fill-default-enabled); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
-  --inputs-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --inputs-surface-enabled: var(--ref-fill-default-enabled); /* Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --inputs-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --inputs-icon-success: var(--ref-icon-success); /* Success icon serves as a visual cue to convey that a task, action, or process has been completed successfully. */
@@ -1030,27 +1039,24 @@
   --drag-drop-border-focused: var(--ref-border-default-focused); /* Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --drag-drop-border-hover: var(--ref-border-default-hover); /* Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --drag-drop-border-muted: var(--ref-border-default-muted); /* Muted border indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
-  --drag-drop-border-enabled: var(--ref-border-default-enabled); /* Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
+  --drag-drop-border-enabled: var(--ref-border-funct-info-moderate); /* Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --drag-drop-surface-disabled: var(--ref-fill-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --drag-drop-surface-selected-hover: var(--ref-fill-default-selected-moderate-hover); /* Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --drag-drop-surface-selected: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --drag-drop-surface-pressed: var(--ref-fill-default-pressed); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
   --drag-drop-surface-hover: var(--ref-fill-default-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
-  --drag-drop-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
-  --drag-drop-surface-enabled: var(--ref-fill-default-enabled); /* Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
+  --drag-drop-surface-enabled: var(--ref-fill-funct-info-weak); /* Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --drag-drop-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
-  --drag-drop-icon-emphasis: var(--ref-icon-default); /* Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text.  */
+  --drag-drop-icon-emphasis: var(--ref-icon-emphasis); /* Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text.  */
   --drag-drop-icon-default: var(--ref-icon-default); /* Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder. */
   --drag-drop-text-disabled: var(--ref-text-disabled); /* Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with. */
   --drag-drop-text-secondary: var(--ref-text-secondary); /* Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience. */
-  --drag-drop-text-emphasis: var(--ref-text-default); /* Emphasized text refers to a styling technique used to give importance to a specific text. Often used to draw attention to key points, important information, or to differentiate specific content from the rest of the text.  */
   --drag-drop-text-default: var(--ref-text-default); /* Default text refers to the main or prominent textual content. Suitable for important headlines, titles, or primary information that requires the most attention. */
   --content-border-enabled: var(--ref-border-default-enabled); /* Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --content-surface-transparent: rgba( var(--ref-fill-default-enabled), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
-  --content-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --content-surface-enabled: var(--ref-fill-default-enabled); /* Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --content-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
-  --content-icon-emphasis: var(--ref-icon-success); /* emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.  */
+  --content-icon-emphasis: var(--ref-icon-emphasis); /* emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature.  */
   --content-icon-default: var(--ref-icon-default); /* Default icon refers to the standard or pre-set icon. Suitable for operating systems or software programs as a generic placeholder. */
   --content-text-disabled: var(--ref-text-disabled); /* Disabled text refers to a particular element is temporarily or permanently disabled and cannot be accessed or interacted with. */
   --content-text-secondary: var(--ref-text-secondary); /* Secondary text is for supporting or supplementary information. Often used for descriptions, labels, captions, or any content that is less significant than the default text but still relevant to the user experience. */
@@ -1065,12 +1071,10 @@
   --calendar-border-focused: var(--ref-border-default-focused); /* Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --calendar-border-hover: var(--ref-border-default-hover); /* Border on hover state refers to an interaction that the ui element is clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --calendar-border-enabled: var(--ref-border-default-enabled); /* Border on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
-  --calendar-surface-disabled: var(--ref-fill-default-muted); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --calendar-surface-selected-moderate-hover: var(--ref-fill-default-selected-moderate-hover); /* Surface hovering over a moderate selected state refers to an interaction that occurs when the ui element is hovered on a current selection. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --calendar-surface-selected-moderate: var(--ref-fill-default-selected-moderate); /* Surface with moderate selected state refers to an interaction that occurs when the ui element is active. Suitable for subtle appearance that should not dominate the overall design when the ui element is active. */
   --calendar-surface-pressed: var(--ref-fill-default-pressed); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
   --calendar-surface-hover: var(--ref-fill-default-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
-  --calendar-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --calendar-surface-enabled: var(--ref-fill-default-enabled); /* Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --calendar-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --calendar-icon-emphasis: var(--ref-icon-emphasis); /* emphasis icon refers to an icon that is designed to draw attention and clearly indicates its interactive nature. */
@@ -1177,7 +1181,6 @@
   --button-confirmatory-default-surface-pressed: var(--ref-fill-default-pressed); /* Surface with pressed state is a stemporary visual alteration that provides immediate feedback to the user, confirming that their input has been recognized. */
   --button-confirmatory-default-surface-transparent: rgba( var(--ref-fill-default-enabled), var(--opacity-0)); /* Transparent surface is intented to create a subtle and understated appearance. Suitable for the less important ui control. */
   --button-confirmatory-default-surface-hover: var(--ref-fill-default-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
-  --button-confirmatory-default-surface-muted: var(--ref-fill-default-muted); /* Muted surface indicates that the ui element is not editable and is intended for viewing purposes only. Suitable for read-only UI controls. */
   --button-confirmatory-default-surface-enabled: var(--ref-fill-default-enabled); /* Surface on enabled state refers to the default appearance and behavior of a clickable element. It represents the initial or resting state, typically before any user interaction has occurred. */
   --button-confirmatory-default-icon-disabled: var(--ref-icon-disabled); /* Disabled icon indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --button-confirmatory-default-icon-inverse: var(--ref-icon-inverse); /* Inverse icon refers to the opposite color that contrasts with the background.  */
@@ -1204,7 +1207,6 @@
   --ref-fill-secondary-tint-disabled: var(--ref-fill-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --ref-fill-primary-tint-disabled: var(--ref-fill-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --ref-fill-funct-disabled: var(--ref-fill-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
-  --ref-fill-funct-muted: var(--ref-fill-default-muted); /* Default alerts. Lower prio statuses such as pairing */
   --ref-fill-destructive-primary-disabled: var(--ref-fill-default-disabled); /* Border with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --ref-fill-destructive-default-disabled: var(--ref-fill-default-disabled); /* Surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
   --ref-fill-secondary-disabled: var(--ref-fill-default-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
@@ -1224,14 +1226,12 @@
   --table-surface-error: var(--button-destructive-default-surface-transparent); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --situation-funct-border-muted: var(--ref-border-funct-muted); /* Muted border refers to a subtle border style.  */
   --situation-funct-surface-disabled: var(--ref-fill-funct-disabled); /* A surface with a disabled state indicates that a particular function, feature, or control is currently disabled or unavailable. */
-  --situation-funct-surface-muted: var(--ref-fill-funct-muted); /* Default alerts. Lower prio statuses such as pairing  */
   --nav-hor-inverted-border-focused: var(--ref-border-funct-muted); /* Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --nav-hor-brand-border-focused: var(--ref-border-funct-muted); /* Border on focused state refers to an interaction that occurs when the ui element is focused through keyboard navigation or other assistive technologies. */
   --nav-hor-brand-surface-enabled: var(--ref-fill-surface-emphasis); /* Surface on container. */
   --message-border-error: var(--button-destructive-default-border-enabled); /* Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
   --message-surface-error-hover: var(--button-destructive-default-surface-hover); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --message-surface-error: var(--button-destructive-default-surface-transparent); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
-  --message-surface-muted-hover: var(--message-surface-muted); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --message-surface-enabled-hover: var(--message-surface-enabled); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
   --inputs-border-error: var(--button-destructive-default-border-enabled); /* Destructive border on enabled state serves as a prominent reminder or warning, helping prevent accidental or unintended actions that could have negative implications. */
   --inputs-surface-error: var(--button-destructive-default-surface-enabled); /* Surface on hover state refers to an interaction that the ui element is interactive and clickable. It's primarily used in desktop or laptop interfaces where cursor-based interactions are prevalent. */
