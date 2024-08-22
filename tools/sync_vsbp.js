@@ -9,7 +9,8 @@ const sourceFiles = [
   'C:\\Dev\\vud-tokens\\build\\scss\\_variables-dark.scss',
   'C:\\Dev\\vud-tokens\\build\\scss\\_variables-light.scss'
 ];
-const destinationDir = 'C:\\Dev\\core\\src\\apps\\core.cloudservice\\Core.WebApp\\ClientApp\\content\\vud\\overrides\\spcs-brand-2023';
+// const destinationDir = 'C:\\Dev\\core\\src\\apps\\core.cloudservice\\Core.WebApp\\ClientApp\\content\\vud\\overrides\\spcs-brand-2023';
+const destinationDir = 'C:\\Dev\\core\\src\\apps\\core.cloudservice\\Core.WebApp\\ClientApp\\vendor\\spcs-figma-tokens';
 
 // Function to copy a file
 function copyFile(source, destination) {
