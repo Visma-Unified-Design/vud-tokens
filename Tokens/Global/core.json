@@ -193,7 +193,7 @@
       "type": "color"
     },
     "coral-60": {
-      "value": "#F56262",
+      "value": "#F56868",
       "type": "color"
     },
     "coral-70": {
@@ -248,46 +248,6 @@
       "value": "#803B00",
       "type": "color"
     },
-    "vanilla-05": {
-      "value": "#F5F4F0",
-      "type": "color"
-    },
-    "vanilla-10": {
-      "value": "#F0EEE1",
-      "type": "color"
-    },
-    "vanilla-20": {
-      "value": "#F0E49B",
-      "type": "color"
-    },
-    "vanilla-30": {
-      "value": "#FDE753",
-      "type": "color"
-    },
-    "vanilla-40": {
-      "value": "#E5CE37",
-      "type": "color"
-    },
-    "vanilla-50": {
-      "value": "#CCB414",
-      "type": "color"
-    },
-    "vanilla-60": {
-      "value": "#A38D00",
-      "type": "color"
-    },
-    "vanilla-70": {
-      "value": "#827100",
-      "type": "color"
-    },
-    "vanilla-80": {
-      "value": "#665800",
-      "type": "color"
-    },
-    "vanilla-90": {
-      "value": "#4D4200",
-      "type": "color"
-    },
     "purple-05": {
       "value": "#EEE7F9",
       "type": "color"
@@ -326,6 +286,46 @@
     },
     "purple-90": {
       "value": "#2F1B4C",
+      "type": "color"
+    },
+    "vanilla-05": {
+      "value": "#F5F4F0",
+      "type": "color"
+    },
+    "vanilla-10": {
+      "value": "#F0EEE1",
+      "type": "color"
+    },
+    "vanilla-20": {
+      "value": "#F0E49B",
+      "type": "color"
+    },
+    "vanilla-30": {
+      "value": "#FDE753",
+      "type": "color"
+    },
+    "vanilla-40": {
+      "value": "#E5CE37",
+      "type": "color"
+    },
+    "vanilla-50": {
+      "value": "#CCB414",
+      "type": "color"
+    },
+    "vanilla-60": {
+      "value": "#A38D00",
+      "type": "color"
+    },
+    "vanilla-70": {
+      "value": "#827100",
+      "type": "color"
+    },
+    "vanilla-80": {
+      "value": "#665800",
+      "type": "color"
+    },
+    "vanilla-90": {
+      "value": "#4D4200",
       "type": "color"
     },
     "neutral-light-05": {
