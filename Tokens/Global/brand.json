@@ -39,43 +39,43 @@
   },
   "brand": {
     "primary-05": {
-      "value": "{vud.purple-05}",
+      "value": "{Blikk.blue-05}",
       "type": "color"
     },
     "primary-10": {
-      "value": "{vud.purple-10}",
+      "value": "{Blikk.blue-10}",
       "type": "color"
     },
     "primary-20": {
-      "value": "{vud.purple-20}",
+      "value": "{Blikk.blue-20}",
       "type": "color"
     },
     "primary-30": {
-      "value": "{vud.purple-30}",
+      "value": "{Blikk.blue-30}",
       "type": "color"
     },
     "primary-40": {
-      "value": "{vud.purple-40}",
+      "value": "{Blikk.blue-40}",
       "type": "color"
     },
     "primary-50": {
-      "value": "{vud.purple-50}",
+      "value": "{Blikk.blue-50}",
       "type": "color"
     },
     "primary-60": {
-      "value": "{vud.purple-60}",
+      "value": "{Blikk.blue-60}",
       "type": "color"
     },
     "primary-70": {
-      "value": "{vud.purple-70}",
+      "value": "{Blikk.blue-70}",
       "type": "color"
     },
     "primary-80": {
-      "value": "{vud.purple-80}",
+      "value": "{Blikk.blue-80}",
       "type": "color"
     },
     "primary-90": {
-      "value": "{vud.purple-90}",
+      "value": "{Blikk.blue-90}",
       "type": "color"
     },
     "primary-gradient": {
